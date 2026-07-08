@@ -1,0 +1,25 @@
+id: usg-pecherzyk-zolciowy-prawidlowy
+title: Pęcherzyk żółciowy prawidłowy
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Pęcherzyk żółciowy]
+pathology: [Obraz prawidłowy]
+tags: [Rezydent]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [aium-parameters, local-review]
+sections:
+  assessmentChecklist:
+    - Stopień wypełnienia pęcherzyka.
+    - Grubość ściany.
+    - Obecność złogów, błota żółciowego lub polipów.
+    - Drogi żółciowe zewnątrzwątrobowe.
+  reportTemplate: |
+    Pęcherzyk żółciowy prawidłowo wypełniony, cienkościenny, bez złogów i bez zmian przyściennych. Droga żółciowa wspólna nieposzerzona, o średnicy {{pzw_mm}} mm.
+  impressionTemplate: |
+    Obraz USG pęcherzyka żółciowego w granicach normy.
+  clinicalNotes:
+    - Gdy pacjent nie jest na czczo, odnotuj ograniczoną ocenę pęcherzyka.

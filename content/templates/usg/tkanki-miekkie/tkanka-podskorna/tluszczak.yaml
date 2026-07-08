@@ -1,0 +1,31 @@
+id: usg-tkanki-miekkie-tluszczak
+title: Tłuszczak tkanki podskórnej
+modality: USG
+examTypes: [USG tkanek miękkich]
+bodySystems: [Układ mięśniowo-szkieletowy]
+bodyParts: [Tkanki miękkie]
+organs: [Tkanka podskórna]
+pathology: [Tłuszczak]
+tags: [Rezydent]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [aium-parameters, radiopaedia, local-review]
+sections:
+  assessmentChecklist:
+    - Lokalizacja i warstwa anatomiczna.
+    - Trzy wymiary zmiany.
+    - Kształt, granice i orientacja względem skóry.
+    - Echogeniczność względem tkanki tłuszczowej.
+    - Jednorodność.
+    - Unaczynienie w Dopplerze.
+    - Stosunek do powięzi i głębszych struktur.
+  reportTemplate: |
+    W tkance podskórnej okolicy {{lokalizacja}} widoczna dobrze odgraniczona, owalna zmiana o wymiarach {{wymiary_mm}} mm, izoechogeniczna do tkanki tłuszczowej, bez wzmożonego przepływu w badaniu Doppler. Zmiana nie nacieka struktur otaczających.
+  impressionTemplate: |
+    Obraz USG najbardziej odpowiada tłuszczakowi.
+  clinicalNotes:
+    - Zmiany szybko rosnące, bolesne, głębokie lub niejednorodne wymagają ostrożniejszego sformułowania i rozważenia dalszej diagnostyki.
+  differential:
+    - Przepuklina tłuszczowa.
+    - Inna łagodna zmiana mezenchymalna.

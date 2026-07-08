@@ -1,0 +1,35 @@
+id: usg-watroba-torbiel-zlozona
+title: Torbiel złożona wątroby
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Wątroba]
+pathology: [Torbiel złożona]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [efsumb-guidelines, radiopaedia, local-review]
+sections:
+  assessmentChecklist:
+    - Lokalizacja zmiany i segment wątroby.
+    - Trzy wymiary zmiany.
+    - Grubość i regularność ściany.
+    - Obecność przegród, ech wewnętrznych lub poziomów płyn-płyn.
+    - Obecność komponentu litego lub guzków przyściennych.
+    - Unaczynienie ściany i elementów wewnętrznych w badaniu Doppler.
+    - Wpływ na sąsiednie naczynia i drogi żółciowe.
+  reportTemplate: |
+    W segmencie {{segment}} wątroby widoczna zmiana torbielowata o wymiarach {{wymiary_mm}} mm, o {{cienkiej_lub_pogrubialej}} ścianie, z {{przegrodami_lub_echami_wewnetrznymi_lub_komponentem_litym}}, {{bez_lub_z}} unaczynienia ocenianych elementów w badaniu Doppler. Obraz nie odpowiada torbieli prostej.
+  impressionTemplate: |
+    Zmiana torbielowata z cechami złożoności w wątrobie. Wymaga dalszej charakterystyki zależnie od obrazu klinicznego.
+  clinicalNotes:
+    - Etiologia zmiany torbielowatej złożonej nie może być zwykle wiarygodnie określona wyłącznie w B-mode USG.
+  differential:
+    - Torbiel krwotoczna.
+    - Zmiana zapalna lub ropień.
+    - Zmiana pasożytnicza.
+    - Torbielowata zmiana nowotworowa.
+  followUp:
+    - Rozważyć dalszą charakterystykę w badaniu przekrojowym lub kontrolę zależnie od obrazu klinicznego.

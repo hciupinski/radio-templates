@@ -1,0 +1,7 @@
+interface:
+  display_name: "Radiology Template Localizer"
+  short_description: "Polskie szablony opisow radiologicznych."
+  default_prompt: "Use $radiology-template-localizer to prepare a Polish radiology report template from reliable sources for the given study type, organ, and optional pathology."
+
+policy:
+  allow_implicit_invocation: true

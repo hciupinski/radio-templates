@@ -1,0 +1,7 @@
+interface:
+  display_name: "Radiology Atlas YAML Writer"
+  short_description: "Generuje pliki YAML dla atlasu."
+  default_prompt: "Use $radiology-atlas-yaml-writer to generate and save a ready atlas YAML file for the given study type, organ, and optional pathology."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,27 @@
+id: usg-watroba-prawidlowa
+title: Wątroba prawidłowa
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Wątroba]
+pathology: [Obraz prawidłowy]
+tags: [Rezydent]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [aium-parameters, efsumb-guidelines, local-review]
+sections:
+  assessmentChecklist:
+    - Wielkość wątroby i zarys powierzchni.
+    - Echogeniczność i jednorodność miąższu.
+    - Obecność zmian ogniskowych.
+    - Szerokość dróg żółciowych wewnątrz- i zewnątrzwątrobowych.
+    - Drożność i średnica żyły wrotnej, jeśli oceniana.
+  reportTemplate: |
+    Wątroba niepowiększona, o gładkim zarysie, jednorodnej echostrukturze i prawidłowej echogeniczności. Nie uwidoczniono zmian ogniskowych. Drogi żółciowe wewnątrz- i zewnątrzwątrobowe nieposzerzone. Żyła wrotna drożna, o średnicy {{srednica_zyly_wrotnej_mm}} mm.
+  impressionTemplate: |
+    Obraz USG wątroby w granicach normy.
+  clinicalNotes:
+    - W przypadku ograniczeń technicznych badania opisz zakres widoczności narządu.
+    - Dopasuj wzmiankę o żyle wrotnej do lokalnego standardu badania jamy brzusznej.

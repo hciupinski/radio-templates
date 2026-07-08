@@ -1,0 +1,27 @@
+id: usg-tarczyca-hashimoto
+title: Przewlekłe autoimmunologiczne zapalenie tarczycy
+modality: USG
+examTypes: [USG tarczycy, USG szyi]
+bodySystems: [Układ endokrynny]
+bodyParts: [Szyja]
+organs: [Tarczyca]
+pathology: [Hashimoto, Zapalenie]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [aium-parameters, radiopaedia, local-review]
+sections:
+  assessmentChecklist:
+    - Wielkość tarczycy.
+    - Hipoechogeniczność i niejednorodność miąższu.
+    - Pasmowate zwłóknienia lub pseudoguzki.
+    - Unaczynienie w Dopplerze.
+    - Obecność prawdziwych zmian ogniskowych wymagających klasyfikacji.
+  reportTemplate: |
+    Tarczyca {{niepowiekszona_lub_powiekszona}}, o niejednorodnym, obniżonej echogeniczności miąższu, z drobnymi pasmami włóknienia. Unaczynienie {{prawidlowe_lub_wzmozone}}. Nie uwidoczniono jednoznacznych zmian ogniskowych wymagających klasyfikacji TI-RADS.
+  impressionTemplate: |
+    Obraz USG odpowiada przewlekłemu autoimmunologicznemu zapaleniu tarczycy. Do korelacji z TSH, fT4 i przeciwciałami przeciwtarczycowymi.
+  differential:
+    - Inne przewlekłe zapalenia tarczycy.
+    - Choroba Gravesa-Basedowa przy dominującym wzmożeniu unaczynienia i danych klinicznych.

@@ -1,0 +1,25 @@
+id: usg-nerki-prawidlowe
+title: Nerki prawidłowe
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ moczowy]
+bodyParts: [Jama brzuszna]
+organs: [Nerki]
+pathology: [Obraz prawidłowy]
+tags: [Rezydent]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [aium-parameters, local-review]
+sections:
+  assessmentChecklist:
+    - Położenie i wielkość obu nerek.
+    - Grubość kory i różnicowanie korowo-rdzeniowe.
+    - Obecność zastoju w układzie kielichowo-miedniczkowym.
+    - Obecność złogów, torbieli lub zmian ogniskowych.
+  reportTemplate: |
+    Nerka prawa o wymiarze długim {{prawa_mm}} mm, nerka lewa {{lewa_mm}} mm. Miąższ obu nerek prawidłowej grubości, z zachowanym różnicowaniem korowo-rdzeniowym. Bez cech zastoju w UKM. Nie uwidoczniono złogów ani zmian ogniskowych.
+  impressionTemplate: |
+    Obraz USG nerek w granicach normy.
+  clinicalNotes:
+    - Dla pełnego opisu uwzględnij pęcherz moczowy, jeśli był oceniany.

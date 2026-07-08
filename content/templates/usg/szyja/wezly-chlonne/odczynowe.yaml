@@ -1,0 +1,28 @@
+id: usg-wezly-chlonne-odczynowe
+title: Węzły chłonne odczynowe szyi
+modality: USG
+examTypes: [USG szyi]
+bodySystems: [Układ limfatyczny]
+bodyParts: [Szyja]
+organs: [Węzły chłonne]
+pathology: [Odczynowe]
+tags: [Rezydent, Doppler]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [aium-parameters, radiopaedia, local-review]
+sections:
+  assessmentChecklist:
+    - Lokalizacja według poziomów szyi.
+    - Liczba i wymiary w osi długiej oraz krótkiej.
+    - Kształt owalny lub okrągły.
+    - Zachowanie wnęki tłuszczowej.
+    - Grubość kory.
+    - Unaczynienie wnękowe lub obwodowe.
+    - Martwica, zwapnienia, naciekanie otoczenia.
+  reportTemplate: |
+    W zakresie {{lokalizacja}} widoczne węzły chłonne o zachowanej wnęce tłuszczowej, owalnym kształcie, z nieznacznie pogrubiałą korą, do {{wymiary_mm}} mm. Bez cech martwicy, zwapnień ani patologicznego unaczynienia obwodowego.
+  impressionTemplate: |
+    Obraz odpowiada węzłom chłonnym odczynowym. Bez jednoznacznych cech sonograficznie podejrzanych.
+  clinicalNotes:
+    - W opisie onkologicznym podaj dokładne poziomy szyi i największy wymiar osi krótkiej.

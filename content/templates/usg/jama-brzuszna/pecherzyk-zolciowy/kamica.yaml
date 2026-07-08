@@ -1,0 +1,27 @@
+id: usg-pecherzyk-zolciowy-kamica
+title: Kamica pęcherzyka żółciowego
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Pęcherzyk żółciowy]
+pathology: [Kamica]
+tags: [Rezydent]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [aium-parameters, radiopaedia, local-review]
+sections:
+  assessmentChecklist:
+    - Liczba, wielkość i ruchomość złogów.
+    - Cień akustyczny za złogami.
+    - Grubość ściany pęcherzyka.
+    - Objaw sonograficzny Murphy'ego.
+    - Szerokość dróg żółciowych.
+  reportTemplate: |
+    W świetle pęcherzyka żółciowego widoczne {{pojedyncze_lub_liczne}} ruchome złogi do {{wymiar_mm}} mm, z cieniem akustycznym. Ściana pęcherzyka niepogrubiała. Brak płynu okołopęcherzykowego. Droga żółciowa wspólna nieposzerzona.
+  impressionTemplate: |
+    Kamica pęcherzyka żółciowego bez sonograficznych cech ostrego zapalenia.
+  clinicalNotes:
+    - Jeśli złóg jest zaklinowany w szyi pęcherzyka, opisz to jawnie.
+    - Przy objawach zapalenia zmień wnioski i uwzględnij pilną korelację kliniczną.

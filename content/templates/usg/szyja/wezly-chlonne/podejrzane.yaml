@@ -1,0 +1,32 @@
+id: usg-wezly-chlonne-podejrzane
+title: Węzeł chłonny podejrzany
+modality: USG
+examTypes: [USG szyi]
+bodySystems: [Układ limfatyczny]
+bodyParts: [Szyja]
+organs: [Węzły chłonne]
+pathology: [Podejrzane]
+tags: [Rezydent, Doppler, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [aium-parameters, radiopaedia, local-review]
+sections:
+  assessmentChecklist:
+    - Lokalizacja i poziom szyi.
+    - Wymiary, zwłaszcza oś krótka.
+    - Utrata wnęki tłuszczowej.
+    - Okrągły kształt.
+    - Niejednorodność, martwica lub zwapnienia.
+    - Unaczynienie obwodowe lub chaotyczne.
+    - Naciekanie tkanek otaczających.
+  reportTemplate: |
+    W okolicy {{lokalizacja}} widoczny węzeł chłonny {{wymiary_mm}} mm, okrągły, z zatartą wnęką tłuszczową, niejednorodny, z {{typ_unaczynienia}} unaczynieniem. {{Brak_lub_obecnosc}} cech martwicy/zwapnień. Obraz budzi podejrzenie zmiany patologicznej.
+  impressionTemplate: |
+    Podejrzany węzeł chłonny w lokalizacji {{lokalizacja}}. Wskazana korelacja z wywiadem klinicznym oraz rozważenie dalszej diagnostyki zgodnie z kontekstem onkologicznym lub zapalnym.
+  differential:
+    - Węzeł przerzutowy.
+    - Chłoniak.
+    - Martwiczy węzeł zapalny.
+  followUp:
+    - Rozważyć BAC/biopsję lub diagnostykę przekrojową zgodnie z kontekstem klinicznym.

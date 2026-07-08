@@ -1,0 +1,28 @@
+id: usg-pecherzyk-zolciowy-zapalenie
+title: Ostre zapalenie pęcherzyka żółciowego
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Pęcherzyk żółciowy]
+pathology: [Zapalenie, Kamica]
+tags: [Rezydent, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [aium-parameters, radiopaedia, local-review]
+sections:
+  assessmentChecklist:
+    - Pogrubienie ściany i jej warstwowość.
+    - Obecność złogów, zwłaszcza zaklinowanych.
+    - Objaw sonograficzny Murphy'ego.
+    - Płyn okołopęcherzykowy.
+    - Poszerzenie dróg żółciowych.
+  reportTemplate: |
+    Pęcherzyk żółciowy {{powiekszony_lub_prawidlowej_wielkosci}}, ze ścianą pogrubiałą do {{grubosc_sciany_mm}} mm. W świetle widoczne złogi, w tym {{brak_lub_zlog_zaklinowany}} w szyi pęcherzyka. Dodatni objaw sonograficzny Murphy'ego. {{brak_lub_obecnosc}} płynu okołopęcherzykowego. Droga żółciowa wspólna {{nieposzerzona_lub_poszerzona}}.
+  impressionTemplate: |
+    Obraz USG przemawia za ostrym zapaleniem pęcherzyka żółciowego. Wskazana pilna korelacja kliniczno-laboratoryjna.
+  clinicalNotes:
+    - U pacjentów po lekach przeciwbólowych objaw Murphy'ego może być mniej wiarygodny.
+  followUp:
+    - Pilna konsultacja chirurgiczna zgodnie ze stanem klinicznym.

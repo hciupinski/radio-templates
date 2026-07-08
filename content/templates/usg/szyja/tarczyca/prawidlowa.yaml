@@ -1,0 +1,26 @@
+id: usg-tarczyca-prawidlowa
+title: Tarczyca prawidłowa
+modality: USG
+examTypes: [USG tarczycy, USG szyi]
+bodySystems: [Układ endokrynny]
+bodyParts: [Szyja]
+organs: [Tarczyca]
+pathology: [Obraz prawidłowy]
+tags: [Rezydent]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [aium-parameters, acr-rads, local-review]
+sections:
+  assessmentChecklist:
+    - Położenie tarczycy.
+    - Wymiary płatów i cieśni.
+    - Echogeniczność i jednorodność miąższu.
+    - Unaczynienie w Dopplerze.
+    - Obecność guzków lub torbieli.
+  reportTemplate: |
+    Tarczyca położona typowo. Płat prawy {{prawy_wymiary_mm}}, płat lewy {{lewy_wymiary_mm}}, cieśń {{ciesn_mm}} mm. Miąższ jednorodny, normoechogeniczny. Unaczynienie prawidłowe. Nie uwidoczniono zmian ogniskowych.
+  impressionTemplate: |
+    Obraz USG tarczycy w granicach normy.
+  clinicalNotes:
+    - Wymiary płatów zapisuj zgodnie z lokalnym standardem, najlepiej w trzech wymiarach.

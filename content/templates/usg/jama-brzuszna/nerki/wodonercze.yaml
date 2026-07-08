@@ -1,0 +1,26 @@
+id: usg-nerki-wodonercze
+title: Wodonercze
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ moczowy]
+bodyParts: [Jama brzuszna]
+organs: [Nerki]
+pathology: [Wodonercze]
+tags: [Rezydent, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [aium-parameters, radiopaedia, local-review]
+sections:
+  assessmentChecklist:
+    - Strona i stopień poszerzenia UKM.
+    - Poszerzenie moczowodu, jeśli widoczne.
+    - Grubość miąższu nerki.
+    - Obecność złogu lub innej możliwej przyczyny przeszkody.
+    - Porównanie z drugą nerką.
+  reportTemplate: |
+    Po stronie {{strona}} widoczne poszerzenie układu kielichowo-miedniczkowego odpowiadające wodonerczu {{stopien}} stopnia. Miąższ nerki {{zachowany_lub_scienczaly}}. {{Nie_uwidoczniono_lub_uwidoczniono}} złóg w rzucie {{lokalizacja}} o wielkości {{wymiar_mm}} mm. Nerka przeciwna bez cech zastoju.
+  impressionTemplate: |
+    Wodonercze {{strona}} {{stopien}} stopnia. Do pilnej korelacji z objawami klinicznymi i wynikami badań laboratoryjnych, szczególnie przy bólu, gorączce lub zaburzeniach funkcji nerek.
+  followUp:
+    - Rozważyć dalszą diagnostykę przyczyny przeszkody zgodnie ze stanem klinicznym.

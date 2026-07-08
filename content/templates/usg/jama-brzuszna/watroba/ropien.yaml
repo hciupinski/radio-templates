@@ -1,0 +1,33 @@
+id: usg-watroba-ropien
+title: Ropień wątroby
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Wątroba]
+pathology: [Ropień]
+tags: [Rezydent, Doppler, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [efsumb-guidelines, radiopaedia, local-review]
+sections:
+  assessmentChecklist:
+    - Lokalizacja zmiany i segment wątroby.
+    - Trzy wymiary zmiany.
+    - Kształt, odgraniczenie i grubość ściany.
+    - Echa wewnętrzne, przegrody lub obecność gazu.
+    - Unaczynienie obwodowe i brak przepływu w centrum w badaniu Doppler.
+    - Liczba zmian i ewentualny wpływ na drogi żółciowe.
+  reportTemplate: |
+    W segmencie {{segment}} wątroby widoczna nieregularna zmiana o wymiarach {{wymiary_mm}} mm, o {{hipoechogenicznej_lub_mieszanej}} echostrukturze, z {{echami_wewnetrznymi_lub_przegrodami_lub_artefaktami_gazowymi}}, z {{brakiem_lub_niewielkim}} przepływu w części centralnej i {{obecnym_lub_brakiem}} unaczynienia obwodowego w badaniu Doppler. Obraz budzi podejrzenie ropnia.
+  impressionTemplate: |
+    Obraz zmiany ogniskowej budzi podejrzenie ropnia wątroby. Wymaga pilnej korelacji klinicznej i dalszego postępowania.
+  clinicalNotes:
+    - W opisie warto zaznaczyć, jeśli obraz sugeruje obecność gazu lub mnogość zmian.
+  differential:
+    - Martwicza zmiana nowotworowa.
+    - Zakażona torbiel.
+    - Krwiak wtórnie nadkażony.
+  followUp:
+    - Pilna korelacja z obrazem klinicznym, parametrami zapalnymi i dalszą diagnostyką lub leczeniem interwencyjnym.

@@ -1,0 +1,42 @@
+- id: rsna-radreport
+  title: RSNA RadReport reporting templates
+  url: https://radreport.org/
+  type: template-library
+  accessedAt: "2026-07-08"
+  licenseNote: Publiczny katalog szablonów raportowania; treści lokalne powinny być opracowane autorsko i zgodnie z warunkami źródła.
+- id: acr-rads
+  title: ACR Reporting and Data Systems
+  url: https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Reporting-and-Data-Systems
+  type: guideline
+  accessedAt: "2026-07-08"
+  licenseNote: Oficjalne systemy raportowania ACR; używać do zgodności terminologii i kryteriów.
+- id: aium-parameters
+  title: AIUM Practice Parameters
+  url: https://www.aium.org/resources/guidelines
+  type: guideline
+  accessedAt: "2026-07-08"
+  licenseNote: Parametry praktyczne badań USG; używać jako punkt odniesienia dla kompletności badania.
+- id: efsumb-guidelines
+  title: EFSUMB Guidelines and Recommendations
+  url: https://efsumb.org/guidelines/
+  type: guideline
+  accessedAt: "2026-07-08"
+  licenseNote: Europejskie wytyczne ultrasonograficzne; weryfikować aktualność przed publikacją medyczną.
+- id: radiopaedia
+  title: Radiopaedia
+  url: https://radiopaedia.org/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Źródło edukacyjne do weryfikacji zakresu patologii i terminologii, nie do bezpośredniego kopiowania opisów.
+- id: radiology-assistant
+  title: The Radiology Assistant
+  url: https://www.radiologyassistant.nl/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Źródło edukacyjne do weryfikacji praktycznych algorytmów i różnicowania.
+- id: local-review
+  title: Lokalna recenzja specjalisty radiologii
+  url: https://example.org/local-review
+  type: local-standard
+  accessedAt: "2026-07-08"
+  licenseNote: Miejsce na lokalny standard pracowni i recenzję merytoryczną przed oznaczeniem szablonu jako reviewed.

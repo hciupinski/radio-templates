@@ -1,0 +1,27 @@
+id: usg-tkanki-miekkie-ropien
+title: Ropień tkanek miękkich
+modality: USG
+examTypes: [USG tkanek miękkich]
+bodySystems: [Układ mięśniowo-szkieletowy]
+bodyParts: [Tkanki miękkie]
+organs: [Tkanka podskórna]
+pathology: [Ropień, Zapalenie]
+tags: [Rezydent, Doppler, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [aium-parameters, radiopaedia, local-review]
+sections:
+  assessmentChecklist:
+    - Lokalizacja i wymiary kolekcji.
+    - Echogeniczność płynu i obecność ech wewnętrznych.
+    - Grubość ściany lub torebki.
+    - Unaczynienie obwodowe w Dopplerze.
+    - Obecność ciała obcego lub przetoki.
+    - Stosunek do naczyń i głębszych struktur.
+  reportTemplate: |
+    W okolicy {{lokalizacja}} widoczna nieregularna hipoechogeniczna kolekcja płynowa o wymiarach {{wymiary_mm}} mm, z echami wewnętrznymi i wzmożonym unaczynieniem obwodowym. Obraz otaczających tkanek wskazuje na odczyn zapalny. Nie uwidoczniono jednoznacznego ciała obcego w dostępnym zakresie badania.
+  impressionTemplate: |
+    Obraz USG przemawia za ropniem tkanek miękkich w okolicy {{lokalizacja}}.
+  followUp:
+    - Pilna korelacja kliniczna; rozważyć leczenie zabiegowe lub antybiotykoterapię zgodnie ze stanem pacjenta.

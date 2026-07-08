@@ -1,0 +1,32 @@
+id: usg-watroba-marskosc
+title: Marskość wątroby
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Wątroba]
+pathology: [Marskość]
+tags: [Rezydent, Doppler, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [efsumb-guidelines, radiopaedia, local-review]
+sections:
+  assessmentChecklist:
+    - Wielkość wątroby i proporcje płatów.
+    - Zarys powierzchni i echostruktura miąższu.
+    - Zmiany ogniskowe podejrzane o HCC.
+    - Średnica i drożność żyły wrotnej.
+    - Wielkość śledziony.
+    - Wodobrzusze i krążenie oboczne.
+  reportTemplate: |
+    Wątroba o nierównym obrysie, niejednorodnej, gruboziarnistej echostrukturze, z cechami przebudowy marskiej. Nie uwidoczniono jednoznacznych zmian ogniskowych w dostępnym zakresie badania. Żyła wrotna drożna, o średnicy {{srednica_zyly_wrotnej_mm}} mm. Śledziona {{niepowiekszona_lub_powiekszona}} do {{wymiar_sledziony_mm}} mm. {{brak_lub_obecnosc}} wolnego płynu w jamie otrzewnej.
+  impressionTemplate: |
+    Obraz USG odpowiada marskości wątroby. {{brak_lub_cechy}} nadciśnienia wrotnego. Zalecany okresowy nadzór w kierunku HCC zgodnie z obowiązującymi zaleceniami.
+  clinicalNotes:
+    - Jeśli widoczność jest ograniczona, zaznacz to w kontekście czułości badania przesiewowego HCC.
+  differential:
+    - Zaawansowane przewlekłe zapalenie wątroby.
+    - Rozlana przebudowa włóknista innej etiologii.
+  followUp:
+    - Opieka hepatologiczna i okresowe badania kontrolne według ryzyka klinicznego.

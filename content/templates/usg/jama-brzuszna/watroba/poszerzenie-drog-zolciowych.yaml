@@ -1,0 +1,28 @@
+id: usg-watroba-poszerzenie-drog-zolciowych
+title: Poszerzenie dróg żółciowych
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Wątroba]
+pathology: [Poszerzenie dróg żółciowych]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [aium-parameters, radiopaedia, local-review]
+sections:
+  assessmentChecklist:
+    - Poszerzenie dróg żółciowych wewnątrzwątrobowych.
+    - Średnica przewodu żółciowego wspólnego, jeśli jest ocenialny.
+    - Obecność złogu, masy lub innej przeszkody w dostępnym zakresie badania.
+    - Stan pęcherzyka żółciowego i loży po cholecystektomii.
+    - Echostruktura wątroby i ewentualne współistniejące zmiany ogniskowe.
+  reportTemplate: |
+    Widoczne {{brak_lub_obecnosc}} poszerzenia dróg żółciowych wewnątrzwątrobowych. Przewód żółciowy wspólny {{ocenialny_lub_nieocenialny}}, o średnicy {{srednica_pzw_mm}} mm. W dostępnym zakresie badania {{nie_uwidoczniono_lub_uwidoczniono}} jednoznacznej przyczyny przeszkody. Wątroba {{bez_lub_z}} współistniejących istotnych odchyleń w ocenianym zakresie.
+  impressionTemplate: |
+    Cechy poszerzenia dróg żółciowych. Przyczyna wymaga korelacji z obrazem klinicznym i ewentualnej dalszej diagnostyki.
+  clinicalNotes:
+    - Po cholecystektomii średnica przewodu żółciowego wspólnego może być większa niż przed zabiegiem, co wymaga korelacji z objawami i wiekiem.
+  followUp:
+    - Rozważyć dalszą diagnostykę przyczynową zależnie od obrazu klinicznego i badań laboratoryjnych.

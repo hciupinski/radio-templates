@@ -1,0 +1,31 @@
+id: usg-tarczyca-guzek-tirads
+title: Guzek tarczycy z klasyfikacją TI-RADS
+modality: USG
+examTypes: [USG tarczycy, USG szyi]
+bodySystems: [Układ endokrynny]
+bodyParts: [Szyja]
+organs: [Tarczyca]
+pathology: [Guzek]
+tags: [Rezydent, TI-RADS, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [acr-rads, aium-parameters, local-review]
+sections:
+  assessmentChecklist:
+    - Lokalizacja guzka.
+    - Trzy wymiary.
+    - "Skład: lity, torbielowaty, mieszany."
+    - Echogeniczność.
+    - "Kształt: szerszy niż wyższy lub wyższy niż szerszy."
+    - Granice.
+    - Ogniska echogeniczne i zwapnienia.
+    - Kategoria ACR TI-RADS i próg biopsji lub kontroli.
+  reportTemplate: |
+    W {{lokalizacja}} widoczny guzek {{lity_mieszany_torbielowaty}} o wymiarach {{wymiary_mm}} mm, {{echogenicznosc}}, {{szerszy_niz_wyzszy_lub_wyzszy_niz_szerszy}}, o {{granice}} granicach, {{bez_lub_z}} ognisk echogenicznych/zwapnień. Klasyfikacja ACR TI-RADS: {{tirads}}.
+  impressionTemplate: |
+    Guzek tarczycy {{tirads}}. {{zalecenie_biopsja_lub_kontrola_lub_brak}} zgodnie z kryteriami wielkości i kategorią TI-RADS.
+  clinicalNotes:
+    - Nie klasyfikuj pseudoguzków zapalnych jako zmian ogniskowych, jeśli obraz temu nie odpowiada.
+  followUp:
+    - Dopasuj zalecenie do aktualnej wersji ACR TI-RADS i lokalnych zasad kwalifikacji do BAC.

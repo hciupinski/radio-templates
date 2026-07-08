@@ -1,0 +1,31 @@
+id: usg-watroba-nadcisnienie-wrotne
+title: Nadciśnienie wrotne
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Wątroba]
+pathology: [Nadciśnienie wrotne]
+tags: [Rezydent, Doppler, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [efsumb-guidelines, radiopaedia, local-review]
+sections:
+  assessmentChecklist:
+    - Wielkość i echostruktura wątroby oraz cechy przewlekłej choroby miąższu.
+    - Średnica i drożność żyły wrotnej.
+    - Kierunek oraz orientacyjna prędkość przepływu w żyle wrotnej w badaniu Doppler.
+    - Obecność krążenia obocznego.
+    - Wielkość śledziony.
+    - Obecność wolnego płynu w jamie otrzewnej.
+  reportTemplate: |
+    Wątroba {{niepowiekszona_lub_powiekszona}}, o {{echostruktura}} echostrukturze, {{z_lub_bez}} cech przewlekłej przebudowy miąższu. Żyła wrotna drożna, o średnicy {{srednica_zyly_wrotnej_mm}} mm; przepływ {{hepatopetalny_spowolniony_lub_hepatofugalny}}. Widoczne {{brak_lub_obecnosc}} krążenia obocznego. Śledziona {{niepowiekszona_lub_powiekszona}} do {{wymiar_sledziony_mm}} mm. {{Brak_lub_obecnosc}} wolnego płynu w jamie otrzewnej.
+  impressionTemplate: |
+    Obraz USG przemawia za nadciśnieniem wrotnym. Stopień zaawansowania wymaga korelacji klinicznej i hemodynamicznej.
+  clinicalNotes:
+    - Sama ultrasonografia nie zastępuje oceny hemodynamicznej nadciśnienia wrotnego.
+  differential:
+    - Zmiany przepływu wtórne do zakrzepicy lub zwężenia układu wrotnego.
+  followUp:
+    - Korelacja z obrazem klinicznym, badaniami laboratoryjnymi i dalszą opieką hepatologiczną.

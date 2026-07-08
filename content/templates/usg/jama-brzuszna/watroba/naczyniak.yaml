@@ -1,0 +1,33 @@
+id: usg-watroba-naczyniak
+title: Naczyniak wątroby
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Wątroba]
+pathology: [Naczyniak]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [efsumb-guidelines, radiopaedia, local-review]
+sections:
+  assessmentChecklist:
+    - Lokalizacja zmiany i segment wątroby.
+    - Trzy wymiary zmiany.
+    - Echogeniczność i jednorodność.
+    - Odgraniczenie zmiany od miąższu.
+    - Ewentualne wzmocnienie za tylną ścianą.
+    - Unaczynienie w badaniu Doppler.
+    - Tło miąższu wątroby i obecność innych zmian ogniskowych.
+  reportTemplate: |
+    W segmencie {{segment}} wątroby widoczna dobrze odgraniczona, {{hiperechogeniczna_lub_inna}} zmiana ogniskowa o wymiarach {{wymiary_mm}} mm, {{jednorodna_lub_niejednorodna}}, {{bez_lub_z_niewielkim}} przepływem w badaniu Doppler. Obraz w typowym wariancie może odpowiadać naczyniakowi.
+  impressionTemplate: |
+    Zmiana ogniskowa o obrazie typowym lub najbardziej prawdopodobnym dla naczyniaka wątroby.
+  clinicalNotes:
+    - Przy obrazie atypowym lub w obciążonym wywiadzie onkologicznym nie traktuj rozpoznania jako definitywnego na podstawie samego USG.
+  differential:
+    - Ognisko stłuszczenia lub oszczędzenia stłuszczenia.
+    - Inna łagodna lub złośliwa zmiana ogniskowa wymagająca dalszej charakterystyki.
+  followUp:
+    - Przy nietypowym obrazie rozważyć dalszą charakterystykę w badaniu przekrojowym lub CEUS zgodnie z dostępnością i kontekstem klinicznym.

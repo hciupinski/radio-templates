@@ -1,0 +1,154 @@
+modalities:
+  - id: usg
+    label: USG
+    synonyms: [ultrasonografia, ultrasound, sonografia]
+  - id: ct
+    label: CT
+    synonyms: [TK, tomografia komputerowa, computed tomography]
+  - id: mr
+    label: MR
+    synonyms: [MRI, rezonans magnetyczny]
+  - id: rtg
+    label: RTG
+    synonyms: [radiogram, x-ray]
+  - id: mmg
+    label: MMG
+    synonyms: [mammografia]
+  - id: dxa
+    label: DXA
+    synonyms: [densytometria]
+  - id: inne
+    label: INNE
+
+examTypes:
+  - id: usg-jamy-brzusznej
+    label: USG jamy brzusznej
+    synonyms: [brzuch, abdomen, abdominal ultrasound]
+  - id: usg-szyi
+    label: USG szyi
+    synonyms: [neck ultrasound, szyja]
+  - id: usg-tarczycy
+    label: USG tarczycy
+    synonyms: [thyroid ultrasound, tarczyca]
+  - id: usg-tkanek-miekkich
+    label: USG tkanek miękkich
+    synonyms: [soft tissue ultrasound, tkanki miękkie]
+
+bodySystems:
+  - id: przewod-pokarmowy
+    label: Przewód pokarmowy
+  - id: hepatobiliarny
+    label: Układ hepatobiliarny
+    synonyms: [wątrobowo-żółciowy, hepatobiliary]
+  - id: moczowy
+    label: Układ moczowy
+    synonyms: [urinary]
+  - id: endokrynny
+    label: Układ endokrynny
+    synonyms: [endocrine]
+  - id: limfatyczny
+    label: Układ limfatyczny
+    synonyms: [lymphatic]
+  - id: miesniowo-szkieletowy
+    label: Układ mięśniowo-szkieletowy
+    synonyms: [MSK, musculoskeletal]
+
+bodyParts:
+  - id: jama-brzuszna
+    label: Jama brzuszna
+    synonyms: [brzuch, abdomen]
+  - id: szyja
+    label: Szyja
+    synonyms: [neck]
+  - id: tkanki-miekkie
+    label: Tkanki miękkie
+    synonyms: [soft tissues]
+
+organs:
+  - id: watroba
+    label: Wątroba
+    synonyms: [hepar, liver]
+  - id: pecherzyk-zolciowy
+    label: Pęcherzyk żółciowy
+    synonyms: [gallbladder]
+  - id: nerki
+    label: Nerki
+    synonyms: [kidneys, kidney]
+  - id: tarczyca
+    label: Tarczyca
+    synonyms: [thyroid]
+  - id: wezly-chlonne
+    label: Węzły chłonne
+    synonyms: [lymph nodes, nodi lymphatici]
+  - id: tkanka-podskorna
+    label: Tkanka podskórna
+    synonyms: [subcutaneous tissue]
+
+pathology:
+  - id: obraz-prawidlowy
+    label: Obraz prawidłowy
+    synonyms: [norma, prawidłowe]
+  - id: stluszczenie
+    label: Stłuszczenie
+    synonyms: [steatosis, fatty liver]
+  - id: marskosc
+    label: Marskość
+    synonyms: [cirrhosis]
+  - id: nadcisnienie-wrotne
+    label: Nadciśnienie wrotne
+    synonyms: [portal hypertension]
+  - id: torbiel
+    label: Torbiel
+    synonyms: [cyst]
+  - id: torbiel-prosta
+    label: Torbiel prosta
+    synonyms: [simple cyst]
+  - id: torbiel-zlozona
+    label: Torbiel złożona
+    synonyms: [complex cyst]
+  - id: naczyniak
+    label: Naczyniak
+    synonyms: [hemangioma]
+  - id: kamica
+    label: Kamica
+    synonyms: [złogi, stones, calculi]
+  - id: zapalenie
+    label: Zapalenie
+    synonyms: [inflammation]
+  - id: wodonercze
+    label: Wodonercze
+    synonyms: [hydronephrosis]
+  - id: poszerzenie-drog-zolciowych
+    label: Poszerzenie dróg żółciowych
+    synonyms: [bile duct dilatation, ductal dilatation]
+  - id: hashimoto
+    label: Hashimoto
+    synonyms: [AITD, przewlekłe autoimmunologiczne zapalenie tarczycy]
+  - id: guzek
+    label: Guzek
+    synonyms: [nodule, zmiana ogniskowa]
+  - id: odczynowe
+    label: Odczynowe
+    synonyms: [reactive]
+  - id: podejrzane
+    label: Podejrzane
+    synonyms: [suspicious, przerzutowe]
+  - id: tluszczak
+    label: Tłuszczak
+    synonyms: [lipoma]
+  - id: ropien
+    label: Ropień
+    synonyms: [abscess]
+
+tags:
+  - id: rezydent
+    label: Rezydent
+  - id: doppler
+    label: Doppler
+  - id: tirads
+    label: TI-RADS
+    synonyms: [ACR TI-RADS, thyroid imaging reporting and data system]
+  - id: kontrola
+    label: Kontrola
+  - id: pilne
+    label: Pilne

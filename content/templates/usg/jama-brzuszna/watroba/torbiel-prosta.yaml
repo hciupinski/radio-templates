@@ -1,0 +1,29 @@
+id: usg-watroba-torbiel-prosta
+title: Torbiel prosta wątroby
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Wątroba]
+pathology: [Torbiel prosta]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [efsumb-guidelines, radiopaedia, local-review]
+sections:
+  assessmentChecklist:
+    - Lokalizacja zmiany i segment wątroby.
+    - Trzy wymiary zmiany.
+    - Gładkość i grubość ściany.
+    - Bezechowa zawartość.
+    - Wzmocnienie za tylną ścianą.
+    - Brak przegród, komponentów litych i innych cech złożoności.
+  reportTemplate: |
+    W segmencie {{segment}} wątroby widoczna bezechowa, dobrze odgraniczona zmiana o wymiarach {{wymiary_mm}} mm, o cienkiej gładkiej ścianie, z wzmocnieniem za tylną ścianą, bez przegród i bez komponentów litych. Obraz odpowiada torbieli prostej.
+  impressionTemplate: |
+    Obraz zmiany torbielowatej odpowiada torbieli prostej wątroby.
+  clinicalNotes:
+    - W przypadku pogrubienia ściany, przegród lub ech wewnętrznych nie klasyfikuj zmiany jako torbieli prostej.
+  followUp:
+    - Dalsza diagnostyka zwykle nie jest konieczna przy typowym obrazie USG i zgodnym kontekście klinicznym.

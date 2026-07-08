@@ -1,0 +1,28 @@
+id: usg-watroba-stluszczenie
+title: Stłuszczenie wątroby
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Wątroba]
+pathology: [Stłuszczenie]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [efsumb-guidelines, radiopaedia, local-review]
+sections:
+  assessmentChecklist:
+    - Wielkość wątroby.
+    - Stopień wzmożenia echogeniczności.
+    - Penetracja ultradźwięków w głębszych partiach miąższu.
+    - Widoczność przepony i naczyń wewnątrzwątrobowych.
+    - Obecność zmian ogniskowych, zastrzegając ograniczenia czułości w stłuszczeniu.
+  reportTemplate: |
+    Wątroba {{niepowiekszona_lub_powiekszona}}, o wzmożonej echogeniczności miąższu, z {{nieznacznie_umiarkowanie_znacznie}} osłabioną penetracją ultradźwięków. Obraz odpowiada {{lagodnemu_umiarkowanemu_znacznemu}} stłuszczeniu. W dostępnym zakresie nie uwidoczniono zmian ogniskowych. Drogi żółciowe nieposzerzone.
+  impressionTemplate: |
+    Cechy stłuszczenia wątroby {{stopien}}. Do korelacji z wynikami laboratoryjnymi i czynnikami metabolicznymi.
+  clinicalNotes:
+    - Przy znacznym stłuszczeniu zaznacz ograniczoną ocenę zmian ogniskowych.
+  followUp:
+    - Rozważyć kontrolę zgodnie z obrazem klinicznym i lokalnymi zaleceniami.
