@@ -1,0 +1,52 @@
+id: usg-pecherzyk-zolciowy-gruczolakowatosc
+title: Gruczolakowatość pęcherzyka żółciowego
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Pęcherzyk żółciowy]
+pathology: [Gruczolakowatość]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [gallbladder-adenomyomatosis-imaging-2008, gallbladder-adenomyomatosis-ceus-2015, gallbladder-adenomyomatosis-overview-2018]
+imageRefs:
+  - id: gallbladder-adenomyomatosis-01
+    title: Gruczolakowatość dna pęcherzyka w USG i CEUS
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Ultrasound_of_gallbladder_adenomyosis.jpg"
+    thumbnailUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Ultrasound_of_gallbladder_adenomyosis.jpg/250px-Ultrasound_of_gallbladder_adenomyosis.jpg"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Ultrasound_of_gallbladder_adenomyosis.jpg"
+    sourceId: gallbladder-adenomyomatosis-ceus-2015
+    caption: Ogniskowe pogrubienie ściany dna pęcherzyka z echogenicznymi ogniskami śródściennymi; na panelach CEUS ściana pozostaje ciągła.
+    alt: Obraz USG i CEUS gruczolakowatości pęcherzyka żółciowego z pogrubieniem ściany i zatokami Rokitansky'ego-Aschoffa.
+    category: typical
+    findings:
+      - Ściana dna pęcherzyka jest ogniskowo pogrubiała.
+      - Widoczne są śródścienne echogeniczne ogniska odpowiadające zatokom Rokitansky'ego-Aschoffa.
+      - W badaniu kontrastowym ciągłość ściany jest zachowana.
+      - Anechogeniczne przestrzenie śródścienne stają się wyraźniejsze w późniejszej fazie.
+    attribution: ShaoShan Tang, LiPing Huang, Yao Wang and YiJiao Wang via Wikimedia Commons
+    licenseMode: cc-by
+    lastCheckedAt: "2026-07-08"
+sections:
+  assessmentChecklist:
+    - Lokalizacja i zasięg pogrubienia ściany pęcherzyka.
+    - Obecność zatok Rokitansky'ego-Aschoffa lub drobnych przestrzeni śródściennych.
+    - Obecność artefaktu comet-tail lub ring-down.
+    - Czy zmiana ma charakter ogniskowy, segmentalny czy rozlany.
+    - Współistnienie złogów, cech zapalenia i płynu okołopęcherzykowego.
+    - Cechy litej masy, przerwania ciągłości ściany lub naciekania poza pęcherzyk.
+  reportTemplate: |
+    Ściana pęcherzyka żółciowego {{odcinkowo_lub_rozlanie}} pogrubiała do {{grubosc_sciany_mm}} mm, najbardziej w obrębie {{lokalizacja}}, z obecnością {{zatok_rokitanskyego_aschoffa_lub_srodsciennych_echogenicznych_ognisk}} oraz {{obecnym_lub_nieobecnym}} artefaktem comet-tail. W dostępnym zakresie badania nie uwidoczniono jednoznacznej litej masy naciekającej poza ścianę pęcherzyka. {{Brak_lub_obecnosc}} współistniejących złogów. {{Brak_lub_obecnosc}} płynu okołopęcherzykowego.
+  impressionTemplate: |
+    Obraz najbardziej odpowiada gruczolakowatości pęcherzyka żółciowego. {{Brak_lub_obecnosc}} cech wymagających dalszej charakterystyki.
+  clinicalNotes:
+    - Obecność typowych zatok Rokitansky'ego-Aschoffa i artefaktu comet-tail przemawia za łagodnym charakterem zmiany.
+    - Przy braku typowych artefaktów, asymetrycznym pogrubieniu ściany lub podejrzeniu litej składowej należy ostrożniej różnicować zmianę z nowotworem pęcherzyka.
+  differential:
+    - Ogniskowe przewlekłe zapalenie pęcherzyka.
+    - Polip przyścienny lub cholesterolosis.
+    - Rak pęcherzyka żółciowego przy nieregularnym pogrubieniu ściany i utracie jej ciągłości.
+  followUp:
+    - W obrazie atypowym lub niejednoznacznym rozważyć dalszą charakterystykę, najlepiej metodą przekrojową lub kontrastowym USG zgodnie z dostępnością i kontekstem klinicznym.

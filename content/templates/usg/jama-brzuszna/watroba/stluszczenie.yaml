@@ -10,7 +10,21 @@ tags: [Rezydent, Kontrola]
 status: draft
 version: "0.1.0"
 updatedAt: "2026-07-08"
-sourceRefs: [efsumb-guidelines, radiopaedia, local-review]
+sourceRefs: [nafld-aasld-2018, nafld-easl-2016]
+imageRefs:
+  - id: liver-steatosis-typical-01
+    title: Rozlane stłuszczenie wątroby
+    imageUrl: "https://nccommons.org/w/images/thumb/e/e2/Radiopaedia_case_Diffuse_hepatic_steatosis_-_grade_III_id_80803_study_94280_image1.png/1000px-Radiopaedia_case_Diffuse_hepatic_steatosis_-_grade_III_id_80803_study_94280_image1.png"
+    sourceUrl: "https://nccommons.org/wiki/Radiopaedia_case_Diffuse_hepatic_steatosis_-_grade_III_id%3A_80803_study%3A_94280"
+    caption: Typowy obraz rozlanego stłuszczenia z uogólnionym wzrostem echogeniczności i osłabieniem penetracji w głębi.
+    alt: Obraz USG rozlanego stłuszczenia wątroby z hiperechogenicznym miąższem.
+    category: typical
+    findings:
+      - Miąższ wątroby jest uogólnienie hiperechogeniczny.
+      - Penetracja ultradźwięków w głębszych partiach jest osłabiona.
+      - Zarysy głębiej położonych struktur są słabiej widoczne.
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-08"
 sections:
   assessmentChecklist:
     - Wielkość wątroby.

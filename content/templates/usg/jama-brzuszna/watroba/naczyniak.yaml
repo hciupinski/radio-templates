@@ -10,7 +10,23 @@ tags: [Rezydent, Kontrola]
 status: draft
 version: "0.1.0"
 updatedAt: "2026-07-08"
-sourceRefs: [efsumb-guidelines, radiopaedia, local-review]
+sourceRefs: [acg-focal-liver-lesions-2024, hepatic-hemangioma-internists-2020, hepatic-hemangioma-review-2024]
+imageRefs:
+  - id: hemangioma-usg-typical-01
+    title: Typowy hiperechogeniczny naczyniak
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/04/Hemangiomaliver.PNG"
+    thumbnailUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Hemangiomaliver.PNG/250px-Hemangiomaliver.PNG"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Hemangiomaliver.PNG"
+    caption: Mała, dobrze odgraniczona zmiana hiperechogeniczna widoczna w miąższu wątroby.
+    alt: Obraz USG wątroby z małą hiperechogeniczną zmianą ogniskową typową dla naczyniaka.
+    category: typical
+    findings:
+      - Dobre odgraniczenie od otaczającego miąższu.
+      - Wzmożona echogeniczność względem wątroby.
+      - Brak cech naciekania sąsiednich struktur.
+    attribution: James Heilman, MD via Wikimedia Commons
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-07-08"
 sections:
   assessmentChecklist:
     - Lokalizacja zmiany i segment wątroby.

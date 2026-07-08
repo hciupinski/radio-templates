@@ -10,7 +10,38 @@ tags: [Rezydent]
 status: draft
 version: "0.1.0"
 updatedAt: "2026-07-08"
-sourceRefs: [aium-parameters, radiopaedia, local-review]
+sourceRefs: [gallstone-disease-nice-2014]
+imageRefs:
+  - id: gallstones-usg-typical-01
+    title: Ruchomy złóg z cieniem akustycznym
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/af/Gallstones.PNG"
+    thumbnailUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Gallstones.PNG/330px-Gallstones.PNG"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Gallstones.PNG"
+    caption: Pojedynczy złóg w świetle pęcherzyka z wyraźnym cieniem akustycznym za zmianą.
+    alt: Obraz USG pęcherzyka żółciowego z kamieniem i tylnym cieniem akustycznym.
+    category: typical
+    findings:
+      - Hiperechogeniczny złóg w świetle pęcherzyka.
+      - Wyraźny tylny cień akustyczny.
+      - Brak cech zatarcia światła przez lite masy.
+    attribution: James Heilman, MD via Wikimedia Commons
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-07-08"
+  - id: gallstones-usg-variant-02
+    title: Złogi i sludge w jednym polu
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Ultrasonography_of_sludge_and_gallstones%2C_annotated.jpg"
+    thumbnailUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ultrasonography_of_sludge_and_gallstones%2C_annotated.jpg/330px-Ultrasonography_of_sludge_and_gallstones%2C_annotated.jpg"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Ultrasonography_of_sludge_and_gallstones,_annotated.jpg"
+    caption: Przykład współistnienia sludge i złogów z opisanym cieniem akustycznym oraz relacją do ściany.
+    alt: Obraz USG pęcherzyka żółciowego z zaznaczonym sludge, złogami i cieniem akustycznym.
+    category: variant
+    findings:
+      - Warstwujące się echogeniczne treści przy dnie pęcherzyka.
+      - Współistnienie sludge i bardziej zwartych złogów.
+      - Przydatne do odróżnienia osadu od pojedynczego zaklinowanego kamienia.
+    attribution: Mikael Häggström via Wikimedia Commons
+    licenseMode: public-domain
+    lastCheckedAt: "2026-07-08"
 sections:
   assessmentChecklist:
     - Liczba, wielkość i ruchomość złogów.

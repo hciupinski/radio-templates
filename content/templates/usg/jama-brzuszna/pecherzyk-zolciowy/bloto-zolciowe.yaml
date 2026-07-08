@@ -1,0 +1,65 @@
+id: usg-pecherzyk-zolciowy-bloto-zolciowe
+title: Błoto żółciowe
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Pęcherzyk żółciowy]
+pathology: [Błoto żółciowe]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [gallbladder-sludge-clinical-significance-2001, biliary-sludge-sluggish-gallbladder-2003, gallstone-disease-nice-2014]
+imageRefs:
+  - id: biliary-sludge-annotated-01
+    title: Błoto żółciowe ze współistniejącymi złogami
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Ultrasonography_of_sludge_and_gallstones%2C_annotated.jpg"
+    thumbnailUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ultrasonography_of_sludge_and_gallstones%2C_annotated.jpg/250px-Ultrasonography_of_sludge_and_gallstones%2C_annotated.jpg"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Ultrasonography_of_sludge_and_gallstones,_annotated.jpg"
+    caption: Warstwujące się błoto żółciowe w świetle pęcherzyka ze współistniejącymi złogami i cieniem akustycznym za kamieniami.
+    alt: Obraz USG pęcherzyka żółciowego z błotem żółciowym i współistniejącymi kamieniami.
+    category: typical
+    findings:
+      - W świetle widoczna jest warstwująca się echogeniczna treść bez pełnego cienia akustycznego.
+      - Osad współistnieje z bardziej echogenicznymi złogami dającymi cień.
+      - Ściana pęcherzyka pozostaje czytelna mimo obecności osadu.
+    attribution: Mikael Häggström, MD via Wikimedia Commons
+    licenseMode: public-domain
+    lastCheckedAt: "2026-07-08"
+  - id: biliary-sludge-hepatization-02
+    title: Pęcherzyk wypełniony gęstym błotem żółciowym
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/30/Gallbladder_hepatization.jpg"
+    thumbnailUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Gallbladder_hepatization.jpg/250px-Gallbladder_hepatization.jpg"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Gallbladder_hepatization.jpg"
+    caption: Gęste błoto żółciowe wypełnia całe światło pęcherzyka i upodabnia jego echogeniczność do wątroby.
+    alt: Obraz USG pęcherzyka żółciowego całkowicie wypełnionego gęstym błotem żółciowym.
+    category: variant
+    findings:
+      - Światło pęcherzyka jest niemal całkowicie wypełnione echogeniczną treścią.
+      - Echogeniczność zawartości zbliża się do echogeniczności wątroby.
+      - Obraz odpowiada nasilonej postaci błota żółciowego.
+    attribution: Mikael Häggström via Wikimedia Commons
+    licenseMode: public-domain
+    lastCheckedAt: "2026-07-08"
+sections:
+  assessmentChecklist:
+    - Obecność drobnoechowej lub niskoechogenicznej treści w świetle pęcherzyka.
+    - Warstwowanie się treści i jej zachowanie przy zmianie pozycji ciała, jeśli oceniane.
+    - Obecność lub brak tylnego cienia akustycznego.
+    - Współistnienie złogów.
+    - Grubość ściany pęcherzyka i objaw sonograficzny Murphy'ego.
+    - Płyn okołopęcherzykowy oraz szerokość dróg żółciowych.
+  reportTemplate: |
+    W świetle pęcherzyka żółciowego widoczna {{drobnoechowa_lub_niskoechogeniczna}} treść, {{warstwujaca_sie_lub_niewarstwuajaca_sie}}, bez wyraźnego tylnego cienia akustycznego, odpowiadająca błotu żółciowemu. {{Brak_lub_obecnosc}} współistniejących złogów. Ściana pęcherzyka {{niepogrubiala_lub_pogrubiala_do_mm}}. {{Brak_lub_obecnosc}} płynu okołopęcherzykowego. Droga żółciowa wspólna {{nieposzerzona_lub_poszerzona_do_mm}}.
+  impressionTemplate: |
+    Obraz odpowiada błotu żółciowemu w pęcherzyku żółciowym. {{Brak_lub_obecnosc}} sonograficznych cech ostrego zapalenia.
+  clinicalNotes:
+    - Błoto żółciowe może ustępować, nawracać lub progresować do kamicy.
+    - Przy współistnieniu pogrubienia ściany, dodatniego objawu Murphy'ego lub płynu okołopęcherzykowego należy brać pod uwagę zapalenie pęcherzyka.
+  differential:
+    - Drobne złogi bez pełnego cienia akustycznego.
+    - Krwista lub ropna treść pęcherzyka.
+    - Zalegająca żółć o zwiększonej gęstości.
+  followUp:
+    - U pacjentów bezobjawowych zwykle wystarcza korelacja kliniczna; przy objawach lub powikłaniach rozważyć dalsze postępowanie jak w chorobie pęcherzyka żółciowego.

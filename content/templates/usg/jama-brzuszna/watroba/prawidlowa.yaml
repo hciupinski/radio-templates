@@ -10,7 +10,22 @@ tags: [Rezydent]
 status: draft
 version: "0.1.0"
 updatedAt: "2026-07-08"
-sourceRefs: [aium-parameters, efsumb-guidelines, local-review]
+sourceRefs: [liver-how-we-do-it-2009, efsumb-liver-course-book-2010]
+imageRefs:
+  - id: liver-normal-reference-01
+    title: Prawidłowy obraz wątroby w USG
+    imageUrl: "https://radiologykey.com/wp-content/uploads/2023/02/f08-01ab-9780323874793.jpg"
+    sourceUrl: "https://radiologykey.com/the-role-of-ultrasound-in-portal-hypertension/"
+    caption: Prawidłowy jednorodny miąższ wątroby z gładkim obrysem powierzchni.
+    alt: Prawidłowy obraz ultrasonograficzny wątroby o jednorodnej echostrukturze.
+    category: normal-reference
+    findings:
+      - Jednorodna echostruktura miąższu.
+      - Gładki zarys powierzchni wątroby.
+      - Ostre brzegi narządu.
+      - Płat ogoniasty niepowiększony.
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-08"
 sections:
   assessmentChecklist:
     - Wielkość wątroby i zarys powierzchni.

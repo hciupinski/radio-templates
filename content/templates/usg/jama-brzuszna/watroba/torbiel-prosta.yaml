@@ -10,7 +10,24 @@ tags: [Rezydent, Kontrola]
 status: draft
 version: "0.1.0"
 updatedAt: "2026-07-08"
-sourceRefs: [efsumb-guidelines, radiopaedia, local-review]
+sourceRefs: [acg-focal-liver-lesions-2024]
+imageRefs:
+  - id: liver-simple-cyst-01
+    title: Prosta torbiel wątroby
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/36/Ultrasonography_of_a_liver_cyst.jpg"
+    thumbnailUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Ultrasonography_of_a_liver_cyst.jpg/330px-Ultrasonography_of_a_liver_cyst.jpg"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Ultrasonography_of_a_liver_cyst.jpg"
+    sourceId: intechopen-liver-tumors-2012
+    caption: Dobrze odgraniczona bezechowa zmiana z wzmocnieniem za tylną ścianą typowa dla torbieli prostej.
+    alt: Obraz USG wątroby z prostą torbielą o cienkiej ścianie i bezechowej zawartości.
+    category: typical
+    findings:
+      - Zmiana ma cienką, gładką ścianę.
+      - Wnętrze jest bezechowe i jednorodne.
+      - Widoczne jest wzmocnienie za tylną ścianą.
+    attribution: R. Badea, Simona Ioanitescu via Wikimedia Commons
+    licenseMode: cc-by
+    lastCheckedAt: "2026-07-08"
 sections:
   assessmentChecklist:
     - Lokalizacja zmiany i segment wątroby.

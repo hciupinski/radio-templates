@@ -10,7 +10,24 @@ tags: [Rezydent, TI-RADS, Kontrola]
 status: draft
 version: "0.1.0"
 updatedAt: "2026-07-08"
-sourceRefs: [acr-rads, aium-parameters, local-review]
+sourceRefs: [acr-thyroid-us-lexicon-2015, acr-tirads-white-paper-2017]
+imageRefs:
+  - id: thyroid-colloid-nodule-usg-01
+    title: USG guzka koloidowego tarczycy z artefaktem comet-tail
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/0/00/Ultrasound_Scan_ND_0124141638_1428320.png
+    thumbnailUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Ultrasound_Scan_ND_0124141638_1428320.png/330px-Ultrasound_Scan_ND_0124141638_1428320.png
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ultrasound_Scan_ND_0124141638_1428320.png
+    sourceId: wikimedia-commons
+    caption: Przykład łagodnie wyglądającego guzka koloidowego z hiperechogenicznymi ogniskami i artefaktem comet-tail, przydatny jako punkt odniesienia przy klasyfikacji TI-RADS.
+    alt: Ultrasonogram guzka koloidowego tarczycy z artefaktami comet-tail.
+    category: variant
+    findings:
+      - Hiperechogeniczne punkty z artefaktem comet-tail.
+      - Obraz odpowiada łagodnemu guzkowi koloidowemu.
+      - Brak cech wybitnie podejrzanych typu nieregularny lity hipoechogeniczny guzek.
+    attribution: Nevit Dilmen via Wikimedia Commons
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-07-08"
 sections:
   assessmentChecklist:
     - Lokalizacja guzka.
@@ -27,5 +44,9 @@ sections:
     Guzek tarczycy {{tirads}}. {{zalecenie_biopsja_lub_kontrola_lub_brak}} zgodnie z kryteriami wielkości i kategorią TI-RADS.
   clinicalNotes:
     - Nie klasyfikuj pseudoguzków zapalnych jako zmian ogniskowych, jeśli obraz temu nie odpowiada.
+    - Punktację ACR TI-RADS wyliczaj osobno dla składu, echogeniczności, kształtu, granic i ognisk echogenicznych.
+    - "Kategorie ACR TI-RADS odpowiadają sumie punktów: TR1 = 0, TR2 = 2, TR3 = 3, TR4 = 4-6, TR5 = 7 lub więcej."
   followUp:
-    - Dopasuj zalecenie do aktualnej wersji ACR TI-RADS i lokalnych zasad kwalifikacji do BAC.
+    - "TR3: kontrola od 1,5 cm, BAC od 2,5 cm."
+    - "TR4: kontrola od 1,0 cm, BAC od 1,5 cm."
+    - "TR5: kontrola od 0,5 cm, BAC od 1,0 cm."

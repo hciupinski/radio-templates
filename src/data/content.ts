@@ -127,7 +127,12 @@ function templateSearchText(
     ...template.tags,
     template.sections.reportTemplate,
     template.sections.impressionTemplate,
-    ...template.sections.assessmentChecklist
+    ...template.sections.assessmentChecklist,
+    ...(template.imageRefs?.flatMap((imageRef) => [
+      imageRef.title,
+      imageRef.caption,
+      ...imageRef.findings
+    ]) ?? [])
   ];
 
   const synonyms = terms.flatMap((term) => synonymLookup.get(term.toLocaleLowerCase("pl")) ?? []);

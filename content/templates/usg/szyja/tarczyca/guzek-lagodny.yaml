@@ -1,0 +1,52 @@
+id: usg-tarczyca-guzek-lagodny
+title: Łagodnie wyglądający guzek tarczycy (TR2-TR3)
+modality: USG
+examTypes: [USG tarczycy, USG szyi]
+bodySystems: [Układ endokrynny]
+bodyParts: [Szyja]
+organs: [Tarczyca]
+pathology: [Guzek łagodny]
+tags: [Rezydent, TI-RADS, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [acr-thyroid-us-lexicon-2015, acr-tirads-white-paper-2017]
+imageRefs:
+  - id: thyroid-benign-colloid-nodule-usg-01
+    title: USG łagodnego guzka koloidowego tarczycy z artefaktem comet-tail
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/0/00/Ultrasound_Scan_ND_0124141638_1428320.png
+    thumbnailUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Ultrasound_Scan_ND_0124141638_1428320.png/330px-Ultrasound_Scan_ND_0124141638_1428320.png
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ultrasound_Scan_ND_0124141638_1428320.png
+    sourceId: wikimedia-commons
+    caption: Przykład łagodnie wyglądającego guzka koloidowego z artefaktem comet-tail, typowego dla zmian o bardzo niskim lub niskim ryzyku złośliwości.
+    alt: Ultrasonogram łagodnego guzka koloidowego tarczycy z artefaktami comet-tail.
+    category: typical
+    findings:
+      - Hiperechogeniczne punkty z artefaktem comet-tail.
+      - Obraz odpowiada łagodnemu guzkowi koloidowemu.
+      - Brak cech wybitnie podejrzanych typu nieregularny lity hipoechogeniczny guzek.
+    attribution: Nevit Dilmen via Wikimedia Commons
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-07-08"
+sections:
+  assessmentChecklist:
+    - Lokalizacja i liczba guzków.
+    - Trzy wymiary największej lub opisywanej zmiany.
+    - "Skład: torbielowaty, spongiformny, mieszany lub lity."
+    - Echogeniczność.
+    - Kształt i granice.
+    - Ogniska echogeniczne, w tym artefakt comet-tail.
+    - Kategoria ACR TI-RADS i próg kontroli lub BAC.
+  reportTemplate: |
+    W {{lokalizacja}} uwidoczniono {{pojedynczy_lub_najwiekszy}} guzek o wymiarach {{wymiary_mm}} mm, {{sklad}}, {{echogenicznosc}}, {{szerszy_niz_wyzszy}}, o {{gladkie_lub_dobrze_odgraniczone}} granicach, {{z_lub_bez}} artefaktów comet-tail. Obraz odpowiada łagodnie wyglądającemu guzkowi tarczycy. Klasyfikacja ACR TI-RADS: {{tr2_lub_tr3}}.
+  impressionTemplate: |
+    Łagodnie wyglądający guzek tarczycy {{tr2_lub_tr3}} bez cech wysokiego ryzyka w USG. {{zalecenie_kontrola_lub_brak_bac}} zgodnie z kryteriami wielkości ACR TI-RADS.
+  clinicalNotes:
+    - Do wariantu łagodnego zaliczaj przede wszystkim guzki torbielowate, spongiformne lub z artefaktem comet-tail bez cech wysokiego ryzyka.
+    - Nie opisuj pseudoguzków zapalnych jako rzeczywistych guzków, jeśli obraz bardziej odpowiada zmianom w przebiegu zapalenia tarczycy.
+  differential:
+    - Pseudoguzek zapalny w przebiegu Hashimoto.
+    - Drobna torbiel koloidowa.
+  followUp:
+    - "TR2: bez BAC i zwykle bez planowej kontroli z samego powodu obrazu."
+    - "TR3: kontrola od 1,5 cm, BAC od 2,5 cm."

@@ -1,0 +1,50 @@
+id: usg-pecherzyk-zolciowy-zlog-zaklinowany-w-szyi
+title: Złóg zaklinowany w szyi pęcherzyka żółciowego
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Pęcherzyk żółciowy]
+pathology: [Kamica, Złóg zaklinowany w szyi]
+tags: [Rezydent, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [gallstone-disease-nice-2014, wses-acute-calculous-cholecystitis-2016]
+imageRefs:
+  - id: impacted-gallstone-neck-01
+    title: Zaklinowany złóg w szyi pęcherzyka
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/af/Gallstones.PNG"
+    thumbnailUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Gallstones.PNG/330px-Gallstones.PNG"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Gallstones.PNG"
+    caption: Złóg zaklinowany w szyi pęcherzyka z cieniem akustycznym i pogrubieniem ściany.
+    alt: Obraz USG pęcherzyka żółciowego z zaklinowanym złogiem w szyi i pogrubieniem ściany.
+    category: typical
+    findings:
+      - Echogeniczny złóg przylega do szyi pęcherzyka i nie przemieszcza się.
+      - Obecny wyraźny tylny cień akustyczny.
+      - Ściana pęcherzyka jest pogrubiała w obrazie towarzyszącym zaklinowaniu.
+    attribution: James Heilman, MD via Wikimedia Commons
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-07-08"
+sections:
+  assessmentChecklist:
+    - Lokalizacja złogu w szyi pęcherzyka lub w zachyłku Hartmanna.
+    - Brak lub ograniczenie ruchomości złogu przy zmianie pozycji ciała.
+    - Obecność cienia akustycznego za złogiem.
+    - Wymiary pęcherzyka oraz grubość jego ściany.
+    - Objaw sonograficzny Murphy'ego.
+    - Obecność płynu okołopęcherzykowego.
+    - Szerokość dróg żółciowych zewnątrzwątrobowych.
+  reportTemplate: |
+    W szyi pęcherzyka żółciowego / w zachyłku Hartmanna widoczny złóg o wymiarze do {{wymiar_mm}} mm, nieruchomy przy zmianie pozycji ciała, z cieniem akustycznym. Pęcherzyk żółciowy {{powiekszony_lub_niepowiekszony}}. Ściana pęcherzyka {{niepogrubiala_lub_pogrubiala_do_mm}}. Objaw sonograficzny Murphy'ego {{ujemny_lub_dodatni}}. {{Brak_lub_obecnosc}} płynu okołopęcherzykowego. Droga żółciowa wspólna {{nieposzerzona_lub_poszerzona_do_mm}}.
+  impressionTemplate: |
+    Złóg zaklinowany w szyi pęcherzyka żółciowego. {{Brak_jednoznacznych_lub_obecne}} sonograficznych cech ostrego zapalenia pęcherzyka.
+  clinicalNotes:
+    - Samo zaklinowanie złogu w szyi zwiększa ryzyko ostrego zapalenia, ale rozpoznanie zapalenia wymaga korelacji obrazu USG z objawami i badaniami laboratoryjnymi.
+    - Przy dodatnim objawie Murphy'ego, pogrubieniu ściany lub płynie okołopęcherzykowym wnioski należy formułować w kierunku ostrego zapalenia.
+  differential:
+    - Złogi ruchome bez cech zaklinowania.
+    - Ostre zapalenie pęcherzyka żółciowego.
+  followUp:
+    - W przypadku współistnienia cech zapalenia wskazana pilna korelacja kliniczno-laboratoryjna i dalsze postępowanie chirurgiczne zgodnie ze stanem pacjenta.

@@ -35,6 +35,11 @@ export function TemplateList({ templates, selectedId, onSelect, query }: Templat
                 {template.modality} · {template.examTypes[0]} · {template.organs.join(", ")}
               </span>
               <span className="chip-row">
+                {template.imageRefs?.length ? (
+                  <span className="chip gallery-chip" aria-label={`Galeria: ${template.imageRefs.length} zdjęć`}>
+                    📷 {template.imageRefs.length}
+                  </span>
+                ) : null}
                 {template.pathology.slice(0, 2).map((item) => (
                   <span className="chip" key={item}>
                     {item}

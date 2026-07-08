@@ -13,6 +13,8 @@ jednostka chorobowa: <UZUPELNIJ>
 
 Wymagania dodatkowe:
 - użyj aktualnych, wiarygodnych źródeł, preferując oficjalne wytyczne i biblioteki structured reporting
+- podaj tylko konkretne, rzeczywiście użyte linki do publikacji, guideline'ów albo badań; nie podawaj ogólnych stron typu katalog źródeł
+- jeśli nie znajdziesz wystarczająco konkretnego źródła dla danego wariantu, nie podstawiaj źródła ogólnego; oznacz taki szablon jako wymagający osobnego passu źródłowego
 - jeśli nie ma oficjalnego szablonu dla tej jednostki, przygotuj praktyczny draft oparty o guideline completeness + źródła edukacyjne
 - napisz wynik w formalnym języku polskich opisów radiologicznych
 - zachowaj placeholders w formacie {{...}}
@@ -46,6 +48,7 @@ jednostka chorobowa: <UZUPELNIJ>
 Wymagania dodatkowe:
 - dopasuj metadane do lokalnej taxonomy
 - jeśli brakuje pozycji w taxonomy lub sources, uzupełnij je przed zapisaniem pliku
+- do `content/sources.yaml` wpisuj tylko konkretne źródła faktycznie użyte dla danego szablonu
 - zapisz plik zgodnie z konwencją ścieżek repozytorium
 - ustaw status draft, version 0.1.0 i updatedAt na bieżącą datę
 - uruchom npm run validate i popraw błędy, jeśli wystąpią

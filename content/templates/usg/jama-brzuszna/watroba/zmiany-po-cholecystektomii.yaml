@@ -1,0 +1,28 @@
+id: usg-watroba-zmiany-po-cholecystektomii
+title: Zmiany po cholecystektomii
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Wątroba]
+pathology: [Zmiany po cholecystektomii]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [cbd-post-chole-1995]
+sections:
+  assessmentChecklist:
+    - Loża po pęcherzyku żółciowym.
+    - Ewentualna kolekcja płynowa pooperacyjna.
+    - Średnica dróg żółciowych, zwłaszcza przewodu żółciowego wspólnego.
+    - Obecność złogów resztkowych lub innych przeszkód w dostępnym zakresie badania.
+    - Echostruktura wątroby i otoczenia loży pooperacyjnej.
+  reportTemplate: |
+    Stan po cholecystektomii. W loży po pęcherzyku żółciowym {{brak_lub_obecnosc}} zbiornika płynowego o wymiarach {{wymiary_mm_lub_nie_dotyczy}}. Drogi żółciowe {{nieposzerzone_lub_poszerzone}}, przewód żółciowy wspólny o średnicy {{srednica_pzw_mm}} mm. W dostępnym zakresie badania {{nie_uwidoczniono_lub_uwidoczniono}} cech powikłań pooperacyjnych.
+  impressionTemplate: |
+    Obraz po cholecystektomii {{bez_cech_powiklan_lub_z_cechami_odchylen}} w ocenianym zakresie.
+  clinicalNotes:
+    - Niewielkie poszerzenie przewodu żółciowego wspólnego po cholecystektomii może być wariantem pooperacyjnym i wymaga korelacji klinicznej.
+  followUp:
+    - Dalsze postępowanie zależnie od objawów, badań laboratoryjnych i ewentualnego podejrzenia powikłań.

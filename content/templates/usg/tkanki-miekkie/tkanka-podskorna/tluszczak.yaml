@@ -10,7 +10,23 @@ tags: [Rezydent]
 status: draft
 version: "0.1.0"
 updatedAt: "2026-07-08"
-sourceRefs: [aium-parameters, radiopaedia, local-review]
+sourceRefs: [superficial-soft-tissue-lesions-us-2019]
+imageRefs:
+  - id: lipoma-usg-01
+    title: USG tłuszczaka śródtkankowego dłoni
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/1/1c/Ultrasonography_of_a_lipoma.jpg
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ultrasonography_of_a_lipoma.jpg
+    sourceId: wikimedia-commons
+    caption: Owalna, dobrze odgraniczona zmiana o echogeniczności zbliżonej do tkanki tłuszczowej z drobnymi linijnymi echami wewnętrznymi.
+    alt: Ultrasonogram tłuszczaka z dobrze odgraniczoną, owalną zmianą w tkance miękkiej.
+    category: typical
+    findings:
+      - Dobrze odgraniczona owalna zmiana w tkankach miękkich.
+      - Echogeniczność zbliżona do tkanki tłuszczowej.
+      - Drobne linijne hiperechogeniczne pasma wewnątrz zmiany.
+    attribution: Chernev I, Tingey S via Wikimedia Commons
+    licenseMode: cc-by
+    lastCheckedAt: "2026-07-08"
 sections:
   assessmentChecklist:
     - Lokalizacja i warstwa anatomiczna.

@@ -1,0 +1,49 @@
+id: usg-watroba-przerzuty
+title: Przerzuty do wątroby
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Wątroba]
+pathology: [Przerzuty]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [liver-metastases-primer-2021, liver-metastasis-statpearls-2023, liver-metastases-epidemiology-2020]
+imageRefs:
+  - id: liver-metastases-ceus-01
+    title: Przerzut do wątroby z obwodowym wzorcem unaczynienia
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/5b/Contrast-enhanced_ultrasound_of_colon_cancer_metastasis_in_the_liver.jpg"
+    thumbnailUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Contrast-enhanced_ultrasound_of_colon_cancer_metastasis_in_the_liver.jpg/250px-Contrast-enhanced_ultrasound_of_colon_cancer_metastasis_in_the_liver.jpg"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Contrast-enhanced_ultrasound_of_colon_cancer_metastasis_in_the_liver.jpg"
+    sourceId: intechopen-liver-tumors-2012
+    caption: Ognisko przerzutowe z obwodowym wzorcem naczyniowym i odmiennym zachowaniem kontrastowym niż otaczający miąższ.
+    alt: Obraz CEUS przerzutu raka okrężnicy do wątroby z obwodowym wzorcem unaczynienia.
+    category: variant
+    findings:
+      - Zmiana ma obwodowy wzorzec wzmocnienia.
+      - Granice ogniska są dobrze uchwytne względem miąższu.
+      - Wzorzec różni się od typowego łagodnego wypełniania naczyniaka.
+    attribution: R. Badea, Simona Ioanitescu via Wikimedia Commons
+    licenseMode: cc-by
+    lastCheckedAt: "2026-07-08"
+sections:
+  assessmentChecklist:
+    - Liczba zmian ogniskowych.
+    - Rozmieszczenie segmentowe lub płatowe.
+    - Wielkość największej zmiany oraz wymiary reprezentatywnych ognisk.
+    - Echogeniczność, jednorodność i obecność obwódki.
+    - Relacja do naczyń i dróg żółciowych.
+    - Hepatomegalia i inne współistniejące odchylenia.
+  reportTemplate: |
+    W wątrobie widoczne {{pojedyncze_lub_liczne}} zmiany ogniskowe, rozmieszczone {{rozsianie_lub_segmentowo}}, największa o wymiarach {{wymiar_najwiekszej_zmiany_mm}} mm w segmencie {{segment}}. Zmiany {{hipoechogeniczne_hiperechogeniczne_lub_mieszane}}, {{jednorodne_lub_niejednorodne}}, {{bez_lub_z}} obwódką typu halo. Obraz budzi podejrzenie przerzutowego zajęcia wątroby.
+  impressionTemplate: |
+    Obraz mnogich lub pojedynczych zmian ogniskowych wątroby podejrzanych o przerzuty. Wymaga korelacji onkologicznej i dalszej charakterystyki.
+  clinicalNotes:
+    - Czułość konwencjonalnego USG dla drobnych lub izoechogenicznych przerzutów jest ograniczona.
+  differential:
+    - Mnogie naczyniaki lub inne wieloogniskowe zmiany łagodne.
+    - HCC wieloogniskowy zależnie od tła klinicznego.
+  followUp:
+    - Dalsza diagnostyka przekrojowa zależnie od wskazań onkologicznych i dostępnych wcześniejszych badań.

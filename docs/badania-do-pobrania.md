@@ -14,23 +14,6 @@ Dla każdej pozycji rekomendowany pipeline jest stały:
 - `USG jamy brzusznej / Wątroba / Obraz prawidłowy`
 - `USG jamy brzusznej / Wątroba / Stłuszczenie`
 - `USG jamy brzusznej / Wątroba / Marskość`
-- `USG jamy brzusznej / Pęcherzyk żółciowy / Obraz prawidłowy`
-- `USG jamy brzusznej / Pęcherzyk żółciowy / Kamica`
-- `USG jamy brzusznej / Pęcherzyk żółciowy / Zapalenie`
-- `USG jamy brzusznej / Nerki / Obraz prawidłowy`
-- `USG jamy brzusznej / Nerki / Wodonercze`
-- `USG szyi / Tarczyca / Obraz prawidłowy`
-- `USG szyi / Tarczyca / Hashimoto`
-- `USG szyi / Tarczyca / Guzek TI-RADS`
-- `USG szyi / Węzły chłonne / Odczynowe`
-- `USG szyi / Węzły chłonne / Podejrzane`
-- `USG tkanek miękkich / Tkanka podskórna / Tłuszczak`
-- `USG tkanek miękkich / Tkanka podskórna / Ropień`
-
-## Priorytet 1: brakujące pozycje z głównego zakresu atlasu
-
-### Wątroba
-
 - `USG jamy brzusznej / Wątroba / Nadciśnienie wrotne`
 - `USG jamy brzusznej / Wątroba / Torbiel prosta`
 - `USG jamy brzusznej / Wątroba / Torbiel złożona`
@@ -43,14 +26,29 @@ Dla każdej pozycji rekomendowany pipeline jest stały:
 - `USG jamy brzusznej / Wątroba / Poszerzenie dróg żółciowych`
 - `USG jamy brzusznej / Wątroba / Pneumobilia`
 - `USG jamy brzusznej / Wątroba / Zmiany po cholecystektomii`
-
-### Pęcherzyk żółciowy
-
+- `USG jamy brzusznej / Pęcherzyk żółciowy / Obraz prawidłowy`
+- `USG jamy brzusznej / Pęcherzyk żółciowy / Kamica`
+- `USG jamy brzusznej / Pęcherzyk żółciowy / Zapalenie`
 - `USG jamy brzusznej / Pęcherzyk żółciowy / Złóg zaklinowany w szyi`
 - `USG jamy brzusznej / Pęcherzyk żółciowy / Błoto żółciowe`
 - `USG jamy brzusznej / Pęcherzyk żółciowy / Polip cholesterolowy`
-- `USG jamy brzusznej / Pęcherzyk żółciowy / Polip wymagający kontroli`
 - `USG jamy brzusznej / Pęcherzyk żółciowy / Gruczolakowatość`
+- `USG jamy brzusznej / Nerki / Obraz prawidłowy`
+- `USG jamy brzusznej / Nerki / Wodonercze`
+- `USG szyi / Tarczyca / Obraz prawidłowy`
+- `USG szyi / Tarczyca / Hashimoto`
+- `USG szyi / Tarczyca / Guzek TI-RADS`
+- `USG szyi / Tarczyca / Guzek łagodny`
+- `USG szyi / Węzły chłonne / Odczynowe`
+- `USG szyi / Węzły chłonne / Podejrzane`
+- `USG tkanek miękkich / Tkanka podskórna / Tłuszczak`
+- `USG tkanek miękkich / Tkanka podskórna / Ropień`
+
+## Priorytet 1: brakujące pozycje z głównego zakresu atlasu
+
+### Pęcherzyk żółciowy
+
+- `USG jamy brzusznej / Pęcherzyk żółciowy / Polip wymagający kontroli`
 - `USG jamy brzusznej / Pęcherzyk żółciowy / Przewlekłe zapalenie`
 - `USG jamy brzusznej / Pęcherzyk żółciowy / Pęcherzyk porcelanowy`
 - `USG jamy brzusznej / Pęcherzyk żółciowy / Rak pęcherzyka`
@@ -88,7 +86,6 @@ Dla każdej pozycji rekomendowany pipeline jest stały:
 ### Tarczyca
 
 - `USG szyi / Tarczyca / Graves-Basedow`
-- `USG szyi / Tarczyca / Guzek łagodny`
 - `USG szyi / Tarczyca / Torbiel`
 - `USG szyi / Tarczyca / Zwapnienia`
 

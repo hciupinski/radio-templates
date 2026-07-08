@@ -7,6 +7,22 @@ import { z } from "zod";
 const dateSchema = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
 const modalitySchema = z.enum(["USG", "CT", "MR", "RTG", "MMG", "DXA", "INNE"]);
 const statusSchema = z.enum(["draft", "reviewed", "deprecated"]);
+const imageCategorySchema = z.enum([
+  "typical",
+  "variant",
+  "doppler",
+  "differential",
+  "normal-reference",
+  "pitfall"
+]);
+const imageLicenseModeSchema = z.enum([
+  "link-only",
+  "cc-by",
+  "cc-by-sa",
+  "cc-by-nc",
+  "public-domain",
+  "unknown"
+]);
 
 const sourceSchema = z.object({
   id: z.string().min(1),
@@ -15,6 +31,22 @@ const sourceSchema = z.object({
   type: z.enum(["guideline", "template-library", "educational", "local-standard"]),
   accessedAt: dateSchema,
   licenseNote: z.string().min(1)
+});
+
+const imageRefSchema = z.object({
+  id: z.string().min(1),
+  title: z.string().min(1),
+  imageUrl: z.string().url().startsWith("https://"),
+  thumbnailUrl: z.string().url().startsWith("https://").optional(),
+  sourceUrl: z.string().url().startsWith("https://"),
+  sourceId: z.string().min(1).optional(),
+  caption: z.string().min(1),
+  alt: z.string().min(1),
+  category: imageCategorySchema,
+  findings: z.array(z.string().min(1)).min(1).max(4),
+  attribution: z.string().min(1).optional(),
+  licenseMode: imageLicenseModeSchema,
+  lastCheckedAt: dateSchema
 });
 
 const taxonomyEntrySchema = z.object({
@@ -47,6 +79,7 @@ const templateSchema = z.object({
   version: z.string().min(1),
   updatedAt: dateSchema,
   sourceRefs: z.array(z.string().min(1)).min(1),
+  imageRefs: z.array(imageRefSchema).max(12).optional(),
   sections: z.object({
     assessmentChecklist: z.array(z.string().min(1)).min(1),
     reportTemplate: z.string().min(1),
@@ -86,6 +119,18 @@ function assertUnique(items, key, label) {
 }
 
 function assertKnownValues(values, allowed, field, templateId) {
+  for (const value of values) {
+    if (!allowed.has(value)) {
+      throw new Error(`Nieznana wartość "${value}" w ${field} dla szablonu ${templateId}`);
+    }
+  }
+}
+
+function assertKnownOptionalValues(values, allowed, field, templateId) {
+  if (!values?.length) {
+    return;
+  }
+
   for (const value of values) {
     if (!allowed.has(value)) {
       throw new Error(`Nieznana wartość "${value}" w ${field} dla szablonu ${templateId}`);
@@ -154,6 +199,12 @@ export function loadValidatedContent(rootDir = process.cwd()) {
     assertKnownValues(template.pathology, allowed.pathology, "pathology", template.id);
     assertKnownValues(template.tags, allowed.tags, "tags", template.id);
     assertKnownValues(template.sourceRefs, allowed.sources, "sourceRefs", template.id);
+    assertKnownOptionalValues(
+      template.imageRefs?.flatMap((imageRef) => (imageRef.sourceId ? [imageRef.sourceId] : [])),
+      allowed.sources,
+      "imageRefs.sourceId",
+      template.id
+    );
   }
 
   return {

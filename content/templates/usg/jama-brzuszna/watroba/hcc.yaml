@@ -1,0 +1,50 @@
+id: usg-watroba-hcc
+title: Zmiana podejrzana o HCC
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Wątroba]
+pathology: [HCC]
+tags: [Rezydent, Doppler, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [hcc-aasld-2018, hcc-bclc-2022]
+imageRefs:
+  - id: liver-hcc-ceus-01
+    title: HCC z tętniczym wzmocnieniem i wash-out
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/11/Contrast-enhanced_ultrasound_of_encephaloid_hepatocellular_carcinoma.jpg"
+    thumbnailUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Contrast-enhanced_ultrasound_of_encephaloid_hepatocellular_carcinoma.jpg/250px-Contrast-enhanced_ultrasound_of_encephaloid_hepatocellular_carcinoma.jpg"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Contrast-enhanced_ultrasound_of_encephaloid_hepatocellular_carcinoma.jpg"
+    sourceId: intechopen-liver-tumors-2012
+    caption: Zmiana z intensywnym wzmocnieniem tętniczym i późniejszym wash-out, wzorzec przemawiający za HCC.
+    alt: Obraz CEUS zmiany wątrobowej z typowym dla HCC wzmocnieniem tętniczym i wash-out.
+    category: variant
+    findings:
+      - We wczesnej fazie widoczne jest wyraźne wzmocnienie guza.
+      - W fazie późniejszej zmiana ulega wash-out i staje się względnie hipoechogeniczna.
+      - Obraz jest typowy dla złośliwej zmiany wątrobowej typu HCC.
+    attribution: R. Badea, Simona Ioanitescu via Wikimedia Commons
+    licenseMode: cc-by
+    lastCheckedAt: "2026-07-08"
+sections:
+  assessmentChecklist:
+    - Tło wątroby i obecność marskości lub przewlekłej choroby wątroby.
+    - Lokalizacja zmiany i segment.
+    - Trzy wymiary zmiany.
+    - Echostruktura, odgraniczenie i liczba ognisk.
+    - Naciekanie naczyń lub zakrzepica nowotworowa, jeśli podejrzewane.
+    - Obecność wodobrzusza i innych cech zaawansowania choroby.
+  reportTemplate: |
+    W segmencie {{segment}} wątroby, na tle {{marskiej_lub_inaczej_zmienionej_lub_niezmienionej}} wątroby, widoczna zmiana ogniskowa o wymiarach {{wymiary_mm}} mm, {{echostruktura}}, o {{granicach}} granicach, {{pojedyncza_lub_mnogie}}. {{Brak_lub_podejrzenie}} naciekania naczyniowego w dostępnym zakresie badania. Obraz budzi podejrzenie HCC, jednak wymaga dalszej charakterystyki zgodnie z obowiązującymi zaleceniami.
+  impressionTemplate: |
+    Zmiana ogniskowa wątroby podejrzana o HCC. Wskazana dalsza charakterystyka w dedykowanym badaniu kontrastowym.
+  clinicalNotes:
+    - USG może wykryć zmianę podejrzaną, ale zwykle nie pozwala na rozstrzygające rozpoznanie HCC bez dalszego badania kontrastowego.
+  differential:
+    - Regeneracyjny lub dysplastyczny guzek w marskości.
+    - Przerzut.
+    - Inna pierwotna lub wtórna zmiana złośliwa wątroby.
+  followUp:
+    - Pilna korelacja hepatologiczna lub onkologiczna oraz dalsza diagnostyka zgodnie z aktualnymi zaleceniami.

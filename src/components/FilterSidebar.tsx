@@ -59,8 +59,8 @@ export function FilterSidebar({
   countsByStatus
 }: FilterSidebarProps) {
   return (
-    <aside className="sidebar" aria-label="Filtry">
-      <div className="sidebar-heading">
+    <section className="header-filters" aria-label="Filtry">
+      <div className="header-filters-heading">
         <div>
           <h2>Filtry</h2>
           <p>Zawężaj po badaniu, narządzie i patologii.</p>
@@ -106,9 +106,7 @@ export function FilterSidebar({
           label="Status"
           value={filters.status}
           options={["draft", "reviewed", "deprecated"]}
-          onChange={(value) =>
-            onFiltersChange(updateFilter(filters, "status", value) as Filters)
-          }
+          onChange={(value) => onFiltersChange(updateFilter(filters, "status", value) as Filters)}
         />
       </div>
 
@@ -117,6 +115,6 @@ export function FilterSidebar({
         <span>reviewed: {countsByStatus.reviewed}</span>
         <span>deprecated: {countsByStatus.deprecated}</span>
       </div>
-    </aside>
+    </section>
   );
 }

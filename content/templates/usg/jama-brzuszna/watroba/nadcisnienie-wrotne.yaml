@@ -10,7 +10,21 @@ tags: [Rezydent, Doppler, Kontrola]
 status: draft
 version: "0.1.0"
 updatedAt: "2026-07-08"
-sourceRefs: [efsumb-guidelines, radiopaedia, local-review]
+sourceRefs: [portal-htn-us-2006, cirrhosis-doppler-overview-2016, portal-htn-management-2022]
+imageRefs:
+  - id: portal-hypertension-doppler-01
+    title: Poszerzona żyła wrotna z przepływem spowolnionym
+    imageUrl: "https://radiologykey.com/wp-content/uploads/2023/02/f08-05ab-9780323874793.jpg"
+    sourceUrl: "https://radiologykey.com/the-role-of-ultrasound-in-portal-hypertension/"
+    caption: Obraz nadciśnienia wrotnego z poszerzeniem żyły wrotnej i redukcją prędkości przepływu.
+    alt: Obraz USG Doppler żyły wrotnej z jej poszerzeniem i spowolnionym przepływem.
+    category: doppler
+    findings:
+      - Poszerzenie żyły wrotnej do około 14 mm.
+      - Przepływ w żyle wrotnej zwolniony do około 12 cm/s.
+      - Obraz wspiera rozpoznanie nadciśnienia wrotnego.
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-08"
 sections:
   assessmentChecklist:
     - Wielkość i echostruktura wątroby oraz cechy przewlekłej choroby miąższu.
