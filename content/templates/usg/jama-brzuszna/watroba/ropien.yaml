@@ -10,7 +10,24 @@ tags: [Rezydent, Doppler, Pilne]
 status: draft
 version: "0.1.0"
 updatedAt: "2026-07-08"
-sourceRefs: [efsumb-guidelines, radiopaedia, local-review]
+sourceRefs: [pyogenic-liver-abscess-2014]
+imageRefs:
+  - id: liver-abscess-ceus-01
+    title: Ropień wątroby z nieregularnym centrum płynowym
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b6/Contrast-enhanced_ultrasound_of_liver_abscess.jpg"
+    thumbnailUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Contrast-enhanced_ultrasound_of_liver_abscess.jpg/250px-Contrast-enhanced_ultrasound_of_liver_abscess.jpg"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Contrast-enhanced_ultrasound_of_liver_abscess.jpg"
+    sourceId: intechopen-liver-tumors-2012
+    caption: Nieregularna zmiana o płynowym centrum z odczynem w otaczającym miąższu, obraz wspierający rozpoznanie ropnia.
+    alt: Obraz CEUS ropnia wątroby z nieregularnym płynowym centrum i obwodową reakcją zapalną.
+    category: variant
+    findings:
+      - Zmiana ma nieregularny obrys i centralny komponent płynowy.
+      - Otaczający miąższ wykazuje odczynowe wzmocnienie.
+      - Brak obrazu typowego dla litego, dobrze unaczynionego guza.
+    attribution: R. Badea, Simona Ioanitescu via Wikimedia Commons
+    licenseMode: cc-by
+    lastCheckedAt: "2026-07-08"
 sections:
   assessmentChecklist:
     - Lokalizacja zmiany i segment wątroby.

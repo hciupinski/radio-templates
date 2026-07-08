@@ -10,7 +10,22 @@ tags: [Rezydent, Doppler, Kontrola]
 status: draft
 version: "0.1.0"
 updatedAt: "2026-07-08"
-sourceRefs: [efsumb-guidelines, radiopaedia, local-review]
+sourceRefs: [portal-htn-us-2006, cirrhosis-doppler-overview-2016, hcc-aasld-2018]
+imageRefs:
+  - id: liver-cirrhosis-typical-01
+    title: Marskość z guzkowatym obrysem powierzchni
+    imageUrl: "https://radiologykey.com/wp-content/uploads/2023/02/f08-02gh-9780323874793.jpg"
+    sourceUrl: "https://radiologykey.com/the-role-of-ultrasound-in-portal-hypertension/"
+    caption: Zaawansowana przebudowa marska z guzkowatą powierzchnią i przebudową proporcji płatów.
+    alt: Obraz USG marskiej wątroby z nierównym obrysem i niejednorodnym miąższem.
+    category: typical
+    findings:
+      - Niejednorodna, gruboziarnista echostruktura miąższu.
+      - Guzkowaty zarys powierzchni wątroby.
+      - Powiększenie płata ogoniastego.
+      - Cechy przewlekłej przebudowy narządu.
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-08"
 sections:
   assessmentChecklist:
     - Wielkość wątroby i proporcje płatów.

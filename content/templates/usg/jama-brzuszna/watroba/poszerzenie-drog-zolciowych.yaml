@@ -10,7 +10,22 @@ tags: [Rezydent, Kontrola]
 status: draft
 version: "0.1.0"
 updatedAt: "2026-07-08"
-sourceRefs: [aium-parameters, radiopaedia, local-review]
+sourceRefs: [cbd-post-chole-1995]
+imageRefs:
+  - id: bile-duct-dilatation-usg-01
+    title: Poszerzony przewód żółciowy wspólny
+    imageUrl: "https://efsumb.org/wp-content/uploads/2021/01/Screen-Shot-2021-01-05-at-14.54.11.png"
+    thumbnailUrl: "https://efsumb.org/wp-content/uploads/2021/01/Screen-Shot-2021-01-05-at-14.54.11-300x225.png"
+    sourceUrl: "https://efsumb.org/portfolio-item/dilatation-of-the-common-bile-duct/"
+    caption: Wyraźnie poszerzony przewód żółciowy wspólny mierzony w sąsiedztwie żyły wrotnej.
+    alt: Obraz USG z poszerzonym przewodem żółciowym wspólnym w okolicy wnęki wątroby.
+    category: typical
+    findings:
+      - Przewód żółciowy wspólny jest wyraźnie poszerzony.
+      - Poszerzenie widoczne jest w okolicy wnęki wątroby przy żyle wrotnej.
+      - Średnica przewodu przekracza typowy zakres prawidłowy i wymaga korelacji z objawami oraz przeszkodą odpływu żółci.
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-08"
 sections:
   assessmentChecklist:
     - Poszerzenie dróg żółciowych wewnątrzwątrobowych.

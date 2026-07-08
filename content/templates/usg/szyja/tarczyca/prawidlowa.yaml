@@ -10,7 +10,23 @@ tags: [Rezydent]
 status: draft
 version: "0.1.0"
 updatedAt: "2026-07-08"
-sourceRefs: [aium-parameters, acr-rads, local-review]
+sourceRefs: [acr-thyroid-us-lexicon-2015, acr-tirads-white-paper-2017]
+imageRefs:
+  - id: thyroid-normal-longitudinal-usg-01
+    title: USG prawidłowego miąższu tarczycy w przekroju podłużnym
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/a/ae/SD-Sono002.jpg
+    sourceUrl: https://commons.wikimedia.org/wiki/File:SD-Sono002.jpg
+    sourceId: wikimedia-commons
+    caption: Referencyjny obraz jednorodnego, normoechogenicznego miąższu tarczycy w przekroju podłużnym.
+    alt: Ultrasonogram prawidłowego miąższu tarczycy w przekroju podłużnym.
+    category: normal-reference
+    findings:
+      - Jednorodny miąższ tarczycy.
+      - Zachowany gładki obrys gruczołu.
+      - Brak widocznych zmian ogniskowych w pokazanym przekroju.
+    attribution: Drahreg01 via Wikimedia Commons
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-07-08"
 sections:
   assessmentChecklist:
     - Położenie tarczycy.

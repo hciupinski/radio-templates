@@ -34,9 +34,231 @@
   type: educational
   accessedAt: "2026-07-08"
   licenseNote: Źródło edukacyjne do weryfikacji praktycznych algorytmów i różnicowania.
+- id: wikimedia-commons
+  title: Wikimedia Commons
+  url: https://commons.wikimedia.org/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Repozytorium plików multimedialnych; dla każdego obrazu należy osobno zweryfikować stronę pliku, warunki licencji oraz stabilność zewnętrznego URL przed osadzeniem.
 - id: local-review
   title: Lokalna recenzja specjalisty radiologii
   url: https://example.org/local-review
   type: local-standard
   accessedAt: "2026-07-08"
   licenseNote: Miejsce na lokalny standard pracowni i recenzję merytoryczną przed oznaczeniem szablonu jako reviewed.
+- id: acg-focal-liver-lesions-2024
+  title: "ACG Clinical Guideline: Focal Liver Lesions"
+  url: https://pubmed.ncbi.nlm.nih.gov/38958301/
+  type: guideline
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretna wytyczna używana do zasad opisu i dalszego postępowania w ogniskowych zmianach wątroby.
+- id: hepatic-hemangioma-internists-2020
+  title: "Hepatic hemangioma: What internists need to know"
+  url: https://pubmed.ncbi.nlm.nih.gov/31933511/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretny przegląd wykorzystany do cech obrazowych typowego i atypowego naczyniaka.
+- id: hepatic-hemangioma-review-2024
+  title: "Hepatic Hemangioma: Review of Imaging and Therapeutic Strategies"
+  url: https://pubmed.ncbi.nlm.nih.gov/38541175/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretny przegląd wykorzystany do aktualizacji cech obrazowych i zasad obserwacji naczyniaka.
+- id: fnh-imaging-review-2016
+  title: "Imaging of Hepatic Focal Nodular Hyperplasia: Pictorial Review and Diagnostic Strategy"
+  url: https://pubmed.ncbi.nlm.nih.gov/27986170/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretny przegląd obrazowania FNH wykorzystany do cech opisu i różnicowania.
+- id: fnh-adenoma-management-2020
+  title: "Focal Nodular Hyperplasia and Hepatic Adenoma: Evaluation and Management"
+  url: https://pubmed.ncbi.nlm.nih.gov/32620279/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretny przegląd użyty do różnicowania FNH i gruczolaka oraz do ostrożnego formułowania zaleceń.
+- id: hepatocellular-adenoma-imaging-2006
+  title: "Hepatocellular adenoma: findings at state-of-the-art magnetic resonance imaging, ultrasound, computed tomography and pathologic analysis"
+  url: https://pubmed.ncbi.nlm.nih.gov/16708218/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretna publikacja wykorzystana do cech obrazowych gruczolaka, w tym ograniczeń samego USG.
+- id: pyogenic-liver-abscess-2014
+  title: "Pyogenic liver abscess"
+  url: https://pubmed.ncbi.nlm.nih.gov/28839753/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretny przegląd użyty do cech obrazu ropnia, różnicowania i pilności postępowania.
+- id: hcc-aasld-2018
+  title: "Diagnosis, Staging, and Management of Hepatocellular Carcinoma: 2018 Practice Guidance by the American Association for the Study of Liver Diseases"
+  url: https://pubmed.ncbi.nlm.nih.gov/29624699/
+  type: guideline
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretna wytyczna użyta do ostrożnego formułowania wniosków przy podejrzeniu HCC i dalszej charakterystyki.
+- id: hcc-bclc-2022
+  title: "BCLC strategy for prognosis prediction and treatment recommendation: The 2022 update"
+  url: https://pubmed.ncbi.nlm.nih.gov/34801630/
+  type: guideline
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretna publikacja użyta do aktualnego kontekstu dalszego postępowania przy podejrzeniu HCC.
+- id: portal-htn-us-2006
+  title: "The role of ultrasonography in portal hypertension"
+  url: https://pubmed.ncbi.nlm.nih.gov/19858596/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretny przegląd wykorzystany do sonograficznych cech nadciśnienia wrotnego.
+- id: cirrhosis-doppler-overview-2016
+  title: "Altered Doppler flow patterns in cirrhosis patients: an overview"
+  url: https://pubmed.ncbi.nlm.nih.gov/26169079/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretna publikacja wykorzystana do opisu przepływu w Dopplerze u chorych z marskością i nadciśnieniem wrotnym.
+- id: portal-htn-management-2022
+  title: "Management of Portal Hypertension"
+  url: https://pubmed.ncbi.nlm.nih.gov/35814519/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretny przegląd użyty do praktycznego kontekstu klinicznego nadciśnienia wrotnego.
+- id: nafld-aasld-2018
+  title: "The diagnosis and management of nonalcoholic fatty liver disease: Practice guidance from the American Association for the Study of Liver Diseases"
+  url: https://pubmed.ncbi.nlm.nih.gov/28714183/
+  type: guideline
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretna wytyczna użyta do opisu stłuszczenia i ograniczeń ultrasonografii w ocenie NAFLD.
+- id: nafld-easl-2016
+  title: "EASL-EASD-EASO Clinical Practice Guidelines for the management of non-alcoholic fatty liver disease"
+  url: https://doi.org/10.1016/j.jhep.2015.11.004
+  type: guideline
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretna europejska wytyczna użyta do stopniowania i praktycznych zaleceń przy stłuszczeniu wątroby.
+- id: cbd-post-chole-1995
+  title: "Does the common bile duct dilate after cholecystectomy? Sonographic evaluation in 234 patients"
+  url: https://pubmed.ncbi.nlm.nih.gov/7676981/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretne badanie sonograficzne wykorzystane do interpretacji średnicy przewodu żółciowego wspólnego po cholecystektomii.
+- id: liver-metastases-primer-2021
+  title: "Liver metastases"
+  url: https://www.nature.com/articles/s41572-021-00261-6
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretny przegląd użyty do podstaw obrazowania i kontekstu klinicznego przerzutów do wątroby.
+- id: liver-metastasis-statpearls-2023
+  title: "Liver Metastasis"
+  url: https://www.ncbi.nlm.nih.gov/books/NBK553118/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretne opracowanie NCBI wykorzystane do praktycznych elementów oceny i różnicowania przerzutów do wątroby.
+- id: liver-metastases-epidemiology-2020
+  title: "Epidemiology of liver metastases"
+  url: https://doi.org/10.1016/j.canep.2020.101760
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretna publikacja wykorzystana do tła epidemiologicznego i częstego pochodzenia przerzutów do wątroby.
+- id: liver-how-we-do-it-2009
+  title: "The liver: how we do it"
+  url: https://pubmed.ncbi.nlm.nih.gov/28191063/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretna publikacja wykorzystana do techniki i podstawowych elementów opisu prawidłowego badania USG wątroby.
+- id: efsumb-liver-course-book-2010
+  title: "Ultrasound of the liver - EFSUMB European Course Book"
+  url: https://web.archive.org/web/20170812135306/http://www.kosmos-design.co.uk/efsumb-ecb/ecbse-ch02-ultrasoundliver.pdf
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretne opracowanie EFSUMB wykorzystane do zakresu oceny i podstawowej terminologii prawidłowego badania USG wątroby.
+- id: pneumobilia-benign-or-life-threatening-2006
+  title: "Pneumobilia: benign or life-threatening"
+  url: https://pubmed.ncbi.nlm.nih.gov/16567248/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretna publikacja wykorzystana do opisu pneumobilia, typowych przyczyn oraz różnicowania z innymi przyczynami gazu w obrębie wątroby.
+- id: intechopen-liver-tumors-2012
+  title: "Ultrasound Imaging of Liver Tumors - Current Clinical Applications"
+  url: https://doi.org/10.5772/31137
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Otwarty rozdział IntechOpen wykorzystywany jako źródło figur USG zmian ogniskowych wątroby; obrazy na Commons mają jawną licencję CC BY 3.0.
+- id: gallstone-disease-nice-2014
+  title: "Gallstone disease: diagnosis and management"
+  url: https://www.nice.org.uk/guidance/cg188
+  type: guideline
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretna wytyczna NICE wykorzystana do rozpoznawania i postępowania w objawowej kamicy pęcherzyka żółciowego.
+- id: wses-acute-calculous-cholecystitis-2016
+  title: "2016 WSES guidelines on acute calculous cholecystitis"
+  url: https://doi.org/10.1186/s13017-016-0082-5
+  type: guideline
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretna wytyczna wykorzystana do różnicowania zaklinowanego złogu w szyi z ostrym zapaleniem pęcherzyka i do opisu istotnych cech ultrasonograficznych.
+- id: gallbladder-sludge-clinical-significance-2001
+  title: "Gallbladder sludge: What is its clinical significance?"
+  url: https://pubmed.ncbi.nlm.nih.gov/11276386/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretny przegląd wykorzystany do opisu przebiegu klinicznego, powikłań i znaczenia diagnostycznego błota żółciowego.
+- id: biliary-sludge-sluggish-gallbladder-2003
+  title: "Biliary sludge: The sluggish gallbladder"
+  url: https://pubmed.ncbi.nlm.nih.gov/12974509/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretna publikacja wykorzystana do obrazu USG, przyczyn i różnicowania błota żółciowego.
+- id: gallbladder-polyps-epidemiology-2002
+  title: "Gallbladder polyps: epidemiology, natural history and management"
+  url: https://pubmed.ncbi.nlm.nih.gov/11930198/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretna publikacja wykorzystana do tła klinicznego, częstości występowania i ostrożnego formułowania znaczenia małych polipów pęcherzyka.
+- id: gallbladder-polyps-cholesterolosis-review-2003
+  title: "Gallbladder polyps, cholesterolosis, adenomyomatosis, and acute acalculous cholecystitis"
+  url: https://pubmed.ncbi.nlm.nih.gov/14719768/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretny przegląd wykorzystany do obrazu cholesterolosis i cech różnicujących przyścienne zmiany pęcherzyka w USG.
+- id: gallbladder-polyps-sonographic-detection-2020
+  title: "Prevalence and Sonographic Detection of Gallbladder Polyps in a Western European Population"
+  url: https://pubmed.ncbi.nlm.nih.gov/32106001/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretna publikacja wykorzystana do praktycznego opisu wykrywalności i wyglądu małych polipów pęcherzyka w ultrasonografii.
+- id: gallbladder-adenomyomatosis-imaging-2008
+  title: "Imaging of adenomyomatosis of the gall bladder"
+  url: https://pubmed.ncbi.nlm.nih.gov/18373800/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretny przegląd wykorzystany do typowych cech USG gruczolakowatości pęcherzyka, w tym zatok Rokitansky'ego-Aschoffa i artefaktu comet-tail.
+- id: gallbladder-adenomyomatosis-ceus-2015
+  title: "Contrast-enhanced ultrasonography diagnosis of fundal localized type of gallbladder adenomyomatosis"
+  url: https://pubmed.ncbi.nlm.nih.gov/26239485/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretna publikacja wykorzystana do obrazu CEUS oraz różnicowania ogniskowej gruczolakowatości pęcherzyka.
+- id: gallbladder-adenomyomatosis-overview-2018
+  title: "Pathogenesis of gallbladder adenomyomatosis and its relationship with early-stage gallbladder carcinoma: an overview"
+  url: https://pubmed.ncbi.nlm.nih.gov/29791592/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretny przegląd wykorzystany do ostrożnego różnicowania gruczolakowatości z wczesną zmianą nowotworową.
+- id: hashimoto-evidence-guide-2022
+  title: "Hashimoto thyroiditis: an evidence-based guide to etiology, diagnosis and treatment"
+  url: https://pubmed.ncbi.nlm.nih.gov/35243857/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretny przegląd wykorzystany do opisu rozpoznania, korelacji laboratoryjnej oraz typowych cech klinicznych i ultrasonograficznych Hashimoto.
+- id: superficial-soft-tissue-lesions-us-2019
+  title: "A bump: what to do next? Ultrasound imaging of superficial soft-tissue palpable lesions"
+  url: https://pubmed.ncbi.nlm.nih.gov/31786796/
+  type: educational
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretny przegląd wykorzystany do różnicowania palpacyjnych zmian podskórnych, w tym typowego obrazu tłuszczaka w USG.
+- id: acr-thyroid-us-lexicon-2015
+  title: "Thyroid Ultrasound Reporting Lexicon: White Paper of the ACR Thyroid Imaging, Reporting and Data System (TIRADS) Committee"
+  url: https://pubmed.ncbi.nlm.nih.gov/26419308/
+  type: guideline
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretna publikacja ACR wykorzystana do opisu słownika cech USG guzka tarczycy używanych w klasyfikacji TI-RADS.
+- id: acr-tirads-white-paper-2017
+  title: "ACR Thyroid Imaging, Reporting and Data System (TI-RADS): White Paper of the ACR TI-RADS Committee"
+  url: https://pubmed.ncbi.nlm.nih.gov/28372962/
+  type: guideline
+  accessedAt: "2026-07-08"
+  licenseNote: Konkretna publikacja ACR wykorzystana do punktacji TI-RADS oraz progów BAC i kontroli zależnych od kategorii i wielkości guzka.

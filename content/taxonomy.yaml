@@ -109,12 +109,33 @@ pathology:
   - id: naczyniak
     label: Naczyniak
     synonyms: [hemangioma]
+  - id: fnh
+    label: FNH
+    synonyms: [focal nodular hyperplasia, ogniskowy rozrost guzkowy]
+  - id: gruczolak
+    label: Gruczolak
+    synonyms: [hepatocellular adenoma, hepatic adenoma]
   - id: kamica
     label: Kamica
     synonyms: [złogi, stones, calculi]
+  - id: zlog-zaklinowany-w-szyi
+    label: Złóg zaklinowany w szyi
+    synonyms: [impacted gallstone in the neck, stone impacted in gallbladder neck, zachyłek Hartmanna]
+  - id: bloto-zolciowe
+    label: Błoto żółciowe
+    synonyms: [biliary sludge, gallbladder sludge, biliary sediment]
+  - id: polip-cholesterolowy
+    label: Polip cholesterolowy
+    synonyms: [cholesterol polyp, cholesterolosis polyp, polip cholesterolotyczny]
+  - id: gruczolakowatosc
+    label: Gruczolakowatość
+    synonyms: [adenomyomatosis, adenomyomatoza pęcherzyka]
   - id: zapalenie
     label: Zapalenie
     synonyms: [inflammation]
+  - id: przerzuty
+    label: Przerzuty
+    synonyms: [metastases, metastasis]
   - id: wodonercze
     label: Wodonercze
     synonyms: [hydronephrosis]
@@ -127,6 +148,9 @@ pathology:
   - id: guzek
     label: Guzek
     synonyms: [nodule, zmiana ogniskowa]
+  - id: guzek-lagodny
+    label: Guzek łagodny
+    synonyms: [benign nodule, colloid nodule, spongiform nodule]
   - id: odczynowe
     label: Odczynowe
     synonyms: [reactive]
@@ -139,6 +163,15 @@ pathology:
   - id: ropien
     label: Ropień
     synonyms: [abscess]
+  - id: hcc
+    label: HCC
+    synonyms: [hepatocellular carcinoma, rak wątrobowokomórkowy]
+  - id: pneumobilia
+    label: Pneumobilia
+    synonyms: [air in the biliary tree, gaz w drogach żółciowych]
+  - id: zmiany-po-cholecystektomii
+    label: Zmiany po cholecystektomii
+    synonyms: [stan po cholecystektomii, post-cholecystectomy changes]
 
 tags:
   - id: rezydent

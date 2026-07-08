@@ -1,0 +1,51 @@
+id: usg-watroba-fnh
+title: FNH wątroby
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Wątroba]
+pathology: [FNH]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [fnh-imaging-review-2016, fnh-adenoma-management-2020]
+imageRefs:
+  - id: liver-fnh-ceus-01
+    title: FNH w CEUS z centralnym wypełnieniem
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Contrast-enhanced_ultrasound_of_focal_nodular_hyperplasia.jpg"
+    thumbnailUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Contrast-enhanced_ultrasound_of_focal_nodular_hyperplasia.jpg/330px-Contrast-enhanced_ultrasound_of_focal_nodular_hyperplasia.jpg"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Contrast-enhanced_ultrasound_of_focal_nodular_hyperplasia.jpg"
+    sourceId: intechopen-liver-tumors-2012
+    caption: Szaroskala wykrywa zmianę, a CEUS pokazuje centralne wypełnianie i promienisty wzorzec charakterystyczny dla FNH.
+    alt: Zestawienie obrazu szaroskali i CEUS w ogniskowym rozroście guzkowym wątroby.
+    category: variant
+    findings:
+      - Zmiana jest uchwytna już w obrazie szaroskali.
+      - W CEUS widoczne jest centralne wypełnianie kontrastem.
+      - Wzorzec wzmocnienia promienistego wspiera rozpoznanie FNH.
+    attribution: R. Badea, Simona Ioanitescu via Wikimedia Commons
+    licenseMode: cc-by
+    lastCheckedAt: "2026-07-08"
+sections:
+  assessmentChecklist:
+    - Lokalizacja zmiany i segment wątroby.
+    - Trzy wymiary zmiany.
+    - Echogeniczność względem otaczającego miąższu.
+    - Odgraniczenie zmiany i jednorodność.
+    - Obecność centralnej blizny lub promienistego układu naczyń, jeśli widoczne.
+    - Unaczynienie w badaniu Doppler.
+    - Tło wątroby i obecność innych zmian ogniskowych.
+  reportTemplate: |
+    W segmencie {{segment}} wątroby widoczna {{dobrze_lub_slabiej}} odgraniczona zmiana ogniskowa o wymiarach {{wymiary_mm}} mm, {{izoechogeniczna_lub_inna}}, {{jednorodna_lub_niejednorodna}}, z {{brakiem_lub_obecnoscia}} cech centralnej blizny lub charakterystycznego unaczynienia w badaniu Doppler. Obraz może odpowiadać FNH, jednak nie jest jednoznacznie swoisty w ultrasonografii konwencjonalnej.
+  impressionTemplate: |
+    Zmiana ogniskowa wątroby o obrazie mogącym odpowiadać FNH. W razie braku wcześniejszej charakterystyki rozważyć dalszą ocenę obrazową.
+  clinicalNotes:
+    - Samo USG B-mode zwykle nie wystarcza do pewnego rozpoznania FNH.
+  differential:
+    - Naczyniak atypowy.
+    - Gruczolak.
+    - Inna zmiana ogniskowa wymagająca dalszej charakterystyki.
+  followUp:
+    - Rozważyć dalszą charakterystykę w badaniu kontrastowym zależnie od obrazu klinicznego i wcześniejszych badań.

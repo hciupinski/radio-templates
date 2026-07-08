@@ -2,9 +2,11 @@ import { startTransition, useDeferredValue, useEffect, useMemo, useRef, useState
 import { checkForContentUpdate, loadContent, prepareContent, resolvePublicPath } from "./data/content";
 import type { AppContentBundle, RadiologyTemplate, TemplateStatus } from "./types/radiology";
 import { Header } from "./components/Header";
-import { FilterSidebar, type Filters } from "./components/FilterSidebar";
+import { type Filters } from "./components/FilterSidebar";
 import { TemplateList } from "./components/TemplateList";
 import { TemplateDetail } from "./components/TemplateDetail";
+
+type ThemeMode = "light" | "dark";
 
 const emptyFilters: Filters = {
   modality: "",
@@ -14,6 +16,19 @@ const emptyFilters: Filters = {
   pathology: "",
   status: ""
 };
+
+function getInitialTheme(): ThemeMode {
+  if (typeof window === "undefined") {
+    return "light";
+  }
+
+  const savedTheme = window.localStorage.getItem("radio-templates-theme");
+  if (savedTheme === "light" || savedTheme === "dark") {
+    return savedTheme;
+  }
+
+  return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
 
 function matchesFilter(value: string, selected: string): boolean {
   return !selected || value === selected;
@@ -58,6 +73,7 @@ export default function App() {
   const [selectedId, setSelectedId] = useState("");
   const [activePane, setActivePane] = useState<"list" | "detail">("list");
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const [theme, setTheme] = useState<ThemeMode>(() => getInitialTheme());
   const [syncMessage, setSyncMessage] = useState("");
   const deferredQuery = useDeferredValue(query);
   const updateInFlightRef = useRef(false);
@@ -216,6 +232,30 @@ export default function App() {
     };
   }, [syncMessage]);
 
+  useEffect(() => {
+    const isMobileViewport = window.matchMedia("(max-width: 760px)").matches;
+    if (!filtersOpen || !isMobileViewport) {
+      return;
+    }
+
+    const previousBodyOverflow = document.body.style.overflow;
+    const previousHtmlOverflow = document.documentElement.style.overflow;
+
+    document.body.style.overflow = "hidden";
+    document.documentElement.style.overflow = "hidden";
+
+    return () => {
+      document.body.style.overflow = previousBodyOverflow;
+      document.documentElement.style.overflow = previousHtmlOverflow;
+    };
+  }, [filtersOpen]);
+
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme;
+    document.documentElement.style.colorScheme = theme;
+    window.localStorage.setItem("radio-templates-theme", theme);
+  }, [theme]);
+
   const activeFilterCount = Object.values(filters).filter(Boolean).length;
 
   if (loadState === "error") {
@@ -255,6 +295,16 @@ export default function App() {
         contentVersion={bundle.contentVersion}
         totalTemplates={preparedContent.templatesWithSearch.length}
         pdfUrl={resolvePublicPath("szablony-radiologiczne.pdf")}
+        filtersOpen={filtersOpen}
+        onToggleFilters={() => setFiltersOpen((isOpen) => !isOpen)}
+        filters={filters}
+        onFiltersChange={setFilters}
+        onClearFilters={() => setFilters(emptyFilters)}
+        taxonomy={bundle.taxonomy}
+        countsByStatus={countsByStatus}
+        activeFilterCount={activeFilterCount}
+        theme={theme}
+        onToggleTheme={() => setTheme((current) => (current === "light" ? "dark" : "light"))}
       />
 
       {syncMessage ? (
@@ -264,13 +314,6 @@ export default function App() {
       ) : null}
 
       <nav className="mobile-navigation" aria-label="Widoki aplikacji mobilnej">
-        <button
-          className={filtersOpen ? "mobile-nav-button active" : "mobile-nav-button"}
-          type="button"
-          onClick={() => setFiltersOpen((isOpen) => !isOpen)}
-        >
-          Filtry{activeFilterCount ? ` (${activeFilterCount})` : ""}
-        </button>
         <button
           className={activePane === "list" ? "mobile-nav-button active" : "mobile-nav-button"}
           type="button"
@@ -295,21 +338,7 @@ export default function App() {
         </button>
       </nav>
 
-      <section
-        className={`workspace pane-${activePane} ${filtersOpen ? "filters-open" : ""}`}
-        aria-label="Przeglądarka szablonów"
-      >
-        <FilterSidebar
-          filters={filters}
-          onFiltersChange={setFilters}
-          onClear={() => {
-            setFilters(emptyFilters);
-            setFiltersOpen(false);
-          }}
-          taxonomy={bundle.taxonomy}
-          countsByStatus={countsByStatus}
-        />
-
+      <section className={`workspace pane-${activePane}`} aria-label="Przeglądarka szablonów">
         <TemplateList
           templates={filteredTemplates}
           selectedId={selectedTemplate?.id}

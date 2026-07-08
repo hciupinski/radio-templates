@@ -43,9 +43,17 @@ Use them to determine:
    - otherwise stop and explain what is missing
 4. Check whether planned `sourceRefs` already exist in `content/sources.yaml`.
 5. If a source is missing, add a new source entry before referencing it from the template.
-6. Create the YAML file under `content/templates/...`.
-7. Run `npm run validate`.
-8. If validation fails, fix the file or related taxonomy/source entries before finishing.
+6. Search for embeddable educational images for the requested entity.
+7. Keep only image candidates that have:
+   - a direct `https` image URL
+   - a separate page URL for source attribution
+   - concise educational captioning
+   - 2 to 4 visible findings worth pointing out
+   - a recorded `licenseMode`
+8. If an image source requires a new reusable source entry in `content/sources.yaml`, add that entry before referencing it from `imageRefs.sourceId`.
+9. Create the YAML file under `content/templates/...`.
+10. Run `npm run validate`.
+11. If validation fails, fix the file or related taxonomy/source entries before finishing.
 
 ## Path Rules
 
@@ -81,6 +89,7 @@ Write fields required by the local schema:
 - `version`
 - `updatedAt`
 - `sourceRefs`
+- optional `imageRefs`
 - `sections.assessmentChecklist`
 - `sections.reportTemplate`
 - `sections.impressionTemplate`
@@ -89,6 +98,22 @@ Write fields required by the local schema:
 - optional `sections.followUp`
 
 Use labels from `content/taxonomy.yaml`, not taxonomy ids, inside metadata arrays.
+
+If images are available, write each `imageRefs` item with:
+
+- `id`
+- `title`
+- `imageUrl`
+- optional `thumbnailUrl`
+- `sourceUrl`
+- optional `sourceId`
+- `caption`
+- `alt`
+- `category`
+- `findings`
+- optional `attribution`
+- `licenseMode`
+- `lastCheckedAt`
 
 ## Content Rules
 
@@ -113,6 +138,7 @@ Use labels from `content/taxonomy.yaml`, not taxonomy ids, inside metadata array
   - `accessedAt`
   - `licenseNote`
 - Do not reference a source id that does not exist in `content/sources.yaml`.
+- For image repositories or article figures, keep the `licenseNote` specific about reuse uncertainty or link-only usage when needed.
 
 ## Decision Rules
 
@@ -120,6 +146,7 @@ Use labels from `content/taxonomy.yaml`, not taxonomy ids, inside metadata array
 - If only educational references exist, still generate the file, but keep status as `draft`.
 - If pathology wording is broad, narrow it to the most common clinically useful variant and state that assumption in the final message.
 - If the taxonomy is too narrow for the requested concept, extend taxonomy carefully instead of forcing a wrong label.
+- If no stable embeddable image URLs are available, omit `imageRefs` rather than adding broken or speculative links.
 
 ## Completion Criteria
 
@@ -128,6 +155,7 @@ Finish only when all are true:
 - the target YAML file exists in `content/templates/**`
 - any required taxonomy additions are saved
 - any required source additions are saved
+- any included `imageRefs` are schema-valid and use direct external `https` URLs
 - `npm run validate` passes, or you clearly report why it could not be run
 
 ## Final Response
@@ -136,4 +164,5 @@ Report:
 
 - the created file path
 - whether taxonomy or sources were updated
+- whether `imageRefs` were added
 - whether validation passed

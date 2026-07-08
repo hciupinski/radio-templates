@@ -11,6 +11,22 @@ status: draft
 version: "0.1.0"
 updatedAt: "2026-07-08"
 sourceRefs: [aium-parameters, radiopaedia, local-review]
+imageRefs:
+  - id: hydronephrosis-usg-typical-01
+    title: Typowy obraz wodonercza
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/28/Hydro.jpg"
+    thumbnailUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Hydro.jpg/250px-Hydro.jpg"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Hydro.jpg"
+    caption: Poszerzenie układu kielichowo-miedniczkowego z bezechowymi przestrzeniami w obrębie nerki.
+    alt: Obraz USG nerki z poszerzeniem układu kielichowo-miedniczkowego typowym dla wodonercza.
+    category: typical
+    findings:
+      - Bezechowe poszerzenie centralnej części UKM.
+      - Zarys poszerzonych kielichów.
+      - Obraz odpowiada zastojowi moczu w układzie zbiorczym.
+    attribution: morning2k via Wikimedia Commons
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-07-08"
 sections:
   assessmentChecklist:
     - Strona i stopień poszerzenia UKM.

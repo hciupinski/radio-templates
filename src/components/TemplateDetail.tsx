@@ -1,6 +1,7 @@
 import { ChevronLeft, Clipboard, Copy, ExternalLink } from "lucide-react";
 import type { ReactNode } from "react";
 import type { RadiologyTemplate, Source } from "../types/radiology";
+import { ImageGallery } from "./ImageGallery";
 import { StatusPill } from "./StatusPill";
 
 type TemplateDetailProps = {
@@ -118,6 +119,21 @@ export function TemplateDetail({ template, sourceMap, onBackToList }: TemplateDe
           Kopiuj wnioski
         </button>
       </div>
+
+      <DetailBlock
+        title="Galeria obrazów"
+        action={
+          template.imageRefs?.length ? (
+            <span className="detail-meta-badge">{template.imageRefs.length} przykładów</span>
+          ) : null
+        }
+      >
+        <ImageGallery
+          images={template.imageRefs}
+          sourceMap={sourceMap}
+          templateTitle={template.title}
+        />
+      </DetailBlock>
 
       <DetailBlock title="Cechy do oceny">
         <ul className="checklist">

@@ -1,0 +1,49 @@
+id: usg-watroba-gruczolak
+title: Gruczolak wątroby
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Wątroba]
+pathology: [Gruczolak]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [fnh-adenoma-management-2020, hepatocellular-adenoma-imaging-2006]
+imageRefs:
+  - id: hepatic-adenoma-usg-01
+    title: Hipodensyjna zmiana ogniskowa odpowiadająca gruczolakowi
+    imageUrl: "https://www.ultrasoundcases.info/clients/ultrasoundcases/uploads/lbox_71033-Afbeelding1.jpg"
+    thumbnailUrl: "https://www.ultrasoundcases.info/clients/ultrasoundcases/uploads/71033-Afbeelding1.jpg"
+    sourceUrl: "https://www.ultrasoundcases.info/hepatic-adenoma-7909/"
+    caption: Okrągła, dobrze odgraniczona zmiana hipodensyjna w miąższu wątroby, opisana w case'ie zweryfikowanym biopsją jako gruczolak.
+    alt: Obraz USG wątroby z dobrze odgraniczoną hipoechogeniczną zmianą ogniskową.
+    category: typical
+    findings:
+      - Widoczna jest pojedyncza, dobrze odgraniczona zmiana ogniskowa.
+      - Zmiana jest wyraźnie hipoechogeniczna względem otaczającego miąższu.
+      - W centrum obecna jest niejednorodność sugerująca złożoną architekturę zmiany.
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-08"
+sections:
+  assessmentChecklist:
+    - Lokalizacja zmiany i segment wątroby.
+    - Trzy wymiary zmiany.
+    - Echogeniczność i jednorodność.
+    - Obecność cech krwawienia, martwicy lub otoczki.
+    - Unaczynienie w badaniu Doppler.
+    - Liczba zmian oraz tło miąższu.
+    - Istotne dane kliniczne zwiększające prawdopodobieństwo rozpoznania.
+  reportTemplate: |
+    W segmencie {{segment}} wątroby widoczna zmiana ogniskowa o wymiarach {{wymiary_mm}} mm, {{echogenicznosc}}, {{jednorodna_lub_niejednorodna}}, z {{brakiem_lub_obecnoscia}} cech krwawienia, martwicy albo komponentów atypowych. W badaniu Doppler {{brak_lub_obecnosc}} przepływu. Obraz jest nieswoisty; w odpowiednim kontekście klinicznym należy brać pod uwagę gruczolaka.
+  impressionTemplate: |
+    Nieswoista zmiana ogniskowa wątroby; w różnicowaniu należy uwzględnić gruczolaka. Wymaga dalszej charakterystyki obrazowej.
+  clinicalNotes:
+    - Rozpoznanie gruczolaka nie powinno być stawiane kategorycznie wyłącznie na podstawie konwencjonalnego USG.
+  differential:
+    - FNH.
+    - Naczyniak atypowy.
+    - HCC lub inna zmiana nowotworowa.
+  followUp:
+    - Dalsza charakterystyka w badaniu kontrastowym i korelacja z danymi klinicznymi.

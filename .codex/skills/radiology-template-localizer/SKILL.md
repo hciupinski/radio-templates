@@ -34,9 +34,20 @@ If `jednostka chorobowa` is missing, build a template for the normal exam and ad
    - the required lexicon or classification system
    - typical findings for the requested entity
    - follow-up or management wording only when supported by a source
-5. Rewrite the content into Polish hospital reporting style. Use Polish clinical phrasing, not English syntax translated word-for-word.
-6. Produce a practical template with explicit placeholders in the form `{{nazwa_pola}}`.
-7. Cite the sources used with links and dates accessed.
+5. Search for candidate educational images that can be embedded directly from external links.
+6. Accept an image candidate only if all are true:
+   - the image has a direct `https` URL suitable for `<img src>`
+   - the page with the case or article can be linked separately as `sourceUrl`
+   - the image shows a characteristic finding relevant to the requested entity
+   - you can describe 2 to 4 concrete findings visible on the image
+   - the license or reuse status is at least understood well enough to classify as `link-only`, `cc-by`, `cc-by-sa`, `cc-by-nc`, `public-domain`, or `unknown`
+7. Prefer image sources in this order:
+   - open educational or media repositories with stable direct file URLs
+   - open-access journal figures when the article and figure licensing are explicit
+   - educational case libraries only when direct external embedding is technically possible and the source is stable enough
+8. Rewrite the content into Polish hospital reporting style. Use Polish clinical phrasing, not English syntax translated word-for-word.
+9. Produce a practical template with explicit placeholders in the form `{{nazwa_pola}}`.
+10. Cite the sources used with links and dates accessed.
 
 ## Writing Rules
 
@@ -82,6 +93,21 @@ Add only when useful:
 
 List links with a short note on how each source was used.
 
+### Obrazy edukacyjne
+
+If you found acceptable image candidates, list `2` to `6` items. For each item include:
+
+- `title`
+- `imageUrl`
+- `sourceUrl`
+- `category`
+- `caption`
+- `findings`
+- `licenseMode`
+- `lastCheckedAt`
+
+If you could not find embeddable and sufficiently stable image URLs, say so explicitly instead of inventing them.
+
 ## Atlas/YAML Mode
 
 If the user asks to add the result to an atlas or repository, emit content ready to map into:
@@ -95,6 +121,7 @@ If the user asks to add the result to an atlas or repository, emit content ready
 - `pathology`
 - `tags`
 - `sourceRefs`
+- optional `imageRefs`
 - `sections.assessmentChecklist`
 - `sections.reportTemplate`
 - `sections.impressionTemplate`
@@ -104,9 +131,26 @@ If the user asks to add the result to an atlas or repository, emit content ready
 
 Preserve placeholders as `{{...}}`.
 
+When emitting `imageRefs`, use this shape:
+
+- `id`
+- `title`
+- `imageUrl`
+- optional `thumbnailUrl`
+- `sourceUrl`
+- optional `sourceId`
+- `caption`
+- `alt`
+- `category`
+- `findings`
+- optional `attribution`
+- `licenseMode`
+- `lastCheckedAt`
+
 ## Decision Rules
 
 - If official guidance exists for the requested entity, center the template around that guidance.
 - If no official template exists, combine guideline completeness criteria with educational pattern recognition and clearly state that the template is an adapted working draft.
 - If pathology is too broad, narrow it to the most clinically common subtype and state that assumption.
 - If the request concerns a high-stakes recommendation and no current primary source is available, say that verification is incomplete rather than inventing guidance.
+- If image licensing or hotlink stability is unclear, keep the image out of `imageRefs` and mention it as a rejected candidate.

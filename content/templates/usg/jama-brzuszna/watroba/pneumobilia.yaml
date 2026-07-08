@@ -1,0 +1,45 @@
+id: usg-watroba-pneumobilia
+title: Pneumobilia
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Wątroba]
+pathology: [Pneumobilia]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [pneumobilia-benign-or-life-threatening-2006]
+imageRefs:
+  - id: pneumobilia-usg-typical-01
+    title: Pneumobilia z liniowymi hiperechogenicznymi refleksami
+    imageUrl: "https://ecografiafacil.com/wp-content/uploads/2021/09/i202109221433179900004.jpg"
+    thumbnailUrl: "https://ecografiafacil.com/wp-content/uploads/2021/09/i202109221433179900004.jpg?w=300"
+    sourceUrl: "https://ecografiafacil.com/category/aerobilia/"
+    caption: Gaz w drogach żółciowych jako rozproszone liniowe refleksy hiperechogeniczne z zabrudzoną tylną propagacją artefaktu.
+    alt: Obraz USG pneumobilia z jasnymi liniowymi echami w obrębie wątroby.
+    category: typical
+    findings:
+      - W miąższu wątroby widoczne są liczne liniowe hiperechogeniczne refleksy.
+      - Za zmianami obecny jest artefakt reverberacyjny typu dirty shadowing.
+      - Rozmieszczenie zmian jest rozproszone w przebiegu dróg żółciowych, a nie obwodowo jak przy gazie w układzie wrotnym.
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-08"
+sections:
+  assessmentChecklist:
+    - Lokalizacja hiperechogenicznych refleksów w przebiegu dróg żółciowych.
+    - Obecność artefaktów reverberacyjnych lub typu dirty shadowing.
+    - Stan dróg żółciowych i ich ewentualne poszerzenie.
+    - Wywiad po zabiegach na drogach żółciowych lub po ERCP.
+    - Różnicowanie z gazem w żyle wrotnej.
+  reportTemplate: |
+    W obrębie dróg żółciowych wewnątrzwątrobowych widoczne liczne hiperechogeniczne refleksy z artefaktami reverberacyjnymi, odpowiadające obecności gazu w drogach żółciowych. {{Brak_lub_obecnosc}} poszerzenia dróg żółciowych. Obraz należy interpretować w korelacji z wywiadem zabiegowym i klinicznym.
+  impressionTemplate: |
+    Cechy pneumobilia. Znaczenie kliniczne zależne od wywiadu zabiegowego i obrazu klinicznego.
+  clinicalNotes:
+    - W razie nietypowego obrazu lub ciężkiego stanu klinicznego należy odróżnić pneumobilia od gazu w układzie żyły wrotnej.
+  differential:
+    - Gaz w układzie żyły wrotnej.
+  followUp:
+    - Korelacja z wywiadem po zabiegach dróg żółciowych, ERCP lub z podejrzeniem przetoki żółciowo-jelitowej bądź infekcji.

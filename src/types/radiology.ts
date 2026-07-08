@@ -1,6 +1,21 @@
 export type Modality = "USG" | "CT" | "MR" | "RTG" | "MMG" | "DXA" | "INNE";
 
 export type TemplateStatus = "draft" | "reviewed" | "deprecated";
+export type ImageCategory =
+  | "typical"
+  | "variant"
+  | "doppler"
+  | "differential"
+  | "normal-reference"
+  | "pitfall";
+
+export type ImageLicenseMode =
+  | "link-only"
+  | "cc-by"
+  | "cc-by-sa"
+  | "cc-by-nc"
+  | "public-domain"
+  | "unknown";
 
 export type Source = {
   id: string;
@@ -9,6 +24,22 @@ export type Source = {
   type: "guideline" | "template-library" | "educational" | "local-standard";
   accessedAt: string;
   licenseNote: string;
+};
+
+export type ImageRef = {
+  id: string;
+  title: string;
+  imageUrl: string;
+  thumbnailUrl?: string;
+  sourceUrl: string;
+  sourceId?: string;
+  caption: string;
+  alt: string;
+  category: ImageCategory;
+  findings: string[];
+  attribution?: string;
+  licenseMode: ImageLicenseMode;
+  lastCheckedAt: string;
 };
 
 export type TaxonomyEntry = {
@@ -41,6 +72,7 @@ export type RadiologyTemplate = {
   version: string;
   updatedAt: string;
   sourceRefs: string[];
+  imageRefs?: ImageRef[];
   sections: {
     assessmentChecklist: string[];
     reportTemplate: string;

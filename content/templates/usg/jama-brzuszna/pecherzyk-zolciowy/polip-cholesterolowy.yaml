@@ -1,0 +1,48 @@
+id: usg-pecherzyk-zolciowy-polip-cholesterolowy
+title: Polip cholesterolowy pęcherzyka żółciowego
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Pęcherzyk żółciowy]
+pathology: [Polip cholesterolowy]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-08"
+sourceRefs: [gallbladder-polyps-epidemiology-2002, gallbladder-polyps-cholesterolosis-review-2003, gallbladder-polyps-sonographic-detection-2020]
+imageRefs:
+  - id: gallbladder-cholesterol-polyp-01
+    title: Drobne polipy pęcherzyka żółciowego
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/0a/Gallbladder_polyps_110739484_cr.jpg"
+    thumbnailUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Gallbladder_polyps_110739484_cr.jpg/330px-Gallbladder_polyps_110739484_cr.jpg"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Gallbladder_polyps_110739484_cr.jpg"
+    caption: Drobne przyścienne polipy 3-7 mm, bez typowego obrazu ruchomych złogów.
+    alt: Obraz USG pęcherzyka żółciowego z kilkoma drobnymi polipami przyściennymi.
+    category: typical
+    findings:
+      - Widoczne są drobne przyścienne wypustki do około 3-7 mm.
+      - Zmiany przylegają do ściany pęcherzyka i nie dają typowego tylnego cienia akustycznego.
+      - Obraz bardziej odpowiada polipom niż ruchomym złogom.
+    attribution: Nevit Dilmen via Wikimedia Commons
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-07-08"
+sections:
+  assessmentChecklist:
+    - Liczba zmian przyściennych oraz ich maksymalny wymiar.
+    - Lokalizacja względem ściany pęcherzyka.
+    - Uszypułowanie lub szeroka podstawa.
+    - Brak lub obecność tylnego cienia akustycznego.
+    - Zachowanie zmiany przy zmianie pozycji ciała, jeśli oceniane.
+    - Grubość ściany pęcherzyka, współistnienie kamicy i szerokość dróg żółciowych.
+  reportTemplate: |
+    W świetle pęcherzyka żółciowego, przy ścianie {{lokalizacja_sciany}}, widoczna {{pojedyncza_lub_liczne}} drobna zmiana przyścienna do {{wymiar_mm}} mm, {{uszypulowana_lub_szerokopodstawna}}, bez wyraźnego tylnego cienia akustycznego i bez cech ruchomości w dostępnym zakresie oceny, o obrazie najbardziej odpowiadającym polipowi cholesterolowemu. Ściana pęcherzyka {{niepogrubiala_lub_pogrubiala_do_mm}}. {{Brak_lub_obecnosc}} współistniejących złogów. Droga żółciowa wspólna {{nieposzerzona_lub_poszerzona_do_mm}}.
+  impressionTemplate: |
+    Drobna zmiana przyścienna pęcherzyka żółciowego o obrazie najbardziej odpowiadającym polipowi cholesterolowemu. {{Brak_lub_obecnosc}} sonograficznych cech alarmowych.
+  clinicalNotes:
+    - Za łagodnym charakterem przemawia mały wymiar, jednorodny obraz przyścienny, brak cienia akustycznego i brak cech naciekania ściany.
+    - Jeśli zmiana jest większa, szerokopodstawna, nieregularna lub narasta w obserwacji, należy użyć ostrożniejszego sformułowania i rozważyć wariant szablonu dla polipa wymagającego kontroli.
+  differential:
+    - Drobny złóg przyścienny przy niepełnej ocenie ruchomości.
+    - Ogniskowa gruczolakowatość pęcherzyka.
+    - Polip gruczolakowy lub inna zmiana nabłonkowa przy obrazie nietypowym.
