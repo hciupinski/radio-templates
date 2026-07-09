@@ -32,29 +32,21 @@ Dla każdej pozycji rekomendowany pipeline jest stały:
 - `USG jamy brzusznej / Pęcherzyk żółciowy / Złóg zaklinowany w szyi`
 - `USG jamy brzusznej / Pęcherzyk żółciowy / Błoto żółciowe`
 - `USG jamy brzusznej / Pęcherzyk żółciowy / Polip cholesterolowy`
-- `USG jamy brzusznej / Pęcherzyk żółciowy / Gruczolakowatość`
-- `USG jamy brzusznej / Nerki / Obraz prawidłowy`
-- `USG jamy brzusznej / Nerki / Wodonercze`
-- `USG szyi / Tarczyca / Obraz prawidłowy`
-- `USG szyi / Tarczyca / Hashimoto`
-- `USG szyi / Tarczyca / Guzek TI-RADS`
-- `USG szyi / Tarczyca / Guzek łagodny`
-- `USG szyi / Węzły chłonne / Odczynowe`
-- `USG szyi / Węzły chłonne / Podejrzane`
-- `USG tkanek miękkich / Tkanka podskórna / Tłuszczak`
-- `USG tkanek miękkich / Tkanka podskórna / Ropień`
-
-## Priorytet 1: brakujące pozycje z głównego zakresu atlasu
-
-### Pęcherzyk żółciowy
-
 - `USG jamy brzusznej / Pęcherzyk żółciowy / Polip wymagający kontroli`
+- `USG jamy brzusznej / Pęcherzyk żółciowy / Gruczolakowatość`
 - `USG jamy brzusznej / Pęcherzyk żółciowy / Przewlekłe zapalenie`
 - `USG jamy brzusznej / Pęcherzyk żółciowy / Pęcherzyk porcelanowy`
 - `USG jamy brzusznej / Pęcherzyk żółciowy / Rak pęcherzyka`
-
-### Trzustka
-
+- `USG jamy brzusznej / Nerki / Obraz prawidłowy`
+- `USG jamy brzusznej / Nerki / Wodonercze`
+- `USG jamy brzusznej / Nerki / Kamica`
+- `USG jamy brzusznej / Nerki / Torbiel Bosniak I`
+- `USG jamy brzusznej / Nerki / Torbiel Bosniak II`
+- `USG jamy brzusznej / Nerki / Torbiel Bosniak IIF`
+- `USG jamy brzusznej / Nerki / Torbiel Bosniak III-IV`
+- `USG jamy brzusznej / Nerki / Angiomyolipoma`
+- `USG jamy brzusznej / Nerki / Odmiedniczkowe zapalenie`
+- `USG jamy brzusznej / Nerki / Guz nerki`
 - `USG jamy brzusznej / Trzustka / Obraz prawidłowy`
 - `USG jamy brzusznej / Trzustka / Ostre zapalenie`
 - `USG jamy brzusznej / Trzustka / Przewlekłe zapalenie`
@@ -63,17 +55,28 @@ Dla każdej pozycji rekomendowany pipeline jest stały:
 - `USG jamy brzusznej / Trzustka / Torbiel rzekoma`
 - `USG jamy brzusznej / Trzustka / Guz neuroendokrynny`
 - `USG jamy brzusznej / Trzustka / Gruczolakorak`
+- `USG szyi / Tarczyca / Obraz prawidłowy`
+- `USG szyi / Tarczyca / Hashimoto`
+- `USG szyi / Tarczyca / Guzek TI-RADS`
+- `USG szyi / Tarczyca / Guzek łagodny`
+- `USG szyi / Tarczyca / Torbiel`
+- `USG szyi / Tarczyca / Graves-Basedow`
+- `USG szyi / Tarczyca / Zwapnienia`
+- `USG szyi / Węzły chłonne / Obraz prawidłowy`
+- `USG szyi / Węzły chłonne / Odczynowe`
+- `USG szyi / Węzły chłonne / Podejrzane`
+- `USG szyi / Węzły chłonne / Chłoniak`
+- `USG szyi / Węzły chłonne / Przerzutowe`
+- `USG szyi / Węzły chłonne / Martwicze`
+- `USG szyi / Węzły chłonne / Gruźlicze`
+- `USG tkanek miękkich / Tkanka podskórna / Tłuszczak`
+- `USG tkanek miękkich / Tkanka podskórna / Ropień`
+
+## Priorytet 1: brakujące pozycje z głównego zakresu atlasu
+
+### Pęcherzyk żółciowy
 
 ### Nerki
-
-- `USG jamy brzusznej / Nerki / Torbiel Bosniak I`
-- `USG jamy brzusznej / Nerki / Torbiel Bosniak II`
-- `USG jamy brzusznej / Nerki / Torbiel Bosniak IIF`
-- `USG jamy brzusznej / Nerki / Torbiel Bosniak III-IV`
-- `USG jamy brzusznej / Nerki / Angiomyolipoma`
-- `USG jamy brzusznej / Nerki / Kamica`
-- `USG jamy brzusznej / Nerki / Odmiedniczkowe zapalenie`
-- `USG jamy brzusznej / Nerki / Guz nerki`
 
 ### Śledziona
 
@@ -85,17 +88,7 @@ Dla każdej pozycji rekomendowany pipeline jest stały:
 
 ### Tarczyca
 
-- `USG szyi / Tarczyca / Graves-Basedow`
-- `USG szyi / Tarczyca / Torbiel`
-- `USG szyi / Tarczyca / Zwapnienia`
-
 ### Węzły chłonne
-
-- `USG szyi / Węzły chłonne / Obraz prawidłowy`
-- `USG szyi / Węzły chłonne / Chłoniak`
-- `USG szyi / Węzły chłonne / Przerzutowe`
-- `USG szyi / Węzły chłonne / Gruźlicze`
-- `USG szyi / Węzły chłonne / Martwicze`
 
 ### Tkanki miękkie
 
@@ -113,7 +106,6 @@ Dla każdej pozycji rekomendowany pipeline jest stały:
 - `USG jamy brzusznej / Pęcherzyk żółciowy / Kamica`: doprecyzować, czy obecny plik ma pokrywać tylko `złogi ruchome`, czy wymaga osobnego wariantu dla `złogu zaklinowanego w szyi`.
 - `USG jamy brzusznej / Pęcherzyk żółciowy / Zapalenie`: rozdzielić na `ostre` i `przewlekłe`, jeśli obecny plik jest zbyt ogólny.
 - `USG szyi / Tarczyca / Guzek TI-RADS`: uzupełnić o sekcję `TI-RADS krok po kroku` oraz źródłowo uzasadnione kryteria, kiedy zalecić biopsję.
-- `USG szyi / Węzły chłonne / Podejrzane`: rozważyć zastąpienie ogólnego wariantu osobnymi szablonami `przerzutowe`, `chłoniak`, `gruźlicze`, `martwicze`.
 
 ## Priorytet 3: dodatkowe obszary wymienione na końcu dokumentu
 

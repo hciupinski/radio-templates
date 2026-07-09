@@ -1,0 +1,32 @@
+id: rtg-nerki-kamica
+title: Kamica nerkowa
+modality: RTG
+examTypes: [RTG przeglądowe jamy brzusznej]
+bodySystems: [Układ moczowy]
+bodyParts: [Jama brzuszna]
+organs: [Nerki]
+pathology: [Kamica]
+tags: [Rezydent]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [eau-urolithiasis-2026, acr-flank-pain-urolithiasis-2023]
+sections:
+  assessmentChecklist:
+    - Obecność radiocieniującego złogu w rzucie nerki lub układu kielichowo-miedniczkowego.
+    - Lokalizacja, liczba i największy wymiar widocznych złogów.
+    - Porównanie z wcześniejszymi badaniami pod kątem przemieszczenia, regresji lub progresji liczby i wielkości złogów.
+    - Obecność nakładających się zwapnień mogących imitować złóg, zwłaszcza flebolitów i zwapnień naczyniowych.
+    - Ograniczenia oceny wynikające z gazów jelitowych, mas kałowych lub projekcji kostnych.
+  reportTemplate: |
+    W rzucie nerki {{strona}} / układu kielichowo-miedniczkowego widoczny radiocieniujący złóg o wielkości {{wymiar_mm}} mm, zlokalizowany w obrębie {{lokalizacja}}. {{Dodatkowe_zlogi_lub_brak}}. {{Obecne_lub_brak}} zwapnień nakładających się na przebieg układu moczowego, utrudniających jednoznaczną ocenę. Badanie o {{ograniczonej_lub_dobrej}} wartości diagnostycznej z powodu {{ograniczenia_lub_brak_ograniczen}}.
+  impressionTemplate: |
+    Radiocieniujący złóg w rzucie nerki {{strona}} / UKM, obraz odpowiada kamicy nerkowej. Ujemny wynik RTG nie wyklucza kamicy.
+  clinicalNotes:
+    - RTG przeglądowe jamy brzusznej ma ograniczoną czułość i najlepiej sprawdza się w obserwacji znanych, radiocieniujących złogów.
+    - Badanie nie pozwala wiarygodnie ocenić stopnia utrudnienia odpływu moczu; w razie objawów kolkowych konieczna jest korelacja z innym badaniem obrazowym.
+  differential:
+    - Flebolity w miednicy.
+    - Zwapnienia naczyniowe lub zwapnienia w innych strukturach jamy brzusznej.
+  followUp:
+    - Przy niejednoznacznym obrazie lub utrzymujących się dolegliwościach rozważyć dalszą ocenę w USG albo CT bez kontrastu, zależnie od kontekstu klinicznego.

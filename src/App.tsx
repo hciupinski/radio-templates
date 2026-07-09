@@ -1,20 +1,43 @@
 import { startTransition, useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
-import { checkForContentUpdate, loadContent, prepareContent, resolvePublicPath } from "./data/content";
-import type { AppContentBundle, RadiologyTemplate, TemplateStatus } from "./types/radiology";
+import {
+  buildAnatomyGroups,
+  buildAnatomyTree,
+  buildConditionGroups,
+  checkForContentUpdate,
+  loadContent,
+  prepareContent,
+  resolveQueryContext,
+  resolvePublicPath,
+  searchTemplates
+} from "./data/content";
+import type {
+  AnatomyTreeModality,
+  AppContentBundle,
+  CatalogGroupSummary,
+  CatalogPath,
+  CatalogViewMode,
+  TemplateStatus,
+  TemplateWithSearch
+} from "./types/radiology";
 import { Header } from "./components/Header";
-import { type Filters } from "./components/FilterSidebar";
-import { TemplateList } from "./components/TemplateList";
+import { FilterSidebar, type Filters } from "./components/FilterSidebar";
+import { CatalogModeSwitch } from "./components/CatalogModeSwitch";
+import { CatalogSidebar } from "./components/CatalogSidebar";
+import { CatalogGroupList } from "./components/CatalogGroupList";
 import { TemplateDetail } from "./components/TemplateDetail";
 
 type ThemeMode = "light" | "dark";
+type MobilePane = "catalog" | "groups" | "detail";
+
+const RECENT_STORAGE_KEY = "radio-templates-recent";
+const PINNED_STORAGE_KEY = "radio-templates-pinned";
 
 const emptyFilters: Filters = {
   modality: "",
   examType: "",
-  bodyPart: "",
-  organ: "",
-  pathology: "",
-  status: ""
+  status: "",
+  hasImages: false,
+  pinnedOnly: false
 };
 
 function getInitialTheme(): ThemeMode {
@@ -30,37 +53,137 @@ function getInitialTheme(): ThemeMode {
   return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
 }
 
+function readStoredIds(key: string): string[] {
+  if (typeof window === "undefined") {
+    return [];
+  }
+
+  const raw = window.localStorage.getItem(key);
+  if (!raw) {
+    return [];
+  }
+
+  try {
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed.filter((value): value is string => typeof value === "string") : [];
+  } catch {
+    return [];
+  }
+}
+
 function matchesFilter(value: string, selected: string): boolean {
   return !selected || value === selected;
 }
 
-function filterTemplates(templates: RadiologyTemplate[], filters: Filters): RadiologyTemplate[] {
+function filterTemplates(
+  templates: TemplateWithSearch[],
+  filters: Filters,
+  pinnedIds: Set<string>
+): TemplateWithSearch[] {
   return templates.filter((template) => {
     return (
       matchesFilter(template.modality, filters.modality) &&
       (!filters.examType || template.examTypes.includes(filters.examType)) &&
-      (!filters.bodyPart || template.bodyParts.includes(filters.bodyPart)) &&
-      (!filters.organ || template.organs.includes(filters.organ)) &&
-      (!filters.pathology || template.pathology.includes(filters.pathology)) &&
-      (!filters.status || template.status === filters.status)
+      (!filters.status || template.status === filters.status) &&
+      (!filters.hasImages || Boolean(template.imageRefs?.length)) &&
+      (!filters.pinnedOnly || pinnedIds.has(template.id))
     );
   });
-}
-
-function searchTemplates(
-  query: string,
-  templates: RadiologyTemplate[],
-  searchIndex: ReturnType<typeof prepareContent>["searchIndex"]
-): RadiologyTemplate[] {
-  const normalized = query.trim();
-  if (!normalized) return templates;
-  return searchIndex.search(normalized).map((result) => result.item);
 }
 
 function scrollMobileToTop(): void {
   if (window.matchMedia("(max-width: 760px)").matches) {
     window.scrollTo({ top: 0, behavior: "auto" });
   }
+}
+
+function findPathInTree(
+  tree: AnatomyTreeModality[],
+  hints: Partial<CatalogPath> = {}
+): CatalogPath | null {
+  for (const modality of tree) {
+    if (hints.modality && modality.label !== hints.modality) {
+      continue;
+    }
+
+    for (const examType of modality.examTypes) {
+      if (hints.examType && examType.label !== hints.examType) {
+        continue;
+      }
+
+      for (const bodySystem of examType.bodySystems) {
+        if (hints.bodySystem && bodySystem.label !== hints.bodySystem) {
+          continue;
+        }
+
+        for (const organ of bodySystem.organs) {
+          if (hints.organ && organ.label !== hints.organ) {
+            continue;
+          }
+
+          return {
+            modality: modality.label,
+            examType: examType.label,
+            bodySystem: bodySystem.label,
+            organ: organ.label
+          };
+        }
+      }
+    }
+  }
+
+  return null;
+}
+
+function getRecentTemplates(
+  ids: string[],
+  byId: Map<string, TemplateWithSearch>,
+  visibleIds: Set<string>
+): TemplateWithSearch[] {
+  return ids
+    .map((id) => byId.get(id))
+    .filter((template): template is TemplateWithSearch => {
+      return template !== undefined && visibleIds.has(template.id);
+    });
+}
+
+function buildSearchGroup(templates: TemplateWithSearch[]): CatalogGroupSummary[] {
+  if (!templates.length) {
+    return [];
+  }
+
+  return [
+    {
+      id: "search-results",
+      label: "Wyniki wyszukiwania",
+      description: "Bezpośrednie trafienia z globalnej wyszukiwarki.",
+      count: templates.length,
+      modalities: [...new Set(templates.map((template) => template.modality))],
+      templates
+    }
+  ];
+}
+
+function buildBreadcrumb(
+  viewMode: CatalogViewMode,
+  activePath: CatalogPath,
+  activeGroup?: CatalogGroupSummary
+): string {
+  if (viewMode === "conditions" && activeGroup) {
+    return `Jednostki chorobowe / ${activeGroup.label}`;
+  }
+
+  if (viewMode === "recent") {
+    return "Ostatnie";
+  }
+
+  if (viewMode === "pinned") {
+    return "Przypięte";
+  }
+
+  return [activePath.modality, activePath.examType, activePath.bodySystem, activePath.organ]
+    .filter(Boolean)
+    .join(" / ");
 }
 
 export default function App() {
@@ -71,14 +194,26 @@ export default function App() {
   const [query, setQuery] = useState("");
   const [filters, setFilters] = useState<Filters>(emptyFilters);
   const [selectedId, setSelectedId] = useState("");
-  const [activePane, setActivePane] = useState<"list" | "detail">("list");
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [theme, setTheme] = useState<ThemeMode>(() => getInitialTheme());
   const [syncMessage, setSyncMessage] = useState("");
+  const [viewMode, setViewMode] = useState<CatalogViewMode>("anatomy");
+  const [activePath, setActivePath] = useState<CatalogPath>({
+    modality: "",
+    examType: "",
+    bodySystem: "",
+    organ: ""
+  });
+  const [activeConditionGroupId, setActiveConditionGroupId] = useState("");
+  const [mobilePane, setMobilePane] = useState<MobilePane>("catalog");
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [recentTemplateIds, setRecentTemplateIds] = useState<string[]>(() => readStoredIds(RECENT_STORAGE_KEY));
+  const [pinnedTemplateIds, setPinnedTemplateIds] = useState<string[]>(() => readStoredIds(PINNED_STORAGE_KEY));
   const deferredQuery = useDeferredValue(query);
   const updateInFlightRef = useRef(false);
 
   const preparedContent = useMemo(() => (bundle ? prepareContent(bundle) : null), [bundle]);
+  const pinnedTemplateSet = useMemo(() => new Set(pinnedTemplateIds), [pinnedTemplateIds]);
 
   useEffect(() => {
     let cancelled = false;
@@ -118,26 +253,282 @@ export default function App() {
     };
   }, [loadAttempt]);
 
+  useEffect(() => {
+    if (typeof window === "undefined") {
+      return;
+    }
+
+    window.localStorage.setItem(RECENT_STORAGE_KEY, JSON.stringify(recentTemplateIds));
+  }, [recentTemplateIds]);
+
+  useEffect(() => {
+    if (typeof window === "undefined") {
+      return;
+    }
+
+    window.localStorage.setItem(PINNED_STORAGE_KEY, JSON.stringify(pinnedTemplateIds));
+  }, [pinnedTemplateIds]);
+
   const filteredTemplates = useMemo(() => {
     if (!preparedContent) {
       return [];
     }
 
-    const searched = searchTemplates(
-      deferredQuery,
-      preparedContent.templatesWithSearch,
-      preparedContent.searchIndex
-    );
-    return filterTemplates(searched, filters);
-  }, [deferredQuery, filters, preparedContent]);
+    return filterTemplates(preparedContent.templatesWithSearch, filters, pinnedTemplateSet);
+  }, [filters, pinnedTemplateSet, preparedContent]);
+
+  const filteredTemplateIds = useMemo(
+    () => new Set(filteredTemplates.map((template) => template.id)),
+    [filteredTemplates]
+  );
+
+  const anatomyTree = useMemo(() => {
+    if (!bundle) {
+      return [];
+    }
+
+    return buildAnatomyTree(filteredTemplates, bundle.taxonomy);
+  }, [bundle, filteredTemplates]);
+
+  const allConditionGroups = useMemo(() => {
+    if (!bundle) {
+      return [];
+    }
+
+    return buildConditionGroups(filteredTemplates, bundle.catalog);
+  }, [bundle, filteredTemplates]);
+
+  const searchedTemplates = useMemo(() => {
+    if (!preparedContent) {
+      return [];
+    }
+
+    return searchTemplates(deferredQuery, filteredTemplates, preparedContent.searchIndex);
+  }, [deferredQuery, filteredTemplates, preparedContent]);
+
+  const activeConditionGroup = useMemo(
+    () => allConditionGroups.find((group) => group.id === activeConditionGroupId),
+    [activeConditionGroupId, allConditionGroups]
+  );
+
+  useEffect(() => {
+    if (!preparedContent || !bundle) {
+      return;
+    }
+
+    const queryContext = resolveQueryContext(deferredQuery, bundle.taxonomy, bundle.catalog);
+    if (!queryContext) {
+      return;
+    }
+
+    if (queryContext.type === "condition") {
+      setViewMode("conditions");
+      setActiveConditionGroupId(queryContext.conditionGroupId);
+      return;
+    }
+
+    const nextPath = findPathInTree(anatomyTree, queryContext);
+    if (nextPath) {
+      setViewMode("anatomy");
+      setActivePath(nextPath);
+    }
+  }, [anatomyTree, bundle, deferredQuery, preparedContent]);
+
+  useEffect(() => {
+    if (!anatomyTree.length) {
+      return;
+    }
+
+    const nextPath = findPathInTree(anatomyTree, activePath) ?? findPathInTree(anatomyTree);
+    if (!nextPath) {
+      return;
+    }
+
+    if (
+      nextPath.modality !== activePath.modality ||
+      nextPath.examType !== activePath.examType ||
+      nextPath.bodySystem !== activePath.bodySystem ||
+      nextPath.organ !== activePath.organ
+    ) {
+      setActivePath(nextPath);
+    }
+  }, [activePath, anatomyTree]);
+
+  useEffect(() => {
+    if (!allConditionGroups.length) {
+      if (activeConditionGroupId) {
+        setActiveConditionGroupId("");
+      }
+      return;
+    }
+
+    if (allConditionGroups.some((group) => group.id === activeConditionGroupId)) {
+      return;
+    }
+
+    setActiveConditionGroupId(allConditionGroups[0]?.id ?? "");
+  }, [activeConditionGroupId, allConditionGroups]);
+
+  const currentScopedTemplates = useMemo(() => {
+    switch (viewMode) {
+      case "conditions":
+        return activeConditionGroup?.templates ?? [];
+      case "recent":
+        if (!preparedContent) {
+          return [];
+        }
+        return getRecentTemplates(
+          recentTemplateIds,
+          new Map(preparedContent.templatesWithSearch.map((template) => [template.id, template])),
+          filteredTemplateIds
+        );
+      case "pinned":
+        if (!preparedContent) {
+          return [];
+        }
+        return getRecentTemplates(
+          pinnedTemplateIds,
+          new Map(preparedContent.templatesWithSearch.map((template) => [template.id, template])),
+          filteredTemplateIds
+        );
+      case "anatomy":
+      default:
+        return filteredTemplates.filter(
+          (template) =>
+            template.modality === activePath.modality &&
+            template.examTypes.includes(activePath.examType) &&
+            template.bodySystems.includes(activePath.bodySystem) &&
+            template.organs.includes(activePath.organ)
+        );
+    }
+  }, [
+    activeConditionGroup?.templates,
+    activePath.bodySystem,
+    activePath.examType,
+    activePath.modality,
+    activePath.organ,
+    filteredTemplateIds,
+    filteredTemplates,
+    pinnedTemplateIds,
+    preparedContent,
+    recentTemplateIds,
+    viewMode
+  ]);
+
+  const scopedSearchTemplates = useMemo(() => {
+    if (!deferredQuery) {
+      return [];
+    }
+
+    const scopedIds = new Set(currentScopedTemplates.map((template) => template.id));
+    return searchedTemplates.filter((template) => scopedIds.has(template.id));
+  }, [currentScopedTemplates, deferredQuery, searchedTemplates]);
+
+  const usesGlobalSearchFallback = Boolean(
+    deferredQuery && searchedTemplates.length > 0 && scopedSearchTemplates.length === 0
+  );
+
+  const visibleSearchTemplates = useMemo(() => {
+    if (!deferredQuery) {
+      return [];
+    }
+
+    return usesGlobalSearchFallback ? searchedTemplates : scopedSearchTemplates;
+  }, [deferredQuery, scopedSearchTemplates, searchedTemplates, usesGlobalSearchFallback]);
+
+  const visibleGroups = useMemo(() => {
+    if (!bundle) {
+      return [];
+    }
+
+    const searchGroups = usesGlobalSearchFallback ? buildSearchGroup(visibleSearchTemplates) : [];
+
+    switch (viewMode) {
+      case "conditions": {
+        const currentGroup = allConditionGroups.find((group) => group.id === activeConditionGroupId);
+        const filteredGroupTemplates = deferredQuery
+          ? currentGroup?.templates.filter((template) =>
+              visibleSearchTemplates.some((searchTemplate) => searchTemplate.id === template.id)
+            ) ?? []
+          : currentGroup?.templates ?? [];
+
+        const groups = currentGroup
+          ? [
+              {
+                ...currentGroup,
+                templates: filteredGroupTemplates,
+                count: filteredGroupTemplates.length,
+                modalities: [...new Set(filteredGroupTemplates.map((template) => template.modality))]
+              }
+            ].filter((group) => group.count > 0)
+          : [];
+
+        return deferredQuery ? (usesGlobalSearchFallback ? searchGroups : groups) : groups;
+      }
+      case "recent":
+        return usesGlobalSearchFallback
+          ? searchGroups
+          : currentScopedTemplates.length
+          ? [
+              {
+                id: "recent-group",
+                label: "Ostatnio używane",
+                description: "Najszybsza droga do szablonów, po które sięgasz regularnie.",
+                count: deferredQuery ? visibleSearchTemplates.length : currentScopedTemplates.length,
+                modalities: [...new Set(currentScopedTemplates.map((template) => template.modality))],
+                templates: deferredQuery ? visibleSearchTemplates : currentScopedTemplates
+              }
+            ]
+          : [];
+      case "pinned":
+        return usesGlobalSearchFallback
+          ? searchGroups
+          : currentScopedTemplates.length
+          ? [
+              {
+                id: "pinned-group",
+                label: "Przypięte szablony",
+                description: "Stała, własna półka robocza do codziennego użycia.",
+                count: deferredQuery ? visibleSearchTemplates.length : currentScopedTemplates.length,
+                modalities: [...new Set(currentScopedTemplates.map((template) => template.modality))],
+                templates: deferredQuery ? visibleSearchTemplates : currentScopedTemplates
+              }
+            ]
+          : [];
+      case "anatomy":
+      default: {
+        if (usesGlobalSearchFallback) {
+          return searchGroups;
+        }
+
+        const baseTemplates = deferredQuery ? visibleSearchTemplates : currentScopedTemplates;
+        const groups = buildAnatomyGroups(baseTemplates, bundle.catalog, activePath.organ);
+        return groups;
+      }
+    }
+  }, [
+    activeConditionGroupId,
+    activePath.organ,
+    allConditionGroups,
+    bundle,
+    currentScopedTemplates,
+    deferredQuery,
+    usesGlobalSearchFallback,
+    viewMode,
+    visibleSearchTemplates
+  ]);
 
   const selectedTemplate = useMemo(() => {
-    return (
-      filteredTemplates.find((template) => template.id === selectedId) ??
-      filteredTemplates[0] ??
-      preparedContent?.templatesWithSearch[0]
-    );
-  }, [filteredTemplates, preparedContent, selectedId]);
+    const templates = visibleGroups.flatMap((group) => group.templates);
+    return templates.find((template) => template.id === selectedId) ?? templates[0];
+  }, [selectedId, visibleGroups]);
+
+  useEffect(() => {
+    const nextId = selectedTemplate?.id ?? "";
+    if (nextId && nextId !== selectedId) {
+      setSelectedId(nextId);
+    }
+  }, [selectedId, selectedTemplate]);
 
   const countsByStatus = useMemo(() => {
     return (preparedContent?.templatesWithSearch ?? []).reduce<Record<TemplateStatus, number>>(
@@ -147,23 +538,6 @@ export default function App() {
       },
       { draft: 0, reviewed: 0, deprecated: 0 }
     );
-  }, [preparedContent]);
-
-  useEffect(() => {
-    if (!preparedContent?.templatesWithSearch.length) {
-      return;
-    }
-
-    setSelectedId((current) => {
-      if (
-        current &&
-        preparedContent.templatesWithSearch.some((template) => template.id === current)
-      ) {
-        return current;
-      }
-
-      return preparedContent.templatesWithSearch[0]?.id ?? "";
-    });
   }, [preparedContent]);
 
   useEffect(() => {
@@ -256,7 +630,48 @@ export default function App() {
     window.localStorage.setItem("radio-templates-theme", theme);
   }, [theme]);
 
-  const activeFilterCount = Object.values(filters).filter(Boolean).length;
+  const activeFilterCount = Object.values(filters).filter((value) => Boolean(value)).length;
+  const breadcrumb = buildBreadcrumb(viewMode, activePath, activeConditionGroup);
+
+  const groupTitle =
+    viewMode === "conditions"
+      ? activeConditionGroup?.label ?? "Jednostki chorobowe"
+      : viewMode === "recent"
+        ? "Ostatnio używane"
+        : viewMode === "pinned"
+          ? "Przypięte"
+          : activePath.organ || "Katalog anatomii";
+
+  const visibleTemplateCount = visibleGroups.reduce((sum, group) => sum + group.count, 0);
+
+  const modeCounts = {
+    anatomy: filteredTemplates.length,
+    conditions: filteredTemplates.length,
+    recent: getRecentTemplates(
+      recentTemplateIds,
+      new Map((preparedContent?.templatesWithSearch ?? []).map((template) => [template.id, template])),
+      filteredTemplateIds
+    ).length,
+    pinned: getRecentTemplates(
+      pinnedTemplateIds,
+      new Map((preparedContent?.templatesWithSearch ?? []).map((template) => [template.id, template])),
+      filteredTemplateIds
+    ).length
+  };
+
+  function handleSelectTemplate(id: string): void {
+    setSelectedId(id);
+    setRecentTemplateIds((current) => [id, ...current.filter((value) => value !== id)].slice(0, 12));
+    setMobilePane("detail");
+    setFiltersOpen(false);
+    requestAnimationFrame(scrollMobileToTop);
+  }
+
+  function handleTogglePinned(id: string): void {
+    setPinnedTemplateIds((current) =>
+      current.includes(id) ? current.filter((value) => value !== id) : [id, ...current]
+    );
+  }
 
   if (loadState === "error") {
     return (
@@ -297,11 +712,6 @@ export default function App() {
         pdfUrl={resolvePublicPath("szablony-radiologiczne.pdf")}
         filtersOpen={filtersOpen}
         onToggleFilters={() => setFiltersOpen((isOpen) => !isOpen)}
-        filters={filters}
-        onFiltersChange={setFilters}
-        onClearFilters={() => setFilters(emptyFilters)}
-        taxonomy={bundle.taxonomy}
-        countsByStatus={countsByStatus}
         activeFilterCount={activeFilterCount}
         theme={theme}
         onToggleTheme={() => setTheme((current) => (current === "light" ? "dark" : "light"))}
@@ -313,24 +723,32 @@ export default function App() {
         </div>
       ) : null}
 
-      <nav className="mobile-navigation" aria-label="Widoki aplikacji mobilnej">
+      <nav className="mobile-navigation catalog-mobile-navigation" aria-label="Widoki mobilne">
         <button
-          className={activePane === "list" ? "mobile-nav-button active" : "mobile-nav-button"}
+          className={mobilePane === "catalog" ? "mobile-nav-button active" : "mobile-nav-button"}
           type="button"
           onClick={() => {
-            setActivePane("list");
-            setFiltersOpen(false);
+            setMobilePane("catalog");
             requestAnimationFrame(scrollMobileToTop);
           }}
         >
-          Lista ({filteredTemplates.length})
+          Katalog
         </button>
         <button
-          className={activePane === "detail" ? "mobile-nav-button active" : "mobile-nav-button"}
+          className={mobilePane === "groups" ? "mobile-nav-button active" : "mobile-nav-button"}
           type="button"
           onClick={() => {
-            setActivePane("detail");
-            setFiltersOpen(false);
+            setMobilePane("groups");
+            requestAnimationFrame(scrollMobileToTop);
+          }}
+        >
+          Lista ({visibleTemplateCount})
+        </button>
+        <button
+          className={mobilePane === "detail" ? "mobile-nav-button active" : "mobile-nav-button"}
+          type="button"
+          onClick={() => {
+            setMobilePane("detail");
             requestAnimationFrame(scrollMobileToTop);
           }}
         >
@@ -338,28 +756,86 @@ export default function App() {
         </button>
       </nav>
 
-      <section className={`workspace pane-${activePane}`} aria-label="Przeglądarka szablonów">
-        <TemplateList
-          templates={filteredTemplates}
-          selectedId={selectedTemplate?.id}
-          onSelect={(id) => {
-            setSelectedId(id);
-            setActivePane("detail");
-            setFiltersOpen(false);
-            requestAnimationFrame(scrollMobileToTop);
-          }}
-          query={deferredQuery}
-        />
+      <section
+        className={`catalog-workspace pane-${mobilePane} ${sidebarCollapsed ? "sidebar-collapsed" : "sidebar-open"}`}
+        aria-label="Katalog szablonów"
+      >
+        <div className="catalog-pane catalog-pane-topline">
+          <CatalogModeSwitch
+            counts={modeCounts}
+            value={viewMode}
+            sidebarCollapsed={sidebarCollapsed}
+            onToggleSidebar={() => setSidebarCollapsed((current) => !current)}
+            onChange={(next) => {
+              setViewMode(next);
+              setMobilePane(next === "anatomy" || next === "conditions" ? "catalog" : "groups");
+            }}
+          />
+        </div>
 
-        <TemplateDetail
-          template={selectedTemplate}
-          sourceMap={preparedContent.sourceMap}
-          onBackToList={() => {
-            setActivePane("list");
-            requestAnimationFrame(scrollMobileToTop);
-          }}
-        />
+        <div className="catalog-pane catalog-pane-sidebar">
+          <CatalogSidebar
+            viewMode={viewMode}
+            anatomyTree={anatomyTree}
+            conditionGroups={allConditionGroups}
+            activePath={activePath}
+            activeConditionGroupId={activeConditionGroupId}
+            onSelectPath={(path) => {
+              setViewMode("anatomy");
+              setActivePath(path);
+              setSidebarCollapsed(false);
+              setMobilePane("groups");
+              requestAnimationFrame(scrollMobileToTop);
+            }}
+            onSelectConditionGroup={(groupId) => {
+              setViewMode("conditions");
+              setActiveConditionGroupId(groupId);
+              setSidebarCollapsed(false);
+              setMobilePane("groups");
+              requestAnimationFrame(scrollMobileToTop);
+            }}
+          />
+        </div>
+
+        <div className="catalog-pane catalog-pane-groups">
+          <CatalogGroupList
+            title={groupTitle}
+            groups={visibleGroups}
+            selectedId={selectedTemplate?.id}
+            pinnedIds={pinnedTemplateSet}
+            onSelect={handleSelectTemplate}
+            query={deferredQuery}
+          />
+        </div>
+
+        <div className="catalog-pane catalog-pane-detail">
+          <TemplateDetail
+            template={selectedTemplate}
+            sourceMap={preparedContent.sourceMap}
+            breadcrumb={breadcrumb}
+            pinned={selectedTemplate ? pinnedTemplateSet.has(selectedTemplate.id) : false}
+            onTogglePinned={handleTogglePinned}
+            onBackToList={() => {
+              setMobilePane("groups");
+              requestAnimationFrame(scrollMobileToTop);
+            }}
+          />
+        </div>
       </section>
+
+      {filtersOpen ? (
+        <div className="filters-mobile-overlay" onClick={() => setFiltersOpen(false)} role="presentation">
+          <div className="filters-mobile-sheet" onClick={(event) => event.stopPropagation()} role="dialog" aria-modal="true">
+            <FilterSidebar
+              filters={filters}
+              onFiltersChange={setFilters}
+              onClear={() => setFilters(emptyFilters)}
+              taxonomy={bundle.taxonomy}
+              countsByStatus={countsByStatus}
+            />
+          </div>
+        </div>
+      ) : null}
     </main>
   );
 }

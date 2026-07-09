@@ -1,7 +1,4 @@
 import { ChevronDown, Download, FileText, Moon, Search, SlidersHorizontal, Sun } from "lucide-react";
-import { FilterSidebar, type Filters } from "./FilterSidebar";
-import type { Taxonomy, TemplateStatus } from "../types/radiology";
-
 type ThemeMode = "light" | "dark";
 
 type HeaderProps = {
@@ -12,11 +9,6 @@ type HeaderProps = {
   pdfUrl: string;
   filtersOpen: boolean;
   onToggleFilters: () => void;
-  filters: Filters;
-  onFiltersChange: (filters: Filters) => void;
-  onClearFilters: () => void;
-  taxonomy: Taxonomy;
-  countsByStatus: Record<TemplateStatus, number>;
   activeFilterCount: number;
   theme: ThemeMode;
   onToggleTheme: () => void;
@@ -30,11 +22,6 @@ export function Header({
   pdfUrl,
   filtersOpen,
   onToggleFilters,
-  filters,
-  onFiltersChange,
-  onClearFilters,
-  taxonomy,
-  countsByStatus,
   activeFilterCount,
   theme,
   onToggleTheme
@@ -99,26 +86,17 @@ export function Header({
         </button>
       </div>
 
-      <div
-        id="header-filters-panel"
-        className={filtersOpen ? "topbar-filters" : "topbar-filters hidden"}
-        hidden={!filtersOpen}
-      >
-        <div className="topbar-filters-meta">
-          <p>
-            {activeFilterCount
-              ? `Aktywne filtry: ${activeFilterCount}`
-              : "Wybierz kryteria, aby zawęzić listę szablonów."}
-          </p>
+      {filtersOpen ? (
+        <div id="header-filters-panel" className="topbar-filters">
+          <div className="topbar-filters-meta">
+            <p>
+              {activeFilterCount
+                ? `Aktywne filtry: ${activeFilterCount}. Panel filtrów jest otwarty.`
+                : "Wybierz kryteria, aby zawęzić listę szablonów."}
+            </p>
+          </div>
         </div>
-        <FilterSidebar
-          filters={filters}
-          onFiltersChange={onFiltersChange}
-          onClear={onClearFilters}
-          taxonomy={taxonomy}
-          countsByStatus={countsByStatus}
-        />
-      </div>
+      ) : null}
     </header>
   );
 }

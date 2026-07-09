@@ -24,6 +24,13 @@ examTypes:
   - id: usg-jamy-brzusznej
     label: USG jamy brzusznej
     synonyms: [brzuch, abdomen, abdominal ultrasound]
+  - id: ct-jamy-brzusznej-bez-kontrastu
+    label: CT jamy brzusznej bez kontrastu
+    synonyms:
+      [TK jamy brzusznej bez kontrastu, niekontrastowa tomografia komputerowa jamy brzusznej, NCCT układu moczowego]
+  - id: rtg-przegladowe-jamy-brzusznej
+    label: RTG przeglądowe jamy brzusznej
+    synonyms: [KUB, RTG KUB, przeglądowe RTG układu moczowego]
   - id: usg-szyi
     label: USG szyi
     synonyms: [neck ultrasound, szyja]
@@ -74,6 +81,9 @@ organs:
   - id: nerki
     label: Nerki
     synonyms: [kidneys, kidney]
+  - id: trzustka
+    label: Trzustka
+    synonyms: [pancreas]
   - id: tarczyca
     label: Tarczyca
     synonyms: [thyroid]
@@ -100,6 +110,39 @@ pathology:
   - id: torbiel
     label: Torbiel
     synonyms: [cyst]
+  - id: ipmn
+    label: IPMN
+    synonyms: [intraductal papillary mucinous neoplasm, intraductal papillary mucinous neoplasia, wewnątrzprzewodowy brodawkowaty nowotwór śluzowy]
+  - id: torbiel-rzekoma
+    label: Torbiel rzekoma
+    synonyms: [pseudocyst, pancreatic pseudocyst, pseudotorbiel]
+  - id: torbiel-bosniak-i
+    label: Torbiel Bosniak I
+    synonyms: [bosniak i, simple renal cyst, prosta torbiel nerki]
+  - id: torbiel-bosniak-ii
+    label: Torbiel Bosniak II
+    synonyms: [bosniak ii, minimally complex renal cyst, minimalnie złożona torbiel nerki]
+  - id: torbiel-bosniak-iif
+    label: Torbiel Bosniak IIF
+    synonyms: [bosniak iif, follow-up renal cyst, torbiel nerkowa do obserwacji]
+  - id: torbiel-bosniak-iii-iv
+    label: Torbiel Bosniak III-IV
+    synonyms: [bosniak iii, bosniak iv, complex cystic renal mass, złożona torbielowata zmiana nerki]
+  - id: angiomyolipoma
+    label: Angiomyolipoma
+    synonyms: [aml, angiomyolipoma nerki, renal angiomyolipoma]
+  - id: odmiedniczkowe-zapalenie
+    label: Odmiedniczkowe zapalenie
+    synonyms: [pyelonephritis, acute pyelonephritis, zapalenie nerki i miedniczki]
+  - id: guz-nerki
+    label: Guz nerki
+    synonyms: [renal mass, kidney tumor, renal tumor, guz lity nerki]
+  - id: guz-neuroendokrynny
+    label: Guz neuroendokrynny
+    synonyms: [pancreatic neuroendocrine tumor, pnet, pannet, tumor neuroendokrynny trzustki]
+  - id: gruczolakorak
+    label: Gruczolakorak
+    synonyms: [adenocarcinoma, pancreatic ductal adenocarcinoma, pdac, rak przewodowy trzustki]
   - id: torbiel-prosta
     label: Torbiel prosta
     synonyms: [simple cyst]
@@ -127,12 +170,18 @@ pathology:
   - id: polip-cholesterolowy
     label: Polip cholesterolowy
     synonyms: [cholesterol polyp, cholesterolosis polyp, polip cholesterolotyczny]
+  - id: polip-wymagajacy-kontroli
+    label: Polip wymagający kontroli
+    synonyms: [surveillance polyp, follow-up polyp, polip nadzorowany]
   - id: gruczolakowatosc
     label: Gruczolakowatość
     synonyms: [adenomyomatosis, adenomyomatoza pęcherzyka]
   - id: zapalenie
     label: Zapalenie
     synonyms: [inflammation]
+  - id: przewlekle-zapalenie
+    label: Przewlekłe zapalenie
+    synonyms: [chronic inflammation, chronic cholecystitis, przewlekłe zapalenie pęcherzyka]
   - id: przerzuty
     label: Przerzuty
     synonyms: [metastases, metastasis]
@@ -151,9 +200,27 @@ pathology:
   - id: guzek-lagodny
     label: Guzek łagodny
     synonyms: [benign nodule, colloid nodule, spongiform nodule]
+  - id: graves-basedow
+    label: Graves-Basedow
+    synonyms: [Graves disease, Basedow disease, diffuse toxic goiter]
+  - id: zwapnienia
+    label: Zwapnienia
+    synonyms: [calcifications, echogenic foci, microcalcifications]
   - id: odczynowe
     label: Odczynowe
     synonyms: [reactive]
+  - id: przerzutowe
+    label: Przerzutowe
+    synonyms: [metastatic, nodal metastasis, metastatic lymph node]
+  - id: martwicze
+    label: Martwicze
+    synonyms: [necrotic, with necrosis, cystic necrosis]
+  - id: chloniak
+    label: Chłoniak
+    synonyms: [lymphoma, lymphomatous node]
+  - id: gruzlicze
+    label: Gruźlicze
+    synonyms: [tuberculous, tuberculous lymphadenitis, scrofula]
   - id: podejrzane
     label: Podejrzane
     synonyms: [suspicious, przerzutowe]
@@ -172,6 +239,12 @@ pathology:
   - id: zmiany-po-cholecystektomii
     label: Zmiany po cholecystektomii
     synonyms: [stan po cholecystektomii, post-cholecystectomy changes]
+  - id: pecherzyk-porcelanowy
+    label: Pęcherzyk porcelanowy
+    synonyms: [porcelain gallbladder, calcified gallbladder, zwapniały pęcherzyk]
+  - id: rak-pecherzyka
+    label: Rak pęcherzyka
+    synonyms: [gallbladder cancer, gallbladder carcinoma, rak pęcherzyka żółciowego]
 
 tags:
   - id: rezydent

@@ -1,0 +1,36 @@
+id: usg-wezly-chlonne-przerzutowe
+title: Węzeł chłonny przerzutowy
+modality: USG
+examTypes: [USG szyi]
+bodySystems: [Układ limfatyczny]
+bodyParts: [Szyja]
+organs: [Węzły chłonne]
+pathology: [Przerzutowe]
+tags: [Rezydent, Doppler, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [cervical-lymph-node-malignant-us-2008, malignant-neck-nodes-review-2014, neck-node-malignancy-algorithm-2012]
+sections:
+  assessmentChecklist:
+    - Lokalizacja i poziom szyi.
+    - Liczba węzłów i największy wymiar osi krótkiej.
+    - Kształt okrągły lub patologiczna proporcja osi krótkiej do długiej.
+    - Utrata echogenicznej wnęki.
+    - Echogeniczność, niejednorodność, zwapnienia lub komponenta torbielowata.
+    - Typ unaczynienia, zwłaszcza obwodowe lub chaotyczne.
+    - Cechy naciekania tkanek otaczających lub pakietów węzłowych.
+  reportTemplate: |
+    W okolicy {{lokalizacja}} widoczny węzeł chłonny / pakiet węzłów o wymiarach do {{wymiary_mm}} mm, {{okragly_lub_nieregularny}}, z {{zachowana_lub_zatarta}} wnęką tłuszczową, o {{jednorodnej_lub_niejednorodnej}} echostrukturze, z {{obecnymi_lub_brakiem}} zwapnień / komponenty torbielowatej. W badaniu Doppler {{unaczynienie_obwodowe_chaotyczne_lub_skappe}}. Obraz budzi podejrzenie węzła chłonnego przerzutowego.
+  impressionTemplate: |
+    Podejrzany węzeł chłonny w obrazie najbardziej odpowiada zmianie przerzutowej. Wskazana pilna korelacja z kontekstem onkologicznym oraz weryfikacja tkankowa zgodnie z lokalizacją i sytuacją kliniczną.
+  clinicalNotes:
+    - Szczególnie podejrzane są węzły okrągłe, bez wnęki, z unaczynieniem obwodowym, martwicą lub zwapnieniami.
+    - Zwapnienia i torbielowata przebudowa mogą występować zwłaszcza w przerzutach raka brodawkowatego tarczycy.
+    - W opisie warto podać relację do naczyń i możliwość bezpiecznego dostępu do BAC lub biopsji gruboigłowej.
+  differential:
+    - Chłoniak.
+    - Węzeł martwiczy o etiologii zapalnej.
+    - Zaawansowany węzeł gruźliczy.
+  followUp:
+    - Rozważyć BAC lub biopsję gruboigłową oraz dalszą diagnostykę przekrojową zależnie od kontekstu klinicznego.

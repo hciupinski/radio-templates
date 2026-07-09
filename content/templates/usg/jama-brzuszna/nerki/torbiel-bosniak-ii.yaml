@@ -1,0 +1,32 @@
+id: usg-nerki-torbiel-bosniak-ii
+title: Torbiel Bosniak II
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ moczowy]
+bodyParts: [Jama brzuszna]
+organs: [Nerki]
+pathology: [Torbiel Bosniak II]
+tags: [Rezydent]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [bosniak-25-years-2012, ceus-bosniak-structured-reporting-2021]
+sections:
+  assessmentChecklist:
+    - Lokalizacja i największy wymiar zmiany torbielowatej.
+    - Obecność pojedynczych cienkich przegród lub drobnych zwapnień.
+    - Brak guzków przyściennych i litej składowej.
+    - Jednorodność zawartości oraz brak ewidentnych cech unaczynionej części litej.
+    - Ograniczenia badania przezbrzusznego w pełnym przypisaniu kategorii Bosniak.
+  reportTemplate: |
+    W nerce {{strona}}, w {{lokalizacja}}, widoczna jest zmiana torbielowata o wymiarach {{mm_x_mm}}, o zasadniczo płynowej zawartości, z {{obecna_lub_brak}} pojedynczą cienką przegrodą / drobnymi zwapnieniami ściany. Nie uwidoczniono guzków przyściennych ani jednoznacznej litej składowej. Obraz może odpowiadać minimalnie złożonej torbieli nerkowej.
+  impressionTemplate: |
+    Zmiana torbielowata nerki o łagodnych cechach w USG, mogąca odpowiadać kategorii Bosniak II. Pełna klasyfikacja Bosniak może wymagać badania kontrastowego, jeśli obraz jest niejednoznaczny.
+  clinicalNotes:
+    - W samym USG przezbrzusznym kategoria Bosniak II może być jedynie sugerowana na podstawie minimalnej złożoności morfologicznej.
+    - Brak wyraźnych guzków przyściennych i litej składowej przemawia przeciw zmianie wysokiego ryzyka.
+  differential:
+    - Torbiel prosta z artefaktami.
+    - Wczesna bardziej złożona torbiel wymagająca lepszej charakterystyki.
+  followUp:
+    - Przy niejednoznacznym obrazie lub niespójności z wcześniejszymi badaniami rozważyć dalszą charakterystykę w CEUS, TK lub MR.

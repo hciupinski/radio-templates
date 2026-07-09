@@ -1,0 +1,32 @@
+id: usg-nerki-angiomyolipoma
+title: Angiomyolipoma nerki
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ moczowy]
+bodyParts: [Jama brzuszna]
+organs: [Nerki]
+pathology: [Angiomyolipoma]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [kidney-us-pictorial-review-2015]
+sections:
+  assessmentChecklist:
+    - Lokalizacja zmiany w nerce oraz jej największy wymiar.
+    - Echogeniczność i jednorodność zmiany względem miąższu nerki.
+    - Zarys zmiany i jej wpływ na obrys nerki.
+    - Obecność pojedynczych lub mnogich zmian oraz obustronności.
+    - Ewentualne cechy nietypowe, takie jak niejednorodność, cień, zwapnienia lub nietypowe unaczynienie.
+  reportTemplate: |
+    W nerce {{strona}}, w {{lokalizacja}}, widoczna jest dobrze odgraniczona, {{jednorodnie_lub_niejednorodnie}} hiperechogeniczna zmiana ogniskowa o wymiarach {{mm_x_mm}}, bez jednoznacznych cech naciekania otoczenia. {{Obecne_lub_brak}} dodatkowych zmian ogniskowych w nerkach. Obraz może odpowiadać angiomyolipoma.
+  impressionTemplate: |
+    Hiperechogeniczna zmiana ogniskowa nerki o obrazie sugerującym angiomyolipoma. Przy cechach atypowych lub większym wymiarze wskazana dalsza charakterystyka obrazowa.
+  clinicalNotes:
+    - Typowy AML bywa wyraźnie hiperechogeniczny, ale sama echogeniczność nie zawsze pozwala pewnie odróżnić zmianę łagodną od innych guzów litych.
+    - Obustronność lub mnogość zmian może sugerować związek z zespołem stwardnienia guzowatego.
+  differential:
+    - Inny hiperechogeniczny guz lity nerki, w tym rak nerki.
+    - Zwapniała zmiana korowa lub blizna.
+  followUp:
+    - Dalsza charakterystyka zależy od wielkości i atypii zmiany; w razie wątpliwości rozważyć TK, MR lub CEUS zgodnie z praktyką lokalną.

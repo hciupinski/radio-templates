@@ -1,0 +1,33 @@
+id: usg-pecherzyk-zolciowy-pecherzyk-porcelanowy
+title: Pęcherzyk porcelanowy
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Pęcherzyk żółciowy]
+pathology: [Pęcherzyk porcelanowy, Kamica]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [porcelain-gallbladder-machado-2016, porcelain-gallbladder-schnelldorfer-2013]
+sections:
+  assessmentChecklist:
+    - "Zakres zwapnienia ściany: ogniskowe, częściowe lub rozlane."
+    - Nasilenie tylnego cienia akustycznego i możliwość oceny światła pęcherzyka.
+    - Współistnienie złogów lub obrazu typu WES.
+    - Obecność litej składowej, przerwania ciągłości ściany lub naciekania otoczenia.
+    - Szerokość dróg żółciowych i obecność wtórnych cech cholestazy.
+  reportTemplate: |
+    Ściana pęcherzyka żółciowego z obecnymi {{ogniskowymi_lub_rozleglymi}} hiperechogenicznymi zwapnieniami, dającymi wyraźny tylny cień akustyczny. Ocena światła pęcherzyka {{mozliwa_w_ograniczonym_stopniu_lub_niemozliwa}}. {{Brak_lub_obecnosc}} jednoznacznej litej składowej przyściennej / nacieku tkanek sąsiednich w dostępnym zakresie badania. Droga żółciowa wspólna {{nieposzerzona_lub_poszerzona_do_mm}}.
+  impressionTemplate: |
+    Obraz odpowiada zwapnieniu ściany pęcherzyka żółciowego (pęcherzyk porcelanowy). Ocena światła pęcherzyka jest ograniczona przez cień akustyczny.
+  clinicalNotes:
+    - Związek pęcherzyka porcelanowego z rakiem pęcherzyka jest opisywany, ale ryzyko nie powinno być przeszacowywane bez dodatkowych cech podejrzanych.
+    - Niecałkowite zwapnienie ściany może wymagać ostrożniejszej interpretacji niż rozlane, pełne zwapnienie.
+  differential:
+    - Pęcherzyk wypełniony złogami z obrazem typu WES.
+    - Milk of calcium bile.
+    - Zwapniała zmiana przyścienna z towarzyszącą masą nowotworową.
+  followUp:
+    - Jeśli w obrazie USG pojawia się podejrzenie litej składowej lub nacieku, wskazana jest dalsza charakterystyka metodą przekrojową oraz konsultacja hepatobiliaryjna.

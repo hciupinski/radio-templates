@@ -9,8 +9,23 @@ pathology: [Podejrzane]
 tags: [Rezydent, Doppler, Pilne]
 status: draft
 version: "0.1.0"
-updatedAt: "2026-07-08"
-sourceRefs: [aium-parameters, radiopaedia, local-review]
+updatedAt: "2026-07-09"
+sourceRefs: [cervical-lymph-node-malignant-us-2008, neck-node-malignancy-algorithm-2012]
+imageRefs:
+  - id: suspicious-lymph-node-usg-01
+    title: Węzeł chłonny o cechach podejrzanych
+    imageUrl: https://sonographie.org/wp-content/uploads/2018/08/GLY_LYK_XXX_149.jpg
+    sourceUrl: https://sonographie.org/lymph-nodes
+    caption: Hipoechogeniczny, zaokrąglony węzeł bez zachowanej wnęki, odpowiadający obrazowi podejrzanemu o złośliwość.
+    alt: Ultrasonogram zaokrąglonego, hipoechogenicznego węzła chłonnego bez zachowanej wnęki.
+    category: typical
+    findings:
+      - Zaokrąglony kształt węzła.
+      - Jednorodnie hipoechogeniczny obraz bez wyraźnej wnęki.
+      - Wyraźne powiększenie węzła względem tkanek otaczających.
+    attribution: Atlas of Ultrasound Erlangen
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-09"
 sections:
   assessmentChecklist:
     - Lokalizacja i poziom szyi.

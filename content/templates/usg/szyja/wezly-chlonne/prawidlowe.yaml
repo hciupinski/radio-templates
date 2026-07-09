@@ -1,0 +1,44 @@
+id: usg-wezly-chlonne-prawidlowe
+title: Prawidłowe węzły chłonne szyi
+modality: USG
+examTypes: [USG szyi]
+bodySystems: [Układ limfatyczny]
+bodyParts: [Szyja]
+organs: [Węzły chłonne]
+pathology: [Obraz prawidłowy]
+tags: [Rezydent]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [cervical-lymph-node-malignant-us-2008, cervical-lymph-node-normal-image-2015]
+imageRefs:
+  - id: normal-cervical-lymph-node-usg-01
+    title: Prawidłowy węzeł chłonny szyi
+    imageUrl: https://www.kup.at/kup/images/browser/18602.jpg
+    sourceUrl: https://www.kup.at/journals/abbildungen/gross/18602.html
+    sourceId: cervical-lymph-node-normal-image-2015
+    caption: Owalny węzeł szyjny z zachowaną echogeniczną wnęką i równomierną korą, przydatny jako obraz referencyjny.
+    alt: Ultrasonogram prawidłowego węzła chłonnego szyi z widoczną echogeniczną wnęką.
+    category: normal-reference
+    findings:
+      - Owalny kształt węzła.
+      - Zachowana echogeniczna wnęka.
+      - Równomierna kora i ostro odgraniczony obrys.
+    attribution: Meng S via Journal für Klinische Endokrinologie und Stoffwechsel
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-09"
+sections:
+  assessmentChecklist:
+    - Lokalizacja i poziom szyi.
+    - Liczba ocenianych węzłów.
+    - Wymiary w osi długiej i krótkiej.
+    - Owalny kształt i zachowana echogeniczna wnęka.
+    - Jednorodność kory i brak cech martwicy lub zwapnień.
+    - Brak patologicznego unaczynienia obwodowego.
+  reportTemplate: |
+    W dostępnym badaniu uwidoczniono węzły chłonne szyi o prawidłowej morfologii, owalnym kształcie, z zachowaną echogeniczną wnęką tłuszczową i jednorodną korą, do {{wymiary_mm}} mm w osi krótkiej. Bez cech martwicy, zwapnień ani patologicznego unaczynienia obwodowego.
+  impressionTemplate: |
+    Obraz ocenianych węzłów chłonnych szyi w granicach normy sonograficznej.
+  clinicalNotes:
+    - W badaniach kontrolnych lub onkologicznych warto podawać poziom szyi oraz największy wymiar osi krótkiej.
+    - Zachowana echogeniczna wnęka i owalny kształt przemawiają za łagodnym charakterem węzła.

@@ -1,4 +1,4 @@
-import { ChevronLeft, Clipboard, Copy, ExternalLink } from "lucide-react";
+import { ChevronLeft, Clipboard, Copy, ExternalLink, Pin, PinOff } from "lucide-react";
 import type { ReactNode } from "react";
 import type { RadiologyTemplate, Source } from "../types/radiology";
 import { ImageGallery } from "./ImageGallery";
@@ -7,6 +7,9 @@ import { StatusPill } from "./StatusPill";
 type TemplateDetailProps = {
   template?: RadiologyTemplate;
   sourceMap: Map<string, Source>;
+  breadcrumb?: string;
+  pinned?: boolean;
+  onTogglePinned?: (id: string) => void;
   onBackToList?: () => void;
 };
 
@@ -59,7 +62,14 @@ function DetailBlock({
   );
 }
 
-export function TemplateDetail({ template, sourceMap, onBackToList }: TemplateDetailProps) {
+export function TemplateDetail({
+  template,
+  sourceMap,
+  breadcrumb,
+  pinned,
+  onTogglePinned,
+  onBackToList
+}: TemplateDetailProps) {
   if (!template) {
     return (
       <section className="detail-panel empty-detail">
@@ -90,6 +100,7 @@ export function TemplateDetail({ template, sourceMap, onBackToList }: TemplateDe
 
       <div className="detail-header">
         <div>
+          {breadcrumb ? <span className="detail-breadcrumb">{breadcrumb}</span> : null}
           <span className="detail-kicker">
             {template.modality} · {template.examTypes.join(", ")}
           </span>
@@ -107,6 +118,12 @@ export function TemplateDetail({ template, sourceMap, onBackToList }: TemplateDe
           <Clipboard size={17} aria-hidden="true" />
           Kopiuj całość
         </button>
+        {onTogglePinned ? (
+          <button type="button" onClick={() => onTogglePinned(template.id)}>
+            {pinned ? <PinOff size={17} aria-hidden="true" /> : <Pin size={17} aria-hidden="true" />}
+            {pinned ? "Odepnij" : "Przypnij"}
+          </button>
+        ) : null}
         <button type="button" onClick={() => copyToClipboard(template.sections.reportTemplate)}>
           <Copy size={17} aria-hidden="true" />
           Kopiuj opis

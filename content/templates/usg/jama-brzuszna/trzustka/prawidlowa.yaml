@@ -1,0 +1,42 @@
+id: usg-trzustka-prawidlowa
+title: Trzustka prawidłowa
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Przewód pokarmowy]
+bodyParts: [Jama brzuszna]
+organs: [Trzustka]
+pathology: [Obraz prawidłowy]
+tags: [Rezydent]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [pancreas-normal-sonographie]
+imageRefs:
+  - id: pancreas-normal-usg-01
+    title: Prawidłowy obraz trzustki
+    imageUrl: https://sonographie.org/wp-content/uploads/2018/02/PKS_NOR_XXX_177.jpg
+    sourceUrl: https://sonographie.org/normal-pancreas
+    caption: Referencyjny obraz prawidłowej trzustki widocznej przezbrzusznie, z zachowanym jednorodnym miąższem i nieposzerzonym przewodem.
+    alt: Ultrasonogram prawidłowej trzustki o jednorodnej echostrukturze.
+    category: normal-reference
+    findings:
+      - Jednorodna echostruktura miąższu.
+      - Gładki zarys widocznego odcinka trzustki.
+      - Brak poszerzenia widocznego przewodu trzustkowego.
+    attribution: Atlas of Ultrasound Erlangen
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-09"
+sections:
+  assessmentChecklist:
+    - Widoczność głowy, trzonu i ogona trzustki.
+    - Wielkość oraz zarys narządu.
+    - Echogeniczność i jednorodność miąższu.
+    - Szerokość przewodu Wirsunga.
+    - Obecność zmian ogniskowych lub płynu okołotrzustkowego.
+  reportTemplate: |
+    Trzustka {{widoczna_w_calosci_lub_czesciowo_z_powodu_gazow_jelitowych}}, niepowiększona, o jednorodnej echostrukturze i {{prawidlowej_lub_nieznacznie_wiekszej_zaleznie_od_wieku}} echogeniczności. Przewód Wirsunga {{nieposzerzony_do_mm_lub_niewidoczny}}. Nie uwidoczniono zmian ogniskowych ani zbiorników płynowych okołotrzustkowo.
+  impressionTemplate: |
+    Obraz USG trzustki w granicach normy w dostępnym zakresie.
+  clinicalNotes:
+    - Przy ograniczonej ocenie z powodu gazów jelitowych zaznacz zakres widoczności narządu.
+    - Echogeniczność trzustki może fizjologicznie wzrastać z wiekiem lub stłuszczeniem.

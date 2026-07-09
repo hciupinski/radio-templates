@@ -9,8 +9,23 @@ pathology: [Obraz prawidłowy]
 tags: [Rezydent]
 status: draft
 version: "0.1.0"
-updatedAt: "2026-07-08"
-sourceRefs: [aium-parameters, local-review]
+updatedAt: "2026-07-09"
+sourceRefs: [gallstone-disease-nice-2014, cbd-post-chole-1995]
+imageRefs:
+  - id: gallbladder-normal-usg-01
+    title: Prawidłowy pęcherzyk żółciowy w przekroju podłużnym
+    imageUrl: https://sonographie.org/wp-content/uploads/2019/09/GAB_NOR_XXX_374.jpg
+    sourceUrl: https://sonographie.org/normal-gallbladder
+    caption: Referencyjny obraz cienkościennego pęcherzyka żółciowego z jednorodnie bezechowym światłem.
+    alt: Ultrasonogram prawidłowego pęcherzyka żółciowego z cienką ścianą i bezechowym światłem.
+    category: normal-reference
+    findings:
+      - Bezechowe światło pęcherzyka żółciowego.
+      - Gładka, cienka ściana.
+      - Brak złogów i zmian przyściennych w pokazanym przekroju.
+    attribution: Atlas of Ultrasound Erlangen
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-09"
 sections:
   assessmentChecklist:
     - Stopień wypełnienia pęcherzyka.

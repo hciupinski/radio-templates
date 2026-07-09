@@ -65,6 +65,28 @@ const taxonomySchema = z.object({
   tags: z.array(taxonomyEntrySchema).min(1)
 });
 
+const anatomySectionSchema = z.object({
+  id: z.string().min(1),
+  label: z.string().min(1),
+  pathology: z.array(z.string().min(1)).min(1),
+  order: z.number().int().nonnegative()
+});
+
+const conditionGroupSchema = z.object({
+  id: z.string().min(1),
+  label: z.string().min(1),
+  description: z.string().min(1),
+  organs: z.array(z.string().min(1)).min(1),
+  pathology: z.array(z.string().min(1)).min(1),
+  modalities: z.array(modalitySchema).optional(),
+  order: z.number().int().nonnegative()
+});
+
+const catalogSchema = z.object({
+  anatomySections: z.record(z.string(), z.array(anatomySectionSchema).min(1)),
+  conditionGroups: z.array(conditionGroupSchema).min(1)
+});
+
 const templateSchema = z.object({
   id: z.string().min(1),
   title: z.string().min(1),
@@ -159,6 +181,7 @@ export function loadValidatedContent(rootDir = process.cwd()) {
   const contentDir = path.join(rootDir, "content");
   const templateDir = path.join(contentDir, "templates");
   const taxonomy = taxonomySchema.parse(readYaml(path.join(contentDir, "taxonomy.yaml")));
+  const catalog = catalogSchema.parse(readYaml(path.join(contentDir, "catalog.yaml")));
   const sources = sourceSchema.array().parse(readYaml(path.join(contentDir, "sources.yaml")));
 
   assertUnique(sources, "id", "źródła");
@@ -178,6 +201,38 @@ export function loadValidatedContent(rootDir = process.cwd()) {
     tags: new Set(taxonomy.tags.map((entry) => entry.label)),
     sources: new Set(sources.map((source) => source.id))
   };
+
+  for (const [organ, sections] of Object.entries(catalog.anatomySections)) {
+    if (!allowed.organs.has(organ)) {
+      throw new Error(`Nieznany narząd "${organ}" w content/catalog.yaml`);
+    }
+
+    assertUnique(sections, "id", `sekcji anatomicznej ${organ}`);
+    assertUnique(sections, "label", `etykiety sekcji anatomicznej ${organ}`);
+
+    for (const section of sections) {
+      assertKnownValues(section.pathology, allowed.pathology, `catalog.anatomySections.${organ}`, section.id);
+    }
+  }
+
+  assertUnique(catalog.conditionGroups, "id", "grupy chorobowej");
+  assertUnique(catalog.conditionGroups, "label", "etykiety grupy chorobowej");
+
+  for (const group of catalog.conditionGroups) {
+    assertKnownValues(group.organs, allowed.organs, "catalog.conditionGroups.organs", group.id);
+    assertKnownValues(
+      group.pathology,
+      allowed.pathology,
+      "catalog.conditionGroups.pathology",
+      group.id
+    );
+    assertKnownOptionalValues(
+      group.modalities,
+      allowed.modalities,
+      "catalog.conditionGroups.modalities",
+      group.id
+    );
+  }
 
   const templateFiles = walkYaml(templateDir);
   const templates = templateFiles.map((filePath) => {
@@ -209,17 +264,19 @@ export function loadValidatedContent(rootDir = process.cwd()) {
 
   return {
     taxonomy,
+    catalog,
     sources,
     templates: sortTemplates(templates)
   };
 }
 
 export function buildContentBundle(rootDir = process.cwd()) {
-  const { taxonomy, sources, templates } = loadValidatedContent(rootDir);
+  const { taxonomy, catalog, sources, templates } = loadValidatedContent(rootDir);
   const generatedAt = new Date().toISOString();
   const contentVersion = getContentVersion(templates);
   const serialized = JSON.stringify({
     taxonomy,
+    catalog,
     sources,
     templates,
     contentVersion,
@@ -229,6 +286,7 @@ export function buildContentBundle(rootDir = process.cwd()) {
 
   return {
     taxonomy,
+    catalog,
     sources,
     templates,
     contentVersion,

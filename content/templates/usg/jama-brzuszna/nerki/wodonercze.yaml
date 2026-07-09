@@ -9,8 +9,8 @@ pathology: [Wodonercze]
 tags: [Rezydent, Pilne]
 status: draft
 version: "0.1.0"
-updatedAt: "2026-07-08"
-sourceRefs: [aium-parameters, radiopaedia, local-review]
+updatedAt: "2026-07-09"
+sourceRefs: [kidney-us-pictorial-review-2015]
 imageRefs:
   - id: hydronephrosis-usg-typical-01
     title: Typowy obraz wodonercza

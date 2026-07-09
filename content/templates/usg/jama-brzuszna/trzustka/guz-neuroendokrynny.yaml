@@ -1,0 +1,35 @@
+id: usg-trzustka-guz-neuroendokrynny
+title: Guz neuroendokrynny trzustki
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Przewód pokarmowy]
+bodyParts: [Jama brzuszna]
+organs: [Trzustka]
+pathology: [Guz neuroendokrynny]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [jsum-pancreatic-us-criteria-2013, enets-nf-pannet-2023, pnet-series-2019]
+sections:
+  assessmentChecklist:
+    - Lokalizacja zmiany w głowie, trzonie, ogonie lub wyrostku haczykowatym trzustki.
+    - Wielkość, zarys i stosunek zmiany do głównego przewodu trzustkowego.
+    - Echogeniczność, jednorodność i ewentualne cechy martwicy, krwawienia lub zwapnień.
+    - Ewentualny efekt masy na drogi żółciowe, przewód trzustkowy lub naczynia.
+    - Obecność zmian ogniskowych w wątrobie, wodobrzusza lub innych cech rozsiewu.
+    - Ograniczenia widoczności wynikające z gazów jelitowych i położenia narządu.
+  reportTemplate: |
+    W rzucie trzustki, w {{glowie_trzonie_ogonie_lub_wyrostku_haczykowatym}}, widoczna jest zmiana ogniskowa o wymiarach {{mm_x_mm}}, {{owalna_lub_nieregularna}}, o {{dobrze_lub_nieostro}} odgraniczonym zarysie, o {{jednorodnie_lub_niejednorodnie}} hipoechogenicznej echostrukturze. {{Obecne_lub_brak}} cech torbielowatej degeneracji, zwapnień lub zmian krwotoczno-martwiczych. Przewód Wirsunga {{nieposzerzony_lub_poszerzony_do_mm}}. {{Obecny_lub_brak}} ucisk na drogi żółciowe / sąsiednie struktury. Wątroba {{bez_lub_z}} zmianami ogniskowymi podejrzanymi o charakter wtórny.
+  impressionTemplate: |
+    Zmiana ogniskowa trzustki podejrzana o guz neuroendokrynny. Obraz USG przezbrzusznego ma ograniczoną wartość charakterystyki biologicznej; wskazana dalsza ocena w badaniu przekrojowym i lub EUS w trybie planowym lub przyspieszonym zależnie od obrazu klinicznego.
+  clinicalNotes:
+    - W przezbrzusznym USG guzy neuroendokrynne mogą być dobrze odgraniczone i względnie jednorodne, ale większe zmiany mogą zawierać obszary martwicy, krwawienia lub zwyrodnienia torbielowatego.
+    - Poszerzenie przewodu Wirsunga jest zwykle niewielkie lub nieobecne, jednak może wystąpić przy ucisku lub w zmianach złośliwych.
+    - Samo USG nie pozwala na wiarygodne określenie stopnia złośliwości ani aktywności hormonalnej guza.
+  differential:
+    - Gruczolakorak trzustki.
+    - Guz lity z torbielowatą degeneracją, w tym SPN.
+    - Ogniskowa zmiana zapalna lub pozapalna.
+  followUp:
+    - Dalsza kwalifikacja wymaga korelacji z objawami hormonalnymi, oznaczeniami biochemicznymi oraz pogłębienia diagnostyki w TK, MR lub EUS.

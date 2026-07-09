@@ -1,0 +1,49 @@
+id: usg-tarczyca-torbiel
+title: Torbiel tarczycy
+modality: USG
+examTypes: [USG tarczycy, USG szyi]
+bodySystems: [Układ endokrynny]
+bodyParts: [Szyja]
+organs: [Tarczyca]
+pathology: [Torbiel]
+tags: [Rezydent, TI-RADS, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [acr-thyroid-us-lexicon-2015, acr-tirads-white-paper-2017]
+imageRefs:
+  - id: thyroid-cyst-usg-01
+    title: Torbiel tarczycy
+    imageUrl: https://sonographie.org/wp-content/uploads/2022/09/SDD_SZY_XXX_1539.jpg
+    sourceUrl: https://sonographie.org/thyroid-cyst
+    caption: Duża torbiel tarczycy o przewadze bezechowej treści, z tylnym wzmocnieniem akustycznym.
+    alt: Ultrasonogram tarczycy z dużą torbielą o bezechowej treści.
+    category: typical
+    findings:
+      - Okrągła lub owalna zmiana torbielowata.
+      - Przewaga bezechowej treści płynowej.
+      - Tylne wzmocnienie akustyczne za zmianą.
+    attribution: Atlas of Ultrasound Erlangen
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-09"
+sections:
+  assessmentChecklist:
+    - Lokalizacja oraz liczba zmian torbielowatych.
+    - Trzy wymiary największej zmiany.
+    - Jednorodnie bezechowa lub z drobnymi echami koloidowymi treść.
+    - Tylne wzmocnienie akustyczne.
+    - Ściana zmiany i obecność składowej litej.
+    - Ogniska echogeniczne, w tym artefakt comet-tail.
+    - Klasyfikacja TI-RADS tylko wtedy, gdy zmiana nie jest prostą torbielą.
+  reportTemplate: |
+    W {{lokalizacja}} widoczna {{pojedyncza_lub_najwieksza}} zmiana torbielowata o wymiarach {{wymiary_mm}} mm, {{bezechowa_lub_z_drobnymi_echami_koloidowymi}}, z tylnym wzmocnieniem akustycznym, bez litej składowej i bez cech naciekania otoczenia. {{Z_lub_bez}} artefaktów comet-tail. Obraz odpowiada torbieli tarczycy / torbieli koloidowej.
+  impressionTemplate: |
+    Obraz USG odpowiada łagodnej zmianie torbielowatej tarczycy. Bez cech wysokiego ryzyka w dostępnym badaniu.
+  clinicalNotes:
+    - Prosta torbiel tarczycy nie wymaga punktacji ACR TI-RADS.
+    - Jeśli obecna jest składowa lita lub nieregularne zgrubienia ściany, opisz zmianę jak guzek mieszany i sklasyfikuj według TI-RADS.
+  differential:
+    - Torbiel koloidowa.
+    - Guzek mieszany z przewagą komponenty płynowej.
+  followUp:
+    - Kontrola lub ewentualna aspiracja tylko według objawów, wielkości zmiany i lokalnej praktyki klinicznej.

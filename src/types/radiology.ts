@@ -1,4 +1,5 @@
 export type Modality = "USG" | "CT" | "MR" | "RTG" | "MMG" | "DXA" | "INNE";
+export type CatalogViewMode = "anatomy" | "conditions" | "recent" | "pinned";
 
 export type TemplateStatus = "draft" | "reviewed" | "deprecated";
 export type ImageCategory =
@@ -58,6 +59,28 @@ export type Taxonomy = {
   tags: TaxonomyEntry[];
 };
 
+export type AnatomySection = {
+  id: string;
+  label: string;
+  pathology: string[];
+  order: number;
+};
+
+export type ConditionGroup = {
+  id: string;
+  label: string;
+  description: string;
+  organs: string[];
+  pathology: string[];
+  modalities?: Modality[];
+  order: number;
+};
+
+export type CatalogConfig = {
+  anatomySections: Record<string, AnatomySection[]>;
+  conditionGroups: ConditionGroup[];
+};
+
 export type RadiologyTemplate = {
   id: string;
   title: string;
@@ -89,11 +112,51 @@ export type TemplateWithSearch = RadiologyTemplate & {
 
 export type AppContentBundle = {
   taxonomy: Taxonomy;
+  catalog: CatalogConfig;
   sources: Source[];
   templates: RadiologyTemplate[];
   contentVersion: string;
   contentHash: string;
   generatedAt: string;
+};
+
+export type CatalogPath = {
+  modality: string;
+  examType: string;
+  bodySystem: string;
+  organ: string;
+};
+
+export type AnatomyTreeOrgan = {
+  label: string;
+  count: number;
+};
+
+export type AnatomyTreeBodySystem = {
+  label: string;
+  count: number;
+  organs: AnatomyTreeOrgan[];
+};
+
+export type AnatomyTreeExamType = {
+  label: string;
+  count: number;
+  bodySystems: AnatomyTreeBodySystem[];
+};
+
+export type AnatomyTreeModality = {
+  label: string;
+  count: number;
+  examTypes: AnatomyTreeExamType[];
+};
+
+export type CatalogGroupSummary = {
+  id: string;
+  label: string;
+  description?: string;
+  count: number;
+  modalities: string[];
+  templates: TemplateWithSearch[];
 };
 
 export type ContentManifest = {

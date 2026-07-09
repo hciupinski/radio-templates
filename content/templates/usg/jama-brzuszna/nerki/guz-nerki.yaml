@@ -1,0 +1,34 @@
+id: usg-nerki-guz-nerki
+title: Guz nerki
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ moczowy]
+bodyParts: [Jama brzuszna]
+organs: [Nerki]
+pathology: [Guz nerki]
+tags: [Rezydent, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [kidney-us-pictorial-review-2015]
+sections:
+  assessmentChecklist:
+    - Lokalizacja zmiany oraz największy wymiar w co najmniej dwóch płaszczyznach.
+    - Charakter lity, torbielowaty lub mieszany.
+    - Echogeniczność, jednorodność, martwica, zwapnienia lub torbielowata degeneracja.
+    - Zarys zmiany, deformacja obrysu nerki i relacja do zatoki nerkowej lub UKM.
+    - Przepływ w Dopplerze, jeśli możliwy do oceny.
+    - Ewentualne cechy rozsiewu miejscowego w dostępnym zakresie badania.
+  reportTemplate: |
+    W nerce {{strona}}, w {{lokalizacja}}, widoczna jest zmiana ogniskowa o wymiarach {{mm_x_mm}}, o {{litym_lub_mieszanym}} charakterze, {{hipo_izo_lub_hiperechogeniczna}}, {{jednorodna_lub_niejednorodna}}, z {{obecnymi_lub_brakiem}} obszarami torbielowatej degeneracji / martwicy / zwapnień. Zmiana {{modeluje_lub_nie_modeluje}} zarys nerki. W badaniu Doppler {{obecny_lub_brak}} przepływ w obrębie zmiany. {{Obecne_lub_brak}} cech zastoju w UKM po tej stronie.
+  impressionTemplate: |
+    Zmiana ogniskowa nerki podejrzana o guz lity. USG nie pozwala na pełną charakterystykę histologiczną; wskazana dalsza diagnostyka przekrojowa.
+  clinicalNotes:
+    - Większość litych zmian nerkowych wykrytych w USG wymaga dalszej oceny w TK, MR lub CEUS.
+    - Niektóre guzy mogą być hipowaskularne i nie wykazywać jednoznacznego sygnału w Dopplerze.
+  differential:
+    - Rak nerki.
+    - Angiomyolipoma atypowy.
+    - Pseudoguz lub ogniskowa zmiana zapalna.
+  followUp:
+    - Dalsza diagnostyka powinna uwzględniać pilność kliniczną, wielkość zmiany i dostępność badań przekrojowych.

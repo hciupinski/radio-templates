@@ -9,8 +9,23 @@ pathology: [Hashimoto, Zapalenie]
 tags: [Rezydent, Kontrola]
 status: draft
 version: "0.1.0"
-updatedAt: "2026-07-08"
+updatedAt: "2026-07-09"
 sourceRefs: [hashimoto-evidence-guide-2022]
+imageRefs:
+  - id: hashimoto-usg-01
+    title: Autoimmunologiczne zapalenie tarczycy typu Hashimoto
+    imageUrl: https://sonographie.org/wp-content/uploads/2021/04/SDD_AIT_XXX_1200.jpg
+    sourceUrl: https://sonographie.org/autoimmune-thyroiditis
+    caption: Niejednorodny, hipoechogeniczny miąższ tarczycy typowy dla przewlekłego autoimmunologicznego zapalenia.
+    alt: Ultrasonogram tarczycy z rozlaną hipoechogenicznością i niejednorodnym miąższem w Hashimoto.
+    category: typical
+    findings:
+      - Rozlana obniżona echogeniczność miąższu.
+      - Niejednorodna echostruktura gruczołu.
+      - Brak dobrze odgraniczonej pojedynczej zmiany ogniskowej w pokazanym ujęciu.
+    attribution: Atlas of Ultrasound Erlangen
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-09"
 sections:
   assessmentChecklist:
     - Wielkość tarczycy.

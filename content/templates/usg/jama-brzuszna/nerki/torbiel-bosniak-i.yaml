@@ -1,0 +1,44 @@
+id: usg-nerki-torbiel-bosniak-i
+title: Torbiel Bosniak I
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ moczowy]
+bodyParts: [Jama brzuszna]
+organs: [Nerki]
+pathology: [Torbiel Bosniak I]
+tags: [Rezydent]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [kidney-us-pictorial-review-2015, bosniak-25-years-2012]
+imageRefs:
+  - id: kidney-bosniak-i-usg-01
+    title: Prosta torbiel nerki
+    imageUrl: https://sonographie.org/wp-content/uploads/2021/10/NRE_NZY_ENZ_1297.jpg
+    sourceUrl: https://sonographie.org/simple-kidney-cyst
+    caption: Typowy obraz prostej torbieli nerkowej z cienką ścianą, bezechową zawartością i wzmocnieniem za tylną ścianą.
+    alt: Ultrasonogram prostej torbieli nerki o gładkiej ścianie i bezechowej zawartości.
+    category: typical
+    findings:
+      - Okrągła lub owalna bezechowa zmiana.
+      - Cienka, gładka ściana bez przegród.
+      - Wzmocnienie akustyczne za tylną ścianą.
+    attribution: Atlas of Ultrasound Erlangen
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-09"
+sections:
+  assessmentChecklist:
+    - Lokalizacja torbieli i największy wymiar zmiany.
+    - Bezechowa zawartość i cienka, gładka ściana.
+    - Brak przegród, zwapnień, guzków przyściennych i litej składowej.
+    - Wzmocnienie akustyczne za tylną ścianą.
+    - Wpływ zmiany na układ kielichowo-miedniczkowy lub zarys nerki.
+  reportTemplate: |
+    W nerce {{strona}}, w {{lokalizacja}}, widoczna jest torbiel o wymiarach {{mm_x_mm}}, bezechowa, cienkościenna, o gładkim zarysie, z wyraźnym wzmocnieniem za tylną ścianą. Nie uwidoczniono przegród, zwapnień, guzków przyściennych ani litej składowej.
+  impressionTemplate: |
+    Obraz odpowiada prostej torbieli nerki, zgodnej z łagodnym charakterem Bosniak I.
+  clinicalNotes:
+    - Typowa prosta torbiel nerkowa w USG nie wymaga dalszej charakterystyki obrazowej, jeśli pozostaje bezobjawowa i nie ma cech atypii.
+  differential:
+    - Torbiel okołomiedniczkowa.
+    - Poszerzenie UKM imitujące zmianę torbielowatą.

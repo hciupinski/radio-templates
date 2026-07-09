@@ -1,0 +1,50 @@
+id: usg-trzustka-przewlekle-zapalenie
+title: Przewlekłe zapalenie trzustki
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Przewód pokarmowy]
+bodyParts: [Jama brzuszna]
+organs: [Trzustka]
+pathology: [Przewlekłe zapalenie]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [chronic-pancreatitis-nejm-2022, imaging-chronic-pancreatitis-2019]
+imageRefs:
+  - id: pancreas-chronic-pancreatitis-usg-01
+    title: Przewlekłe zapalenie trzustki ze zwapnieniami
+    imageUrl: https://sonographie.org/wp-content/uploads/2019/09/PKS_CPK_XXX_379.jpg
+    sourceUrl: https://sonographie.org/chronic-pancreatitis
+    caption: Obraz przewlekłego zapalenia trzustki z widocznymi zwapnieniami i zmianami przewodowymi, przydatny jako wariant referencyjny.
+    alt: Ultrasonogram przewlekłego zapalenia trzustki z hiperechogenicznymi zwapnieniami.
+    category: typical
+    findings:
+      - Hiperechogeniczne ogniska odpowiadające zwapnieniom.
+      - Niejednorodna, włóknista echostruktura miąższu.
+      - Cechy zmian przewodowych w przebiegu przewlekłym.
+    attribution: Atlas of Ultrasound Erlangen
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-09"
+sections:
+  assessmentChecklist:
+    - Wielkość trzustki oraz ewentualny zanik narządu.
+    - Niejednorodność i wzrost echogeniczności miąższu.
+    - Zwapnienia śródmiąższowe lub przewodowe.
+    - Poszerzenie lub nieregularność przewodu Wirsunga.
+    - Pseudotorbiele i wtórne poszerzenie dróg żółciowych.
+    - Zmiana ogniskowa wymagająca różnicowania z nowotworem.
+  reportTemplate: |
+    Trzustka {{prawidlowej_wielkosci_lub_zanikowa}}, o {{niejednorodnej_zwiekszonej_echogenicznosci}} echostrukturze, z {{obecnymi_lub_brakiem}} zwapnień. Przewód Wirsunga {{nieposzerzony_lub_poszerzony_do_mm}}, {{gladki_lub_nieregularny}}. {{Obecne_lub_brak}} pseudotorbieli / wtórnego poszerzenia dróg żółciowych. Obraz przemawia za przewlekłymi zmianami zapalnymi.
+  impressionTemplate: |
+    Obraz USG odpowiada przewlekłemu zapaleniu trzustki w dostępnym zakresie. Do korelacji z wywiadem, objawami niewydolności zewnątrz- i wewnątrzwydzielniczej oraz wcześniejszymi badaniami.
+  clinicalNotes:
+    - We wczesnym przewlekłym zapaleniu trzustki obraz przezbrzuszny może być skąpy lub nieswoisty.
+    - Ogniskowe poszerzenie przewodu lub asymetryczna masa wymagają ostrożnego różnicowania z nowotworem trzustki.
+    - Warto opisać obecność złogów przewodowych i ewentualnych pseudotorbieli jako cech istotnych klinicznie.
+  differential:
+    - Rak trzustki z wtórnym poszerzeniem przewodu.
+    - Stłuszczenie trzustki.
+    - Zmiany pozapalne po przebytym ostrym zapaleniu.
+  followUp:
+    - Dalsza diagnostyka zależy od objawów, laboratoryjnych wykładników niewydolności trzustki oraz ewentualnej potrzeby badania przekrojowego lub EUS.

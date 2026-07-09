@@ -1,0 +1,35 @@
+id: usg-trzustka-torbiel
+title: Torbiel trzustki
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Przewód pokarmowy]
+bodyParts: [Jama brzuszna]
+organs: [Trzustka]
+pathology: [Torbiel]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [pancreatic-cystic-neoplasms-2018, ipmn-fukuoka-2017]
+sections:
+  assessmentChecklist:
+    - Lokalizacja i największy wymiar zmiany torbielowatej.
+    - Grubość ściany, obecność przegród, ech wewnętrznych lub zwapnień.
+    - Obecność guzka przyściennego lub składowej litej.
+    - Relacja zmiany do przewodu trzustkowego i szerokość przewodu Wirsunga.
+    - Wieloogniskowość zmian oraz ewentualne poszerzenie dróg żółciowych.
+    - Wywiad zapalenia trzustki lub wcześniejszych badań przekrojowych.
+  reportTemplate: |
+    W rzucie trzustki widoczna jest zmiana torbielowata w {{glowie_trzonie_lub_ogonie}} o wymiarach {{mm_x_mm}}, o {{cienkiej_lub_pogrubialej}} ścianie, {{bez_lub_z}} przegrodami / echami wewnętrznymi. {{Obecny_lub_brak}} guzek przyścienny albo składowa lita. Przewód Wirsunga {{nieposzerzony_lub_poszerzony_do_mm}}. {{Mozliwa_lub_brak_mozliwosci}} oceny łączności zmiany z przewodem trzustkowym w badaniu przezbrzusznym.
+  impressionTemplate: |
+    Nieswoista zmiana torbielowata trzustki w USG przezbrzusznym. Samo badanie USG nie pozwala na pełne różnicowanie typu zmiany; dalsza charakterystyka zależy od cech ryzyka, wywiadu i wcześniejszych badań.
+  clinicalNotes:
+    - W różnicowaniu należy uwzględnić torbiel rzekomą, IPMN oraz inne torbielowate nowotwory trzustki.
+    - Komponenta lita, guzek przyścienny, pogrubienie ściany lub przewodowa dilatacja zwiększają pilność pogłębienia diagnostyki.
+    - Przy wywiadzie ostrego lub przewlekłego zapalenia trzustki należy korelować obraz z możliwością torbieli rzekomej.
+  differential:
+    - IPMN.
+    - Torbiel rzekoma.
+    - Śluzowy lub surowiczy nowotwór torbielowaty trzustki.
+  followUp:
+    - Dalsza charakterystyka w MRCP, TK lub EUS zależnie od wielkości zmiany, obecności cech alarmowych i kontekstu klinicznego.

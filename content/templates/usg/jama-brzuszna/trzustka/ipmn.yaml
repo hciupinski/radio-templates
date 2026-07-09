@@ -1,0 +1,35 @@
+id: usg-trzustka-ipmn
+title: IPMN trzustki
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Przewód pokarmowy]
+bodyParts: [Jama brzuszna]
+organs: [Trzustka]
+pathology: [IPMN]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [ipmn-fukuoka-2017, ipmn-surg-clin-north-am-2016]
+sections:
+  assessmentChecklist:
+    - Liczba, lokalizacja i największy wymiar zmian torbielowatych.
+    - Podejrzenie łączności zmiany z przewodem trzustkowym, jeśli możliwe do oceny.
+    - Szerokość głównego przewodu trzustkowego i jego odgałęzień.
+    - Obecność guzków przyściennych, litej składowej lub pogrubienia ściany.
+    - Cechy towarzyszące, takie jak zanik miąższu dystalnie, poszerzenie dróg żółciowych lub wtórne zapalenie.
+    - Ograniczenia badania wynikające z gazów jelitowych i położenia narządu.
+  reportTemplate: |
+    W rzucie trzustki widoczna jest {{pojedyncza_lub_mnogie}} zmiana torbielowata/e w {{glowie_trzonie_lub_ogonie}}, największa o wymiarach {{mm_x_mm}}, {{komunikujaca_sie_lub_podejrzana_o_komunikacje_lub_bez_mozliwosci_pewnej_oceny}} z przewodem trzustkowym. Przewód Wirsunga {{nieposzerzony_lub_poszerzony_do_mm}}. {{Obecne_lub_brak}} guzków przyściennych, litej składowej lub istotnego pogrubienia ściany. {{Obecne_lub_brak}} wtórnych cech wysokiego ryzyka, takich jak zanik miąższu dystalnie lub poszerzenie dróg żółciowych.
+  impressionTemplate: |
+    Obraz może odpowiadać IPMN trzustki. Charakterystyka zmiany w USG przezbrzusznym jest ograniczona; wskazana korelacja z MRCP lub EUS według obrazu klinicznego i cech ryzyka.
+  clinicalNotes:
+    - Podejrzenie IPMN w USG opiera się głównie na wykryciu torbielowatej zmiany pozostającej w łączności z przewodem trzustkowym lub towarzyszącej przewodowej dilatacji.
+    - Szczególnej uwagi wymagają guzki przyścienne, składowa lita, wyraźne poszerzenie przewodu głównego oraz objawowość kliniczna.
+    - USG przezbrzuszne zwykle nie pozwala wiarygodnie określić typu IPMN ani stopnia dysplazji.
+  differential:
+    - Inna torbielowata zmiana trzustki, w tym śluzowy lub surowiczy nowotwór torbielowaty.
+    - Torbiel rzekoma po zapaleniu trzustki.
+    - Nieswoista zmiana pozapalna lub retencyjna.
+  followUp:
+    - Przy utrzymującym się podejrzeniu IPMN wskazana dalsza charakterystyka w MRCP lub EUS zgodnie z aktualnymi wytycznymi i całością obrazu klinicznego.

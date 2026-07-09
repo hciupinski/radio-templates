@@ -4,10 +4,9 @@ import type { Taxonomy, TemplateStatus } from "../types/radiology";
 export type Filters = {
   modality: string;
   examType: string;
-  bodyPart: string;
-  organ: string;
-  pathology: string;
   status: TemplateStatus | "";
+  hasImages: boolean;
+  pinnedOnly: boolean;
 };
 
 type FilterSidebarProps = {
@@ -17,13 +16,6 @@ type FilterSidebarProps = {
   taxonomy: Taxonomy;
   countsByStatus: Record<TemplateStatus, number>;
 };
-
-function updateFilter(filters: Filters, key: keyof Filters, value: string): Filters {
-  return {
-    ...filters,
-    [key]: value
-  };
-}
 
 function SelectFilter({
   label,
@@ -51,6 +43,23 @@ function SelectFilter({
   );
 }
 
+function ToggleFilter({
+  label,
+  checked,
+  onChange
+}: {
+  label: string;
+  checked: boolean;
+  onChange: (checked: boolean) => void;
+}) {
+  return (
+    <label className="toggle-filter">
+      <input checked={checked} onChange={(event) => onChange(event.target.checked)} type="checkbox" />
+      <span>{label}</span>
+    </label>
+  );
+}
+
 export function FilterSidebar({
   filters,
   onFiltersChange,
@@ -63,7 +72,7 @@ export function FilterSidebar({
       <div className="header-filters-heading">
         <div>
           <h2>Filtry</h2>
-          <p>Zawężaj po badaniu, narządzie i patologii.</p>
+          <p>Proste zawężanie, a kontekst narządu i patologii wynika z katalogu.</p>
         </div>
         <button className="icon-button" type="button" onClick={onClear} title="Wyczyść filtry">
           <RotateCcw size={17} aria-hidden="true" />
@@ -76,37 +85,29 @@ export function FilterSidebar({
           label="Modalność"
           value={filters.modality}
           options={taxonomy.modalities.map((entry) => entry.label)}
-          onChange={(value) => onFiltersChange(updateFilter(filters, "modality", value))}
+          onChange={(value) => onFiltersChange({ ...filters, modality: value })}
         />
         <SelectFilter
           label="Typ badania"
           value={filters.examType}
           options={taxonomy.examTypes.map((entry) => entry.label)}
-          onChange={(value) => onFiltersChange(updateFilter(filters, "examType", value))}
-        />
-        <SelectFilter
-          label="Część ciała"
-          value={filters.bodyPart}
-          options={taxonomy.bodyParts.map((entry) => entry.label)}
-          onChange={(value) => onFiltersChange(updateFilter(filters, "bodyPart", value))}
-        />
-        <SelectFilter
-          label="Narząd"
-          value={filters.organ}
-          options={taxonomy.organs.map((entry) => entry.label)}
-          onChange={(value) => onFiltersChange(updateFilter(filters, "organ", value))}
-        />
-        <SelectFilter
-          label="Patologia"
-          value={filters.pathology}
-          options={taxonomy.pathology.map((entry) => entry.label)}
-          onChange={(value) => onFiltersChange(updateFilter(filters, "pathology", value))}
+          onChange={(value) => onFiltersChange({ ...filters, examType: value })}
         />
         <SelectFilter
           label="Status"
           value={filters.status}
           options={["draft", "reviewed", "deprecated"]}
-          onChange={(value) => onFiltersChange(updateFilter(filters, "status", value) as Filters)}
+          onChange={(value) => onFiltersChange({ ...filters, status: value as Filters["status"] })}
+        />
+        <ToggleFilter
+          label="Tylko z ilustracjami"
+          checked={filters.hasImages}
+          onChange={(checked) => onFiltersChange({ ...filters, hasImages: checked })}
+        />
+        <ToggleFilter
+          label="Tylko przypięte"
+          checked={filters.pinnedOnly}
+          onChange={(checked) => onFiltersChange({ ...filters, pinnedOnly: checked })}
         />
       </div>
 

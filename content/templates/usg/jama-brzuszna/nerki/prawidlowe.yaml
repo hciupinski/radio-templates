@@ -9,8 +9,23 @@ pathology: [Obraz prawidłowy]
 tags: [Rezydent]
 status: draft
 version: "0.1.0"
-updatedAt: "2026-07-08"
-sourceRefs: [aium-parameters, local-review]
+updatedAt: "2026-07-09"
+sourceRefs: [kidney-us-pictorial-review-2015]
+imageRefs:
+  - id: kidney-normal-usg-01
+    title: Prawidłowa nerka prawa w USG
+    imageUrl: https://sonographie.org/wp-content/uploads/2018/02/NRE_NOR_XXX_377.jpg
+    sourceUrl: https://sonographie.org/normal-kidney
+    caption: Referencyjny obraz prawidłowej nerki z zachowanym różnicowaniem korowo-rdzeniowym i bez cech zastoju.
+    alt: Ultrasonogram prawidłowej nerki z zachowanym różnicowaniem korowo-rdzeniowym.
+    category: normal-reference
+    findings:
+      - Owalny zarys prawidłowej nerki.
+      - Zachowane różnicowanie korowo-rdzeniowe.
+      - Brak poszerzenia układu zbiorczego w pokazanym przekroju.
+    attribution: Atlas of Ultrasound Erlangen
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-09"
 sections:
   assessmentChecklist:
     - Położenie i wielkość obu nerek.
