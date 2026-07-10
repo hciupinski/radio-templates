@@ -1,0 +1,36 @@
+id: usg-wezly-chlonne-chloniak
+title: Węzły chłonne w przebiegu chłoniaka
+modality: USG
+examTypes: [USG szyi]
+bodySystems: [Układ limfatyczny]
+bodyParts: [Szyja]
+organs: [Węzły chłonne]
+pathology: [Chłoniak]
+tags: [Rezydent, Doppler, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [cervical-lymph-node-malignant-us-2008, malignant-neck-nodes-review-2014, neck-node-malignancy-algorithm-2012]
+sections:
+  assessmentChecklist:
+    - Liczba i rozmieszczenie powiększonych węzłów, w tym zajęcie wielu poziomów szyi.
+    - Wymiary największych węzłów, zwłaszcza w osi krótkiej.
+    - Kształt, obrys i echogeniczność.
+    - Zachowanie lub utrata wnęki tłuszczowej.
+    - Jednorodność miąższu i obecność martwicy lub zwapnień.
+    - Wzorzec unaczynienia w Dopplerze.
+    - Pakiety węzłowe i relacja do sąsiednich naczyń.
+  reportTemplate: |
+    W zakresie {{lokalizacja}} widoczne mnogie / pojedyncze powiększone węzły chłonne, największy o wymiarach {{wymiary_mm}} mm, {{okragly_lub_owalny}}, {{hipoechogeniczny}}, z {{zachowana_lub_zatarta}} wnęką tłuszczową, o {{jednorodnej_lub_niejednorodnej}} echostrukturze. W badaniu Doppler {{wzorzec_unaczynienia}}. Bez / z {{obecnosc_lub_brak}} jawnej martwicy i zwapnień.
+  impressionTemplate: |
+    Obraz węzłów chłonnych może odpowiadać zajęciu w przebiegu choroby limfoproliferacyjnej, w tym chłoniaka. Wymaga korelacji z obrazem klinicznym oraz weryfikacji histopatologicznej.
+  clinicalNotes:
+    - Chłoniak częściej daje mnogie powiększone węzły, zwykle bardziej jednorodne niż typowe węzły przerzutowe.
+    - Jawna martwica i zwapnienia mniej przemawiają za chłoniakiem niż za etiologią przerzutową, choć nie wykluczają rozpoznania.
+    - W opisie warto zaznaczyć mnogość zmian, symetrię oraz zajęcie kolejnych poziomów szyi.
+  differential:
+    - Węzły przerzutowe.
+    - Uogólniona limfadenopatia odczynowa.
+    - Zmiany gruźlicze przy współistnieniu pakietów i rozpadu.
+  followUp:
+    - Wskazana dalsza diagnostyka hematologiczna lub onkologiczna z pobraniem materiału tkankowego.

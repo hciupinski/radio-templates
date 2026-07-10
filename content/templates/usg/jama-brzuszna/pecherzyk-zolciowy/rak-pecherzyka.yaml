@@ -1,0 +1,34 @@
+id: usg-pecherzyk-zolciowy-rak-pecherzyka
+title: Podejrzenie raka pęcherzyka żółciowego
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Pęcherzyk żółciowy]
+pathology: [Rak pęcherzyka]
+tags: [Rezydent, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [gallbladder-polyps-joint-guidelines-2022, biliary-tract-cancer-esmo-2025]
+sections:
+  assessmentChecklist:
+    - Obecność litej masy w świetle pęcherzyka lub nieregularnego pogrubienia ściany.
+    - Ciągłość ściany pęcherzyka i ewentualne zatarcie granicy z miąższem wątroby.
+    - Wielkość zmiany, jej podstawa i echogeniczność.
+    - Poszerzenie dróg żółciowych oraz cechy niedrożności.
+    - Podejrzane węzły chłonne wnęki wątroby i nadobojczykowe, jeśli dostępne w polu badania.
+    - Współistnienie kamicy lub podłoża zapalnego utrudniającego różnicowanie.
+  reportTemplate: |
+    W obrębie pęcherzyka żółciowego widoczna {{lita_masa_przyscienna_lub_nieregularne_pogrubienie_sciany}} o wymiarach około {{wymiar_mm}} mm, {{szerokopodstawna_lub_naciekajaca}}, z {{zatarta_lub_zachowana}} granicą ze ścianą pęcherzyka. {{Brak_lub_obecnosc}} cech szerzenia na przyległy miąższ wątroby w dostępnym zakresie oceny. {{Brak_lub_obecnosc}} poszerzenia dróg żółciowych. {{Brak_lub_obecnosc}} współistniejących złogów.
+  impressionTemplate: |
+    Obraz USG budzi podejrzenie złośliwej zmiany pęcherzyka żółciowego. Wskazana pilna dalsza charakterystyka metodą przekrojową oraz kwalifikacja wielodyscyplinarna.
+  clinicalNotes:
+    - Duża lub naciekająca masa ściany pęcherzyka powinna być opisana jako zmiana podejrzana o raka, a nie jako zwykły polip.
+    - Samo USG ma ograniczoną wartość w ocenie pełnego zaawansowania miejscowego i odległego.
+  differential:
+    - Xanthogranulomatyczne lub przewlekłe zapalenie pęcherzyka.
+    - Atypowa gruczolakowatość pęcherzyka.
+    - Duży polip gruczolakowy lub inna zmiana nabłonkowa.
+  followUp:
+    - Pilna konsultacja hepatobiliaryjna lub onkologiczna oraz dalsza ocena CT lub MR zgodnie z lokalną ścieżką diagnostyczną.

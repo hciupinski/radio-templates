@@ -1,0 +1,50 @@
+id: usg-tarczyca-graves-basedow
+title: Choroba Gravesa-Basedowa
+modality: USG
+examTypes: [USG tarczycy, USG szyi]
+bodySystems: [Układ endokrynny]
+bodyParts: [Szyja]
+organs: [Tarczyca]
+pathology: [Graves-Basedow]
+tags: [Rezydent, Doppler, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [ata-hyperthyroidism-2016, thyroid-us-common-disorders-2021]
+imageRefs:
+  - id: graves-usg-doppler-01
+    title: Choroba Gravesa-Basedowa z rozlanym wzmożonym przepływem
+    imageUrl: https://mdpi-res.com/reports/reports-04-00008/article_deploy/html/images/reports-04-00008-g015a-550.jpg
+    sourceUrl: https://www.mdpi.com/2571-841X/4/1/8
+    sourceId: thyroid-us-common-disorders-2021
+    caption: Otwarta rycina poglądowa ilustrująca rozlane wzmożenie przepływu śródmiąższowego w Dopplerze, typowe dla obrazu thyroid inferno.
+    alt: Ultrasonogram Doppler tarczycy z rozlanym nasilonym unaczynieniem w chorobie Gravesa-Basedowa.
+    category: typical
+    findings:
+      - Rozlane wzmożenie sygnału naczyniowego w obu płatach.
+      - Obraz odpowiada nasilonej hiperwaskularyzacji miąższu.
+      - Brak dominującej pojedynczej zmiany ogniskowej w przedstawionym ujęciu.
+    attribution: Jack Wall et al., Reports (MDPI)
+    licenseMode: cc-by
+    lastCheckedAt: "2026-07-09"
+sections:
+  assessmentChecklist:
+    - Wielkość obu płatów i cieśni.
+    - Echogeniczność oraz jednorodność lub niejednorodność miąższu.
+    - Rozlane wzmożenie unaczynienia w badaniu Doppler.
+    - Obecność lub brak prawdziwych zmian ogniskowych wymagających osobnej klasyfikacji.
+    - Cechy bardziej przemawiające za Gravesem niż za przewlekłym zapaleniem typu Hashimoto.
+  reportTemplate: |
+    Tarczyca {{niepowiekszona_lub_powiekszona_rozlanie}}, miąższ {{izo_lub_hipoechogeniczny}}, {{jednorodny_lub_niejednorodny_w_niewielkim_stopniu}}. W badaniu Doppler wyraźnie wzmożone, rozlane unaczynienie miąższu. Nie uwidoczniono dominującej zmiany ogniskowej wymagającej klasyfikacji TI-RADS.
+  impressionTemplate: |
+    Obraz USG może odpowiadać chorobie Gravesa-Basedowa, zwłaszcza przy współistniejącej nadczynności tarczycy. Do korelacji z TSH, fT4, fT3 oraz przeciwciałami przeciw receptorowi TSH.
+  clinicalNotes:
+    - Sam obraz USG nie zastępuje rozpoznania kliniczno-laboratoryjnego, ale rozlane wzmożenie przepływu może istotnie wspierać rozpoznanie Gravesa.
+    - W odróżnieniu od Hashimoto dominują tu cechy hiperwaskularyzacji, bez przewagi włóknienia i pseudoguzków.
+    - Jeśli współistnieje wyraźna zmiana ogniskowa, opisz ją osobno według ACR TI-RADS.
+  differential:
+    - Przewlekłe autoimmunologiczne zapalenie tarczycy typu Hashimoto.
+    - Inne przyczyny tyreotoksykozy lub przejściowego zapalenia tarczycy.
+  followUp:
+    - Korelacja z obrazem klinicznym i wynikami hormonalnymi oraz przeciwciałami.
+    - Dalsza kontrola obrazowa zależnie od przebiegu klinicznego lub współistnienia zmian ogniskowych.

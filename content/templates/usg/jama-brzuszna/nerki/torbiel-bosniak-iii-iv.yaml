@@ -1,0 +1,49 @@
+id: usg-nerki-torbiel-bosniak-iii-iv
+title: Torbiel Bosniak III-IV
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ moczowy]
+bodyParts: [Jama brzuszna]
+organs: [Nerki]
+pathology: [Torbiel Bosniak III-IV]
+tags: [Rezydent, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [bosniak-25-years-2012, ceus-bosniak-structured-reporting-2021]
+imageRefs:
+  - id: kidney-bosniak-iii-usg-01
+    title: Złożona torbiel nerki typu Bosniak III w CEUS
+    imageUrl: https://sonographie.org/wp-content/uploads/2023/01/KMS_N05_XXX_1480.jpg
+    sourceUrl: https://sonographie.org/contrast-enhanced-ultrasound/complicated-renal-cyst
+    caption: Edukacyjny obraz złożonej torbieli nerki z nieregularnymi elementami wewnętrznymi, odpowiadającej zmianie wysokiego ryzyka wymagającej dalszej diagnostyki.
+    alt: Ultrasonogram złożonej torbieli nerki z przegrodami i nieregularną ścianą.
+    category: typical
+    findings:
+      - Złożona torbielowata zmiana z nieregularnymi elementami wewnętrznymi.
+      - Pogrubiała lub nieregularna ściana oraz przegrody.
+      - Obraz nie odpowiada prostej torbieli nerkowej.
+    attribution: Atlas of Ultrasound Erlangen
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-09"
+sections:
+  assessmentChecklist:
+    - Wielkość i lokalizacja złożonej zmiany torbielowatej.
+    - Grubość i nieregularność ściany oraz przegród.
+    - Obecność guzków przyściennych lub litej składowej.
+    - Ewentualne unaczynienie podejrzanych elementów, jeśli widoczne.
+    - Wpływ na zarys nerki, układ zbiorczy i otoczenie.
+    - Obecność innych zmian ogniskowych lub cech rozsiewu w dostępnym zakresie badania.
+  reportTemplate: |
+    W nerce {{strona}}, w {{lokalizacja}}, widoczna jest złożona zmiana torbielowata o wymiarach {{mm_x_mm}}, z {{pogrubiala_lub_nieregularna}} ścianą i {{obecnymi_lub_brakiem}} pogrubiałymi przegrodami. {{Obecny_lub_brak}} guzek przyścienny / lita składowa. W badaniu Doppler / dostępnym zakresie oceny {{obecne_lub_brak}} cech unaczynienia podejrzanych elementów. Obraz budzi istotne podejrzenie torbielowatej zmiany wysokiego ryzyka.
+  impressionTemplate: |
+    Złożona torbielowata zmiana nerki podejrzana o kategorię Bosniak III-IV. Wymaga pilnej dalszej charakterystyki obrazowej i konsultacji urologicznej.
+  clinicalNotes:
+    - Sama morfologia w USG może wzbudzić istotne podejrzenie zmiany wysokiego ryzyka, ale pełna kwalifikacja Bosniak wymaga zwykle badania kontrastowego.
+    - Obecność guzka przyściennego lub litej składowej istotnie zwiększa podejrzenie nowotworowego charakteru zmiany.
+  differential:
+    - Torbielowaty rak nerki.
+    - Krwotoczna lub zapalna torbiel z wtórnym pogrubieniem ściany.
+    - Inna złożona zmiana torbielowata wymagająca charakterystyki kontrastowej.
+  followUp:
+    - Wskazana pilna dalsza diagnostyka w CEUS, TK lub MR oraz decyzja wielodyscyplinarna zależnie od pełnego obrazu klinicznego.

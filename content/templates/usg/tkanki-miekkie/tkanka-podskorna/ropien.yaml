@@ -9,8 +9,23 @@ pathology: [Ropień, Zapalenie]
 tags: [Rezydent, Doppler, Pilne]
 status: draft
 version: "0.1.0"
-updatedAt: "2026-07-08"
-sourceRefs: [aium-parameters, radiopaedia, local-review]
+updatedAt: "2026-07-09"
+sourceRefs: [superficial-soft-tissue-lesions-us-2019]
+imageRefs:
+  - id: soft-tissue-abscess-usg-01
+    title: Ropień w ścianie brzucha
+    imageUrl: https://www.ultrasoundcases.info/clients/ultrasoundcases/uploads/lbox_39000-Afbeelding1.jpg
+    sourceUrl: https://www.ultrasoundcases.info/inflammation-5427/
+    caption: Hipoechogeniczna kolekcja płynowa w tkankach miękkich z echami wewnętrznymi, typowa dla ropnia.
+    alt: Ultrasonogram ropnia tkanek miękkich z hipoechogeniczną kolekcją i echami wewnętrznymi.
+    category: typical
+    findings:
+      - Okrągła lub owalna hipoechogeniczna kolekcja.
+      - Echa wewnętrzne w świetle zbiornika.
+      - Odgraniczenie zmiany od otaczających tkanek miękkich.
+    attribution: Dr. Taco Geertsma, Ultrasound Cases
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-09"
 sections:
   assessmentChecklist:
     - Lokalizacja i wymiary kolekcji.

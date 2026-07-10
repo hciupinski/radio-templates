@@ -1,0 +1,33 @@
+id: ct-nerki-kamica
+title: Kamica nerkowa
+modality: CT
+examTypes: [CT jamy brzusznej bez kontrastu]
+bodySystems: [Układ moczowy]
+bodyParts: [Jama brzuszna]
+organs: [Nerki]
+pathology: [Kamica]
+tags: [Rezydent, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [eau-urolithiasis-2026, acr-flank-pain-urolithiasis-2023]
+sections:
+  assessmentChecklist:
+    - Lokalizacja złogu w obrębie kielicha, miedniczki nerkowej lub połączenia miedniczkowo-moczowodowego.
+    - Liczba złogów oraz największy wymiar każdego istotnego złogu.
+    - Gęstość złogu w HU, jeśli możliwa do wiarygodnego pomiaru.
+    - "Cechy utrudnienia odpływu moczu: poszerzenie UKM, poszerzenie moczowodu w dostępnym zakresie, obrzęk nerki lub nacieczenie tkanki tłuszczowej okołonerkowej."
+    - Obustronność oraz obecność dodatkowych złogów w nerce przeciwnej.
+    - Obecność złogu odlewowego lub większego obciążenia złogami.
+  reportTemplate: |
+    W nerce {{strona}}, w obrębie {{lokalizacja}}, widoczny złóg o wymiarach {{wymiar_mm}} mm, o gęstości około {{gestosc_hu}} HU. {{Obecne_lub_brak}} cechy zastoju w UKM. {{Obecny_lub_brak}} obrzęk nerki / nacieczenie tkanki tłuszczowej okołonerkowej. W nerce przeciwnej {{bez_zmian_lub_opis}}. {{Dodatkowe_zlogi_lub_brak}}.
+  impressionTemplate: |
+    Obraz CT odpowiada kamicy nerki {{strona}} w lokalizacji {{lokalizacja}}. {{Obecne_lub_brak}} cech utrudnienia odpływu moczu.
+  clinicalNotes:
+    - Niekontrastowe CT pozostaje badaniem o najwyższej wartości dla potwierdzenia kamicy i może służyć do oceny lokalizacji, obciążenia złogami oraz gęstości złogu.
+    - W opisie warto odróżnić złóg nieobturujący od obrazu z cechami zastoju lub wtórnego odczynu zapalnego.
+  differential:
+    - Nefrokalcynoza lub zwapnienia miąższowe niezwiązane z wolnym złogiem w układzie zbiorczym.
+    - Zwapniała zmiana w zatoce nerkowej lub zwapnienie naczyniowe rzutujące się na okolicę nerki.
+  followUp:
+    - Przy planowaniu leczenia zabiegowego pomocne jest podanie lokalizacji, obciążenia złogami i gęstości złogu; w razie potrzeby dalszą ocenę anatomiczną należy dobrać do kontekstu klinicznego.

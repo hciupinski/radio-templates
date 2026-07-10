@@ -1,0 +1,48 @@
+id: usg-nerki-kamica
+title: Kamica nerkowa
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ moczowy]
+bodyParts: [Jama brzuszna]
+organs: [Nerki]
+pathology: [Kamica]
+tags: [Rezydent, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [kidney-us-pictorial-review-2015]
+imageRefs:
+  - id: nephrolithiasis-usg-typical-01
+    title: Kamica nerki z cieniem akustycznym
+    imageUrl: https://sonographie.org/wp-content/uploads/2018/02/NRE_NLS_XXX_079.jpg
+    sourceUrl: https://sonographie.org/nephrolithiasis
+    caption: Hiperechogeniczny złóg w układzie zbiorczym nerki z wyraźnym cieniem akustycznym.
+    alt: Ultrasonogram nerki z hiperechogenicznym złogiem i cieniem akustycznym.
+    category: typical
+    findings:
+      - Hiperechogeniczne ognisko w obrębie układu kielichowo-miedniczkowego.
+      - Wyraźny cień akustyczny za złogiem.
+      - Zachowany zarys nerki w badanym przekroju.
+    attribution: Atlas of Ultrasound Erlangen
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-09"
+sections:
+  assessmentChecklist:
+    - Lokalizacja złogu w obrębie kielicha, miedniczki lub połączenia miedniczkowo-moczowodowego.
+    - Trzy wymiary lub największy wymiar złogu.
+    - Obecność cienia akustycznego za złogiem.
+    - Ewentualny artefakt twinkling w Dopplerze.
+    - Obecność współistniejącego poszerzenia UKM lub moczowodu.
+    - Porównanie z nerką przeciwną.
+  reportTemplate: |
+    W nerce {{strona}} / w rzucie {{lokalizacja}} widoczny hiperechogeniczny złóg o wielkości {{wymiar_mm}} mm, {{z_lub_bez}} wyraźnym cieniem akustycznym za zmianą. {{Obecne_lub_brak}} cechy zastoju w UKM. Nerka przeciwna {{bez_zmian_lub_opis}}.
+  impressionTemplate: |
+    Obraz USG odpowiada kamicy nerki {{strona}}. {{Obecne_lub_brak}} cech utrudnienia odpływu moczu w dostępnym badaniu.
+  clinicalNotes:
+    - Brak uwidocznienia złogu w USG nie wyklucza kamicy moczowodowej, zwłaszcza przy objawach kolki nerkowej.
+    - W opisie odróżnij złóg bez zastoju od sytuacji współistniejącej z wodonerczem.
+  differential:
+    - Zwapniała zmiana w miąższu lub zatoce nerki.
+    - Artefakt hiperechogeniczny bez jednoznacznego cienia akustycznego.
+  followUp:
+    - Przy utrzymujących się objawach i niejednoznacznym obrazie USG rozważyć dalszą diagnostykę zgodnie z kontekstem klinicznym.

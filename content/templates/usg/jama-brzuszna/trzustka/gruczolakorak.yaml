@@ -1,0 +1,35 @@
+id: usg-trzustka-gruczolakorak
+title: Gruczolakorak trzustki
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Przewód pokarmowy]
+bodyParts: [Jama brzuszna]
+organs: [Trzustka]
+pathology: [Gruczolakorak]
+tags: [Rezydent, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [jsum-pancreatic-us-criteria-2013, pancreatic-cancer-early-us-jstage-1989]
+sections:
+  assessmentChecklist:
+    - Lokalizacja, wielkość i zarys litej zmiany w trzustce.
+    - Echogeniczność guza oraz obecność centralnej niejednorodności.
+    - Szerokość przewodu Wirsunga i ewentualne nagłe poszerzenie odcinka dystalnego.
+    - Poszerzenie wewnątrz- i zewnątrzwątrobowych dróg żółciowych.
+    - Cechy naciekania naczyń, powiększone węzły chłonne, przerzuty wątroby lub wodobrzusze.
+    - Ograniczenia badania, szczególnie w zakresie ogona i wyrostka haczykowatego.
+  reportTemplate: |
+    W rzucie trzustki, w {{glowie_trzonie_ogonie_lub_wyrostku_haczykowatym}}, widoczna jest {{lita_zmiana_lub_ograniczone_hipoechogeniczne_zgrubienie}} o wymiarach {{mm_x_mm}}, o {{nieregularnym_lub_zatartym}} zarysie i {{jednorodnie_lub_niejednorodnie}} hipoechogenicznej echostrukturze. Przewód Wirsunga {{nieposzerzony_lub_poszerzony_do_mm}} z {{obecnym_lub_brakiem}} nagłego poszerzenia w odcinku dystalnym. Drogi żółciowe {{nieposzerzone_lub_poszerzone}}. {{Obecne_lub_brak}} cech naciekania naczyń okołotrzustkowych, powiększonych węzłów chłonnych, zmian ogniskowych w wątrobie lub wodobrzusza.
+  impressionTemplate: |
+    Obraz podejrzany o gruczolakoraka trzustki. Wskazana pilna dalsza diagnostyka onkologiczna z wykorzystaniem badań przekrojowych i lub EUS.
+  clinicalNotes:
+    - Typowy obraz przezbrzuszny obejmuje hipoechogeniczną zmianę o nieregularnym zarysie z wtórnym poszerzeniem przewodu trzustkowego, a w guzach głowy także dróg żółciowych.
+    - Brak dobrze widocznej masy nie wyklucza nowotworu, jeżeli obecne są cechy pośrednie, zwłaszcza świeże poszerzenie przewodu Wirsunga.
+    - Ocena miejscowego zaawansowania w samym USG jest ograniczona i nie powinna zastępować badań przekrojowych.
+  differential:
+    - Guz neuroendokrynny trzustki.
+    - Ogniskowe zapalenie trzustki lub postać guzowata przewlekłego zapalenia.
+    - Inny lity nowotwór trzustki.
+  followUp:
+    - Przy takim obrazie należy rozważyć pilne pogłębienie diagnostyki w TK wielofazowej, MR lub EUS zgodnie z lokalną ścieżką onkologiczną.

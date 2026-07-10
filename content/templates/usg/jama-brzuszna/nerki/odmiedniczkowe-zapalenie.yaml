@@ -1,0 +1,33 @@
+id: usg-nerki-odmiedniczkowe-zapalenie
+title: Odmiedniczkowe zapalenie nerki
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ moczowy]
+bodyParts: [Jama brzuszna]
+organs: [Nerki]
+pathology: [Odmiedniczkowe zapalenie]
+tags: [Rezydent, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [kidney-us-pictorial-review-2015]
+sections:
+  assessmentChecklist:
+    - Wielkość nerki i ewentualny obrzęk miąższu.
+    - Echogeniczność kory i zatarcie różnicowania korowo-rdzeniowego.
+    - Ogniskowe obszary zmienione zapalnie lub obniżonego przepływu, jeśli widoczne.
+    - Obecność zastoju, złogu, ropnia lub płynu okołonerkowego.
+    - Porównanie z nerką przeciwną oraz ograniczenia widoczności.
+  reportTemplate: |
+    Nerka {{strona}} {{powiekszona_lub_niepowiekszona}}, z {{obecnym_lub_brakiem}} ogniskowym lub rozlanym wzrostem echogeniczności kory / zatarciem różnicowania korowo-rdzeniowego. {{Obecny_lub_brak}} ogniskowy obszar zmienionego miąższu podejrzany o naciek zapalny. {{Obecne_lub_brak}} cechy zastoju, złogu, płynu okołonerkowego lub ropnia. Nerka przeciwna {{bez_istotnych_zmian_lub_opis}}.
+  impressionTemplate: |
+    Obraz USG może odpowiadać odmiedniczkowemu zapaleniu nerki, ale czułość badania jest ograniczona. Wynik należy korelować z objawami, badaniem ogólnym moczu i parametrami zapalnymi.
+  clinicalNotes:
+    - Prawidłowy lub skąpo zmieniony obraz USG nie wyklucza ostrego odmiedniczkowego zapalenia nerki.
+    - USG jest szczególnie przydatne do wykrycia przeszkody w odpływie moczu oraz powikłań, takich jak ropień lub pyonephrosis.
+  differential:
+    - Ogniskowe niedokrwienie nerki.
+    - Guz nerki o nietypowym obrazie.
+    - Zmiany pozapalne lub bliznowate.
+  followUp:
+    - Przy ciężkim stanie klinicznym, braku poprawy lub podejrzeniu powikłań rozważyć pilniejsze badanie przekrojowe.

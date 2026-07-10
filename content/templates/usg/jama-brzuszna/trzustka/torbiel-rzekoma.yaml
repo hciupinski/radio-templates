@@ -1,0 +1,35 @@
+id: usg-trzustka-torbiel-rzekoma
+title: Torbiel rzekoma trzustki
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Przewód pokarmowy]
+bodyParts: [Jama brzuszna]
+organs: [Trzustka]
+pathology: [Torbiel rzekoma]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [pancreatic-cystic-neoplasms-2018, imaging-acute-pancreatitis-2015, imaging-chronic-pancreatitis-2019]
+sections:
+  assessmentChecklist:
+    - Lokalizacja zbiornika względem trzustki i sąsiednich narządów.
+    - Największy wymiar, zarys i grubość ściany.
+    - "Zawartość wewnętrzna: bezechowość, echy, poziomy płyn-płyn lub debris."
+    - Wzmocnienie za tylną ścianą oraz ewentualny efekt ucisku na drogi żółciowe lub przewód pokarmowy.
+    - Związek z wywiadem ostrego lub przewlekłego zapalenia trzustki.
+    - Cechy powikłań, takich jak infekcja, krwawienie lub obecność litej składowej budzącej wątpliwość diagnostyczną.
+  reportTemplate: |
+    W rzucie trzustki / przytrzustkowo widoczny jest zbiornik płynowy o wymiarach {{mm_x_mm}}, o {{cienkiej_lub_grubszej}} ścianie i {{jednorodnej_lub_niejednorodnej}} zawartości, z {{obecnym_lub_brakiem}} wzmocnienia za tylną ścianą. {{Obecne_lub_brak}} ech wewnętrznych / debris. Zmiana {{wywiera_lub_nie_wywiera}} efekt masy na struktury sąsiednie. Obraz należy korelować z wywiadem przebytego zapalenia trzustki.
+  impressionTemplate: |
+    Obraz może odpowiadać torbieli rzekomej trzustki, szczególnie przy odpowiednim wywiadzie ostrego lub przewlekłego zapalenia trzustki. W razie braku typowego kontekstu klinicznego lub przy cechach atypowych należy różnicować z inną torbielowatą zmianą trzustki.
+  clinicalNotes:
+    - Rozpoznanie torbieli rzekomej nie powinno być stawiane wyłącznie na podstawie obrazu USG bez korelacji z wywiadem zapalenia trzustki.
+    - Torbiel rzekoma może zawierać echy wewnętrzne, debris lub cechy zagęszczonej treści, zwłaszcza w przebiegu przewlekłym lub powikłanym.
+    - USG przezbrzuszne ma ograniczoną czułość w pełnej ocenie połączenia zbiornika z przewodem trzustkowym oraz ewentualnych powikłań naczyniowych.
+  differential:
+    - Inna torbielowata zmiana trzustki, w tym IPMN lub nowotwór torbielowaty.
+    - Zorganizowany zbiornik pozapalny innego typu.
+    - Zmiana z krwawieniem lub infekcją wymagająca pilniejszej diagnostyki.
+  followUp:
+    - Dalsza ocena zależy od objawów, wielkości zbiornika i dynamiki zmian; przy cechach atypowych lub powikłaniach rozważyć pilniejszą diagnostykę przekrojową.

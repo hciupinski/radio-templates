@@ -1,0 +1,35 @@
+id: usg-trzustka-zapalenie
+title: Ostre zapalenie trzustki
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Przewód pokarmowy]
+bodyParts: [Jama brzuszna]
+organs: [Trzustka]
+pathology: [Zapalenie]
+tags: [Rezydent, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [acg-acute-pancreatitis-2024, imaging-acute-pancreatitis-2015]
+sections:
+  assessmentChecklist:
+    - Wielkość trzustki i obecność obrzęku.
+    - Zarys narządu oraz obniżenie lub niejednorodność echogeniczności.
+    - Płyn okołotrzustkowy lub zapalne zmiany w otaczającej tkance tłuszczowej.
+    - Szerokość przewodu Wirsunga i dróg żółciowych.
+    - Kamica pęcherzyka lub cechy przeszkody żółciowej.
+    - Zbiorniki płynowe lub wczesna torbiel rzekoma, jeśli obecne.
+  reportTemplate: |
+    Trzustka {{powiekszona_lub_niepowiekszona}}, o {{obnizonej_lub_niejednorodnej}} echogeniczności, z {{zatarciem_lub_zachowaniem}} zarysu. Okołotrzustkowo {{obecny_lub_brak}} płyn / cechy odczynu zapalnego tkanki tłuszczowej. Przewód Wirsunga {{nieposzerzony_lub_poszerzony_do_mm}}. Drogi żółciowe {{nieposzerzone_lub_poszerzone}}, {{obecna_lub_brak}} kamica pęcherzyka / cech przyczyny żółciowej.
+  impressionTemplate: |
+    Obraz USG może odpowiadać ostremu zapaleniu trzustki. Do pilnej korelacji z objawami klinicznymi i aktywnością lipazy lub amylazy; badanie USG ma ograniczoną czułość w ocenie samej trzustki.
+  clinicalNotes:
+    - Rozpoznanie ostrego zapalenia trzustki opiera się na całokształcie danych klinicznych, laboratoryjnych i obrazowych, a nie wyłącznie na USG.
+    - USG jest szczególnie przydatne do poszukiwania etiologii żółciowej i oceny dróg żółciowych.
+    - Brak wyraźnych zmian w USG nie wyklucza ostrego zapalenia trzustki, zwłaszcza przy ograniczonej widoczności.
+  differential:
+    - Ogniskowe zapalenie trzustki.
+    - Zmiana nowotworowa z wtórnym odczynem zapalnym.
+    - Niewidoczność narządu z powodu gazów jelitowych bez uchwytnych zmian swoistych.
+  followUp:
+    - Przy niejednoznacznym obrazie lub podejrzeniu powikłań rozważyć pogłębienie diagnostyki metodą przekrojową zgodnie z obrazem klinicznym.

@@ -220,6 +220,12 @@
   type: educational
   accessedAt: "2026-07-08"
   licenseNote: Konkretna publikacja wykorzystana do praktycznego opisu wykrywalności i wyglądu małych polipów pęcherzyka w ultrasonografii.
+- id: gallbladder-polyps-joint-guidelines-2022
+  title: "Management and follow-up of gallbladder polyps: updated joint guidelines between the ESGAR, EAES, EFISDS and ESGE"
+  url: https://doi.org/10.1007/s00330-021-08384-w
+  type: guideline
+  accessedAt: "2026-07-09"
+  licenseNote: Aktualna wspólna wytyczna wykorzystana do progów wielkości, czynników ryzyka i harmonogramu kontroli polipów pęcherzyka.
 - id: gallbladder-adenomyomatosis-imaging-2008
   title: "Imaging of adenomyomatosis of the gall bladder"
   url: https://pubmed.ncbi.nlm.nih.gov/18373800/
@@ -238,12 +244,48 @@
   type: educational
   accessedAt: "2026-07-08"
   licenseNote: Konkretny przegląd wykorzystany do ostrożnego różnicowania gruczolakowatości z wczesną zmianą nowotworową.
+- id: diffuse-gallbladder-wall-thickening-2007
+  title: "Diffuse Gallbladder Wall Thickening: Differential Diagnosis"
+  url: https://doi.org/10.2214/AJR.05.1712
+  type: educational
+  accessedAt: "2026-07-09"
+  licenseNote: Konkretna publikacja obrazowa wykorzystana do ostrożnego różnicowania przewlekłego zapalenia pęcherzyka z innymi przyczynami pogrubienia ściany.
+- id: porcelain-gallbladder-schnelldorfer-2013
+  title: "Porcelain Gallbladder: A Benign Process or Concern for Malignancy?"
+  url: https://pubmed.ncbi.nlm.nih.gov/23423431/
+  type: educational
+  accessedAt: "2026-07-09"
+  licenseNote: Konkretny przegląd wykorzystany do ostrożnego opisu związku pęcherzyka porcelanowego z ryzykiem nowotworu i do unikania przeszacowania tego ryzyka.
+- id: porcelain-gallbladder-machado-2016
+  title: "Porcelain Gallbladder"
+  url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5135451/
+  type: educational
+  accessedAt: "2026-07-09"
+  licenseNote: Otwarty przegląd wykorzystany do cech obrazowych pęcherzyka porcelanowego i ograniczeń oceny światła pęcherzyka w USG.
+- id: biliary-tract-cancer-esmo-2025
+  title: "ESMO Clinical Practice Guideline interim update on the management of biliary tract cancer"
+  url: https://doi.org/10.1016/j.esmoop.2024.104003
+  type: guideline
+  accessedAt: "2026-07-09"
+  licenseNote: Aktualna wytyczna wykorzystana do ostrożnego formułowania dalszego postępowania przy podejrzeniu złośliwej zmiany pęcherzyka żółciowego.
 - id: hashimoto-evidence-guide-2022
   title: "Hashimoto thyroiditis: an evidence-based guide to etiology, diagnosis and treatment"
   url: https://pubmed.ncbi.nlm.nih.gov/35243857/
   type: educational
   accessedAt: "2026-07-08"
   licenseNote: Konkretny przegląd wykorzystany do opisu rozpoznania, korelacji laboratoryjnej oraz typowych cech klinicznych i ultrasonograficznych Hashimoto.
+- id: ata-hyperthyroidism-2016
+  title: "2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis"
+  url: https://doi.org/10.1089/thy.2016.0229
+  type: guideline
+  accessedAt: "2026-07-09"
+  licenseNote: Konkretna wytyczna wykorzystana do ostrożnego opisu rozpoznania i dalszej korelacji kliniczno-laboratoryjnej w chorobie Gravesa-Basedowa.
+- id: thyroid-us-common-disorders-2021
+  title: "Ultrasonographic Findings in Common Thyroid and Parathyroid Disorders—Advantages of Real Time Observation by the Endocrinologist with their Own Ultrasound Machine"
+  url: https://doi.org/10.3390/reports4010008
+  type: educational
+  accessedAt: "2026-07-09"
+  licenseNote: Konkretny otwarty przegląd wykorzystany do sonograficznych cech Gravesa-Basedowa oraz do różnicowania typów ognisk echogenicznych i zwapnień w guzkach tarczycy.
 - id: superficial-soft-tissue-lesions-us-2019
   title: "A bump: what to do next? Ultrasound imaging of superficial soft-tissue palpable lesions"
   url: https://pubmed.ncbi.nlm.nih.gov/31786796/
@@ -262,3 +304,135 @@
   type: guideline
   accessedAt: "2026-07-08"
   licenseNote: Konkretna publikacja ACR wykorzystana do punktacji TI-RADS oraz progów BAC i kontroli zależnych od kategorii i wielkości guzka.
+- id: kidney-us-pictorial-review-2015
+  title: "Ultrasonography of the Kidney: A Pictorial Review"
+  url: https://www.mdpi.com/2075-4418/6/1/2
+  type: educational
+  accessedAt: "2026-07-09"
+  licenseNote: Konkretny otwarty przegląd wykorzystany do prawidłowego obrazu nerek, techniki pomiarów oraz oceny i stopniowania wodonercza w ultrasonografii.
+- id: bosniak-25-years-2012
+  title: "The Bosniak Renal Cyst Classification: 25 Years Later"
+  url: https://doi.org/10.1148/radiol.11111595
+  type: educational
+  accessedAt: "2026-07-09"
+  licenseNote: Klasyczna publikacja przeglądowa wykorzystana do cech kategorii Bosniak oraz do ostrożnego rozróżnienia zmian jednoznacznie prostych od zmian bardziej złożonych wymagających dalszej charakterystyki.
+- id: ceus-bosniak-structured-reporting-2021
+  title: "Structured Reporting in the Characterization of Renal Cysts by Contrast-Enhanced Ultrasound (CEUS) Using the Bosniak Classification System—Improvement of Report Quality and Interdisciplinary Communication"
+  url: https://www.mdpi.com/2075-4418/11/2/313
+  type: educational
+  accessedAt: "2026-07-09"
+  licenseNote: Otwarta publikacja wykorzystana do ultrasonograficznego i CEUS-owego opisu złożonych torbieli nerek oraz do ostrożnego formułowania ograniczeń samego USG w pełnej klasyfikacji Bosniak.
+- id: pancreas-normal-sonographie
+  title: "Normal pancreas – Atlas of Ultrasound"
+  url: https://sonographie.org/normal-pancreas
+  type: educational
+  accessedAt: "2026-07-09"
+  licenseNote: Konkretna strona atlasowa wykorzystana do referencyjnego opisu prawidłowego obrazu trzustki w USG oraz do ostrożnego sformułowania ograniczeń widoczności zależnych od gazów jelitowych.
+- id: acg-acute-pancreatitis-2024
+  title: "American College of Gastroenterology Guidelines: Management of Acute Pancreatitis"
+  url: https://doi.org/10.14309/ajg.0000000000002645
+  type: guideline
+  accessedAt: "2026-07-09"
+  licenseNote: Aktualna wytyczna ACG wykorzystana do kryteriów rozpoznania ostrego zapalenia trzustki oraz do ostrożnego formułowania roli badań obrazowych i dalszej korelacji kliniczno-laboratoryjnej.
+- id: imaging-acute-pancreatitis-2015
+  title: "Imaging of acute pancreatitis and its complications. Part 1: acute pancreatitis"
+  url: https://doi.org/10.1016/j.diii.2013.12.017
+  type: educational
+  accessedAt: "2026-07-09"
+  licenseNote: Konkretny przegląd obrazowy wykorzystany do sonograficznych cech ostrego zapalenia trzustki, oceny obrzęku, płynu okołotrzustkowego i ograniczeń ultrasonografii.
+- id: chronic-pancreatitis-nejm-2022
+  title: "Chronic Pancreatitis"
+  url: https://doi.org/10.1056/NEJMcp1809396
+  type: educational
+  accessedAt: "2026-07-09"
+  licenseNote: Konkretny przegląd NEJM wykorzystany do ogólnego obrazu klinicznego przewlekłego zapalenia trzustki oraz do ostrożnego formułowania znaczenia zmian przewodowych, zwapnień i niewydolności zewnątrz- lub wewnątrzwydzielniczej.
+- id: imaging-chronic-pancreatitis-2019
+  title: "Imaging in chronic pancreatitis: State of the art review"
+  url: https://doi.org/10.4103/ijri.IJRI_484_18
+  type: educational
+  accessedAt: "2026-07-09"
+  licenseNote: Konkretny otwarty przegląd obrazowy wykorzystany do cech USG przewlekłego zapalenia trzustki, w tym zwapnień, poszerzenia przewodu Wirsunga, zaniku i zmian włóknistych.
+- id: ipmn-fukuoka-2017
+  title: "Revisions of international consensus Fukuoka guidelines for the management of IPMN of the pancreas"
+  url: https://pubmed.ncbi.nlm.nih.gov/28735806/
+  type: guideline
+  accessedAt: "2026-07-09"
+  licenseNote: Konkretna wytyczna wykorzystana do cech wysokiego ryzyka i zasad dalszej oceny zmian podejrzanych o IPMN.
+- id: ipmn-surg-clin-north-am-2016
+  title: "Intraductal Papillary Mucinous Neoplasm of the Pancreas"
+  url: https://doi.org/10.1016/j.suc.2016.07.009
+  type: educational
+  accessedAt: "2026-07-09"
+  licenseNote: Konkretny przegląd wykorzystany do podstawowego różnicowania typów IPMN oraz do ostrożnego opisu znaczenia łączności zmiany z przewodem trzustkowym.
+- id: pancreatic-cystic-neoplasms-2018
+  title: "Pancreatic Cystic Neoplasms: Different Types, Different Management, New Guidelines"
+  url: https://doi.org/10.1159/000489641
+  type: educational
+  accessedAt: "2026-07-09"
+  licenseNote: Konkretny przegląd wykorzystany do różnicowania torbielowatych zmian trzustki i do ostrożnego formułowania dalszej charakterystyki poza samym USG przezbrzusznym.
+- id: jsum-pancreatic-us-criteria-2013
+  title: "Pancreatic tumor ultrasound diagnostic criteria"
+  url: https://www.jsum.or.jp/committee/diagnostic/pdf/40-5.pdf
+  type: guideline
+  accessedAt: "2026-07-09"
+  licenseNote: Oficjalne kryteria diagnostyczne Japońskiego Towarzystwa Ultrasonograficznego wykorzystane do sonograficznych cech inwazyjnego raka przewodowego i guzów neuroendokrynnych trzustki w badaniu przezbrzusznym i EUS.
+- id: enets-nf-pannet-2023
+  title: "European Neuroendocrine Tumour Society (ENETS) 2023 guidance paper for nonfunctioning pancreatic neuroendocrine tumours"
+  url: https://doi.org/10.1111/jne.13343
+  type: guideline
+  accessedAt: "2026-07-09"
+  licenseNote: Aktualna wytyczna ENETS wykorzystana do ostrożnego formułowania znaczenia klinicznego nieczynnych guzów neuroendokrynnych trzustki oraz potrzeby dalszej kwalifikacji onkologicznej po wykryciu zmiany.
+- id: pnet-series-2019
+  title: "Detección de tumores neuroendocrinos pancreáticos: 23 años de experiencia"
+  url: https://www.revistagastroenterologiamexico.org/es-deteccion-tumores-neuroendocrinos-pancreaticos-23-articulo-S0375090618300983
+  type: educational
+  accessedAt: "2026-07-09"
+  licenseNote: Konkretna seria kliniczna wykorzystana do częstości wykrycia guzów neuroendokrynnych różnymi metodami obrazowymi oraz do ostrożnego podkreślenia ograniczeń przezbrzusznego USG.
+- id: pancreatic-cancer-early-us-jstage-1989
+  title: "Useful ultrasonographic methods for early diagnosis of pancreatic cancer"
+  url: https://www.jstage.jst.go.jp/article/nisshoshi1964/86/12/86_12_2794/_pdf/-char/ja
+  type: educational
+  accessedAt: "2026-07-09"
+  licenseNote: Konkretna publikacja wykorzystana do znaczenia pośrednich cech, zwłaszcza poszerzenia przewodu trzustkowego, w wykrywaniu wczesnego raka trzustki.
+- id: cervical-lymph-node-malignant-us-2008
+  title: "Ultrasound of malignant cervical lymph nodes"
+  url: https://cancerimagingjournal.biomedcentral.com/articles/10.1102/1470-7330.2008.0012
+  type: educational
+  accessedAt: "2026-07-09"
+  licenseNote: Konkretny przegląd wykorzystany do sonograficznych cech podejrzanych węzłów chłonnych szyi oraz do różnicowania z węzłami łagodnymi i odczynowymi.
+- id: malignant-neck-nodes-review-2014
+  title: "Review of ultrasonography of malignant neck nodes: greyscale, Doppler, contrast enhancement and elastography"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3894696/
+  type: educational
+  accessedAt: "2026-07-09"
+  licenseNote: Konkretny otwarty przegląd wykorzystany do cech węzłów przerzutowych i martwiczych w skali szarości i Dopplerze oraz do ostrożnego różnicowania z innymi złośliwymi węzłami szyi.
+- id: peripheral-tuberculous-lymphadenitis-2011
+  title: "Current diagnosis and management of peripheral tuberculous lymphadenitis"
+  url: https://doi.org/10.1093/cid/cir454
+  type: educational
+  accessedAt: "2026-07-09"
+  licenseNote: Konkretny przegląd wykorzystany do rozpoznania, diagnostyki potwierdzającej i podstaw dalszego postępowania w gruźliczym zapaleniu węzłów chłonnych.
+- id: cervical-lymph-node-normal-image-2015
+  title: "Der Schilddrüsenfall: Lymphknoten – Teil 1"
+  url: https://www.kup.at/journals/abbildungen/gross/18602.html
+  type: educational
+  accessedAt: "2026-07-09"
+  licenseNote: Konkretna publikacja obrazowa wykorzystana jako referencja dla prawidłowego, owalnego węzła chłonnego szyi z zachowaną echogeniczną wnęką.
+- id: neck-node-malignancy-algorithm-2012
+  title: "Diagnosis and Treatment of a Neck Node Swelling Suspicious for a Malignancy: An Algorithmic Approach"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3631810/
+  type: educational
+  accessedAt: "2026-07-09"
+  licenseNote: Konkretna publikacja wykorzystana do praktycznego algorytmu dalszej diagnostyki przy podejrzanym węźle chłonnym szyi w kontekście onkologicznym.
+- id: eau-urolithiasis-2026
+  title: "EAU Guidelines on Urolithiasis"
+  url: https://uroweb.org/guidelines/urolithiasis/chapter/guidelines
+  type: guideline
+  accessedAt: "2026-07-09"
+  licenseNote: Aktualna wytyczna EAU wykorzystana do roli KUB w różnicowaniu złogów radiocieniujących i radiolucentnych, do ograniczeń RTG w wykrywaniu kamicy oraz do znaczenia NCCT w ocenie lokalizacji, wielkości i gęstości złogów.
+- id: acr-flank-pain-urolithiasis-2023
+  title: "ACR Appropriateness Criteria: Acute Onset Flank Pain-Suspicion of Stone Disease (Urolithiasis)"
+  url: https://acsearch.acr.org/docs/69362/Narrative/
+  type: guideline
+  accessedAt: "2026-07-09"
+  licenseNote: Kryteria ACR z 2023 roku wykorzystane do wskazania niekontrastowego CT jako badania zwykle właściwego oraz do ograniczonej, ale możliwej roli radiografii jamy brzusznej, szczególnie w kontroli znanej kamicy.

@@ -1,0 +1,52 @@
+id: usg-pecherzyk-zolciowy-polip-wymagajacy-kontroli
+title: Polip pęcherzyka żółciowego wymagający kontroli
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Pęcherzyk żółciowy]
+pathology: [Polip wymagający kontroli]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [gallbladder-polyps-joint-guidelines-2022]
+imageRefs:
+  - id: gallbladder-polyp-follow-up-01
+    title: Drobny polip pęcherzyka żółciowego w USG
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/0a/Gallbladder_polyps_110739484_cr.jpg"
+    thumbnailUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Gallbladder_polyps_110739484_cr.jpg/330px-Gallbladder_polyps_110739484_cr.jpg"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Gallbladder_polyps_110739484_cr.jpg"
+    caption: Drobne przyścienne polipy 3-7 mm, obraz przydatny jako punkt odniesienia dla zmian wymagających nadzoru.
+    alt: Obraz USG pęcherzyka żółciowego z drobnymi przyściennymi polipami.
+    category: typical
+    findings:
+      - Widoczne są drobne przyścienne wypustki do około 3-7 mm.
+      - Zmiany przylegają do ściany i nie dają typowego tylnego cienia akustycznego.
+      - Obraz odpowiada polipom, a nie ruchomym złogom.
+    attribution: Nevit Dilmen via Wikimedia Commons
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-07-09"
+sections:
+  assessmentChecklist:
+    - Liczba zmian przyściennych i maksymalny wymiar największej z nich.
+    - Uszypułowanie lub szeroka podstawa zmiany.
+    - Lokalizacja w obrębie ściany pęcherzyka.
+    - Ogniskowe pogrubienie ściany powyżej 4 mm, jeśli obecne.
+    - Brak lub obecność tylnego cienia akustycznego oraz ocena ruchomości.
+    - Współistnienie kamicy, objawów klinicznych i istotnych czynników ryzyka z wywiadu.
+  reportTemplate: |
+    W świetle pęcherzyka żółciowego, przy ścianie {{lokalizacja_sciany}}, widoczna {{pojedyncza_lub_liczne}} zmiana przyścienna do {{wymiar_mm}} mm, {{uszypulowana_lub_szerokopodstawna}}, bez cech ruchomości w dostępnym zakresie oceny. {{Brak_lub_obecnosc}} wyraźnego tylnego cienia akustycznego. Ściana pęcherzyka {{niepogrubiala_lub_ogniskowo_pogrubiala_do_mm}}. {{Brak_lub_obecnosc}} współistniejących złogów. Droga żółciowa wspólna {{nieposzerzona_lub_poszerzona_do_mm}}.
+  impressionTemplate: |
+    Zmiana przyścienna pęcherzyka żółciowego o obrazie polipa wymagającego kontroli. Dalsze postępowanie zależne od wymiaru zmiany i obecności czynników ryzyka klinicznego.
+  clinicalNotes:
+    - Zmiany z artefaktem comet-tail częściej odpowiadają pseudo-polipom i nie powinny być automatycznie prowadzone według algorytmu dla prawdziwych polipów.
+    - Przy wielkości 10 mm lub większej albo przy wzroście zmiany należy unikać bagatelizującego sformułowania i opisać wskazania do dalszej kwalifikacji.
+  differential:
+    - Polip cholesterolowy o małym ryzyku.
+    - Ogniskowa gruczolakowatość pęcherzyka.
+    - Drobny złóg przyścienny przy niepełnej ocenie ruchomości.
+  followUp:
+    - Jeśli polip ma 6-9 mm i brak istotnych czynników ryzyka, zalecana kontrola USG po 6 miesiącach, po 1 roku i po 2 latach.
+    - Jeśli polip ma 5 mm lub mniej, ale współistnieją czynniki ryzyka złośliwości, zalecana kontrola USG po 6 miesiącach, po 1 roku i po 2 latach.
+    - Jeśli zmiana osiąga 10 mm lub rośnie o 2 mm albo więcej w obserwacji, należy rozważyć kwalifikację chirurgiczną zgodnie z kontekstem klinicznym.

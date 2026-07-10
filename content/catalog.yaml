@@ -1,0 +1,158 @@
+anatomySections:
+  Wątroba:
+    - id: obraz-prawidlowy
+      label: Obraz prawidłowy
+      pathology: [Obraz prawidłowy]
+      order: 10
+    - id: zmiany-lite
+      label: Zmiany lite
+      pathology: [Naczyniak, FNH, Gruczolak, HCC, Przerzuty]
+      order: 20
+    - id: zmiany-torbielowate
+      label: Zmiany torbielowate
+      pathology: [Torbiel prosta, Torbiel złożona]
+      order: 30
+    - id: choroby-rozlane
+      label: Choroby rozlane
+      pathology: [Stłuszczenie, Marskość, Nadciśnienie wrotne, Ropień]
+      order: 40
+    - id: drogi-zolciowe
+      label: Drogi żółciowe i pooperacyjne
+      pathology: [Poszerzenie dróg żółciowych, Pneumobilia, Zmiany po cholecystektomii]
+      order: 50
+  Pęcherzyk żółciowy:
+    - id: obraz-prawidlowy
+      label: Obraz prawidłowy
+      pathology: [Obraz prawidłowy]
+      order: 10
+    - id: kamica-i-zastoj
+      label: Kamica i zastój
+      pathology: [Kamica, Złóg zaklinowany w szyi, Błoto żółciowe]
+      order: 20
+    - id: zapalne
+      label: Zmiany zapalne
+      pathology: [Zapalenie, Przewlekłe zapalenie]
+      order: 30
+    - id: polipy-i-sciana
+      label: Polipy i ściana pęcherzyka
+      pathology:
+        [Polip cholesterolowy, Polip wymagający kontroli, Gruczolakowatość, Pęcherzyk porcelanowy]
+      order: 40
+    - id: nowotworowe
+      label: Zmiany nowotworowe
+      pathology: [Rak pęcherzyka]
+      order: 50
+  Nerki:
+    - id: obraz-prawidlowy
+      label: Obraz prawidłowy
+      pathology: [Obraz prawidłowy]
+      order: 10
+    - id: kamica-i-zastoj
+      label: Kamica i zastój
+      pathology: [Kamica, Wodonercze]
+      order: 20
+    - id: zmiany-torbielowate
+      label: Zmiany torbielowate
+      pathology:
+        [Torbiel Bosniak I, Torbiel Bosniak II, Torbiel Bosniak IIF, Torbiel Bosniak III-IV]
+      order: 30
+    - id: guzy
+      label: Guzy i zmiany lite
+      pathology: [Guz nerki, Angiomyolipoma]
+      order: 40
+    - id: zapalenie
+      label: Zmiany zapalne
+      pathology: [Odmiedniczkowe zapalenie]
+      order: 50
+  Trzustka:
+    - id: obraz-prawidlowy
+      label: Obraz prawidłowy
+      pathology: [Obraz prawidłowy]
+      order: 10
+    - id: zapalne
+      label: Zmiany zapalne
+      pathology: [Zapalenie, Przewlekłe zapalenie]
+      order: 20
+    - id: zmiany-torbielowate
+      label: Zmiany torbielowate
+      pathology: [Torbiel, Torbiel rzekoma, IPMN]
+      order: 30
+    - id: nowotworowe
+      label: Guzy i zmiany lite
+      pathology: [Guz neuroendokrynny, Gruczolakorak]
+      order: 40
+  Tarczyca:
+    - id: obraz-prawidlowy
+      label: Obraz prawidłowy
+      pathology: [Obraz prawidłowy]
+      order: 10
+    - id: autoimmunologiczne
+      label: Choroby autoimmunologiczne
+      pathology: [Hashimoto, Graves-Basedow]
+      order: 20
+    - id: zmiany-ogniskowe
+      label: Zmiany ogniskowe
+      pathology: [Guzek, Guzek łagodny, Torbiel, Zwapnienia]
+      order: 30
+  Węzły chłonne:
+    - id: obraz-prawidlowy
+      label: Obraz prawidłowy
+      pathology: [Obraz prawidłowy]
+      order: 10
+    - id: zapalne
+      label: Zmiany zapalne i odczynowe
+      pathology: [Odczynowe, Gruźlicze]
+      order: 20
+    - id: podejrzane
+      label: Zmiany podejrzane i nowotworowe
+      pathology: [Podejrzane, Przerzutowe, Martwicze, Chłoniak]
+      order: 30
+  Tkanka podskórna:
+    - id: guzy-lagodne
+      label: Guzy łagodne
+      pathology: [Tłuszczak]
+      order: 10
+    - id: zapalne
+      label: Zmiany zapalne
+      pathology: [Ropień]
+      order: 20
+
+conditionGroups:
+  - id: obraz-prawidlowy
+    label: Obraz prawidłowy
+    description: Szablony opisów prawidłowych dla różnych narządów i badań.
+    organs: [Wątroba, Pęcherzyk żółciowy, Nerki, Trzustka, Tarczyca, Węzły chłonne]
+    pathology: [Obraz prawidłowy]
+    order: 10
+  - id: zmiany-torbielowate
+    label: Zmiany torbielowate
+    description: Zmiany torbielowate i torbiele wymagające różnicowania między badaniami.
+    organs: [Wątroba, Nerki, Trzustka, Tarczyca]
+    pathology:
+      [Torbiel, Torbiel prosta, Torbiel złożona, Torbiel rzekoma, Torbiel Bosniak I, Torbiel Bosniak II, Torbiel Bosniak IIF, Torbiel Bosniak III-IV, IPMN]
+    order: 20
+  - id: zmiany-lite-guzowe
+    label: Zmiany lite i guzowe
+    description: Guzy lite, łagodne i złośliwe zmiany ogniskowe.
+    organs: [Wątroba, Nerki, Trzustka, Tarczyca, Tkanka podskórna]
+    pathology:
+      [Naczyniak, FNH, Gruczolak, HCC, Przerzuty, Guz nerki, Angiomyolipoma, Guz neuroendokrynny, Gruczolakorak, Guzek, Guzek łagodny, Tłuszczak]
+    order: 30
+  - id: zapalne
+    label: Zmiany zapalne
+    description: Ostre i przewlekłe zmiany zapalne w różnych narządach.
+    organs: [Wątroba, Pęcherzyk żółciowy, Nerki, Trzustka, Tarczyca, Węzły chłonne, Tkanka podskórna]
+    pathology: [Zapalenie, Przewlekłe zapalenie, Odmiedniczkowe zapalenie, Hashimoto, Graves-Basedow, Odczynowe, Gruźlicze, Ropień]
+    order: 40
+  - id: kamica-i-zastoj
+    label: Kamica i zastój
+    description: Kamica, zastój i wtórne poszerzenia układu zbiorczego lub dróg żółciowych.
+    organs: [Pęcherzyk żółciowy, Nerki, Wątroba]
+    pathology: [Kamica, Złóg zaklinowany w szyi, Błoto żółciowe, Wodonercze, Poszerzenie dróg żółciowych]
+    order: 50
+  - id: zmiany-przerzutowe
+    label: Zmiany przerzutowe i podejrzane
+    description: Zmiany o wysokim ryzyku onkologicznym lub przerzutowym.
+    organs: [Wątroba, Węzły chłonne]
+    pathology: [Przerzuty, Przerzutowe, Podejrzane, Martwicze, Chłoniak]
+    order: 60

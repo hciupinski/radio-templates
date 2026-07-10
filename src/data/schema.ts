@@ -60,6 +60,28 @@ export const taxonomySchema = z.object({
   tags: z.array(taxonomyEntrySchema).min(1)
 });
 
+export const anatomySectionSchema = z.object({
+  id: z.string().min(1),
+  label: z.string().min(1),
+  pathology: z.array(z.string().min(1)).min(1),
+  order: z.number().int().nonnegative()
+});
+
+export const conditionGroupSchema = z.object({
+  id: z.string().min(1),
+  label: z.string().min(1),
+  description: z.string().min(1),
+  organs: z.array(z.string().min(1)).min(1),
+  pathology: z.array(z.string().min(1)).min(1),
+  modalities: z.array(modalitySchema).optional(),
+  order: z.number().int().nonnegative()
+});
+
+export const catalogSchema = z.object({
+  anatomySections: z.record(z.string(), z.array(anatomySectionSchema).min(1)),
+  conditionGroups: z.array(conditionGroupSchema).min(1)
+});
+
 export const templateSchema = z.object({
   id: z.string().min(1),
   title: z.string().min(1),
@@ -87,6 +109,7 @@ export const templateSchema = z.object({
 
 export const appContentBundleSchema = z.object({
   taxonomy: taxonomySchema,
+  catalog: catalogSchema,
   sources: sourceSchema.array(),
   templates: templateSchema.array(),
   contentVersion: z.string().min(1),

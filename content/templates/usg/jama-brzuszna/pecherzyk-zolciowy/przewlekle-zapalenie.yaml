@@ -1,0 +1,34 @@
+id: usg-pecherzyk-zolciowy-przewlekle-zapalenie
+title: Przewlekłe zapalenie pęcherzyka żółciowego
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Pęcherzyk żółciowy]
+pathology: [Przewlekłe zapalenie, Kamica]
+tags: [Rezydent]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [gallstone-disease-nice-2014, diffuse-gallbladder-wall-thickening-2007]
+sections:
+  assessmentChecklist:
+    - Wielkość pęcherzyka i stopień jego obkurczenia.
+    - Grubość oraz jednorodność ściany pęcherzyka.
+    - Obecność złogów, zwłaszcza licznych lub zaklinowanych.
+    - Brak lub obecność objawu sonograficznego Murphy'ego.
+    - Brak lub obecność płynu okołopęcherzykowego i cech ostrego procesu.
+    - Szerokość dróg żółciowych i ograniczenia oceny przy niepełnym wypełnieniu pęcherzyka.
+  reportTemplate: |
+    Pęcherzyk żółciowy {{obkurczony_lub_prawidlowej_wielkosci}}, ze ścianą {{rownomiernie_lub_niejednorodnie}} pogrubiałą do {{grubosc_sciany_mm}} mm. W świetle {{brak_lub_obecne}} złogi / drobne złogi. Objaw sonograficzny Murphy'ego {{ujemny_lub_niejednoznaczny_lub_dodatni}}. {{Brak_lub_obecnosc}} płynu okołopęcherzykowego. Droga żółciowa wspólna {{nieposzerzona_lub_poszerzona_do_mm}}.
+  impressionTemplate: |
+    Obraz może odpowiadać przewlekłemu zapaleniu pęcherzyka żółciowego. W badaniu nie wykazano jednoznacznych sonograficznych cech ostrego zapalenia, o ile nie zaznaczono inaczej.
+  clinicalNotes:
+    - Samo pogrubienie ściany pęcherzyka nie jest swoiste i wymaga korelacji z wypełnieniem pęcherzyka, objawami oraz innymi przyczynami ogólnoustrojowymi.
+    - Przy współistnieniu dodatniego objawu Murphy'ego, płynu okołopęcherzykowego lub wyraźnego obrzęku ściany należy rozważyć wariant ostrego zapalenia.
+  differential:
+    - Ostre zapalenie pęcherzyka żółciowego.
+    - Gruczolakowatość pęcherzyka.
+    - Pogrubienie ściany wtórne do niedostatecznego wypełnienia pęcherzyka lub przyczyn ogólnoustrojowych.
+  followUp:
+    - W obrazie nietypowym lub przy utrzymujących się dolegliwościach rozważyć dalszą ocenę zgodnie z kontekstem klinicznym i laboratoryjnym.

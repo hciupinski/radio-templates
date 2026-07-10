@@ -1,0 +1,50 @@
+id: usg-tarczyca-zwapnienia
+title: Zwapnienia w guzku tarczycy
+modality: USG
+examTypes: [USG tarczycy, USG szyi]
+bodySystems: [Układ endokrynny]
+bodyParts: [Szyja]
+organs: [Tarczyca]
+pathology: [Guzek, Zwapnienia]
+tags: [Rezydent, TI-RADS, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [acr-thyroid-us-lexicon-2015, acr-tirads-white-paper-2017, thyroid-us-common-disorders-2021]
+imageRefs:
+  - id: thyroid-calcification-usg-01
+    title: Liniowe zwapnienie w guzku tarczycy
+    imageUrl: https://mdpi-res.com/reports/reports-04-00008/article_deploy/html/images/reports-04-00008-g008.png
+    sourceUrl: https://www.mdpi.com/2571-841X/4/1/8
+    sourceId: thyroid-us-common-disorders-2021
+    caption: Otwarta rycina poglądowa pokazująca zwapnienie z cieniem akustycznym, przydatne do odróżnienia od drobnych punktowych ognisk echogenicznych.
+    alt: Ultrasonogram guzka tarczycy z liniowym zwapnieniem i tylnym cieniem akustycznym.
+    category: variant
+    findings:
+      - Jasne zwapnienie w przedniej części guzka.
+      - Obecny tylny cień akustyczny za zwapniałą częścią.
+      - Obraz różni się od drobnych punktowych ognisk echogenicznych bez wyraźnego cienia.
+    attribution: Jack Wall et al., Reports (MDPI)
+    licenseMode: cc-by
+    lastCheckedAt: "2026-07-09"
+sections:
+  assessmentChecklist:
+    - Lokalizacja guzka i trzy wymiary.
+    - "Typ ognisk echogenicznych: punktowe, makrozwapnienia, obwodowe lub z artefaktem comet-tail."
+    - Obecność lub brak tylnego cienia akustycznego.
+    - "Pozostałe cechy punktowane w ACR TI-RADS: skład, echogeniczność, kształt i granice."
+    - Ostateczna kategoria TI-RADS oraz próg biopsji lub kontroli.
+  reportTemplate: |
+    W {{lokalizacja}} widoczny guzek o wymiarach {{wymiary_mm}} mm, {{sklad}}, {{echogenicznosc}}, o {{granicach}} granicach, {{szerszy_niz_wyzszy_lub_wyzszy_niz_szerszy}}, z {{punktowymi_ogniskami_echogenicznymi_lub_makrozwapnieniami_lub_zwapnieniem_obwodowym_lub_artefaktem_comet_tail}}. Klasyfikacja ACR TI-RADS: {{tirads}}.
+  impressionTemplate: |
+    Guzek tarczycy z ogniskami echogenicznymi / zwapnieniami. Znaczenie zmiany należy oceniać łącznie w ramach kategorii ACR TI-RADS, a nie na podstawie samych zwapnień.
+  clinicalNotes:
+    - Drobne punktowe ogniska echogeniczne bez artefaktu comet-tail zwiększają punktację TI-RADS jako punctate echogenic foci.
+    - Makrozwapnienia i zwapnienia obwodowe należy odróżniać od łagodnych echogenicznych ognisk koloidowych z artefaktem comet-tail.
+    - Zwapnienia nie stanowią samodzielnej jednostki chorobowej i powinny być raportowane jako cecha guzka.
+  differential:
+    - Łagodny guzek koloidowy z artefaktem comet-tail.
+    - Guzek z makrozwapnieniami.
+    - Zmiana podejrzana z punktowymi ogniskami echogenicznymi.
+  followUp:
+    - Zalecenia dotyczące BAC lub kontroli powinny wynikać z całkowitej kategorii TI-RADS i wielkości guzka.

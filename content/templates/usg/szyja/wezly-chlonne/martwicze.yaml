@@ -1,0 +1,36 @@
+id: usg-wezly-chlonne-martwicze
+title: Węzeł chłonny martwiczy
+modality: USG
+examTypes: [USG szyi]
+bodySystems: [Układ limfatyczny]
+bodyParts: [Szyja]
+organs: [Węzły chłonne]
+pathology: [Martwicze]
+tags: [Rezydent, Doppler, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [cervical-lymph-node-malignant-us-2008, malignant-neck-nodes-review-2014, neck-node-malignancy-algorithm-2012]
+sections:
+  assessmentChecklist:
+    - Lokalizacja i poziom szyi.
+    - Wymiary węzła, zwłaszcza oś krótka.
+    - Obecność centralnej strefy płynowej lub bezechowej odpowiadającej martwicy.
+    - Grubość i regularność żywej obwodowej kory.
+    - Wnęka tłuszczowa, zwapnienia i przegrody.
+    - Typ unaczynienia, zwłaszcza brak przepływu centralnie i przepływ obwodowy.
+    - Pakietowanie, obrzęk tkanek miękkich lub przetoka.
+  reportTemplate: |
+    W okolicy {{lokalizacja}} widoczny węzeł chłonny o wymiarach {{wymiary_mm}} mm, z {{obecna_lub_brakiem}} centralną strefą płynową / martwiczą, z {{gruba_nieregularna_lub_cienka}} obwodową korą, bez zachowanej wnęki tłuszczowej. W badaniu Doppler {{brak_przeplywu_centralnie_z_przeplywem_obwodowym_lub_inny_wzor}}. Obraz odpowiada węzłowi martwiczemu.
+  impressionTemplate: |
+    Węzeł chłonny martwiczy. Obraz jest niejednoznaczny etiologicznie i może odpowiadać zmianie nowotworowej lub zaawansowanemu procesowi zapalnemu; wymaga pilnej korelacji klinicznej i dalszej weryfikacji.
+  clinicalNotes:
+    - Martwica śródwęzłowa jest cechą silnie podejrzaną i częściej przemawia za etiologią nowotworową niż odczynową.
+    - Węzły martwicze mogą mieć obraz torbielowaty i łatwo imitować zbiornik płynowy.
+    - Jeśli obecne są pakiety węzłów, obrzęk tkanek miękkich lub przetoka, uwzględnij również etiologię gruźliczą albo ropną.
+  differential:
+    - Węzeł przerzutowy z martwicą.
+    - Węzeł gruźliczy.
+    - Ropne zapalenie węzła chłonnego.
+  followUp:
+    - Wskazana pilna dalsza diagnostyka, zwykle z materiałem do badania cytologicznego lub histopatologicznego oraz oceną mikrobiologiczną zależnie od obrazu klinicznego.

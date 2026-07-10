@@ -1,0 +1,35 @@
+id: usg-wezly-chlonne-gruzlicze
+title: Gruźlicze zapalenie węzłów chłonnych szyi
+modality: USG
+examTypes: [USG szyi]
+bodySystems: [Układ limfatyczny]
+bodyParts: [Szyja]
+organs: [Węzły chłonne]
+pathology: [Gruźlicze]
+tags: [Rezydent, Doppler, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [cervical-lymph-node-malignant-us-2008, peripheral-tuberculous-lymphadenitis-2011, neck-node-malignancy-algorithm-2012]
+sections:
+  assessmentChecklist:
+    - Liczba i rozmieszczenie zajętych węzłów oraz ewentualne pakiety węzłowe.
+    - Wymiary największych węzłów, zwłaszcza oś krótka.
+    - Niejednorodność, centralna martwica lub komponenta płynowa.
+    - Obrzęk tkanek miękkich, zatarcie granic, przetoka lub zbiornik typu cold abscess.
+    - Zachowanie wnęki tłuszczowej i obecność zwapnień.
+    - Wzorzec unaczynienia obwodowego lub skąpego centralnie.
+  reportTemplate: |
+    W zakresie {{lokalizacja}} widoczne powiększone węzły chłonne, częściowo pakietujące się, największy o wymiarach {{wymiary_mm}} mm, o {{niejednorodnej_lub_mieszanej}} echostrukturze, z {{obecna_lub_brakiem}} centralną strefą martwicy / upłynnienia, z {{zachowana_lub_zatarta}} wnęką tłuszczową. W otaczających tkankach {{obecny_lub_brak}} obrzęku / nacieku. Obraz może odpowiadać gruźliczemu zapaleniu węzłów chłonnych.
+  impressionTemplate: |
+    Obraz węzłów chłonnych może odpowiadać gruźliczemu zapaleniu węzłów chłonnych, zwłaszcza przy pakietowaniu i cechach rozpadu. Wymaga pilnej korelacji klinicznej i potwierdzenia mikrobiologicznego lub histopatologicznego.
+  clinicalNotes:
+    - Pakietowanie węzłów, obrzęk tkanek miękkich i przetoki bardziej przemawiają za etiologią gruźliczą niż za prostą limfadenopatią odczynową.
+    - Obraz może nakładać się na węzły martwicze o etiologii nowotworowej, dlatego sam USG nie przesądza rozpoznania.
+    - W opisie warto wskazać obecność materiału płynowego dostępnego do aspiracji diagnostycznej.
+  differential:
+    - Węzeł chłonny martwiczy o etiologii przerzutowej.
+    - Ropne zapalenie węzłów chłonnych.
+    - Chłoniak z wtórnym rozpadem.
+  followUp:
+    - Wskazana dalsza diagnostyka z materiałem do badania cytologicznego lub histopatologicznego oraz badań mikrobiologicznych w kierunku gruźlicy.

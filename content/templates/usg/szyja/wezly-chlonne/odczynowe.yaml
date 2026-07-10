@@ -9,8 +9,8 @@ pathology: [Odczynowe]
 tags: [Rezydent, Doppler]
 status: draft
 version: "0.1.0"
-updatedAt: "2026-07-08"
-sourceRefs: [aium-parameters, radiopaedia, local-review]
+updatedAt: "2026-07-09"
+sourceRefs: [cervical-lymph-node-malignant-us-2008]
 sections:
   assessmentChecklist:
     - Lokalizacja według poziomów szyi.

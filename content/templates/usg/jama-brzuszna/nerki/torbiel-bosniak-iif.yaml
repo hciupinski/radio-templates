@@ -1,0 +1,33 @@
+id: usg-nerki-torbiel-bosniak-iif
+title: Torbiel Bosniak IIF
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ moczowy]
+bodyParts: [Jama brzuszna]
+organs: [Nerki]
+pathology: [Torbiel Bosniak IIF]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-09"
+sourceRefs: [bosniak-25-years-2012, ceus-bosniak-structured-reporting-2021]
+sections:
+  assessmentChecklist:
+    - Lokalizacja, największy wymiar i liczba ewentualnych zmian torbielowatych.
+    - Liczba i wygląd przegród oraz stopień złożoności ściany.
+    - Obecność zwapnień, ich grubość i rozmieszczenie.
+    - Podejrzenie drobnych guzków przyściennych lub pogrubienia ściany.
+    - Porównanie z wcześniejszymi badaniami, jeśli dostępne.
+    - Ograniczenia pełnej klasyfikacji Bosniak w samym USG przezbrzusznym.
+  reportTemplate: |
+    W nerce {{strona}}, w {{lokalizacja}}, widoczna jest złożona zmiana torbielowata o wymiarach {{mm_x_mm}}, z {{liczba_lub_brak}} przegrodami, {{obecnymi_lub_brakiem}} zwapnień oraz {{nieznacznym_lub_brakiem}} pogrubieniem ściany / przegród. Nie uwidoczniono jednoznacznie litego, unaczynionego guzka przyściennego w dostępnym badaniu. Obraz przekracza cechy prostej torbieli i może odpowiadać zmianie wymagającej obserwacji.
+  impressionTemplate: |
+    Złożona torbielowata zmiana nerki, mogąca odpowiadać kategorii Bosniak IIF. Samo USG nie pozwala na pewną klasyfikację; wskazana dalsza charakterystyka i porównanie z wcześniejszymi badaniami.
+  clinicalNotes:
+    - Kategoria IIF w praktyce oznacza zmianę bardziej złożoną niż Bosniak II, ale bez jednoznacznych cech wysokiego ryzyka możliwych do uchwycenia w badaniu przesiewowym.
+    - Niewielkie różnice techniczne między badaniami USG mogą utrudniać ocenę progresji.
+  differential:
+    - Torbiel Bosniak II z przeszacowaniem złożoności.
+    - Zmiana torbielowata wyższego stopnia wymagająca CEUS, TK lub MR.
+  followUp:
+    - Dalsze postępowanie powinno obejmować bardziej swoistą charakterystykę kontrastową oraz kontrolę zgodnie z lokalną praktyką i wynikiem badania referencyjnego.

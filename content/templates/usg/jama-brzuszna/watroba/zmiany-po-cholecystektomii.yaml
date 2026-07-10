@@ -9,8 +9,23 @@ pathology: [Zmiany po cholecystektomii]
 tags: [Rezydent, Kontrola]
 status: draft
 version: "0.1.0"
-updatedAt: "2026-07-08"
+updatedAt: "2026-07-09"
 sourceRefs: [cbd-post-chole-1995]
+imageRefs:
+  - id: post-cholecystectomy-usg-01
+    title: Loża po cholecystektomii
+    imageUrl: https://www.ultrasound-images.com/s/cc_images/cache_4215716444.jpg?t=1450767182
+    sourceUrl: https://www.ultrasound-images.com/cholecystectomy/
+    caption: Obraz loży po pęcherzyku żółciowym z nieobecną bańką pęcherzyka i linijną echogeniczną tkanką włóknistą w jego miejscu.
+    alt: Ultrasonogram loży po cholecystektomii z nieobecną bańką pęcherzyka żółciowego.
+    category: variant
+    findings:
+      - Brak pęcherzyka żółciowego w typowej lokalizacji.
+      - Echogeniczna linijna tkanka w obrębie loży po pęcherzyku.
+      - Sąsiedni miąższ wątroby widoczny bez dużej kolekcji płynowej.
+    attribution: Joe Antony, Ultrasound Images
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-09"
 sections:
   assessmentChecklist:
     - Loża po pęcherzyku żółciowym.
