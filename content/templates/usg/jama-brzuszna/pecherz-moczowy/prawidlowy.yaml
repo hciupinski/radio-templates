@@ -1,0 +1,27 @@
+id: usg-pecherz-moczowy-prawidlowy
+title: Pęcherz moczowy prawidłowy
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ moczowy]
+bodyParts: [Jama brzuszna]
+organs: [Pęcherz moczowy]
+pathology: [Obraz prawidłowy]
+tags: [Rezydent]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [polish-us-urinary-tract-standards-2015, aium-abdomen-retroperitoneum-2024]
+sections:
+  assessmentChecklist:
+    - Stopień wypełnienia i objętość pęcherza, jeśli wskazane klinicznie.
+    - Zarys, grubość i warstwowość ściany w kontekście stopnia wypełnienia.
+    - Echogeniczność zawartości oraz obecność złogów, skrzepów lub innych struktur wewnątrz światła.
+    - Trójkąt pęcherza, ujścia moczowodów i dystalne odcinki moczowodów w dostępnym zakresie.
+    - Zaleganie moczu po mikcji, jeśli badanie wykonano po opróżnieniu pęcherza.
+  reportTemplate: |
+    Pęcherz moczowy {{dobrze_lub_czesciowo_wypelniony}}, o objętości {{objetosc_ml_lub_nie_dotyczy}} ml. Ściana cienka, gładka, bez zmian ogniskowych, oceniana w zakresie adekwatnym do stopnia wypełnienia. Zawartość jednorodnie bezechowa, bez złogów i bez struktur przyściennych. Zaleganie po mikcji {{nie_oceniano_lub_wynosi_ml}} ml.
+  impressionTemplate: |
+    Obraz USG pęcherza moczowego w granicach normy w dostępnym zakresie.
+  clinicalNotes:
+    - Wiarygodna ocena ściany wymaga odpowiedniego wypełnienia pęcherza; przy niedostatecznym wypełnieniu opisz ograniczenie.
+    - Pomiar zalegania po mikcji wykonuj tylko, gdy wynika to ze wskazania lub zakresu badania.

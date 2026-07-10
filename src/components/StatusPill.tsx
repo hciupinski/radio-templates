@@ -1,9 +1,9 @@
 import type { TemplateStatus } from "../types/radiology";
 
 const labels: Record<TemplateStatus, string> = {
-  draft: "draft",
-  reviewed: "reviewed",
-  deprecated: "deprecated"
+  draft: "Roboczy",
+  reviewed: "Zweryfikowany",
+  deprecated: "Wycofany"
 };
 
 export function StatusPill({ status }: { status: TemplateStatus }) {
