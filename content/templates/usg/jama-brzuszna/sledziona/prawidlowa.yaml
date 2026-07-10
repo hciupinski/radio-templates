@@ -1,0 +1,43 @@
+id: usg-sledziona-prawidlowa
+title: Śledziona prawidłowa
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ limfatyczny]
+bodyParts: [Jama brzuszna]
+organs: [Śledziona]
+pathology: [Obraz prawidłowy]
+tags: [Rezydent]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [spleen-us-measurements-2025, efsumb-spleen-course-book-2023, splenic-us-atlas-2022]
+imageRefs:
+  - id: spleen-normal-usg-01
+    title: Prawidłowa śledziona w USG
+    imageUrl: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0997/8942726/016e7271e299/usg-21189f1.jpg
+    sourceUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC8942726/
+    sourceId: splenic-us-atlas-2022
+    caption: Obraz referencyjny jednorodnej śledziony o gładkiej wypukłości zewnętrznej i zachowanym zarysie wnęki.
+    alt: Podłużny ultrasonogram prawidłowej śledziony o jednorodnym miąższu.
+    category: normal-reference
+    findings:
+      - Miąższ śledziony ma jednorodną echostrukturę.
+      - Zewnętrzny zarys narządu jest gładko wypukły.
+      - Nie uwidoczniono ogniskowych odchyleń echostruktury w pokazanym przekroju.
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-10"
+sections:
+  assessmentChecklist:
+    - Pełna widoczność śledziony oraz ewentualne ograniczenia techniczne.
+    - Długość i grubość śledziony w ustalonych przekrojach.
+    - Zarys narządu i jednorodność miąższu.
+    - Obecność zmian ogniskowych, płynu okołośledzionowego lub cech urazu.
+    - Wnęka śledziony i widoczne naczynia, jeżeli są oceniane.
+    - Obecność śledzion dodatkowych, jeśli są widoczne.
+  reportTemplate: |
+    Śledziona niepowiększona, o długości {{dlugosc_mm}} mm i grubości {{grubosc_mm}} mm, o gładkim zarysie oraz jednorodnej echostrukturze. Nie uwidoczniono zmian ogniskowych ani płynu okołośledzionowego. Wnęka śledziony {{bez_istotnych_odchylen_lub_opis}}.
+  impressionTemplate: |
+    Obraz USG śledziony w granicach normy.
+  clinicalNotes:
+    - Interpretuj wymiary z uwzględnieniem budowy ciała, wieku i techniki pomiaru; pojedynczy wymiar nie zastępuje korelacji klinicznej.
+    - Przy niepełnej widoczności narządu zaznacz ograniczenie badania.

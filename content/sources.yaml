@@ -436,3 +436,33 @@
   type: guideline
   accessedAt: "2026-07-09"
   licenseNote: Kryteria ACR z 2023 roku wykorzystane do wskazania niekontrastowego CT jako badania zwykle właściwego oraz do ograniczonej, ale możliwej roli radiografii jamy brzusznej, szczególnie w kontroli znanej kamicy.
+- id: spleen-us-measurements-2025
+  title: "Ultrasound of the spleen - an update on measurements, reference values, and influencing factors. A systematic review"
+  url: https://pubmed.ncbi.nlm.nih.gov/39420823/
+  type: educational
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretny przegląd systematyczny wykorzystany do techniki pomiaru śledziony, wartości referencyjnych oraz zaznaczenia wpływu cech pacjenta na interpretację wymiarów.
+- id: efsumb-spleen-course-book-2023
+  title: "EFSUMB European Course Book: Spleen"
+  url: https://efsumb.org/wp-content/uploads/2023/07/ECB2nd_Chapter_SPLEEN-FULL.pdf
+  type: educational
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretny rozdział EFSUMB wykorzystany do zakresu prawidłowego badania śledziony, przekrojów i podstawowego opisu jej echostruktury.
+- id: splenic-us-atlas-2022
+  title: "Ultrasonographic atlas of splenic lesions"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8942726/
+  type: educational
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretny artykuł otwartego dostępu wykorzystany do referencyjnego obrazu prawidłowej śledziony; osadzona figura pozostaje linkiem zewnętrznym o niezweryfikowanej licencji do dalszego wykorzystania.
+- id: polish-us-urinary-tract-standards-2015
+  title: "Standards of the Polish Ultrasound Society - update. Ultrasound examination of the kidneys, ureters and urinary bladder"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4603215/
+  type: guideline
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretne standardy Polskiego Towarzystwa Ultrasonograficznego wykorzystane do zakresu przezbrzusznej oceny pęcherza, jego wypełnienia, ścian, światła, trójkąta i ujść moczowodów.
+- id: aium-abdomen-retroperitoneum-2024
+  title: "AIUM Practice Parameter for the Performance of an Ultrasound Examination of the Abdomen and/or Retroperitoneum"
+  url: https://www.aium.org/docs/default-source/resources/guidelines/abdominal.pdf?sfvrsn=2cdd07d_1
+  type: guideline
+  accessedAt: "2026-07-10"
+  licenseNote: Oficjalny parametr praktyki AIUM wykorzystany do kompletności dokumentacji badania pęcherza moczowego, w tym obrazów w przekrojach poprzecznym i podłużnym oraz oceny zalegania po mikcji.

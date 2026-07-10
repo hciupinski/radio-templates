@@ -47,6 +47,8 @@ Dla każdej pozycji rekomendowany pipeline jest stały:
 - `USG jamy brzusznej / Nerki / Angiomyolipoma`
 - `USG jamy brzusznej / Nerki / Odmiedniczkowe zapalenie`
 - `USG jamy brzusznej / Nerki / Guz nerki`
+- `USG jamy brzusznej / Śledziona / Obraz prawidłowy`
+- `USG jamy brzusznej / Pęcherz moczowy / Obraz prawidłowy`
 - `USG jamy brzusznej / Trzustka / Obraz prawidłowy`
 - `USG jamy brzusznej / Trzustka / Ostre zapalenie`
 - `USG jamy brzusznej / Trzustka / Przewlekłe zapalenie`
@@ -77,14 +79,6 @@ Dla każdej pozycji rekomendowany pipeline jest stały:
 ### Pęcherzyk żółciowy
 
 ### Nerki
-
-### Śledziona
-
-- `USG jamy brzusznej / Śledziona / Obraz prawidłowy`
-
-### Pęcherz moczowy
-
-- `USG jamy brzusznej / Pęcherz moczowy / Obraz prawidłowy`
 
 ### Tarczyca
 
