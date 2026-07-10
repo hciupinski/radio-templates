@@ -1,0 +1,25 @@
+id: usg-moszna-przepuklina-pachwinowo-mosznowa
+title: Przepuklina pachwinowo-mosznowa
+modality: USG
+examTypes: [USG moszny]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Moszna]
+organs: [Moszna i kanał pachwinowy]
+pathology: [Przepuklina pachwinowo-mosznowa]
+tags: [Rezydent, Doppler, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [scrotal-ultrasound-adults-2016]
+sections:
+  assessmentChecklist:
+    - Zawartość worka przepuklinowego i łączność z kanałem pachwinowym.
+    - Odprowadzalność, zmiana podczas próby Valsalvy i ucisk na jądro.
+    - Przepływ w zawartości jelitowej lub sieci, jeśli jest ocenialny.
+    - Wolny płyn i cechy uwięźnięcia.
+  reportTemplate: |
+    W mosznie {{strona}} widoczne wpuklanie {{jelit_lub_sieci_lub_plynu}} przez kanał pachwinowy, nasilające się podczas {{valsava_lub_pionizacji}}. Zawartość {{odprowadzalna_lub_nieodprowadzalna}}, {{bez_lub_z}} cechami zaburzeń ukrwienia w dostępnym zakresie. Jądro {{strona}} {{bez_lub_z}} uciskiem przez przepuklinę.
+  impressionTemplate: |
+    Przepuklina pachwinowo-mosznowa {{strona}}. {{Brak_lub_podejrzenie}} cech uwięźnięcia.
+  followUp:
+    - Przy nieodprowadzalnej przepuklinie, bólu lub podejrzeniu zaburzeń ukrwienia zalecić pilną konsultację chirurgiczną.

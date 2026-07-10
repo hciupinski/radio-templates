@@ -1,0 +1,25 @@
+id: usg-moszna-uraz-jadra
+title: Uraz jądra
+modality: USG
+examTypes: [USG moszny]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Moszna]
+organs: [Jądra i najądrza]
+pathology: [Uraz jądra]
+tags: [Rezydent, Doppler, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [aua-urotrauma-guideline-2020, scrotal-ultrasound-adults-2016]
+sections:
+  assessmentChecklist:
+    - Ciągłość obrysu i osłonki białawej jądra.
+    - Echostruktura miąższu oraz krwiak śród- lub pozajądrowy.
+    - Przepływ w miąższu w Dopplerze.
+    - Wodniak krwisty, osłonki, najądrze i tkanki moszny.
+  reportTemplate: |
+    Jądro {{strona}} o {{zachowanym_lub_zatartym}} obrysie, z {{jednorodna_lub_niejednorodna}} echostrukturą miąższu. {{Brak_lub_obecnosc}} cech przerwania ciągłości osłonki białawej. {{Brak_lub_obecnosc}} krwiaka śródjądrowego lub okołojądrowego o wymiarach {{wymiary_mm_lub_nie_dotyczy}}. Przepływ w Dopplerze {{zachowany_lub_oslabiony_lub_nieobecny}}.
+  impressionTemplate: |
+    Obraz urazu jądra {{strona}}. {{Brak_lub_podejrzenie}} cech pęknięcia jądra.
+  followUp:
+    - Przy podejrzeniu pęknięcia, niejednoznacznym badaniu lub dużym krwiaku wymagana pilna konsultacja urologiczna.

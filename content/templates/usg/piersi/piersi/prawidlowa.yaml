@@ -1,0 +1,23 @@
+id: usg-piersi-prawidlowa
+title: Piersi prawidłowe
+modality: USG
+examTypes: [USG piersi]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Piersi]
+organs: [Piersi]
+pathology: [Obraz prawidłowy]
+tags: [Rezydent]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [acr-birads-breast-ultrasound-2025]
+sections:
+  assessmentChecklist:
+    - Zakres badania oraz korelacja z miejscem objawów.
+    - Skóra, tkanka podskórna, miąższ i przestrzeń za brodawką.
+    - Zmiany ogniskowe, przewody i węzły pachowe w dostępnym zakresie.
+    - Kategoria BI-RADS.
+  reportTemplate: |
+    W badanych piersiach nie uwidoczniono zmian ogniskowych ani patologicznego poszerzenia przewodów. Skóra i tkanka podskórna bez odchyleń. W dołach pachowych nie uwidoczniono patologicznych węzłów chłonnych. BI-RADS 1.
+  impressionTemplate: |
+    Obraz USG piersi bez zmian podejrzanych. BI-RADS 1.

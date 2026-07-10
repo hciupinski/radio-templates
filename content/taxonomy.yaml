@@ -40,6 +40,15 @@ examTypes:
   - id: usg-tkanek-miekkich
     label: USG tkanek miękkich
     synonyms: [soft tissue ultrasound, tkanki miękkie]
+  - id: usg-moszny
+    label: USG moszny
+    synonyms: [scrotal ultrasound, ultrasound jąder]
+  - id: usg-piersi
+    label: USG piersi
+    synonyms: [breast ultrasound]
+  - id: usg-slinianki
+    label: USG ślinianek
+    synonyms: [salivary gland ultrasound, ultrasound ślinianek]
 
 bodySystems:
   - id: przewod-pokarmowy
@@ -59,6 +68,9 @@ bodySystems:
   - id: miesniowo-szkieletowy
     label: Układ mięśniowo-szkieletowy
     synonyms: [MSK, musculoskeletal]
+  - id: rozrodczy
+    label: Układ rozrodczy
+    synonyms: [reproductive]
 
 bodyParts:
   - id: jama-brzuszna
@@ -70,6 +82,15 @@ bodyParts:
   - id: tkanki-miekkie
     label: Tkanki miękkie
     synonyms: [soft tissues]
+  - id: moszna
+    label: Moszna
+    synonyms: [scrotum]
+  - id: piersi
+    label: Piersi
+    synonyms: [breasts]
+  - id: slinianki
+    label: Ślinianki
+    synonyms: [salivary glands]
 
 organs:
   - id: watroba
@@ -99,6 +120,18 @@ organs:
   - id: tkanka-podskorna
     label: Tkanka podskórna
     synonyms: [subcutaneous tissue]
+  - id: jadra-i-najadrza
+    label: Jądra i najądrza
+    synonyms: [testes, testicles, epididymides]
+  - id: moszna-i-kanal-pachwinowy
+    label: Moszna i kanał pachwinowy
+    synonyms: [scrotum and inguinal canal]
+  - id: piersi
+    label: Piersi
+    synonyms: [breast]
+  - id: slinianki-przyuszne-i-podzuchwowe
+    label: Ślinianki przyuszne i podżuchwowe
+    synonyms: [parotid and submandibular glands, major salivary glands]
 
 pathology:
   - id: obraz-prawidlowy
@@ -107,6 +140,15 @@ pathology:
   - id: stluszczenie
     label: Stłuszczenie
     synonyms: [steatosis, fatty liver]
+  - id: stluszczenie-lagodne
+    label: Stłuszczenie łagodne
+    synonyms: [mild steatosis]
+  - id: stluszczenie-umiarkowane
+    label: Stłuszczenie umiarkowane
+    synonyms: [moderate steatosis]
+  - id: stluszczenie-znaczne
+    label: Stłuszczenie znaczne
+    synonyms: [severe steatosis]
   - id: marskosc
     label: Marskość
     synonyms: [cirrhosis]
@@ -116,6 +158,12 @@ pathology:
   - id: torbiel
     label: Torbiel
     synonyms: [cyst]
+  - id: kaszak
+    label: Kaszak
+    synonyms: [ateroma, torbiel łojowa, powierzchowna torbiel skórna]
+  - id: torbiel-naskorkowa
+    label: Torbiel naskórkowa
+    synonyms: [epidermal cyst, epidermoid cyst, epidermal inclusion cyst]
   - id: ipmn
     label: IPMN
     synonyms: [intraductal papillary mucinous neoplasm, intraductal papillary mucinous neoplasia, wewnątrzprzewodowy brodawkowaty nowotwór śluzowy]
@@ -236,6 +284,111 @@ pathology:
   - id: ropien
     label: Ropień
     synonyms: [abscess]
+  - id: krwiak
+    label: Krwiak
+    synonyms: [hematoma, haematoma]
+  - id: cialo-obce
+    label: Ciało obce
+    synonyms: [foreign body, retained foreign body]
+  - id: ganglion
+    label: Ganglion
+    synonyms: [ganglion cyst, torbiel galaretowata]
+  - id: zmiana-podejrzana-o-miesaka
+    label: Zmiana podejrzana o mięsaka
+    synonyms: [suspected sarcoma, suspicious soft tissue mass, soft tissue sarcoma]
+  - id: skret-jadra
+    label: Skręt jądra
+    synonyms: [testicular torsion, torsion of testis]
+  - id: ostre-zapalenie-najadrza
+    label: Ostre zapalenie najądrza
+    synonyms: [acute epididymitis, epididymo-orchitis]
+  - id: wodniak-jadra
+    label: Wodniak jądra
+    synonyms: [hydrocele]
+  - id: zylaki-powrozka
+    label: Żylaki powrózka nasiennego
+    synonyms: [varicocele, varicoceles]
+  - id: guz-jadra
+    label: Guz jądra
+    synonyms: [testicular mass, testicular tumor, intratesticular mass]
+  - id: uraz-jadra
+    label: Uraz jądra
+    synonyms: [testicular trauma, testicular rupture, scrotal trauma]
+  - id: skret-przydatka-jadra
+    label: Skręt przydatka jądra
+    synonyms: [torsion of appendix testis, appendage torsion]
+  - id: zapalenie-jadra
+    label: Zapalenie jądra
+    synonyms: [orchitis]
+  - id: torbiel-najadrza-spermatocele
+    label: Torbiel najądrza lub spermatocele
+    synonyms: [epididymal cyst, spermatocele]
+  - id: mikrolitiaza-jadra
+    label: Mikrolitiaza jądra
+    synonyms: [testicular microlithiasis]
+  - id: przepuklina-pachwinowo-mosznowa
+    label: Przepuklina pachwinowo-mosznowa
+    synonyms: [inguinoscrotal hernia, scrotal hernia]
+  - id: torbiel-prosta-piersi
+    label: Torbiel prosta piersi
+    synonyms: [simple breast cyst]
+  - id: torbiel-powiklana-piersi
+    label: Torbiel powikłana piersi
+    synonyms: [complicated breast cyst]
+  - id: fibroadenoma
+    label: Fibroadenoma
+    synonyms: [fibroadenoma of breast]
+  - id: zapalenie-sutka
+    label: Zapalenie sutka
+    synonyms: [mastitis, breast inflammation]
+  - id: ropien-piersi
+    label: Ropień piersi
+    synonyms: [breast abscess]
+  - id: galactocele
+    label: Galactocele
+    synonyms: [milk retention cyst, galactocoele]
+  - id: martwica-tluszczowa-piersi
+    label: Martwica tłuszczowa piersi
+    synonyms: [breast fat necrosis, fat necrosis]
+  - id: wezel-chlonny-wewnatrzsutkowy
+    label: Węzeł chłonny wewnątrzsutkowy
+    synonyms: [intramammary lymph node]
+  - id: brodawczak-wewnatrzprzewodowy
+    label: Brodawczak wewnątrzprzewodowy
+    synonyms: [intraductal papilloma, breast papilloma]
+  - id: zmiana-birads-3
+    label: Zmiana BI-RADS 3
+    synonyms: [probably benign breast lesion, birads 3]
+  - id: zmiana-birads-4
+    label: Zmiana BI-RADS 4
+    synonyms: [suspicious breast lesion, birads 4]
+  - id: zmiana-birads-5
+    label: Zmiana BI-RADS 5
+    synonyms: [highly suggestive of malignancy breast lesion, birads 5]
+  - id: kamica-slinianek
+    label: Kamica ślinianek
+    synonyms: [sialolithiasis, salivary stone]
+  - id: ostre-zapalenie-slinianki
+    label: Ostre zapalenie ślinianki
+    synonyms: [acute sialadenitis, acute sialoadenitis]
+  - id: przewlekle-zapalenie-slinianki
+    label: Przewlekłe zapalenie ślinianki
+    synonyms: [chronic sialadenitis, chronic sialoadenitis]
+  - id: zespol-sjogrena
+    label: Zespół Sjogrena
+    synonyms: [sjogren syndrome, primary sjogren syndrome]
+  - id: gruczolak-wielopostaciowy
+    label: Gruczolak wielopostaciowy
+    synonyms: [pleomorphic adenoma, benign mixed tumor]
+  - id: guz-warthina
+    label: Guz Warthina
+    synonyms: [warthin tumor, warthin tumour, papillary cystadenoma lymphomatosum]
+  - id: torbiel-slinianki
+    label: Torbiel ślinianki
+    synonyms: [salivary gland cyst, salivary cyst]
+  - id: zmiana-slinianki-podejrzana-o-zlosliwosc
+    label: Zmiana ślinianki podejrzana o złośliwość
+    synonyms: [suspected malignant salivary gland lesion, suspicious salivary gland mass]
   - id: hcc
     label: HCC
     synonyms: [hepatocellular carcinoma, rak wątrobowokomórkowy]

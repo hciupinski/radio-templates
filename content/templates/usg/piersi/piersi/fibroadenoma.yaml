@@ -1,0 +1,24 @@
+id: usg-piersi-fibroadenoma
+title: Fibroadenoma piersi
+modality: USG
+examTypes: [USG piersi]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Piersi]
+organs: [Piersi]
+pathology: [Fibroadenoma]
+tags: [Rezydent, Doppler, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [acr-birads-breast-ultrasound-2025]
+sections:
+  assessmentChecklist:
+    - Lokalizacja, trzy wymiary, kształt i orientacja.
+    - Granice, echogeniczność, ewentualne zwapnienia i Doppler.
+    - Stabilność względem badań wcześniejszych oraz kategoria BI-RADS.
+  reportTemplate: |
+    W piersi {{strona}}, na godzinie {{godzina}}, widoczna owalna, równoległa do skóry zmiana lita o wymiarach {{wymiary_mm}} mm, o gładkich granicach i {{jednorodnej_lub_niejednorodnej}} echostrukturze, bez cech podejrzanych. W Dopplerze {{brak_lub_niewielkie}} unaczynienie. Obraz najbardziej odpowiada fibroadenoma. BI-RADS {{2_lub_3}}.
+  impressionTemplate: |
+    Zmiana o cechach fibroadenoma. BI-RADS {{2_lub_3}}.
+  clinicalNotes:
+    - Kategorię i kontrolę dobierz do pełnej morfologii, wielkości oraz stabilności w badaniach porównawczych.

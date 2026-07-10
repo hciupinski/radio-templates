@@ -1,0 +1,42 @@
+id: usg-slinianki-kamica
+title: Kamica ślinianek
+modality: USG
+examTypes: [USG ślinianek]
+bodySystems: [Przewód pokarmowy]
+bodyParts: [Ślinianki]
+organs: [Ślinianki przyuszne i podżuchwowe]
+pathology: [Kamica ślinianek]
+tags: [Rezydent, Doppler, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [salivary-gland-us-inflammatory-obstructive-2021]
+imageRefs:
+  - id: salivary-stone-usg-01
+    title: Mały złóg w dystalnym odcinku przewodu Whartona
+    imageUrl: https://pub.mdpi-res.com/jcm/jcm-10-03547/article_deploy/html/images/jcm-10-03547-g004.png?1669092521
+    sourceUrl: https://www.mdpi.com/2077-0383/10/16/3547
+    sourceId: salivary-gland-us-inflammatory-obstructive-2021
+    caption: Dwa sposoby uwidocznienia małego złogu w dystalnym odcinku przewodu Whartona.
+    alt: Ultrasonogram małego hiperechogenicznego złogu w przewodzie Whartona.
+    category: typical
+    findings:
+      - Mały hiperechogeniczny złóg oznaczony strzałką.
+      - Lokalizacja w dystalnym odcinku przewodu Whartona.
+      - Ograniczenie przesłaniania przez żuchwę dzięki technice badania.
+    attribution: Koch et al., Journal of Clinical Medicine 2021, CC BY 4.0
+    licenseMode: cc-by
+    lastCheckedAt: "2026-07-10"
+sections:
+  assessmentChecklist:
+    - Strona, zajęta ślinianka i dokładna lokalizacja złogu w miąższu lub przewodzie.
+    - Liczba i trzy wymiary złogów oraz cień akustyczny.
+    - Poszerzenie przewodu przed przeszkodą i obraz miąższu ślinianki.
+    - Cechy zapalenia, ropnia oraz porównanie ze stroną przeciwną.
+    - Zasięg widocznego przewodu i ograniczenia oceny dystalnego odcinka.
+  reportTemplate: |
+    W śliniance {{przyusznej_lub_podzuchwowej}} {{strona}} uwidoczniono hiperechogeniczny złóg o wymiarach {{wymiary_mm}} mm, położony {{lokalizacja_w_miazszu_lub_przewodzie}}, z {{obecnym_lub_nieobecnym}} cieniem akustycznym. Przewód wyprowadzający {{poszerzony_lub_nieposzerzony}} do {{srednica_mm}} mm. Miąższ ślinianki {{opis_miazszu_i_dopplera}}. {{brak_lub_opis_ropnia}}.
+  impressionTemplate: |
+    Kamica ślinianki {{przyusznej_lub_podzuchwowej}} {{strona}}, z {{brak_lub_cechy_obturacji}}.
+  followUp:
+    - Przy objawach obturacji, nawracającego zapalenia lub niepełnej ocenie przewodu wskazana konsultacja laryngologiczna lub chirurgii szczękowo-twarzowej.

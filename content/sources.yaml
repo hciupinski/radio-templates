@@ -466,3 +466,183 @@
   type: guideline
   accessedAt: "2026-07-10"
   licenseNote: Oficjalny parametr praktyki AIUM wykorzystany do kompletności dokumentacji badania pęcherza moczowego, w tym obrazów w przekrojach poprzecznym i podłużnym oraz oceny zalegania po mikcji.
+- id: epidermal-cyst-us-model-2019
+  title: "Ultrasound Feature-Based Diagnostic Model Focusing on the Submarine Sign for Epidermal Cysts among Superficial Soft Tissue Lesions"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6757000/
+  type: educational
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretne badanie retrospektywne wykorzystane do cech USG torbieli naskórkowej, zwłaszcza połączenia zmiany ze skórą i objawu submarine sign; osadzona figura pozostaje linkiem zewnętrznym o niezweryfikowanej licencji do dalszego wykorzystania.
+- id: epidermal-inclusion-cyst-us-mri-2011
+  title: "Subcutaneous epidermal inclusion cysts: ultrasound (US) and MR imaging findings"
+  url: https://pubmed.ncbi.nlm.nih.gov/21132291/
+  type: educational
+  accessedAt: "2026-07-10"
+  licenseNote: "Konkretna seria potwierdzonych histologicznie przypadków wykorzystana do cech torbieli naskórkowej w USG: owalnego kształtu, obwódki, ech wewnętrznych, wzmocnienia za tylną ścianą i zwykle braku przepływu wewnętrznego."
+- id: superficial-soft-tissue-masses-acr-2022
+  title: "ACR Appropriateness Criteria: Soft Tissue Masses"
+  url: https://acsearch.acr.org/docs/69434/Narrative/
+  type: guideline
+  accessedAt: "2026-07-10"
+  licenseNote: Oficjalne kryteria ACR wykorzystane do ostrożnego formułowania dalszej diagnostyki powierzchownej zmiany tkanek miękkich o niejednoznacznym obrazie USG.
+- id: soft-tissue-hematoma-us-2025
+  title: "Soft tissue hematomas on ultrasound: a case-based review and practical guide to diagnosis"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12831968/
+  type: educational
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretny otwarty przegląd wykorzystany do ewolucji obrazu sonograficznego krwiaka, oceny Doppler i różnicowania z ropniem oraz guzem tkanek miękkich.
+- id: foreign-body-us-meta-analysis-2015
+  title: "Diagnostic Accuracy of Ultrasonography in Retained Soft Tissue Foreign Bodies: A Systematic Review and Meta-analysis"
+  url: https://pubmed.ncbi.nlm.nih.gov/26111545/
+  type: educational
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretna metaanaliza wykorzystana do ograniczeń czułości oraz wysokiej swoistości USG w wykrywaniu zatrzymanych ciał obcych w tkankach miękkich.
+- id: wrist-ganglion-us-2007
+  title: "Sonography of wrist ganglion cysts: variable and noncystic appearances"
+  url: https://pubmed.ncbi.nlm.nih.gov/17901135/
+  type: educational
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretna seria potwierdzonych zabiegowo lub aspiracyjnie ganglionów nadgarstka wykorzystana do zróżnicowanego obrazu USG małych ganglionów i oceny łączności ze stawem lub pochewką ścięgna.
+- id: sarcoma-haematoma-us-2024
+  title: "Sarcoma or haematoma? If only it was that simple! Part 1"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11563502/
+  type: educational
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretny otwarty przegląd wykorzystany do różnicowania krwiaka i mięsaka w USG oraz do wskazania konieczności eskalacji diagnostyki przy atypowej lub niewyjaśnionej zmianie.
+- id: aasld-nafld-practice-guidance-2023
+  title: "AASLD Practice Guidance on the clinical assessment and management of nonalcoholic fatty liver disease"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10735173/
+  type: guideline
+  accessedAt: "2026-07-10"
+  licenseNote: Aktualna wytyczna AASLD wykorzystana do ograniczeń półilościowej oceny stłuszczenia w USG oraz konieczności korelacji z ryzykiem włóknienia i kontekstem metabolicznym.
+- id: easl-masld-guideline-2024
+  title: "EASL-EASD-EASO Clinical Practice Guidelines on the management of metabolic dysfunction-associated steatotic liver disease"
+  url: https://www.journal-of-hepatology.eu/article/S0168-8278%2824%2900329-5/fulltext
+  type: guideline
+  accessedAt: "2026-07-10"
+  licenseNote: Aktualna europejska wytyczna wykorzystana do współczesnego kontekstu MASLD i ostrożnego formułowania dalszej oceny pacjenta ze stłuszczeniem wykrytym w obrazowaniu.
+- id: acute-cholecystitis-us-paradigms-2024
+  title: "Improving Diagnosis of Acute Cholecystitis with US: New Paradigms"
+  url: https://pubs.rsna.org/doi/10.1148/rg.240032
+  type: educational
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretny przegląd wykorzystany do dokumentowania ruchomości złogów po zmianie pozycji oraz odróżnienia złogu ruchomego od zaklinowanego w szyi pęcherzyka lub przewodzie pęcherzykowym.
+- id: acr-tirads-reporting-template-2024
+  title: "Thyroid Ultrasound Reporting Template using ACR TI-RADS"
+  url: https://www.acr.org/-/media/ACR/Files/RADS/TI-RADS/TI-RADS-Diagnostic-Ultrasound-Reporting-Template.pdf
+  type: guideline
+  accessedAt: "2026-07-10"
+  licenseNote: Oficjalny szablon ACR wykorzystany do krokowej punktacji TI-RADS oraz progów BAC i kontroli zależnych od kategorii i największego wymiaru guzka.
+- id: aium-scrotal-practice-parameter-2025
+  title: "AIUM Practice Parameter for the Performance of Scrotal Ultrasound Examinations, 2025 Revision"
+  url: https://www.aium.org/docs/default-source/official-statements-or-practice-parameters/scrotal_2025.pdf
+  type: guideline
+  accessedAt: "2026-07-10"
+  licenseNote: Oficjalny parametr AIUM wykorzystany do kompletności oceny obu jąder, najądrzy, osłonek i porównawczego Dopplera w badaniu moszny.
+- id: acr-acute-scrotal-pain-2024
+  title: "ACR Appropriateness Criteria: Acute Onset of Scrotal Pain-Without Trauma, Without Antecedent Mass"
+  url: https://acsearch.acr.org/docs/69363/Narrative/
+  type: guideline
+  accessedAt: "2026-07-10"
+  licenseNote: Aktualne kryteria ACR wykorzystane do roli USG z Dopplerem jako badania pierwszego rzutu w ostrym bólu moszny i do pilnego różnicowania skrętu jądra.
+- id: scrotal-ultrasound-adults-2016
+  title: "Ultrasonography of the scrotum in adults"
+  url: https://pubmed.ncbi.nlm.nih.gov/26983766/
+  type: educational
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretny przegląd wykorzystany do obrazu prawidłowego jąder i najądrzy oraz cech sonograficznych skrętu, zapalenia najądrza i wodniaka.
+- id: esur-varicocele-guideline-2020
+  title: "Ultrasound evaluation of varicoceles: guidelines and recommendations of the ESUR-SPIWG"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7588576/
+  type: guideline
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretne zalecenia ESUR wykorzystane do techniki oceny splotu wiciowatego, pomiarów żył i dokumentowania refluksu podczas próby Valsalvy.
+- id: eau-testicular-cancer-diagnostic-2025
+  title: "EAU Guidelines on Testicular Cancer: Diagnostic Evaluation"
+  url: https://uroweb.org/guidelines/testicular-cancer/chapter/diagnostic-evaluation
+  type: guideline
+  accessedAt: "2026-07-10"
+  licenseNote: Aktualna wytyczna EAU wykorzystana do oceny lokalizacji i wymiarów zmiany jądra, badania przeciwległego jądra oraz pilnej dalszej kwalifikacji urologicznej.
+- id: aua-urotrauma-guideline-2020
+  title: "Urotrauma Guideline 2020: AUA Guideline"
+  url: https://www.auanet.org/Documents/education/clinical-guidance/Urotrauma.pdf
+  type: guideline
+  accessedAt: "2026-07-10"
+  licenseNote: Wytyczna AUA wykorzystana do roli USG w tępym urazie moszny oraz do pilnej eksploracji przy podejrzeniu pęknięcia jądra lub dużym krwiaku.
+- id: esur-testicular-microlithiasis-2015
+  title: "Testicular microlithiasis imaging and follow-up: guidelines of the ESUR scrotal imaging subcommittee"
+  url: https://pubmed.ncbi.nlm.nih.gov/25316054/
+  type: guideline
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretne zalecenia ESUR wykorzystane do opisu mikrolitiazy jądra oraz różnicowania wskazań do kontroli zależnie od czynników ryzyka i obecności zmiany ogniskowej.
+- id: acr-birads-breast-ultrasound-2025
+  title: "ACR BI-RADS Breast Ultrasound Reporting"
+  url: https://www.acr.org/-/media/ACR/Files/RADS/BI-RADS/US-Reporting.pdf
+  type: guideline
+  accessedAt: "2026-07-10"
+  licenseNote: Oficjalny materiał ACR wykorzystany do słownika opisu zmian w USG piersi, kategorii BI-RADS i rozróżnienia torbieli prostych oraz powikłanych.
+- id: acr-breast-simple-cyst-criteria-2025
+  title: "ACR Breast Ultrasound Recognition Requirements"
+  url: https://accreditationsupport.acr.org/support/solutions/articles/11000132699-breast-ultrasound-recognition-requirements
+  type: guideline
+  accessedAt: "2026-07-10"
+  licenseNote: Oficjalne kryteria ACR wykorzystane do cech torbieli prostej w USG piersi.
+- id: acr-breast-infection-abscess-2025
+  title: "ACR Appropriateness Criteria: Breast Infection or Abscess"
+  url: https://acsearch.acr.org/docs/3199448/Narrative/
+  type: guideline
+  accessedAt: "2026-07-10"
+  licenseNote: Aktualne kryteria ACR wykorzystane do doboru obrazowania w podejrzeniu zakażenia lub ropnia piersi.
+- id: breast-imaging-pregnancy-lactation-2023
+  title: "Breast Imaging and Intervention during Pregnancy and Lactation"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10560982/
+  type: educational
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretny otwarty przegląd wykorzystany do cech USG zapalenia sutka, ropnia i galactocele oraz do ostrożnych uwag dotyczących laktacji.
+- id: fat-necrosis-breast-pictorial-review-2015
+  title: "Fat Necrosis of the Breast: A Pictorial Review of the Mammographic, Ultrasound, CT, and MRI Findings with Histopathologic Correlation"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4378709/
+  type: educational
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretny otwarty przegląd wykorzystany do zmiennego obrazu USG martwicy tłuszczowej piersi i do uwzględnienia korelacji z wywiadem.
+- id: intramammary-lymph-nodes-imaging-2019
+  title: "Intramammary lymph nodes: normal and abnormal multimodality imaging features"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6849673/
+  type: educational
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretny otwarty przegląd wykorzystany do typowych cech węzła wewnątrzsutkowego i cech wymagających dalszej oceny.
+- id: papillary-breast-disease-imaging-2021
+  title: "Spectrum of imaging findings of papillary breast disease: A radiopathological review in a tertiary center"
+  url: https://pubmed.ncbi.nlm.nih.gov/33879660/
+  type: educational
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretna publikacja wykorzystana do opisu zmiany brodawkowatej w USG, w tym oceny przewodu, unaczynienia i konieczności korelacji histopatologicznej.
+- id: salivary-gland-us-anatomy-2006
+  title: "US of the Major Salivary Glands: Anatomy and Spatial Relationships, Pathologic Conditions, and Pitfalls"
+  url: https://pubmed.ncbi.nlm.nih.gov/16702452/
+  type: educational
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretny przegląd wykorzystany do zakresu oceny prawidłowych ślinianek przyusznych i podżuchwowych w USG.
+- id: salivary-gland-us-inflammatory-obstructive-2021
+  title: "Ultrasound in Inflammatory and Obstructive Salivary Gland Diseases: Own Experiences and a Review of the Literature"
+  url: https://www.mdpi.com/2077-0383/10/16/3547
+  type: educational
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretny otwarty przegląd wykorzystany do obrazu USG kamicy i ostrego oraz przewlekłego zapalenia ślinianek; figury użyte w imageRefs są udostępnione w artykule na licencji CC BY 4.0.
+- id: sjogren-salivary-us-core-items-2017
+  title: "Salivary gland ultrasound abnormalities in primary Sjögren's syndrome: consensual US-SG core items definition and reliability"
+  url: https://rmdopen.bmj.com/content/3/1/e000364
+  type: educational
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretna publikacja wykorzystana do ustrukturyzowanej oceny niejednorodności miąższu i hipoechogenicznych obszarów w USG ślinianek w zespole Sjogrena.
+- id: warthin-pleomorphic-us-differentiation-2018
+  title: "Usefulness of a Novel Ultrasonographic Classification Based on Anechoic Area Patterns for Differentiating Warthin Tumors from Pleomorphic Adenomas of the Parotid Gland"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5803158/
+  type: educational
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretne badanie wykorzystane do ostrożnego opisu różnic w echostrukturze, obszarach bezechowych i unaczynieniu między guzem Warthina a gruczolakiem wielopostaciowym.
+- id: salivary-gland-cancer-management-2023
+  title: "Current management and future challenges in salivary glands cancer"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10546333/
+  type: educational
+  accessedAt: "2026-07-10"
+  licenseNote: Konkretny przegląd wykorzystany do cech USG podejrzanych o złośliwość, ograniczeń różnicowania i dalszej charakterystyki zmian ślinianek.

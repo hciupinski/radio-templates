@@ -1,0 +1,26 @@
+id: usg-piersi-martwica-tluszczowa
+title: Martwica tłuszczowa piersi
+modality: USG
+examTypes: [USG piersi]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Piersi]
+organs: [Piersi]
+pathology: [Martwica tłuszczowa piersi]
+tags: [Rezydent, Doppler, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [fat-necrosis-breast-pictorial-review-2015, acr-birads-breast-ultrasound-2025]
+sections:
+  assessmentChecklist:
+    - Korelacja z urazem, zabiegiem, operacją, radioterapią lub iniekcją w badanej okolicy.
+    - Lokalizacja, trzy wymiary, granice, echogeniczność i orientacja zmiany.
+    - Torbiel olejowa, zwapnienia, cień akustyczny, zaburzenie architektury i komponent lity.
+    - Unaczynienie w Dopplerze oraz porównanie z badaniami wcześniejszymi.
+    - Kategoria BI-RADS i potrzeba dalszej charakterystyki zależnie od morfologii.
+  reportTemplate: |
+    W piersi {{strona}}, w okolicy {{lokalizacja}}, widoczna zmiana {{opis_morfologii}} o wymiarach {{wymiary_mm}} mm, z {{opis_cech_towarzyszacych}}. W Dopplerze {{opis_unaczynienia}}. W korelacji z wywiadem {{opis_wywiadu}} obraz może odpowiadać martwicy tłuszczowej. BI-RADS {{kategoria}}.
+  impressionTemplate: |
+    Zmiana w piersi {{strona}} o obrazie {{zgodnym_lub_podejrzanym_o_martwice_tluszczowa}}. BI-RADS {{kategoria}}.
+  followUp:
+    - Przy niejednoznacznej lub podejrzanej morfologii dalsze postępowanie należy dobrać do kategorii BI-RADS i pełnej korelacji kliniczno-obrazowej.

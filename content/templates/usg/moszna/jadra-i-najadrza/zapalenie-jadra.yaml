@@ -1,0 +1,23 @@
+id: usg-moszna-zapalenie-jadra
+title: Zapalenie jądra
+modality: USG
+examTypes: [USG moszny]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Moszna]
+organs: [Jądra i najądrza]
+pathology: [Zapalenie jądra]
+tags: [Rezydent, Doppler]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [acr-acute-scrotal-pain-2024, scrotal-ultrasound-adults-2016]
+sections:
+  assessmentChecklist:
+    - Wielkość i echostruktura jądra.
+    - Wzmożona perfuzja w Dopplerze oraz porównanie z drugą stroną.
+    - Zajęcie najądrza, wodniak i ewentualny ropień.
+    - Zachowanie przepływu wykluczające skręt w aktualnym badaniu.
+  reportTemplate: |
+    Jądro {{strona}} powiększone, o {{obnizonej_lub_niejednorodnej}} echogeniczności, z wyraźnie wzmożonym unaczynieniem w Dopplerze. {{Brak_lub_obecnosc}} współistniejącego zapalenia najądrza, wodniaka lub zbiornika ropnego. Przepływ w jądrze zachowany.
+  impressionTemplate: |
+    Obraz USG przemawia za zapaleniem jądra {{strona}}.

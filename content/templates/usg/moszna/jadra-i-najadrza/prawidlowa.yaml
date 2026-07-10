@@ -1,0 +1,24 @@
+id: usg-moszna-prawidlowa
+title: Jądra i najądrza prawidłowe
+modality: USG
+examTypes: [USG moszny]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Moszna]
+organs: [Jądra i najądrza]
+pathology: [Obraz prawidłowy]
+tags: [Rezydent, Doppler]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [aium-scrotal-practice-parameter-2025, scrotal-ultrasound-adults-2016]
+sections:
+  assessmentChecklist:
+    - Położenie, wymiary i echostruktura obu jąder.
+    - Obecność zmian ogniskowych i mikrozwapnień.
+    - Głowa, trzon i ogon najądrza.
+    - Porównawcza perfuzja jąder i najądrzy w Dopplerze.
+    - Płyn w osłonkach, żylaki powrózka i przepuklina w dostępnym zakresie.
+  reportTemplate: |
+    Jądro prawe o wymiarach {{prawe_wymiary_mm}} mm, jądro lewe {{lewe_wymiary_mm}} mm, o jednorodnej echostrukturze, bez zmian ogniskowych. Najądrza niepowiększone, bez zmian ogniskowych. Przepływ naczyniowy w obu jądrach i najądrzach symetryczny. Bez płynu w osłonkach i bez żylaków powrózka nasiennego w dostępnym zakresie.
+  impressionTemplate: |
+    Obraz USG jąder i najądrzy w granicach normy.

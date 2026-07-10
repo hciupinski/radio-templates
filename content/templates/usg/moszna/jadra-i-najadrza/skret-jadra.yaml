@@ -1,0 +1,25 @@
+id: usg-moszna-skret-jadra
+title: Skręt jądra
+modality: USG
+examTypes: [USG moszny]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Moszna]
+organs: [Jądra i najądrza]
+pathology: [Skręt jądra]
+tags: [Rezydent, Doppler, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [acr-acute-scrotal-pain-2024, scrotal-ultrasound-adults-2016]
+sections:
+  assessmentChecklist:
+    - Porównawcza wielkość i echostruktura obu jąder.
+    - Przepływ tętniczy i żylny w Dopplerze porównawczo.
+    - Obraz skręconego powrózka, jeśli widoczny.
+    - Położenie jądra, obrzęk najądrza i reaktywny wodniak.
+  reportTemplate: |
+    Jądro {{strona}} {{niepowiekszone_lub_powiekszone}}, o {{jednorodnej_lub_niejednorodnej}} echostrukturze. W porównaniu z jądrem przeciwległym {{brak_lub_istotne_oslabienie_lub_brak}} przepływu w Dopplerze. {{Brak_lub_obecnosc}} cech skrętu powrózka nasiennego. {{Brak_lub_obecnosc}} reaktywnego płynu w osłonkach.
+  impressionTemplate: |
+    Obraz USG budzi podejrzenie skrętu jądra. Wymaga natychmiastowej konsultacji urologicznej.
+  clinicalNotes:
+    - Przy silnym podejrzeniu klinicznym skrętu USG nie może opóźniać leczenia operacyjnego.

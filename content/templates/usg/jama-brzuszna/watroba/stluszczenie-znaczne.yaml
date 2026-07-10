@@ -1,0 +1,25 @@
+id: usg-watroba-stluszczenie-znaczne
+title: Znaczne stłuszczenie wątroby
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Wątroba]
+pathology: [Stłuszczenie znaczne]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [aasld-nafld-practice-guidance-2023, easl-masld-guideline-2024]
+sections:
+  assessmentChecklist:
+    - Znaczne wzmożenie echogeniczności miąższu.
+    - Wyraźne osłabienie penetracji w głębokich partiach wątroby.
+    - Słaba widoczność przepony i naczyń wewnątrzwątrobowych.
+    - Ograniczenia wykrywania zmian ogniskowych.
+  reportTemplate: |
+    Wątroba {{niepowiekszona_lub_powiekszona}}, o znacznie wzmożonej echogeniczności miąższu, z wyraźnym osłabieniem penetracji ultradźwięków w głębokich partiach. Widoczność przepony i naczyń wewnątrzwątrobowych ograniczona. Obraz odpowiada znacznemu stłuszczeniu wątroby.
+  impressionTemplate: |
+    Półilościowe cechy znacznego stłuszczenia wątroby w USG z ograniczoną oceną zmian ogniskowych.
+  clinicalNotes:
+    - Przy ograniczonej widoczności zmian ogniskowych zaznacz to wyraźnie we wnioskach.

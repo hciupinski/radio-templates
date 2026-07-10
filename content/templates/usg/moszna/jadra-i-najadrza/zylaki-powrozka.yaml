@@ -1,0 +1,25 @@
+id: usg-moszna-zylaki-powrozka
+title: Żylaki powrózka nasiennego
+modality: USG
+examTypes: [USG moszny]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Moszna]
+organs: [Jądra i najądrza]
+pathology: [Żylaki powrózka nasiennego]
+tags: [Rezydent, Doppler]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [esur-varicocele-guideline-2020, aium-scrotal-practice-parameter-2025]
+sections:
+  assessmentChecklist:
+    - Strona oraz średnica największej żyły splotu wiciowatego.
+    - Ocena w spoczynku i podczas próby Valsalvy w pozycji stojącej, jeśli możliwe.
+    - Obecność i czas trwania refluksu żylnego w Dopplerze spektralnym.
+    - Porównawcza objętość jąder i echostruktura miąższu.
+  reportTemplate: |
+    Po stronie {{strona}} widoczne poszerzone żyły splotu wiciowatego do {{srednica_mm}} mm. W Dopplerze podczas {{spoczynek_lub_valsava}} obecny {{brak_lub_obecnosc}} refluks żylny o czasie {{czas_refluksu_s}} s. Jądra o {{symetrycznej_lub_opis}} objętości, bez zmian ogniskowych.
+  impressionTemplate: |
+    Cechy żylaków powrózka nasiennego {{strona}} z {{brakiem_lub_obecnoscia}} refluksu w Dopplerze.
+  clinicalNotes:
+    - Opisz warunki badania, zwłaszcza pozycję pacjenta i wykonanie próby Valsalvy.

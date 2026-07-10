@@ -1,0 +1,48 @@
+id: usg-tkanki-miekkie-torbiel-naskorkowa
+title: Torbiel naskórkowa tkanki podskórnej
+modality: USG
+examTypes: [USG tkanek miękkich]
+bodySystems: [Układ mięśniowo-szkieletowy]
+bodyParts: [Tkanki miękkie]
+organs: [Tkanka podskórna]
+pathology: [Torbiel naskórkowa]
+tags: [Rezydent, Doppler]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [epidermal-cyst-us-model-2019, epidermal-inclusion-cyst-us-mri-2011]
+imageRefs:
+  - id: epidermal-cyst-submarine-sign-01
+    title: Torbiel naskórkowa z objawem submarine sign
+    imageUrl: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9c08/6757000/380a154bba86/kjr-20-1409-g003.jpg
+    sourceUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC6757000/
+    sourceId: epidermal-cyst-us-model-2019
+    caption: Przykład torbieli naskórkowej z ogniskowym połączeniem hipoechogenicznej zmiany ze skórą, określanym jako submarine sign.
+    alt: Ultrasonogram torbieli naskórkowej z ogniskowym połączeniem zmiany ze skórą.
+    category: typical
+    findings:
+      - Zmiana jest powierzchowna i związana z warstwą skóry.
+      - Widoczny jest ogniskowy hipoechogeniczny pas łączący zmianę z naskórkiem.
+      - Zmiana ma owalny, dobrze odgraniczony zarys.
+    licenseMode: link-only
+    lastCheckedAt: "2026-07-10"
+sections:
+  assessmentChecklist:
+    - Lokalizacja w skórze lub na granicy skóry i tkanki podskórnej.
+    - Trzy wymiary, kształt, zarys i echogeniczność zmiany.
+    - "Cechy zawartości keratynowej: echa wewnętrzne, linijne refleksy lub struktura pseudojądra."
+    - Wzmocnienie za tylną ścianą i hipoechogeniczna obwódka.
+    - Łączność ze skórą, w tym objaw submarine sign, jeśli jest obecny.
+    - Przepływ wewnętrzny i obwodowy oraz cechy pęknięcia lub zapalenia.
+  reportTemplate: |
+    W skórze lub na granicy skóry i tkanki podskórnej okolicy {{lokalizacja}} widoczna dobrze odgraniczona, owalna zmiana o wymiarach {{wymiary_mm}} mm, o {{jednorodnej_lub_niejednorodnej}} echostrukturze z {{echami_wewnetrznymi_lub_linijnymi_refleksami}}, z {{obecnym_lub_brakiem}} wzmocnienia za tylną ścianą. Widoczne {{polaczenie_lub_brak_jednoznacznego_polaczenia}} ze skórą. Bez przepływu wewnętrznego w badaniu Doppler; {{brak_lub_obecnosc}} cech zapalenia tkanek otaczających.
+  impressionTemplate: |
+    Obraz USG najbardziej odpowiada torbieli naskórkowej.
+  clinicalNotes:
+    - Obraz może być mniej typowy przy pęknięciu lub zapaleniu; wtedy granice i unaczynienie obwodowe mogą się zmieniać.
+  differential:
+    - Kaszak lub torbiel włosowa.
+    - Ropień przy współistniejących cechach zapalnych.
+    - Inna powierzchowna zmiana skórna lub podskórna.
+  followUp:
+    - Przy atypowej morfologii lub cechach zapalenia dalsze postępowanie ustalić w korelacji klinicznej.

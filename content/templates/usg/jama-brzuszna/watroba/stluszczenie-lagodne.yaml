@@ -1,0 +1,25 @@
+id: usg-watroba-stluszczenie-lagodne
+title: Łagodne stłuszczenie wątroby
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Wątroba]
+pathology: [Stłuszczenie łagodne]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [aasld-nafld-practice-guidance-2023, easl-masld-guideline-2024]
+sections:
+  assessmentChecklist:
+    - Niewielkie wzmożenie echogeniczności miąższu.
+    - Zachowana widoczność przepony i naczyń wewnątrzwątrobowych.
+    - Penetracja ultradźwięków w głębszych partiach miąższu.
+    - Ograniczenia oceny zmian ogniskowych.
+  reportTemplate: |
+    Wątroba {{niepowiekszona_lub_powiekszona}}, o nieznacznie wzmożonej echogeniczności miąższu. Widoczność przepony i naczyń wewnątrzwątrobowych zachowana, bez istotnego osłabienia penetracji. Obraz odpowiada łagodnemu stłuszczeniu wątroby.
+  impressionTemplate: |
+    Półilościowe cechy łagodnego stłuszczenia wątroby w USG.
+  clinicalNotes:
+    - Ocena w USG nie stanowi histologicznego stopniowania stłuszczenia.

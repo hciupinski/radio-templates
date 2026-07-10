@@ -8,9 +8,9 @@ organs: [Tarczyca]
 pathology: [Guzek]
 tags: [Rezydent, TI-RADS, Kontrola]
 status: draft
-version: "0.1.0"
-updatedAt: "2026-07-08"
-sourceRefs: [acr-thyroid-us-lexicon-2015, acr-tirads-white-paper-2017]
+version: "0.1.1"
+updatedAt: "2026-07-10"
+sourceRefs: [acr-thyroid-us-lexicon-2015, acr-tirads-white-paper-2017, acr-tirads-reporting-template-2024]
 imageRefs:
   - id: thyroid-colloid-nodule-usg-01
     title: USG guzka koloidowego tarczycy z artefaktem comet-tail
@@ -45,8 +45,14 @@ sections:
   clinicalNotes:
     - Nie klasyfikuj pseudoguzków zapalnych jako zmian ogniskowych, jeśli obraz temu nie odpowiada.
     - Punktację ACR TI-RADS wyliczaj osobno dla składu, echogeniczności, kształtu, granic i ognisk echogenicznych.
+    - "TI-RADS krok 1: skład - torbielowaty lub gąbczasty 0 pkt, mieszany 1 pkt, lity lub prawie lity 2 pkt."
+    - "TI-RADS krok 2: echogeniczność - bezechowa 0 pkt, hiper- lub izoechogeniczna 1 pkt, hipoechogeniczna 2 pkt, bardzo hipoechogeniczna 3 pkt."
+    - "TI-RADS krok 3: kształt - szerszy niż wyższy 0 pkt, wyższy niż szerszy 3 pkt."
+    - "TI-RADS krok 4: granice - gładkie lub zatarte 0 pkt, płatowate lub nieregularne 2 pkt, naciekanie pozatarczycowe 3 pkt."
+    - "TI-RADS krok 5: ogniska echogeniczne - brak lub duże comet-tail 0 pkt, makrozwapnienia 1 pkt, zwapnienia obwodowe 2 pkt, punktowe ogniska echogeniczne 3 pkt."
     - "Kategorie ACR TI-RADS odpowiadają sumie punktów: TR1 = 0, TR2 = 2, TR3 = 3, TR4 = 4-6, TR5 = 7 lub więcej."
   followUp:
-    - "TR3: kontrola od 1,5 cm, BAC od 2,5 cm."
-    - "TR4: kontrola od 1,0 cm, BAC od 1,5 cm."
-    - "TR5: kontrola od 0,5 cm, BAC od 1,0 cm."
+    - "TR1 i TR2: bez BAC i bez rutynowej kontroli zależnej od kategorii."
+    - "TR3: kontrola od 1,5 cm w 1., 3. i 5. roku; BAC od 2,5 cm."
+    - "TR4: kontrola od 1,0 cm w 1., 2., 3. i 5. roku; BAC od 1,5 cm."
+    - "TR5: kontrola od 0,5 cm co rok przez 5 lat; BAC od 1,0 cm."

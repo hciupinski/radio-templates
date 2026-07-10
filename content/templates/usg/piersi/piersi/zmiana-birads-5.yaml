@@ -1,0 +1,26 @@
+id: usg-piersi-zmiana-birads-5
+title: Zmiana wysoce podejrzana o złośliwość BI-RADS 5
+modality: USG
+examTypes: [USG piersi]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Piersi]
+organs: [Piersi]
+pathology: [Zmiana BI-RADS 5]
+tags: [Rezydent, Doppler, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [acr-birads-breast-ultrasound-2025]
+sections:
+  assessmentChecklist:
+    - Lokalizacja, trzy wymiary, kształt, orientacja i granice zmiany.
+    - Cechy tylne, skóra, brodawka oraz ściana klatki piersiowej w dostępnym zakresie.
+    - Unaczynienie, zmiany satelitarne i wieloogniskowość w Dopplerze.
+    - Węzły pachowe po stronie zmiany.
+    - Możliwość pilnej biopsji celowanej pod kontrolą USG.
+  reportTemplate: |
+    W piersi {{strona}}, w okolicy {{lokalizacja}}, widoczna nieregularna zmiana lita o wymiarach {{wymiary_mm}} mm, o nierównych lub kątowych granicach, {{orientacja}} orientacji i {{cechy_tylne}}. W Dopplerze {{opis_unaczynienia}}. {{opis_skory_brodawki_sciany_klatki_i_wezlow_pachowych}}. BI-RADS 5.
+  impressionTemplate: |
+    Zmiana wysoce podejrzana o złośliwość w piersi {{strona}}. BI-RADS 5.
+  followUp:
+    - Pilna weryfikacja histopatologiczna odpowiednią metodą pod kontrolą obrazu oraz dalsze postępowanie wielodyscyplinarne zależnie od wyniku.
