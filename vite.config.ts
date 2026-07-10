@@ -14,14 +14,14 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["favicon.svg", "apple-touch-icon.png"],
       manifest: {
-        name: "Atlas opisów radiologicznych",
-        short_name: "Atlas opisów",
+        name: "Biblioteka szablonów radiologicznych",
+        short_name: "Szablony RTG",
         description: "Biblioteka szablonów opisów radiologicznych z wyszukiwarką i trybem offline.",
         lang: "pl",
         start_url: basePath,
         scope: basePath,
         display: "standalone",
-        background_color: "#f5f7fa",
+        background_color: "#f7f9fb",
         theme_color: "#0f8b8d",
         icons: [
           {
