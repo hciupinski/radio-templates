@@ -1,0 +1,22 @@
+id: usg-moszna-torbiel-najadrza-spermatocele
+title: Torbiel najądrza lub spermatocele
+modality: USG
+examTypes: [USG moszny]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Moszna]
+organs: [Jądra i najądrza]
+pathology: [Torbiel najądrza lub spermatocele]
+tags: [Rezydent]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [scrotal-ultrasound-adults-2016]
+sections:
+  assessmentChecklist:
+    - Lokalizacja w głowie, trzonie lub ogonie najądrza.
+    - Wymiary, zawartość, przegródki i przepływ w Dopplerze.
+    - Ocena obu jąder pod kątem współistniejącej zmiany ogniskowej.
+  reportTemplate: |
+    W obrębie {{czesc_najadrza}} najądrza {{strona}} widoczna dobrze odgraniczona zmiana torbielowata o wymiarach {{wymiary_mm}} mm, {{bezechowa_lub_z_echami_wewnetrznymi}}, bez przepływu wewnętrznego. Jądro po tej stronie bez zmian ogniskowych.
+  impressionTemplate: |
+    Obraz odpowiada torbieli najądrza lub spermatocele {{strona}}.

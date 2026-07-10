@@ -1,0 +1,25 @@
+id: usg-watroba-stluszczenie-umiarkowane
+title: Umiarkowane stłuszczenie wątroby
+modality: USG
+examTypes: [USG jamy brzusznej]
+bodySystems: [Układ hepatobiliarny]
+bodyParts: [Jama brzuszna]
+organs: [Wątroba]
+pathology: [Stłuszczenie umiarkowane]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [aasld-nafld-practice-guidance-2023, easl-masld-guideline-2024]
+sections:
+  assessmentChecklist:
+    - Umiarkowane wzmożenie echogeniczności miąższu.
+    - Częściowe osłabienie widoczności naczyń i przepony.
+    - Umiarkowane osłabienie penetracji w głębi.
+    - Ograniczenia oceny zmian ogniskowych.
+  reportTemplate: |
+    Wątroba {{niepowiekszona_lub_powiekszona}}, o umiarkowanie wzmożonej echogeniczności miąższu, z umiarkowanym osłabieniem penetracji ultradźwięków. Widoczność przepony i naczyń wewnątrzwątrobowych częściowo ograniczona. Obraz odpowiada umiarkowanemu stłuszczeniu wątroby.
+  impressionTemplate: |
+    Półilościowe cechy umiarkowanego stłuszczenia wątroby w USG.
+  clinicalNotes:
+    - Ograniczona echogeniczność nie służy do samodzielnej oceny włóknienia.

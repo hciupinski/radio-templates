@@ -1,0 +1,26 @@
+id: usg-piersi-ropien
+title: Ropień piersi
+modality: USG
+examTypes: [USG piersi]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Piersi]
+organs: [Piersi]
+pathology: [Ropień piersi]
+tags: [Rezydent, Doppler, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [acr-breast-infection-abscess-2025, breast-imaging-pregnancy-lactation-2023]
+sections:
+  assessmentChecklist:
+    - Lokalizacja, trzy wymiary i głębokość kolekcji.
+    - Zawartość, przegrody, ściana oraz ewentualne połączenie ze skórą.
+    - Unaczynienie ściany i otaczającego miąższu w Dopplerze.
+    - Obszar zapalny poza kolekcją i węzły chłonne pachowe.
+    - Dostępność bezpiecznej drogi do ewentualnej aspiracji lub drenażu.
+  reportTemplate: |
+    W piersi {{strona}}, w okolicy {{lokalizacja}}, widoczna nieregularna kolekcja płynowa o wymiarach {{wymiary_mm}} mm, z {{echami_wewnetrznymi_lub_przegrodami}}. Ściana kolekcji {{cienka_lub_pogrubiala}}, z {{brak_lub_wzmozonym}} unaczynieniem obwodowym w Dopplerze. W otaczającym miąższu cechy odczynu zapalnego. {{opis_skory_i_wezlow_pachowych}}.
+  impressionTemplate: |
+    Obraz USG przemawia za ropniem piersi {{strona}} w okolicy {{lokalizacja}}.
+  followUp:
+    - Pilna korelacja kliniczna; dalsze postępowanie, w tym ewentualne opróżnienie kolekcji, zgodnie ze stanem chorej i zespołem leczącym.

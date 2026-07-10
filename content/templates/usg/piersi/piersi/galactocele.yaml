@@ -1,0 +1,26 @@
+id: usg-piersi-galactocele
+title: Galactocele
+modality: USG
+examTypes: [USG piersi]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Piersi]
+organs: [Piersi]
+pathology: [Galactocele]
+tags: [Rezydent, Doppler, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [breast-imaging-pregnancy-lactation-2023, acr-birads-breast-ultrasound-2025]
+sections:
+  assessmentChecklist:
+    - Korelacja z ciążą, laktacją lub okresem po jej zakończeniu.
+    - Lokalizacja, trzy wymiary, zawartość oraz poziom płyn-płyn, jeśli obecny.
+    - Ściana, komponent lity i unaczynienie wewnętrzne w Dopplerze.
+    - Cechy współistniejącego zapalenia lub ropnia.
+    - Kategoria BI-RADS zależna od pełnej morfologii zmiany.
+  reportTemplate: |
+    W piersi {{strona}}, w okolicy {{lokalizacja}}, widoczna dobrze odgraniczona zmiana torbielowata o wymiarach {{wymiary_mm}} mm, o {{opis_zawartosci}}. W Dopplerze nie stwierdza się unaczynienia wewnętrznego. Bez jednoznacznego komponentu litego i bez cech ropnia. W korelacji z wywiadem laktacyjnym obraz odpowiada galactocele. BI-RADS {{kategoria}}.
+  impressionTemplate: |
+    Obraz przemawia za galactocele piersi {{strona}}. BI-RADS {{kategoria}}.
+  clinicalNotes:
+    - Nietypowy obraz, objawy zapalne lub utrzymywanie się zmiany wymagają dalszej diagnostyki zależnej od pełnego obrazu klinicznego.

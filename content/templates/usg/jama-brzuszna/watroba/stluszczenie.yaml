@@ -8,9 +8,9 @@ organs: [Wątroba]
 pathology: [Stłuszczenie]
 tags: [Rezydent, Kontrola]
 status: draft
-version: "0.1.0"
-updatedAt: "2026-07-08"
-sourceRefs: [nafld-aasld-2018, nafld-easl-2016]
+version: "0.1.1"
+updatedAt: "2026-07-10"
+sourceRefs: [aasld-nafld-practice-guidance-2023, easl-masld-guideline-2024]
 imageRefs:
   - id: liver-steatosis-typical-01
     title: Rozlane stłuszczenie wątroby
@@ -37,6 +37,7 @@ sections:
   impressionTemplate: |
     Cechy stłuszczenia wątroby {{stopien}}. Do korelacji z wynikami laboratoryjnymi i czynnikami metabolicznymi.
   clinicalNotes:
+    - Stopień łagodny, umiarkowany lub znaczny jest półilościową oceną cech sonograficznych i nie odpowiada histologicznemu stopniowaniu stłuszczenia.
     - Przy znacznym stłuszczeniu zaznacz ograniczoną ocenę zmian ogniskowych.
   followUp:
     - Rozważyć kontrolę zgodnie z obrazem klinicznym i lokalnymi zaleceniami.

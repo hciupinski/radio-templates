@@ -373,6 +373,14 @@ export default function App() {
       return;
     }
 
+    const hasExpandedSystemWithoutOrgan =
+      Boolean(activePath.modality && activePath.examType && activePath.bodySystem && !activePath.organ) &&
+      Boolean(findPathInTree(anatomyTree, activePath));
+
+    if (hasExpandedSystemWithoutOrgan) {
+      return;
+    }
+
     if (
       nextPath.modality !== activePath.modality ||
       nextPath.examType !== activePath.examType ||
@@ -798,7 +806,7 @@ export default function App() {
               setViewMode("anatomy");
               setActivePath(path);
               setSidebarCollapsed(false);
-              setMobilePane("groups");
+              setMobilePane(path.organ ? "groups" : "catalog");
               requestAnimationFrame(scrollMobileToTop);
             }}
             onSelectConditionGroup={(groupId) => {

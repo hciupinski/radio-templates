@@ -1,0 +1,26 @@
+id: usg-slinianki-podejrzenie-zlosliwosci
+title: Zmiana ślinianki podejrzana o złośliwość
+modality: USG
+examTypes: [USG ślinianek]
+bodySystems: [Przewód pokarmowy]
+bodyParts: [Ślinianki]
+organs: [Ślinianki przyuszne i podżuchwowe]
+pathology: [Zmiana ślinianki podejrzana o złośliwość]
+tags: [Rezydent, Doppler, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [salivary-gland-cancer-management-2023]
+sections:
+  assessmentChecklist:
+    - Zajęta ślinianka, dokładna lokalizacja, trzy wymiary i granice zmiany.
+    - Niejednorodność, komponenty torbielowate lub martwicze, zwapnienia i cechy tylne.
+    - Naciek tkanek sąsiednich, stosunek do skóry, mięśni i naczyń w dostępnym zakresie.
+    - Unaczynienie w Dopplerze oraz węzły szyjne i okołogruczołowe.
+    - Możliwość biopsji pod kontrolą USG i wskazanie do rozszerzenia obrazowania.
+  reportTemplate: |
+    W śliniance {{przyusznej_lub_podzuchwowej}} {{strona}} widoczna nieregularna zmiana ogniskowa o wymiarach {{wymiary_mm}} mm, o niejednorodnej echostrukturze i {{ostrych_lub_zatartych}} granicach. {{Opis_naciekania_tkanek_sasiednich_lub_jego_braku}}. W Dopplerze {{opis_unaczynienia}}. {{Opis_wezlow_szyjnych_i_okologruczolowych}}.
+  impressionTemplate: |
+    Zmiana ślinianki {{przyusznej_lub_podzuchwowej}} {{strona}} podejrzana o złośliwość.
+  followUp:
+    - Pilna konsultacja specjalistyczna, weryfikacja tkankowa pod kontrolą obrazu oraz rozważenie rozszerzenia diagnostyki o badanie przekrojowe zależnie od zasięgu zmiany.

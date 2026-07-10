@@ -13,6 +13,9 @@ Dla każdej pozycji rekomendowany pipeline jest stały:
 
 - `USG jamy brzusznej / Wątroba / Obraz prawidłowy`
 - `USG jamy brzusznej / Wątroba / Stłuszczenie`
+- `USG jamy brzusznej / Wątroba / Stłuszczenie łagodne`
+- `USG jamy brzusznej / Wątroba / Stłuszczenie umiarkowane`
+- `USG jamy brzusznej / Wątroba / Stłuszczenie znaczne`
 - `USG jamy brzusznej / Wątroba / Marskość`
 - `USG jamy brzusznej / Wątroba / Nadciśnienie wrotne`
 - `USG jamy brzusznej / Wątroba / Torbiel prosta`
@@ -73,6 +76,47 @@ Dla każdej pozycji rekomendowany pipeline jest stały:
 - `USG szyi / Węzły chłonne / Gruźlicze`
 - `USG tkanek miękkich / Tkanka podskórna / Tłuszczak`
 - `USG tkanek miękkich / Tkanka podskórna / Ropień`
+- `USG tkanek miękkich / Tkanka podskórna / Torbiel`
+- `USG tkanek miękkich / Tkanka podskórna / Kaszak`
+- `USG tkanek miękkich / Tkanka podskórna / Torbiel naskórkowa`
+- `USG tkanek miękkich / Tkanka podskórna / Krwiak`
+- `USG tkanek miękkich / Tkanka podskórna / Ciało obce`
+- `USG tkanek miękkich / Tkanka podskórna / Ganglion`
+- `USG tkanek miękkich / Tkanka podskórna / Zmiana podejrzana o mięsaka`
+- `USG moszny / Jądra i najądrza / Obraz prawidłowy`
+- `USG moszny / Jądra i najądrza / Skręt jądra`
+- `USG moszny / Jądra i najądrza / Ostre zapalenie najądrza`
+- `USG moszny / Jądra i najądrza / Wodniak jądra`
+- `USG moszny / Jądra i najądrza / Żylaki powrózka nasiennego`
+- `USG moszny / Jądra i najądrza / Guz jądra`
+- `USG moszny / Jądra i najądrza / Uraz jądra`
+- `USG moszny / Jądra i najądrza / Skręt przydatka jądra`
+- `USG moszny / Jądra i najądrza / Zapalenie jądra`
+- `USG moszny / Jądra i najądrza / Torbiel najądrza lub spermatocele`
+- `USG moszny / Jądra i najądrza / Mikrolitiaza jądra`
+- `USG moszny / Moszna i kanał pachwinowy / Przepuklina pachwinowo-mosznowa`
+- `USG piersi / Piersi / Obraz prawidłowy`
+- `USG piersi / Piersi / Torbiel prosta`
+- `USG piersi / Piersi / Torbiel powikłana`
+- `USG piersi / Piersi / Fibroadenoma`
+- `USG piersi / Piersi / Zapalenie sutka`
+- `USG piersi / Piersi / Ropień piersi`
+- `USG piersi / Piersi / Galactocele`
+- `USG piersi / Piersi / Martwica tłuszczowa`
+- `USG piersi / Piersi / Węzeł chłonny wewnątrzsutkowy`
+- `USG piersi / Piersi / Brodawczak wewnątrzprzewodowy`
+- `USG piersi / Piersi / Zmiana BI-RADS 3`
+- `USG piersi / Piersi / Zmiana BI-RADS 4`
+- `USG piersi / Piersi / Zmiana BI-RADS 5`
+- `USG ślinianek / Ślinianki przyuszne i podżuchwowe / Obraz prawidłowy`
+- `USG ślinianek / Ślinianki przyuszne i podżuchwowe / Kamica ślinianek`
+- `USG ślinianek / Ślinianki przyuszne i podżuchwowe / Ostre zapalenie ślinianki`
+- `USG ślinianek / Ślinianki przyuszne i podżuchwowe / Przewlekłe zapalenie ślinianki`
+- `USG ślinianek / Ślinianki przyuszne i podżuchwowe / Zespół Sjogrena`
+- `USG ślinianek / Ślinianki przyuszne i podżuchwowe / Gruczolak wielopostaciowy`
+- `USG ślinianek / Ślinianki przyuszne i podżuchwowe / Guz Warthina`
+- `USG ślinianek / Ślinianki przyuszne i podżuchwowe / Torbiel ślinianki`
+- `USG ślinianek / Ślinianki przyuszne i podżuchwowe / Zmiana podejrzana o złośliwość`
 
 ## Priorytet 1: brakujące pozycje z głównego zakresu atlasu
 
@@ -86,30 +130,39 @@ Dla każdej pozycji rekomendowany pipeline jest stały:
 
 ### Tkanki miękkie
 
-- `USG tkanek miękkich / Tkanka podskórna / Torbiel`
-- `USG tkanek miękkich / Tkanka podskórna / Kaszak`
-- `USG tkanek miękkich / Tkanka podskórna / Torbiel naskórkowa`
-- `USG tkanek miękkich / Tkanka podskórna / Krwiak`
-- `USG tkanek miękkich / Tkanka podskórna / Ciało obce`
-- `USG tkanek miękkich / Tkanka podskórna / Ganglion`
-- `USG tkanek miękkich / Tkanka podskórna / Zmiana podejrzana o mięsak`
-
-## Priorytet 2: rozbić lub doprecyzować istniejące szablony
-
-- `USG jamy brzusznej / Wątroba / Stłuszczenie`: rozbić na `łagodne`, `umiarkowane`, `znaczne`, jeśli chcesz zachować zgodność z opisem z `requirements.md`.
-- `USG jamy brzusznej / Pęcherzyk żółciowy / Kamica`: doprecyzować, czy obecny plik ma pokrywać tylko `złogi ruchome`, czy wymaga osobnego wariantu dla `złogu zaklinowanego w szyi`.
-- `USG jamy brzusznej / Pęcherzyk żółciowy / Zapalenie`: rozdzielić na `ostre` i `przewlekłe`, jeśli obecny plik jest zbyt ogólny.
-- `USG szyi / Tarczyca / Guzek TI-RADS`: uzupełnić o sekcję `TI-RADS krok po kroku` oraz źródłowo uzasadnione kryteria, kiedy zalecić biopsję.
-
 ## Priorytet 3: dodatkowe obszary wymienione na końcu dokumentu
 
-Te pozycje nie są jeszcze rozpisane na poziomie jednostek chorobowych w `requirements.md`, ale dokument wskazuje je jako naturalny kolejny etap rozbudowy atlasu:
+Zakres Priorytetu 3 obejmuje badania dorosłych. Dla Dopplera dotyczy wyłącznie kończyn dolnych, a nie naczyń szyjnych, trzewnych, kończyn górnych, przeszczepów ani kontroli po zabiegach. Poniższa lista jest zamkniętym zakresem dalszej rozbudowy atlasu: **18 szablonów**.
 
-- `USG moszny`
-- `USG piersi`
-- `USG ślinianek`
-- `USG Doppler żył`
-- `USG Doppler tętnic`
+### USG piersi: blok zrealizowany
+
+### USG ślinianek: blok zrealizowany
+
+### USG Doppler żył kończyn dolnych: 10 szablonów
+
+- `USG Doppler żył kończyn dolnych / Układ żylny / Obraz prawidłowy i drożność`
+- `USG Doppler żył kończyn dolnych / Układ żylny / Zakrzepica żył głębokich proksymalna`
+- `USG Doppler żył kończyn dolnych / Układ żylny / Zakrzepica żył głębokich dystalna`
+- `USG Doppler żył kończyn dolnych / Układ żylny / Zakrzepowe zapalenie żył powierzchownych`
+- `USG Doppler żył kończyn dolnych / Układ żylny / Przewlekła zakrzepica żylna`
+- `USG Doppler żył kończyn dolnych / Układ żylny / Zmiany pozakrzepowe`
+- `USG Doppler żył kończyn dolnych / Układ żylny / Refluks w układzie głębokim`
+- `USG Doppler żył kończyn dolnych / Układ żylny / Refluks żyły odpiszczelowej`
+- `USG Doppler żył kończyn dolnych / Układ żylny / Refluks żyły odstrzałkowej`
+- `USG Doppler żył kończyn dolnych / Układ żylny / Niewydolne perforatory`
+
+### USG Doppler tętnic kończyn dolnych: 8 szablonów
+
+- `USG Doppler tętnic kończyn dolnych / Układ tętniczy / Obraz prawidłowy`
+- `USG Doppler tętnic kończyn dolnych / Układ tętniczy / Miażdżyca bez istotnego zwężenia`
+- `USG Doppler tętnic kończyn dolnych / Układ tętniczy / Zwężenie istotne hemodynamicznie`
+- `USG Doppler tętnic kończyn dolnych / Układ tętniczy / Niedrożność przewlekła`
+- `USG Doppler tętnic kończyn dolnych / Układ tętniczy / Ostra niedrożność tętnicza`
+- `USG Doppler tętnic kończyn dolnych / Układ tętniczy / Tętniak tętnicy podkolanowej`
+- `USG Doppler tętnic kończyn dolnych / Układ tętniczy / Tętniak rzekomy`
+- `USG Doppler tętnic kończyn dolnych / Układ tętniczy / Zespół uwięźnięcia tętnicy podkolanowej`
+
+Podstawa do doboru zakresu: [ACR BI-RADS](https://cs.acr.org/Clinical-Resources/Reporting-and-Data-Systems/Bi-Rads), [EFSUMB dla USG głowy i szyi](https://pmc.ncbi.nlm.nih.gov/articles/PMC9546639/), [SVU Professional Performance Guidelines](https://www.svu.org/practice-resources/professional-performance-guidelines/) oraz [SVS/AVF/AVLS dla refluksu żylnego](https://pmc.ncbi.nlm.nih.gov/articles/PMC11523430/).
 
 ## Proponowana kolejność pracy
 

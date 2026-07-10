@@ -1,0 +1,24 @@
+id: usg-slinianki-prawidlowa
+title: Ślinianki przyuszne i podżuchwowe - obraz prawidłowy
+modality: USG
+examTypes: [USG ślinianek]
+bodySystems: [Przewód pokarmowy]
+bodyParts: [Ślinianki]
+organs: [Ślinianki przyuszne i podżuchwowe]
+pathology: [Obraz prawidłowy]
+tags: [Rezydent, Doppler]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [salivary-gland-us-anatomy-2006]
+sections:
+  assessmentChecklist:
+    - Obie ślinianki przyuszne i podżuchwowe w przekrojach podłużnych i poprzecznych.
+    - Wielkość, echostruktura, symetria i obecność zmian ogniskowych.
+    - Przewody wyprowadzające, poszerzenie oraz obecność złogów.
+    - Doppler w razie klinicznego podejrzenia zapalenia lub zmiany ogniskowej.
+    - Węzły wewnątrz- i okołogruczołowe oraz szyjne w dostępnym zakresie.
+  reportTemplate: |
+    Obie ślinianki przyuszne i podżuchwowe o prawidłowej wielkości, jednorodnej echostrukturze i symetrycznym obrazie. Bez zmian ogniskowych i bez poszerzenia przewodów wyprowadzających. Nie uwidoczniono złogów. Węzły wewnątrz- i okołogruczołowe bez cech patologii w dostępnym zakresie.
+  impressionTemplate: |
+    Obraz USG ślinianek przyusznych i podżuchwowych bez odchyleń.

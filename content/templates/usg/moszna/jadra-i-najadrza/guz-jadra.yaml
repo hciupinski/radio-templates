@@ -1,0 +1,27 @@
+id: usg-moszna-guz-jadra
+title: Guz jądra
+modality: USG
+examTypes: [USG moszny]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Moszna]
+organs: [Jądra i najądrza]
+pathology: [Guz jądra]
+tags: [Rezydent, Doppler, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [eau-testicular-cancer-diagnostic-2025, scrotal-ultrasound-adults-2016]
+sections:
+  assessmentChecklist:
+    - Lokalizacja śródjądrowa lub pozajądrowa i trzy wymiary zmiany.
+    - Echogeniczność, jednorodność, zarys i ewentualne zwapnienia.
+    - Unaczynienie zmiany i pozostałego miąższu w Dopplerze.
+    - Osłonki, najądrze, przeciwległe jądro i węzły pachwinowe w dostępnym zakresie.
+  reportTemplate: |
+    W jądrze {{strona}} widoczna {{srodjadrowa_lub_pozajadrowa}} zmiana o wymiarach {{wymiary_mm}} mm, {{hipoechogeniczna_lub_hiperechogeniczna_lub_mieszana}}, {{jednorodna_lub_niejednorodna}}, o {{regularnych_lub_nieregularnych}} granicach. W Dopplerze {{brak_lub_obecnosc}} unaczynienia wewnętrznego. Jądro przeciwległe bez zmian ogniskowych.
+  impressionTemplate: |
+    Zmiana śródjądrowa podejrzana o nowotwór. Wymaga pilnej konsultacji urologicznej.
+  clinicalNotes:
+    - USG nie ustala wiarygodnie typu histologicznego zmiany śródjądrowej.
+  followUp:
+    - Pilna kwalifikacja urologiczna zgodnie z aktualnymi wytycznymi dla podejrzanej zmiany jądra.
