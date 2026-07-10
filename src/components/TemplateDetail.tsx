@@ -9,7 +9,6 @@ import {
   FileText,
   Info,
   ListChecks,
-  MoreVertical,
   Pin,
   PinOff,
   Radio,
@@ -247,39 +246,64 @@ export function TemplateDetail({
           </button>
         ) : null}
         <strong>{template.title}</strong>
-        <button className="mobile-icon-button" type="button" aria-label="Więcej">
-          <MoreVertical size={20} aria-hidden="true" />
-        </button>
+        <span className="mobile-detail-topbar-spacer" aria-hidden="true" />
       </div>
 
       <header className="detail-hero">
-        <div className="detail-hero-main">
-          <span className="detail-document-mark" aria-hidden="true">
-            <FileText size={26} />
-          </span>
-          <div>
-            {breadcrumb ? <span className="detail-breadcrumb">{breadcrumb}</span> : null}
-            <h2>{template.title}</h2>
-            <p>{template.examTypes.join(", ")}</p>
+        {breadcrumb ? <span className="detail-breadcrumb">{breadcrumb}</span> : null}
+        <div className="detail-hero-content">
+          <div className="detail-hero-main">
+            <span className="detail-document-mark" aria-hidden="true">
+              <FileText size={26} />
+            </span>
+            <div>
+              <h2>{template.title}</h2>
+              <p>{template.examTypes.join(", ")}</p>
+            </div>
           </div>
-        </div>
-        <div className="detail-hero-actions">
-          <button className="secondary-action" type="button" onClick={() => copyToClipboard(formatFullTemplate(template))}>
-            <Clipboard size={17} aria-hidden="true" />
-            Kopiuj
-          </button>
-          <button className="secondary-action" type="button" onClick={() => copyToClipboard(template.sections.reportTemplate)}>
-            <Copy size={17} aria-hidden="true" />
-            Opis
-          </button>
-          {onTogglePinned ? (
-            <button className="icon-action" type="button" onClick={() => onTogglePinned(template.id)} aria-label={pinned ? "Usuń z ulubionych" : "Dodaj do ulubionych"}>
-              {pinned ? <PinOff size={18} aria-hidden="true" /> : <Pin size={18} aria-hidden="true" />}
+          <div className="detail-hero-actions">
+            <button
+              className="secondary-action"
+              type="button"
+              onClick={() => copyToClipboard(formatFullTemplate(template))}
+              aria-label="Kopiuj cały szablon"
+              title="Kopiuj cały szablon"
+            >
+              <Clipboard size={17} aria-hidden="true" />
+              <span className="detail-action-label">Kopiuj</span>
             </button>
-          ) : null}
-          <button className="icon-action" type="button" aria-label="Edytuj szablon" disabled title="Edycja będzie dostępna w kolejnym etapie">
-            <Edit3 size={18} aria-hidden="true" />
-          </button>
+            <button
+              className="secondary-action"
+              type="button"
+              onClick={() => copyToClipboard(template.sections.reportTemplate)}
+              aria-label="Kopiuj opis"
+              title="Kopiuj opis"
+            >
+              <Copy size={17} aria-hidden="true" />
+              <span className="detail-action-label">Opis</span>
+            </button>
+            {onTogglePinned ? (
+              <button
+                className="icon-action"
+                type="button"
+                onClick={() => onTogglePinned(template.id)}
+                aria-label={pinned ? "Usuń z ulubionych" : "Dodaj do ulubionych"}
+                data-mobile-label={pinned ? "Odepnij" : "Przypnij"}
+              >
+                {pinned ? <PinOff size={18} aria-hidden="true" /> : <Pin size={18} aria-hidden="true" />}
+              </button>
+            ) : null}
+            <button
+              className="icon-action"
+              type="button"
+              aria-label="Edytuj szablon"
+              data-mobile-label="Edycja"
+              disabled
+              title="Edycja będzie dostępna w kolejnym etapie"
+            >
+              <Edit3 size={18} aria-hidden="true" />
+            </button>
+          </div>
         </div>
       </header>
 

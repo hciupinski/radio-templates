@@ -722,7 +722,7 @@ export default function App() {
   }
 
   return (
-    <main className="app-shell">
+    <main className={`app-shell mobile-pane-${mobilePane}`}>
       <Header
         query={query}
         onQueryChange={setQuery}
