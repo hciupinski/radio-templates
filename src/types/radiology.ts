@@ -110,6 +110,14 @@ export type TemplateWithSearch = RadiologyTemplate & {
   searchText: string;
 };
 
+export type RelatedStudyOption = {
+  modality: Modality;
+  count: number;
+  templateIds: string[];
+  primaryTemplateId: string;
+  isCurrent: boolean;
+};
+
 export type AppContentBundle = {
   taxonomy: Taxonomy;
   catalog: CatalogConfig;
