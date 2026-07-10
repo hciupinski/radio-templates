@@ -1,0 +1,25 @@
+id: usg-piersi-wezel-chlonny-wewnatrzsutkowy
+title: Węzeł chłonny wewnątrzsutkowy
+modality: USG
+examTypes: [USG piersi]
+bodySystems: [Układ rozrodczy, Układ limfatyczny]
+bodyParts: [Piersi]
+organs: [Piersi]
+pathology: [Węzeł chłonny wewnątrzsutkowy]
+tags: [Rezydent, Doppler]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [intramammary-lymph-nodes-imaging-2019, acr-birads-breast-ultrasound-2025]
+sections:
+  assessmentChecklist:
+    - Lokalizacja, trzy wymiary, kształt i obecność wnęki tłuszczowej.
+    - Grubość i symetria kory oraz granice węzła.
+    - Unaczynienie wnękowe lub obwodowe w Dopplerze.
+    - Porównanie z badaniami wcześniejszymi oraz korelacja z obrazem piersi i pachy.
+  reportTemplate: |
+    W piersi {{strona}}, w kwadrancie {{kwadrant}}, widoczny owalny węzeł chłonny wewnątrzsutkowy o wymiarach {{wymiary_mm}} mm, z zachowaną echogeniczną wnęką tłuszczową i cienką, symetryczną korą. W Dopplerze unaczynienie o charakterze {{wnękowym_lub_brak}}. Bez cech atypii. BI-RADS 2.
+  impressionTemplate: |
+    Węzeł chłonny wewnątrzsutkowy o typowej morfologii łagodnej. BI-RADS 2.
+  followUp:
+    - Powiększenie, zatarcie wnęki tłuszczowej, asymetryczne pogrubienie kory lub unaczynienie obwodowe wymagają oceny w pełnym kontekście kliniczno-obrazowym.

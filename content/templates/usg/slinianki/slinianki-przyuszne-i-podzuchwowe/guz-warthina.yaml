@@ -1,0 +1,26 @@
+id: usg-slinianki-guz-warthina
+title: Guz Warthina
+modality: USG
+examTypes: [USG ślinianek]
+bodySystems: [Przewód pokarmowy]
+bodyParts: [Ślinianki]
+organs: [Ślinianki przyuszne i podżuchwowe]
+pathology: [Guz Warthina]
+tags: [Rezydent, Doppler, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [warthin-pleomorphic-us-differentiation-2018]
+sections:
+  assessmentChecklist:
+    - Lokalizacja w śliniance przyusznej, zwłaszcza biegun dolny, oraz ewentualna wieloogniskowość.
+    - Trzy wymiary, granice, echostruktura i obszary bezechowe lub torbielowate.
+    - Unaczynienie wewnętrzne i obwodowe w Dopplerze.
+    - Ślinianka przeciwna oraz węzły szyjne w dostępnym zakresie.
+    - Możliwość biopsji pod kontrolą USG.
+  reportTemplate: |
+    W śliniance przyusznej {{strona}}, w części {{lokalizacja}}, widoczna dobrze odgraniczona zmiana o wymiarach {{wymiary_mm}} mm, o niejednorodnej echostrukturze z {{opis_obszarow_bezechowych_lub_torbielowatych}}. W Dopplerze {{opis_unaczynienia}}. Obraz może odpowiadać guzowi Warthina, bez możliwości pewnego rozstrzygnięcia histologicznego w USG.
+  impressionTemplate: |
+    Zmiana ogniskowa ślinianki przyusznej {{strona}}, o obrazie mogącym odpowiadać guzowi Warthina.
+  followUp:
+    - Dalsza kwalifikacja do biopsji lub leczenia operacyjnego zależnie od pełnej oceny klinicznej i specjalistycznej.

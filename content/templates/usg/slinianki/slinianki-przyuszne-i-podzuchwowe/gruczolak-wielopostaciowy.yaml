@@ -1,0 +1,26 @@
+id: usg-slinianki-gruczolak-wielopostaciowy
+title: Gruczolak wielopostaciowy ślinianki
+modality: USG
+examTypes: [USG ślinianek]
+bodySystems: [Przewód pokarmowy]
+bodyParts: [Ślinianki]
+organs: [Ślinianki przyuszne i podżuchwowe]
+pathology: [Gruczolak wielopostaciowy]
+tags: [Rezydent, Doppler, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [warthin-pleomorphic-us-differentiation-2018]
+sections:
+  assessmentChecklist:
+    - Zajęta ślinianka, płat przyuszny, lokalizacja i stosunek do naczyń.
+    - Trzy wymiary, granice, kształt, echostruktura i cechy tylne zmiany.
+    - Obszary bezechowe lub torbielowate oraz unaczynienie w Dopplerze.
+    - Pozostały miąższ ślinianki, strona przeciwna i węzły szyjne.
+    - Dostępność bezpiecznej drogi biopsji pod kontrolą USG, jeśli wskazana.
+  reportTemplate: |
+    W śliniance {{przyusznej_lub_podzuchwowej}} {{strona}}, w części {{lokalizacja}}, widoczna dobrze odgraniczona zmiana lita o wymiarach {{wymiary_mm}} mm, o {{jednorodnej_lub_niejednorodnej}} echostrukturze, z {{brak_lub_opis_obszarow_torbielowatych}}. W Dopplerze {{opis_unaczynienia}}. Obraz może odpowiadać gruczolakowi wielopostaciowemu, bez możliwości pewnego rozstrzygnięcia histologicznego w USG.
+  impressionTemplate: |
+    Zmiana ogniskowa ślinianki {{przyusznej_lub_podzuchwowej}} {{strona}}, o obrazie mogącym odpowiadać gruczolakowi wielopostaciowemu.
+  followUp:
+    - Dalsza kwalifikacja do biopsji lub leczenia operacyjnego zależnie od pełnej oceny klinicznej i specjalistycznej.

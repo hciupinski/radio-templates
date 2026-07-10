@@ -1,0 +1,32 @@
+id: usg-tkanki-miekkie-krwiak
+title: Krwiak tkanki podskórnej
+modality: USG
+examTypes: [USG tkanek miękkich]
+bodySystems: [Układ mięśniowo-szkieletowy]
+bodyParts: [Tkanki miękkie]
+organs: [Tkanka podskórna]
+pathology: [Krwiak]
+tags: [Rezydent, Doppler, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [soft-tissue-hematoma-us-2025, sarcoma-haematoma-us-2024]
+sections:
+  assessmentChecklist:
+    - Dokładna lokalizacja i warstwa anatomiczna zbiornika.
+    - Trzy wymiary i ewentualne szerzenie wzdłuż powięzi.
+    - Echogeniczność oraz obecność skrzepów, przegród lub poziomów płynowych.
+    - Przepływ wewnętrzny i obwodowy w Dopplerze.
+    - Cechy aktywnego krwawienia, jeśli są widoczne.
+    - Porównanie z wcześniejszym badaniem i dynamika zmiany, jeśli dostępne.
+  reportTemplate: |
+    W tkance podskórnej okolicy {{lokalizacja}} widoczny zbiornik o wymiarach {{wymiary_mm}} mm, o {{jednorodnej_lub_niejednorodnej}} echostrukturze z {{echami_wewnetrznymi_lub_skrzepami_lub_przegrodami}}. W badaniu Doppler {{brak_lub_obecnosc}} przepływu wewnętrznego, {{brak_lub_obecnosc}} unaczynienia obwodowego. Obraz {{zgodny_lub_niezgodny}} z podanym wywiadem urazowym lub jatrogennym.
+  impressionTemplate: |
+    Obraz najbardziej odpowiada krwiakowi tkanki podskórnej w fazie {{faza_lub_nieokreslona}}.
+  clinicalNotes:
+    - Obraz krwiaka zmienia się w czasie; interpretuj go z uwzględnieniem czasu od urazu, leczenia przeciwkrzepliwego i dynamiki klinicznej.
+  differential:
+    - Ropień lub inny zbiornik płynowy.
+    - Zmiana nowotworowa z komponentem krwotocznym.
+  followUp:
+    - Przy braku wyjaśniającego wywiadu, wzroście zmiany, przepływie wewnętrznym lub braku regresji rozważyć pilną dalszą charakterystykę.

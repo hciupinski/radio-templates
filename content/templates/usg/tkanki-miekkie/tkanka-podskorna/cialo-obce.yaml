@@ -1,0 +1,32 @@
+id: usg-tkanki-miekkie-cialo-obce
+title: Ciało obce w tkance podskórnej
+modality: USG
+examTypes: [USG tkanek miękkich]
+bodySystems: [Układ mięśniowo-szkieletowy]
+bodyParts: [Tkanki miękkie]
+organs: [Tkanka podskórna]
+pathology: [Ciało obce]
+tags: [Rezydent, Doppler, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [foreign-body-us-meta-analysis-2015, superficial-soft-tissue-lesions-us-2019]
+sections:
+  assessmentChecklist:
+    - Lokalizacja ciała obcego w trzech płaszczyznach.
+    - Długość, szerokość, orientacja i echogeniczność podejrzanej struktury.
+    - Artefakty akustyczne za strukturą.
+    - Odległość od skóry, naczyń, nerwów, ścięgien i kości.
+    - Reakcja zapalna, zbiornik płynowy lub ziarniniak wokół ciała obcego.
+    - Przepływ w tkankach otaczających w badaniu Doppler.
+  reportTemplate: |
+    W tkance podskórnej okolicy {{lokalizacja}} uwidoczniono {{hiperechogeniczna_lub_inna}} strukturę o długości {{dlugosc_mm}} mm, położoną na głębokości {{glebokosc_mm}} mm od powierzchni skóry, z {{cieniem_akustycznym_lub_rewerberacjami_lub_bez_typowego_artefaktu}}. Struktura przebiega {{orientacja}} względem skóry. W odległości {{odleglosc_mm}} mm znajdują się {{struktury_krytyczne_lub_brak}}. Tkanki otaczające {{bez_lub_z}} odczynem zapalnym lub zbiornikiem płynowym.
+  impressionTemplate: |
+    Obraz USG sugeruje obecność ciała obcego w tkance podskórnej w opisanej lokalizacji.
+  clinicalNotes:
+    - Ujemne USG nie wyklucza ciała obcego, zwłaszcza małego, głęboko położonego lub przy ograniczeniach technicznych badania.
+  differential:
+    - Zwapnienie lub blizna.
+    - Gaz w tkankach miękkich.
+  followUp:
+    - Przy planowanym usunięciu opisz relację do struktur krytycznych; w przypadku objawów zakażenia zalecić pilną korelację kliniczną.

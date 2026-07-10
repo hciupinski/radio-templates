@@ -1,0 +1,25 @@
+id: usg-slinianki-torbiel
+title: Torbiel ślinianki
+modality: USG
+examTypes: [USG ślinianek]
+bodySystems: [Przewód pokarmowy]
+bodyParts: [Ślinianki]
+organs: [Ślinianki przyuszne i podżuchwowe]
+pathology: [Torbiel ślinianki]
+tags: [Rezydent, Doppler, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [salivary-gland-us-inflammatory-obstructive-2021]
+sections:
+  assessmentChecklist:
+    - Lokalizacja zmiany względem miąższu ślinianki i przewodu wyprowadzającego.
+    - Trzy wymiary, zawartość, ściana, przegrody i wzmocnienie za tylną ścianą.
+    - Komponent lity i unaczynienie ściany lub elementów wewnętrznych w Dopplerze.
+    - Cechy zapalenia, sialocele lub ropnia oraz porównanie z badaniami wcześniejszymi.
+  reportTemplate: |
+    W obrębie {{slinianki_lub_okolicy}}, widoczna zmiana torbielowata o wymiarach {{wymiary_mm}} mm, o {{opis_zawartosci}}, z {{cienka_lub_pogrubiala}} ścianą i {{brak_lub_opis_przegrod}}. W Dopplerze {{opis_unaczynienia_sciany_i_elementow_wewnetrznych}}. {{Brak_lub_opis_komponentu_litego_i_cech_zapalnych}}.
+  impressionTemplate: |
+    Zmiana torbielowata w obrębie {{slinianki_lub_okolicy}}. {{Opis_stopnia_typowosci_i_dalszej_oceny}}.
+  followUp:
+    - Zmiana z pogrubiałą ścianą, komponentem litym lub unaczynieniem wymaga dalszej charakterystyki zgodnej z pełnym obrazem klinicznym.

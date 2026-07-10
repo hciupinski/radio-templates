@@ -1,0 +1,42 @@
+id: usg-slinianki-ostre-zapalenie
+title: Ostre zapalenie ślinianki
+modality: USG
+examTypes: [USG ślinianek]
+bodySystems: [Przewód pokarmowy]
+bodyParts: [Ślinianki]
+organs: [Ślinianki przyuszne i podżuchwowe]
+pathology: [Ostre zapalenie ślinianki]
+tags: [Rezydent, Doppler, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [salivary-gland-us-inflammatory-obstructive-2021]
+imageRefs:
+  - id: acute-sialadenitis-usg-01
+    title: Ostre zapalenie ślinianek w USG i Dopplerze mocy
+    imageUrl: https://pub.mdpi-res.com/jcm/jcm-10-03547/article_deploy/html/images/jcm-10-03547-g003.png?1669092508
+    sourceUrl: https://www.mdpi.com/2077-0383/10/16/3547
+    sourceId: salivary-gland-us-inflammatory-obstructive-2021
+    caption: Powiększenie ślinianki i hipoechogeniczny, gąbczasty miąższ w ostrym zapaleniu.
+    alt: Ultrasonogram ostrego zapalenia ślinianki z hipoechogenicznym miąższem i sygnałem Dopplera.
+    category: doppler
+    findings:
+      - Powiększenie ślinianki.
+      - Hipoechogeniczny miąższ o gąbczastym wyglądzie.
+      - Zwiększona perfuzja widoczna w Dopplerze mocy.
+    attribution: Koch et al., Journal of Clinical Medicine 2021, CC BY 4.0
+    licenseMode: cc-by
+    lastCheckedAt: "2026-07-10"
+sections:
+  assessmentChecklist:
+    - Zajęta ślinianka, wielkość, bolesność zgłaszana w miejscu badania i porównanie ze stroną przeciwną.
+    - Echostruktura miąższu, obrzęk i unaczynienie w Dopplerze.
+    - Przewód wyprowadzający, złóg lub inna przyczyna obturacji.
+    - Kolekcja płynowa lub ropień oraz szerzenie do tkanek sąsiednich.
+    - Węzły wewnątrz- i okołogruczołowe.
+  reportTemplate: |
+    Ślinianka {{przyuszna_lub_podzuchwowa}} {{strona}} powiększona, o niejednorodnej, obniżonej echogeniczności miąższu. W Dopplerze wzmożone unaczynienie. Przewód wyprowadzający {{opis_przewodu_i_ewentualnego_zlogu}}. {{brak_lub_opis_kolekcji_ropnej}}. {{opis_wezlow_okologruczolowych}}.
+  impressionTemplate: |
+    Obraz USG odpowiada ostremu zapaleniu ślinianki {{przyusznej_lub_podzuchwowej}} {{strona}}. {{brak_lub_podejrzenie_ropnia_lub_obturacji}}.
+  followUp:
+    - Przy kolekcji, cechach obturacji lub nasilonych objawach ogólnych wskazana pilna korelacja kliniczna i dalsze postępowanie specjalistyczne.

@@ -1,0 +1,26 @@
+id: usg-piersi-brodawczak-wewnatrzprzewodowy
+title: Brodawczak wewnątrzprzewodowy
+modality: USG
+examTypes: [USG piersi]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Piersi]
+organs: [Piersi]
+pathology: [Brodawczak wewnątrzprzewodowy]
+tags: [Rezydent, Doppler, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [papillary-breast-disease-imaging-2021, acr-birads-breast-ultrasound-2025]
+sections:
+  assessmentChecklist:
+    - Objawy z brodawki, zwłaszcza samoistny krwisty lub surowiczy wyciek.
+    - Przewód, lokalizacja podbrodawkowa, trzy wymiary i morfologia zmiany.
+    - Cechy torbielowate, poszerzenie przewodu oraz ewentualne zmiany dodatkowe.
+    - Unaczynienie zmiany w Dopplerze.
+    - Kategoria BI-RADS i możliwość biopsji celowanej obrazowo.
+  reportTemplate: |
+    W piersi {{strona}}, w okolicy {{lokalizacja}}, w poszerzonym przewodzie o średnicy {{srednica_przewodu_mm}} mm widoczna wewnątrzprzewodowa zmiana lita o wymiarach {{wymiary_mm}} mm, o {{opis_morfologii}}. W Dopplerze {{opis_unaczynienia}}. Obraz może odpowiadać zmianie brodawkowatej. BI-RADS {{kategoria}}.
+  impressionTemplate: |
+    Wewnątrzprzewodowa zmiana w piersi {{strona}}, podejrzana o brodawczaka wewnątrzprzewodowego. BI-RADS {{kategoria}}.
+  followUp:
+    - Dalsza kwalifikacja, w tym ewentualne pobranie materiału, zależnie od kategorii BI-RADS, objawów i zgodności kliniczno-obrazowej.

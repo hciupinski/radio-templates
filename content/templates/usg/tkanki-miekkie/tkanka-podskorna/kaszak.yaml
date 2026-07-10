@@ -1,0 +1,32 @@
+id: usg-tkanki-miekkie-kaszak
+title: Kaszak tkanki podskórnej
+modality: USG
+examTypes: [USG tkanek miękkich]
+bodySystems: [Układ mięśniowo-szkieletowy]
+bodyParts: [Tkanki miękkie]
+organs: [Tkanka podskórna]
+pathology: [Kaszak]
+tags: [Rezydent, Doppler]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [superficial-soft-tissue-lesions-us-2019, epidermal-inclusion-cyst-us-mri-2011]
+sections:
+  assessmentChecklist:
+    - Lokalizacja w skórze lub tkance podskórnej i ewentualna łączność ze skórą.
+    - Trzy wymiary, kształt i odgraniczenie zmiany.
+    - Echogeniczność zawartości, echa wewnętrzne i wzmocnienie za tylną ścianą.
+    - Obecność obwódki oraz cechy pęknięcia lub zapalenia.
+    - Przepływ wewnętrzny i obwodowy w badaniu Doppler.
+  reportTemplate: |
+    W skórze i powierzchownej tkance podskórnej okolicy {{lokalizacja}} widoczna dobrze odgraniczona, owalna zmiana o wymiarach {{wymiary_mm}} mm, o {{jednorodnej_lub_niejednorodnej}} echostrukturze z {{echami_wewnetrznymi_lub_bez_ech_wewnetrznych}}, z {{obecnym_lub_brakiem}} wzmocnienia za tylną ścianą. Zmiana {{bez_lub_z}} łącznością ze skórą, bez przepływu wewnętrznego w Dopplerze. Tkanki otaczające {{bez_lub_z}} cechami zapalenia.
+  impressionTemplate: |
+    Obraz powierzchownej zmiany torbielowatej, najbardziej odpowiadającej kaszakowi.
+  clinicalNotes:
+    - Określenie kaszak ma charakter kliniczny; w obrazie nietypowym nie przesądza o podtypie histologicznym.
+  differential:
+    - Torbiel naskórkowa.
+    - Torbiel włosowa.
+    - Ropień lub pęknięta torbiel z odczynem zapalnym.
+  followUp:
+    - Przy wzmożonym przepływie, nieostrych granicach lub cechach zapalenia zalecić korelację kliniczną i dalsze postępowanie zależnie od objawów.

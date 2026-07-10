@@ -1,0 +1,26 @@
+id: usg-slinianki-zespol-sjogrena
+title: Zespół Sjogrena - zmiany w śliniankach
+modality: USG
+examTypes: [USG ślinianek]
+bodySystems: [Przewód pokarmowy]
+bodyParts: [Ślinianki]
+organs: [Ślinianki przyuszne i podżuchwowe]
+pathology: [Zespół Sjogrena]
+tags: [Rezydent, Doppler, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [sjogren-salivary-us-core-items-2017]
+sections:
+  assessmentChecklist:
+    - Obie ślinianki przyuszne i podżuchwowe oraz ich symetria.
+    - Jednorodność miąższu, hipoechogeniczne obszary i zatarcie granic.
+    - Zmiany ogniskowe, zwapnienia, przewody i węzły wewnątrz- oraz okołogruczołowe.
+    - Doppler i porównanie z badaniami wcześniejszymi, jeśli dostępne.
+    - Korelacja z objawami suchości i rozpoznaniem klinicznym.
+  reportTemplate: |
+    Obie ślinianki przyuszne i podżuchwowe o {{prawidlowej_lub_zmienionej}} wielkości, z niejednorodnym miąższem i {{liczne_lub_pojedyncze}} hipoechogenicznymi obszarami o wymiarach do {{wymiar_mm}} mm. {{Opis_granic_przewodow_zwapnien_i_wezlow}}. W Dopplerze {{opis_unaczynienia}}. Obraz w odpowiedniej korelacji klinicznej może odpowiadać zmianom w przebiegu zespołu Sjogrena.
+  impressionTemplate: |
+    Niejednorodny obraz USG ślinianek, mogący odpowiadać zmianom w przebiegu zespołu Sjogrena.
+  clinicalNotes:
+    - USG nie zastępuje kryteriów klinicznych, serologicznych ani histopatologicznych rozpoznania zespołu Sjogrena.

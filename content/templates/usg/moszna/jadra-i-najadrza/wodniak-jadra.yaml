@@ -1,0 +1,25 @@
+id: usg-moszna-wodniak-jadra
+title: Wodniak jądra
+modality: USG
+examTypes: [USG moszny]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Moszna]
+organs: [Jądra i najądrza]
+pathology: [Wodniak jądra]
+tags: [Rezydent, Doppler]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [aium-scrotal-practice-parameter-2025, scrotal-ultrasound-adults-2016]
+sections:
+  assessmentChecklist:
+    - Strona, objętość i echogeniczność płynu w osłonkach.
+    - Przegrody, echa wewnętrzne i pogrubienie osłonek.
+    - Ocena jądra i najądrza pod kątem współistniejącej patologii.
+    - Przepływ w jądrze i najądrzu w Dopplerze.
+  reportTemplate: |
+    W osłonkach jądra {{strona}} obecny płyn o objętości {{objetosc_ml_lub_wymiary_mm}}, {{bezechowy_lub_z_echami_wewnetrznymi}}, {{bez_lub_z}} przegród. Jądro i najądrze po tej stronie {{bez_lub_z}} współistniejących odchyleń. Przepływ w jądrze zachowany.
+  impressionTemplate: |
+    Wodniak jądra {{strona}} {{prosty_lub_zlozony}}.
+  clinicalNotes:
+    - Przy echach wewnętrznych, pogrubieniu osłonek lub współistniejącej zmianie jądra nie określaj wodniaka jako prostego.

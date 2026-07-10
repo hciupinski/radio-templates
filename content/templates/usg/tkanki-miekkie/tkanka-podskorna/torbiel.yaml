@@ -1,0 +1,33 @@
+id: usg-tkanki-miekkie-torbiel
+title: Torbiel tkanki podskórnej
+modality: USG
+examTypes: [USG tkanek miękkich]
+bodySystems: [Układ mięśniowo-szkieletowy]
+bodyParts: [Tkanki miękkie]
+organs: [Tkanka podskórna]
+pathology: [Torbiel]
+tags: [Rezydent, Doppler]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [superficial-soft-tissue-lesions-us-2019, superficial-soft-tissue-masses-acr-2022]
+sections:
+  assessmentChecklist:
+    - Lokalizacja i warstwa anatomiczna zmiany.
+    - Trzy wymiary oraz relacja do skóry, powięzi i głębszych struktur.
+    - Zarys, grubość ściany i charakter zawartości.
+    - Wzmocnienie za tylną ścianą oraz obecność przegród lub ech wewnętrznych.
+    - Przepływ w ścianie i elementach wewnętrznych w badaniu Doppler.
+    - Cechy zapalenia w tkankach otaczających.
+  reportTemplate: |
+    W tkance podskórnej okolicy {{lokalizacja}} widoczna dobrze odgraniczona zmiana torbielowata o wymiarach {{wymiary_mm}} mm, o {{bezechowej_lub_niejednorodnej}} zawartości, z {{cienka_lub_pogrubiala}} ścianą i {{bez_lub_z}} wzmocnieniem za tylną ścianą. Bez unaczynienia zawartości w badaniu Doppler. Zmiana {{bez_lub_z}} cechami odczynu w tkankach otaczających.
+  impressionTemplate: |
+    Obraz zmiany torbielowatej tkanki podskórnej. Charakter wymaga korelacji z obrazem klinicznym.
+  clinicalNotes:
+    - Prosty obraz płynowy nie ustala etiologii torbieli; opisz cechy złożoności lub zapalenia, jeśli są obecne.
+  differential:
+    - Torbiel naskórkowa.
+    - Zbiornik zapalny lub ropień.
+    - Krwiak zależnie od wywiadu urazowego.
+  followUp:
+    - Przy niejednoznacznej, unaczynionej lub głęboko położonej zmianie rozważyć dalszą charakterystykę zgodnie z kontekstem klinicznym.

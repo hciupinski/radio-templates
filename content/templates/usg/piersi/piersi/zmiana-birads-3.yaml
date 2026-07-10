@@ -1,0 +1,25 @@
+id: usg-piersi-zmiana-birads-3
+title: Zmiana prawdopodobnie łagodna BI-RADS 3
+modality: USG
+examTypes: [USG piersi]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Piersi]
+organs: [Piersi]
+pathology: [Zmiana BI-RADS 3]
+tags: [Rezydent, Doppler, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [acr-birads-breast-ultrasound-2025]
+sections:
+  assessmentChecklist:
+    - Lokalizacja, trzy wymiary, kształt, orientacja i granice zmiany.
+    - Echogeniczność, cechy tylne oraz unaczynienie w Dopplerze.
+    - Porównanie z dostępnymi badaniami wcześniejszymi.
+    - Zgodność z kategorią BI-RADS 3 w pełnym badaniu diagnostycznym.
+  reportTemplate: |
+    W piersi {{strona}}, na godzinie {{godzina}}, {{odleglosc_cm}} cm od brodawki, widoczna {{opis_zmiany}} o wymiarach {{wymiary_mm}} mm, o cechach prawdopodobnie łagodnych. W Dopplerze {{opis_unaczynienia}}. Bez cech progresji w porównaniu z badaniem z dnia {{data_badania_porownawczego_lub_brak}}. BI-RADS 3.
+  impressionTemplate: |
+    Zmiana prawdopodobnie łagodna w piersi {{strona}}. BI-RADS 3.
+  followUp:
+    - Krótkoterminowa kontrola obrazowa zgodnie z protokołem BI-RADS oraz pełnym kontekstem klinicznym.

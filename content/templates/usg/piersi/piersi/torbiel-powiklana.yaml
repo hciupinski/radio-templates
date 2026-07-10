@@ -1,0 +1,24 @@
+id: usg-piersi-torbiel-powiklana
+title: Torbiel powikłana piersi
+modality: USG
+examTypes: [USG piersi]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Piersi]
+organs: [Piersi]
+pathology: [Torbiel powikłana piersi]
+tags: [Rezydent, Doppler, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [acr-birads-breast-ultrasound-2025]
+sections:
+  assessmentChecklist:
+    - Zawartość, przegrody, ściana i komponent lity.
+    - Unaczynienie ściany i elementów wewnętrznych.
+    - Kategoria BI-RADS oraz dalsza charakterystyka zależna od cech.
+  reportTemplate: |
+    W piersi {{strona}}, na godzinie {{godzina}}, widoczna zmiana torbielowata o wymiarach {{wymiary_mm}} mm, z {{echami_wewnetrznymi_lub_cienkimi_przegrodami}}, bez jednoznacznego komponentu litego. W Dopplerze {{brak_lub_obecnosc}} przepływu w elementach wewnętrznych. BI-RADS {{kategoria}}.
+  impressionTemplate: |
+    Zmiana torbielowata powikłana piersi. BI-RADS {{kategoria}}.
+  followUp:
+    - Dalsze postępowanie zależnie od kategorii BI-RADS i obecności elementu litego lub unaczynienia.

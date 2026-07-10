@@ -1,0 +1,22 @@
+id: usg-piersi-torbiel-prosta
+title: Torbiel prosta piersi
+modality: USG
+examTypes: [USG piersi]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Piersi]
+organs: [Piersi]
+pathology: [Torbiel prosta piersi]
+tags: [Rezydent]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [acr-breast-simple-cyst-criteria-2025, acr-birads-breast-ultrasound-2025]
+sections:
+  assessmentChecklist:
+    - Lokalizacja według zegara i odległość od brodawki.
+    - Trzy wymiary, kształt, ściana i zawartość.
+    - Wzmocnienie za tylną ścianą oraz brak komponentu litego.
+  reportTemplate: |
+    W piersi {{strona}}, na godzinie {{godzina}}, {{odleglosc_cm}} cm od brodawki, widoczna owalna, bezechowa zmiana o wymiarach {{wymiary_mm}} mm, o gładkich granicach, z wzmocnieniem za tylną ścianą, bez przegród i bez komponentu litego. BI-RADS 2.
+  impressionTemplate: |
+    Torbiel prosta piersi. BI-RADS 2.

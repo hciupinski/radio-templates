@@ -60,7 +60,8 @@ function firstPathForBodySystem(
     modality: modalityLabel,
     examType: examTypeLabel,
     bodySystem: bodySystem.label,
-    organ: organ.label
+    // A multi-organ system stays expanded so the user can choose the organ first.
+    organ: bodySystem.organs.length === 1 ? organ.label : ""
   };
 }
 

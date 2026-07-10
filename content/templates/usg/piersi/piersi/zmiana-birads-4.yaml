@@ -1,0 +1,26 @@
+id: usg-piersi-zmiana-birads-4
+title: Zmiana podejrzana BI-RADS 4
+modality: USG
+examTypes: [USG piersi]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Piersi]
+organs: [Piersi]
+pathology: [Zmiana BI-RADS 4]
+tags: [Rezydent, Doppler, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [acr-birads-breast-ultrasound-2025]
+sections:
+  assessmentChecklist:
+    - Lokalizacja, trzy wymiary, kształt, orientacja i granice zmiany.
+    - Echogeniczność, cechy tylne, zaburzenie architektury i skóra.
+    - Unaczynienie w Dopplerze oraz ewentualne zmiany satelitarne.
+    - Węzły pachowe i możliwość biopsji pod kontrolą USG.
+    - Podkategoria BI-RADS 4A, 4B lub 4C, jeśli stosowana.
+  reportTemplate: |
+    W piersi {{strona}}, w okolicy {{lokalizacja}}, widoczna zmiana lita o wymiarach {{wymiary_mm}} mm, o {{ksztalt}} kształcie, {{orientacja}} orientacji i {{granice}} granicach, z {{cechy_tylne}}. W Dopplerze {{opis_unaczynienia}}. {{opis_wezlow_pachowych}}. BI-RADS 4{{podkategoria_lub_brak}}.
+  impressionTemplate: |
+    Zmiana podejrzana w piersi {{strona}}. BI-RADS 4{{podkategoria_lub_brak}}.
+  followUp:
+    - Wskazana weryfikacja histopatologiczna odpowiednią metodą, najlepiej pod kontrolą obrazu odpowiadającego zmianie.

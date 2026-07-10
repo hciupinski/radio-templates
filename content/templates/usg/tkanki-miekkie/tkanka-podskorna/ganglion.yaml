@@ -1,0 +1,32 @@
+id: usg-tkanki-miekkie-ganglion
+title: Ganglion tkanki podskórnej
+modality: USG
+examTypes: [USG tkanek miękkich]
+bodySystems: [Układ mięśniowo-szkieletowy]
+bodyParts: [Tkanki miękkie]
+organs: [Tkanka podskórna]
+pathology: [Ganglion]
+tags: [Rezydent, Doppler]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [wrist-ganglion-us-2007, superficial-soft-tissue-lesions-us-2019]
+sections:
+  assessmentChecklist:
+    - Lokalizacja względem stawu, pochewki ścięgna i powierzchni skóry.
+    - Trzy wymiary, kształt, obrys i wielokomorowość.
+    - Charakter zawartości oraz wzmocnienie za tylną ścianą.
+    - Widoczna szypuła lub łączność ze stawem albo pochewką ścięgna.
+    - Przepływ wewnętrzny i obwodowy w Dopplerze.
+    - Ucisk na sąsiedni nerw lub naczynie.
+  reportTemplate: |
+    W okolicy {{lokalizacja}} widoczna dobrze odgraniczona zmiana torbielowata o wymiarach {{wymiary_mm}} mm, {{jedno_lub_wielokomorowa}}, z {{bezechowa_lub_niejednorodna}} zawartością i {{obecnym_lub_brakiem}} wzmocnienia za tylną ścianą. Zmiana {{bez_lub_z}} widoczną łącznością ze stawem albo pochewką ścięgna. Bez przepływu wewnętrznego w badaniu Doppler. {{brak_lub_obecnosc}} ucisku na sąsiednie struktury.
+  impressionTemplate: |
+    Obraz USG najbardziej odpowiada ganglionowi w okolicy {{lokalizacja}}.
+  clinicalNotes:
+    - Małe gangliony mogą nie spełniać wszystkich cech torbieli prostej i mogą mieć niejednorodną echogeniczność.
+  differential:
+    - Inna zmiana torbielowata okołostawowa lub okołościęgnista.
+    - Naczyniak żylny przy obecności przepływu lub podatności na ucisk.
+  followUp:
+    - W przypadku objawów neurologicznych, nasilonego bólu lub niejednoznacznej relacji do struktur głębokich rozważyć dalszą ocenę specjalistyczną.

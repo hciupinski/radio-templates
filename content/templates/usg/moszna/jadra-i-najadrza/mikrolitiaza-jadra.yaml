@@ -1,0 +1,25 @@
+id: usg-moszna-mikrolitiaza-jadra
+title: Mikrolitiaza jądra
+modality: USG
+examTypes: [USG moszny]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Moszna]
+organs: [Jądra i najądrza]
+pathology: [Mikrolitiaza jądra]
+tags: [Rezydent, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [esur-testicular-microlithiasis-2015]
+sections:
+  assessmentChecklist:
+    - Strona i rozmieszczenie drobnych niecieniujących ognisk echogenicznych.
+    - Obecność zmiany ogniskowej, zanik jądra i obraz jądra przeciwległego.
+    - Udokumentowane czynniki ryzyka nowotworu jądra, jeśli podane w skierowaniu.
+  reportTemplate: |
+    W jądrze {{strona_lub_obustronnie}} widoczne liczne drobne, niecieniujące ogniska echogeniczne, bez towarzyszącej zmiany ogniskowej. Objętość jąder {{prawidlowa_lub_opis}}. Jądro przeciwległe {{bez_lub_z}} mikrolitiazą.
+  impressionTemplate: |
+    Mikrolitiaza jądra {{strona_lub_obustronnie}}, bez zmiany ogniskowej.
+  followUp:
+    - Izolowana mikrolitiaza bez czynników ryzyka nie stanowi samodzielnego wskazania do rutynowych kontroli USG.
+    - Przy czynnikach ryzyka lub współistniejącej zmianie ogniskowej konieczna jest kwalifikacja urologiczna.

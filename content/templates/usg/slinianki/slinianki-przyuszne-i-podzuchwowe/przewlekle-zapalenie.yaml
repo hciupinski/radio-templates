@@ -1,0 +1,42 @@
+id: usg-slinianki-przewlekle-zapalenie
+title: Przewlekłe zapalenie ślinianki
+modality: USG
+examTypes: [USG ślinianek]
+bodySystems: [Przewód pokarmowy]
+bodyParts: [Ślinianki]
+organs: [Ślinianki przyuszne i podżuchwowe]
+pathology: [Przewlekłe zapalenie ślinianki]
+tags: [Rezydent, Doppler, Kontrola]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [salivary-gland-us-inflammatory-obstructive-2021]
+imageRefs:
+  - id: chronic-sialadenitis-usg-01
+    title: Przewlekłe zapalenie ślinianki przyusznej z poszerzeniem przewodu
+    imageUrl: https://pub.mdpi-res.com/jcm/jcm-10-03547/article_deploy/html/images/jcm-10-03547-g006.png?1669092524
+    sourceUrl: https://www.mdpi.com/2077-0383/10/16/3547
+    sourceId: salivary-gland-us-inflammatory-obstructive-2021
+    caption: Poszerzony przewód Stensena o nieregularnej ścianie w przewlekłym zapaleniu ślinianki przyusznej.
+    alt: Ultrasonogram przewlekłego zapalenia ślinianki przyusznej z poszerzonym przewodem Stensena.
+    category: typical
+    findings:
+      - Poszerzenie przewodu Stensena.
+      - Nieregularne pogrubienia ściany przewodu.
+      - Nieznacznie hipoechogeniczny miąższ ślinianki.
+    attribution: Koch et al., Journal of Clinical Medicine 2021, CC BY 4.0
+    licenseMode: cc-by
+    lastCheckedAt: "2026-07-10"
+sections:
+  assessmentChecklist:
+    - Zajęta ślinianka, porównanie wielkości i echostruktury ze stroną przeciwną.
+    - Niejednorodność miąższu, cechy włóknienia i zachowanie architektury.
+    - Przewody, przewężenia, poszerzenia i ewentualne złogi.
+    - Unaczynienie w Dopplerze oraz zmiany ogniskowe wymagające różnicowania.
+    - Węzły okołogruczołowe i korelacja z objawami nawrotowymi.
+  reportTemplate: |
+    Ślinianka {{przyuszna_lub_podzuchwowa}} {{strona}} o {{zmniejszonej_lub_prawidlowej}} wielkości, z niejednorodnym, miejscami hipoechogenicznym miąższem o {{zachowanej_lub_zatartej}} architekturze. Przewód wyprowadzający {{opis_poszerzenia_lub_przewezenia}}, bez {{lub_z}} widocznego złogu. W Dopplerze {{opis_unaczynienia}}. Bez kolekcji płynowych.
+  impressionTemplate: |
+    Obraz USG może odpowiadać przewlekłemu zapaleniu ślinianki {{przyusznej_lub_podzuchwowej}} {{strona}}.
+  clinicalNotes:
+    - Obraz USG przewlekłego zapalenia może być nieswoisty; przy zmianie ogniskowej lub atypii konieczna jest dalsza diagnostyka zależna od pełnego obrazu klinicznego.

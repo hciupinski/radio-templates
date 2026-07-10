@@ -1,0 +1,33 @@
+id: usg-tkanki-miekkie-podejrzenie-miesaka
+title: Zmiana tkanki podskórnej podejrzana o mięsaka
+modality: USG
+examTypes: [USG tkanek miękkich]
+bodySystems: [Układ mięśniowo-szkieletowy]
+bodyParts: [Tkanki miękkie]
+organs: [Tkanka podskórna]
+pathology: [Zmiana podejrzana o mięsaka]
+tags: [Rezydent, Doppler, Pilne]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [superficial-soft-tissue-masses-acr-2022, sarcoma-haematoma-us-2024]
+sections:
+  assessmentChecklist:
+    - Lokalizacja, warstwa anatomiczna i największy wymiar zmiany.
+    - Zarys, kształt, echogeniczność, jednorodność i obecność obszarów martwicy lub krwawienia.
+    - Relacja do powięzi, mięśni, naczyń, nerwów i kości.
+    - Przepływ wewnętrzny i obwodowy w Dopplerze.
+    - Cechy naciekania tkanek otaczających lub obrzęku.
+    - Wywiad urazowy, dynamika wzrostu i wcześniejsze badania obrazowe.
+  reportTemplate: |
+    W tkance podskórnej okolicy {{lokalizacja}} widoczna lita lub mieszana zmiana o wymiarach {{wymiary_mm}} mm, o {{jednorodnej_lub_niejednorodnej}} echostrukturze, {{dobrze_lub_nieostro}} odgraniczona, z {{brakiem_lub_obecnoscia}} obszarów płynowych albo martwiczych. W Dopplerze widoczne {{brak_lub_obecnosc}} unaczynienia {{wewnetrznego_lub_obwodowego_lub_mieszanego}}. Zmiana {{nie_przekracza_lub_podejrzana_o_przekraczanie}} powięzi i {{bez_lub_z}} relacją do {{struktur_sasiednich}}.
+  impressionTemplate: |
+    Zmiana tkanek miękkich o cechach podejrzanych. Obraz USG nie pozwala na wiarygodne wykluczenie mięsaka.
+  clinicalNotes:
+    - USG jest badaniem pierwszego rzutu dla zmiany powierzchownej, lecz nie określa wiarygodnie typu histologicznego ani pełnego zasięgu miejscowego.
+  differential:
+    - Krwiak organizujący się, zwłaszcza przy niejasnym wywiadzie urazowym.
+    - Inna lita zmiana mezenchymalna.
+    - Zmiana zapalna zależnie od kontekstu klinicznego.
+  followUp:
+    - Zalecić pilną dalszą charakterystykę w MR z kontrastem oraz skierowanie do ośrodka zajmującego się guzami tkanek miękkich przed nieplanowaną biopsją lub wycięciem.

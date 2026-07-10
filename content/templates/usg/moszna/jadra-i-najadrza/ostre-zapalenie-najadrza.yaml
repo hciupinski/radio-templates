@@ -1,0 +1,26 @@
+id: usg-moszna-ostre-zapalenie-najadrza
+title: Ostre zapalenie najądrza
+modality: USG
+examTypes: [USG moszny]
+bodySystems: [Układ rozrodczy]
+bodyParts: [Moszna]
+organs: [Jądra i najądrza]
+pathology: [Ostre zapalenie najądrza]
+tags: [Rezydent, Doppler]
+status: draft
+version: "0.1.0"
+updatedAt: "2026-07-10"
+sourceRefs: [acr-acute-scrotal-pain-2024, scrotal-ultrasound-adults-2016]
+sections:
+  assessmentChecklist:
+    - Wielkość i echogeniczność najądrza.
+    - Wzmożenie perfuzji w Dopplerze oraz porównanie z drugą stroną.
+    - Zajęcie jądra, reaktywny wodniak i pogrubienie skóry moszny.
+    - Wykluczenie cech skrętu jądra w aktualnym badaniu.
+  reportTemplate: |
+    Najądrze {{strona}} powiększone, o {{obnizonej_lub_niejednorodnej}} echogeniczności, z wyraźnie wzmożonym unaczynieniem w Dopplerze. Jądro po stronie zmiany {{bez_lub_z}} współistniejącymi cechami zapalenia. {{Brak_lub_obecnosc}} reaktywnego wodniaka. Przepływ w jądrze zachowany.
+  impressionTemplate: |
+    Obraz USG przemawia za ostrym zapaleniem najądrza {{strona}}.
+  differential:
+    - Zapalenie najądrza i jądra.
+    - Skręt jądra przy niejednoznacznym lub zmniejszonym przepływie.
