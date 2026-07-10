@@ -84,6 +84,12 @@ organs:
   - id: trzustka
     label: Trzustka
     synonyms: [pancreas]
+  - id: sledziona
+    label: Śledziona
+    synonyms: [spleen, lien]
+  - id: pecherz-moczowy
+    label: Pęcherz moczowy
+    synonyms: [bladder, urinary bladder, vesica urinaria]
   - id: tarczyca
     label: Tarczyca
     synonyms: [thyroid]
