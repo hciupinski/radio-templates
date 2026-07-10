@@ -16,11 +16,10 @@ import type {
   CatalogGroupSummary,
   CatalogPath,
   CatalogViewMode,
-  TemplateStatus,
+  RelatedStudyOption,
   TemplateWithSearch
 } from "./types/radiology";
 import { Header } from "./components/Header";
-import { FilterSidebar, type Filters } from "./components/FilterSidebar";
 import { CatalogModeSwitch } from "./components/CatalogModeSwitch";
 import { CatalogSidebar } from "./components/CatalogSidebar";
 import { CatalogGroupList } from "./components/CatalogGroupList";
@@ -31,14 +30,6 @@ type MobilePane = "catalog" | "groups" | "detail";
 
 const RECENT_STORAGE_KEY = "radio-templates-recent";
 const PINNED_STORAGE_KEY = "radio-templates-pinned";
-
-const emptyFilters: Filters = {
-  modality: "",
-  examType: "",
-  status: "",
-  hasImages: false,
-  pinnedOnly: false
-};
 
 function getInitialTheme(): ThemeMode {
   if (typeof window === "undefined") {
@@ -71,30 +62,19 @@ function readStoredIds(key: string): string[] {
   }
 }
 
-function matchesFilter(value: string, selected: string): boolean {
-  return !selected || value === selected;
-}
-
-function filterTemplates(
-  templates: TemplateWithSearch[],
-  filters: Filters,
-  pinnedIds: Set<string>
-): TemplateWithSearch[] {
-  return templates.filter((template) => {
-    return (
-      matchesFilter(template.modality, filters.modality) &&
-      (!filters.examType || template.examTypes.includes(filters.examType)) &&
-      (!filters.status || template.status === filters.status) &&
-      (!filters.hasImages || Boolean(template.imageRefs?.length)) &&
-      (!filters.pinnedOnly || pinnedIds.has(template.id))
-    );
-  });
-}
-
 function scrollMobileToTop(): void {
   if (window.matchMedia("(max-width: 760px)").matches) {
     window.scrollTo({ top: 0, behavior: "auto" });
   }
+}
+
+function pathFromTemplate(template: TemplateWithSearch): CatalogPath {
+  return {
+    modality: template.modality,
+    examType: template.examTypes[0] ?? "",
+    bodySystem: template.bodySystems[0] ?? "",
+    organ: template.organs[0] ?? ""
+  };
 }
 
 function findPathInTree(
@@ -186,15 +166,63 @@ function buildBreadcrumb(
     .join(" / ");
 }
 
+function hasSharedValue(first: string[], second: string[]): boolean {
+  return first.some((value) => second.includes(value));
+}
+
+function buildRelatedStudies(
+  template: TemplateWithSearch | undefined,
+  templates: TemplateWithSearch[],
+  modalityOrder: string[]
+): RelatedStudyOption[] {
+  if (!template) {
+    return [];
+  }
+
+  const relatedTemplates = templates.filter((candidate) => {
+    return (
+      hasSharedValue(candidate.organs, template.organs) &&
+      hasSharedValue(candidate.pathology, template.pathology)
+    );
+  });
+
+  const byModality = new Map<string, TemplateWithSearch[]>();
+  for (const candidate of relatedTemplates) {
+    byModality.set(candidate.modality, [...(byModality.get(candidate.modality) ?? []), candidate]);
+  }
+
+  if (byModality.size < 2) {
+    return [];
+  }
+
+  const orderLookup = new Map(modalityOrder.map((modality, index) => [modality, index]));
+
+  return Array.from(byModality.entries())
+    .sort(([first], [second]) => {
+      const firstOrder = orderLookup.get(first) ?? Number.MAX_SAFE_INTEGER;
+      const secondOrder = orderLookup.get(second) ?? Number.MAX_SAFE_INTEGER;
+      if (firstOrder !== secondOrder) {
+        return firstOrder - secondOrder;
+      }
+      return first.localeCompare(second, "pl");
+    })
+    .map(([modality, items]) => ({
+      modality: modality as RelatedStudyOption["modality"],
+      count: items.length,
+      templateIds: items.map((item) => item.id),
+      primaryTemplateId: items.find((item) => item.id !== template.id)?.id ?? items[0]?.id ?? "",
+      isCurrent: modality === template.modality
+    }))
+    .filter((option) => option.primaryTemplateId);
+}
+
 export default function App() {
   const [bundle, setBundle] = useState<AppContentBundle | null>(null);
   const [loadState, setLoadState] = useState<"loading" | "ready" | "error">("loading");
   const [loadError, setLoadError] = useState("");
   const [loadAttempt, setLoadAttempt] = useState(0);
   const [query, setQuery] = useState("");
-  const [filters, setFilters] = useState<Filters>(emptyFilters);
   const [selectedId, setSelectedId] = useState("");
-  const [filtersOpen, setFiltersOpen] = useState(false);
   const [theme, setTheme] = useState<ThemeMode>(() => getInitialTheme());
   const [syncMessage, setSyncMessage] = useState("");
   const [viewMode, setViewMode] = useState<CatalogViewMode>("anatomy");
@@ -211,6 +239,7 @@ export default function App() {
   const [pinnedTemplateIds, setPinnedTemplateIds] = useState<string[]>(() => readStoredIds(PINNED_STORAGE_KEY));
   const deferredQuery = useDeferredValue(query);
   const updateInFlightRef = useRef(false);
+  const detailPaneRef = useRef<HTMLDivElement>(null);
 
   const preparedContent = useMemo(() => (bundle ? prepareContent(bundle) : null), [bundle]);
   const pinnedTemplateSet = useMemo(() => new Set(pinnedTemplateIds), [pinnedTemplateIds]);
@@ -274,8 +303,8 @@ export default function App() {
       return [];
     }
 
-    return filterTemplates(preparedContent.templatesWithSearch, filters, pinnedTemplateSet);
-  }, [filters, pinnedTemplateSet, preparedContent]);
+    return preparedContent.templatesWithSearch;
+  }, [preparedContent]);
 
   const filteredTemplateIds = useMemo(
     () => new Set(filteredTemplates.map((template) => template.id)),
@@ -523,22 +552,20 @@ export default function App() {
     return templates.find((template) => template.id === selectedId) ?? templates[0];
   }, [selectedId, visibleGroups]);
 
+  const relatedStudies = useMemo(() => {
+    return buildRelatedStudies(
+      selectedTemplate,
+      filteredTemplates,
+      bundle?.taxonomy.modalities.map((entry) => entry.label) ?? []
+    );
+  }, [bundle?.taxonomy.modalities, filteredTemplates, selectedTemplate]);
+
   useEffect(() => {
     const nextId = selectedTemplate?.id ?? "";
     if (nextId && nextId !== selectedId) {
       setSelectedId(nextId);
     }
   }, [selectedId, selectedTemplate]);
-
-  const countsByStatus = useMemo(() => {
-    return (preparedContent?.templatesWithSearch ?? []).reduce<Record<TemplateStatus, number>>(
-      (counts, template) => {
-        counts[template.status] += 1;
-        return counts;
-      },
-      { draft: 0, reviewed: 0, deprecated: 0 }
-    );
-  }, [preparedContent]);
 
   useEffect(() => {
     if (!bundle) {
@@ -607,30 +634,11 @@ export default function App() {
   }, [syncMessage]);
 
   useEffect(() => {
-    const isMobileViewport = window.matchMedia("(max-width: 760px)").matches;
-    if (!filtersOpen || !isMobileViewport) {
-      return;
-    }
-
-    const previousBodyOverflow = document.body.style.overflow;
-    const previousHtmlOverflow = document.documentElement.style.overflow;
-
-    document.body.style.overflow = "hidden";
-    document.documentElement.style.overflow = "hidden";
-
-    return () => {
-      document.body.style.overflow = previousBodyOverflow;
-      document.documentElement.style.overflow = previousHtmlOverflow;
-    };
-  }, [filtersOpen]);
-
-  useEffect(() => {
     document.documentElement.dataset.theme = theme;
     document.documentElement.style.colorScheme = theme;
     window.localStorage.setItem("radio-templates-theme", theme);
   }, [theme]);
 
-  const activeFilterCount = Object.values(filters).filter((value) => Boolean(value)).length;
   const breadcrumb = buildBreadcrumb(viewMode, activePath, activeConditionGroup);
 
   const groupTitle =
@@ -663,8 +671,19 @@ export default function App() {
     setSelectedId(id);
     setRecentTemplateIds((current) => [id, ...current.filter((value) => value !== id)].slice(0, 12));
     setMobilePane("detail");
-    setFiltersOpen(false);
+    detailPaneRef.current?.scrollTo({ top: 0, behavior: "auto" });
     requestAnimationFrame(scrollMobileToTop);
+  }
+
+  function handleSelectRelatedStudy(option: RelatedStudyOption): void {
+    const targetTemplate = filteredTemplates.find((template) => template.id === option.primaryTemplateId);
+    if (!targetTemplate) {
+      return;
+    }
+
+    setViewMode("anatomy");
+    setActivePath(pathFromTemplate(targetTemplate));
+    handleSelectTemplate(targetTemplate.id);
   }
 
   function handleTogglePinned(id: string): void {
@@ -707,12 +726,7 @@ export default function App() {
       <Header
         query={query}
         onQueryChange={setQuery}
-        contentVersion={bundle.contentVersion}
-        totalTemplates={preparedContent.templatesWithSearch.length}
         pdfUrl={resolvePublicPath("szablony-radiologiczne.pdf")}
-        filtersOpen={filtersOpen}
-        onToggleFilters={() => setFiltersOpen((isOpen) => !isOpen)}
-        activeFilterCount={activeFilterCount}
         theme={theme}
         onToggleTheme={() => setTheme((current) => (current === "light" ? "dark" : "light"))}
       />
@@ -804,16 +818,18 @@ export default function App() {
             selectedId={selectedTemplate?.id}
             pinnedIds={pinnedTemplateSet}
             onSelect={handleSelectTemplate}
-            query={deferredQuery}
+            onTogglePinned={handleTogglePinned}
           />
         </div>
 
-        <div className="catalog-pane catalog-pane-detail">
+        <div className="catalog-pane catalog-pane-detail" ref={detailPaneRef}>
           <TemplateDetail
             template={selectedTemplate}
             sourceMap={preparedContent.sourceMap}
             breadcrumb={breadcrumb}
             pinned={selectedTemplate ? pinnedTemplateSet.has(selectedTemplate.id) : false}
+            relatedStudies={relatedStudies}
+            onSelectRelatedStudy={handleSelectRelatedStudy}
             onTogglePinned={handleTogglePinned}
             onBackToList={() => {
               setMobilePane("groups");
@@ -823,19 +839,6 @@ export default function App() {
         </div>
       </section>
 
-      {filtersOpen ? (
-        <div className="filters-mobile-overlay" onClick={() => setFiltersOpen(false)} role="presentation">
-          <div className="filters-mobile-sheet" onClick={(event) => event.stopPropagation()} role="dialog" aria-modal="true">
-            <FilterSidebar
-              filters={filters}
-              onFiltersChange={setFilters}
-              onClear={() => setFilters(emptyFilters)}
-              taxonomy={bundle.taxonomy}
-              countsByStatus={countsByStatus}
-            />
-          </div>
-        </div>
-      ) : null}
     </main>
   );
 }
