@@ -1,0 +1,7 @@
+interface:
+  display_name: "Release Develop To Main"
+  short_description: "Tworzy release branch i PR z develop do main."
+  default_prompt: "Use $release-develop-to-main to release the current origin/develop state to main by creating a release/YYYY-MM-DD.N branch and opening a GitHub pull request."
+
+policy:
+  allow_implicit_invocation: true
