@@ -1,0 +1,24 @@
+id: "ct-nerki-guz-lity"
+title: "Lita zmiana nerki podejrzana o nowotwór"
+modality: "CT"
+examTypes: ["CT nerek w protokole guzowym"]
+bodySystems: ["Układ moczowy"]
+bodyParts: ["Jama brzuszna"]
+organs: ["Nerki"]
+pathology: ["Guz nerki"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["uro-ct-renal-solid"]
+sections:
+  assessmentChecklist:
+    - "Strona, biegun, wymiary, zasięg względem zatoki i układu kielichowo-miedniczkowego."
+    - "Gęstość i wzmocnienie w dostępnych fazach, martwica, tłuszcz i zwapnienia."
+    - "Żyła nerkowa i żyła główna dolna, powięź, nadnercze, węzły i druga nerka."
+  reportTemplate: |
+    CT w fazach {{dostepne_fazy}}. W nerce {{strona}}, {{lokalizacja}}, lita zmiana o wymiarach {{wymiary_mm}} mm; gęstość przed podaniem kontrastu {{gestosc_przed_hu}} HU, po podaniu {{gestosc_po_hu}} HU, charakter wzmocnienia {{wzmocnienie}}. Martwica, zwapnienia lub tłuszcz {{skladniki}}. Zasięg względem zatoki i tkanki okołonerkowej {{zasieg}}, układ kielichowo-miedniczkowy {{ukm}}. Żyła nerkowa i żyła główna dolna {{zyly}}, nadnercze {{nadnercze}}, węzły {{wezly}}, druga nerka {{druga_nerka}}.
+  impressionTemplate: |
+    Lita zmiana nerki {{strona}} o wymiarach {{wymiary_mm}} mm, {{charakter_i_zasieg}}, podejrzana o nowotwór.
+  clinicalNotes:
+    - "Ocenę wzmocnienia wykonuje się porównując odpowiadające sobie obszary w fazie przedkontrastowej i po kontraście; podtyp histologiczny nie wynika pewnie z samego CT."

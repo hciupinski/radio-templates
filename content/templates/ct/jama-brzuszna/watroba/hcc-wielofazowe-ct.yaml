@@ -1,0 +1,33 @@
+id: ct-hcc-wielofazowe-ct
+title: Podejrzenie raka wątrobowokomórkowego
+modality: CT
+examTypes:
+  - Wielofazowa CT wątroby
+bodySystems:
+  - Układ hepatobiliarny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Wątroba
+pathology:
+  - HCC
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-15"
+sourceRefs:
+  - ct-lirads-v2018-core
+  - ct-lirads-assistant
+sections:
+  assessmentChecklist:
+    - Wskazania do LI-RADS, fazy i jakość badania; ocena nieleczonej zmiany.
+    - Segment, maksymalny wymiar, nieobwodowe wzmocnienie tętnicze, wypłukiwanie, torebka i dynamika.
+    - Cechy LR-M, materiał tkankowy w żyłach i ewentualna kategoria LR-TIV; inne zmiany oraz cechy nadciśnienia wrotnego.
+  reportTemplate: |
+    Wielofazowe CT wątroby: {{fazy_i_jakosc}}, kontekst ryzyka HCC {{kontekst_ryzyka}}. W segmencie {{segment}} zmiana {{wymiar_mm}} mm; nieobwodowe wzmocnienie w fazie tętniczej {{aphe}}, nieobwodowe wypłukiwanie {{washout}}, wzmacniająca się torebka {{torebka}}. Cechy LR-M, w tym obwodowe wzmocnienie tętnicze lub obraz tarczowaty, {{cechy_lr_m}}. Zmiana wymiaru względem {{data_poprzedniego_badania}}: {{dynamika}}. Pozostałe zmiany {{inne_zmiany}}. Żyły i ewentualny wzmacniający się materiał tkankowy wewnątrznaczyniowy {{zyly}}, {{lr_tiv_jesli_dotyczy}}; cechy nadciśnienia wrotnego {{nadcisnienie_wrotne}}. {{kategoria_lirads_jesli_ma_zastosowanie}}.
+  impressionTemplate: |
+    Zmiana w segmencie {{segment}}, {{wymiar_mm}} mm: {{ocena_i_pewnosc}}. {{kategoria_lirads_jesli_ma_zastosowanie}}. {{lr_tiv_jesli_dotyczy}}. {{inne_istotne_zmiany}}.
+  clinicalNotes:
+    - Diagnostyczny CT/MRI LI-RADS v2018 stosuje się do odpowiednich wielofazowych badań u dorosłych z grup wysokiego ryzyka, m.in. z marskością, przewlekłym HBV lub obecnym albo przebytym HCC, z uwzględnieniem wyłączeń ACR. Nie nadawać kategorii w badaniu jednofazowym ani dla zmiany o potwierdzonej patologicznie złośliwości.
+    - W CT wymagane są fazy tętnicza, wrotna i opóźniona. Jeżeli jakość lub brak fazy uniemożliwia kategoryzację obserwacji, należy zastosować LR-NC.

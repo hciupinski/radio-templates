@@ -1,0 +1,49 @@
+id: ct-rozedma-pluc
+title: Rozedma płuc
+modality: CT
+examTypes:
+  - HRCT klatki piersiowej
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Płuca
+pathology:
+  - Rozedma płuc
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - chest-hrct-basic-2025
+imageRefs:
+  - id: rozedma-przyprzegrodowa-tk-commons
+    title: Rozedma przyprzegrodowa z pęcherzami
+    imageUrl: >-
+      https://upload.wikimedia.org/wikipedia/commons/8/8b/Spontanpneumothorax_rechts_bei_ausgepraegtem_paraseptalem_Emphysem_41M_-_CR_und_CT_-_001.jpg
+    sourceUrl: >-
+      https://commons.wikimedia.org/wiki/File:Spontanpneumothorax_rechts_bei_ausgepraegtem_paraseptalem_Emphysem_41M_-_CR_und_CT_-_001.jpg
+    sourceId: wikimedia-commons
+    caption: Po prawej przekroje TK po drenażu. Po lewej zdjęcie RTG przed drenażem z prawostronną odmą.
+    alt: Przekroje TK z podopłucnowymi przestrzeniami powietrznymi i RTG z prawostronną odmą.
+    category: variant
+    findings:
+      - W TK skupiska obszarów niskiej gęstości bezpośrednio pod opłucną, wyraźniejsze po prawej stronie.
+      - Większe pęcherze podopłucnowe w górnych partiach płuc.
+      - Rozległa prawostronna odma na zdjęciu RTG.
+    attribution: Hellerhoff, Wikimedia Commons, CC BY-SA 4.0
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-11-15"
+sections:
+  assessmentChecklist:
+    - Typ rozedmy i rozmieszczenie osiowe oraz szczytowo-podstawne.
+    - Rozległość zmian, obecność pęcherzy rozedmowych i ucisk sąsiedniego miąższu.
+    - Inne zmiany miąższowe, włóknienie, drogi oddechowe oraz porównanie z badaniem wcześniejszym.
+  reportTemplate: |
+    W {{lokalizacja}} obszary obniżonej gęstości odpowiadające rozedmie {{typ_rozedmy}}, o nasileniu {{nasilenie}} i rozmieszczeniu {{rozmieszczenie}}. Pęcherze rozedmowe {{lokalizacja_wymiary_i_ucisk_lub_brak}}. Drogi oddechowe {{opis_oskrzeli}}. Pozostały miąższ płuc {{zmiany_towarzyszace}}. Jamy opłucnej {{oplucna}}. W porównaniu z badaniem {{data_badania}} {{dynamika_lub_brak_porownania}}.
+  impressionTemplate: |
+    Rozedma płuc {{typ_i_rozmieszczenie}}, {{nasilenie}}. {{pecherze_i_zmiany_towarzyszace}}.
+  clinicalNotes:
+    - Rozpoznanie POChP wymaga danych klinicznych i czynnościowych; sam obraz rozedmy w CT nie określa stopnia obturacji.

@@ -1,0 +1,40 @@
+id: "ct-nerki-ostre-odmiedniczkowe-zapalenie"
+title: "Ostre odmiedniczkowe zapalenie nerek"
+modality: "CT"
+examTypes: ["CT jamy brzusznej i miednicy"]
+bodySystems: ["Układ moczowy"]
+bodyParts: ["Jama brzuszna"]
+organs: ["Nerki"]
+pathology: ["Odmiedniczkowe zapalenie"]
+tags: ["Rezydent", "Pilne"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["uro-ct-pyelonephritis"]
+imageRefs:
+  - id: odmiedniczkowe-zapalenie-nerek-tk-commons
+    title: Obustronne odmiedniczkowe zapalenie nerek
+    imageUrl: >-
+      https://upload.wikimedia.org/wikipedia/commons/8/84/Pyelonephritis_beidseits_51W_-_CT_KM_pv_axial_coronar_-_001.jpg
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Pyelonephritis_beidseits_51W_-_CT_KM_pv_axial_coronar_-_001.jpg
+    sourceId: wikimedia-commons
+    caption: TK po kontraście w przekrojach osiowym i czołowym ukazuje niejednorodne wzmocnienie miąższu obu nerek.
+    alt: Obie nerki z pasmowatymi strefami słabszego wzmocnienia miąższu.
+    category: typical
+    findings:
+      - Pasmowate i klinowate strefy słabszego wzmocnienia miąższu obu nerek.
+      - Pasmowate zagęszczenia tkanki tłuszczowej wokół nerek.
+    attribution: Hellerhoff, Wikimedia Commons, CC BY-SA 4.0
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-11-15"
+sections:
+  assessmentChecklist:
+    - "Strona, wielkość nerki oraz rozmieszczenie klinowatych lub pasmowatych obszarów słabszego wzmocnienia."
+    - "Zbiorniki ropne, gaz, naciek okołonerkowy i szerzenie pozanerkowe."
+    - "Zastój, ewentualny złóg i stan drugiej nerki."
+  reportTemplate: |
+    Badanie po dożylnym podaniu środka kontrastowego, faza {{faza}}. Nerka {{strona}} {{wielkosc}}; obszary słabszego wzmocnienia {{rozmieszczenie_i_charakter}}. Tkanka okołonerkowa {{naciek}}, {{ropien_lub_brak}} zbiornika ropnego i {{gaz_lub_brak}} gazu. Układ kielichowo-miedniczkowy {{zastoj}}, moczowód {{moczowod}}, złogi {{zlogi}}. Nerka przeciwna {{opis_nerki_przeciwnej}}.
+  impressionTemplate: |
+    Obraz przemawiający za ostrym odmiedniczkowym zapaleniem nerki {{strona}}. {{zastoj_i_powiklania}}.
+  clinicalNotes:
+    - "Obraz CT należy interpretować wraz z objawami i wynikami badań laboratoryjnych; ogniska słabszego wzmocnienia nie są swoiste dla zakażenia. Ocena miąższu bez kontrastu jest ograniczona."

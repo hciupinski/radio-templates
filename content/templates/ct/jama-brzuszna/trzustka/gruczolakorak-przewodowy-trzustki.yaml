@@ -1,0 +1,32 @@
+id: ct-gruczolakorak-przewodowy-trzustki
+title: Podejrzenie gruczolakoraka przewodowego trzustki
+modality: CT
+examTypes:
+  - CT w protokole trzustkowym
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Trzustka
+pathology:
+  - Gruczolakorak
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-15"
+sourceRefs:
+  - ct-pancreatic-cancer-assistant
+  - ct-pancreas-sar-apa-consensus
+sections:
+  assessmentChecklist:
+    - Fazy badania, wymiary i lokalizacja zmiany oraz przewód trzustkowy i drogi żółciowe.
+    - "Kontakt z każdą istotną tętnicą i żyłą: długość, obwód kontaktu w stopniach, deformacja lub zwężenie; warianty naczyniowe."
+    - Zmiany w wątrobie i otrzewnej, węzły, inne narządy i porównanie.
+  reportTemplate: |
+    Badanie w fazach {{fazy_badania}}; ograniczenia {{ograniczenia}}. W {{lokalizacja}} trzustki zmiana {{wymiary_mm}} mm, {{charakter_i_wzmocnienie}}. Przewód trzustkowy {{przewod_trzustkowy}}, drogi żółciowe {{drogi_zolciowe}}. Relacja guza do naczyń: pień trzewny {{pien_trzewny_kat_dlugosc_kontur}}, tętnica krezkowa górna {{tetnica_krezkowa_gorna_kat_dlugosc_kontur}}, tętnica wątrobowa wspólna {{tetnica_watrobowa_wspolna_kat_dlugosc_kontur}}, żyła wrotna {{zyla_wrotna_kat_dlugosc_kontur_i_droznosc}}, żyła krezkowa górna {{zyla_krezkowa_gorna_kat_dlugosc_kontur_i_droznosc}}, żyła śledzionowa {{zyla_sledzionowa_kontakt_i_droznosc}}. Warianty naczyniowe {{warianty}}. Wątroba {{watroba}}, otrzewna {{otrzewna}}, węzły {{wezly}}, inne zmiany {{inne}}. Porównanie {{porownanie}}.
+  impressionTemplate: |
+    Zmiana trzustki {{lokalizacja_i_wymiary}}, {{pewnosc}} gruczolakoraka przewodowego. {{stosunek_do_naczyn_i_zmiany_odlegle}}.
+  clinicalNotes:
+    - Dla każdego naczynia opisać kontakt w stopniach i jego długość, nierówność konturu, zwężenie lub niedrożność oraz ewentualną zakrzepicę; opis nie przesądza o kwalifikacji operacyjnej.

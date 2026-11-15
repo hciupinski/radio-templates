@@ -1,0 +1,25 @@
+id: "ct-nerki-zmiana-torbielowata-bosniak-2019"
+title: "Torbielowata zmiana nerki w klasyfikacji Bosniak 2019"
+modality: "CT"
+examTypes: ["CT nerek w protokole guzowym"]
+bodySystems: ["Układ moczowy"]
+bodyParts: ["Jama brzuszna"]
+organs: ["Nerki"]
+pathology: ["Torbiel złożona"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["uro-ct-bosniak-2019", "uro-ct-bosniak-v2019"]
+sections:
+  assessmentChecklist:
+    - "Ocenić, czy klasyfikacja ma zastosowanie i czy dostępny protokół umożliwia ocenę wzmocnienia."
+    - "Lokalizacja, wymiary, zawartość i zwapnienia; ściana i przegrody: liczba, maksymalna grubość, gładkość i wzmocnienie."
+    - "Wzmacniające się guzki, ich wielkość i granice; kategoria tylko przy wystarczającej jakości."
+  reportTemplate: |
+    W nerce {{strona}}, {{lokalizacja}}, torbielowata zmiana o wymiarach {{wymiary_mm}} mm. Dostępne fazy {{fazy}}, zawartość {{gestosc_i_jednorodnosc}}, zwapnienia {{zwapnienia}}. Ściana {{grubosc_i_wzmocnienie}}, przegrody {{liczba_grubosc_wzmocnienie}}, nierówności lub guzki {{guzki_i_wzmocnienie}}. Ocena wzmocnienia {{metoda_i_ograniczenia}}. {{kategoria_bosniak_2019_lub_nieokreslona}}.
+  impressionTemplate: |
+    Torbielowata zmiana nerki {{strona}} {{wymiary_mm}} mm, {{kategoria_bosniak_2019_lub_nieokreslona}}.
+  clinicalNotes:
+    - "Bosniak 2019 dotyczy właściwie scharakteryzowanych zmian torbielowatych, po wykluczeniu etiologii zakaźnej, zapalnej i naczyniowej; wzmocniona tkanka stanowi mniej niż 25% zmiany."
+    - "Kategoria IIF lub wyższa w CT wymaga wzmocnienia ściany, przegród lub guzka; ocena jest ograniczona bez porównywalnej fazy przedkontrastowej i pokontrastowej oraz przy maskujących zwapnieniach. W niejednoznacznych przypadkach nie należy wymuszać kategorii."

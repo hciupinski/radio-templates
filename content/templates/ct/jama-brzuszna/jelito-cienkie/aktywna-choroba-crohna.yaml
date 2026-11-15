@@ -1,0 +1,33 @@
+id: ct-aktywna-choroba-crohna
+title: Aktywna choroba Leśniowskiego-Crohna jelita cienkiego
+modality: CT
+examTypes:
+  - Enterografia CT
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Jelito cienkie
+pathology:
+  - Choroba Leśniowskiego-Crohna jelita cienkiego
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-15"
+sourceRefs:
+  - ct-crohn-imaging-consensus
+  - ct-crohn-stricture-sar-2025
+  - ct-crohn-esgar-essentials
+sections:
+  assessmentChecklist:
+    - Rozdęcie jelita i jakość badania; lokalizacja oraz długość zajętych odcinków.
+    - Grubość i wzmocnienie ściany, uwarstwienie, owrzodzenia i przekrwienie krezki.
+    - Zwężenia i średnica jelita przed zwężeniem; przetoki, ropnie i porównanie.
+  reportTemplate: |
+    Enterografia CT: rozdęcie jelita {{rozdecie_jelita}}, ograniczenia {{ograniczenia}}. W {{odcinek}} na długości {{dlugosc_cm}} cm ściana {{grubosc_mm}} mm, {{wzmocnienie_i_uwarstwienie}}, {{owrzodzenia}}. Krezka {{naciek_i_unaczynienie}}. Zwężenia {{lokalizacja_i_stopien}}, średnica pętli przed zwężeniem {{srednica_przedzwezeniowa_mm}} mm. Przetoki {{przetoki}}, zbiorniki {{zbiorniki_lokalizacja_i_wymiary}}. Porównanie {{porownanie}}.
+  impressionTemplate: |
+    Cechy aktywnego zapalenia {{odcinek_i_dlugosc}} w przebiegu choroby Leśniowskiego-Crohna. {{zwezenie_przetoka_ropien}}.
+  clinicalNotes:
+    - CT ocenia morfologię i aktywność zapalną, lecz sam obraz nie pozwala wiarygodnie określić udziału włóknienia w zwężeniu; zmiany zapalne i włóknienie mogą współistnieć.

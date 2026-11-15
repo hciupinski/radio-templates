@@ -1,0 +1,32 @@
+id: ct-obrzek-pluc
+title: Obraz obrzęku płuc
+modality: CT
+examTypes:
+  - CT klatki piersiowej
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Płuca
+pathology:
+  - Obrzęk płuc
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - chest-hrct-basic-2025
+  - pulmonary-edema-review
+sections:
+  assessmentChecklist:
+    - Rozmieszczenie i zasięg pogrubienia przegród, zagęszczeń typu mlecznej szyby i konsolidacji.
+    - Pogrubienie okołonaczyniowe i okołooskrzelowe, wielkość serca oraz płyn opłucnowy.
+    - Cechy alternatywnej przyczyny oraz porównanie z wcześniejszym badaniem.
+  reportTemplate: |
+    W płucach {{rozmieszczenie}} widoczne {{mleczna_szyba_i_konsolidacje}} oraz {{pogrubienie_przegrod_i_tkanek_okolooskrzelowych}}. Serce {{wielkosc_serca}}, jamy opłucnej {{plyn_oplucnowy}}. Inne zmiany w płucach i śródpiersiu {{pozostale_zmiany}}. W porównaniu z {{data_badania}} {{dynamika_lub_brak_porownania}}.
+  impressionTemplate: |
+    Obraz {{nasilenie_i_zasieg}} obrzęku płuc; w odpowiednim kontekście klinicznym może odpowiadać obrzękowi kardiogennemu. {{plyn_oplucnowy_i_inne_zmiany}}.
+  clinicalNotes:
+    - Zagęszczenia typu mlecznej szyby i pogrubienie przegród są nieswoiste; ocena przyczyny wymaga korelacji klinicznej.

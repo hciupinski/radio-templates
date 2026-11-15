@@ -1,0 +1,32 @@
+id: ct-zapalenie-oskrzelikow
+title: Obraz zapalenia oskrzelików
+modality: CT
+examTypes:
+  - HRCT klatki piersiowej
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Płuca
+pathology:
+  - Zapalenie oskrzelików
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - chest-hrct-basic-2025
+  - chest-tree-in-bud-education
+sections:
+  assessmentChecklist:
+    - Lokalizacja i zasięg drobnych guzków środkowozrazikowych oraz rozgałęziających się zagęszczeń typu drzewa w pączkach.
+    - Pogrubienie ścian oskrzeli, czopy śluzowe, rozstrzenie, konsolidacje i jamy.
+    - Dynamika zmian oraz kontekst zakażenia, aspiracji i potencjalnej przeszkody oskrzelowej.
+  reportTemplate: |
+    W {{platy_i_segmenty}} {{guzki_srodkowozrazikowe}}; rozgałęziające się zagęszczenia typu drzewa w pączkach {{drzewo_w_paczkach}}, o zasięgu {{zasieg}}. Ściany oskrzeli {{grubosc_scian}}, zaleganie wydzieliny {{wydzielina}}, rozstrzenie oskrzeli {{rozstrzenie}}. Konsolidacje lub jamy {{opis_lub_brak}}. Pozostały miąższ i jamy opłucnej {{pozostale_zmiany}}. W porównaniu z {{data_badania}} {{dynamika_lub_brak_porownania}}.
+  impressionTemplate: |
+    Obraz zmian drobnych dróg oddechowych w {{lokalizacja}}, {{pewnosc_rozpoznania}} zapalenia oskrzelików; ewentualne tło zakaźne {{podejrzenie_zakazenia}}. {{zmiany_towarzyszace}}.
+  clinicalNotes:
+    - "Obraz drzewa w pączkach jest nieswoisty: występuje m.in. w zakażeniach i aspiracji; nie identyfikuje drobnoustroju ani samodzielnie nie potwierdza aktywnego zakażenia."
