@@ -1,0 +1,32 @@
+id: ct-zakrzepica-zyly-wrotnej
+title: Zakrzepica żyły wrotnej
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Układ naczyniowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Żyła wrotna
+pathology:
+  - Zakrzepica żyły wrotnej
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-15"
+sourceRefs:
+  - ct-portal-thrombosis-imaging
+  - ct-liver-tumors-assistant
+sections:
+  assessmentChecklist:
+    - Fazy i jakość zakontrastowania układu wrotnego.
+    - Zakres skrzepliny, stopień zamknięcia, gałęzie, żyła krezkowa górna i śledzionowa.
+    - Wzmocnienie materiału, ciągłość z guzem, krążenie oboczne i cechy niedokrwienia jelit.
+  reportTemplate: |
+    W fazie {{faza_badania}} w {{odcinki_zyly_wrotnej}} ubytek wypełnienia {{zasieg_i_stopien_zamkniecia}}. Żyła krezkowa górna i śledzionowa {{zyly_krezkowa_i_sledzionowa}}. Materiał wewnątrznaczyniowy {{wzmocnienie_materialu_i_ograniczenia}}, ciągłość ze zmianą ogniskową {{ciaglosc_z_guzem}}. Naczynia oboczne {{krazenie_oboczne}}. Jelita i krezka {{jelita_i_krezka}}; inne zmiany {{inne}}.
+  impressionTemplate: |
+    Materiał wewnątrznaczyniowy w układzie wrotnym {{zasieg_i_stopien}}: {{zakrzep_lagodny_lub_podejrzenie_tkanki_nowotworowej_lub_nieokreslony}}. {{powiklania}}.
+  clinicalNotes:
+    - Jednoznaczne wzmocnienie tkanki w świetle żyły przemawia za jej charakterem nowotworowym. Ciągłość z guzem jest dodatkową wskazówką, lecz nie jest konieczna; przy ograniczonym protokole charakter może pozostać nieokreślony.

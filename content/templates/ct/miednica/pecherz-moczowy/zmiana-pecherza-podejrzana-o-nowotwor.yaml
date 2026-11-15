@@ -1,0 +1,24 @@
+id: "ct-pecherz-podejrzenie-nowotworu"
+title: "Zmiana pęcherza podejrzana o nowotwór"
+modality: "CT"
+examTypes: ["Urografia CT"]
+bodySystems: ["Układ moczowy"]
+bodyParts: ["Miednica"]
+organs: ["Pęcherz moczowy"]
+pathology: ["Zmiana pęcherza podejrzana o nowotwór"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["uro-ct-urography", "uro-ct-bladder-cancer"]
+sections:
+  assessmentChecklist:
+    - "Fazy badania, wypełnienie i stopień rozdęcia pęcherza oraz ograniczenia."
+    - "Lokalizacja, wielkość, liczba i charakter zmiany, stosunek do ujść moczowodów oraz ewentualny zastój."
+    - "Ocena tkanek okołopęcherzowych, węzłów i górnych dróg moczowych w dostępnym zakresie."
+  reportTemplate: |
+    Urografia CT w fazach {{fazy}}. Pęcherz {{wypelnienie_i_rozdecie}}. W ścianie {{lokalizacja}} widoczna {{charakter_zmiany}} o wymiarach {{wymiary_mm}} mm, {{wzmocnienie_lub_ubytek_wypelnienia}}. Ujścia moczowodów {{ujscia}}, górne drogi moczowe {{drogi_moczowe_i_zastoj}}. Tkanka okołopęcherzowa {{tkanki}}, węzły chłonne {{wezly}}. Ograniczenia {{ograniczenia}}.
+  impressionTemplate: |
+    Zmiana ściany pęcherza {{lokalizacja}}, {{wymiary_mm}} mm, podejrzana o nowotwór. {{zastoj_lub_inne_istotne_zmiany}}.
+  clinicalNotes:
+    - "CTU nie zastępuje cystoskopii i oceny histopatologicznej; małe lub płaskie zmiany mogą być niewidoczne. CT nie pozwala wiarygodnie rozróżnić warstw ściany i głębokości naciekania mięśniówki."

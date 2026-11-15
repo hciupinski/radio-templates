@@ -151,6 +151,55 @@ examTypes:
       - CTA naczyń krezkowych
       - CTA jamy brzusznej i miednicy
       - tomografia angiograficzna naczyń krezkowych
+  - id: ct-klatki-piersiowej-z-kontrastem
+    label: CT klatki piersiowej z kontrastem
+    synonyms:
+      - TK klatki piersiowej z kontrastem
+      - CT klatki piersiowej po kontraście
+      - contrast-enhanced chest CT
+  - id: ct-trzustki-protokol-trzustkowy
+    label: CT w protokole trzustkowym
+    synonyms:
+      - TK trzustki w protokole trzustkowym
+      - pancreatic protocol CT
+      - wielofazowa TK trzustki
+  - id: ct-watroby-wielofazowa
+    label: Wielofazowa CT wątroby
+    synonyms:
+      - wielofazowa TK wątroby
+      - multiphase liver CT
+      - TK wątroby protokół dynamiczny
+  - id: enterografia-ct
+    label: Enterografia CT
+    synonyms:
+      - enterografia TK
+      - CT enterography
+      - TK enterografia
+  - id: ct-jamy-brzusznej-i-miednicy-bez-kontrastu
+    label: CT jamy brzusznej i miednicy bez kontrastu
+    synonyms:
+      - TK jamy brzusznej i miednicy bez kontrastu
+      - NCCT brzucha i miednicy
+      - noncontrast CT abdomen and pelvis
+  - id: ct-klatki-piersiowej-jamy-brzusznej-i-miednicy
+    label: CT klatki piersiowej, jamy brzusznej i miednicy
+    synonyms:
+      - TK klatki piersiowej jamy brzusznej i miednicy
+      - CT chest abdomen pelvis
+      - CT stagingowy
+  - id: ct-nerek-protokol-guzowy
+    label: CT nerek w protokole guzowym
+    synonyms:
+      - TK nerek protokół guzowy
+      - renal mass protocol CT
+      - CT nerek bez i po kontraście
+  - id: urografia-ct
+    label: Urografia CT
+    synonyms:
+      - urografia TK
+      - CTU
+      - CT urography
+      - TK urograficzna
 
 bodySystems:
   - id: przewod-pokarmowy
@@ -349,6 +398,22 @@ organs:
     label: Tętnice kończyny górnej
     synonyms:
       - upper limb arteries
+  - id: drogi-zolciowe
+    label: Drogi żółciowe
+    synonyms:
+      - przewód żółciowy wspólny
+      - bile ducts
+      - common bile duct
+  - id: zyla-wrotna
+    label: Żyła wrotna
+    synonyms:
+      - układ wrotny
+      - portal vein
+  - id: moczowody
+    label: Moczowody
+    synonyms:
+      - ureters
+      - moczowód
 
 pathology:
   - id: obraz-prawidlowy
@@ -861,6 +926,77 @@ pathology:
       - endoleak
       - endoleak po EVAR
       - przeciek po stentgraftowaniu
+  - id: rozedma-pluc
+    label: Rozedma płuc
+    synonyms:
+      - emphysema
+      - pulmonary emphysema
+  - id: rozstrzenie-oskrzeli
+    label: Rozstrzenie oskrzeli
+    synonyms:
+      - bronchiectasis
+      - bronchiectases
+  - id: zapalenie-oskrzelikow
+    label: Zapalenie oskrzelików
+    synonyms:
+      - bronchiolitis
+      - tree in bud
+      - drzewo w pączkach
+  - id: obrzek-pluc
+    label: Obrzęk płuc
+    synonyms:
+      - pulmonary edema
+      - pulmonary oedema
+  - id: ropien-pluca
+    label: Ropień płuca
+    synonyms:
+      - lung abscess
+      - pulmonary abscess
+  - id: podejrzenie-raka-pluca
+    label: Guz płuca podejrzany o nowotwór pierwotny
+    synonyms:
+      - lung cancer
+      - suspected lung cancer
+      - guz płuca
+  - id: ostre-zapalenie-pecherzyka-zolciowego
+    label: Ostre zapalenie pęcherzyka żółciowego
+    synonyms:
+      - acute cholecystitis
+      - ostre zapalenie pęcherzyka
+  - id: kamica-przewodowa
+    label: Kamica przewodowa
+    synonyms:
+      - choledocholithiasis
+      - kamica przewodu żółciowego wspólnego
+  - id: zakrzepica-zyly-wrotnej
+    label: Zakrzepica żyły wrotnej
+    synonyms:
+      - portal vein thrombosis
+      - PVT
+  - id: choroba-crohna-jelita-cienkiego
+    label: Choroba Leśniowskiego-Crohna jelita cienkiego
+    synonyms:
+      - Crohn disease
+      - choroba Crohna
+      - ileitis Crohn
+  - id: kamica-moczowodu-z-zastojem
+    label: Kamica moczowodu z zastojem
+    synonyms:
+      - złóg moczowodu
+      - ureterolithiasis
+      - obstructing ureteral stone
+  - id: zmiana-pecherza-podejrzana-o-nowotwor
+    label: Zmiana pęcherza podejrzana o nowotwór
+    synonyms:
+      - guz pęcherza
+      - bladder tumor
+      - urothelial bladder tumor
+  - id: zmiana-przydatkow-podejrzana-o-nowotwor
+    label: Zmiana przydatków podejrzana o nowotwór
+    synonyms:
+      - podejrzenie raka jajnika
+      - ovarian cancer
+      - adnexal mass
 
 tags:
   - id: rezydent

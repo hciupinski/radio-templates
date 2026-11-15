@@ -189,3 +189,13 @@ Pierwsza seria obejmuje 62 szablony patologii. Zakres dobrano pod kątem częsty
 | Angio-TK aorty | 6 | Krwiak śródścienny aorty, Owrzodzenie drążące aorty, Pęknięcie tętniaka aorty, Przeciek okołoprotezowy po EVAR, Rozwarstwienie aorty, Tętniak aorty |
 
 Kryteria opracowania zapisano w [promptach do etapu 23](prompty-skille-etap-23-tk-patologie.md).
+
+### Druga seria TK — częste zmiany chorobowe u dorosłych
+
+| Zakres badania | Liczba | Patologie i warianty |
+| --- | ---: | --- |
+| Klatka piersiowa | 6 | Guz płuca podejrzany o nowotwór pierwotny, Obraz obrzęku płuc, Obraz zapalenia oskrzelików, Ropień płuca, Rozedma płuc, Rozstrzenie oskrzeli |
+| Jama brzuszna | 6 | Aktywna choroba Leśniowskiego-Crohna jelita cienkiego, Kamica przewodu żółciowego wspólnego, Ostre zapalenie pęcherzyka żółciowego, Podejrzenie gruczolakoraka przewodowego trzustki, Podejrzenie raka wątrobowokomórkowego, Zakrzepica żyły wrotnej |
+| Układ moczowy i miednica | 6 | Kamica moczowodu z zastojem, Lita zmiana nerki podejrzana o nowotwór, Ostre odmiedniczkowe zapalenie nerek, Torbielowata zmiana nerki w klasyfikacji Bosniak 2019, Zmiana pęcherza podejrzana o nowotwór, Zmiana przydatków podejrzana o nowotwór |
+
+Zakres i zasady opracowania opisano w [promptach do etapu 24](prompty-skille-etap-24-tk-zmiany-chorobowe.md).

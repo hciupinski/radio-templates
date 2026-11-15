@@ -54,7 +54,7 @@ anatomySections:
     - id: zmiany-torbielowate
       label: Zmiany torbielowate
       pathology:
-        [Torbiel Bosniak I, Torbiel Bosniak II, Torbiel Bosniak IIF, Torbiel Bosniak III-IV]
+        [Torbiel złożona, Torbiel Bosniak I, Torbiel Bosniak II, Torbiel Bosniak IIF, Torbiel Bosniak III-IV]
       order: 30
     - id: guzy
       label: Guzy i zmiany lite
@@ -193,6 +193,28 @@ anatomySections:
       pathology:
         - Przeciek okołoprotezowy po EVAR
       order: 30
+  Płuca:
+    - id: miazsz-i-oskrzela
+      label: Miąższ płuc i oskrzela
+      pathology:
+        - Rozedma płuc
+        - Rozstrzenie oskrzeli
+        - Obrzęk płuc
+        - Włóknienie płuc
+      order: 10
+    - id: zapalne
+      label: Zapalenia i ropnie
+      pathology:
+        - Ropień płuca
+        - Zapalenie oskrzelików
+        - Zapalenie płuc
+      order: 20
+    - id: guzki-i-guzy
+      label: Guzki i guzy
+      pathology:
+        - Guz płuca podejrzany o nowotwór pierwotny
+        - Guzek lity płuca
+      order: 30
 
 conditionGroups:
   - id: obraz-prawidlowy
@@ -204,9 +226,21 @@ conditionGroups:
   - id: zmiany-torbielowate
     label: Zmiany torbielowate
     description: Zmiany torbielowate i torbiele wymagające różnicowania między badaniami.
-    organs: [Wątroba, Nerki, Trzustka, Tarczyca]
+    organs:
+      - Wątroba
+      - Nerki
+      - Trzustka
+      - Tarczyca
     pathology:
-      [Torbiel, Torbiel prosta, Torbiel złożona, Torbiel rzekoma, Torbiel Bosniak I, Torbiel Bosniak II, Torbiel Bosniak IIF, Torbiel Bosniak III-IV, IPMN]
+      - Torbiel
+      - Torbiel prosta
+      - Torbiel złożona
+      - Torbiel rzekoma
+      - Torbiel Bosniak I
+      - Torbiel Bosniak II
+      - Torbiel Bosniak IIF
+      - Torbiel Bosniak III-IV
+      - IPMN
     order: 20
   - id: zmiany-lite-guzowe
     label: Zmiany lite i guzowe
@@ -224,8 +258,20 @@ conditionGroups:
   - id: kamica-i-zastoj
     label: Kamica i zastój
     description: Kamica, zastój i wtórne poszerzenia układu zbiorczego lub dróg żółciowych.
-    organs: [Pęcherzyk żółciowy, Nerki, Wątroba]
-    pathology: [Kamica, Złóg zaklinowany w szyi, Błoto żółciowe, Wodonercze, Poszerzenie dróg żółciowych]
+    organs:
+      - Pęcherzyk żółciowy
+      - Nerki
+      - Wątroba
+      - Drogi żółciowe
+      - Moczowody
+    pathology:
+      - Kamica
+      - Złóg zaklinowany w szyi
+      - Błoto żółciowe
+      - Wodonercze
+      - Poszerzenie dróg żółciowych
+      - Kamica przewodowa
+      - Kamica moczowodu z zastojem
     order: 50
   - id: zmiany-przerzutowe
     label: Zmiany przerzutowe i podejrzane
@@ -290,14 +336,15 @@ conditionGroups:
       - CT
     order: 90
   - id: niedokrwienie-i-zwezenia-ct
-    label: Niedokrwienie, zwężenia i zatory
-    description: Ostre niedokrwienie i patologie drożności naczyń mózgu, płuc, jelit i kończyn.
+    label: Zakrzepica, niedokrwienie, zwężenia i zatory
+    description: Ocena drożności naczyń mózgu, płuc, jamy brzusznej i kończyn oraz obraz niedokrwienia.
     organs:
       - Mózgowie
       - Tętnice wewnątrzczaszkowe
       - Jelito cienkie
       - Tętnice płucne
       - Tętnice kończyn dolnych
+      - Żyła wrotna
     pathology:
       - Ostre niedokrwienie mózgu
       - Niedrożność dużego naczynia mózgowego
@@ -307,6 +354,7 @@ conditionGroups:
       - Zatorowość płucna
       - Niedrożność tętnicy kończyny dolnej
       - Miażdżycowe zwężenie tętnic kończyn dolnych
+      - Zakrzepica żyły wrotnej
     modalities:
       - CT
     order: 100
@@ -340,7 +388,7 @@ conditionGroups:
     order: 120
   - id: zapalenia-ct
     label: Zmiany zapalne w TK
-    description: Zapalenia i ropnie szyi, zatok i oczodołów, płuc, brzucha i miednicy.
+    description: Zapalenia i ropnie szyi, zatok i oczodołów, płuc, jamy brzusznej i miednicy.
     organs:
       - Jelito grube
       - Trzustka
@@ -350,6 +398,9 @@ conditionGroups:
       - Tkanki miękkie szyi
       - Oczodoły
       - Zatoki przynosowe
+      - Pęcherzyk żółciowy
+      - Jelito cienkie
+      - Nerki
     pathology:
       - Zapalenie uchyłków jelita grubego
       - Ostre zapalenie trzustki
@@ -362,22 +413,38 @@ conditionGroups:
       - Ostre zapalenie ślinianki
       - Pozaprzegrodowe zapalenie tkanek oczodołu
       - Przewlekłe zapalenie zatok przynosowych
+      - Ropień płuca
+      - Zapalenie oskrzelików
+      - Ostre zapalenie pęcherzyka żółciowego
+      - Choroba Leśniowskiego-Crohna jelita cienkiego
+      - Odmiedniczkowe zapalenie
     modalities:
       - CT
     order: 130
   - id: zmiany-ogniskowe-ct
     label: Zmiany ogniskowe w TK
-    description: Zmiany w płucach, szyi, mózgowiu i kręgosłupie oraz ocena podejrzenia przerzutów.
+    description: Podejrzenie zmian nowotworowych oraz ocena zasięgu zmian ogniskowych.
     organs:
       - Mózgowie
       - Kręgosłup
       - Płuca
       - Tkanki miękkie szyi
+      - Trzustka
+      - Wątroba
+      - Nerki
+      - Pęcherz moczowy
+      - Przydatki
     pathology:
       - Przerzuty
       - Guzek lity płuca
       - Guz gardła lub krtani
       - Przerzutowe
+      - Guz płuca podejrzany o nowotwór pierwotny
+      - Gruczolakorak
+      - HCC
+      - Guz nerki
+      - Zmiana pęcherza podejrzana o nowotwór
+      - Zmiana przydatków podejrzana o nowotwór
     modalities:
       - CT
     order: 140
@@ -394,8 +461,8 @@ conditionGroups:
       - CT
     order: 150
   - id: choroby-miazszu-i-oplucnej-ct
-    label: Włóknienie płuc i zmiany opłucnowe
-    description: Włóknienie płuc, odma i płyn w jamie opłucnej.
+    label: Choroby miąższu płuc, oskrzeli i opłucnej
+    description: Rozedma, rozstrzenie oskrzeli, włóknienie i obrzęk płuc oraz odma i płyn w jamie opłucnej.
     organs:
       - Opłucna
       - Płuca
@@ -403,6 +470,9 @@ conditionGroups:
       - Odma opłucnowa
       - Płyn w jamie opłucnej
       - Włóknienie płuc
+      - Rozedma płuc
+      - Rozstrzenie oskrzeli
+      - Obrzęk płuc
     modalities:
       - CT
     order: 160

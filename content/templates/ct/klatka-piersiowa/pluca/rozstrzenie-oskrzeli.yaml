@@ -1,0 +1,48 @@
+id: ct-rozstrzenie-oskrzeli
+title: Rozstrzenie oskrzeli
+modality: CT
+examTypes:
+  - HRCT klatki piersiowej
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Płuca
+pathology:
+  - Rozstrzenie oskrzeli
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - chest-hrct-basic-2025
+  - bronchiectasis-dgp-2024
+  - bronchiectasis-ers-2025
+imageRefs:
+  - id: rozstrzenie-oskrzeli-tk-commons
+    title: Rozstrzenie oskrzeli w dolnym płacie lewego płuca
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/9/95/Bronchiektasen_links_basal_51M_-_CT_coronar_-_001.jpg
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Bronchiektasen_links_basal_51M_-_CT_coronar_-_001.jpg
+    sourceId: wikimedia-commons
+    caption: Rekonstrukcja czołowa TK w oknie płucnym.
+    alt: Skupisko torbielowato poszerzonych oskrzeli nad lewą kopułą przepony.
+    category: typical
+    findings:
+      - Torbielowato poszerzone światła oskrzeli u podstawy lewego płuca.
+      - Widoczne ściany poszerzonych oskrzeli w pobliżu opłucnej.
+    attribution: Hellerhoff, Wikimedia Commons, CC BY-SA 4.0
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-11-15"
+sections:
+  assessmentChecklist:
+    - Typ walcowaty, żylakowaty lub torbielowaty oraz rozmieszczenie i rozległość.
+    - Poszerzenie oskrzeli w stosunku do naczyń, brak obwodowego zwężania, pogrubienie ścian i zaleganie wydzieliny.
+    - Guzki drzewiaste, niedodma, współistniejące włóknienie i ewentualna ogniskowa przeszkoda oskrzela.
+  reportTemplate: |
+    W {{platy_i_segmenty}} widoczne rozstrzenie oskrzeli typu {{typ}}, o nasileniu {{nasilenie_i_zasieg}}. Ściany oskrzeli {{grubosc_scian}}, zaleganie wydzieliny {{wydzielina}}. Towarzyszące guzki wewnątrzzrazikowe / obraz drzewa w pączkach {{opis}}, niedodma {{opis_niedodmy}}. Ogniskowa przeszkoda w oskrzelu {{ocena_lub_ograniczenie}}. Pozostały miąższ płuc {{pozostale_zmiany}}. W porównaniu z {{data_badania}} {{dynamika_lub_brak_porownania}}.
+  impressionTemplate: |
+    Rozstrzenie oskrzeli {{typ_i_rozmieszczenie}}, {{nasilenie}}. {{wydzielina_i_zmiany_towarzyszace}}.
+  clinicalNotes:
+    - Poszerzenie oskrzeli w obszarze włóknienia może mieć charakter rozstrzeni z pociągania; należy opisać współistniejące zaburzenie architektury.

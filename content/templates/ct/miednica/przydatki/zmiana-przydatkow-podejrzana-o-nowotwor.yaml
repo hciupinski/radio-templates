@@ -1,0 +1,24 @@
+id: "ct-przydatki-podejrzenie-nowotworu"
+title: "Zmiana przydatków podejrzana o nowotwór"
+modality: "CT"
+examTypes: ["CT klatki piersiowej, jamy brzusznej i miednicy"]
+bodySystems: ["Układ rozrodczy"]
+bodyParts: ["Miednica", "Jama brzuszna", "Klatka piersiowa"]
+organs: ["Przydatki"]
+pathology: ["Zmiana przydatków podejrzana o nowotwór"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["uro-ct-ovarian-esur", "uro-ct-ovarian-lexicon"]
+sections:
+  assessmentChecklist:
+    - "Strona, wymiary, skład lito-torbielowaty i stosunek zmiany do macicy i narządów sąsiednich."
+    - "Wodobrzusze i lokalizacje zmian otrzewnowych: przepona, sieć, krezka, powierzchnia jelit i narządów, zachyłek miednicy."
+    - "Węzły, miąższ wątroby i śledziony, opłucna i narządy klatki piersiowej w zakresie badania; ograniczenia."
+  reportTemplate: |
+    CT klatki piersiowej, jamy brzusznej i miednicy po dożylnym podaniu kontrastu; zakres i fazy {{zakres_i_fazy}}. W obrębie przydatków {{strona}} zmiana {{charakter}} o wymiarach {{wymiary_mm}} mm; stosunek do macicy i narządów sąsiednich {{stosunek}}. Wodobrzusze {{plyn}}. Zmiany otrzewnowe {{otrzewna_i_lokalizacje}}, sieć i krezka {{siec_i_krezka}}, jelita {{jelita}}, przepona {{przepona}}. Węzły chłonne {{wezly}}. Wątroba i śledziona {{narzady_miazszowe}}, opłucna i klatka piersiowa {{klatka}}. Ograniczenia {{ograniczenia}}.
+  impressionTemplate: |
+    Zmiana przydatków {{strona}}, {{wymiary_mm}} mm, podejrzana o nowotwór. {{widoczny_zasieg_zmian_i_plyn}}.
+  clinicalNotes:
+    - "CT może nie uwidocznić drobnych wszczepów otrzewnowych ani ustalić narządu wyjścia zmiany; opis zasięgu obrazowego nie zastępuje oceny klinicznej i histopatologicznej ani ostatecznego stopnia zaawansowania."

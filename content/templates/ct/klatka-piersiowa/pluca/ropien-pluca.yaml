@@ -1,0 +1,32 @@
+id: ct-ropien-pluca
+title: Ropień płuca
+modality: CT
+examTypes:
+  - CT klatki piersiowej z kontrastem
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Płuca
+pathology:
+  - Ropień płuca
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - radiopaedia-lung-abscess
+  - ct-pneumonia-review
+sections:
+  assessmentChecklist:
+    - Lokalizacja, liczba i wymiary zmian jamistych, ściana oraz obecność płynu i gazu.
+    - Otaczająca konsolidacja, drożność oskrzela i możliwa przeszkoda.
+    - Kontakt z opłucną, płyn lub cechy ropniaka, inne ogniska i dostępne porównanie.
+  reportTemplate: |
+    W {{plat_i_segment}} zmiana jamista o wymiarach {{wymiary_mm}} mm, ze ścianą {{grubosc_i_wzmocnienie_sciany}} oraz zawartością {{plyn_gaz_lub_poziom}}. W otoczeniu {{konsolidacja_i_zasieg}}. Oskrzela doprowadzające {{droznosc_i_przeszkoda}}. Opłucna i jama opłucnej {{kontakt_i_plyn_lub_ropniak}}. Pozostały miąższ płuc i węzły śródpiersia {{opis}}. Porównanie z {{data_badania}} {{dynamika_lub_brak_porownania}}.
+  impressionTemplate: |
+    Zmiana jamista {{lokalizacja_i_wymiary}} podejrzana o ropień płuca, {{powiklania_lub_brak}}. {{ograniczenia_lub_rozpoznanie_roznicowe}}.
+  clinicalNotes:
+    - Martwiczy guz i ropniak opłucnej mogą naśladować ropień płuca; charakter zmiany należy ocenić w kontekście klinicznym i porównawczym.

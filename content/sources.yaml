@@ -1031,3 +1031,172 @@
   licenseNote: >-
     Znaczenie faz kontrastowych, wycieku i krwiaka oraz cystografii CT w urazach brzucha i miednicy. Odsyłacz do
     materiału edukacyjnego.
+- id: chest-hrct-basic-2025
+  title: "The Radiology Assistant: HRCT - Basic Interpretation"
+  url: https://radiologyassistant.nl/chest/hrct/basic-interpretation
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Autorska synteza obrazowych cech rozedmy, rozstrzeni i obrzęku.
+- id: bronchiectasis-dgp-2024
+  title: "Management of Adult Bronchiectasis: Consensus-Based Guidelines of the German Respiratory Society"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13278716/
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Kryteria CT, rozmieszczenie i morfologia rozstrzeni.
+- id: bronchiectasis-ers-2025
+  title: European Respiratory Society clinical practice guideline for the management of adult bronchiectasis
+  url: https://publications.ersnet.org/content/erj/66/6/2501126
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Kontekst rozstrzeni oskrzeli u dorosłych.
+- id: chest-tree-in-bud-education
+  title: "The Radiology Assistant: COVID-19 CO-RADS classification"
+  url: https://radiologyassistant.nl/chest/covid-19/corads-classification
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Przykłady wzorca drzewa w pączkach w zakażeniach oskrzelików.
+- id: pulmonary-edema-review
+  title: "Pulmonary Edema: A Pictorial Review of Imaging Manifestations and Current Understanding of Mechanisms of Disease"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7607415/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Obraz obrzęku płuc i ograniczenia oceny etiologii.
+- id: radiopaedia-lung-abscess
+  title: "Radiopaedia: Lung abscess"
+  url: https://radiopaedia.org/articles/lung-abscess
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Obraz CT ropnia płuca i różnicowanie; tekst opracowany autorsko.
+- id: lung-cancer-rcr
+  title: "Royal College of Radiologists: Lung cancer imaging recommendations"
+  url: >-
+    https://www.rcr.ac.uk/media/i2sh4yrw/rcr-publications_recommendations-for-cross-sectional-imaging-in-cancer-management-second-edition-09-lung-cancer_april-2022.pdf
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Ocena guza, węzłów i zakresu badania w raku płuca.
+- id: chest-tnm-radiology-assistant
+  title: "The Radiology Assistant: Lung cancer TNM classification 9th edition"
+  url: https://radiologyassistant.nl/chest/lung-cancer/tnm-classification-8th-edition-1
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Anatomiczne elementy opisu guza i węzłów; bez automatycznego przypisywania stadium.
+- id: ct-ruq-acr-2022
+  title: "ACR Appropriateness Criteria: Right Upper Quadrant Pain"
+  url: https://acsearch.acr.org/docs/69474/Narrative/
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy opisu i ograniczeń badania; bez kopiowania tekstu i ilustracji.
+- id: ct-biliary-obstruction-assistant
+  title: "The Radiology Assistant: Gallbladder obstruction"
+  url: https://radiologyassistant.nl/abdomen/biliary-system/lk-jg
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy opisu i ograniczeń badania; bez kopiowania tekstu i ilustracji.
+- id: ct-choledocholithiasis-radiopaedia
+  title: Choledocholithiasis
+  url: https://radiopaedia.org/articles/choledocholithiasis?lang=us
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy opisu i ograniczeń badania; bez kopiowania tekstu i ilustracji.
+- id: ct-pancreatic-cancer-assistant
+  title: "The Radiology Assistant: Pancreatic Cancer - CT staging 2.0"
+  url: https://radiologyassistant.nl/abdomen/pancreas/pancreas-carcinoma-1
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy opisu i ograniczeń badania; bez kopiowania tekstu i ilustracji.
+- id: ct-lirads-v2018-core
+  title: ACR CT/MRI LI-RADS v2018 Core
+  url: https://www.acr.org/-/media/ACR/Files/RADS/LI-RADS/LI-RADS-2018-Core.pdf
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy opisu i ograniczeń badania; bez kopiowania tekstu i ilustracji.
+- id: ct-lirads-assistant
+  title: "The Radiology Assistant: LI-RADS"
+  url: https://radiologyassistant.nl/abdomen/liver/li-rads
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy opisu i ograniczeń badania; bez kopiowania tekstu i ilustracji.
+- id: ct-portal-thrombosis-imaging
+  title: Imaging Diagnosis of Splanchnic Venous Thrombosis
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4620257/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy opisu i ograniczeń badania; bez kopiowania tekstu i ilustracji.
+- id: ct-liver-tumors-assistant
+  title: "The Radiology Assistant: Common Liver Tumors"
+  url: https://radiologyassistant.nl/abdomen/liver/common-liver-tumors
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy opisu i ograniczeń badania; bez kopiowania tekstu i ilustracji.
+- id: ct-crohn-imaging-consensus
+  title: Indian guidelines on imaging of the small intestine in Crohn disease
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6639863/
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy opisu i ograniczeń badania; bez kopiowania tekstu i ilustracji.
+- id: ct-crohn-stricture-sar-2025
+  title: SAR Consensus Recommendations for Defining Small Bowel Crohn Disease Strictures at CT and MR Enterography
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12314767/
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy opisu i ograniczeń badania; bez kopiowania tekstu i ilustracji.
+- id: ct-crohn-esgar-essentials
+  title: "ESR Essentials: diagnosis and assessment of treatment response in luminal Crohn disease"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12634764/
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy opisu i ograniczeń badania; bez kopiowania tekstu i ilustracji.
+- id: ct-pancreas-sar-apa-consensus
+  title: "Pancreatic Ductal Adenocarcinoma Radiology Reporting Template: SAR and APA Consensus"
+  url: https://www.cghjournal.org/article/S0016-5085%2813%2901588-6/fulltext
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Konsensus towarzystw wykorzystany do zakresu opisu i relacji guza do naczyń; bez kopiowania tekstu.
+- id: uro-ct-bosniak-2019
+  title: "The Radiology Assistant: Bosniak Classification 2019"
+  url: https://radiologyassistant.nl/abdomen/kidney/bozniak-2019
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i ograniczeń CT; prawa do ilustracji wymagają oddzielnej weryfikacji.
+- id: uro-ct-bosniak-v2019
+  title: "Bosniak Classification of Cystic Renal Masses, Version 2019: An Update Proposal and Needs Assessment"
+  url: https://pubs.rsna.org/doi/10.1148/radiol.2019182646
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i ograniczeń CT; prawa do ilustracji wymagają oddzielnej weryfikacji.
+- id: uro-ct-pyelonephritis
+  title: Urinary Obstruction, Stone Disease, and Infection
+  url: https://www.ncbi.nlm.nih.gov/books/NBK543798/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i ograniczeń CT; prawa do ilustracji wymagają oddzielnej weryfikacji.
+- id: uro-ct-urography
+  title: "Computed Tomography Urography: State of the Art and Beyond"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10204399/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i ograniczeń CT; prawa do ilustracji wymagają oddzielnej weryfikacji.
+- id: uro-ct-bladder-cancer
+  title: Imaging and Management of Bladder Cancer
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8003397/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i ograniczeń CT; prawa do ilustracji wymagają oddzielnej weryfikacji.
+- id: uro-ct-ovarian-esur
+  title: "ESR Essentials: characterisation and staging of adnexal masses with MRI and CT"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11557651/
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i ograniczeń CT; prawa do ilustracji wymagają oddzielnej weryfikacji.
+- id: uro-ct-ovarian-lexicon
+  title: Ovarian Cancer Reporting Lexicon for CT and MR Imaging
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9516633/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i ograniczeń CT; prawa do ilustracji wymagają oddzielnej weryfikacji.
+- id: uro-ct-renal-solid
+  title: "EAU Guidelines on Renal Cell Carcinoma: Diagnostic Evaluation"
+  url: https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/diagnostic-evaluation
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i ograniczeń CT; prawa do ilustracji wymagają oddzielnej weryfikacji.

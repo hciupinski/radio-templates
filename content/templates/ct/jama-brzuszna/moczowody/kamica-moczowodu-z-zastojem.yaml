@@ -1,0 +1,24 @@
+id: "ct-moczowod-kamica-z-zastojem"
+title: "Kamica moczowodu z zastojem"
+modality: "CT"
+examTypes: ["CT jamy brzusznej i miednicy bez kontrastu"]
+bodySystems: ["Układ moczowy"]
+bodyParts: ["Jama brzuszna", "Miednica"]
+organs: ["Moczowody"]
+pathology: ["Kamica moczowodu z zastojem"]
+tags: ["Rezydent", "Pilne"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["eau-urolithiasis-2026"]
+sections:
+  assessmentChecklist:
+    - "Strona, poziom i maksymalny wymiar złogu w moczowodzie, opcjonalnie jego gęstość."
+    - "Poszerzenie moczowodu i układu kielichowo-miedniczkowego powyżej złogu oraz zmiany okołonerkowe."
+    - "Dodatkowe złogi, druga nerka i widoczne ograniczenia."
+  reportTemplate: |
+    W moczowodzie {{strona}}, na poziomie {{poziom}}, złóg o maksymalnym wymiarze {{wymiar_mm}} mm, gęstości około {{gestosc_hu}} HU. Powyżej złogu {{stopien}} poszerzenie moczowodu i układu kielichowo-miedniczkowego. Tkanka tłuszczowa okołonerkowa {{naciek_lub_brak}}. Pozostałe złogi {{pozostale_zlogi}}, nerka przeciwna {{nerka_przeciwna}}.
+  impressionTemplate: |
+    Złóg moczowodu {{strona}} na poziomie {{poziom}}, {{wymiar_mm}} mm, z {{stopien_zastoju}}.
+  clinicalNotes:
+    - "Cechy zastoju opisują obraz anatomiczny i nie określają samodzielnie stopnia upośledzenia czynności nerki."

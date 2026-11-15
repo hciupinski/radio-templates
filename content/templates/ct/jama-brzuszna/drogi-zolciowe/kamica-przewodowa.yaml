@@ -1,0 +1,32 @@
+id: ct-kamica-przewodowa
+title: Kamica przewodu żółciowego wspólnego
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Układ hepatobiliarny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Drogi żółciowe
+pathology:
+  - Kamica przewodowa
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-15"
+sourceRefs:
+  - ct-ruq-acr-2022
+  - ct-choledocholithiasis-radiopaedia
+sections:
+  assessmentChecklist:
+    - "Widoczny złóg: liczba, położenie i rozmiar; stopień pewności."
+    - Średnica dróg żółciowych, poziom przeszkody i pęcherzyk.
+    - Cechy towarzyszącego zapalenia trzustki lub powikłań oraz ograniczenia CT.
+  reportTemplate: |
+    W przewodzie żółciowym wspólnym {{lokalizacja}} widoczne {{liczba_i_charakter_zlogow}}, o wymiarze do {{wymiar_mm}} mm. Przewód żółciowy wspólny {{srednica_mm}} mm; wewnątrzwątrobowe drogi żółciowe {{drogi_wewnatrzwatrobowe}}. Pęcherzyk {{pecherzyk}}. Trzustka i otoczenie {{trzustka}}. Ograniczenia oceny {{ograniczenia}}.
+  impressionTemplate: |
+    {{pewnosc}} kamicy przewodowej {{lokalizacja_i_wymiar}}. {{poszerzenie_drog_i_powiklania}}.
+  clinicalNotes:
+    - Nie wszystkie złogi różnią się gęstością od żółci; brak widocznego złogu w CT nie wyklucza kamicy przewodowej.

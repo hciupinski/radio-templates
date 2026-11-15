@@ -1,0 +1,47 @@
+id: ct-ostre-zapalenie-pecherzyka-zolciowego
+title: Ostre zapalenie pęcherzyka żółciowego
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Układ hepatobiliarny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Pęcherzyk żółciowy
+pathology:
+  - Ostre zapalenie pęcherzyka żółciowego
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-15"
+sourceRefs:
+  - ct-ruq-acr-2022
+  - ct-biliary-obstruction-assistant
+imageRefs:
+  - id: ostre-zapalenie-pecherzyka-tk-commons
+    title: Ostre zapalenie pęcherzyka żółciowego w TK
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/2/22/Akute_Cholezystitis_85M_-_CT_KM_pv_-_001.jpg
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Akute_Cholezystitis_85M_-_CT_KM_pv_-_001.jpg
+    sourceId: wikimedia-commons
+    caption: Przekrój osiowy po dożylnym podaniu kontrastu w fazie wrotnej.
+    alt: Powiększony pęcherzyk żółciowy z pogrubiałą ścianą i odczynem otaczającego tłuszczu.
+    category: typical
+    findings:
+      - Rozdęte światło pęcherzyka żółciowego.
+      - Pogrubienie ściany pęcherzyka i niewielki odczyn przylegającej tkanki tłuszczowej.
+    attribution: Hellerhoff, Wikimedia Commons, CC BY-SA 4.0
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-11-15"
+sections:
+  assessmentChecklist:
+    - Wielkość i ściana pęcherzyka oraz widoczne złogi, w tym w szyi lub przewodzie pęcherzykowym.
+    - Tkanka i płyn okołopęcherzykowy; drogi żółciowe i sąsiednia wątroba.
+    - "Cechy powikłań: ubytek lub brak wzmocnienia ściany, gaz, ropień i perforacja."
+  reportTemplate: |
+    Pęcherzyk żółciowy {{wielkosc}}, ściana {{grubosc_i_wzmocnienie}}. Złogi {{zlogi_i_lokalizacja}}. Tkanki okołopęcherzykowe {{naciek_i_plyn}}, miąższ wątroby w sąsiedztwie {{watroba}}. Drogi żółciowe {{drogi_zolciowe}}. Cechy powikłań {{gaz_ubytek_sciany_ropien}}.
+  impressionTemplate: |
+    Obraz {{pewnosc}} ostrego zapalenia pęcherzyka żółciowego. {{powiklania}}.
+  clinicalNotes:
+    - Pogrubienie ściany pęcherzyka jest nieswoiste; interpretacja wymaga korelacji klinicznej. CT może nie uwidocznić złogów.
