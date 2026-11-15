@@ -1,0 +1,23 @@
+id: "ct-skurcz-tetnic-mozgowych"
+title: "Skurcz tętnic mózgowych"
+modality: "CT"
+examTypes: ["Angio-CT głowy"]
+bodySystems: ["Układ naczyniowy"]
+bodyParts: ["Głowa"]
+organs: ["Tętnice wewnątrzczaszkowe"]
+pathology: ["Skurcz tętnic mózgowych"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["cta-intracranial-stenosis", "cta-intracranial-aneurysm", "cta-brain-vasospasm-guideline"]
+sections:
+  assessmentChecklist:
+    - "Lokalizacja i stopień odcinkowych zwężeń oraz ich porównanie z poprzednim badaniem."
+    - "Kontekst krwotoku podpajęczynówkowego i alternatywne przyczyny zwężenia."
+  reportTemplate: |
+    Odcinkowe zwężenia {{tetnice_i_odcinki}}, o nasileniu {{stopien}}; wypełnienie dalszych odcinków {{wypelnienie}}. W porównaniu z {{badanie_poprzednie}} {{zmiana}}. Inne zmiany {{inne}}; ograniczenia {{ograniczenia}}.
+  impressionTemplate: |
+    Odcinkowe zwężenia {{tetnice}}, mogące odpowiadać skurczowi naczyń w odpowiednim kontekście klinicznym.
+  clinicalNotes:
+    - "Ocena małych naczyń oraz stopnia zwężenia zależy od rozdzielczości, wypełnienia i artefaktów."

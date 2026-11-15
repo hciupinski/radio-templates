@@ -1,0 +1,25 @@
+id: "ct-owrzodzenie-drazace-aorty"
+title: "Owrzodzenie drążące aorty"
+modality: "CT"
+examTypes: ["Angio-CT aorty"]
+bodySystems: ["Układ naczyniowy"]
+bodyParts: ["Klatka piersiowa", "Jama brzuszna"]
+organs: ["Aorta"]
+pathology: ["Owrzodzenie drążące aorty"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - cta-aorta-acc-aha-2022
+  - radiopaedia-cta-aortic-syndrome
+sections:
+  assessmentChecklist:
+    - "Położenie, głębokość i szerokość owrzodzenia w zmienionej miażdżycowo aorcie."
+    - "Krwiak śródścienny, rozwarstwienie, cechy pęknięcia i średnica aorty."
+  reportTemplate: |
+    W odcinku {{odcinek}} zmienionej miażdżycowo aorty uwidoczniono wypełnioną kontrastem niszę wnikającą w ścianę, o szerokości {{szerokosc_mm}} mm i głębokości {{glebokosc_mm}} mm. Średnica aorty {{srednica_mm}} mm. Krwiak śródścienny {{krwiak}}, cechy pęknięcia {{pekniecie}}.
+  impressionTemplate: |
+    Owrzodzenie drążące aorty {{odcinek}}. {{powiklania}}.
+  clinicalNotes:
+    - "Ocena krwiaka śródściennego jest ograniczona bez fazy przed podaniem kontrastu; artefakt ruchowy może naśladować płat."

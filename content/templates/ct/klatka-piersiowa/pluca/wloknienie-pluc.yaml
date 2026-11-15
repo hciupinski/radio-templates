@@ -1,0 +1,31 @@
+id: ct-wloknienie-pluc
+title: Włóknienie płuc
+modality: CT
+examTypes:
+  - HRCT klatki piersiowej
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Płuca
+pathology:
+  - Włóknienie płuc
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: '2026-11-15'
+sourceRefs:
+  - ct-fibrosis-assistant
+sections:
+  assessmentChecklist:
+    - Rozmieszczenie osiowe i szczytowo-podstawne zmian.
+    - Siateczka, plaster miodu, rozstrzenie z pociągania i zaburzenie architektury.
+    - Cechy sugerujące alternatywny wzorzec oraz ocena porównawcza.
+  reportTemplate: >
+    W płucach {{rozmieszczenie}} widoczne {{siateczka_i_zaburzenie_architektury}}, {{rozstrzenie_z_pociagania}} oraz
+    {{plaster_miodu}}. Zagęszczenia typu mlecznej szyby {{mleczna_szyba}}; inne dominujące cechy {{inne_cechy}}. W
+    porównaniu z {{badanie_poprzednie}}: {{dynamika}}. Wzorzec HRCT {{wzorzec_i_pewnosc}}.
+  impressionTemplate: |
+    Cechy włóknienia płuc: {{rozmieszczenie_i_wzorzec}}. {{dynamika}}.

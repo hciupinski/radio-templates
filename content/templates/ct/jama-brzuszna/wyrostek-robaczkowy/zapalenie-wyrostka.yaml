@@ -1,0 +1,30 @@
+id: ct-zapalenie-wyrostka
+title: Ostre zapalenie wyrostka robaczkowego
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Wyrostek robaczkowy
+pathology:
+  - Ostre zapalenie wyrostka robaczkowego
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: '2026-11-15'
+sourceRefs:
+  - ct-appendicitis-assistant
+sections:
+  assessmentChecklist:
+    - Położenie, średnica i ściana wyrostka, kamień kałowy.
+    - Zmiany zapalne tłuszczu i płyn.
+    - Cechy perforacji, ropnia i inne możliwe źródło objawów.
+  reportTemplate: >
+    Wyrostek robaczkowy {{polozenie}}, średnicy {{srednica_mm}} mm, {{sciana_i_wzmocnienie}}; {{kamien_kalowy}}. W
+    otoczeniu {{naciek_tluszczu_i_plyn}}. {{powietrze_poza_swiatlem_ropien}}. {{inne_istotne_zmiany}}.
+  impressionTemplate: |
+    Obraz {{rozpoznanie_i_pewnosc}} zapalenia wyrostka robaczkowego. {{powiklania}}.

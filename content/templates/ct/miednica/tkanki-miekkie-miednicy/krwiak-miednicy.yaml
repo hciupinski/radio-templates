@@ -1,0 +1,31 @@
+id: ct-krwiak-miednicy
+title: Krwiak miednicy
+modality: CT
+examTypes:
+  - CT miednicy
+bodySystems:
+  - Układ mięśniowo-szkieletowy
+bodyParts:
+  - Miednica
+organs:
+  - Tkanki miękkie miednicy
+pathology:
+  - Krwiak miednicy
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: '2026-11-15'
+sourceRefs:
+  - ct-pelvic-ring-review
+  - ra-ct-abdominal-trauma
+sections:
+  assessmentChecklist:
+    - Przestrzeń i wymiary krwiaka oraz jego wpływ na narządy.
+    - Wynaczynienie kontrastu w dostępnych fazach.
+    - Obrażenia kostne i narządowe oraz ograniczenia badania.
+  reportTemplate: >
+    Krwiak {{lokalizacja}} o wymiarach {{wymiary_mm}} mm, {{zasieg_i_efekt_masy}}. W dostępnych fazach
+    {{ocena_wynaczynienia_i_ograniczenia}}. Obrażenia kostne {{kosci}}; narządy miednicy {{narzady_i_ograniczenia}}.
+  impressionTemplate: |
+    Krwiak miednicy {{lokalizacja_i_wymiary}}. {{wynaczynienie_i_ograniczenia}}.

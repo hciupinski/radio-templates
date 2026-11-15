@@ -1,0 +1,34 @@
+id: ct-szyja-zapalenie-naglosni
+title: Zapalenie nagłośni i okolicy nadgłośniowej
+modality: CT
+examTypes:
+  - CT szyi z kontrastem
+bodySystems:
+  - Głowa i szyja
+bodyParts:
+  - Szyja
+organs:
+  - Tkanki miękkie szyi
+pathology:
+  - Zapalenie nagłośni
+tags:
+  - Rezydent
+  - Pilne
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - esr-neck-infection
+  - critical-neck-infection
+  - adult-epiglottitis-airway
+sections:
+  assessmentChecklist:
+    - Grubość nagłośni i fałdów nalewkowo-nagłośniowych.
+    - Światło krtani, obecność zbiornika ropnego i szerzenie do sąsiednich przestrzeni.
+    - Obrzęk tkanek miękkich oraz inne istotne zmiany w badanym zakresie.
+  reportTemplate: |
+    Nagłośnia {{opis}}, fałdy nalewkowo-nagłośniowe {{opis}}. Obrzęk obejmuje {{zasieg}}, światło części nadgłośniowej krtani {{stopien_zwezenia}}. {{zbiornik_ropny_lub_brak}}. Sąsiednie przestrzenie szyi {{opis}}, węzły chłonne {{opis}}.
+  impressionTemplate: |
+    Obraz zapalenia nagłośni / okolicy nadgłośniowej z {{opis_zwezenia}}. {{ropien_lub_brak}}.
+  clinicalNotes:
+    - CT należy rozważać u pacjenta ze stabilnymi lub zabezpieczonymi drogami oddechowymi; obrazowanie nie może opóźniać postępowania przy zagrożeniu ich drożności.

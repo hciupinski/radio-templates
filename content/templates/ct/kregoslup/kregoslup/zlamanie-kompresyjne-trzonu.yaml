@@ -1,0 +1,23 @@
+id: "ct-zlamanie-kompresyjne-trzonu"
+title: "Złamanie kompresyjne trzonu kręgu"
+modality: "CT"
+examTypes: ["CT kręgosłupa"]
+bodySystems: ["Układ mięśniowo-szkieletowy"]
+bodyParts: ["Kręgosłup"]
+organs: ["Kręgosłup"]
+pathology: ["Złamanie kompresyjne trzonu kręgu"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["ct-spine-trauma-review", "ct-cervical-trauma-review"]
+sections:
+  assessmentChecklist:
+    - "Poziom, wysokość trzonu i zajęte blaszki graniczne."
+    - "Tylna ściana, kanał kręgowy, elementy tylne i inne poziomy."
+  reportTemplate: |
+    Trzon {{poziom}} obniżony o około {{utrata_wysokosci_procent}}%, ze szczeliną złamania {{lokalizacja}}. Tylna ściana {{tylna_sciana}}, kanał kręgowy {{kanal}}. Elementy tylne {{elementy_tylne}}; tkanki przykręgowe {{tkanki}}. Inne poziomy {{inne}}.
+  impressionTemplate: |
+    Złamanie kompresyjne trzonu {{poziom}}, obniżenie o około {{utrata_wysokosci_procent}}%.
+  clinicalNotes:
+    - "CT ogranicza ocenę rdzenia i więzadeł; ich nieuszkodzenia nie można potwierdzić samym brakiem złamania."

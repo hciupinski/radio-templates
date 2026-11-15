@@ -1,0 +1,31 @@
+id: ct-glowa-krwotok-srodmozgowy
+title: Krwotok śródmózgowy
+modality: CT
+examTypes:
+  - CT głowy bez kontrastu
+bodySystems:
+  - Układ nerwowy
+bodyParts:
+  - Głowa
+organs:
+  - Mózgowie
+pathology:
+  - Krwotok śródmózgowy
+tags:
+  - Rezydent
+  - Pilne
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - ra-hemorrhage
+  - ct-neurocritical
+sections:
+  assessmentChecklist:
+    - Położenie, wymiary i ewentualna objętość krwiaka.
+    - Przebicie do komór lub przestrzeni podpajęczynówkowej, obrzęk i efekt masy.
+    - Przemieszczenie struktur pośrodkowych, zbiorniki podstawy i wodogłowie.
+  reportTemplate: |
+    W {{lokalizacja_i_strona}} krwiak śródmiąższowy o wymiarach {{wymiary_mm}} mm, objętość około {{objetosc_ml}} ml. Obrzęk okołokrwiakowy {{opis}}. {{obecnosc_lub_brak}} krwi w komorach i przestrzeni podpajęczynówkowej. Przemieszczenie struktur pośrodkowych {{mm}} mm, zbiorniki podstawy {{opis}}, układ komorowy {{opis}}.
+  impressionTemplate: |
+    Krwotok śródmózgowy {{lokalizacja}}, {{wymiary_mm}} mm; {{efekt_masy_i_rozszerzenie_krwawienia}}.

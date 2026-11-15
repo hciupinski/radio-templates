@@ -1,0 +1,31 @@
+id: ct-zapalenie-pluc
+title: Zapalenie płuc
+modality: CT
+examTypes:
+  - CT klatki piersiowej
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Płuca
+pathology:
+  - Zapalenie płuc
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: '2026-11-15'
+sourceRefs:
+  - ct-pneumonia-review
+sections:
+  assessmentChecklist:
+    - Lokalizacja, rozległość i wzorzec zagęszczeń.
+    - Drogi oddechowe, martwica lub jama i ewentualna przeszkoda oskrzela.
+    - Płyn opłucnowy i węzły chłonne.
+  reportTemplate: >
+    W {{lokalizacja}} widoczne {{konsolidacje_i_lub_mleczna_szyba}}, o zasięgu {{zasieg}}; bronchogram powietrzny
+    {{bronchogram}}. Oskrzela {{oskrzela}}. Cechy martwicy lub jamy {{martwica_jama}}. Opłucna {{plyn_i_oplucna}}; węzły
+    chłonne {{wezly}}.
+  impressionTemplate: |
+    Obraz zmian zapalnych płuc: {{lokalizacja_i_zasieg}}. {{powiklania}}.

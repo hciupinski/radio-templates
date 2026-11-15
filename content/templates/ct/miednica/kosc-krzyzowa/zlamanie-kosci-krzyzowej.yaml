@@ -1,0 +1,31 @@
+id: ct-zlamanie-kosci-krzyzowej
+title: Złamanie kości krzyżowej
+modality: CT
+examTypes:
+  - CT miednicy
+bodySystems:
+  - Układ mięśniowo-szkieletowy
+bodyParts:
+  - Miednica
+organs:
+  - Kość krzyżowa
+pathology:
+  - Złamanie kości krzyżowej
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: '2026-11-15'
+sourceRefs:
+  - ct-sacral-fractures
+sections:
+  assessmentChecklist:
+    - Strona i przebieg szczelin, zasięg otworów oraz kanału krzyżowego.
+    - Przemieszczenie i ewentualna składowa poprzeczna.
+    - Stawy krzyżowo-biodrowe i pozostałe części pierścienia.
+  reportTemplate: >
+    Złamanie kości krzyżowej {{strona_i_przebieg}}, obejmujące {{otwory_i_kanal}}; przemieszczenie
+    {{przemieszczenie_mm}} mm. Składowa poprzeczna {{skladowa_poprzeczna}}. Stawy krzyżowo-biodrowe {{stawy}}; pozostały
+    pierścień miednicy {{pozostale_zlamania}}.
+  impressionTemplate: |
+    Złamanie kości krzyżowej {{lokalizacja_i_przemieszczenie}}. {{obrazenia_towarzyszace}}.

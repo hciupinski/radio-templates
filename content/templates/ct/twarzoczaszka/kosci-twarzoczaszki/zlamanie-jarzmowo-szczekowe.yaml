@@ -1,0 +1,31 @@
+id: ct-twarzoczaszka-zlamanie-jarzmowo-szczekowe
+title: Złamanie kompleksu jarzmowo-szczękowego
+modality: CT
+examTypes:
+  - CT twarzoczaszki bez kontrastu
+bodySystems:
+  - Układ mięśniowo-szkieletowy
+bodyParts:
+  - Twarzoczaszka
+organs:
+  - Kości twarzoczaszki
+pathology:
+  - Złamanie kompleksu jarzmowo-szczękowego
+tags:
+  - Rezydent
+  - Pilne
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - facial-trauma-report
+  - acr-facial-trauma
+sections:
+  assessmentChecklist:
+    - Łuk jarzmowy, połączenia jarzmowo-czołowe, jarzmowo-szczękowe i jarzmowo-klinowe.
+    - Dno i ściana boczna oczodołu, przemieszczenie i rotacja odłamów.
+    - Zatoka szczękowa, kanał podoczodołowy, oczodół i wyrostek dziobiasty żuchwy.
+  reportTemplate: |
+    Złamania kompleksu jarzmowo-szczękowego {{strona}} obejmują {{struktury}}. Przemieszczenie i rotacja kompleksu {{opis}}. Ściany oczodołu i kanał podoczodołowy {{opis}}; zawartość oczodołu {{opis}}. Zatoka szczękowa {{opis}}, stosunek łuku jarzmowego do wyrostka dziobiastego {{opis}}.
+  impressionTemplate: |
+    Złamanie kompleksu jarzmowo-szczękowego {{strona}}, {{przemieszczenie_i_istotne_uszkodzenia_towarzyszace}}.

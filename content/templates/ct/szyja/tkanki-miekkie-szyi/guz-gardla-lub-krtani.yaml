@@ -1,0 +1,32 @@
+id: ct-szyja-guz-gardla-lub-krtani
+title: Guz gardła lub krtani
+modality: CT
+examTypes:
+  - CT szyi z kontrastem
+bodySystems:
+  - Głowa i szyja
+bodyParts:
+  - Szyja
+organs:
+  - Tkanki miękkie szyi
+pathology:
+  - Guz gardła lub krtani
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - head-neck-cancer-imaging
+  - acr-head-neck-cancer
+sections:
+  assessmentChecklist:
+    - Miejsce wyjścia, wymiary, przekraczanie linii pośrodkowej i granice anatomiczne zmiany.
+    - Naciekanie sąsiednich przestrzeni, chrząstek, kości i relacja do naczyń oraz drożność dróg oddechowych.
+    - Węzły chłonne według strony i poziomu, wymiar osi krótkiej i cechy martwicy lub naciekania pozawęzłowego.
+  reportTemplate: |
+    W {{lokalizacja_i_strona}} widoczna zmiana tkankowa o wymiarach {{wymiary_mm}} mm, wzmacniająca się {{charakter_wzmocnienia}}. Zasięg {{granice_i_struktury_sasiednie}}, stosunek do naczyń {{opis}}, światło dróg oddechowych {{opis}}. Węzły chłonne szyi {{poziomy_strony_wymiary_i_morfologia}}. Widoczne kości i chrząstki {{opis}}.
+  impressionTemplate: |
+    Guz {{lokalizacja}} o zasięgu {{zasieg}}. {{podejrzane_wezly_lub_brak}}.
+  clinicalNotes:
+    - Obrazowanie opisuje zasięg zmiany; rozpoznanie histopatologiczne wymaga korelacji klinicznej.

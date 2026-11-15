@@ -1,0 +1,25 @@
+id: "ct-krwiak-srodscienny-aorty"
+title: "Krwiak śródścienny aorty"
+modality: "CT"
+examTypes: ["Angio-CT aorty"]
+bodySystems: ["Układ naczyniowy"]
+bodyParts: ["Klatka piersiowa", "Jama brzuszna"]
+organs: ["Aorta"]
+pathology: ["Krwiak śródścienny aorty"]
+tags: ["Rezydent", "Pilne"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - cta-aorta-acc-aha-2022
+  - radiopaedia-cta-aortic-syndrome
+sections:
+  assessmentChecklist:
+    - "Zakres i maksymalna grubość krwiaka, zajęcie aorty wstępującej."
+    - "Faza bez kontrastu, owrzodzenie, gałęzie i cechy pęknięcia."
+  reportTemplate: |
+    W ścianie aorty {{odcinek}} półksiężycowate pogrubienie o grubości do {{grubosc_mm}} mm, {{gestosc_bez_kontrastu}} w fazie bez kontrastu. Aorta wstępująca {{zajeta_lub_niezajeta}}. Uwidocznione ognisko przerwania błony wewnętrznej {{ognisko}}. Gałęzie {{galezie}}; cechy pęknięcia {{pekniecie}}.
+  impressionTemplate: |
+    Krwiak śródścienny aorty {{odcinek}}, typ Stanford {{typ}}. {{powiklania}}.
+  clinicalNotes:
+    - "Ocena krwiaka śródściennego jest ograniczona bez fazy przed podaniem kontrastu; artefakt ruchowy może naśladować płat."

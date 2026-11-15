@@ -1,0 +1,43 @@
+id: "ct-tetniak-aorty"
+title: "Tętniak aorty"
+modality: "CT"
+examTypes: ["Angio-CT aorty"]
+bodySystems: ["Układ naczyniowy"]
+bodyParts: ["Klatka piersiowa", "Jama brzuszna"]
+organs: ["Aorta"]
+pathology: ["Tętniak aorty"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["cta-aorta-acc-aha-2022"]
+imageRefs:
+  - id: tetniak-aorty-brzusznej-tk-commons
+    title: Tętniak aorty brzusznej w TK po kontraście
+    imageUrl: >-
+      https://upload.wikimedia.org/wikipedia/commons/4/4a/Contrast-enhanced_CT_scan_demonstrating_abdominal_aortic_aneurysm.jpg
+    sourceUrl: >-
+      https://commons.wikimedia.org/wiki/File:Contrast-enhanced_CT_scan_demonstrating_abdominal_aortic_aneurysm.jpg
+    sourceId: wikimedia-commons
+    caption: >-
+      Osiowa warstwa TK po kontraście z wymiarami naniesionymi na obraz. W raporcie średnicę maksymalną należy
+      zmierzyć prostopadle do osi naczynia.
+    alt: Poszerzona aorta brzuszna przed kręgosłupem z nałożonymi liniami pomiaru.
+    category: typical
+    findings:
+      - Poszerzony przekrój aorty brzusznej przed trzonem kręgu.
+      - Światło aorty wypełnione środkiem kontrastowym.
+      - Dwa wymiary oznaczone na przekroju osiowym.
+    attribution: James Heilman, MD, Wikimedia Commons, CC BY-SA 3.0
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-11-15"
+sections:
+  assessmentChecklist:
+    - "Umiejscowienie i maksymalne wymiary prostopadle do osi przepływu; sposób pomiaru."
+    - "Zakres względem gałęzi, skrzeplina, cechy pęknięcia i wcześniejsze naprawy."
+  reportTemplate: |
+    Poszerzenie aorty {{odcinek}} o maksymalnych wymiarach {{wymiary_mm}} mm, mierzonych {{metoda}} prostopadle do osi naczynia. Zasięg względem gałęzi {{galezie}}. Skrzeplina przyścienna {{skrzeplina}}. Cechy pęknięcia {{pekniecie}}. Porównanie {{porownanie}}.
+  impressionTemplate: |
+    Tętniak aorty {{odcinek}} o średnicy maksymalnej {{srednica_mm}} mm. {{powiklania}}.
+  clinicalNotes:
+    - "Ocena krwiaka śródściennego jest ograniczona bez fazy przed podaniem kontrastu; artefakt ruchowy może naśladować płat."

@@ -1,0 +1,23 @@
+id: "ct-uraz-tetnicy-konczyny-dolnej"
+title: "Uraz tętnicy kończyny dolnej"
+modality: "CT"
+examTypes: ["Angio-CT tętnic kończyn dolnych"]
+bodySystems: ["Układ naczyniowy"]
+bodyParts: ["Kończyna dolna"]
+organs: ["Tętnice kończyn dolnych"]
+pathology: ["Uraz tętnicy kończyny dolnej"]
+tags: ["Rezydent", "Pilne"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["cta-extremity-trauma", "cta-extremity-trauma-guideline"]
+sections:
+  assessmentChecklist:
+    - "Rodzaj i lokalizacja uszkodzenia, wynaczynienie lub tętniak rzekomy."
+    - "Drożność dalsza, obrażenia kości i tkanek miękkich, artefakty."
+  reportTemplate: |
+    Na poziomie {{lokalizacja}} tętnicy {{tetnica_i_strona}} widoczne {{uszkodzenie}}. {{wynaczynienie}} wynaczynienia kontrastu; krwiak {{krwiak}}. Wypełnienie tętnic obwodowych {{odplyw}}. Obrażenia towarzyszące {{obrazenia}}. Ograniczenia {{ograniczenia}}.
+  impressionTemplate: |
+    Uraz tętnicy {{tetnica_i_strona}}: {{uszkodzenie}}. {{wynaczynienie}}.
+  clinicalNotes:
+    - "Słabe wypełnienie dystalnych tętnic może wynikać z czasu akwizycji lub wolnego przepływu; należy podać ograniczenia badania."

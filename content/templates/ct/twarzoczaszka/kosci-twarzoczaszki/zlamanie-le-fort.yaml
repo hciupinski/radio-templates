@@ -1,0 +1,31 @@
+id: ct-twarzoczaszka-zlamanie-le-fort
+title: Złamanie typu Le Fort
+modality: CT
+examTypes:
+  - CT twarzoczaszki bez kontrastu
+bodySystems:
+  - Układ mięśniowo-szkieletowy
+bodyParts:
+  - Twarzoczaszka
+organs:
+  - Kości twarzoczaszki
+pathology:
+  - Złamanie typu Le Fort
+tags:
+  - Rezydent
+  - Pilne
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - facial-trauma-report
+  - acr-facial-trauma
+sections:
+  assessmentChecklist:
+    - Obustronne i jednostronne linie złamań oraz zajęcie blaszek wyrostków skrzydłowatych.
+    - Podpory szczęki, podniebienie, oczodoły, kości nosa i łuki jarzmowe.
+    - Przemieszczenia, podstawa czaszki, zawartość oczodołów i zatoki.
+  reportTemplate: |
+    Złamania środkowego piętra twarzy obejmują {{szczegolowe_lokalizacje_i_strony}}, w tym blaszki wyrostków skrzydłowatych {{opis}}. Obraz odpowiada układowi {{typ_le_fort_lub_opis_mieszany}}. Przemieszczenie odłamów {{opis}}. Oczodoły i ich zawartość {{opis}}, podstawa czaszki {{opis}}, zatoki {{opis}}.
+  impressionTemplate: |
+    Złożone złamania środkowego piętra twarzy {{typ_lub_opis}}, {{istotne_przemieszczenia_i_powiklania}}.

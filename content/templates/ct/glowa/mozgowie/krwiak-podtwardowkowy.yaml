@@ -1,0 +1,50 @@
+id: ct-glowa-krwiak-podtwardowkowy
+title: Krwiak podtwardówkowy
+modality: CT
+examTypes:
+  - CT głowy bez kontrastu
+bodySystems:
+  - Układ nerwowy
+bodyParts:
+  - Głowa
+organs:
+  - Mózgowie
+pathology:
+  - Krwiak podtwardówkowy
+tags:
+  - Rezydent
+  - Pilne
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - ra-hemorrhage
+  - ct-neurocritical
+  - radiopaedia-ct-subdural
+imageRefs:
+  - id: krwiak-podtwardowkowy-tk-commons
+    title: Pourazowy krwiak podtwardówkowy
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/f/f2/Trauma_subdural_arrows.jpg
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Trauma_subdural_arrows.jpg
+    sourceId: wikimedia-commons
+    caption: >-
+      Przekrój osiowy TK głowy. Pojedyncze strzałki wskazują krwiak, podwójne przesunięcie struktur
+      pośrodkowych.
+    alt: Osiowe TK z lewostronnym krwiakiem podtwardówkowym i przemieszczeniem linii pośrodkowej.
+    category: typical
+    findings:
+      - Sierpowata, niejednorodna kolekcja nad lewą półkulą.
+      - Uciśnięta lewa komora boczna.
+      - Przesunięcie struktur pośrodkowych w prawo.
+    attribution: Glitzy queen00, Wikimedia Commons, domena publiczna
+    licenseMode: public-domain
+    lastCheckedAt: "2026-11-15"
+sections:
+  assessmentChecklist:
+    - Strona, zasięg, maksymalna grubość i gęstość zbiornika.
+    - Efekt masy, przemieszczenie linii pośrodkowej, zbiorniki podstawy i komory.
+    - Współistniejące krwawienia i złamania w dostępnym zakresie.
+  reportTemplate: |
+    Przymózgowo po stronie {{strona}}, w okolicy {{lokalizacja}}, zbiornik podtwardówkowy o gęstości {{gestosc}} i grubości do {{grubosc_mm}} mm. Ucisk sąsiedniego mózgowia {{opis}}, przemieszczenie struktur pośrodkowych {{mm}} mm. Komory i zbiorniki podstawy {{opis}}. {{inne_krwawienia_i_zlamania}}.
+  impressionTemplate: |
+    Krwiak podtwardówkowy {{strona}}, grubości do {{grubosc_mm}} mm, {{efekt_masy}}.

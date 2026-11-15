@@ -1,0 +1,30 @@
+id: ct-szyja-wezly-przerzutowe
+title: Podejrzane przerzutowe węzły chłonne szyi
+modality: CT
+examTypes:
+  - CT szyi z kontrastem
+bodySystems:
+  - Głowa i szyja
+bodyParts:
+  - Szyja
+organs:
+  - Tkanki miękkie szyi
+pathology:
+  - Przerzutowe
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - head-neck-cancer-imaging
+  - acr-head-neck-cancer
+sections:
+  assessmentChecklist:
+    - Strona, poziom węzłów, liczba i wymiar osi krótkiej największych zmian.
+    - Martwica, torbielowatość, zatarcie granic i naciekanie tkanek otaczających.
+    - Relacja do naczyń i widoczne podejrzane ognisko pierwotne.
+  reportTemplate: |
+    W poziomie {{poziom_i_strona}} widoczne węzły chłonne {{liczba}}, największy o osi krótkiej {{wymiar_mm}} mm. Ich struktura {{martwica_lub_inne_cechy}}, granice i otaczająca tkanka tłuszczowa {{opis}}. Stosunek do naczyń {{opis}}. {{podejrzane_ognisko_pierwotne_lub_brak_widocznego}}. Pozostałe węzły szyjne {{opis}}.
+  impressionTemplate: |
+    Podejrzane węzły chłonne {{poziom_i_strona}}, największy {{wymiar_mm}} mm, {{cechy}}.

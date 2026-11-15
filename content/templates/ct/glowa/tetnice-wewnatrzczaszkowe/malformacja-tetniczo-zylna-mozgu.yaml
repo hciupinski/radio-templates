@@ -1,0 +1,23 @@
+id: "ct-malformacja-tetniczo-zylna-mozgu"
+title: "Malformacja tętniczo-żylna mózgu"
+modality: "CT"
+examTypes: ["Angio-CT głowy"]
+bodySystems: ["Układ naczyniowy"]
+bodyParts: ["Głowa"]
+organs: ["Tętnice wewnątrzczaszkowe"]
+pathology: ["Malformacja tętniczo-żylna mózgu"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["cta-intracranial-stenosis", "cta-intracranial-aneurysm", "cta-brain-avm"]
+sections:
+  assessmentChecklist:
+    - "Lokalizacja i rozmiary kłębka, tętnice doprowadzające oraz żyły odpływowe w CTA."
+    - "Cechy krwawienia w dostępnych obrazach i ograniczenia oceny dynamicznej."
+  reportTemplate: |
+    W {{lokalizacja}} widoczny splot patologicznych naczyń o wymiarach {{wymiary_mm}} mm. Tętnice doprowadzające {{tetnice}}, widoczny odpływ żylny {{zyly}}. Zmiany otoczenia {{zmiany_otoczenia}}. Ograniczenia {{ograniczenia}}.
+  impressionTemplate: |
+    Obraz malformacji tętniczo-żylnej w {{lokalizacja}}, o wymiarach {{wymiary_mm}} mm.
+  clinicalNotes:
+    - "Ocena małych naczyń oraz stopnia zwężenia zależy od rozdzielczości, wypełnienia i artefaktów."

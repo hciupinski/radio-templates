@@ -1,0 +1,31 @@
+id: ct-szyja-ropien-okolomigdalkowy
+title: Ropień okołomigdałkowy
+modality: CT
+examTypes:
+  - CT szyi z kontrastem
+bodySystems:
+  - Głowa i szyja
+bodyParts:
+  - Szyja
+organs:
+  - Tkanki miękkie szyi
+pathology:
+  - Ropień okołomigdałkowy
+tags:
+  - Rezydent
+  - Pilne
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - esr-neck-infection
+  - critical-neck-infection
+sections:
+  assessmentChecklist:
+    - Strona, wymiary i położenie zbiornika względem migdałka.
+    - Szerzenie do przestrzeni przygardłowej i zagardłowej oraz stan dróg oddechowych.
+    - Żyła szyjna wewnętrzna i współistniejące węzły chłonne.
+  reportTemplate: |
+    W okolicy okołomigdałkowej {{strona}} zbiornik hipodensyjny o wymiarach {{wymiary_mm}} mm, {{wzmocnienie_obwodowe}}. Migdałek i sąsiednie tkanki {{opis}}. Przestrzenie przygardłowa i zagardłowa {{opis}}, światło gardła {{opis}}. Żyła szyjna wewnętrzna {{opis}}, węzły chłonne {{opis}}.
+  impressionTemplate: |
+    Ropień okołomigdałkowy {{strona}}, {{wymiary_mm}} mm; {{szerzenie_i_swiatlo_gardla}}.

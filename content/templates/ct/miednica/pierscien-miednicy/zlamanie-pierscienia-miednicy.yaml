@@ -1,0 +1,31 @@
+id: ct-zlamanie-pierscienia-miednicy
+title: Złamanie pierścienia miednicy
+modality: CT
+examTypes:
+  - CT miednicy
+bodySystems:
+  - Układ mięśniowo-szkieletowy
+bodyParts:
+  - Miednica
+organs:
+  - Pierścień miednicy
+pathology:
+  - Złamanie pierścienia miednicy
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: '2026-11-15'
+sourceRefs:
+  - ct-pelvic-ring-review
+sections:
+  assessmentChecklist:
+    - Przedni i tylny pierścień miednicy po obu stronach.
+    - Przemieszczenie odłamów, spojenie i stawy krzyżowo-biodrowe.
+    - Krwiak oraz wynaczynienie kontrastu, jeśli ocenialne.
+  reportTemplate: >
+    Złamania {{lokalizacja_przod_i_tyl}}, z przemieszczeniem {{przemieszczenie_mm}} mm. Spojenie łonowe {{spojenie}},
+    stawy krzyżowo-biodrowe {{stawy}}. Krwiak {{lokalizacja_i_rozleglosc}}; wynaczynienie kontrastu
+    {{obecnosc_lub_ograniczenia}}. {{inne_obrazenia}}.
+  impressionTemplate: |
+    Złamania pierścienia miednicy {{lokalizacja_i_przemieszczenie}}. {{krwiak_i_krwawienie}}.

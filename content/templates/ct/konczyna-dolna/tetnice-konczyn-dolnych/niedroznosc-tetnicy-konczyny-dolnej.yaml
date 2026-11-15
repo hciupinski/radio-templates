@@ -1,0 +1,23 @@
+id: "ct-niedroznosc-tetnicy-konczyny-dolnej"
+title: "Niedrożność tętnicy kończyny dolnej"
+modality: "CT"
+examTypes: ["Angio-CT tętnic kończyn dolnych"]
+bodySystems: ["Układ naczyniowy"]
+bodyParts: ["Kończyna dolna"]
+organs: ["Tętnice kończyn dolnych"]
+pathology: ["Niedrożność tętnicy kończyny dolnej"]
+tags: ["Rezydent", "Pilne"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["cta-extremity-trauma", "cta-extremity-trauma-guideline", "cta-lower-pad-guideline"]
+sections:
+  assessmentChecklist:
+    - "Poziom i długość niedrożności oraz miejsce odtworzenia przepływu."
+    - "Naczynia napływu, krążenie oboczne i drożność tętnic podudzia."
+  reportTemplate: |
+    Niedrożność {{tetnica_i_strona}} od {{poczatek}} na długości {{dlugosc}}; odtworzenie wypełnienia na poziomie {{odtworzenie}}. Naczynia napływu {{naplyw}}, krążenie oboczne {{oboczne}}. Tętnice podudzia i stopy {{odplyw}}. Ograniczenia {{ograniczenia}}.
+  impressionTemplate: |
+    Niedrożność {{tetnica_i_strona}} na długości {{dlugosc}}, z {{odtworzenie}}.
+  clinicalNotes:
+    - "Słabe wypełnienie dystalnych tętnic może wynikać z czasu akwizycji lub wolnego przepływu; należy podać ograniczenia badania."

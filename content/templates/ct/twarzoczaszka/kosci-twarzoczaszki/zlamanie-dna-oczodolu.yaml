@@ -1,0 +1,34 @@
+id: ct-twarzoczaszka-zlamanie-dna-oczodolu
+title: Złamanie dna oczodołu
+modality: CT
+examTypes:
+  - CT twarzoczaszki bez kontrastu
+bodySystems:
+  - Układ mięśniowo-szkieletowy
+bodyParts:
+  - Twarzoczaszka
+organs:
+  - Kości twarzoczaszki
+pathology:
+  - Złamanie dna oczodołu
+tags:
+  - Rezydent
+  - Pilne
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - facial-trauma-report
+  - acr-facial-trauma
+  - radiopaedia-ct-orbital-blow-out
+sections:
+  assessmentChecklist:
+    - Strona, rozmiar ubytku i przemieszczenie odłamów; inne ściany oczodołu.
+    - Przepuklina tłuszczu lub mięśni, ich przebieg i możliwy konflikt z odłamem.
+    - Gałka oczna, krwiak i rozedma oczodołu, kanał podoczodołowy oraz zatoka szczękowa.
+  reportTemplate: |
+    Złamanie dna oczodołu {{strona}} z ubytkiem około {{wymiary_mm}} mm i przemieszczeniem odłamów {{opis}}. {{przepuklina_tluszczu_i_stosunek_miesnia_prostego_dolnego_do_szczeliny}}. Kanał podoczodołowy {{opis}}. Gałka oczna i tkanki oczodołu {{opis}}, zatoka szczękowa {{opis}}. Pozostałe ściany oczodołu {{opis}}.
+  impressionTemplate: |
+    Złamanie dna oczodołu {{strona}} z {{przemieszczenie_i_zawartosc_przepukliny}}.
+  clinicalNotes:
+    - Uwięźnięcie mięśnia jest rozpoznaniem klinicznym; CT opisuje jego położenie i możliwy konflikt.

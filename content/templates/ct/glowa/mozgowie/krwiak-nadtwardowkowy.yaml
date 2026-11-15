@@ -1,0 +1,47 @@
+id: ct-glowa-krwiak-nadtwardowkowy
+title: Krwiak nadtwardówkowy
+modality: CT
+examTypes:
+  - CT głowy bez kontrastu
+bodySystems:
+  - Układ nerwowy
+bodyParts:
+  - Głowa
+organs:
+  - Mózgowie
+pathology:
+  - Krwiak nadtwardówkowy
+tags:
+  - Rezydent
+  - Pilne
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - ra-hemorrhage
+  - ct-neurocritical
+imageRefs:
+  - id: krwiak-nadtwardowkowy-tk-commons
+    title: Krwiak nadtwardówkowy przy złamaniu sklepienia czaszki
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/4/45/Epidurales_Haematom.jpg
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Epidurales_Haematom.jpg
+    sourceId: wikimedia-commons
+    caption: Przekrój osiowy TK głowy. Strzałka wskazuje złamanie sąsiadujące z krwiakiem.
+    alt: Osiowe TK z soczewkowatą kolekcją nad prawą półkulą i złamaniem przylegającej kości.
+    category: typical
+    findings:
+      - Soczewkowata, hiperdensyjna kolekcja przylegająca do wewnętrznej powierzchni czaszki.
+      - Ucisk przylegającej półkuli.
+      - Szczelina złamania zaznaczona strzałką.
+    attribution: Hellerhoff, Wikimedia Commons, CC BY-SA 3.0
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-11-15"
+sections:
+  assessmentChecklist:
+    - Położenie, wymiary i maksymalna grubość zbiornika.
+    - Przylegające złamanie, inne ogniska krwawienia i stłuczenia.
+    - Efekt masy, przemieszczenie linii pośrodkowej oraz stan komór i zbiorników.
+  reportTemplate: |
+    W okolicy {{lokalizacja_i_strona}} pozamózgowy zbiornik krwi o morfologii krwiaka nadtwardówkowego, wymiarach {{wymiary_mm}} mm i grubości {{grubosc_mm}} mm. Przyległe kości {{opis}}. {{inne_ogniska_urazowe}}. Ucisk mózgowia {{opis}}, przemieszczenie struktur pośrodkowych {{mm}} mm; komory i zbiorniki podstawy {{opis}}.
+  impressionTemplate: |
+    Krwiak nadtwardówkowy {{lokalizacja}}, grubości {{grubosc_mm}} mm; {{efekt_masy}}.

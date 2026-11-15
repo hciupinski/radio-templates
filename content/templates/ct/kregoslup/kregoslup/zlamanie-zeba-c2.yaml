@@ -1,0 +1,23 @@
+id: "ct-zlamanie-zeba-c2"
+title: "Złamanie zęba C2"
+modality: "CT"
+examTypes: ["CT kręgosłupa"]
+bodySystems: ["Układ mięśniowo-szkieletowy"]
+bodyParts: ["Kręgosłup"]
+organs: ["Kręgosłup"]
+pathology: ["Złamanie zęba C2"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["ct-spine-trauma-review", "ct-cervical-trauma-review"]
+sections:
+  assessmentChecklist:
+    - "Poziom i przebieg szczeliny, przemieszczenie i kątowanie odłamu."
+    - "Ustawienie C1–C2, szerokość kanału i inne złamania."
+  reportTemplate: |
+    Złamanie zęba C2 na poziomie {{poziom_szczeliny}}, z przemieszczeniem odłamu o {{przemieszczenie_mm}} mm i kątowaniem {{katowanie}}. Ustawienie C1–C2 {{ustawienie}}. Kanał kręgowy {{kanal}}. Pozostałe zmiany urazowe {{inne}}.
+  impressionTemplate: |
+    Złamanie zęba C2 z {{przemieszczenie_i_katowanie}}.
+  clinicalNotes:
+    - "CT ogranicza ocenę rdzenia i więzadeł; ich nieuszkodzenia nie można potwierdzić samym brakiem złamania."

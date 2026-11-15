@@ -1,0 +1,34 @@
+id: ct-odma-oplucnowa
+title: Odma opłucnowa
+modality: CT
+examTypes:
+  - CT klatki piersiowej
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Opłucna
+pathology:
+  - Odma opłucnowa
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: '2026-11-15'
+sourceRefs:
+  - ct-pleural-review
+  - pneumothorax-nice-major-trauma
+sections:
+  assessmentChecklist:
+    - Strona i rozległość powietrza w jamie opłucnej.
+    - Stopień zapadnięcia płuca i cechy efektu masy.
+    - Płyn, dreny, urazy i zmiany w płucu w zakresie badania.
+  reportTemplate: >
+    W {{strona}} jamie opłucnej powietrze {{rozleglosc_i_lokalizacja}}; płuco {{stopien_zapadniecia}}. Śródpiersie
+    {{polozenie}}, przemieszczenie śródpiersia i ucisk sąsiednich struktur {{efekt_masy}}. Płyn w jamie opłucnej {{plyn}}.
+    {{dren_i_zmiany_towarzyszace}}.
+  impressionTemplate: |
+    {{strona}} odma opłucnowa {{rozleglosc}}. {{efekt_masy}}.
+  clinicalNotes:
+    - Rozpoznanie odmy prężnej wymaga korelacji z obrazem klinicznym.

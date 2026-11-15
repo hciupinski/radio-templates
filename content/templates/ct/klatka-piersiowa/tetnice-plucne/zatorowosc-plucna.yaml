@@ -1,0 +1,31 @@
+id: ct-zatorowosc-plucna
+title: Zatorowość płucna
+modality: CT
+examTypes:
+  - Angio-CT tętnic płucnych
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Tętnice płucne
+pathology:
+  - Zatorowość płucna
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: '2026-11-15'
+sourceRefs:
+  - ct-pe-consensus
+sections:
+  assessmentChecklist:
+    - Jakość zakontrastowania i zakres oceny tętnic płucnych.
+    - Strona, najbardziej proksymalny poziom i rozległość materiału zatorowego.
+    - Stosunek RV/LV, przegroda międzykomorowa oraz zmiany płucne i opłucnowe.
+  reportTemplate: >
+    Angio-CT tętnic płucnych: {{jakosc_badania_i_ograniczenia}}. Ubytki zakontrastowania w {{strona_i_naczynia}},
+    najbardziej proksymalnie na poziomie {{poziom}}, {{stopien_zamkniecia}}. Wymiar RV/LV {{stosunek_rv_lv}}; przegroda
+    międzykomorowa {{przegroda}}. Miąższ płuc {{zmiany_miazzszowe}}; opłucna {{oplucna}}.
+  impressionTemplate: |
+    Zatorowość płucna: {{lokalizacja_i_zasieg}}. Cechy obciążenia prawej komory: {{ocena}}.

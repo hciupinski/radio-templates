@@ -1,0 +1,30 @@
+id: ct-plyn-w-oplucnej
+title: Płyn w jamie opłucnej
+modality: CT
+examTypes:
+  - CT klatki piersiowej
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Opłucna
+pathology:
+  - Płyn w jamie opłucnej
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: '2026-11-15'
+sourceRefs:
+  - ct-pleural-review
+sections:
+  assessmentChecklist:
+    - Strona, ilość, rozmieszczenie i ewentualna otorebkowana przestrzeń płynowa.
+    - Pogrubienie lub guzki opłucnej oraz wzmocnienie, jeśli podano kontrast.
+    - Niedodma, zmiany płuca i inne możliwe podłoże.
+  reportTemplate: >
+    Płyn w {{strona}} jamie opłucnej, {{ilosc_i_rozmieszczenie}}, {{cechy_otorebkowania}}. Opłucna
+    {{pogrubienie_guzki_wzmocnienie}}. Sąsiedni miąższ płuca {{niedodma_lub_zmiana}}. {{pozostale_istotne_zmiany}}.
+  impressionTemplate: |
+    {{strona}} płyn opłucnowy {{ilosc_i_charakterystyka}}. {{zmiany_towarzyszace}}.

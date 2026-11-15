@@ -1,0 +1,36 @@
+id: ct-pekniecie-pecherza
+title: Uraz pęcherza moczowego
+modality: CT
+examTypes:
+  - Cystografia CT
+bodySystems:
+  - Układ moczowy
+bodyParts:
+  - Miednica
+organs:
+  - Pęcherz moczowy
+pathology:
+  - Uraz pęcherza moczowego
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: '2026-11-15'
+sourceRefs:
+  - ct-bladder-trauma-wses
+  - ra-ct-abdominal-trauma
+sections:
+  assessmentChecklist:
+    - Technika i stopień wstecznego wypełnienia pęcherza.
+    - Miejsce oraz wewnątrz- lub zewnątrzotrzewnowa droga wynaczynienia.
+    - Urazy kości i tkanek towarzyszące uszkodzeniu.
+  reportTemplate: >
+    Cystografia CT po wstecznym podaniu kontrastu: wypełnienie pęcherza {{wypelnienie_i_ograniczenia}}. Wynaczynienie z
+    {{miejsce}} do {{przestrzen_wewnatrz_lub_zewnatrzotrzewnowa}}, o zasięgu {{zasieg}}. Pęcherz i okolica
+    {{pozostale_cechy}}. Obrażenia towarzyszące {{obrazenia}}.
+  impressionTemplate: |
+    Uraz pęcherza z wynaczynieniem {{typ_i_zasieg}}. {{ograniczenia}}.
+  clinicalNotes:
+    - >-
+      Wydalnicze wypełnienie pęcherza po dożylnym podaniu kontrastu nie zastępuje prawidłowo wykonanej cystografii
+      wstecznej.

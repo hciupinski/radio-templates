@@ -1,0 +1,31 @@
+id: ct-perforacja-przewodu-pokarmowego
+title: Perforacja przewodu pokarmowego
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Przewód pokarmowy
+pathology:
+  - Perforacja przewodu pokarmowego
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: '2026-11-15'
+sourceRefs:
+  - ct-perforation-review
+sections:
+  assessmentChecklist:
+    - Lokalizacja gazu poza światłem i możliwego ubytku ściany.
+    - Odcinek prawdopodobnego źródła i zmiany miejscowe.
+    - Płyn, ropień i objawy towarzyszące.
+  reportTemplate: >
+    Gaz poza światłem przewodu pokarmowego {{lokalizacja_i_ilosc}}. Odcinek podejrzany o perforację
+    {{odcinek_i_pewnosc}}; ściana {{ubytek_lub_zmiany}}. W otoczeniu {{naciek_i_plyn}}; zbiornik
+    {{lokalizacja_i_wymiary}}. {{inne_istotne_zmiany}}.
+  impressionTemplate: |
+    Cechy perforacji przewodu pokarmowego, prawdopodobne miejsce {{miejsce_i_pewnosc}}. {{powiklania}}.

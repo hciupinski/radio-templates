@@ -1,0 +1,31 @@
+id: ct-twarzoczaszka-zlamanie-zuchwy
+title: Złamanie żuchwy
+modality: CT
+examTypes:
+  - CT twarzoczaszki bez kontrastu
+bodySystems:
+  - Układ mięśniowo-szkieletowy
+bodyParts:
+  - Twarzoczaszka
+organs:
+  - Kości twarzoczaszki
+pathology:
+  - Złamanie żuchwy
+tags:
+  - Rezydent
+  - Pilne
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - facial-trauma-report
+  - acr-facial-trauma
+sections:
+  assessmentChecklist:
+    - Wszystkie szczeliny złamania pierścienia żuchwy i ich przemieszczenie.
+    - Zajęcie kanału żuchwy, wyrostka zębodołowego i zębów.
+    - Położenie głów żuchwy w stawach skroniowo-żuchwowych oraz tkanki miękkie.
+  reportTemplate: |
+    Złamanie żuchwy w obrębie {{lokalizacja_i_strona}}, z {{przemieszczenie_i_odlamy}}. Dodatkowe szczeliny {{opis_lub_brak}}. Kanał żuchwy oraz wyrostek zębodołowy i zęby {{opis}}. Stawy skroniowo-żuchwowe {{opis}}, tkanki miękkie {{opis}}.
+  impressionTemplate: |
+    Złamanie żuchwy {{lokalizacje}} z {{przemieszczenie}}.

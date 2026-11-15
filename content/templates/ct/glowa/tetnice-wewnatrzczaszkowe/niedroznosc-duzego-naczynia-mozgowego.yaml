@@ -1,0 +1,23 @@
+id: "ct-niedroznosc-duzego-naczynia-mozgowego"
+title: "Niedrożność dużego naczynia mózgowego"
+modality: "CT"
+examTypes: ["Angio-CT głowy"]
+bodySystems: ["Układ naczyniowy"]
+bodyParts: ["Głowa"]
+organs: ["Tętnice wewnątrzczaszkowe"]
+pathology: ["Niedrożność dużego naczynia mózgowego"]
+tags: ["Rezydent", "Pilne"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["cta-intracranial-stenosis", "cta-intracranial-aneurysm", "cta-stroke-pseudoocclusion"]
+sections:
+  assessmentChecklist:
+    - "Lokalizacja i długość niedrożności, drożność dalsza oraz krążenie oboczne w dostępnym zakresie."
+    - "Ocena pozostałych naczyń i jakości wypełnienia."
+  reportTemplate: |
+    Brak zakontrastowania {{tetnica_i_odcinek}} od poziomu {{poczatek}}; zasięg braku wypełnienia {{zasieg_i_pewnosc}}. Dystalne wypełnienie {{wypelnienie_dystalne}}, krążenie oboczne {{krazenie_oboczne}}. Inne tętnice {{pozostale}}, ograniczenia {{ograniczenia}}.
+  impressionTemplate: |
+    {{pewnosc_niedroznosci}} {{tetnica_i_odcinek}}; wypełnienie dystalne {{wypelnienie_dystalne}}.
+  clinicalNotes:
+    - "W jednofazowym CTA wolny przepływ może powodować pozorny brak wypełnienia i zawyżać długość niedrożności; zakres należy określić tylko przy dostatecznej jakości badania."

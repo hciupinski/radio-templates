@@ -1,0 +1,33 @@
+id: ct-szyja-ropien-przestrzeni-glebokich
+title: Ropień przestrzeni głębokich szyi
+modality: CT
+examTypes:
+  - CT szyi z kontrastem
+bodySystems:
+  - Głowa i szyja
+bodyParts:
+  - Szyja
+organs:
+  - Tkanki miękkie szyi
+pathology:
+  - Ropień przestrzeni głębokich szyi
+tags:
+  - Rezydent
+  - Pilne
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - esr-neck-infection
+  - critical-neck-infection
+sections:
+  assessmentChecklist:
+    - Przestrzenie szyi, strona i wymiary zbiornika, wzmocnienie obwodowe i gaz.
+    - Rozległość nacieku, prawdopodobny punkt wyjścia oraz szerzenie ku śródpiersiu.
+    - Drożność gardła i krtani oraz żyła szyjna wewnętrzna w zakresie badania.
+  reportTemplate: |
+    W przestrzeni {{lokalizacja_i_strona}} zbiornik o wymiarach {{wymiary_mm}} mm, {{wzmocnienie_obwodowe_i_gaz}}. Zmiany zapalne obejmują {{przestrzenie_i_zasieg}}, możliwy punkt wyjścia {{opis}}. Drogi oddechowe {{opis}}. Żyły szyjne wewnętrzne {{opis}}; górne śródpiersie w zakresie badania {{opis}}.
+  impressionTemplate: |
+    Ropień {{lokalizacja}} o wymiarach {{wymiary_mm}} mm, {{szerzenie_i_wplyw_na_drogi_oddechowe}}.
+  clinicalNotes:
+    - CT może nie odróżniać pewnie wczesnego ropnia od nacieku zapalnego.

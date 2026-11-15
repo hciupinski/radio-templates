@@ -1,0 +1,48 @@
+id: ct-glowa-krwotok-podpajeczynowkowy
+title: Krwotok podpajęczynówkowy
+modality: CT
+examTypes:
+  - CT głowy bez kontrastu
+bodySystems:
+  - Układ nerwowy
+bodyParts:
+  - Głowa
+organs:
+  - Mózgowie
+pathology:
+  - Krwotok podpajęczynówkowy
+tags:
+  - Rezydent
+  - Pilne
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - ra-hemorrhage
+  - ct-neurocritical
+imageRefs:
+  - id: krwotok-podpajeczynowkowy-tk-commons
+    title: Krew w zbiornikach podstawy i szczelinach bocznych
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/2/24/SAH1.JPG
+    sourceUrl: https://commons.wikimedia.org/wiki/File:SAH1.JPG
+    sourceId: wikimedia-commons
+    caption: Przekrój osiowy TK głowy z hiperdensyjną krwią w przestrzeni podpajęczynówkowej.
+    alt: Osiowe TK pokazujące krew wokół śródmózgowia i w szczelinach bocznych.
+    category: typical
+    findings:
+      - Hiperdensyjna krew w zbiornikach podstawy, także wokół śródmózgowia.
+      - Krew w szczelinach bocznych.
+    attribution: James Heilman, MD, Wikimedia Commons, CC BY-SA 3.0
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-11-15"
+sections:
+  assessmentChecklist:
+    - Rozmieszczenie krwi w zbiornikach podstawy, bruzdach i szczelinach.
+    - Krew w komorach lub miąższu, wodogłowie i efekt masy.
+    - Ograniczenia badania bez angiografii w ocenie przyczyny.
+  reportTemplate: |
+    Hiperdensyjna krew w przestrzeni podpajęczynówkowej {{lokalizacja_i_zasieg}}. {{obecnosc_lub_brak}} krwi w komorach oraz ogniska śródmiąższowego. Układ komorowy {{opis}}, zbiorniki podstawy {{opis}}, przemieszczenie struktur pośrodkowych {{mm}} mm.
+  impressionTemplate: |
+    Krwotok podpajęczynówkowy {{lokalizacja_i_zasieg}}. {{krew_komorowa_i_wodoglowie}}.
+  clinicalNotes:
+    - Badanie bez angiografii nie ustala ani nie wyklucza naczyniowego źródła krwawienia.

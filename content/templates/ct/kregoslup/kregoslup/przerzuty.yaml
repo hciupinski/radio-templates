@@ -1,0 +1,24 @@
+modality: "CT"
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+id: "ct-kregoslup-przerzuty"
+title: "Podejrzenie przerzutów do kręgosłupa"
+examTypes: ["CT kręgosłupa"]
+bodySystems: ["Układ mięśniowo-szkieletowy"]
+bodyParts: ["Kręgosłup"]
+organs: ["Kręgosłup"]
+pathology: ["Przerzuty"]
+sourceRefs: ["ct-spinal-metastases-review"]
+sections:
+  assessmentChecklist:
+    - "Poziom, liczba, wymiary i charakter zmian kostnych oraz zajęcie elementów kręgów."
+    - "Destrukcja korowa, patologiczne złamanie, przemieszczenie odłamów i szerokość kanału."
+    - "Widoczna masa nadtwardówkowa i przykręgowa oraz ograniczenia oceny rdzenia."
+  reportTemplate: |
+    W {{poziomy}} widoczne {{liczba}} zmian {{charakter_osteolityczny_osteoblastyczny_lub_mieszany}} o wymiarach do {{wymiar_mm}} mm, obejmujących {{elementy_kregow}}. Destrukcja warstwy korowej {{destrukcja}}. Złamanie patologiczne {{zlamanie}}, retropulsja {{retropulsja}}. Tkanka przykręgowa lub nadtwardówkowa {{tkanka_miekka}}; kanał kręgowy {{kanal}}. Inne zmiany w objętym zakresie {{inne}}.
+  impressionTemplate: |
+    Zmiany kostne {{poziomy}} podejrzane o przerzuty. {{zlamanie_lub_komponent_nadtwardowkowy}}.
+  clinicalNotes:
+    - "CT może nie wykazać wczesnych zmian szpikowych; ocena zajęcia nadtwardówkowego i ucisku rdzenia jest ograniczona. MR lepiej ocenia szpik, tkanki miękkie i rdzeń."

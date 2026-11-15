@@ -1,0 +1,31 @@
+id: ct-twarzoczaszka-zlamanie-kosci-nosa
+title: Złamanie kości nosa
+modality: CT
+examTypes:
+  - CT twarzoczaszki bez kontrastu
+bodySystems:
+  - Układ mięśniowo-szkieletowy
+bodyParts:
+  - Twarzoczaszka
+organs:
+  - Kości twarzoczaszki
+pathology:
+  - Złamanie kości nosa
+tags:
+  - Rezydent
+  - Pilne
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - facial-trauma-report
+  - acr-facial-trauma
+sections:
+  assessmentChecklist:
+    - Strona, liczba i przemieszczenie odłamów kości nosa.
+    - Przegroda nosa, wyrostki czołowe szczęk oraz kompleks nosowo-sitowo-oczodołowy.
+    - Obrzęk tkanek miękkich i inne widoczne złamania.
+  reportTemplate: |
+    Złamanie kości nosa {{strona}} z {{przemieszczenie_i_rozkawalkowanie}}. Przegroda nosa {{opis}}, wyrostki czołowe szczęk i ściany przyśrodkowe oczodołów {{opis}}. Tkanki miękkie nosa {{opis}}. Pozostałe objęte badaniem kości twarzoczaszki {{opis}}.
+  impressionTemplate: |
+    Złamanie kości nosa {{strona}}, {{przemieszczenie}}. {{inne_obrazenia}}.
