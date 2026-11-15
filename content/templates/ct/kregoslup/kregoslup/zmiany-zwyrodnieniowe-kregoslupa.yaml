@@ -1,0 +1,23 @@
+id: "ct-zmiany-zwyrodnieniowe-kregoslupa"
+title: "Zmiany zwyrodnieniowe kręgosłupa"
+modality: "CT"
+examTypes: ["CT kręgosłupa"]
+bodySystems: ["Układ mięśniowo-szkieletowy"]
+bodyParts: ["Kręgosłup"]
+organs: ["Kręgosłup"]
+pathology: ["Zmiany zwyrodnieniowe kręgosłupa"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["ct-spine-trauma-review", "ct-cervical-trauma-review"]
+sections:
+  assessmentChecklist:
+    - "Poziomy i zaawansowanie zmian krążków i stawów międzywyrostkowych."
+    - "Zwężenie kanału i otworów międzykręgowych oraz widoczne przyczyny."
+  reportTemplate: |
+    Na poziomach {{poziomy}} obniżenie wysokości krążków, osteofity i zmiany stawów międzywyrostkowych {{nasilenie}}. Na poziomie {{poziom}} {{zmiana_dyskowo_kostna}} powoduje {{stopien}} zwężenie kanału i {{stopien_otworow}} zwężenie otworów międzykręgowych {{strona}}. Ustawienie kręgosłupa {{ustawienie}}.
+  impressionTemplate: |
+    Zmiany zwyrodnieniowe, największe na poziomie {{poziom}}, ze zwężeniem {{lokalizacja_i_stopien}}.
+  clinicalNotes:
+    - "CT ogranicza ocenę rdzenia i więzadeł; ich nieuszkodzenia nie można potwierdzić samym brakiem złamania."

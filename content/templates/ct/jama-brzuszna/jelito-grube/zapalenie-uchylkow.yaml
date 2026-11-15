@@ -1,0 +1,30 @@
+id: ct-zapalenie-uchylkow
+title: Zapalenie uchyłków jelita grubego
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Jelito grube
+pathology:
+  - Zapalenie uchyłków jelita grubego
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: '2026-11-15'
+sourceRefs:
+  - ct-diverticulitis-acr
+sections:
+  assessmentChecklist:
+    - Odcinek jelita, uchyłki, pogrubienie ściany i naciek tłuszczu.
+    - Gaz pozajelitowy, zbiornik płynowy i jego wymiary.
+    - Niedrożność, przetoka i inne istotne zmiany.
+  reportTemplate: >
+    W odcinku {{odcinek}} jelita grubego uchyłki, pogrubienie ściany na długości {{dlugosc}} oraz {{naciek_okolicy}}.
+    Gaz pozajelitowy {{gaz}}; zbiornik płynowy {{lokalizacja_i_wymiary}}. {{niedroznosc_przetoka_inne}}.
+  impressionTemplate: |
+    Zapalenie uchyłków {{odcinek}}. {{powiklania}}.

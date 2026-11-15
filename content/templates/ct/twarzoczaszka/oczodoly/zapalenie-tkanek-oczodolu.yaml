@@ -1,0 +1,34 @@
+id: ct-twarzoczaszka-zapalenie-tkanek-oczodolu
+title: Pozaprzegrodowe zapalenie tkanek oczodołu
+modality: CT
+examTypes:
+  - CT oczodołów z kontrastem
+bodySystems:
+  - Głowa i szyja
+bodyParts:
+  - Twarzoczaszka
+organs:
+  - Oczodoły
+pathology:
+  - Pozaprzegrodowe zapalenie tkanek oczodołu
+tags:
+  - Rezydent
+  - Pilne
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - esr-neck-infection
+  - acr-vision-loss-infection
+  - radiopaedia-ct-orbital-infection
+sections:
+  assessmentChecklist:
+    - Nacieczenie tłuszczu za przegrodą oczodołową, zajęcie mięśni i sąsiednich zatok.
+    - "Zbiornik podokostnowy lub wewnątrzoczodołowy: lokalizacja, wymiary i efekt masy."
+    - Gałka oczna, nerw wzrokowy, szczyt oczodołu, kości oraz objęte badaniem struktury wewnątrzczaszkowe i zatoki jamiste.
+  reportTemplate: |
+    Po stronie {{strona}} nacieczenie tkanki tłuszczowej pozaprzegrodowej {{zasieg}}, mięśnie zewnątrzgałkowe {{opis}}. {{zbiornik_podokostnowy_lub_wewnatrzoczodolowy_lokalizacja_i_wymiary_lub_brak}}. Gałka oczna, nerw wzrokowy i szczyt oczodołu {{opis}}. Zatoki przynosowe i blaszka papierowata {{opis}}. W objętym zakresie zatoki jamiste oraz struktury wewnątrzczaszkowe {{opis_i_ograniczenia}}.
+  impressionTemplate: |
+    Pozaprzegrodowe zapalenie tkanek oczodołu {{strona}}; {{ropien_lub_brak_i_efekt_masy}}. {{zrodlo_i_powiklania_w_zakresie_badania}}.
+  clinicalNotes:
+    - Ocena zatok jamistych i powikłań wewnątrzczaszkowych zależy od zakresu badania i fazy kontrastowej; prawidłowy obraz w ograniczonym zakresie nie wyklucza powikłań.

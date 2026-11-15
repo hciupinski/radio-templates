@@ -1,0 +1,33 @@
+id: ct-glowa-niedokrwienie-mozgu
+title: Ostre niedokrwienie mózgu
+modality: CT
+examTypes:
+  - CT głowy bez kontrastu
+bodySystems:
+  - Układ nerwowy
+bodyParts:
+  - Głowa
+organs:
+  - Mózgowie
+pathology:
+  - Ostre niedokrwienie mózgu
+tags:
+  - Rezydent
+  - Pilne
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - stroke-imaging
+  - ct-neurocritical
+sections:
+  assessmentChecklist:
+    - Lokalizacja, strona i zakres hipodensji oraz zatarcia różnicowania korowo-podkorowego.
+    - Obrzęk, efekt masy, ewentualna transformacja krwotoczna; układ komorowy i zbiorniki podstawy.
+    - Ocena ASPECTS przy niedokrwieniu w zakresie unaczynienia tętnicy środkowej mózgu, jeśli właściwa.
+  reportTemplate: |
+    W obrębie {{lokalizacja_i_strona}} widoczne {{hipodensja_i_zatarcie_granicy_korowo_podkorowej}} o zasięgu {{zasieg}}. ASPECTS {{wynik_lub_nie_dotyczy}}. {{obecnosc_lub_brak}} transformacji krwotocznej. Efekt masy {{opis}}, przemieszczenie struktur pośrodkowych {{mm}} mm. Układ komorowy i zbiorniki podstawy {{opis}}.
+  impressionTemplate: |
+    Zmiany niedokrwienne w {{lokalizacja}} o zakresie {{zasieg}}; ASPECTS {{wynik_lub_nie_dotyczy}}. {{efekt_masy_i_krwawienie}}.
+  clinicalNotes:
+    - Prawidłowy obraz wczesnego badania CT nie wyklucza ostrego niedokrwienia.

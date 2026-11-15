@@ -1,0 +1,31 @@
+id: ct-zlamanie-panewki
+title: Złamanie panewki stawu biodrowego
+modality: CT
+examTypes:
+  - CT miednicy
+bodySystems:
+  - Układ mięśniowo-szkieletowy
+bodyParts:
+  - Miednica
+organs:
+  - Panewka stawu biodrowego
+pathology:
+  - Złamanie panewki stawu biodrowego
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: '2026-11-15'
+sourceRefs:
+  - ct-acetabulum-review
+sections:
+  assessmentChecklist:
+    - Strona, linie złamania ścian i kolumn oraz sklepienie panewki.
+    - Przemieszczenie i stopień nierówności powierzchni stawowej.
+    - Ustawienie głowy kości udowej, fragmenty dostawowe i obrażenia towarzyszące.
+  reportTemplate: >
+    Złamanie {{strona}} panewki obejmuje {{sciany_kolumny_i_sklepienie}}. Przemieszczenie odłamów {{przemieszczenie_mm}}
+    mm, uskok powierzchni stawowej {{uskok_mm}} mm. Głowa kości udowej {{ustawienie}}; fragmenty dostawowe
+    {{fragmenty}}. {{obrazenia_towarzyszace}}.
+  impressionTemplate: |
+    Złamanie {{strona}} panewki {{morfologia_i_przemieszczenie}}. {{ustawienie_i_fragmenty}}.

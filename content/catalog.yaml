@@ -116,6 +116,83 @@ anatomySections:
       label: Zmiany zapalne
       pathology: [Ropień]
       order: 20
+  Mózgowie:
+    - id: krwawienia
+      label: Krwawienia wewnątrzczaszkowe
+      pathology:
+        - Krwiak nadtwardówkowy
+        - Krwiak podtwardówkowy
+        - Krwotok podpajęczynówkowy
+        - Krwotok śródmózgowy
+      order: 10
+    - id: niedokrwienie
+      label: Niedokrwienie
+      pathology:
+        - Ostre niedokrwienie mózgu
+      order: 20
+    - id: wodoglowie
+      label: Wodogłowie
+      pathology:
+        - Wodogłowie
+      order: 30
+    - id: przerzuty
+      label: Zmiany ogniskowe
+      pathology:
+        - Przerzuty
+      order: 40
+  Tkanki miękkie szyi:
+    - id: zapalenia
+      label: Zapalenia i ropnie
+      pathology:
+        - Ropień okołomigdałkowy
+        - Ropień przestrzeni głębokich szyi
+        - Zapalenie nagłośni
+        - Ostre zapalenie ślinianki
+      order: 10
+    - id: zmiany-guzowe
+      label: Guzy i węzły chłonne
+      pathology:
+        - Guz gardła lub krtani
+        - Przerzutowe
+      order: 20
+  Kręgosłup:
+    - id: zlamania
+      label: Złamania
+      pathology:
+        - Złamanie atlasu
+        - Złamanie kompresyjne trzonu kręgu
+        - Złamanie wybuchowe trzonu kręgu
+        - Złamanie zęba C2
+      order: 10
+    - id: zwyrodnienia
+      label: Zmiany zwyrodnieniowe
+      pathology:
+        - Zmiany zwyrodnieniowe kręgosłupa
+      order: 20
+    - id: przerzuty
+      label: Zmiany ogniskowe
+      pathology:
+        - Przerzuty
+      order: 30
+  Aorta:
+    - id: ostre-zespoly
+      label: Ostre zespoły aortalne
+      pathology:
+        - Rozwarstwienie aorty
+        - Krwiak śródścienny aorty
+        - Owrzodzenie drążące aorty
+      order: 10
+    - id: tetniaki
+      label: Tętniaki i pęknięcia
+      pathology:
+        - Tętniak aorty
+        - Pęknięcie tętniaka aorty
+      order: 20
+    - id: evar
+      label: Kontrola po EVAR
+      pathology:
+        - Przeciek okołoprotezowy po EVAR
+      order: 30
 
 conditionGroups:
   - id: obraz-prawidlowy
@@ -156,3 +233,176 @@ conditionGroups:
     organs: [Wątroba, Węzły chłonne]
     pathology: [Przerzuty, Przerzutowe, Podejrzane, Martwicze, Chłoniak]
     order: 60
+  - id: krwawienia-wewnatrzczaszkowe
+    label: Krwawienia wewnątrzczaszkowe
+    description: Krwotoki do mózgowia i przestrzeni podpajęczynówkowej oraz krwiaki zewnątrzosiowe.
+    organs:
+      - Mózgowie
+    pathology:
+      - Krwiak nadtwardówkowy
+      - Krwiak podtwardówkowy
+      - Krwotok podpajęczynówkowy
+      - Krwotok śródmózgowy
+    modalities:
+      - CT
+    order: 70
+  - id: urazy-kostne-ct
+    label: Złamania w TK
+    description: Złamania twarzoczaszki, miednicy i kręgosłupa.
+    organs:
+      - Kręgosłup
+      - Kość krzyżowa
+      - Panewka stawu biodrowego
+      - Pierścień miednicy
+      - Kości twarzoczaszki
+    pathology:
+      - Złamanie atlasu
+      - Złamanie kompresyjne trzonu kręgu
+      - Złamanie wybuchowe trzonu kręgu
+      - Złamanie zęba C2
+      - Złamanie kości krzyżowej
+      - Złamanie panewki stawu biodrowego
+      - Złamanie pierścienia miednicy
+      - Złamanie dna oczodołu
+      - Złamanie kompleksu jarzmowo-szczękowego
+      - Złamanie kości nosa
+      - Złamanie typu Le Fort
+      - Złamanie żuchwy
+    modalities:
+      - CT
+    order: 80
+  - id: urazy-narzadowe-i-naczyniowe-ct
+    label: Urazy narządowe i naczyniowe
+    description: Pourazowe uszkodzenia śledziony, pęcherza i tętnic oraz krwiak miednicy.
+    organs:
+      - Pęcherz moczowy
+      - Tkanki miękkie miednicy
+      - Śledziona
+      - Tętnice kończyn dolnych
+      - Tętnice kończyny górnej
+    pathology:
+      - Uraz pęcherza moczowego
+      - Krwiak miednicy
+      - Uraz śledziony
+      - Uraz tętnicy kończyny dolnej
+      - Uraz tętnicy kończyny górnej
+    modalities:
+      - CT
+    order: 90
+  - id: niedokrwienie-i-zwezenia-ct
+    label: Niedokrwienie, zwężenia i zatory
+    description: Ostre niedokrwienie i patologie drożności naczyń mózgu, płuc, jelit i kończyn.
+    organs:
+      - Mózgowie
+      - Tętnice wewnątrzczaszkowe
+      - Jelito cienkie
+      - Tętnice płucne
+      - Tętnice kończyn dolnych
+    pathology:
+      - Ostre niedokrwienie mózgu
+      - Niedrożność dużego naczynia mózgowego
+      - Skurcz tętnic mózgowych
+      - Zwężenie tętnicy wewnątrzczaszkowej
+      - Niedokrwienie jelita
+      - Zatorowość płucna
+      - Niedrożność tętnicy kończyny dolnej
+      - Miażdżycowe zwężenie tętnic kończyn dolnych
+    modalities:
+      - CT
+    order: 100
+  - id: choroby-aorty-ct
+    label: Choroby aorty
+    description: Ostre zespoły aortalne, tętniaki i powikłania po EVAR.
+    organs:
+      - Aorta
+    pathology:
+      - Tętniak aorty
+      - Pęknięcie tętniaka aorty
+      - Rozwarstwienie aorty
+      - Krwiak śródścienny aorty
+      - Owrzodzenie drążące aorty
+      - Przeciek okołoprotezowy po EVAR
+    modalities:
+      - CT
+    order: 110
+  - id: tetniaki-obwodowe-i-malformacje-ct
+    label: Tętniaki i malformacje tętniczo-żylne
+    description: Tętniaki wewnątrzczaszkowe i podkolanowe oraz malformacje tętniczo-żylne mózgu.
+    organs:
+      - Tętnice wewnątrzczaszkowe
+      - Tętnice kończyn dolnych
+    pathology:
+      - Tętniak wewnątrzczaszkowy
+      - Tętniak tętnicy podkolanowej
+      - Malformacja tętniczo-żylna mózgu
+    modalities:
+      - CT
+    order: 120
+  - id: zapalenia-ct
+    label: Zmiany zapalne w TK
+    description: Zapalenia i ropnie szyi, zatok i oczodołów, płuc, brzucha i miednicy.
+    organs:
+      - Jelito grube
+      - Trzustka
+      - Wyrostek robaczkowy
+      - Płuca
+      - Przydatki
+      - Tkanki miękkie szyi
+      - Oczodoły
+      - Zatoki przynosowe
+    pathology:
+      - Zapalenie uchyłków jelita grubego
+      - Ostre zapalenie trzustki
+      - Ostre zapalenie wyrostka robaczkowego
+      - Zapalenie płuc
+      - Ropień jajnikowo-jajowodowy
+      - Ropień okołomigdałkowy
+      - Ropień przestrzeni głębokich szyi
+      - Zapalenie nagłośni
+      - Ostre zapalenie ślinianki
+      - Pozaprzegrodowe zapalenie tkanek oczodołu
+      - Przewlekłe zapalenie zatok przynosowych
+    modalities:
+      - CT
+    order: 130
+  - id: zmiany-ogniskowe-ct
+    label: Zmiany ogniskowe w TK
+    description: Zmiany w płucach, szyi, mózgowiu i kręgosłupie oraz ocena podejrzenia przerzutów.
+    organs:
+      - Mózgowie
+      - Kręgosłup
+      - Płuca
+      - Tkanki miękkie szyi
+    pathology:
+      - Przerzuty
+      - Guzek lity płuca
+      - Guz gardła lub krtani
+      - Przerzutowe
+    modalities:
+      - CT
+    order: 140
+  - id: niedroznosc-i-perforacja-ct
+    label: Niedrożność i perforacja przewodu pokarmowego
+    description: Poszukiwanie miejsca przeszkody lub perforacji i ich powikłań.
+    organs:
+      - Jelito cienkie
+      - Przewód pokarmowy
+    pathology:
+      - Niedrożność jelita cienkiego
+      - Perforacja przewodu pokarmowego
+    modalities:
+      - CT
+    order: 150
+  - id: choroby-miazszu-i-oplucnej-ct
+    label: Włóknienie płuc i zmiany opłucnowe
+    description: Włóknienie płuc, odma i płyn w jamie opłucnej.
+    organs:
+      - Opłucna
+      - Płuca
+    pathology:
+      - Odma opłucnowa
+      - Płyn w jamie opłucnej
+      - Włóknienie płuc
+    modalities:
+      - CT
+    order: 160

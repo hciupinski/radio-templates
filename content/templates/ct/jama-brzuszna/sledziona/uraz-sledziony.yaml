@@ -1,0 +1,32 @@
+id: ct-uraz-sledziony
+title: Uraz śledziony
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Układ limfatyczny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Śledziona
+pathology:
+  - Uraz śledziony
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: '2026-11-15'
+sourceRefs:
+  - ct-splenic-trauma-wses
+  - ra-ct-abdominal-trauma
+sections:
+  assessmentChecklist:
+    - Fazy badania i ograniczenia oceny naczyń.
+    - Rozdarcia miąższu, krwiak podtorebkowy lub śródmiąższowy i zakres uszkodzenia.
+    - Ognisko naczyniowe, aktywne wynaczynienie, krew w jamie otrzewnej i inne urazy.
+  reportTemplate: >
+    CT po dożylnym podaniu kontrastu, fazy {{fazy}}. Śledziona: {{rozdarcia_glebokosc_i_zasieg}}, krwiak
+    {{lokalizacja_i_rozleglosc}}. Ognisko naczyniowe lub wynaczynienie {{ocena_i_fazy}}. Krew w jamie otrzewnej
+    {{ilosc_i_rozmieszczenie}}. {{inne_obrazenia}}. {{stopien_aast_jesli_mozliwy_i_ograniczenia}}.
+  impressionTemplate: |
+    Uraz śledziony {{zakres_i_stopien_jesli_mozliwy}}. {{krwawienie_i_krwiak}}.

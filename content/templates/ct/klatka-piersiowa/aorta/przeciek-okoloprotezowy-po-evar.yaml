@@ -1,0 +1,24 @@
+modality: "CT"
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+id: "ct-aorta-przeciek-po-evar"
+title: "Przeciek okołoprotezowy po EVAR"
+examTypes: ["Angio-CT aorty"]
+bodySystems: ["Układ naczyniowy"]
+bodyParts: ["Jama brzuszna"]
+organs: ["Aorta"]
+pathology: ["Przeciek okołoprotezowy po EVAR"]
+sourceRefs: ["cta-evar-endoleak-review", "cta-aorta-acc-aha-2022"]
+sections:
+  assessmentChecklist:
+    - "Dostępne fazy przedkontrastowa, tętnicza i opóźniona; ognisko kontrastu w worku poza stentgraftem."
+    - "Prawdopodobne źródło przecieku, połączenia stentgraftu i możliwość określenia typu."
+    - "Maksymalna średnica worka prostopadle do osi aorty, porównanie oraz drożność i położenie stentgraftu."
+  reportTemplate: |
+    Stan po EVAR. Dostępne fazy badania: {{fazy}}. W worku tętniaka poza światłem stentgraftu widoczne {{ognisko_kontrastu}}, uwidocznione w fazie {{faza}}; prawdopodobne źródło {{zrodlo}}. Obraz {{typ_przecieku_lub_nieokreslony}}. Maksymalny wymiar worka {{srednica_mm}} mm, prostopadle do osi aorty; poprzednio {{poprzedni_wymiar_mm}} mm. Położenie i ciągłość stentgraftu {{stentgraft}}, drożność odnóg {{odnogi}}. Inne powikłania {{inne}}.
+  impressionTemplate: |
+    Przeciek okołoprotezowy po EVAR {{typ_lub_nieokreslony}}. Worek tętniaka {{srednica_mm}} mm; {{porownanie}}.
+  clinicalNotes:
+    - "Bez fazy opóźnionej wykrycie wolnego przecieku może być ograniczone; bez fazy przedkontrastowej trudniej odróżnić kontrast od zwapnień. Typ przecieku należy określić jedynie przy wystarczającej pewności."

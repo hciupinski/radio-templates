@@ -1,0 +1,31 @@
+id: ct-ropien-jajnikowo-jajowodowy
+title: Ropień jajnikowo-jajowodowy
+modality: CT
+examTypes:
+  - CT miednicy
+bodySystems:
+  - Układ rozrodczy
+bodyParts:
+  - Miednica
+organs:
+  - Przydatki
+pathology:
+  - Ropień jajnikowo-jajowodowy
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: '2026-11-15'
+sourceRefs:
+  - ct-pid-review
+sections:
+  assessmentChecklist:
+    - Strona, wielkość i budowa zmiany przydatków.
+    - Ściana, przegrody i zmiany zapalne otoczenia.
+    - Płyn, cechy szerzenia oraz możliwe źródło pozaginekologiczne.
+  reportTemplate: >
+    W rzucie {{strona}} przydatków zmiana {{wymiary_mm}} mm, {{budowa_i_wzmocnienie_scian}}, z
+    {{zmiany_tkanki_tluszczowej}} w otoczeniu. {{druga_strona}}. Płyn w miednicy {{plyn}}; inne zbiorniki lub cechy
+    szerzenia {{inne_zmiany}}. {{mozliwe_zrodlo_pozaginekologiczne}}.
+  impressionTemplate: |
+    Zmiana zapalna przydatków {{strona}}, {{pewnosc}} ropnia jajnikowo-jajowodowego. {{zasieg_i_powiklania}}.

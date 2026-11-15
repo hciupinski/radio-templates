@@ -1,0 +1,23 @@
+id: "ct-uraz-tetnicy-konczyny-gornej"
+title: "Uraz tętnicy kończyny górnej"
+modality: "CT"
+examTypes: ["Angio-CT tętnic kończyny górnej"]
+bodySystems: ["Układ naczyniowy"]
+bodyParts: ["Kończyna górna"]
+organs: ["Tętnice kończyny górnej"]
+pathology: ["Uraz tętnicy kończyny górnej"]
+tags: ["Rezydent", "Pilne"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["cta-extremity-trauma", "cta-upper-extremity-acute"]
+sections:
+  assessmentChecklist:
+    - "Poziom i morfologia uszkodzenia, ewentualne wynaczynienie lub tętniak rzekomy."
+    - "Drożność tętnic dalszych, uraz kości i tkanek miękkich oraz jakość badania."
+  reportTemplate: |
+    W obrębie {{tetnica_i_strona}} na poziomie {{lokalizacja}} widoczne {{uszkodzenie}}. {{wynaczynienie}} wynaczynienia kontrastu; krwiak {{krwiak}}. Dystalne wypełnienie tętnic {{odplyw}}. Obrażenia towarzyszące {{obrazenia}}. Ograniczenia {{ograniczenia}}.
+  impressionTemplate: |
+    Uraz tętnicy {{tetnica_i_strona}}: {{uszkodzenie}}. {{wynaczynienie}}.
+  clinicalNotes:
+    - "Słabe wypełnienie dystalnych tętnic może wynikać z czasu akwizycji lub wolnego przepływu; należy podać ograniczenia badania."

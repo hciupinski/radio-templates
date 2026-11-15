@@ -1,0 +1,34 @@
+id: ct-ostre-zapalenie-trzustki
+title: Ostre zapalenie trzustki
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Trzustka
+pathology:
+  - Ostre zapalenie trzustki
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: '2026-11-15'
+sourceRefs:
+  - ct-pancreatitis-assistant
+sections:
+  assessmentChecklist:
+    - Czas od początku objawów i fazy badania.
+    - Wzmocnienie miąższu i zmiany okołotrzustkowe.
+    - 'Zbiorniki: położenie, wielkość, ściana i zawartość; naczynia oraz drogi żółciowe.'
+  reportTemplate: >
+    Badanie wykonano {{czas_od_objawow}}, {{fazy_badania}}. Trzustka {{wielkosc_i_wzmocnienie}}; obszary braku
+    wzmocnienia {{lokalizacja_i_zasieg}}. Tkanki okołotrzustkowe {{naciek}}. Zbiorniki
+    {{lokalizacja_wymiary_sciana_zawartosc_i_termin_atlanta}}. Naczynia okołotrzustkowe {{naczynia}}; drogi żółciowe
+    {{drogi_zolciowe}}.
+  impressionTemplate: |
+    Obraz ostrego zapalenia trzustki {{typ_i_rozleglosc}}. {{zbiorniki_i_powiklania}}.
+  clinicalNotes:
+    - Wczesne CT może nie odzwierciedlać pełnego zasięgu martwicy; ocena zależy od czasu i techniki badania.

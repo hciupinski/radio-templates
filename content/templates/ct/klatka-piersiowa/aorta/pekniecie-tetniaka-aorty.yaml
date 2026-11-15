@@ -1,0 +1,23 @@
+id: "ct-pekniecie-tetniaka-aorty"
+title: "Pęknięcie tętniaka aorty"
+modality: "CT"
+examTypes: ["Angio-CT aorty"]
+bodySystems: ["Układ naczyniowy"]
+bodyParts: ["Klatka piersiowa", "Jama brzuszna"]
+organs: ["Aorta"]
+pathology: ["Pęknięcie tętniaka aorty"]
+tags: ["Rezydent", "Pilne"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["cta-aorta-acc-aha-2022"]
+sections:
+  assessmentChecklist:
+    - "Maksymalne wymiary i zakres tętniaka, lokalizacja krwawienia."
+    - "Krwiak okołoaortalny, wynaczynienie, przestrzeń zaotrzewnowa i gałęzie."
+  reportTemplate: |
+    Tętniak aorty {{odcinek}} o wymiarach {{wymiary_mm}} mm. W sąsiedztwie {{lokalizacja}} krwiak {{zasieg_krwiaka}}; {{wynaczynienie}} wynaczynienia kontrastu. Gałęzie aorty {{galezie}}. Inne powikłania {{inne}}.
+  impressionTemplate: |
+    Pęknięcie tętniaka aorty {{odcinek}} z krwiakiem {{zasieg_krwiaka}}. {{wynaczynienie}}.
+  clinicalNotes:
+    - "Ocena krwiaka śródściennego jest ograniczona bez fazy przed podaniem kontrastu; artefakt ruchowy może naśladować płat."

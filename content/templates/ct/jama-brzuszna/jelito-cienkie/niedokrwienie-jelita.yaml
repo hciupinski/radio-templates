@@ -1,0 +1,35 @@
+id: ct-niedokrwienie-jelita
+title: Niedokrwienie jelita
+modality: CT
+examTypes:
+  - Angio-CT naczyń krezkowych
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Jelito cienkie
+pathology:
+  - Niedokrwienie jelita
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: '2026-11-15'
+sourceRefs:
+  - ct-ischemia-assistant
+  - acr-mesenteric-ischemia
+sections:
+  assessmentChecklist:
+    - Fazy badania, jakość zakontrastowania tętnic i żył krezkowych oraz ograniczenia.
+    - Zasięg i wzmocnienie ściany jelita z uwzględnieniem fazy.
+    - Drożność naczyń w zakresie możliwej oceny oraz krezka.
+    - Płyn, pneumatoza, gaz w układzie wrotnym i perforacja.
+  reportTemplate: >
+    Angio-CT: fazy {{fazy_badania}}, jakość zakontrastowania {{jakosc_i_ograniczenia}}. Odcinek {{odcinek_i_dlugosc}} wykazuje {{grubosc_i_wzmocnienie_sciany}}. Naczynia krezkowe w zakresie badania
+    {{droznosc_i_ograniczenia}}; krezka {{obrzek_i_naczynia}}. {{pneumatoza_gaz_wrotny_plyn_perforacja}}.
+    {{cechy_niedroznosci}}.
+  impressionTemplate: |
+    {{pewnosc}} niedokrwienia {{odcinek}}. {{powiklania_i_ograniczenia}}.
+  clinicalNotes:
+    - Badanie bez kontrastu lub wyłącznie w jednej fazie może ograniczać ocenę naczyń i wzmocnienia ściany jelita.

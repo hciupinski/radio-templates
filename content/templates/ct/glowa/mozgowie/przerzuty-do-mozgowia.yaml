@@ -1,0 +1,34 @@
+id: ct-glowa-przerzuty-do-mozgowia
+title: Podejrzenie przerzutów do mózgowia
+modality: CT
+examTypes:
+  - CT głowy z kontrastem
+bodySystems:
+  - Układ nerwowy
+bodyParts:
+  - Głowa
+organs:
+  - Mózgowie
+pathology:
+  - Przerzuty
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - acr-brain-metastases
+  - brain-metastases-imaging
+  - ct-intracranial-iodine-hemorrhage
+sections:
+  assessmentChecklist:
+    - Dostępne fazy badania, liczba, lokalizacja i wymiary ognisk oraz ocena wzmocnienia w zakresie możliwym do ustalenia.
+    - Obrzęk, krwawienie, efekt masy, zbiorniki podstawy i układ komorowy.
+    - Porównanie z wcześniejszym badaniem oraz ograniczenia CT w wykrywaniu małych ognisk.
+  reportTemplate: |
+    Dostępne fazy badania: {{dostepne_fazy}}. W mózgowiu widoczne {{liczba}} ogniska w {{lokalizacje}}, największe {{wymiary_mm}} mm; charakter wzmocnienia {{charakter_wzmocnienia_lub_ocena_ograniczona}}. Obrzęk wokół zmian {{opis}}. Krwawienie {{krwawienie_lub_ocena_ograniczona}}. Efekt masy {{opis}}, przemieszczenie struktur pośrodkowych {{mm}} mm. Układ komorowy i zbiorniki podstawy {{opis}}. W porównaniu z badaniem {{data_lub_brak}} {{dynamika}}.
+  impressionTemplate: |
+    Zmiany w mózgowiu {{liczba_i_lokalizacje}} podejrzane o przerzuty; {{obrzek_i_efekt_masy}}.
+  clinicalNotes:
+    - Bez fazy przedkontrastowej odróżnienie krwi od wzmocnienia jodowego oraz ocena charakteru wzmocnienia mogą być ograniczone.
+    - MR mózgowia z kontrastem jest czulszy od CT w wykrywaniu małych przerzutów, zwłaszcza w tylnym dole czaszki. Charakter zmian wymaga korelacji klinicznej; CT nie ustala rozpoznania histopatologicznego.

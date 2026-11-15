@@ -1,0 +1,23 @@
+id: "ct-tetniak-wewnatrzczaszkowy"
+title: "Tętniak wewnątrzczaszkowy"
+modality: "CT"
+examTypes: ["Angio-CT głowy"]
+bodySystems: ["Układ naczyniowy"]
+bodyParts: ["Głowa"]
+organs: ["Tętnice wewnątrzczaszkowe"]
+pathology: ["Tętniak wewnątrzczaszkowy"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["cta-intracranial-stenosis", "cta-intracranial-aneurysm"]
+sections:
+  assessmentChecklist:
+    - "Naczynie macierzyste, odcinek, kierunek i wymiary worka oraz szyi."
+    - "Morfologia, gałęzie odchodzące i inne tętniaki; ograniczenia jakości."
+  reportTemplate: |
+    W obrębie {{tetnica_i_odcinek}} widoczne uwypuklenie światła o wymiarach {{wymiary_mm}} mm, skierowane {{kierunek}}, o szyi {{szyja_mm}} mm. Zarys {{zarys}}, relacja do gałęzi {{galezie}}. Pozostałe tętnice {{pozostale}}. Ograniczenia badania {{ograniczenia}}.
+  impressionTemplate: |
+    Tętniak {{tetnica_i_odcinek}} o wymiarach {{wymiary_mm}} mm.
+  clinicalNotes:
+    - "Ocena małych naczyń oraz stopnia zwężenia zależy od rozdzielczości, wypełnienia i artefaktów."

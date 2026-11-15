@@ -49,6 +49,108 @@ examTypes:
   - id: usg-slinianki
     label: USG ślinianek
     synonyms: [salivary gland ultrasound, ultrasound ślinianek]
+  - id: ct-glowy-bez-kontrastu
+    label: CT głowy bez kontrastu
+    synonyms:
+      - TK głowy bez kontrastu
+      - tomografia komputerowa głowy bez kontrastu
+      - NCCT głowy
+  - id: ct-twarzoczaszki-bez-kontrastu
+    label: CT twarzoczaszki bez kontrastu
+    synonyms:
+      - TK twarzoczaszki
+      - TK części twarzowej czaszki
+      - CT facial bones
+  - id: ct-szyi-z-kontrastem
+    label: CT szyi z kontrastem
+    synonyms:
+      - TK szyi z kontrastem
+      - CT tkanek miękkich szyi
+      - contrast enhanced neck CT
+  - id: ct-zatok-bez-kontrastu
+    label: CT zatok przynosowych bez kontrastu
+    synonyms:
+      - TK zatok przynosowych
+      - TK zatok
+      - CT zatok
+      - CT paranasal sinuses
+  - id: ct-oczodolow-z-kontrastem
+    label: CT oczodołów z kontrastem
+    synonyms:
+      - TK oczodołów z kontrastem
+      - CT oczodołów i zatok z kontrastem
+      - contrast-enhanced orbital CT
+  - id: ct-glowy-z-kontrastem
+    label: CT głowy z kontrastem
+    synonyms:
+      - TK głowy z kontrastem
+      - CT mózgowia z kontrastem
+      - contrast-enhanced brain CT
+  - id: ct-klatki-piersiowej
+    label: CT klatki piersiowej
+    synonyms:
+      - TK klatki piersiowej
+      - tomografia klatki piersiowej
+  - id: hrct-klatki-piersiowej
+    label: HRCT klatki piersiowej
+    synonyms:
+      - TK wysokiej rozdzielczości płuc
+      - HRCT płuc
+  - id: angio-ct-tetnic-plucnych
+    label: Angio-CT tętnic płucnych
+    synonyms:
+      - angio-TK tętnic płucnych
+      - CTPA
+      - TK zatorowość płucna
+  - id: ct-jamy-brzusznej-i-miednicy
+    label: CT jamy brzusznej i miednicy
+    synonyms:
+      - TK jamy brzusznej i miednicy
+      - TK brzucha i miednicy
+  - id: ct-miednicy
+    label: CT miednicy
+    synonyms:
+      - TK miednicy
+      - tomografia miednicy
+  - id: cystografia-ct
+    label: Cystografia CT
+    synonyms:
+      - cystografia TK
+      - CT cystography
+  - id: ct-kregoslupa
+    label: CT kręgosłupa
+    synonyms:
+      - TK kręgosłupa
+      - CT spine
+  - id: angio-ct-glowy
+    label: Angio-CT głowy
+    synonyms:
+      - angio-TK głowy
+      - CTA głowy
+      - TK angiografia głowy
+  - id: angio-ct-aorty
+    label: Angio-CT aorty
+    synonyms:
+      - angio-TK aorty
+      - CTA aorty
+      - TK angiografia aorty
+  - id: angio-ct-tetnic-konczyn-dolnych
+    label: Angio-CT tętnic kończyn dolnych
+    synonyms:
+      - angio-TK kończyn dolnych
+      - CTA kończyn dolnych
+  - id: angio-ct-tetnic-konczyny-gornej
+    label: Angio-CT tętnic kończyny górnej
+    synonyms:
+      - angio-TK kończyny górnej
+      - CTA kończyny górnej
+  - id: angio-ct-naczyn-krezkowych
+    label: Angio-CT naczyń krezkowych
+    synonyms:
+      - angio-TK naczyń krezkowych
+      - CTA naczyń krezkowych
+      - CTA jamy brzusznej i miednicy
+      - tomografia angiograficzna naczyń krezkowych
 
 bodySystems:
   - id: przewod-pokarmowy
@@ -71,6 +173,22 @@ bodySystems:
   - id: rozrodczy
     label: Układ rozrodczy
     synonyms: [reproductive]
+  - id: uklad-nerwowy
+    label: Układ nerwowy
+    synonyms:
+      - nervous system
+  - id: glowa-i-szyja
+    label: Głowa i szyja
+    synonyms:
+      - head and neck
+  - id: oddechowy
+    label: Układ oddechowy
+    synonyms:
+      - respiratory system
+  - id: naczyniowy
+    label: Układ naczyniowy
+    synonyms:
+      - vascular system
 
 bodyParts:
   - id: jama-brzuszna
@@ -91,6 +209,37 @@ bodyParts:
   - id: slinianki
     label: Ślinianki
     synonyms: [salivary glands]
+  - id: glowa
+    label: Głowa
+    synonyms:
+      - head
+  - id: twarzoczaszka
+    label: Twarzoczaszka
+    synonyms:
+      - część twarzowa czaszki
+      - facial skeleton
+  - id: klatka-piersiowa
+    label: Klatka piersiowa
+    synonyms:
+      - thorax
+      - chest
+  - id: miednica
+    label: Miednica
+    synonyms:
+      - pelvis
+      - miednica mała
+  - id: kregoslup
+    label: Kręgosłup
+    synonyms:
+      - spine
+  - id: konczyna-dolna
+    label: Kończyna dolna
+    synonyms:
+      - lower limb
+  - id: konczyna-gorna
+    label: Kończyna górna
+    synonyms:
+      - upper limb
 
 organs:
   - id: watroba
@@ -132,6 +281,74 @@ organs:
   - id: slinianki-przyuszne-i-podzuchwowe
     label: Ślinianki przyuszne i podżuchwowe
     synonyms: [parotid and submandibular glands, major salivary glands]
+  - id: mozgowie
+    label: Mózgowie
+    synonyms:
+      - mózg
+      - brain
+  - id: kosci-twarzoczaszki
+    label: Kości twarzoczaszki
+    synonyms:
+      - facial bones
+  - id: tkanki-miekkie-szyi
+    label: Tkanki miękkie szyi
+    synonyms:
+      - neck soft tissues
+  - id: zatoki-przynosowe
+    label: Zatoki przynosowe
+    synonyms:
+      - zatoki
+      - paranasal sinuses
+  - id: oczodoly
+    label: Oczodoły
+    synonyms:
+      - orbity
+      - orbits
+  - id: tetnice-plucne
+    label: Tętnice płucne
+  - id: pluca
+    label: Płuca
+  - id: oplucna
+    label: Opłucna
+  - id: wyrostek-robaczkowy
+    label: Wyrostek robaczkowy
+  - id: jelito-grube
+    label: Jelito grube
+  - id: jelito-cienkie
+    label: Jelito cienkie
+  - id: przewod-pokarmowy
+    label: Przewód pokarmowy
+  - id: pierscien-miednicy
+    label: Pierścień miednicy
+  - id: panewka-stawu-biodrowego
+    label: Panewka stawu biodrowego
+  - id: kosc-krzyzowa
+    label: Kość krzyżowa
+  - id: przydatki
+    label: Przydatki
+  - id: tkanki-miekkie-miednicy
+    label: Tkanki miękkie miednicy
+  - id: kregoslup
+    label: Kręgosłup
+    synonyms:
+      - spine
+  - id: tetnice-wewnatrzczaszkowe
+    label: Tętnice wewnątrzczaszkowe
+    synonyms:
+      - intracranial arteries
+  - id: aorta
+    label: Aorta
+    synonyms:
+      - aorta piersiowa
+      - aorta brzuszna
+  - id: tetnice-konczyn-dolnych
+    label: Tętnice kończyn dolnych
+    synonyms:
+      - lower limb arteries
+  - id: tetnice-konczyny-gornej
+    label: Tętnice kończyny górnej
+    synonyms:
+      - upper limb arteries
 
 pathology:
   - id: obraz-prawidlowy
@@ -404,6 +621,246 @@ pathology:
   - id: rak-pecherzyka
     label: Rak pęcherzyka
     synonyms: [gallbladder cancer, gallbladder carcinoma, rak pęcherzyka żółciowego]
+  - id: niedokrwienie-mozgu
+    label: Ostre niedokrwienie mózgu
+    synonyms:
+      - niedokrwienie mozgu
+  - id: krwotok-srodmozgowy
+    label: Krwotok śródmózgowy
+    synonyms:
+      - krwotok srodmozgowy
+  - id: krwotok-podpajeczynowkowy
+    label: Krwotok podpajęczynówkowy
+    synonyms:
+      - krwotok podpajeczynowkowy
+  - id: krwiak-podtwardowkowy
+    label: Krwiak podtwardówkowy
+    synonyms:
+      - krwiak podtwardowkowy
+  - id: krwiak-nadtwardowkowy
+    label: Krwiak nadtwardówkowy
+    synonyms:
+      - krwiak nadtwardowkowy
+  - id: wodoglowie
+    label: Wodogłowie
+    synonyms:
+      - wodoglowie
+  - id: zlamanie-dna-oczodolu
+    label: Złamanie dna oczodołu
+    synonyms:
+      - zlamanie dna oczodolu
+  - id: zlamanie-jarzmowo-szczekowe
+    label: Złamanie kompleksu jarzmowo-szczękowego
+    synonyms:
+      - zlamanie jarzmowo szczekowe
+  - id: zlamanie-zuchwy
+    label: Złamanie żuchwy
+    synonyms:
+      - zlamanie zuchwy
+  - id: zlamanie-kosci-nosa
+    label: Złamanie kości nosa
+    synonyms:
+      - zlamanie kosci nosa
+  - id: zlamanie-le-fort
+    label: Złamanie typu Le Fort
+    synonyms:
+      - zlamanie le fort
+  - id: ropien-przestrzeni-glebokich
+    label: Ropień przestrzeni głębokich szyi
+    synonyms:
+      - ropien przestrzeni glebokich
+  - id: ropien-okolomigdalkowy
+    label: Ropień okołomigdałkowy
+    synonyms:
+      - ropien okolomigdalkowy
+  - id: zapalenie-naglosni
+    label: Zapalenie nagłośni
+    synonyms:
+      - Zapalenie nagłośni i okolicy nadgłośniowej
+  - id: guz-gardla-lub-krtani
+    label: Guz gardła lub krtani
+    synonyms:
+      - guz gardla lub krtani
+  - id: przewlekle-zapalenie-zatok
+    label: Przewlekłe zapalenie zatok przynosowych
+    synonyms:
+      - chronic rhinosinusitis
+      - CRS
+  - id: zapalenie-tkanek-oczodolu
+    label: Pozaprzegrodowe zapalenie tkanek oczodołu
+    synonyms:
+      - orbital cellulitis
+      - postseptal cellulitis
+  - id: zatorowosc-plucna
+    label: Zatorowość płucna
+    synonyms:
+      - pulmonary embolism
+      - PE
+      - zator tętnicy płucnej
+  - id: zapalenie-pluc
+    label: Zapalenie płuc
+    synonyms:
+      - pneumonia
+  - id: odma-oplucnowa
+    label: Odma opłucnowa
+    synonyms:
+      - pneumothorax
+  - id: plyn-w-oplucnej
+    label: Płyn w jamie opłucnej
+    synonyms:
+      - pleural effusion
+  - id: wloknienie-pluc
+    label: Włóknienie płuc
+    synonyms:
+      - pulmonary fibrosis
+  - id: zapalenie-wyrostka
+    label: Ostre zapalenie wyrostka robaczkowego
+    synonyms:
+      - appendicitis
+  - id: zapalenie-uchylkow
+    label: Zapalenie uchyłków jelita grubego
+    synonyms:
+      - diverticulitis
+  - id: niedroznosc-jelita-cienkiego
+    label: Niedrożność jelita cienkiego
+    synonyms:
+      - small bowel obstruction
+      - SBO
+  - id: ostre-zapalenie-trzustki
+    label: Ostre zapalenie trzustki
+    synonyms:
+      - acute pancreatitis
+      - OZT
+  - id: perforacja-przewodu-pokarmowego
+    label: Perforacja przewodu pokarmowego
+    synonyms:
+      - gastrointestinal perforation
+  - id: niedokrwienie-jelita
+    label: Niedokrwienie jelita
+    synonyms:
+      - bowel ischemia
+  - id: zlamanie-pierscienia-miednicy
+    label: Złamanie pierścienia miednicy
+    synonyms:
+      - pelvic ring fracture
+  - id: zlamanie-panewki
+    label: Złamanie panewki stawu biodrowego
+    synonyms:
+      - acetabular fracture
+  - id: zlamanie-kosci-krzyzowej
+    label: Złamanie kości krzyżowej
+    synonyms:
+      - sacral fracture
+  - id: pekniecie-pecherza
+    label: Uraz pęcherza moczowego
+    synonyms:
+      - bladder rupture
+      - bladder injury
+  - id: ropien-jajnikowo-jajowodowy
+    label: Ropień jajnikowo-jajowodowy
+    synonyms:
+      - tubo-ovarian abscess
+      - TOA
+  - id: krwiak-miednicy
+    label: Krwiak miednicy
+    synonyms:
+      - pelvic hematoma
+  - id: guzek-pluca-lity
+    label: Guzek lity płuca
+    synonyms:
+      - solid pulmonary nodule
+      - guzek lity płuc
+  - id: uraz-sledziony
+    label: Uraz śledziony
+    synonyms:
+      - splenic trauma
+      - splenic injury
+  - id: zlamanie-zeba-c2
+    label: Złamanie zęba C2
+    synonyms:
+      - złamanie zęba c2
+  - id: zlamanie-c1
+    label: Złamanie atlasu
+    synonyms:
+      - złamanie atlasu
+  - id: zlamanie-kompresyjne-trzonu
+    label: Złamanie kompresyjne trzonu kręgu
+    synonyms:
+      - złamanie kompresyjne trzonu kręgu
+  - id: zlamanie-wybuchowe-trzonu
+    label: Złamanie wybuchowe trzonu kręgu
+    synonyms:
+      - złamanie wybuchowe trzonu kręgu
+  - id: zmiany-zwyrodnieniowe-kregoslupa
+    label: Zmiany zwyrodnieniowe kręgosłupa
+    synonyms:
+      - zmiany zwyrodnieniowe kręgosłupa
+  - id: tetniak-wewnatrzczaszkowy
+    label: Tętniak wewnątrzczaszkowy
+    synonyms:
+      - tętniak wewnątrzczaszkowy
+  - id: niedroznosc-duzego-naczynia-mozgowego
+    label: Niedrożność dużego naczynia mózgowego
+    synonyms:
+      - niedrożność dużego naczynia mózgowego
+  - id: zwezenie-tetnicy-wewnatrzczaszkowej
+    label: Zwężenie tętnicy wewnątrzczaszkowej
+    synonyms:
+      - zwężenie tętnicy wewnątrzczaszkowej
+  - id: malformacja-tetniczo-zylna-mozgu
+    label: Malformacja tętniczo-żylna mózgu
+    synonyms:
+      - malformacja tętniczo-żylna mózgu
+  - id: skurcz-tetnic-mozgowych
+    label: Skurcz tętnic mózgowych
+    synonyms:
+      - skurcz tętnic mózgowych
+  - id: rozwarstwienie-aorty
+    label: Rozwarstwienie aorty
+    synonyms:
+      - rozwarstwienie aorty
+  - id: krwiak-srodscienny-aorty
+    label: Krwiak śródścienny aorty
+    synonyms:
+      - krwiak śródścienny aorty
+  - id: owrzodzenie-drazace-aorty
+    label: Owrzodzenie drążące aorty
+    synonyms:
+      - owrzodzenie drążące aorty
+  - id: tetniak-aorty
+    label: Tętniak aorty
+    synonyms:
+      - tętniak aorty
+  - id: pekniecie-tetniaka-aorty
+    label: Pęknięcie tętniaka aorty
+    synonyms:
+      - pęknięcie tętniaka aorty
+  - id: niedroznosc-tetnicy-konczyny-dolnej
+    label: Niedrożność tętnicy kończyny dolnej
+    synonyms:
+      - niedrożność tętnicy kończyny dolnej
+  - id: zwezenie-miazdzycowe-tetnic-konczyn-dolnych
+    label: Miażdżycowe zwężenie tętnic kończyn dolnych
+    synonyms:
+      - miażdżycowe zwężenie tętnic kończyn dolnych
+  - id: tetniak-tetnicy-podkolanowej
+    label: Tętniak tętnicy podkolanowej
+    synonyms:
+      - tętniak tętnicy podkolanowej
+  - id: uraz-tetnicy-konczyny-dolnej
+    label: Uraz tętnicy kończyny dolnej
+    synonyms:
+      - uraz tętnicy kończyny dolnej
+  - id: uraz-tetnicy-konczyny-gornej
+    label: Uraz tętnicy kończyny górnej
+    synonyms:
+      - uraz tętnicy kończyny górnej
+  - id: przeciek-okoloprotezowy-po-evar
+    label: Przeciek okołoprotezowy po EVAR
+    synonyms:
+      - endoleak
+      - endoleak po EVAR
+      - przeciek po stentgraftowaniu
 
 tags:
   - id: rezydent

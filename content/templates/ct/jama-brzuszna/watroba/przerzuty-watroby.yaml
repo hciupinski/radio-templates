@@ -1,0 +1,32 @@
+id: ct-przerzuty-watroby
+title: Przerzuty do wątroby
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Układ hepatobiliarny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Wątroba
+pathology:
+  - Przerzuty
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: '2026-11-15'
+sourceRefs:
+  - ct-liver-metastases
+sections:
+  assessmentChecklist:
+    - Fazy po kontraście i ograniczenia wykrywania zmian.
+    - Liczba, segmenty, wymiary i charakterystyka zmian reprezentatywnych.
+    - Relacja do naczyń i dróg żółciowych oraz porównanie.
+  reportTemplate: >
+    Badanie wykonano w fazie {{fazy}}. W wątrobie {{liczba_i_rozmieszczenie}} zmian ogniskowych; reprezentatywne:
+    segment {{segment}}, {{wymiary_mm}} mm, {{gestosc_i_wzmocnienie}}; segment {{segment_2}}, {{wymiary_2_mm}} mm.
+    Relacja do naczyń i dróg żółciowych {{relacje}}. W porównaniu z {{badanie_poprzednie}} {{dynamika}}. Ograniczenia
+    oceny {{ograniczenia}}.
+  impressionTemplate: |
+    Zmiany wątroby {{liczba_i_rozmieszczenie}}, {{pewnosc}} przerzutów. {{dynamika_i_ograniczenia}}.

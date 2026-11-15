@@ -1,0 +1,23 @@
+id: "ct-tetniak-tetnicy-podkolanowej"
+title: "Tętniak tętnicy podkolanowej"
+modality: "CT"
+examTypes: ["Angio-CT tętnic kończyn dolnych"]
+bodySystems: ["Układ naczyniowy"]
+bodyParts: ["Kończyna dolna"]
+organs: ["Tętnice kończyn dolnych"]
+pathology: ["Tętniak tętnicy podkolanowej"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["cta-extremity-trauma", "cta-extremity-trauma-guideline", "cta-lower-pad-guideline"]
+sections:
+  assessmentChecklist:
+    - "Maksymalne wymiary, długość oraz relacja do odgałęzień."
+    - "Skrzeplina, drożność i odpływ tętnic podudzia, druga kończyna."
+  reportTemplate: |
+    Tętnica podkolanowa {{strona}} tętniakowato poszerzona do {{srednica_mm}} mm na długości {{dlugosc_mm}} mm. Skrzeplina przyścienna {{skrzeplina}}; drożność światła {{droznosc}}. Tętnice podudzia {{odplyw}}. Tętnica przeciwstronna {{strona_przeciwna}}.
+  impressionTemplate: |
+    Tętniak tętnicy podkolanowej {{strona}} o średnicy {{srednica_mm}} mm. {{odplyw}}.
+  clinicalNotes:
+    - "Słabe wypełnienie dystalnych tętnic może wynikać z czasu akwizycji lub wolnego przepływu; należy podać ograniczenia badania."

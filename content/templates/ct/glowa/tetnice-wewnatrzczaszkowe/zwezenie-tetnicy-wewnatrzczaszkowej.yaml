@@ -1,0 +1,23 @@
+id: "ct-zwezenie-tetnicy-wewnatrzczaszkowej"
+title: "Zwężenie tętnicy wewnątrzczaszkowej"
+modality: "CT"
+examTypes: ["Angio-CT głowy"]
+bodySystems: ["Układ naczyniowy"]
+bodyParts: ["Głowa"]
+organs: ["Tętnice wewnątrzczaszkowe"]
+pathology: ["Zwężenie tętnicy wewnątrzczaszkowej"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["cta-intracranial-stenosis", "cta-intracranial-aneurysm"]
+sections:
+  assessmentChecklist:
+    - "Naczynie, odcinek, długość i stopień zwężenia oraz charakter zmian ściany."
+    - "Wypełnienie dystalne, inne zwężenia oraz artefakty."
+  reportTemplate: |
+    W {{tetnica_i_odcinek}} zwężenie światła na długości {{dlugosc_mm}} mm, około {{stopien_procent}}%, w sąsiedztwie {{morfologia_sciany}}. Wypełnienie dystalne {{wypelnienie}}. Pozostałe naczynia {{pozostale}}. Ograniczenia oceny {{ograniczenia}}.
+  impressionTemplate: |
+    Zwężenie {{tetnica_i_odcinek}} około {{stopien_procent}}%.
+  clinicalNotes:
+    - "Ocena małych naczyń oraz stopnia zwężenia zależy od rozdzielczości, wypełnienia i artefaktów."

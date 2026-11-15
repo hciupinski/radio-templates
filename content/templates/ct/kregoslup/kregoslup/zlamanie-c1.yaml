@@ -1,0 +1,23 @@
+id: "ct-zlamanie-c1"
+title: "Złamanie atlasu"
+modality: "CT"
+examTypes: ["CT kręgosłupa"]
+bodySystems: ["Układ mięśniowo-szkieletowy"]
+bodyParts: ["Kręgosłup"]
+organs: ["Kręgosłup"]
+pathology: ["Złamanie atlasu"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["ct-spine-trauma-review", "ct-cervical-trauma-review", "ct-atlas-fractures-review"]
+sections:
+  assessmentChecklist:
+    - "Szczeliny łuków i mas bocznych C1, przemieszczenie oraz kostne przyczepy więzadła poprzecznego."
+    - "Odstęp szczytowo-zębowy, stawy potyliczno-szczytowe i szczytowo-obrotowe oraz inne złamania."
+  reportTemplate: |
+    Szczeliny złamania obejmują {{luki_i_masy_boczne_c1}}; przemieszczenie odłamów {{przemieszczenie}}. Kostne przyczepy więzadła poprzecznego {{przyczepy_wiezadla}}. Odstęp szczytowo-zębowy {{odstep_szczytowo_zebowy}}; ustawienie mas bocznych i stawów C0–C2 {{ustawienie}}. Inne zmiany urazowe {{inne}}.
+  impressionTemplate: |
+    Złamanie C1 obejmujące {{lokalizacja}}, z {{przemieszczenie}}.
+  clinicalNotes:
+    - "CT ogranicza ocenę rdzenia i więzadeł; ich nieuszkodzenia nie można potwierdzić samym brakiem złamania."

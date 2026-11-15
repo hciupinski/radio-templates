@@ -1,0 +1,32 @@
+id: ct-twarzoczaszka-przewlekle-zapalenie-zatok
+title: Przewlekłe zapalenie zatok przynosowych
+modality: CT
+examTypes:
+  - CT zatok przynosowych bez kontrastu
+bodySystems:
+  - Głowa i szyja
+bodyParts:
+  - Twarzoczaszka
+organs:
+  - Zatoki przynosowe
+pathology:
+  - Przewlekłe zapalenie zatok przynosowych
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - sinus-ct-prefess
+  - sinus-crs-diagnosis
+sections:
+  assessmentChecklist:
+    - Zakres pogrubienia błony śluzowej lub zacienienia każdej zatoki i drożność kompleksów ujściowo-przewodowych.
+    - Przebudowa, pogrubienie lub destrukcja ścian kostnych oraz zmiany po zabiegu.
+    - Przegroda nosa, warianty anatomiczne, podstawa czaszki, blaszki papierowate i przebieg struktur zagrożonych w operacji.
+  reportTemplate: |
+    Zatoki szczękowe {{opis_prawa_i_lewa}}, komórki sitowe {{opis}}, zatoki czołowe {{opis}} oraz klinowe {{opis}}. Kompleksy ujściowo-przewodowe {{droznosc}}. Ściany kostne {{pogrubienie_lub_inne_zmiany}}. Przegroda nosa {{opis}}, małżowiny i istotne warianty {{opis}}. Podstawa czaszki, blaszki papierowate i przebieg kanałów nerwowo-naczyniowych {{istotne_cechy}}. {{zmiany_pooperacyjne_lub_brak}}.
+  impressionTemplate: |
+    Zmiany zapalne zatok przynosowych o zakresie {{zasieg}}; kompleksy ujściowo-przewodowe {{droznosc}}. {{istotne_warianty_lub_powiklania}}.
+  clinicalNotes:
+    - Rozpoznanie przewlekłego zapalenia wymaga korelacji z czasem trwania objawów i oceną kliniczną; samo pogrubienie błony śluzowej jest nieswoiste.

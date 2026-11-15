@@ -646,3 +646,388 @@
   type: educational
   accessedAt: "2026-07-10"
   licenseNote: Konkretny przegląd wykorzystany do cech USG podejrzanych o złośliwość, ograniczeń różnicowania i dalszej charakterystyki zmian ślinianek.
+- id: ra-hemorrhage
+  title: "The Radiology Assistant: Non-traumatic Intracranial Hemorrhage"
+  url: https://radiologyassistant.nl/neuroradiology/hemorrhage/non-traumatic-intracranial-hemorrhage
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy cech i zakresu opisu; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: ct-neurocritical
+  title: CT Imaging in Neurocritical Care
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6707494/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy cech i zakresu opisu; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: stroke-imaging
+  title: Stroke Imaging
+  url: https://www.ncbi.nlm.nih.gov/books/NBK546635/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy cech i zakresu opisu; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: hydrocephalus
+  title: Hydrocephalus and CSF Disorders
+  url: https://www.ncbi.nlm.nih.gov/books/NBK554339/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy cech i zakresu opisu; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: facial-trauma-report
+  title: "Facial fractures: classification and highlights for a useful report"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7082488/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy cech i zakresu opisu; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: acr-facial-trauma
+  title: "ACR Appropriateness Criteria: Imaging of Facial Trauma Following Primary Survey"
+  url: https://acsearch.acr.org/docs/3179912/Narrative/
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy cech i zakresu opisu; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: esr-neck-infection
+  title: "ESR Essentials: acute infections of the head and neck"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12712113/
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy cech i zakresu opisu; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: critical-neck-infection
+  title: "Critical infections in the head and neck: A pictorial review of acute presentations and complications"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11366201/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy cech i zakresu opisu; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: head-neck-cancer-imaging
+  title: "Imaging in head and neck cancer: United Kingdom National Multidisciplinary Guidelines"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4873922/
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy cech i zakresu opisu; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: acr-head-neck-cancer
+  title: "ACR Appropriateness Criteria: Staging and Post-Therapy Assessment of Head and Neck Cancer"
+  url: https://acsearch.acr.org/docs/3193973/Narrative/
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy cech i zakresu opisu; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: sinus-ct-prefess
+  title: Pre-FESS Imaging of Paranasal Sinuses and Nasal Cavity
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9895497/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy cech i zakresu opisu; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: sinus-crs-diagnosis
+  title: The Diagnosis and Treatment of Chronic Rhinosinusitis
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11741551/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy cech i zakresu opisu; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: acr-vision-loss-infection
+  title: "ACR Appropriateness Criteria: Vision Loss"
+  url: https://acsearch.acr.org/docs/3196640/Narrative
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy cech i zakresu opisu; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: acr-brain-metastases
+  title: "ACR Appropriateness Criteria: Pre-Irradiation Evaluation and Management of Brain Metastases"
+  url: https://acsearch.acr.org/docs/69384/Narrative/
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy cech i zakresu opisu; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: brain-metastases-imaging
+  title: "Brain metastases: neuroimaging"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6118134/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy cech i zakresu opisu; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: ct-pe-consensus
+  title: CT pulmonary angiography reporting consensus
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13376148/
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy zakresu opisu; bez kopiowania tekstu i ilustracji.
+- id: ct-chest-glossary
+  title: Fleischner Society glossary of thoracic imaging
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10902601/
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy zakresu opisu; bez kopiowania tekstu i ilustracji.
+- id: ct-pneumonia-review
+  title: "Pulmonary infections: imaging with CT"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7120395/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy zakresu opisu; bez kopiowania tekstu i ilustracji.
+- id: ct-pleural-review
+  title: Imaging of pleural disease
+  url: https://publications.ersnet.org/lookup/doi/10.1183/20734735.0172-2023
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy zakresu opisu; bez kopiowania tekstu i ilustracji.
+- id: ct-fibrosis-assistant
+  title: HRCT patterns of pulmonary fibrosis
+  url: https://radiologyassistant.nl/chest/hrct/fibrosis-of-the-lung-on-hrct-imaging
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy zakresu opisu; bez kopiowania tekstu i ilustracji.
+- id: ct-appendicitis-assistant
+  title: "Appendicitis: pitfalls in US and CT"
+  url: https://radiologyassistant.nl/abdomen/acute-abdomen/appendicitis-pitfalls-in-us-and-ct-diagnosis
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy zakresu opisu; bez kopiowania tekstu i ilustracji.
+- id: ct-diverticulitis-acr
+  title: "ACR Appropriateness Criteria: Left Lower Quadrant Pain"
+  url: https://acsearch.acr.org/docs/69356/Narrative/
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy zakresu opisu; bez kopiowania tekstu i ilustracji.
+- id: ct-obstruction-assistant
+  title: Closed loop obstruction in small bowel
+  url: https://radiologyassistant.nl/abdomen/bowel/closed-loop-in-small-bowel-obstruction
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy zakresu opisu; bez kopiowania tekstu i ilustracji.
+- id: ct-pancreatitis-assistant
+  title: "Acute pancreatitis: revised Atlanta classification"
+  url: https://radiologyassistant.nl/abdomen/pancreas/acute-pancreatitis
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy zakresu opisu; bez kopiowania tekstu i ilustracji.
+- id: ct-perforation-review
+  title: "Gastrointestinal perforation: MDCT clues"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7035412/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy zakresu opisu; bez kopiowania tekstu i ilustracji.
+- id: ct-ischemia-assistant
+  title: Bowel ischemia
+  url: https://radiologyassistant.nl/abdomen/bowel/bowel-ischemia
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy zakresu opisu; bez kopiowania tekstu i ilustracji.
+- id: ct-pelvic-ring-review
+  title: Imaging review of pelvic ring fractures and complications
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8870907/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy zakresu opisu; bez kopiowania tekstu i ilustracji.
+- id: ct-acetabulum-review
+  title: Algorithms in acetabular fracture classifications
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11576829/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy zakresu opisu; bez kopiowania tekstu i ilustracji.
+- id: ct-sacral-fractures
+  title: "CT of sacral fractures: classification systems and management"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10333055/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy zakresu opisu; bez kopiowania tekstu i ilustracji.
+- id: ct-bladder-trauma-wses
+  title: "Kidney and uro-trauma: WSES-AAST guidelines"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6886230/
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy zakresu opisu; bez kopiowania tekstu i ilustracji.
+- id: ct-pid-review
+  title: CT and MRI of pelvic inflammatory disease
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6923316/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy zakresu opisu; bez kopiowania tekstu i ilustracji.
+- id: ct-fleischner-2017
+  title: Fleischner Society incidental pulmonary nodules 2017
+  url: https://pubs.rsna.org/doi/10.1148/radiol.2017161659
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy zakresu opisu; bez kopiowania tekstu i ilustracji.
+- id: ct-liver-metastases
+  title: Imaging evaluation of liver in oncology patients
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8727197/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy zakresu opisu; bez kopiowania tekstu i ilustracji.
+- id: ct-splenic-trauma-wses
+  title: Splenic trauma WSES classification and guidelines
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5562999/
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło wykorzystano do autorskiej syntezy zakresu opisu; bez kopiowania tekstu i ilustracji.
+- id: ct-spine-trauma-review
+  title: Imaging evaluation of traumatic thoracolumbar spine injuries
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4585949/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: >-
+    Źródło wykorzystane do autorskiej syntezy cech obrazowych i zakresu opisu; nie kopiować treści ani ilustracji bez
+    sprawdzenia praw.
+- id: ct-cervical-trauma-review
+  title: MDCT and MRI evaluation of cervical spine trauma
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3948906/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: >-
+    Źródło wykorzystane do autorskiej syntezy cech obrazowych i zakresu opisu; nie kopiować treści ani ilustracji bez
+    sprawdzenia praw.
+- id: cta-aorta-acc-aha-2022
+  title: 2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10784847/
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: >-
+    Źródło wykorzystane do autorskiej syntezy cech obrazowych i zakresu opisu; nie kopiować treści ani ilustracji bez
+    sprawdzenia praw.
+- id: cta-intracranial-stenosis
+  title: Intracranial Vascular Stenosis and Occlusive Disease
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8158600/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: >-
+    Źródło wykorzystane do autorskiej syntezy cech obrazowych i zakresu opisu; nie kopiować treści ani ilustracji bez
+    sprawdzenia praw.
+- id: cta-intracranial-aneurysm
+  title: Clinical Practice Guideline for the Management of Intracranial Aneurysms
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4239410/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: >-
+    Źródło wykorzystane do autorskiej syntezy cech obrazowych i zakresu opisu; nie kopiować treści ani ilustracji bez
+    sprawdzenia praw.
+- id: cta-extremity-trauma
+  title: CTA Imaging of Peripheral Arterial Injuries
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11240895/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: >-
+    Źródło wykorzystane do autorskiej syntezy cech obrazowych i zakresu opisu; nie kopiować treści ani ilustracji bez
+    sprawdzenia praw.
+- id: cta-upper-extremity-acute
+  title: "CT Angiography of the Upper Extremities: Review of Acute Arterial Entities"
+  url: https://pubmed.ncbi.nlm.nih.gov/39745868/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: >-
+    Źródło wykorzystane do autorskiej syntezy cech obrazowych i zakresu opisu; nie kopiować treści ani ilustracji bez
+    sprawdzenia praw.
+- id: cta-extremity-trauma-guideline
+  title: Brazilian guidelines on diagnosis and management of traumatic vascular injuries
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10647898/
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: >-
+    Źródło wykorzystane do autorskiej syntezy cech obrazowych i zakresu opisu; nie kopiować treści ani ilustracji bez
+    sprawdzenia praw.
+- id: cta-brain-avm
+  title: "Cerebral Arteriovenous Malformations: Evaluation and Management"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4216697/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny; prawa do ilustracji należy sprawdzić osobno.
+- id: cta-brain-vasospasm-guideline
+  title: 2023 AHA/ASA Guideline for Aneurysmal Subarachnoid Hemorrhage
+  url: https://www.ahajournals.org/doi/pdf/10.1161/STR.0000000000000436
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny; prawa do ilustracji należy sprawdzić osobno.
+- id: cta-lower-pad-guideline
+  title: 2024 ACC/AHA Guideline for Lower Extremity Peripheral Artery Disease
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12782132/
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny; prawa do ilustracji należy sprawdzić osobno.
+- id: ct-spinal-metastases-review
+  title: "Multidisciplinary management of spinal metastases: what the radiologist needs to know"
+  url: https://academic.oup.com/bjr/article/95/1138/20220266/7451331
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Autorska synteza zakresu oceny; ilustracje wymagają oddzielnej weryfikacji praw.
+- id: cta-evar-endoleak-review
+  title: "CT angiography for the assessment of EVAR complications: a pictorial review"
+  url: https://link.springer.com/article/10.1186/s13244-021-01112-4
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Przegląd wykorzystany do oceny przecieku, faz akwizycji i ograniczeń klasyfikacji.
+- id: ct-intracranial-iodine-hemorrhage
+  title: >-
+    Differentiation of Hemorrhage from Iodinated Contrast in Different Intracranial Compartments Using Dual-Energy
+    Head CT
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8013231/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: >-
+    Źródło wykorzystane do ograniczeń różnicowania krwi i kontrastu jodowego w CT; prawa do ilustracji wymagają
+    osobnej weryfikacji.
+- id: adult-epiglottitis-airway
+  title: "Adult Epiglottitis: A Case Series"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5283781/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: >-
+    Źródło wykorzystane do uwagi o stabilności dróg oddechowych przed obrazowaniem; prawa do ilustracji wymagają
+    osobnej weryfikacji.
+- id: acr-mesenteric-ischemia
+  title: "ACR Appropriateness Criteria: Imaging of Mesenteric Ischemia"
+  url: https://acsearch.acr.org/docs/70909/Narrative/
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Kryteria ACR dotyczące obrazowania w podejrzeniu niedokrwienia krezki.
+- id: pneumothorax-nice-major-trauma
+  title: "NICE: Major trauma: assessment and initial management"
+  url: https://www.nice.org.uk/guidance/ng39/chapter/Recommendations
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Zalecenia NICE dotyczące klinicznej oceny odmy i postępowania w urazie.
+- id: ct-aospine-thoracolumbar-classification
+  title: AO Spine thoracolumbar injury classification system
+  url: >-
+    https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/further-reading/rationale-for-fracture-classification-a0-a1-a2-a3-a4-b1-b2-b3-c
+  type: guideline
+  accessedAt: "2026-11-15"
+  licenseNote: Oficjalne źródło klasyfikacji urazów; wykorzystane do autorskiej syntezy cech złamania wybuchowego.
+- id: ct-atlas-fractures-review
+  title: "C1 fractures: a review of diagnoses, management options, and outcomes"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4958388/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Przegląd wykorzystany do oceny złamań atlasu i ograniczeń CT w ocenie więzadeł.
+- id: cta-stroke-pseudoocclusion
+  title: "Stroke and Its Mimics: Diagnosis and Treatment"
+  url: https://www.ncbi.nlm.nih.gov/books/NBK608608/
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Rozdział wykorzystany do opisania ograniczeń jednofazowego CTA i zjawiska pseudookluzji.
+- id: radiopaedia-ct-subdural
+  title: Radiopaedia – Subdural hemorrhage
+  url: https://radiopaedia.org/articles/subdural-hemorrhage-2?lang=us
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: Rozmieszczenie i zmienna gęstość krwiaka podtwardówkowego w TK. Odsyłacz do materiału edukacyjnego.
+- id: radiopaedia-ct-orbital-blow-out
+  title: Radiopaedia – Orbital blow-out fracture
+  url: https://radiopaedia.org/articles/orbital-blow-out-fracture-2?lang=us
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: >-
+    Cechy złamania, przemieszczenie tłuszczu, podejrzenie uwięźnięcia mięśnia i urazy towarzyszące. Odsyłacz do
+    materiału edukacyjnego.
+- id: radiopaedia-ct-orbital-infection
+  title: Radiopaedia – Orbital infection
+  url: https://radiopaedia.org/articles/orbital-infection?lang=gb
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: >-
+    Lokalizacja okołoprzegrodowa i wewnątrzoczodołowa zmian oraz wykrywanie ropnia. Odsyłacz do materiału
+    edukacyjnego.
+- id: radiopaedia-cta-aortic-syndrome
+  title: Radiopaedia – Acute aortic syndrome
+  url: https://radiopaedia.org/articles/acute-aortic-syndrome?lang=us
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: >-
+    Różnicowanie rozwarstwienia, krwiaka śródściennego i drążącego owrzodzenia miażdżycowego w CT. Odsyłacz do
+    materiału edukacyjnego.
+- id: ra-ct-abdominal-trauma
+  title: "The Radiology Assistant – Abdominal Trauma: Imaging"
+  url: https://radiologyassistant.nl/abdomen/acute-abdomen/ct-in-trauma
+  type: educational
+  accessedAt: "2026-11-15"
+  licenseNote: >-
+    Znaczenie faz kontrastowych, wycieku i krwiaka oraz cystografii CT w urazach brzucha i miednicy. Odsyłacz do
+    materiału edukacyjnego.

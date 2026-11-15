@@ -1,0 +1,31 @@
+id: ct-niedroznosc-jelita-cienkiego
+title: Niedrożność jelita cienkiego
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Jelito cienkie
+pathology:
+  - Niedrożność jelita cienkiego
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: '2026-11-15'
+sourceRefs:
+  - ct-obstruction-assistant
+sections:
+  assessmentChecklist:
+    - Kaliber pętli, miejsce przejścia i potencjalna przyczyna.
+    - Pętla zamknięta i skręt krezki.
+    - Wzmocnienie ściany, płyn, gaz śródścienny lub pozajelitowy.
+  reportTemplate: >
+    Pętle jelita cienkiego poszerzone do {{srednica_mm}} mm, z punktem przejścia {{lokalizacja}}; prawdopodobna
+    przyczyna {{przyczyna}}. Dalsze pętle {{dalsze_petle}}. Cechy pętli zamkniętej lub skrętu krezki {{ocena}}. Ściana i
+    jej wzmocnienie {{sciana}}; płyn i gaz pozajelitowy {{plyn_gaz}}.
+  impressionTemplate: |
+    Niedrożność jelita cienkiego na poziomie {{poziom}}, {{przyczyna}}. {{cechy_powiklan}}.

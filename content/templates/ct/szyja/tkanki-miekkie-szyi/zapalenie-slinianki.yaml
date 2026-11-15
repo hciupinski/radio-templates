@@ -1,0 +1,31 @@
+id: ct-szyja-zapalenie-slinianki
+title: Ostre zapalenie ślinianki
+modality: CT
+examTypes:
+  - CT szyi z kontrastem
+bodySystems:
+  - Głowa i szyja
+bodyParts:
+  - Szyja
+organs:
+  - Tkanki miękkie szyi
+pathology:
+  - Ostre zapalenie ślinianki
+tags:
+  - Rezydent
+  - Pilne
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs:
+  - esr-neck-infection
+  - critical-neck-infection
+sections:
+  assessmentChecklist:
+    - Lokalizacja i powiększenie gruczołu, wzmocnienie i naciek otoczenia.
+    - Złóg, poszerzenie przewodu wyprowadzającego oraz ewentualny ropień.
+    - Szerzenie do przestrzeni szyi i stan dróg oddechowych.
+  reportTemplate: |
+    Ślinianka {{rodzaj_i_strona}} {{powiekszenie_i_wzmocnienie}}, z {{naciek_otoczenia}}. Przewód wyprowadzający {{poszerzenie}}, {{zlog_lub_brak_widocznego}}. {{ropien_lub_brak}}. Sąsiednie przestrzenie szyi {{opis}}, drogi oddechowe {{opis}}, węzły chłonne {{opis}}.
+  impressionTemplate: |
+    Obraz ostrego zapalenia ślinianki {{rodzaj_i_strona}}. {{zlog_i_powiklania}}.

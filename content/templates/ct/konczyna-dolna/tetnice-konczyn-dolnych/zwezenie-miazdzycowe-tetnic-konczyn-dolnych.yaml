@@ -1,0 +1,23 @@
+id: "ct-zwezenie-miazdzycowe-tetnic-konczyn-dolnych"
+title: "Miażdżycowe zwężenie tętnic kończyn dolnych"
+modality: "CT"
+examTypes: ["Angio-CT tętnic kończyn dolnych"]
+bodySystems: ["Układ naczyniowy"]
+bodyParts: ["Kończyna dolna"]
+organs: ["Tętnice kończyn dolnych"]
+pathology: ["Miażdżycowe zwężenie tętnic kończyn dolnych"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["cta-extremity-trauma", "cta-extremity-trauma-guideline", "cta-lower-pad-guideline"]
+sections:
+  assessmentChecklist:
+    - "Lokalizacja, długość i nasilenie zwężeń oraz zwapnienia."
+    - "Drożność napływu i odpływu, zwłaszcza tętnic podudzia."
+  reportTemplate: |
+    Zmiany miażdżycowe {{lokalizacja}}, ze zwężeniem światła {{stopien_procent}}% na długości {{dlugosc_mm}} mm. Napływ {{naplyw}}, tętnice podudzia i stopy {{odplyw}}. Zwapnienia {{zwapnienia}}; ograniczenia oceny {{ograniczenia}}.
+  impressionTemplate: |
+    Miażdżycowe zwężenie {{tetnica_i_strona}} około {{stopien_procent}}%.
+  clinicalNotes:
+    - "Słabe wypełnienie dystalnych tętnic może wynikać z czasu akwizycji lub wolnego przepływu; należy podać ograniczenia badania."

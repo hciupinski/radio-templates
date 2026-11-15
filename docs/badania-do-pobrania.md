@@ -170,3 +170,22 @@ Podstawa do doboru zakresu: [ACR BI-RADS](https://cs.acr.org/Clinical-Resources/
 2. Uzupełnić `USG szyi` o brakujące warianty tarczycy i węzłów chłonnych.
 3. Rozszerzyć `USG tkanek miękkich`.
 4. Dopiero potem wejść w nowe obszary z Priorytetu 3.
+
+## TK i angio-TK dorosłych — dodane szablony
+
+Pierwsza seria obejmuje 62 szablony patologii. Zakres dobrano pod kątem częstych i pilnych rozpoznań oraz wybranych kontroli.
+
+| Zakres badania | Liczba | Patologie i warianty |
+| --- | ---: | --- |
+| TK głowy | 7 | Krwiak nadtwardówkowy, Krwiak podtwardówkowy, Krwotok podpajęczynówkowy, Krwotok śródmózgowy, Ostre niedokrwienie mózgu, Podejrzenie przerzutów do mózgowia, Wodogłowie |
+| TK twarzoczaszki | 7 | Pozaprzegrodowe zapalenie tkanek oczodołu, Przewlekłe zapalenie zatok przynosowych, Złamanie dna oczodołu, Złamanie kompleksu jarzmowo-szczękowego, Złamanie kości nosa, Złamanie typu Le Fort, Złamanie żuchwy |
+| TK szyi | 6 | Guz gardła lub krtani, Ostre zapalenie ślinianki, Podejrzane przerzutowe węzły chłonne szyi, Ropień okołomigdałkowy, Ropień przestrzeni głębokich szyi, Zapalenie nagłośni i okolicy nadgłośniowej |
+| TK klatki piersiowej | 6 | Odma opłucnowa, Płyn w jamie opłucnej, Przypadkowy guzek lity płuca, Włóknienie płuc, Zapalenie płuc, Zatorowość płucna |
+| TK jamy brzusznej | 8 | Niedokrwienie jelita, Niedrożność jelita cienkiego, Ostre zapalenie trzustki, Ostre zapalenie wyrostka robaczkowego, Perforacja przewodu pokarmowego, Przerzuty do wątroby, Uraz śledziony, Zapalenie uchyłków jelita grubego |
+| TK miednicy | 6 | Krwiak miednicy, Ropień jajnikowo-jajowodowy, Uraz pęcherza moczowego, Złamanie kości krzyżowej, Złamanie panewki stawu biodrowego, Złamanie pierścienia miednicy |
+| TK kręgosłupa | 6 | Podejrzenie przerzutów do kręgosłupa, Złamanie atlasu, Złamanie kompresyjne trzonu kręgu, Złamanie wybuchowe trzonu kręgu, Złamanie zęba C2, Zmiany zwyrodnieniowe kręgosłupa |
+| Angio-TK tętnic kończyn | 5 | Miażdżycowe zwężenie tętnic kończyn dolnych, Niedrożność tętnicy kończyny dolnej, Tętniak tętnicy podkolanowej, Uraz tętnicy kończyny dolnej, Uraz tętnicy kończyny górnej |
+| Angio-TK głowy | 5 | Malformacja tętniczo-żylna mózgu, Niedrożność dużego naczynia mózgowego, Skurcz tętnic mózgowych, Tętniak wewnątrzczaszkowy, Zwężenie tętnicy wewnątrzczaszkowej |
+| Angio-TK aorty | 6 | Krwiak śródścienny aorty, Owrzodzenie drążące aorty, Pęknięcie tętniaka aorty, Przeciek okołoprotezowy po EVAR, Rozwarstwienie aorty, Tętniak aorty |
+
+Kryteria opracowania zapisano w [promptach do etapu 23](prompty-skille-etap-23-tk-patologie.md).

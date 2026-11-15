@@ -1,0 +1,23 @@
+id: "ct-zlamanie-wybuchowe-trzonu"
+title: "Złamanie wybuchowe trzonu kręgu"
+modality: "CT"
+examTypes: ["CT kręgosłupa"]
+bodySystems: ["Układ mięśniowo-szkieletowy"]
+bodyParts: ["Kręgosłup"]
+organs: ["Kręgosłup"]
+pathology: ["Złamanie wybuchowe trzonu kręgu"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-15"
+sourceRefs: ["ct-spine-trauma-review", "ct-cervical-trauma-review", "ct-aospine-thoracolumbar-classification"]
+sections:
+  assessmentChecklist:
+    - "Zajęcie tylnej ściany i blaszek granicznych, utrata wysokości oraz ewentualna retropulsja."
+    - "Zwężenie kanału, uszkodzenia elementów tylnych i ustawienie."
+  reportTemplate: |
+    Wieloodłamowe złamanie trzonu {{poziom}} z obniżeniem wysokości o {{utrata_wysokosci_procent}}%. Tylna ściana {{tylna_sciana_i_retropulsja}}; kanał kręgowy {{kanal_i_stopien_zwezenia}}. Elementy tylne {{elementy_tylne}}; ustawienie {{ustawienie}}. Inne obrażenia {{inne}}.
+  impressionTemplate: |
+    Złamanie wybuchowe {{poziom}}. {{retropulsja_i_zwezenie_kanalu}}.
+  clinicalNotes:
+    - "CT ogranicza ocenę rdzenia i więzadeł; ich nieuszkodzenia nie można potwierdzić samym brakiem złamania."

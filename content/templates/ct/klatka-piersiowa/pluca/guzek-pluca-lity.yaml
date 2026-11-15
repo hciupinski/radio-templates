@@ -1,0 +1,35 @@
+id: ct-guzek-pluca-lity
+title: Przypadkowy guzek lity płuca
+modality: CT
+examTypes:
+  - CT klatki piersiowej
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Płuca
+pathology:
+  - Guzek lity płuca
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: '2026-11-15'
+sourceRefs:
+  - ct-fleischner-2017
+sections:
+  assessmentChecklist:
+    - Lokalizacja, liczba i pomiar guzka w cienkich warstwach.
+    - Morfologia, brzegi, zwapnienia i porównanie z wcześniejszym badaniem.
+    - Kontekst ryzyka oraz możliwość zastosowania zaleceń Fleischner.
+  reportTemplate: >
+    W {{plat_segment}} guzek płuca o gęstości litej, wymiarach {{wymiary_mm}} mm, średnia średnica {{srednica_mm}} mm;
+    brzegi {{brzegi}}, zwapnienia {{zwapnienia}}. Pozostałe guzki {{pozostale_guzki}}. Porównanie z
+    {{badanie_poprzednie}}: {{dynamika}}. {{inne_istotne_zmiany}}.
+  impressionTemplate: |
+    Lity guzek płuca {{lokalizacja_i_srednica}}. {{ocena_i_zalecenie_w_kontekscie}}.
+  clinicalNotes:
+    - >-
+      Zalecenia Fleischner 2017 dotyczą przypadkowych guzków i nie są przeznaczone dla pacjentów poniżej 35 lat, z
+      immunosupresją lub nowotworem ani dla badań przesiewowych.
