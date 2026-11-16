@@ -14,7 +14,7 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
+version: "0.1.1"
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-ipf
@@ -27,6 +27,6 @@ sections:
   reportTemplate: |
     Zmiany włókniste {{rozmieszczenie}}, {{siateczka_i_zaburzenie_architektury}}. Rozstrzenie z pociągania {{rozstrzenie}}, plaster miodu {{plaster_miodu}}. Mleczna szyba {{mleczna_szyba}}, cechy sugerujące rozpoznanie alternatywne {{cechy_alternatywne}}. W porównaniu z {{data_badania}} {{dynamika}}.
   impressionTemplate: |
-    Wzorzec HRCT {{uip_prawdopodobny_uip_nieokreslony_lub_alternatywny}}. {{rozmieszczenie_i_dynamika}}.
+    Wzorzec HRCT {{uip_prawdopodobny_uip_nieokreslony_dla_uip_lub_sugerujacy_inne_rozpoznanie}}. {{rozmieszczenie_i_dynamika}}.
   clinicalNotes:
-    - UIP jest wzorcem obrazowym występującym także w innych chorobach; rozpoznanie IPF wymaga oceny klinicznej i wykluczenia innych przyczyn włóknienia.
+    - UIP jest wzorcem obrazowym występującym także w innych chorobach; rozpoznanie IPF wymaga oceny klinicznej i wykluczenia innych przyczyn włóknienia. Wzorzec nieokreślony dla UIP dotyczy włóknienia niespełniającego kryteriów UIP ani prawdopodobnego UIP, bez cech wyraźnie sugerujących inną przyczynę.

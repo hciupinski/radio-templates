@@ -14,18 +14,20 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
+version: "0.1.1"
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-mediastinum
+  - auditc-varices-ct-meta
 sections:
   assessmentChecklist:
-    - Położenie, nasilenie i ciągłość poszerzonych naczyń okołoprzełykowych.
+    - Położenie i ciągłość poszerzonych naczyń w ścianie przełyku oraz osobno naczyń okołoprzełykowych.
     - Inne drogi krążenia obocznego i cechy nadciśnienia wrotnego w zakresie badania.
     - Jakość kontrastowania oraz ograniczenia oceny.
   reportTemplate: |
-    W dolnym odcinku przełyku i okołoprzełykowo {{naczynia_i_zasieg}}. Inne widoczne naczynia oboczne {{krazenie_oboczne}}, cechy nadciśnienia wrotnego w dostępnym zakresie {{nadcisnienie_wrotne}}. Jakość zakontrastowania {{jakosc_i_ograniczenia}}. Pozostałe zmiany {{inne}}.
+    W ścianie przełyku {{naczynia_scienne_i_zasieg}}, w tkankach okołoprzełykowych {{naczynia_okoloprzelykowe}}. Inne widoczne naczynia oboczne {{krazenie_oboczne}}, cechy nadciśnienia wrotnego w dostępnym zakresie {{nadcisnienie_wrotne}}. Jakość zakontrastowania {{jakosc_i_ograniczenia}}. Pozostałe zmiany {{inne}}.
   impressionTemplate: |
-    Żylaki przełyku {{zasieg}}; {{inne_cechy_nadcisnienia_wrotnego}}.
+    {{zylaki_scienne_lub_naczynia_okoloprzelykowe_i_pewnosc}}; {{inne_cechy_nadcisnienia_wrotnego}}.
   clinicalNotes:
+    - Naczynia okołoprzełykowe nie są tożsame z żylakami w ścianie przełyku; jeżeli lokalizacja jest niepewna, należy to zaznaczyć. CT może nie uwidocznić małych żylaków i nie zastępuje oceny endoskopowej.
     - CT nie określa wiarygodnie ryzyka krwawienia z żylaków.

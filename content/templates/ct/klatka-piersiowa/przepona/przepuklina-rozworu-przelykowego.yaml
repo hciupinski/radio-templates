@@ -14,10 +14,11 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
+version: "0.1.1"
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-hernia
+  - auditc-ct-gastric-volvulus
 imageRefs:
   - id: commons-ct3-hiatus
     title: Przepuklina rozworu przełykowego
@@ -37,8 +38,11 @@ sections:
   assessmentChecklist:
     - Rodzaj i zawartość przepukliny, położenie połączenia przełykowo-żołądkowego.
     - Wymiary wrót, rotacja i rozdęcie żołądka, ucisk sąsiednich struktur.
-    - Cechy niedrożności lub niedokrwienia w objętym zakresie.
+    - Cechy niedrożności, rozdęcia, skrętu lub niedokrwienia w objętym zakresie; dostępność fazy po podaniu kontrastu.
   reportTemplate: |
     Przez rozwór przełykowy przemieszcza się {{zawartosc}}, połączenie przełykowo-żołądkowe {{polozenie}}, wrota {{wymiary_mm}} mm. Żołądek {{rotacja_i_rozdecie}}, cechy niedrożności lub zaburzenia ukrwienia {{ocena_i_ograniczenia}}. Pozostałe zmiany {{inne}}.
   impressionTemplate: |
-    Przepuklina rozworu przełykowego {{typ_i_zawartosc}}. {{powiklania_lub_brak}}.
+    Przepuklina rozworu przełykowego {{typ_i_zawartosc}}. {{powiklania_lub_ocena_ograniczona}}.
+  clinicalNotes:
+    - Samo nieprawidłowe ustawienie żołądka w dużej przepuklinie nie dowodzi ostrego skrętu; należy ocenić cechy niedrożności i możliwego niedokrwienia.
+    - Ocena wzmocnienia ściany i niedokrwienia jest ograniczona bez odpowiedniej fazy pokontrastowej; brak jednoznacznych cech CT nie wyklucza niedokrwienia.

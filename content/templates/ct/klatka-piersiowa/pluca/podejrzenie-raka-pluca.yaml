@@ -14,8 +14,8 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
-updatedAt: "2026-11-15"
+version: "0.1.1"
+updatedAt: "2026-11-16"
 sourceRefs:
   - lung-cancer-rcr
   - chest-tnm-radiology-assistant
@@ -23,10 +23,10 @@ sections:
   assessmentChecklist:
     - Lokalizacja, wymiary, składowa lita i charakter brzegów guza.
     - Relacja do oskrzeli, naczyń, opłucnej, ściany klatki piersiowej i śródpiersia; niedodma lub zmiany zaporowe.
-    - Węzły chłonne według stacji i osi krótkiej, dodatkowe guzki płucne, płyn opłucnowy i osierdziowy.
+    - Węzły chłonne według stacji i osi krótkiej, także nadobojczykowe w zakresie badania; dodatkowe guzki płucne oraz guzki opłucnej i płyn opłucnowy lub osierdziowy.
     - Podejrzane ogniska w kościach, wątrobie i nadnerczach wyłącznie w objętym zakresie oraz ograniczenia oceny.
   reportTemplate: |
-    W {{plat_i_segment}} guz o wymiarach {{wymiary_mm}} mm, o charakterze {{charakter_i_skladowa_lita}}, z brzegami {{brzegi}}. Stosunek do oskrzeli {{oskrzela}}, naczyń {{naczynia}}, opłucnej i ściany klatki piersiowej {{oplucna_i_sciana}}, śródpiersia {{srodpiersie}}. {{niedodma_lub_zmiany_zaporowe}}. Węzły chłonne wnęk i śródpiersia {{stacje_strony_i_os_krotka}}. Dodatkowe guzki płuc {{lokalizacja_i_wymiary_lub_brak}}, płyn opłucnowy lub osierdziowy {{opis}}. Kości oraz wątroba i nadnercza w objętym zakresie {{opis_i_ograniczenia}}. Porównanie z {{data_badania}} {{dynamika_lub_brak_porownania}}.
+    W {{plat_i_segment}} guz o wymiarach {{wymiary_mm}} mm, o charakterze {{charakter_i_skladowa_lita}}, z brzegami {{brzegi}}. Stosunek do oskrzeli {{oskrzela}}, naczyń {{naczynia}}, opłucnej i ściany klatki piersiowej {{oplucna_i_sciana}}, śródpiersia {{srodpiersie}}. {{niedodma_lub_zmiany_zaporowe}}. Węzły chłonne wnęk, śródpiersia i okolic nadobojczykowych w zakresie badania {{stacje_strony_i_os_krotka}}. Dodatkowe guzki płuc {{lokalizacja_i_wymiary_lub_brak}}, opłucna oraz płyn opłucnowy lub osierdziowy {{opis}}. Kości oraz wątroba i nadnercza w objętym zakresie {{opis_i_ograniczenia}}. Porównanie z {{data_badania}} {{dynamika_lub_brak_porownania}}.
   impressionTemplate: |
     Guz płuca {{lokalizacja_i_wymiary}} podejrzany o nowotwór pierwotny. {{zasieg_miejscowy_wezly_i_zmiany_towarzyszace}}.
   clinicalNotes:

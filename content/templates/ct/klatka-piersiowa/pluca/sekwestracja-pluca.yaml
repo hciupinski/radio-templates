@@ -14,18 +14,20 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
+version: "0.1.1"
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-sequestration
+  - chest3-lung-pleura
 sections:
   assessmentChecklist:
     - Lokalizacja i charakter nieprawidłowego miąższu, torbiele lub konsolidacja.
     - "Tętnica systemowa zasilająca: liczba, odejście, średnica i przebieg."
-    - Odpływ żylny i połączenie z drogami oddechowymi w zakresie oceny.
+    - Odpływ żylny do żył płucnych lub układowych, o ile jest widoczny w dostępnej fazie; połączenie z drogami oddechowymi w zakresie oceny.
   reportTemplate: |
     W {{lokalizacja}} widoczny obszar zmienionego miąższu {{wymiary_i_charakter}}. Tętnica systemowa {{liczba_odejscie_i_przebieg}}, średnicy {{srednica_mm}} mm. Odpływ żylny {{odplyw_zylny}}, połączenie z drogami oddechowymi {{ocena_i_ograniczenia}}. Pozostałe płuca i opłucna {{inne}}.
   impressionTemplate: |
     Obraz {{pewnosc}} sekwestracji płuca {{lokalizacja}}, zaopatrzenie z {{tetnica}}, odpływ {{odplyw}}.
   clinicalNotes:
-    - Niewykazanie tętnicy systemowej w badaniu bez odpowiedniej fazy nie wyklucza sekwestracji.
+    - Niewykazanie tętnicy systemowej w badaniu bez odpowiedniej fazy nie wyklucza sekwestracji; ocena odpływu żylnego zależy od jego zakontrastowania.
+    - Typowy odpływ wewnątrzpłatowy prowadzi do żył płucnych, a pozapłatowy do żył układowych, ale istnieją warianty i sam odpływ nie przesądza typu.

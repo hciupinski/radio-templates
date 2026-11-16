@@ -14,11 +14,12 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
+version: "0.1.1"
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-breast-metastases
   - chest3-lung-metastases
+  - auditc-nice-advanced-breast
 sections:
   assessmentChecklist:
     - Liczba, lokalizacja i wymiary zmian płucnych; porównanie.
@@ -30,3 +31,4 @@ sections:
     {{ocena_rozsiewu_i_pewnosc}}. {{najwazniejsze_lokalizacje_i_dynamika}}.
   clinicalNotes:
     - Podejrzane ogniska nie są swoiste dla przerzutów; rozpoznanie należy odnieść do choroby podstawowej i badań porównawczych.
+    - Badanie klatki piersiowej ocenia tylko obszar objęty akwizycją; samo nie wyklucza rozsiewu poza klatką piersiową ani nie stanowi pełnej oceny zaawansowania odległego.

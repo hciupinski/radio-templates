@@ -8,18 +8,18 @@ organs: ["Aorta"]
 pathology: ["Rozwarstwienie aorty"]
 tags: ["Rezydent", "Pilne"]
 status: "draft"
-version: "0.1.0"
-updatedAt: "2026-11-15"
+version: "0.1.1"
+updatedAt: "2026-11-16"
 sourceRefs:
   - cta-aorta-acc-aha-2022
   - radiopaedia-cta-aortic-syndrome
 sections:
   assessmentChecklist:
-    - "Zasięg płata i zajęcie aorty wstępującej; światła prawdziwe i rzekome."
-    - "Odejścia i drożność gałęzi, cechy malperfuzji i pęknięcia."
+    - "Zakres badania, zasięg płata i zajęcie aorty wstępującej; światła prawdziwe i rzekome."
+    - "Punkt wejścia, jeśli widoczny, odejścia i drożność gałęzi, cechy malperfuzji i pęknięcia."
   reportTemplate: |
-    Płat rozwarstwienia od {{poczatek}} do {{koniec}}; aorta wstępująca {{zajeta_lub_niezajeta}}, typ Stanford {{typ}}. Światło prawdziwe {{swiatlo_prawdziwe}}, rzekome {{swiatlo_rzekome}}. Gałęzie {{galezie_i_droznosc}}, cechy malperfuzji {{malperfuzja}}. Krwawienie lub płyn {{powiklania}}.
+    Zakres i jakość badania {{zakres_i_jakosc}}. Płat rozwarstwienia od {{poczatek}} do {{koniec}}; aorta wstępująca {{ocena_aorty_wstepujacej}}, typ Stanford {{typ_lub_niemozliwy_do_okreslenia}}. Punkt wejścia {{punkt_wejscia_lub_niewidoczny}}. Światło prawdziwe {{swiatlo_prawdziwe}}, rzekome {{swiatlo_rzekome}}. Gałęzie {{galezie_i_droznosc}}, cechy malperfuzji {{malperfuzja}}. Krwawienie lub płyn {{powiklania}}.
   impressionTemplate: |
-    Rozwarstwienie aorty typu Stanford {{typ}}, od {{poczatek}} do {{koniec}}. {{powiklania}}.
+    Rozwarstwienie aorty od {{poczatek}} do {{koniec}}, {{typ_stanford_lub_ograniczenia}}. {{powiklania}}.
   clinicalNotes:
-    - "Ocena krwiaka śródściennego jest ograniczona bez fazy przed podaniem kontrastu; artefakt ruchowy może naśladować płat."
+    - "Typ Stanford należy określić tylko przy dostatecznej ocenie aorty wstępującej. Artefakt ruchowy może naśladować płat; ocena krwiaka śródściennego jest ograniczona bez fazy przed kontrastem."

@@ -14,10 +14,11 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
+version: "0.1.1"
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-trauma
+  - n3-polytrauma-eser
 sections:
   assessmentChecklist:
     - Ściana klatki i kości, kręgosłup, krwiaki oraz wynaczynienie w dostępnych fazach.
@@ -28,4 +29,5 @@ sections:
   impressionTemplate: |
     {{najwazniejsze_obrazenia_i_powiklania}}. {{ograniczenia}}.
   clinicalNotes:
-    - Ocena uszkodzenia naczyń i aktywnego krwawienia zależy od fazy i jakości zakontrastowania.
+    - Ocena uszkodzenia naczyń i aktywnego krwawienia zależy od fazy i jakości zakontrastowania; pojedyncza faza może nie pozwalać na określenie dynamiki ani źródła krwawienia.
+    - Opis obejmuje klatkę piersiową i widoczne nadbrzusze; nie zastępuje oceny pozostałych obszarów w wielonarządowym badaniu urazowym.

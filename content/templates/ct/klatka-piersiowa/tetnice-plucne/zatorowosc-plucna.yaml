@@ -14,18 +14,21 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: 0.1.0
-updatedAt: '2026-11-15'
+version: "0.1.1"
+updatedAt: "2026-11-16"
 sourceRefs:
   - ct-pe-consensus
+  - audit-a-acute-pe-guideline-2026
 sections:
   assessmentChecklist:
-    - Jakość zakontrastowania i zakres oceny tętnic płucnych.
-    - Strona, najbardziej proksymalny poziom i rozległość materiału zatorowego.
-    - Stosunek RV/LV, przegroda międzykomorowa oraz zmiany płucne i opłucnowe.
-  reportTemplate: >
-    Angio-CT tętnic płucnych: {{jakosc_badania_i_ograniczenia}}. Ubytki zakontrastowania w {{strona_i_naczynia}},
-    najbardziej proksymalnie na poziomie {{poziom}}, {{stopien_zamkniecia}}. Wymiar RV/LV {{stosunek_rv_lv}}; przegroda
-    międzykomorowa {{przegroda}}. Miąższ płuc {{zmiany_miazzszowe}}; opłucna {{oplucna}}.
+    - Jakość zakontrastowania, artefakty i najbardziej obwodowy poziom diagnostycznej oceny tętnic.
+    - Strona, lokalizacja, najbardziej proksymalny poziom i rozległość zatorów; cechy ostrego lub przewlekłego materiału.
+    - Stosunek maksymalnych wewnętrznych wymiarów RV/LV, płaszczyzna pomiaru i położenie przegrody oraz zmiany płucne i opłucnowe.
+  reportTemplate: |
+    Angio-CT tętnic płucnych: {{jakosc_zakontrastowania_artefakty_i_zakres_oceny}}. Ubytki wypełnienia {{strona_i_naczynia}}, najbardziej proksymalnie {{poziom}}, {{stopien_zamkniecia_i_charakter_ostry_lub_przewlekly}}. Cechy przewlekłej choroby zakrzepowo-zatorowej {{cechy_przewlekle_lub_brak}}. Stosunek maksymalnych wewnętrznych wymiarów RV/LV {{stosunek_rv_lv_lub_nieocenialny}} w płaszczyźnie {{plaszczyzna_pomiaru}}, przegroda międzykomorowa {{przegroda}}. Miąższ płuc {{zmiany_miazszowe}}, opłucna {{oplucna}}.
   impressionTemplate: |
-    Zatorowość płucna: {{lokalizacja_i_zasieg}}. Cechy obciążenia prawej komory: {{ocena}}.
+    {{pewnosc_i_charakter_zatorowosci}}: {{lokalizacja_i_zasieg}}. RV/LV {{stosunek_rv_lv_lub_nieocenialny}}; {{pozostale_cechy_obciazenia_lub_ich_brak}}. {{ograniczenia_badania}}.
+  clinicalNotes:
+    - Wynik ujemny ogranicz do diagnostycznie ocenionego poziomu tętnic; niedostateczne zakontrastowanie lub artefakty mogą uniemożliwić ocenę.
+    - Do pomiaru RV/LV użyj maksymalnych wymiarów wewnętrznych w przekrojach osiowych albo w rekonstrukcji czterojamowej i podaj zastosowaną metodę.
+    - Ocena RV/LV w CT opisuje wymiary jam, a nie bezpośredni pomiar funkcji prawej komory; cechy przewlekłe i ostre mogą współistnieć.
