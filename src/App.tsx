@@ -316,7 +316,7 @@ export default function App() {
       return [];
     }
 
-    return buildAnatomyTree(filteredTemplates, bundle.taxonomy);
+    return buildAnatomyTree(filteredTemplates, bundle.taxonomy, bundle.catalog.examTypeGroups);
   }, [bundle, filteredTemplates]);
 
   const allConditionGroups = useMemo(() => {

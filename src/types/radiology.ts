@@ -76,7 +76,15 @@ export type ConditionGroup = {
   order: number;
 };
 
+export type ExamTypeGroup = {
+  id: string;
+  label: string;
+  modality: Modality;
+  examTypeIds: string[];
+};
+
 export type CatalogConfig = {
+  examTypeGroups?: ExamTypeGroup[];
   anatomySections: Record<string, AnatomySection[]>;
   conditionGroups: ConditionGroup[];
 };
@@ -156,6 +164,12 @@ export type AnatomyTreeModality = {
   label: string;
   count: number;
   examTypes: AnatomyTreeExamType[];
+  examTypeGroups: {
+    id: string;
+    label: string;
+    count: number;
+    examTypes: AnatomyTreeExamType[];
+  }[];
 };
 
 export type CatalogGroupSummary = {

@@ -192,12 +192,14 @@ function toSummaryGroup(
 
 export function buildAnatomyTree(
   templates: TemplateWithSearch[],
-  taxonomy: Taxonomy
+  taxonomy: Taxonomy,
+  examTypeGroups: CatalogConfig["examTypeGroups"] = []
 ): AnatomyTreeModality[] {
   const modalityLookup = createOrderLookup(taxonomy.modalities);
   const examTypeLookup = createOrderLookup(taxonomy.examTypes);
   const bodySystemLookup = createOrderLookup(taxonomy.bodySystems);
   const organLookup = createOrderLookup(taxonomy.organs);
+  const examLabelsById = new Map(taxonomy.examTypes.map(({ id, label }) => [id, label]));
 
   const modalityMap = new Map<
     string,
@@ -287,10 +289,26 @@ export function buildAnatomyTree(
         examTypeLookup
       );
 
+      const examsByLabel = new Map(examTypes.map((examType) => [examType.label, examType]));
+      const groups = examTypeGroups.filter((group) => group.modality === label).flatMap((group) => {
+        const groupedExams = group.examTypeIds.flatMap((id) => {
+          const examLabel = examLabelsById.get(id);
+          const exam = examLabel ? examsByLabel.get(examLabel) : undefined;
+          return exam ? [exam] : [];
+        });
+        if (groupedExams.length === 0) return [];
+
+        const templateIds = new Set(
+          groupedExams.flatMap((exam) => [...(modalityEntry.examTypes.get(exam.label)?.ids ?? [])])
+        );
+        return [{ id: group.id, label: group.label, count: templateIds.size, examTypes: groupedExams }];
+      });
+
       return {
         label,
         count: modalityEntry.ids.size,
-        examTypes
+        examTypes,
+        examTypeGroups: groups
       };
     }),
     modalityLookup
@@ -497,7 +515,7 @@ export function prepareContent(bundle: AppContentBundle) {
       shouldSort: true,
       includeScore: true
     }),
-    anatomyTree: buildAnatomyTree(templatesWithSearch, bundle.taxonomy),
+    anatomyTree: buildAnatomyTree(templatesWithSearch, bundle.taxonomy, bundle.catalog.examTypeGroups),
     conditionGroups: buildConditionGroups(templatesWithSearch, bundle.catalog)
   };
 }
