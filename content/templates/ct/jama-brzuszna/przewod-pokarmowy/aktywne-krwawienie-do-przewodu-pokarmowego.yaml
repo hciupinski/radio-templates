@@ -1,0 +1,37 @@
+id: ct3-aktywne-krwawienie-do-przewodu-pokarmowego
+title: Aktywne krwawienie do przewodu pokarmowego
+modality: CT
+examTypes:
+  - Angio-CT jamy brzusznej i miednicy w krwawieniu
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Przewód pokarmowy
+pathology:
+  - Aktywne krwawienie do przewodu pokarmowego
+tags:
+  - Rezydent
+  - Pilne
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-acg-sar-gi-bleeding
+  - ct3-cta-gi-bleeding
+sections:
+  assessmentChecklist:
+    - Dostępne fazy i porównanie z warstwą bez kontrastu, jeśli wykonana.
+    - Odcinek przewodu pokarmowego i dokładne miejsce pierwszego pojawienia się jodu w świetle.
+    - Dynamika w późniejszej fazie, możliwa przyczyna i naczynie źródłowe.
+  reportTemplate: >
+    W świetle {{odcinek_i_lokalizacja}} widoczne ognisko hiperdensyjne w fazie {{faza_pojawienia_sie}}, {{obecnosc_w_fazie_bez_kontrastu_lub_nieocenialna}}. W fazie
+    {{faza_pozniejsza}} {{dynamika_naplywu_i_zasiegu}}. W fazie bez kontrastu {{ocena_wyjsciowa_lub_brak_fazy}}. Prawdopodobne
+    źródło lub przyczyna {{przyczyna_i_naczynie}}, inne ogniska {{inne_ogniska}}.
+  impressionTemplate: |
+    {{pewnosc_aktywnego_krwawienia}} do światła {{odcinek_i_lokalizacja}}. {{widoczna_przyczyna_lub_ograniczenia}}.
+  clinicalNotes:
+    - >-
+      Hiperdensyjna treść obecna przed podaniem kontrastu może imitować wyciek. Ujemny wynik w czasie akwizycji nie wyklucza
+      krwawienia okresowego. Przy braku faz potrzebnych do oceny pochodzenia ogniska i jego dynamiki nie należy kategorycznie potwierdzać czynnego krwawienia.

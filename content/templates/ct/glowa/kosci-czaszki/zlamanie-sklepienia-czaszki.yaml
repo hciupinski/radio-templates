@@ -1,0 +1,23 @@
+id: "ct-neuro-zlamanie-sklepienia-czaszki"
+title: "Złamanie sklepienia czaszki"
+modality: "CT"
+examTypes: ["CT głowy bez kontrastu"]
+bodySystems: ["Układ mięśniowo-szkieletowy"]
+bodyParts: ["Głowa"]
+organs: ["Kości czaszki"]
+pathology: ["Złamanie sklepienia czaszki"]
+tags: ["Rezydent", "Pilne"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["ct-neurocritical"]
+sections:
+  assessmentChecklist:
+    - "Przebieg, liczba, przemieszczenie lub wgłobienie odłamów oraz zajęcie szwów."
+    - "Krwawienie śródczaszkowe, odma i tkanki miękkie; bliskość zatok żylnych."
+  reportTemplate: |
+    Złamanie {{lokalizacja_i_strona}} o przebiegu {{przebieg}}, {{przemieszczenie_lub_wglobienie}}. Stosunek do zatok żylnych {{zatoki}}. Zmiany śródczaszkowe {{krwawienie_i_odma}}, tkanki miękkie {{tkanki}}.
+  impressionTemplate: |
+    Złamanie sklepienia czaszki {{lokalizacja}}, {{przemieszczenie}}. {{obrazenia_towarzyszace}}.
+  clinicalNotes:
+    - "Ocena drożności zatoki żylnej nie jest wiarygodna w samym badaniu bez kontrastu."

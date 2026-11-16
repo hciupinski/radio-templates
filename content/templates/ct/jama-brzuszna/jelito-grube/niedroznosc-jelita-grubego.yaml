@@ -1,0 +1,28 @@
+id: ct3-niedroznosc-jelita-grubego
+title: Niedrożność jelita grubego
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Jelito grube
+pathology:
+  - Niedrożność jelita grubego
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-obstruction
+sections:
+  assessmentChecklist:
+    - Kaliber i miejsce przejścia, prawdopodobna przyczyna.
+    - Cechy niedokrwienia, perforacji i rozdęcia kątnicy.
+  reportTemplate: |
+    Jelito grube poszerzone do {{srednica_mm}} mm; punkt przejścia {{poziom}}, prawdopodobna przyczyna {{przyczyna}}. Ściana i jej wzmocnienie {{sciana}}, krezka {{krezka}}; płyn lub gaz pozajelitowy {{powiklania}}.
+  impressionTemplate: |
+    Niedrożność jelita grubego {{poziom_i_przyczyna}}. {{powiklania}}.

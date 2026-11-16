@@ -1,0 +1,30 @@
+id: ct3-zapalenie-jelit-nieswoiste
+title: Zapalenie jelit o nieswoistym obrazie
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Jelito cienkie
+pathology:
+  - Zapalenie jelit
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-enteritis
+sections:
+  assessmentChecklist:
+    - Odcinki i długość zajęcia, ściana, wzmocnienie i otoczenie.
+    - Poszerzenie jelita, płyn, niedokrwienie lub perforacja.
+  reportTemplate: |
+    Ściana {{odcinek_i_dlugosc}} {{grubosc_i_wzmocnienie}}; otaczająca tkanka tłuszczowa {{otoczenie}}, węzły {{wezly}}. Światło i drożność {{droznosc}}. Płyn lub gaz pozajelitowy {{plyn_i_gaz}}.
+  impressionTemplate: |
+    Nieswoiste zmiany zapalne {{odcinek_i_zasieg}}. {{powiklania_i_roznicowanie}}.
+  clinicalNotes:
+    - CT nie identyfikuje wiarygodnie patogenu; różnicowanie zależy od obrazu klinicznego.

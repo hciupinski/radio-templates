@@ -1,0 +1,31 @@
+id: ct-blizna-pozawalowa
+title: Podejrzenie blizny pozawałowej lewej komory
+modality: CT
+examTypes:
+  - CT klatki piersiowej
+bodySystems:
+  - Układ naczyniowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Serce
+pathology:
+  - Podejrzenie blizny pozawałowej lewej komory
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - chest3-myocardial
+sections:
+  assessmentChecklist:
+    - Położenie ścieńczenia mięśnia, zwapnień lub podwsierdziowej tkanki tłuszczowej.
+    - Kształt komory i widoczna skrzeplina w zakresie i fazie badania.
+    - Ograniczenia badania bez synchronizacji EKG i porównanie.
+  reportTemplate: |
+    W ścianie {{segment}} lewej komory {{scienczenie_zwapnienia_lub_tluszcz}}, obraz może odpowiadać zmianom po przebytym zawale. Jama lewej komory {{ksztalt_i_ocena_skrzepliny_lub_ograniczenie}}. Badanie {{synchronizacja_i_faza}}, pozostałe zmiany {{inne}}.
+  impressionTemplate: |
+    Zmiany ściany lewej komory {{lokalizacja}} mogące odpowiadać bliźnie pozawałowej. {{ograniczenia}}.
+  clinicalNotes:
+    - Rutynowe CT klatki bez synchronizacji EKG nie ocenia wiarygodnie żywotności i czynności mięśnia ani nie wyklucza małej skrzepliny.

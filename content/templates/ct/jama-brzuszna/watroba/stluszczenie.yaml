@@ -1,0 +1,30 @@
+id: ct3-stluszczenie
+title: Stłuszczenie wątroby
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy bez kontrastu
+bodySystems:
+  - Układ hepatobiliarny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Wątroba
+pathology:
+  - Stłuszczenie
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-cirrhosis
+sections:
+  assessmentChecklist:
+    - Gęstość wątroby i śledziony w badaniu bez kontrastu, rozmieszczenie zmian.
+    - Obszary oszczędzone i ograniczenia pomiarów.
+  reportTemplate: |
+    Wątroba o gęstości {{gestosc_watroby_hu}} HU, śledziona {{gestosc_sledziony_hu}} HU w badaniu bez kontrastu. Rozmieszczenie obniżonej gęstości {{rozmieszczenie}}; obszary oszczędzone {{obszary_oszczedzone}}. Ograniczenia {{ograniczenia}}.
+  impressionTemplate: |
+    Obraz {{pewnosc}} stłuszczenia wątroby {{rozmieszczenie}}.
+  clinicalNotes:
+    - Gęstość zależy m.in. od techniki i innych składników miąższu; CT nie służy wiarygodnemu stopniowaniu włóknienia.

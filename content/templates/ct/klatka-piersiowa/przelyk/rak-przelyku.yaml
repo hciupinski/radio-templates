@@ -1,0 +1,31 @@
+id: ct-rak-przelyku
+title: Guz przełyku podejrzany o nowotwór
+modality: CT
+examTypes:
+  - CT klatki piersiowej z kontrastem
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Przełyk
+pathology:
+  - Guz przełyku podejrzany o nowotwór
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - chest3-esophagus
+sections:
+  assessmentChecklist:
+    - Położenie, długość, grubość i szerzenie miejscowe guza.
+    - Relacja do tchawicy, oskrzeli, aorty, osierdzia i innych struktur.
+    - Węzły, płuca, opłucna i narządy nadbrzusza w zakresie badania.
+  reportTemplate: |
+    Przełyk w odcinku {{odcinek}} wykazuje {{guz_i_wymiary}}, długości {{dlugosc_mm}} mm; światło {{swiatlo}}. Relacja do dróg oddechowych, aorty i osierdzia {{relacje}}. Węzły {{lokalizacja_i_wymiary}}, płuca i opłucna {{pluca_i_oplucna}}, nadbrzusze w zakresie badania {{nadbrzusze}}.
+  impressionTemplate: |
+    Guz przełyku {{odcinek_i_rozmiar}}, {{zasieg_i_wezly}}. {{pozostale_zmiany}}.
+  clinicalNotes:
+    - CT nie ustala rozpoznania histologicznego ani nie rozstrzyga wiarygodnie wszystkich warstw naciekania ściany.

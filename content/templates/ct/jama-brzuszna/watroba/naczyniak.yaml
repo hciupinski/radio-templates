@@ -1,0 +1,43 @@
+id: ct3-naczyniak
+title: Naczyniak wątroby
+modality: CT
+examTypes:
+  - Wielofazowa CT wątroby
+bodySystems:
+  - Układ hepatobiliarny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Wątroba
+pathology:
+  - Naczyniak
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-liver-characterisation
+imageRefs:
+  - id: commons-ct3-hemangioma
+    title: Naczyniak wątroby w badaniu po kontraście
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/d/db/Typisches_Leberhaemangiom_55W_-_CT_KM_pv_-_001.jpg
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Typisches_Leberhaemangiom_55W_-_CT_KM_pv_-_001.jpg
+    sourceId: wikimedia-commons
+    caption: Trzy przekroje tej samej zmiany. Obraz ilustruje obwodowe wzmocnienie, a dynamikę ocenia się w kolejnych fazach.
+    alt: Hipodensyjne ognisko w prawym płacie wątroby z obwodowymi guzkami wzmocnienia.
+    category: typical
+    findings:
+      - Dobrze odgraniczone ognisko w prawym płacie wątroby.
+      - Nieciągłe, guzkowe wzmocnienie obwodowe.
+    attribution: Hellerhoff, Wikimedia Commons, CC BY-SA 4.0
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-11-16"
+sections:
+  assessmentChecklist:
+    - Lokalizacja i wymiar; dostępne fazy i jakość.
+    - Obwodowe guzkowe wzmocnienie, stopniowe wypełnianie oraz porównanie z krwią.
+  reportTemplate: |
+    W segmencie {{segment}} zmiana {{wymiar_mm}} mm, {{gestosc_bez_kontrastu}}; w fazie tętniczej {{wzmocnienie_tetnicze}}, w dalszych fazach {{wypelnianie_i_porownanie_z_krwia}}. Ograniczenia {{ograniczenia}}.
+  impressionTemplate: |
+    Zmiana w segmencie {{segment}} {{wymiar_mm}} mm, {{pewnosc}} naczyniaka.

@@ -1,0 +1,36 @@
+id: ct3-torbiel-prosta-nerki
+title: Torbiel prosta nerki
+modality: CT
+examTypes:
+  - CT nerek w protokole guzowym
+bodySystems:
+  - Układ moczowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Nerki
+pathology:
+  - Torbiel prosta
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - uro-ct-bosniak-v2019
+  - uro-ct-bosniak-2019
+sections:
+  assessmentChecklist:
+    - Strona, położenie, liczba i maksymalny wymiar zmian.
+    - Jednorodność płynu, grubość i gładkość ściany oraz brak przegród, guzków i zwapnień.
+    - Jakość pomiaru i fazy wykorzystane do charakterystyki.
+  reportTemplate: >
+    W nerce {{strona}}, w obrębie {{lokalizacja}}, jednorodna zmiana płynowa o wymiarze {{wymiar_mm}} mm i gęstości {{gestosc_hu}}
+    HU. Ściana cienka, gładka. Przegród, guzków ściennych ani zwapnień nie uwidoczniono. Ocena wzmocnienia zawartości
+    {{wynik_oceny_i_fazy}}. Pozostałe zmiany {{inne_torbiele_lub_brak}}.
+  impressionTemplate: |
+    Torbiel prosta nerki {{strona}} (Bosniak I w adekwatnym badaniu).
+  clinicalNotes:
+    - >-
+      Użyj wniosku przy spełnieniu kryteriów prostej torbieli. Cienka, gładka ściana torbieli Bosniak I może się wzmacniać. W
+      przypadku niejednorodności lub oceny ograniczonej użyj opisu zmiany torbielowatej bez wymuszania kategorii.

@@ -200,6 +200,52 @@ examTypes:
       - CTU
       - CT urography
       - TK urograficzna
+  - id: angio-ct-tetnic-plucnych-i-krazenia-systemowego
+    label: Angio-CT tętnic płucnych i krążenia systemowego
+    synonyms:
+      - angio-TK krążenia systemowego płuc
+      - CTA płuc i aorty
+      - CT angiography systemic pulmonary arterial supply
+  - id: ct-nadnerczy-protokol-dedykowany
+    label: CT nadnerczy w protokole dedykowanym
+    synonyms:
+      - TK nadnerczy
+      - CT adrenal protocol
+  - id: angio-ct-jamy-brzusznej-i-miednicy-krwawienie
+    label: Angio-CT jamy brzusznej i miednicy w krwawieniu
+    synonyms:
+      - angio-TK krwawienie brzuch i miednica
+      - CTA GI bleed
+      - angio-TK w aktywnym krwawieniu
+  - id: wenografia-ct-glowy
+    label: Wenografia CT głowy
+    synonyms:
+      - CTV głowy
+      - wenografia TK głowy
+      - CT venography
+  - id: ct-przysadki-z-kontrastem
+    label: CT okolicy siodła z kontrastem
+    synonyms:
+      - TK przysadki z kontrastem
+      - CT sellar region
+      - TK siodła tureckiego
+  - id: ct-kosci-skroniowych-bez-kontrastu
+    label: CT kości skroniowych bez kontrastu
+    synonyms:
+      - TK kości skroniowych
+      - CT piramid skroniowych
+      - temporal bone CT
+  - id: ct-wielonarzadowe-urazowe
+    label: CT wielonarządowe urazowe
+    synonyms:
+      - TK politrauma
+      - whole body trauma CT
+      - WBCT urazowe
+  - id: angio-ct-krazenia-mozgowego-badanie-pomocnicze
+    label: Angio-CT krążenia mózgowego jako badanie pomocnicze
+    synonyms:
+      - CTA badanie pomocnicze
+      - CTA krążenie mózgowe śmierć mózgu
 
 bodySystems:
   - id: przewod-pokarmowy
@@ -414,6 +460,79 @@ organs:
     synonyms:
       - ureters
       - moczowód
+  - id: tkanki-miekkie-klatki-piersiowej
+    label: Tkanki miękkie klatki piersiowej
+  - id: srodpiersie
+    label: Śródpiersie
+  - id: przelyk
+    label: Przełyk
+  - id: zebra
+    label: Żebra
+  - id: drogi-oddechowe
+    label: Drogi oddechowe
+  - id: klatka-piersiowa
+    label: Klatka piersiowa
+  - id: przepona
+    label: Przepona
+  - id: serce
+    label: Serce
+  - id: otrzewna
+    label: Otrzewna
+    synonyms:
+      - peritoneum
+  - id: zyly-watrobowe
+    label: Żyły wątrobowe
+    synonyms:
+      - hepatic veins
+  - id: zoladek
+    label: Żołądek
+    synonyms:
+      - stomach
+  - id: sciana-jamy-brzusznej
+    label: Ściana jamy brzusznej
+    synonyms:
+      - abdominal wall
+  - id: nadnercza
+    label: Nadnercza
+    synonyms:
+      - adrenal glands
+  - id: tetnice-biodrowe
+    label: Tętnice biodrowe
+    synonyms:
+      - iliac arteries
+  - id: macica
+    label: Macica
+    synonyms:
+      - uterus
+  - id: szyjka-macicy
+    label: Szyjka macicy
+    synonyms:
+      - cervix
+  - id: gruczol-krokowy
+    label: Gruczoł krokowy
+    synonyms:
+      - prostata
+      - stercz
+      - prostate
+  - id: zatoki-zylne-mozgowia
+    label: Zatoki żylne mózgowia
+    synonyms:
+      - dural venous sinuses
+      - zatoki żylne
+  - id: przysadka-i-okolica-siodla
+    label: Przysadka i okolica siodła
+    synonyms:
+      - pituitary
+      - sella
+  - id: kosci-czaszki
+    label: Kości czaszki
+    synonyms:
+      - skull bones
+      - calvaria
+  - id: narzady-w-badaniu-urazowym
+    label: Narządy w badaniu urazowym
+    synonyms:
+      - whole body trauma
 
 pathology:
   - id: obraz-prawidlowy
@@ -997,6 +1116,329 @@ pathology:
       - podejrzenie raka jajnika
       - ovarian cancer
       - adnexal mass
+  - id: odma-prezna
+    label: Odma prężna
+    synonyms:
+      - tension pneumothorax
+      - odma wentylowa
+  - id: odma-podskorna
+    label: Odma podskórna klatki piersiowej
+    synonyms:
+      - subcutaneous emphysema
+  - id: odma-srodpiersia
+    label: Odma śródpiersia
+    synonyms:
+      - pneumomediastinum
+  - id: niedodma
+    label: Niedodma płuca
+    synonyms:
+      - atelectasis
+      - lung collapse
+  - id: covid-19
+    label: Zmiany płucne w przebiegu COVID-19
+    synonyms:
+      - COVID-19
+      - SARS-CoV-2 pneumonia
+  - id: rak-pluca-rozsiew
+    label: Rozsiew raka płuca w klatce piersiowej
+  - id: zespol-plata-srodkowego
+    label: Zespół płata środkowego
+    synonyms:
+      - middle lobe syndrome
+  - id: przerzuty-do-pluc
+    label: Podejrzenie przerzutów do płuc
+  - id: koarktacja-aorty
+    label: Koarktacja aorty
+    synonyms:
+      - aortic coarctation
+  - id: rak-przelyku
+    label: Guz przełyku podejrzany o nowotwór
+  - id: stan-po-ezofagektomii
+    label: Stan po usunięciu przełyku
+  - id: mleczna-szyba
+    label: Zagęszczenia typu mlecznej szyby
+    synonyms:
+      - ground glass opacity
+      - GGO
+  - id: uip-podejrzenie-ipf
+    label: Wzorzec UIP w podejrzeniu IPF
+  - id: stluczenie-pluca
+    label: Stłuczenie płuca
+    synonyms:
+      - pulmonary contusion
+  - id: zlamania-zeber
+    label: Złamania żeber
+    synonyms:
+      - rib fractures
+  - id: zlamanie-kregoslupa-piersiowego
+    label: Złamanie kręgosłupa piersiowego
+  - id: podejrzenie-urazu-rdzenia
+    label: Podejrzenie urazu rdzenia piersiowego
+  - id: uraz-tchawicy-oskrzeli
+    label: Uraz tchawicy lub oskrzela
+  - id: uraz-klatki-piersiowej
+    label: Uraz klatki piersiowej
+  - id: przepuklina-rozworu-przelykowego
+    label: Przepuklina rozworu przełykowego
+  - id: przepuklina-bochdaleka
+    label: Przepuklina Bochdaleka
+    synonyms:
+      - Bochdalek hernia
+  - id: sekwestracja-pluca
+    label: Sekwestracja płuca
+    synonyms:
+      - pulmonary sequestration
+  - id: wole-zamostkowe
+    label: Wole zamostkowe
+    synonyms:
+      - substernal goitre
+  - id: blizna-pozawalowa
+    label: Podejrzenie blizny pozawałowej lewej komory
+  - id: zylaki-przelyku
+    label: Żylaki przełyku
+    synonyms:
+      - esophageal varices
+  - id: rak-piersi-rozsiew
+    label: Rozsiew raka piersi w klatce piersiowej
+  - id: ct3-niedroznosc-jelita-grubego
+    label: Niedrożność jelita grubego
+    synonyms:
+      - large bowel obstruction
+      - LBO
+  - id: ct3-plyn-w-jamie-otrzewnej
+    label: Płyn w jamie otrzewnej
+    synonyms:
+      - ascites
+      - wodobrzusze
+      - free intraperitoneal fluid
+  - id: ct3-krwawienie-do-jamy-otrzewnej
+    label: Krew w jamie otrzewnej
+    synonyms:
+      - hemoperitoneum
+      - haemoperitoneum
+  - id: ct3-fibrolamellarny-rak-watroby
+    label: Fibrolamellarny rak wątrobowokomórkowy
+    synonyms:
+      - fibrolamellar hepatocellular carcinoma
+      - FLC
+  - id: ct3-zakrzepica-zyl-watrobowych
+    label: Zakrzepica żył wątrobowych
+    synonyms:
+      - hepatic vein thrombosis
+      - Budd-Chiari syndrome
+  - id: ct3-psc
+    label: Pierwotne stwardniające zapalenie dróg żółciowych
+    synonyms:
+      - PSC
+      - primary sclerosing cholangitis
+  - id: ct3-cholangiocarcinoma-wewnatrzwatrobowe
+    label: Cholangiocarcinoma wewnątrzwątrobowe
+    synonyms:
+      - intrahepatic cholangiocarcinoma
+      - iCCA
+  - id: ct3-cholangiocarcinoma-pozawatrobowe
+    label: Cholangiocarcinoma pozawątrobowe
+    synonyms:
+      - extrahepatic cholangiocarcinoma
+      - eCCA
+  - id: ct3-scn
+    label: Surowiczy nowotwór torbielowaty trzustki
+    synonyms:
+      - SCN
+      - serous cystic neoplasm
+  - id: ct3-mcn
+    label: Śluzowy nowotwór torbielowaty trzustki
+    synonyms:
+      - MCN
+      - mucinous cystic neoplasm
+  - id: ct3-rak-zoladka
+    label: Rak żołądka
+    synonyms:
+      - gastric cancer
+  - id: ct3-uchylkowatosc
+    label: Uchyłkowatość jelita grubego
+    synonyms:
+      - diverticulosis
+      - uchyłki jelita grubego
+  - id: ct3-zapalenie-jelit-nieswoiste
+    label: Zapalenie jelit
+    synonyms:
+      - enterocolitis
+      - enteritis
+      - colitis
+  - id: ct3-guz-jelita-grubego
+    label: Guz jelita grubego
+    synonyms:
+      - colon tumor
+      - colorectal cancer
+  - id: ct3-przepuklina-sciany-brzucha
+    label: Przepuklina ściany brzucha
+    synonyms:
+      - ventral hernia
+      - przepuklina pooperacyjna
+  - id: ct3-ostre-zapalenie-srodmiazszowe
+    label: Ostre śródmiąższowe zapalenie trzustki
+    synonyms:
+      - interstitial edematous pancreatitis
+  - id: ct3-ostre-zapalenie-martwicze
+    label: Ostre martwicze zapalenie trzustki
+    synonyms:
+      - necrotizing pancreatitis
+  - id: kamica-pecherza
+    label: Kamica pęcherza moczowego
+    synonyms:
+      - złóg pęcherza
+      - bladder calculus
+      - vesical stone
+  - id: podejrzenie-wznowy-raka-nerki
+    label: Wznowa raka nerki
+    synonyms:
+      - wznowa RCC
+      - renal cell carcinoma recurrence
+  - id: ropien-nerki
+    label: Ropień nerki
+    synonyms:
+      - renal abscess
+      - ropień okołonerkowy
+  - id: gruczolak-nadnercza
+    label: Gruczolak nadnercza
+    synonyms:
+      - adrenal adenoma
+      - incidentaloma nadnercza
+  - id: angiomyolipoma-nadnercza
+    label: Angiomyolipoma nadnercza
+    synonyms:
+      - AML nadnercza
+      - adrenal angiomyolipoma
+      - pozanerkowy angiomyolipoma
+  - id: aktywne-krwawienie-z-tetnicy-biodrowej
+    label: Aktywne krwawienie z tętnicy biodrowej
+    synonyms:
+      - czynne krwawienie tętnicze w miednicy
+      - active iliac arterial bleeding
+  - id: aktywne-krwawienie-z-watroby
+    label: Aktywne krwawienie z wątroby
+    synonyms:
+      - czynne krwawienie wątrobowe
+      - active liver hemorrhage
+  - id: aktywne-krwawienie-ze-sledziony
+    label: Aktywne krwawienie ze śledziony
+    synonyms:
+      - czynne krwawienie śledzionowe
+      - splenic active extravasation
+  - id: aktywne-krwawienie-do-przewodu-pokarmowego
+    label: Aktywne krwawienie do przewodu pokarmowego
+    synonyms:
+      - krwawienie z przewodu pokarmowego
+      - GI bleeding
+      - GI bleed
+  - id: guz-trzonu-macicy
+    label: Guz trzonu macicy
+    synonyms:
+      - guz macicy
+      - uterine mass
+      - endometrial carcinoma
+      - rak endometrium
+  - id: miesniaki-macicy
+    label: Mięśniaki macicy
+    synonyms:
+      - macica mięśniakowata
+      - uterine fibroids
+      - leiomyoma macicy
+  - id: guz-szyjki-macicy
+    label: Guz szyjki macicy
+    synonyms:
+      - rak szyjki macicy
+      - cervical cancer
+  - id: guz-prostaty
+    label: Guz gruczołu krokowego
+    synonyms:
+      - guz prostaty
+      - rak prostaty
+      - prostate cancer
+  - id: zakrzepica-zatok-zylnych
+    label: Zakrzepica zatok żylnych mózgowia
+    synonyms:
+      - cerebral venous sinus thrombosis
+      - CVST
+  - id: przebyty-zawal-mozgu
+    label: Przebyty zawał mózgu
+    synonyms:
+      - stary udar
+      - chronic cerebral infarction
+  - id: podejrzenie-oponiaka
+    label: Podejrzenie oponiaka
+    synonyms:
+      - zmiana oponowa podejrzana o oponiaka
+  - id: podejrzenie-glioblastoma
+    label: Podejrzenie glejaka wysokiego stopnia
+    synonyms:
+      - zmiana mózgowia podejrzana o glejaka wysokiego stopnia
+      - glejak wielopostaciowy
+      - glioblastoma
+      - GBM
+  - id: podejrzenie-astrocytoma
+    label: Podejrzenie astrocytoma
+    synonyms:
+      - zmiana mózgowia podejrzana o glejaka
+  - id: podejrzenie-chloniaka-mozgu
+    label: Podejrzenie chłoniaka mózgu
+    synonyms:
+      - zmiana mózgowia podejrzana o chłoniaka
+  - id: podejrzenie-ropnia-mozgu
+    label: Podejrzenie ropnia mózgu
+    synonyms:
+      - zmiana mózgowia podejrzana o ropień
+  - id: zmiany-istoty-bialej-naczyniopochodne
+    label: Zmiany istoty białej podejrzane o naczyniopochodne
+    synonyms:
+      - leukoarajoza
+      - white matter disease
+      - Fazekas
+  - id: podejrzenie-demielinizacji
+    label: Podejrzenie zmian demielinizacyjnych
+    synonyms:
+      - SM
+      - stwardnienie rozsiane
+      - multiple sclerosis
+  - id: podejrzenie-mikrogruczolaka-przysadki
+    label: Podejrzenie mikrogruczolaka przysadki
+    synonyms:
+      - podejrzenie mikrogruczolaka przysadki
+  - id: podejrzenie-makrogruczolaka-przysadki
+    label: Podejrzenie makrogruczolaka przysadki
+    synonyms:
+      - podejrzenie makrogruczolaka przysadki
+  - id: podejrzenie-czaszkogardlaka
+    label: Podejrzenie czaszkogardlaka
+    synonyms:
+      - zmiana okolicy siodła podejrzana o czaszkogardlaka
+  - id: zlamanie-sklepienia-czaszki
+    label: Złamanie sklepienia czaszki
+    synonyms:
+      - calvarial fracture
+  - id: zlamanie-kosci-skroniowej
+    label: Złamanie kości skroniowej
+    synonyms:
+      - temporal bone fracture
+      - złamanie piramidy skroniowej
+  - id: ocena-krazenia-mozgowego-badanie-pomocnicze
+    label: Ocena krążenia mózgowego w badaniu pomocniczym
+    synonyms:
+      - śmierć mózgu
+      - zatrzymanie krążenia mózgowego
+      - brain death ancillary CTA
+  - id: penetrujacy-uraz-glowy
+    label: Penetrujący uraz głowy
+    synonyms:
+      - postrzał głowy
+      - penetrating brain injury
+  - id: uraz-wielonarzadowy
+    label: Uraz wielonarządowy
+    synonyms:
+      - politrauma
+      - polytrauma
+      - multiple trauma
 
 tags:
   - id: rezydent

@@ -1,0 +1,29 @@
+id: ct-niedodma
+title: Niedodma płuca
+modality: CT
+examTypes:
+  - CT klatki piersiowej
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Płuca
+pathology:
+  - Niedodma płuca
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - chest3-lung-pleura
+sections:
+  assessmentChecklist:
+    - Płat lub segment i stopień utraty objętości.
+    - Przemieszczenie szczelin, wnęki i oskrzeli; możliwa przeszkoda.
+    - Płyn opłucnowy, zmiany zaporowe i porównanie.
+  reportTemplate: |
+    Niedodma {{lokalizacja}}, {{stopien_i_utrata_objetosci}}; szczeliny i wnęka {{przemieszczenie}}. Oskrzele doprowadzające {{droznosc_i_mozliwa_przeszkoda}}. Sąsiedni miąższ {{zmiany}}, jama opłucnej {{plyn}}. Porównanie {{porownanie}}.
+  impressionTemplate: |
+    Niedodma {{lokalizacja}} o nasileniu {{stopien}}. {{przyczyna_lub_ograniczenia}}.

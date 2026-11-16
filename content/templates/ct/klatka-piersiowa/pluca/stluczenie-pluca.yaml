@@ -1,0 +1,45 @@
+id: ct-stluczenie-pluca
+title: Stłuczenie płuca
+modality: CT
+examTypes:
+  - CT klatki piersiowej z kontrastem
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Płuca
+pathology:
+  - Stłuczenie płuca
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - chest3-trauma
+imageRefs:
+  - id: commons-ct3-contusion
+    title: Stłuczenie płuc w urazie klatki piersiowej
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/e/ea/Pneumothorax_hemothorax_pneumomediastinum_contusion.JPG
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Pneumothorax_hemothorax_pneumomediastinum_contusion.JPG
+    sourceId: wikimedia-commons
+    caption: Osiowy przekrój TK po tępym urazie klatki piersiowej.
+    alt: Plamiste zagęszczenia płucne oraz współistniejący gaz w klatce piersiowej.
+    category: typical
+    findings:
+      - Obustronne plamiste zagęszczenia miąższu płucnego.
+      - Rozległa odma opłucnowa po lewej stronie.
+      - Pasmo gazu przy sercu.
+    attribution: Konijn AJ, Egbers PH i Kuiper MA, kadrowanie Delldot, Wikimedia Commons, CC BY 2.0
+    licenseMode: cc-by
+    lastCheckedAt: "2026-11-16"
+sections:
+  assessmentChecklist:
+    - Strona, lokalizacja i rozległość zagęszczeń w kontekście urazu.
+    - Rozdarcie płuca, odma lub krew w opłucnej.
+    - Złamania żeber oraz inne obrażenia.
+  reportTemplate: |
+    W {{lokalizacja}} zagęszczenia typu {{mleczna_szyba_i_konsolidacja}} o zasięgu {{zasieg}}, w kontekście urazu mogą odpowiadać stłuczeniu. Jamy pourazowe {{jamy}}, opłucna {{odma_i_plyn}}, ściana klatki {{zlamania_i_tkanki}}. Pozostałe obrażenia {{inne}}.
+  impressionTemplate: |
+    Obraz stłuczenia {{lokalizacja_i_zasieg}}. {{obrazenia_towarzyszace}}.

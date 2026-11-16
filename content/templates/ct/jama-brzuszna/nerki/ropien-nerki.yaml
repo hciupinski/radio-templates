@@ -1,0 +1,37 @@
+id: ct3-ropien-nerki
+title: Ropień nerki
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Układ moczowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Nerki
+pathology:
+  - Ropień nerki
+tags:
+  - Rezydent
+  - Pilne
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-renal-emergencies
+  - ct3-rpa-renal-abscess-case
+sections:
+  assessmentChecklist:
+    - Strona, położenie, liczba i wymiary zbiorników oraz ich obwodowe wzmocnienie.
+    - Gaz, odczyn okołonerkowy i szerzenie poza nerkę.
+    - Kamica, utrudnienie odpływu moczu i zmiany w pozostałym miąższu.
+  reportTemplate: >
+    W nerce {{strona}}, w obrębie {{lokalizacja}}, zbiornik o wymiarach {{wymiary_mm}} mm, z {{opis_obwodowego_wzmocnienia}}.
+    Zawartość {{zawartosc_i_gaz}}. Tkanka okołonerkowa {{odczyn_i_szerzenie}}. Pozostały miąższ {{wzmocnienie_miazszu}}. Układ
+    kielichowo-miedniczkowy i moczowód {{zastoj_i_zlogi}}.
+  impressionTemplate: |
+    Zmiana w nerce {{strona}} o obrazie przemawiającym za ropniem. {{szerzenie_i_zastoj}}.
+  clinicalNotes:
+    - >-
+      Obraz interpretuj z kontekstem zakażenia. Martwicza zmiana guzowa lub ogniskowe zapalenie bez płynnej części mogą dawać
+      podobny obraz.

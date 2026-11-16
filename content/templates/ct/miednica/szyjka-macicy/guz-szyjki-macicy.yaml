@@ -1,0 +1,36 @@
+id: ct3-guz-szyjki-macicy
+title: Guz szyjki macicy – ocena zasięgu w TK
+modality: CT
+examTypes:
+  - CT klatki piersiowej, jamy brzusznej i miednicy
+bodySystems:
+  - Układ rozrodczy
+bodyParts:
+  - Miednica
+organs:
+  - Szyjka macicy
+pathology:
+  - Guz szyjki macicy
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-esur-uterine-cancer
+  - ct3-esgo-cervical-cancer
+sections:
+  assessmentChecklist:
+    - Wymiary uchwytnej zmiany i relacja do pochwy, przymacicz, ściany miednicy i sąsiednich narządów.
+    - Relacja do dystalnych moczowodów i obecność wodonercza.
+    - Węzły miedniczne, okołoaortalne i zmiany odległe.
+  reportTemplate: >
+    W obrębie szyjki macicy {{opis_zmiany_i_wymiary_mm}}. Relacje do pochwy, przymacicz, ściany miednicy, pęcherza i odbytnicy
+    {{zasieg_miejscowy_i_ograniczenia}}. Dystalne moczowody i układy kielichowo-miedniczkowe {{zastoj}}. Węzły miedniczne i
+    okołoaortalne {{wezly}}, zmiany odległe {{zmiany_odlegle}}.
+  impressionTemplate: |
+    Guz szyjki macicy {{widoczny_zasieg_i_powiklania}}. {{wezly_i_zmiany_odlegle}}.
+  clinicalNotes:
+    - >-
+      CT ma ograniczoną wartość dla oceny miejscowego zaawansowania, szczególnie nacieku przymacicz i warstw ścian narządów
+      sąsiednich. Do tego celu preferuje się MR lub specjalistyczne USG.

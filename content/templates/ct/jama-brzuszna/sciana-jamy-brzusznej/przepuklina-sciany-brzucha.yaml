@@ -1,0 +1,28 @@
+id: ct3-przepuklina-sciany-brzucha
+title: Przepuklina ściany jamy brzusznej
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Ściana jamy brzusznej
+pathology:
+  - Przepuklina ściany brzucha
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-hernia
+sections:
+  assessmentChecklist:
+    - Lokalizacja, wymiary wrót i worka, zawartość.
+    - Cechy niedrożności, niedokrwienia lub powikłania w worku.
+  reportTemplate: |
+    Przepuklina {{lokalizacja}}, wrota {{wymiary_wrot_mm}} mm, worek {{wymiary_worka_mm}} mm. Zawartość {{zawartosc}}; ściana pętli i otoczenie {{sciana_i_otoczenie}}, drożność {{droznosc}}.
+  impressionTemplate: |
+    Przepuklina {{lokalizacja_i_zawartosc}}. {{powiklania}}.

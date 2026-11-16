@@ -1,0 +1,32 @@
+id: ct-odma-prezna
+title: Odma opłucnowa z cechami efektu masy
+modality: CT
+examTypes:
+  - CT klatki piersiowej
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Opłucna
+pathology:
+  - Odma prężna
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - chest3-trauma
+  - pneumothorax-nice-major-trauma
+sections:
+  assessmentChecklist:
+    - Strona, rozległość odmy i stopień zapadnięcia płuca.
+    - Przemieszczenie śródpiersia, ucisk jam serca i położenie przepony.
+    - Płyn opłucnowy, dreny i inne obrażenia.
+  reportTemplate: |
+    W {{strona}} jamie opłucnej powietrze {{rozleglosc}}; płuco {{stopien_zapadniecia}}. Śródpiersie {{przemieszczenie}}, przepona i serce {{efekt_masy}}. Płyn opłucnowy {{plyn}}, dreny {{dreny}}, inne obrażenia {{obrazenia}}.
+  impressionTemplate: |
+    Odma {{strona}} z {{efekt_masy}}; obraz budzi podejrzenie odmy prężnej w odpowiednim kontekście klinicznym.
+  clinicalNotes:
+    - Odma prężna jest rozpoznaniem klinicznym. Podejrzenie należy niezwłocznie przekazać zespołowi leczącemu; interwencji nie należy opóźniać dla obrazowania.

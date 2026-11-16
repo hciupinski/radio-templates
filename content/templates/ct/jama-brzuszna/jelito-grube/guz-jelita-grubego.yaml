@@ -1,0 +1,30 @@
+id: ct3-guz-jelita-grubego
+title: Podejrzenie nowotworu jelita grubego
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Jelito grube
+pathology:
+  - Guz jelita grubego
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-colon
+sections:
+  assessmentChecklist:
+    - Odcinek, długość i morfologia zmiany, drożność.
+    - Okolica, węzły, wątroba i otrzewna w zakresie badania.
+  reportTemplate: |
+    W {{odcinek}} jelita grubego {{guz_lub_pogrubienie}}, długość {{dlugosc_mm}} mm; drożność {{droznosc}}. Tkanki sąsiednie {{otoczenie}}, węzły {{wezly}}. Wątroba {{watroba}}, otrzewna {{otrzewna}}, inne ogniska {{inne}}.
+  impressionTemplate: |
+    Zmiana jelita grubego {{odcinek}}, {{pewnosc}} nowotworu. {{zasieg_i_powiklania}}.
+  clinicalNotes:
+    - CT nie zastępuje endoskopii z weryfikacją histologiczną.

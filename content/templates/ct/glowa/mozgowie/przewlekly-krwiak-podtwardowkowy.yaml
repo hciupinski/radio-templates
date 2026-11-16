@@ -1,0 +1,23 @@
+id: "ct-neuro-przewlekly-krwiak-podtwardowkowy"
+title: "Przewlekły krwiak podtwardówkowy"
+modality: "CT"
+examTypes: ["CT głowy bez kontrastu"]
+bodySystems: ["Układ nerwowy"]
+bodyParts: ["Głowa"]
+organs: ["Mózgowie"]
+pathology: ["Krwiak podtwardówkowy"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["ct-neurocritical"]
+sections:
+  assessmentChecklist:
+    - "Lokalizacja, grubość, gęstość i błony oraz porównanie z poprzednim badaniem."
+    - "Efekt masy, linia pośrodkowa, komory i cechy świeżej domieszki krwi."
+  reportTemplate: |
+    Przymózgowo {{strona_i_zasieg}} zbiornik podtwardówkowy o grubości {{grubosc_mm}} mm, gęstości {{gestosc}}; {{przegrody_lub_brak}}. Świeża domieszka krwi {{swieza_krew}}. Efekt masy {{efekt_masy}}, przemieszczenie linii pośrodkowej {{przemieszczenie_mm}} mm; układ komorowy i zbiorniki podstawy {{komory_i_zbiorniki}}. Porównanie {{porownanie}}.
+  impressionTemplate: |
+    Przewlekły zbiornik podtwardówkowy {{strona}}, {{grubosc_mm}} mm; {{efekt_masy_i_swieza_krew}}.
+  clinicalNotes:
+    - "Gęstość zbiornika nie pozwala samodzielnie na precyzyjne określenie czasu jego powstania."

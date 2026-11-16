@@ -1,0 +1,35 @@
+id: ct3-guz-prostaty
+title: Podejrzenie zaawansowanej zmiany gruczołu krokowego
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Układ moczowy
+bodyParts:
+  - Miednica
+organs:
+  - Gruczoł krokowy
+pathology:
+  - Guz gruczołu krokowego
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-eau-prostate-staging
+sections:
+  assessmentChecklist:
+    - Uchwytny obraz gruczołu krokowego, pęcherzyków nasiennych i makroskopowych zmian sąsiednich.
+    - Poszerzenie górnych dróg moczowych i możliwy poziom przeszkody.
+    - Węzły miedniczne i zaotrzewnowe, kości oraz inne podejrzane ogniska w zakresie badania.
+  reportTemplate: >
+    Gruczoł krokowy {{wielkosc_i_morfologia}}. Stosunek do podstawy pęcherza, pęcherzyków nasiennych i odbytnicy
+    {{relacje_i_ograniczenia}}. Górne drogi moczowe {{zastoj}}. Węzły miednicy i zaotrzewnowe {{wezly}}. W szkielecie objętym
+    badaniem {{zmiany_kostne}}, inne zmiany {{pozostale_ogniska}}.
+  impressionTemplate: |
+    {{obraz_gruczolu_i_uchwytny_zasieg}}. {{podejrzane_zmiany_wezlowe_i_odlegle}}.
+  clinicalNotes:
+    - >-
+      W rutynowej CT nie można wiarygodnie wykryć ani wykluczyć ogniska raka ograniczonego do prostaty ani ocenić naciekania
+      torebki. CT nie zastępuje MR gruczołu i diagnostyki histopatologicznej.

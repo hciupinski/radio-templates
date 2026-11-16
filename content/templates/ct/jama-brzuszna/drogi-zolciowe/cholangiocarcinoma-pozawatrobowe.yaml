@@ -1,0 +1,28 @@
+id: ct3-cholangiocarcinoma-pozawatrobowe
+title: Podejrzenie pozawątrobowego cholangiocarcinoma
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Układ hepatobiliarny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Drogi żółciowe
+pathology:
+  - Cholangiocarcinoma pozawątrobowe
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-extrahepatic-cca
+sections:
+  assessmentChecklist:
+    - Poziom i długość zmiany przewodu, wzmocnienie i poszerzenie powyżej.
+    - Relacja do naczyń, węzły i zmiany odległe.
+  reportTemplate: |
+    W obrębie {{odcinek_przewodu}} {{guz_lub_pogrubienie}} na długości {{dlugosc_mm}} mm, wzmocnienie {{wzmocnienie}}. Drogi powyżej {{poszerzenie}}; naczynia {{naczynia}}, węzły {{wezly}}, inne zmiany {{inne}}.
+  impressionTemplate: |
+    {{pewnosc}} pozawątrobowego cholangiocarcinoma {{poziom}}. {{zasieg_i_zastoj}}.

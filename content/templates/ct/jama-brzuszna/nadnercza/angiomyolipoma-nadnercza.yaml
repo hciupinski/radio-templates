@@ -1,0 +1,37 @@
+id: ct3-angiomyolipoma-nadnercza
+title: Zmiana tłuszczowa nadnercza – różnicowanie z angiomyolipoma
+modality: CT
+examTypes:
+  - CT nadnerczy w protokole dedykowanym
+bodySystems:
+  - Układ endokrynny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Nadnercza
+pathology:
+  - Angiomyolipoma nadnercza
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-adrenal-aml-cases
+  - ct3-rpa-myelolipoma
+sections:
+  assessmentChecklist:
+    - Ustalenie, czy zmiana wychodzi z nadnercza, górnego bieguna nerki lub przestrzeni zaotrzewnowej.
+    - Proporcje tłuszczu makroskopowego i wzmacniających się tkanek miękkich.
+    - Krwawienie, zwapnienia, dynamika i stosunek do sąsiednich struktur.
+  reportTemplate: >
+    W okolicy nadnercza {{strona}} zmiana o wymiarach {{wymiary_mm}} mm, punkt wyjścia {{punkt_wyjscia_i_pewnosc}}. Zawiera
+    tłuszcz makroskopowy {{udzial_tluszczu}}, komponent tkanek miękkich {{morfologia_i_wzmocnienie}} oraz {{zwapnienia_lub_brak}}.
+    Stosunek do górnego bieguna nerki i przestrzeni zaotrzewnowej {{relacje}}. {{krwawienie_i_dynamika}}.
+  impressionTemplate: >
+    Zmiana zawierająca tłuszcz makroskopowy, {{prawdopodobny_punkt_wyjscia}}.
+    {{najbardziej_prawdopodobne_rozpoznanie_i_roznicowanie}}.
+  clinicalNotes:
+    - >-
+      Jeżeli typowy punkt wyjścia jest nadnerczowy, rozważ przede wszystkim myelolipoma. Angiomyolipoma nadnercza to odrębny,
+      rzadki guz. Sam obraz TK nie potwierdza tej histologii.

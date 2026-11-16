@@ -1,0 +1,31 @@
+id: ct-mleczna-szyba
+title: Zagęszczenia typu mlecznej szyby
+modality: CT
+examTypes:
+  - HRCT klatki piersiowej
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Płuca
+pathology:
+  - Zagęszczenia typu mlecznej szyby
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - chest-hrct-basic-2025
+sections:
+  assessmentChecklist:
+    - Rozmieszczenie osiowe i pionowe oraz zasięg zmian.
+    - Siateczka, konsolidacje, guzki, pułapka powietrzna i cechy włóknienia.
+    - Porównanie z wcześniejszym badaniem i technika wdechowa.
+  reportTemplate: |
+    W {{lokalizacja_i_rozmieszczenie}} zagęszczenia typu mlecznej szyby {{zasieg}}, {{siateczka_lub_konsolidacje}}. Guzki i oskrzela {{guzki_i_oskrzela}}; cechy włóknienia {{wloknienie}}. Ocena wydechowa {{ocena_lub_niewykonana}}. Płyn opłucnowy {{oplucna}}. Porównanie {{porownanie}}.
+  impressionTemplate: |
+    Zagęszczenia typu mlecznej szyby {{rozmieszczenie_i_zasieg}}, {{mozliwe_podloze_i_pewnosc}}.
+  clinicalNotes:
+    - Mleczna szyba jest nieswoistym wzorcem, którego różnicowanie zależy od rozmieszczenia, dynamiki i danych klinicznych.

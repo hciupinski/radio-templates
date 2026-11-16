@@ -1,0 +1,30 @@
+id: ct3-marskosc
+title: Marskość wątroby
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Układ hepatobiliarny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Wątroba
+pathology:
+  - Marskość
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-cirrhosis
+sections:
+  assessmentChecklist:
+    - Zarys, proporcje płatów i miąższ.
+    - Żyła wrotna, krążenie oboczne, śledziona, płyn i zmiany ogniskowe.
+  reportTemplate: |
+    Wątroba {{wielkosc_i_zarys}}, proporcje płatów {{proporcje}}, miąższ {{miazsz_i_zmiany_ogniskowe}}. Żyła wrotna {{zyla_wrotna}}, krążenie oboczne {{oboczne}}, śledziona {{sledziona}}, płyn {{plyn}}.
+  impressionTemplate: |
+    {{pewnosc}} marskości wątroby. {{cechy_nadcisnienia_wrotnego}}.
+  clinicalNotes:
+    - CT nie wyklucza wczesnego włóknienia; niepełne fazy ograniczają ocenę ognisk wątroby.

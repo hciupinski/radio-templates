@@ -1,0 +1,28 @@
+id: ct3-cholangiocarcinoma-wewnatrzwatrobowe
+title: Podejrzenie wewnątrzwątrobowego cholangiocarcinoma
+modality: CT
+examTypes:
+  - Wielofazowa CT wątroby
+bodySystems:
+  - Układ hepatobiliarny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Wątroba
+pathology:
+  - Cholangiocarcinoma wewnątrzwątrobowe
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-cholangioca
+sections:
+  assessmentChecklist:
+    - Segment, rozmiar i fazowy wzorzec wzmocnienia.
+    - Drogi żółciowe, naczynia, węzły i inne zmiany.
+  reportTemplate: |
+    W segmencie {{segment}} guz {{wymiary_mm}} mm, wzmocnienie w fazach {{wzmocnienie}}. Drogi żółciowe {{drogi}}, naczynia {{naczynia}}, węzły {{wezly}}, inne ogniska {{inne}}.
+  impressionTemplate: |
+    Guz wątroby {{lokalizacja_i_wymiary}}, {{pewnosc}} wewnątrzwątrobowego cholangiocarcinoma. {{zasieg}}.

@@ -1,0 +1,30 @@
+id: ct3-zakrzepica-zyl-watrobowych
+title: Zakrzepica żył wątrobowych – podejrzenie zespołu Budda-Chiariego
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Układ naczyniowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Żyły wątrobowe
+pathology:
+  - Zakrzepica żył wątrobowych
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-budd
+sections:
+  assessmentChecklist:
+    - Jakość fazy żylnej i drożność poszczególnych żył oraz żyły głównej dolnej.
+    - Heterogenność wzmocnienia wątroby, krążenie oboczne, płyn i śledziona.
+  reportTemplate: |
+    W fazie {{faza_i_ograniczenia}} w {{zyly_watrobowe}} {{ubytek_wypelnienia_i_zasieg}}. Żyła główna dolna {{zyla_glowna_dolna}}; krążenie oboczne {{oboczne}}. Miąższ wątroby {{morfologia_i_wzmocnienie}}, śledziona {{sledziona}}, płyn {{plyn}}.
+  impressionTemplate: |
+    {{pewnosc}} zakrzepicy {{zyly}}; {{pewnosc}} zespołu Budda-Chiariego. {{ograniczenia}}.
+  clinicalNotes:
+    - Samo niewidoczne światło żyły w CT nie potwierdza jej niedrożności; uwzględnić fazę i ograniczenia.

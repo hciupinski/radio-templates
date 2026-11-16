@@ -1,0 +1,32 @@
+id: ct-zlamanie-kregoslupa-piersiowego
+title: Złamanie kręgosłupa piersiowego w CT klatki piersiowej
+modality: CT
+examTypes:
+  - CT klatki piersiowej
+bodySystems:
+  - Układ mięśniowo-szkieletowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Kręgosłup
+pathology:
+  - Złamanie kręgosłupa piersiowego
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - chest3-trauma
+  - chest3-cord
+sections:
+  assessmentChecklist:
+    - Poziomy i morfologia złamania, ściany trzonu i elementy tylne.
+    - Przemieszczenie, deformacja i zawężenie kanału.
+    - Krwiak przykręgowy oraz pozostałe obrażenia.
+  reportTemplate: |
+    Na poziomie {{poziom}} złamanie {{morfologia_i_zasieg}}, obniżenie trzonu {{obnizenie_procent}}%, tylna ściana {{tylna_sciana}}. Elementy tylne {{elementy_tylne}}, ustawienie {{ustawienie}}, kanał kręgowy {{kanal}}. Tkanki przykręgowe {{tkanki}}; pozostałe obrażenia {{inne}}.
+  impressionTemplate: |
+    Złamanie {{poziom_i_morfologia}}, {{przemieszczenie_i_kanal}}.
+  clinicalNotes:
+    - CT klatki może wymagać dedykowanych rekonstrukcji kręgosłupa; ocena więzadeł i rdzenia jest ograniczona.

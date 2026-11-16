@@ -1,0 +1,30 @@
+id: ct3-psc
+title: Pierwotne stwardniające zapalenie dróg żółciowych
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Układ hepatobiliarny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Drogi żółciowe
+pathology:
+  - Pierwotne stwardniające zapalenie dróg żółciowych
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-psc
+sections:
+  assessmentChecklist:
+    - Rozmieszczenie zwężeń i poszerzeń, ściana przewodów.
+    - Zmiana ogniskowa, marskość i nadciśnienie wrotne.
+  reportTemplate: |
+    Drogi żółciowe {{zwezenia_i_poszerzenia}}, ich ściany {{sciany}}. Podejrzana zmiana ogniskowa {{zmiana_ogniskowa}}. Wątroba {{watroba}}, cechy nadciśnienia wrotnego {{nadcisnienie}}. Ograniczenia {{ograniczenia}}.
+  impressionTemplate: |
+    Zmiany dróg żółciowych {{pewnosc}} w kontekście PSC. {{zmiany_towarzyszace}}.
+  clinicalNotes:
+    - CT ma ograniczoną czułość dla zmian przewodowych; MR z MRCP jest preferowaną nieinwazyjną metodą oceny.

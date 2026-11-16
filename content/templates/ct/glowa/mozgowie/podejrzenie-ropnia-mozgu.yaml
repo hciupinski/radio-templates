@@ -1,0 +1,23 @@
+id: "ct-neuro-podejrzenie-ropnia-mozgu"
+title: "Zmiana mózgowia podejrzana o ropień"
+modality: "CT"
+examTypes: ["CT głowy z kontrastem"]
+bodySystems: ["Układ nerwowy"]
+bodyParts: ["Głowa"]
+organs: ["Mózgowie"]
+pathology: ["Podejrzenie ropnia mózgu"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["n3-cns-enhancement"]
+sections:
+  assessmentChecklist:
+    - "Liczba, wymiary i położenie; liczba, położenie, pierścieniowe wzmocnienie, obrzęk i potencjalne źródło zakażenia."
+    - "Wzmocnienie, obrzęk, efekt masy, układ komorowy oraz ograniczenia."
+  reportTemplate: |
+    W {{lokalizacja_i_strona}} {{liczba}} zmian o wymiarach do {{wymiary_mm}} mm, {{charakter_i_granice}}. Dostępne fazy {{fazy}}, gęstość i wzmocnienie {{gestosc_i_wzmocnienie}}. Liczba, położenie, pierścieniowe wzmocnienie, obrzęk i potencjalne źródło zakażenia: {{cechy_swoiste}}. Obrzęk {{obrzek}}, efekt masy {{efekt_masy}}, komory i zbiorniki {{komory_i_zbiorniki}}. Ograniczenia {{ograniczenia}}.
+  impressionTemplate: |
+    Zmiana w {{lokalizacja_i_strona}}, {{wymiary_mm}} mm; {{charakter_i_rozpoznanie_roznicowe}}. {{efekt_masy}}.
+  clinicalNotes:
+    - "Pierścieniowe wzmocnienie nie jest swoiste dla ropnia; MR z dyfuzją wspomaga różnicowanie, lecz samo również nie zawsze jest rozstrzygające."

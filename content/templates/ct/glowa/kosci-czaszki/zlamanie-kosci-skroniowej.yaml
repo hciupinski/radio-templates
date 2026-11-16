@@ -1,0 +1,38 @@
+id: "ct-neuro-zlamanie-kosci-skroniowej"
+title: "Złamanie kości skroniowej"
+modality: "CT"
+examTypes: ["CT kości skroniowych bez kontrastu"]
+bodySystems: ["Układ mięśniowo-szkieletowy"]
+bodyParts: ["Głowa"]
+organs: ["Kości czaszki"]
+pathology: ["Złamanie kości skroniowej"]
+tags: ["Rezydent", "Pilne"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["n3-temporal-bone", "n3-temporal-fracture"]
+imageRefs:
+  - id: commons-ct3-temporal
+    title: Złamanie kości skroniowej
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/2/2f/Tempbonefract.png
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Tempbonefract.png
+    sourceId: wikimedia-commons
+    caption: Osiowy przekrój w oknie kostnym, strzałka wskazuje miejsce złamania.
+    alt: Uraz lewej kości skroniowej w okolicy wyrostka sutkowatego.
+    category: typical
+    findings:
+      - Przerwanie zarysu kości po stronie bocznej oznaczone strzałką.
+      - Częściowe zmniejszenie powietrzności sąsiednich komórek sutkowych.
+    attribution: James Heilman, MD, Wikimedia Commons, CC BY-SA 3.0
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-11-16"
+sections:
+  assessmentChecklist:
+    - "Przebieg złamania i zajęcie torebki błędnika, kanału nerwu twarzowego i kanału tętnicy szyjnej."
+    - "Ucho środkowe, kosteczki, przewód słuchowy, staw skroniowo-żuchwowy i powikłania śródczaszkowe."
+  reportTemplate: |
+    Złamanie kości skroniowej {{strona}}, przebieg {{przebieg}}. Torebka błędnika {{torebka}}, kanał nerwu twarzowego {{kanal_nerwu}}, kanał tętnicy szyjnej {{kanal_tetnicy}}. Jama bębenkowa i kosteczki {{ucho_srodkowe}}, komórki sutkowe {{komorki}}, przewód słuchowy {{przewod}}. Zmiany śródczaszkowe w zakresie badania {{zmiany_srodczaszkowe}}.
+  impressionTemplate: |
+    Złamanie kości skroniowej {{strona}}, {{przebieg_i_kluczowe_struktury}}.
+  clinicalNotes:
+    - "Zajęcie kanału tętnicy szyjnej nie jest samo w sobie dowodem urazu naczynia; ocena naczyniowa wymaga odpowiedniego badania."

@@ -1,0 +1,31 @@
+id: ct-chloniak-klatki
+title: Chłoniak – zmiany w klatce piersiowej
+modality: CT
+examTypes:
+  - CT klatki piersiowej z kontrastem
+bodySystems:
+  - Układ limfatyczny
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Śródpiersie
+pathology:
+  - Chłoniak
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - chest3-lymphoma
+sections:
+  assessmentChecklist:
+    - Węzły śródpiersia, wnęk, pach i okolic nadobojczykowych w zakresie badania; największy wymiar długi i krótki.
+    - Masa śródpiersia i relacja do naczyń oraz dróg oddechowych.
+    - Zmiany pozawęzłowe, płyn opłucnowy i porównanie.
+  reportTemplate: |
+    Węzły {{grupy_i_strony}}, największy {{wymiar_dlugi_mm}} × {{wymiar_krotki_mm}} mm. Masa śródpiersia {{lokalizacja_i_wymiary}}, stosunek do naczyń i dróg oddechowych {{relacje}}. Płuca {{pluca}}, opłucna i osierdzie {{plyn}}, inne zmiany {{inne}}. Porównanie {{porownanie}}.
+  impressionTemplate: |
+    {{wezly_i_masa}} w kontekście {{rozpoznanie_lub_podejrzenie_chloniaka}}. {{zmiany_pozawezlowe_i_dynamika}}.
+  clinicalNotes:
+    - CT nie ustala typu histologicznego chłoniaka; ocena aktywności choroby zależy od kontekstu i zastosowanej metody.

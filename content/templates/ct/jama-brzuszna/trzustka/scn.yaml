@@ -1,0 +1,30 @@
+id: ct3-scn
+title: Podejrzenie surowiczego nowotworu torbielowatego trzustki
+modality: CT
+examTypes:
+  - CT w protokole trzustkowym
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Trzustka
+pathology:
+  - Surowiczy nowotwór torbielowaty trzustki
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-cysts
+sections:
+  assessmentChecklist:
+    - Położenie, wymiary, budowa i dostępne fazy.
+    - Ściana, przegrody, część lita i relacja do przewodu trzustkowego.
+  reportTemplate: |
+    W {{lokalizacja}} trzustki zmiana torbielowata {{wymiary_mm}} mm, {{budowa_i_wzmocnienie}}; mikrotorbiele, blizna i zwapnienia {{mikrotorbiele_blizna_zwapnienia}}. Ściana i komponent lity {{sciana_i_guzki}}. Pozostała trzustka {{pozostala_trzustka}}; ograniczenia {{ograniczenia}}.
+  impressionTemplate: |
+    Zmiana torbielowata trzustki {{lokalizacja_i_wymiary}}, {{pewnosc}} SCN.
+  clinicalNotes:
+    - Nie zawsze można ustalić typ lub łączność z przewodem w CT; MR/MRCP lepiej uwidacznia strukturę i przewody.

@@ -1,0 +1,23 @@
+id: "ct-neuro-podejrzenie-astrocytoma"
+title: "Zmiana mózgowia podejrzana o glejaka"
+modality: "CT"
+examTypes: ["CT głowy z kontrastem"]
+bodySystems: ["Układ nerwowy"]
+bodyParts: ["Głowa"]
+organs: ["Mózgowie"]
+pathology: ["Podejrzenie astrocytoma"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["n3-cns-enhancement"]
+sections:
+  assessmentChecklist:
+    - "Liczba, wymiary i położenie; lokalizacja, rozległość, granice i efekt masy."
+    - "Wzmocnienie, obrzęk, efekt masy, układ komorowy oraz ograniczenia."
+  reportTemplate: |
+    W {{lokalizacja_i_strona}} {{liczba}} zmian o wymiarach do {{wymiary_mm}} mm, {{charakter_i_granice}}. Dostępne fazy {{fazy}}, gęstość i wzmocnienie {{gestosc_i_wzmocnienie}}. Lokalizacja, rozległość, granice i efekt masy: {{cechy_swoiste}}. Obrzęk {{obrzek}}, efekt masy {{efekt_masy}}, komory i zbiorniki {{komory_i_zbiorniki}}. Ograniczenia {{ograniczenia}}.
+  impressionTemplate: |
+    Zmiana w {{lokalizacja_i_strona}}, {{wymiary_mm}} mm; {{charakter_i_rozpoznanie_roznicowe}}. {{efekt_masy}}.
+  clinicalNotes:
+    - "CT nie ustala rozpoznania histopatologicznego ani stopnia nowotworu; MR z kontrastem lepiej charakteryzuje zmianę."

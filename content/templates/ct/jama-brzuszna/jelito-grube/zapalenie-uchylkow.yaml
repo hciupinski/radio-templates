@@ -14,10 +14,26 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: 0.1.0
-updatedAt: '2026-11-15'
+version: "0.1.1"
+updatedAt: "2026-11-16"
 sourceRefs:
   - ct-diverticulitis-acr
+imageRefs:
+  - id: commons-ct3-divert
+    title: Zapalenie uchyłków esicy z małym ropniem
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/3/3f/03-Sigmadivertikulitis_CT_ax_001_Kleiner_Abszess.png
+    sourceUrl: https://commons.wikimedia.org/wiki/File:03-Sigmadivertikulitis_CT_ax_001_Kleiner_Abszess.png
+    sourceId: wikimedia-commons
+    caption: Osiowy przekrój TK miednicy. Strzałka wskazuje okolicę zbiornika przy esicy.
+    alt: Uchyłki esicy z odczynem okołojelitowym oraz małym zbiornikiem.
+    category: typical
+    findings:
+      - Uchyłki w obrębie esicy.
+      - Zagęszczenie okołojelitowej tkanki tłuszczowej.
+      - Mały zbiornik obok jelita przy strzałce.
+    attribution: Hellerhoff, Wikimedia Commons, CC BY-SA 3.0
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-11-16"
 sections:
   assessmentChecklist:
     - Odcinek jelita, uchyłki, pogrubienie ściany i naciek tłuszczu.

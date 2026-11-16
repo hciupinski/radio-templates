@@ -1,0 +1,32 @@
+id: ct3-kamica-pecherza
+title: Kamica pęcherza moczowego
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy bez kontrastu
+bodySystems:
+  - Układ moczowy
+bodyParts:
+  - Miednica
+organs:
+  - Pęcherz moczowy
+pathology:
+  - Kamica pęcherza moczowego
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-eau-bladder-stones
+  - ct3-rpa-bladder-calculus
+sections:
+  assessmentChecklist:
+    - Liczba, wymiar i usytuowanie złogów w świetle pęcherza lub w uchyłku.
+    - Relacja do ujść moczowodów i do ściany pęcherza.
+    - Poszerzenie górnych dróg moczowych oraz stan ściany pęcherza przy dostatecznym wypełnieniu.
+  reportTemplate: >
+    W świetle pęcherza moczowego {{lokalizacja_i_liczba_zlogow}}. Największy złóg ma {{wymiar_mm}} mm. Stosunek do ujść moczowodów
+    i ściany pęcherza {{stosunek}}. Wypełnienie pęcherza {{wypelnienie}}, ściana {{ocena_sciany}}. Górne drogi moczowe
+    {{opis_lub_ograniczenia}}.
+  impressionTemplate: |
+    Kamica pęcherza moczowego. {{cechy_towarzyszace}}.

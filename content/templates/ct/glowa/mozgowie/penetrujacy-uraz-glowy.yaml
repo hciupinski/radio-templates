@@ -1,0 +1,23 @@
+id: "ct-neuro-penetrujacy-uraz-glowy"
+title: "Penetrujący uraz głowy"
+modality: "CT"
+examTypes: ["CT głowy bez kontrastu"]
+bodySystems: ["Układ nerwowy"]
+bodyParts: ["Głowa"]
+organs: ["Mózgowie"]
+pathology: ["Penetrujący uraz głowy"]
+tags: ["Rezydent", "Pilne"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["ct-neurocritical", "n3-penetrating-brain-injury"]
+sections:
+  assessmentChecklist:
+    - "Ubytki i złamania kości oraz ciała obce w dostępnym zakresie."
+    - "Krwawienia, uszkodzenie mózgowia, odma, obrzęk, efekt masy i artefakty."
+  reportTemplate: |
+    Uraz tkanek miękkich {{lokalizacja}} ze złamaniami {{zlamania}}. Ciała obce {{polozenie}} z artefaktami {{artefakty}}. Uszkodzenie miąższu {{uszkodzenie}}, krwawienia {{krwawienia}}, powietrze śródczaszkowe {{powietrze}}. Obrzęk i efekt masy {{efekt_masy}}, przemieszczenie linii pośrodkowej {{przemieszczenie_mm}} mm; komory i zbiorniki {{komory}}.
+  impressionTemplate: |
+    Penetrujący uraz głowy {{lokalizacja}} z {{istotne_obrazenia}}.
+  clinicalNotes:
+    - "Artefakty metaliczne mogą ograniczać ocenę; samo CT bez kontrastu nie wyklucza urazu naczyń."

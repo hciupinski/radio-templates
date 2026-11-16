@@ -1,0 +1,36 @@
+id: ct3-przerzut-do-nadnercza
+title: Podejrzenie przerzutu do nadnercza
+modality: CT
+examTypes:
+  - CT klatki piersiowej, jamy brzusznej i miednicy
+bodySystems:
+  - Układ endokrynny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Nadnercza
+pathology:
+  - Przerzuty
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-ese-adrenal-incidentaloma
+  - ct3-ra-adrenals
+sections:
+  assessmentChecklist:
+    - Porównanie zmian w czasie i odniesienie do rozpoznania onkologicznego.
+    - Strona, jedno- lub obustronność, wymiary, jednorodność i dostępne fazy.
+    - Cechy łagodnej zmiany, naciekanie i inne zmiany w zakresie badania.
+  reportTemplate: >
+    W nadnerczu {{strona}} zmiana o wymiarach {{wymiary_mm}} mm, {{dynamika_w_porownaniu}}. Struktura i granice {{morfologia}},
+    gęstość i wzmocnienie {{cechy_w_dostepnych_fazach}}. Tkanki sąsiednie {{zasieg_miejscowy}}. Nadnercze przeciwne
+    {{opis_drugiego_nadnercza}}. Pozostałe zmiany podejrzane {{inne_ogniska}}.
+  impressionTemplate: |
+    Zmiana nadnercza {{strona}} {{ocena_prawdopodobienstwa_przerzutu}} w kontekście {{kontekst_onkologiczny}}. {{ograniczenia}}.
+  clinicalNotes:
+    - >-
+      Sama obecność guzka u chorego onkologicznego nie ustala jego etiologii. Jeżeli wcześniejsze cechy są diagnostyczne dla
+      łagodnego gruczolaka, uwzględnij je przy ocenie.

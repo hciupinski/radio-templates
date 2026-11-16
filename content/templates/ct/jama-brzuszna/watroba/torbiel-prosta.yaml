@@ -1,0 +1,30 @@
+id: ct3-torbiel-prosta
+title: Torbiel prosta wątroby
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Układ hepatobiliarny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Wątroba
+pathology:
+  - Torbiel prosta
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-liver-characterisation
+sections:
+  assessmentChecklist:
+    - Liczba, segment i największy wymiar.
+    - Gęstość, ściana, przegrody i wzmocnienie w dostępnych fazach.
+  reportTemplate: |
+    W segmencie {{segment}} zmiana {{wymiar_mm}} mm, o gęstości {{gestosc_hu}} HU, ściana {{sciana}}, przegrody lub guzki {{przegrody_i_guzki}}, wzmocnienie {{wzmocnienie_i_fazy}}. Pozostałe zmiany {{inne}}.
+  impressionTemplate: |
+    Torbiel prosta wątroby {{segment_i_wymiar}}; {{pewnosc_i_ograniczenia}}.
+  clinicalNotes:
+    - Cechy złożone albo brak odpowiednich faz wymagają ostrożnej charakterystyki.

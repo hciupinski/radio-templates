@@ -1,0 +1,37 @@
+id: ct3-gruczolak-nadnercza
+title: Gruczolak nadnercza bogaty w lipidy
+modality: CT
+examTypes:
+  - CT nadnerczy w protokole dedykowanym
+bodySystems:
+  - Układ endokrynny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Nadnercza
+pathology:
+  - Gruczolak nadnercza
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-ese-adrenal-incidentaloma
+  - ct3-ra-adrenals
+sections:
+  assessmentChecklist:
+    - Strona, maksymalny wymiar, granice i jednorodność.
+    - Pomiar gęstości w wiarygodnej fazie bez kontrastu z pominięciem efektu objętości częściowej.
+    - Porównanie z poprzednimi badaniami i kontekst kliniczny.
+  reportTemplate: >
+    W nadnerczu {{strona}} dobrze odgraniczony, jednorodny guzek o wymiarach {{wymiary_mm}} mm. W fazie bez kontrastu średnia
+    gęstość reprezentatywnego obszaru wynosi {{gestosc_hu}} HU. Porównanie z badaniem {{data_porownania}}: {{dynamika}}. Nadnercze
+    przeciwne {{opis_nadnercza_przeciwnego}}.
+  impressionTemplate: |
+    Jednorodny guzek nadnercza {{strona}} o cechach gruczolaka bogatego w lipidy.
+  clinicalNotes:
+    - >-
+      Właściwy dla wniosku jest jednorodny guzek o gęstości do 10 HU w rzeczywistej fazie bez kontrastu. Przy braku fazy lub
+      nietypowych cech scharakteryzuj zmianę jako niejednoznaczną i uwzględnij wywiad onkologiczny. CT nie określa czynności
+      hormonalnej.

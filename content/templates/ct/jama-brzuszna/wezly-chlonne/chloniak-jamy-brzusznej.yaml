@@ -1,0 +1,28 @@
+id: ct3-chloniak-jamy-brzusznej
+title: Podejrzenie chłoniaka – węzły jamy brzusznej
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Układ limfatyczny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Węzły chłonne
+pathology:
+  - Chłoniak
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-lymphoma
+sections:
+  assessmentChecklist:
+    - Rozmieszczenie, wielkość i charakter węzłów, pakiety węzłowe.
+    - Relacja do naczyń, wątroba, śledziona, jelita i inne ogniska.
+  reportTemplate: |
+    Węzły chłonne {{lokalizacja}}, do {{os_krotka_mm}} mm w osi krótkiej, {{charakter_i_pakiety}}. Relacja do naczyń {{naczynia}}. Śledziona {{sledziona}}, wątroba {{watroba}}, inne narządy {{inne}}.
+  impressionTemplate: |
+    Limfadenopatia {{lokalizacja_i_wymiary}}, {{pewnosc}} chłoniaka. {{zmiany_pozawezlowe}}.

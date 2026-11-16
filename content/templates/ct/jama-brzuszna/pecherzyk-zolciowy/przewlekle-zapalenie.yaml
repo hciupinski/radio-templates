@@ -1,0 +1,30 @@
+id: ct3-przewlekle-zapalenie
+title: Przewlekłe zapalenie pęcherzyka żółciowego
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Układ hepatobiliarny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Pęcherzyk żółciowy
+pathology:
+  - Przewlekłe zapalenie
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct-ruq-acr-2022
+sections:
+  assessmentChecklist:
+    - Wypełnienie, ściana i widoczne złogi.
+    - Okolica pęcherzyka, drogi żółciowe i ewentualna zmiana ogniskowa.
+  reportTemplate: |
+    Pęcherzyk {{wypelnienie}}, ściana {{grubosc_i_charakter}}, złogi {{zlogi}}. Tkanki okołopęcherzykowe {{otoczenie}}, drogi żółciowe {{drogi}}, zmiana ogniskowa {{zmiana}}.
+  impressionTemplate: |
+    {{pewnosc}} przewlekłego zapalenia pęcherzyka żółciowego. {{zlogi_i_ograniczenia}}.
+  clinicalNotes:
+    - Zmiany ściany są nieswoiste i nie pozwalają samodzielnie potwierdzić przewlekłego zapalenia.
