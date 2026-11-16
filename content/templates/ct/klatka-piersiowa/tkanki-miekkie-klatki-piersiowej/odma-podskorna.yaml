@@ -1,0 +1,29 @@
+id: ct-odma-podskorna
+title: Odma podskórna klatki piersiowej
+modality: CT
+examTypes:
+  - CT klatki piersiowej
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Tkanki miękkie klatki piersiowej
+pathology:
+  - Odma podskórna klatki piersiowej
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - chest3-trauma
+sections:
+  assessmentChecklist:
+    - Strona, rozległość i rozmieszczenie gazu w tkankach.
+    - Związek z odmą opłucnową, śródpiersiową, urazem lub drenażem.
+    - Możliwe źródło oraz inne obrażenia w zakresie badania.
+  reportTemplate: |
+    Gaz w tkankach miękkich {{strona_i_zasieg}}, obejmuje {{warstwy}}. Jama opłucnej {{odma_i_plyn}}, śródpiersie {{gaz_i_plyn}}. Drogi oddechowe i przełyk {{ocena_i_ograniczenia}}. {{dreny_urazy_i_prawdopodobne_zrodlo}}.
+  impressionTemplate: |
+    Odma podskórna {{zasieg}}. {{zmiany_towarzyszace_i_prawdopodobne_zrodlo}}.

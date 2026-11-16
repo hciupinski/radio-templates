@@ -1,0 +1,28 @@
+id: ct3-uchylkowatosc
+title: Uchyłkowatość jelita grubego
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Jelito grube
+pathology:
+  - Uchyłkowatość jelita grubego
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-diverticula
+sections:
+  assessmentChecklist:
+    - Lokalizacja i nasilenie uchyłków.
+    - Ściana i otoczenie oraz ewentualne powikłania.
+  reportTemplate: |
+    W {{odcinek}} jelita grubego {{liczba_i_rozmieszczenie}} uchyłków. Ściana {{sciana}}, tkanki okołojelitowe {{otoczenie}}. {{ewentualne_powiklania}}.
+  impressionTemplate: |
+    Uchyłkowatość jelita grubego {{lokalizacja}}. {{ocena_zapalenia}}.

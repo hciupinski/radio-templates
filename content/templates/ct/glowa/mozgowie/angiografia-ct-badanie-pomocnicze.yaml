@@ -1,0 +1,25 @@
+id: "ct-neuro-angiografia-ct-badanie-pomocnicze"
+title: "Angio-CT jako badanie pomocnicze w ocenie krążenia mózgowego"
+modality: "CT"
+examTypes: ["Angio-CT krążenia mózgowego jako badanie pomocnicze"]
+bodySystems: ["Układ naczyniowy"]
+bodyParts: ["Głowa"]
+organs: ["Mózgowie"]
+pathology: ["Ocena krążenia mózgowego w badaniu pomocniczym"]
+tags: ["Rezydent", "Pilne"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["n3-mz-brain-death", "n3-medical-law-2026"]
+sections:
+  assessmentChecklist:
+    - "Wskazanie do badania pomocniczego, zgodność wykonania z właściwą procedurą oraz jakość wypełnienia naczyń referencyjnych."
+    - "Dokumentacja wymaganych faz oraz ocena wskazanych w obowiązującym protokole naczyń i ograniczeń."
+    - "Wynik opisowy i kwalifikacja badania przez właściwego specjalistę, bez samodzielnego orzeczenia."
+  reportTemplate: |
+    Badanie pomocnicze wykonano w ramach {{procedura_i_wskazanie}}. Protokół i dostępne fazy {{protokol_i_fazy}}. Naczynia referencyjne {{naczynia_referencyjne_i_jakosc}}. Ocena naczyń wymaganych procedurą {{wynik_oceny_naczyn}}. Ograniczenia i czynniki zakłócające {{ograniczenia}}. Interpretacja specjalisty {{interpretacja_specjalisty}}.
+  impressionTemplate: |
+    Wynik badania pomocniczego: {{wynik_lub_niediagnostyczne}}; interpretacja zgodnie z właściwą procedurą przez uprawnionych specjalistów.
+  clinicalNotes:
+    - "Zwykła angiografia CT głowy nie jest zamienna z formalnym badaniem pomocniczym. Kwalifikacja, technika, warunki i interpretacja wymagają stosowania aktualnych polskich kryteriów i protokołu ośrodka."
+    - "Opis badania nie stanowi stwierdzenia śmierci mózgu; postępowanie i decyzja należą do uprawnionych lekarzy specjalistów. Aktualność podstawy prawnej i procedury należy sprawdzić przed użyciem."

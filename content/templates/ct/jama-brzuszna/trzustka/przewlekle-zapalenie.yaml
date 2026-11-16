@@ -1,0 +1,45 @@
+id: ct3-przewlekle-zapalenie-trzustki
+title: Przewlekłe zapalenie trzustki
+modality: CT
+examTypes:
+  - CT w protokole trzustkowym
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Trzustka
+pathology:
+  - Przewlekłe zapalenie
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-chronicpancreatitis
+imageRefs:
+  - id: commons-ct3-chronicp
+    title: Zwapnienia w przewlekłym zapaleniu trzustki
+    imageUrl: >-
+      https://upload.wikimedia.org/wikipedia/commons/4/4e/Multiple_Pankreasverkalkungen_bei_chronischer_Pankreatitis_79W_-_CT_und_CR_-_001_-_Annotation.jpg
+    sourceUrl: >-
+      https://commons.wikimedia.org/wiki/File:Multiple_Pankreasverkalkungen_bei_chronischer_Pankreatitis_79W_-_CT_und_CR_-_001_-_Annotation.jpg
+    sourceId: wikimedia-commons
+    caption: Zestawienie TK w przekrojach osiowym i czołowym ze zdjęciem przeglądowym. W TK zwapnienia zaznaczono kolorem.
+    alt: Mnogie zwapnienia w rzucie trzustki w TK i RTG.
+    category: typical
+    findings:
+      - Liczne grube zwapnienia w rzucie trzustki na obu przekrojach TK.
+      - Zwapnienia widoczne również na zdjęciu przeglądowym.
+    attribution: Hellerhoff, Wikimedia Commons, CC BY-SA 4.0
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-11-16"
+sections:
+  assessmentChecklist:
+    - Zanik i zwapnienia miąższu; przewód trzustkowy i kamienie.
+    - Zmiana ogniskowa, zbiorniki oraz drogi żółciowe i naczynia.
+  reportTemplate: |
+    Trzustka {{wielkosc_i_miazsz}}, zwapnienia {{zwapnienia}}. Przewód trzustkowy {{srednica_i_zlogi}}. Zmiana ogniskowa {{zmiana}}, zbiorniki {{zbiorniki}}, drogi żółciowe i naczynia {{drogi_i_naczynia}}.
+  impressionTemplate: |
+    Obraz {{pewnosc}} przewlekłego zapalenia trzustki. {{powiklania_i_ograniczenia}}.

@@ -1,0 +1,29 @@
+id: ct-wole-zamostkowe
+title: Wole zamostkowe
+modality: CT
+examTypes:
+  - CT klatki piersiowej z kontrastem
+bodySystems:
+  - Układ endokrynny
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Tarczyca
+pathology:
+  - Wole zamostkowe
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - chest3-mediastinum
+sections:
+  assessmentChecklist:
+    - Ciągłość z tarczycą, granice i zasięg śródpiersiowy.
+    - Wymiary, niejednorodność, zwapnienia oraz relacja do dużych naczyń.
+    - Przemieszczenie i zwężenie tchawicy lub przełyku.
+  reportTemplate: |
+    Tarczyca {{wielkosc_i_struktura}} z częścią zamostkową sięgającą {{zasieg}}, o wymiarach {{wymiary_mm}} mm. Tchawica {{przemieszczenie_i_swiatlo}}, przełyk {{przelyk}}, naczynia {{naczynia}}. Węzły i pozostałe zmiany {{inne}}.
+  impressionTemplate: |
+    Wole z częścią zamostkową {{zasieg}}, {{wplyw_na_tchawice}}.

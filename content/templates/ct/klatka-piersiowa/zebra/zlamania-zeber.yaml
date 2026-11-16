@@ -1,0 +1,44 @@
+id: ct-zlamania-zeber
+title: Złamania żeber
+modality: CT
+examTypes:
+  - CT klatki piersiowej
+bodySystems:
+  - Układ mięśniowo-szkieletowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Żebra
+pathology:
+  - Złamania żeber
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - chest3-trauma
+imageRefs:
+  - id: commons-ct3-rib
+    title: Złamanie tylnego odcinka żebra
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/b/bd/PfracturedribCT.png
+    sourceUrl: https://commons.wikimedia.org/wiki/File:PfracturedribCT.png
+    sourceId: wikimedia-commons
+    caption: Osiowa warstwa TK ze złamaniem oznaczonym czerwonym okręgiem.
+    alt: Szczelina złamania w tylnym odcinku lewego żebra.
+    category: typical
+    findings:
+      - Przerwanie ciągłości kory tylnego odcinka żebra po lewej stronie.
+      - Niewielka zmiana zarysu kory w miejscu szczeliny.
+    attribution: James Heilman, MD, Wikimedia Commons, CC BY-SA 3.0
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-11-16"
+sections:
+  assessmentChecklist:
+    - Strona, numery żeber, miejsca i liczba szczelin, przemieszczenie.
+    - Wieloodcinkowość i obrażenia mostka, łopatki oraz kręgosłupa.
+    - Odma, krwiak opłucnej, stłuczenie i krwiak ściany.
+  reportTemplate: |
+    Złamania żeber {{strona_i_numery}} w odcinkach {{lokalizacje}}, {{liczba_szczelin_i_przemieszczenie}}. Pozostałe kości {{pozostale_kosci}}. Tkanki ściany {{krwiak_i_odma_podskorna}}; płuca i opłucna {{stluczenie_odma_i_plyn}}.
+  impressionTemplate: |
+    Złamania żeber {{strona_i_numery}}, {{przemieszczenie}}. {{obrazenia_towarzyszace}}.

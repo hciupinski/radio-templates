@@ -1,0 +1,46 @@
+id: ct3-ostre-zapalenie-srodmiazszowe
+title: Ostre śródmiąższowe obrzękowe zapalenie trzustki
+modality: CT
+examTypes:
+  - CT w protokole trzustkowym
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Trzustka
+pathology:
+  - Ostre śródmiąższowe zapalenie trzustki
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct-pancreatitis-assistant
+imageRefs:
+  - id: commons-ct3-interst
+    title: Śródmiąższowe obrzękowe zapalenie trzustki
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/9/97/Pankreatitis_exsudativ_CT_axial.jpg
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Pankreatitis_exsudativ_CT_axial.jpg
+    sourceId: wikimedia-commons
+    caption: Osiowe TK po kontraście, strzałka wskazuje trzustkę.
+    alt: Powiększona trzustka o zachowanym wzmocnieniu i odczyn w otoczeniu.
+    category: typical
+    findings:
+      - Obrzękowe powiększenie trzustki.
+      - Zachowane wzmocnienie widocznego miąższu.
+      - Zagęszczenie tkanki tłuszczowej i płyn wokół trzustki.
+    attribution: Hellerhoff, strzałka Doc James, Wikimedia Commons, CC BY-SA 3.0
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-11-16"
+sections:
+  assessmentChecklist:
+    - Czas od objawów, fazy i wzmocnienie miąższu.
+    - Zapalne zmiany okołotrzustkowe i lokalne zbiorniki.
+  reportTemplate: |
+    Badanie {{czas_od_objawow_i_fazy}}. Trzustka {{wielkosc_i_wzmocnienie}}, tkanki okołotrzustkowe {{naciek}}. Zbiorniki {{lokalizacja_wymiary_i_charakter}}, naczynia {{naczynia}}, inne zmiany {{inne}}.
+  impressionTemplate: |
+    Obraz {{pewnosc}} śródmiąższowego obrzękowego zapalenia trzustki. {{zbiorniki_i_powiklania}}.
+  clinicalNotes:
+    - Wczesne CT może nie ujawnić pełnego zasięgu martwicy.

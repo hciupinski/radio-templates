@@ -1,0 +1,37 @@
+id: ct3-aktywne-krwawienie-z-tetnicy-biodrowej
+title: Aktywne krwawienie z tętnicy biodrowej lub jej gałęzi
+modality: CT
+examTypes:
+  - Angio-CT jamy brzusznej i miednicy w krwawieniu
+bodySystems:
+  - Układ naczyniowy
+bodyParts:
+  - Miednica
+organs:
+  - Tętnice biodrowe
+pathology:
+  - Aktywne krwawienie z tętnicy biodrowej
+tags:
+  - Rezydent
+  - Pilne
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-wses-pelvic-trauma
+  - ra-ct-abdominal-trauma
+sections:
+  assessmentChecklist:
+    - Czy ognisko wynaczynienia narasta lub zmienia kształt w kolejnej fazie i czy można ustalić tętnicę źródłową.
+    - Strona, przedział anatomiczny, największy wymiar i zasięg krwiaka.
+    - Tętniak rzekomy oraz współistniejący uraz kości i narządów w zakresie badania.
+  reportTemplate: >
+    W fazie tętniczej w obrębie {{lokalizacja}} widoczne ognisko pozanaczyniowego kontrastu, które w fazie {{faza_pozniejsza}}
+    {{zmiana_w_czasie}}. Źródło {{naczynie_strona_i_pewnosc}}. Krwiak {{przedzial_i_wymiary_mm}}. Uszkodzenia towarzyszące
+    {{obrazenia}}, dodatkowe ogniska krwawienia {{inne_ogniska}}.
+  impressionTemplate: |
+    Czynne krwawienie w {{lokalizacja}}. {{naczynie_zrodlowe_i_pewnosc}}. {{zasieg_i_powiklania}}.
+  clinicalNotes:
+    - >-
+      Napisz wprost, jeżeli źródło nie jest pewne. Ograniczenia protokołu, w tym brak właściwej fazy tętniczej, mogą uniemożliwić
+      przypisanie pochodzenia krwawienia.

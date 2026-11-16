@@ -199,3 +199,7 @@ Kryteria opracowania zapisano w [promptach do etapu 23](prompty-skille-etap-23-t
 | Układ moczowy i miednica | 6 | Kamica moczowodu z zastojem, Lita zmiana nerki podejrzana o nowotwór, Ostre odmiedniczkowe zapalenie nerek, Torbielowata zmiana nerki w klasyfikacji Bosniak 2019, Zmiana pęcherza podejrzana o nowotwór, Zmiana przydatków podejrzana o nowotwór |
 
 Zakres i zasady opracowania opisano w [promptach do etapu 24](prompty-skille-etap-24-tk-zmiany-chorobowe.md).
+
+### Trzecia seria TK — klatka piersiowa, jama brzuszna, miednica i OUN
+
+Dodano 93 szkice i 13 ilustracji edukacyjnych. [Lista pokrycia wszystkich 123 pozycji](prompty-skille-etap-25-tk-lista-patologii.md) wskazuje nowe i wcześniej dostępne szablony.

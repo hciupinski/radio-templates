@@ -1,0 +1,49 @@
+id: ct3-angiomyolipoma
+title: Angiomyolipoma nerki
+modality: CT
+examTypes:
+  - CT nerek w protokole guzowym
+bodySystems:
+  - Układ moczowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Nerki
+pathology:
+  - Angiomyolipoma
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-rpa-renal-aml
+imageRefs:
+  - id: commons-ct3-aml
+    title: Angiomyolipoma prawej nerki
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/a/ab/Angiomyolipom_Niere_rechts_CT_axial.png
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Angiomyolipom_Niere_rechts_CT_axial.png
+    sourceId: wikimedia-commons
+    caption: Osiowy przekrój TK w oknie tkanek miękkich.
+    alt: Guzek o gęstości tłuszczu na obrysie prawej nerki.
+    category: typical
+    findings:
+      - Dobrze odgraniczony guzek na przednio-bocznym obrysie prawej nerki.
+      - Gęstość guzka zbliżona do tłuszczu okołonerkowego.
+    attribution: Hellerhoff, Wikimedia Commons, CC BY-SA 3.0
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-11-16"
+sections:
+  assessmentChecklist:
+    - Punkt wyjścia z miąższu nerki, położenie i wymiary.
+    - Tłuszcz makroskopowy w zmianie, części tkanek miękkich i zwapnienia.
+    - Naczynia śródguzowe, tętniaki i krwawienie w zakresie dostępnym w protokole.
+  reportTemplate: >
+    Z miąższu nerki {{strona}}, w obrębie {{lokalizacja}}, wychodzi zmiana o wymiarach {{wymiary_mm}} mm. Tłuszcz makroskopowy
+    {{lokalizacja_i_gestosc_hu}}, komponent tkanek miękkich {{opis_skladowej}}, zwapnienia {{zwapnienia}}. Naczynia śródguzowe
+    {{naczynia_i_tetniaki}}. Przestrzeń okołonerkowa {{krwiak_lub_brak_lub_ograniczenia}}.
+  impressionTemplate: >
+    Zmiana nerki {{strona}}. {{pewnosc_rozpoznania_angiomyolipoma_i_podstawa}}.
+    {{istotne_powiklania}}.
+  clinicalNotes:
+    - Przy skąpotłuszczowej zmianie, obecności zwapnień lub niepewnym punkcie wyjścia obraz CT może być nierozstrzygający.

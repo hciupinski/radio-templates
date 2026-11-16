@@ -1,0 +1,28 @@
+id: ct3-rak-jelita-grubego-przerzuty
+title: Nowotwór jelita grubego z podejrzeniem przerzutów
+modality: CT
+examTypes:
+  - CT klatki piersiowej, jamy brzusznej i miednicy
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Jelito grube
+pathology:
+  - Przerzuty
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-colon
+sections:
+  assessmentChecklist:
+    - Zmiana pierwotna i zakres badania.
+    - Liczba, wymiary oraz rozmieszczenie zmian przerzutowych, węzły i otrzewna.
+  reportTemplate: |
+    Badanie obejmuje {{zakres_i_fazy}}. Zmiana jelita {{lokalizacja_i_wymiary}}, węzły {{wezly}}. Wątroba {{liczba_segmenty_i_wymiary}}, płuca w dostępnym zakresie {{pluca}}, otrzewna {{otrzewna}}, inne ogniska {{inne}}. Porównanie {{porownanie}}.
+  impressionTemplate: |
+    Zmiana jelita grubego {{lokalizacja}}; {{pewnosc}} zmian przerzutowych {{lokalizacja_i_zasieg}}.

@@ -1,0 +1,30 @@
+id: ct3-kamica
+title: Kamica pęcherzyka żółciowego
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Układ hepatobiliarny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Pęcherzyk żółciowy
+pathology:
+  - Kamica
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct-ruq-acr-2022
+sections:
+  assessmentChecklist:
+    - Liczba, rozmiar i położenie widocznych złogów.
+    - Ściana pęcherzyka, otoczenie i drogi żółciowe.
+  reportTemplate: |
+    W pęcherzyku {{liczba_i_polozenie}} złogów do {{wymiar_mm}} mm. Ściana {{sciana}}, tkanki otaczające {{otoczenie}}, drogi żółciowe {{drogi_zolciowe}}.
+  impressionTemplate: |
+    Kamica pęcherzyka żółciowego. {{cechy_zapalenia_lub_ograniczenia}}.
+  clinicalNotes:
+    - Złogi izodensyjne mogą być niewidoczne w CT.

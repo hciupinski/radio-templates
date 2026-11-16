@@ -1,0 +1,32 @@
+id: ct-rak-piersi-rozsiew
+title: Rak piersi – ocena rozsiewu w klatce piersiowej
+modality: CT
+examTypes:
+  - CT klatki piersiowej z kontrastem
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Płuca
+pathology:
+  - Rozsiew raka piersi w klatce piersiowej
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - chest3-breast-metastases
+  - chest3-lung-metastases
+sections:
+  assessmentChecklist:
+    - Liczba, lokalizacja i wymiary zmian płucnych; porównanie.
+    - Węzły klatki piersiowej, opłucna, osierdzie i kości.
+    - Pozostałe zmiany w zakresie badania oraz ograniczenia oceny.
+  reportTemplate: |
+    Okolica piersi i ściana klatki {{zmiany_pierwotne_lub_po_leczeniu}}; węzły pachowe i przymostkowe {{wezly_pachowe_i_przymostkowe}}. W płucach {{liczba_i_lokalizacja_guzkow}}, największy {{wymiary_mm}} mm, {{charakter}}. Węzły wnękowe, śródpiersiowe i nadobojczykowe w zakresie badania {{wezly_lokalizacja_i_wymiary}}. Opłucna i osierdzie {{oplucna_i_osierdzie}}, kości {{kosci}}, widoczne nadbrzusze {{nadbrzusze_i_ograniczenia}}. Porównanie z {{data_badania}}: {{dynamika}}.
+  impressionTemplate: |
+    {{ocena_rozsiewu_i_pewnosc}}. {{najwazniejsze_lokalizacje_i_dynamika}}.
+  clinicalNotes:
+    - Podejrzane ogniska nie są swoiste dla przerzutów; rozpoznanie należy odnieść do choroby podstawowej i badań porównawczych.

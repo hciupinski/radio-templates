@@ -1,0 +1,29 @@
+id: ct-przepuklina-bochdaleka
+title: Przepuklina przeponowa Bochdaleka
+modality: CT
+examTypes:
+  - CT klatki piersiowej
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Przepona
+pathology:
+  - Przepuklina Bochdaleka
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - chest3-hernia
+sections:
+  assessmentChecklist:
+    - Strona i umiejscowienie tylno-bocznego ubytku przepony, wymiary wrót.
+    - Zawartość i ewentualne uwięźnięcie lub niedrożność.
+    - Stan płuca, opłucnej i wpływ na narządy sąsiednie.
+  reportTemplate: |
+    Tylno-boczny ubytek przepony {{strona}} o wymiarach {{wrota_mm}} mm, przez który przemieszcza się {{zawartosc}}. Zawartość worka {{cechy_niedroznosci_i_ukrwienia}}. Sąsiednie płuco i opłucna {{pluco_i_oplucna}}, pozostałe zmiany {{inne}}.
+  impressionTemplate: |
+    Przepuklina Bochdaleka {{strona}}, zawierająca {{zawartosc}}. {{powiklania_lub_brak}}.

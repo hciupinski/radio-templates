@@ -1,0 +1,30 @@
+id: ct3-ostre-zapalenie-martwicze
+title: Ostre martwicze zapalenie trzustki
+modality: CT
+examTypes:
+  - CT w protokole trzustkowym
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Trzustka
+pathology:
+  - Ostre martwicze zapalenie trzustki
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct-pancreatitis-assistant
+sections:
+  assessmentChecklist:
+    - Czas od objawów, fazy i zakres obszarów niewzmacniających się.
+    - Zbiorniki martwicze, ściana, gaz i powikłania naczyniowe.
+  reportTemplate: |
+    Badanie {{czas_od_objawow_i_fazy}}. Miąższ trzustki {{wzmocnienie_i_zasieg_martwicy}}, tkanki okołotrzustkowe {{martwica_okolotrzustkowa}}. Zbiorniki {{lokalizacja_wymiary_i_sciana}}, gaz {{gaz}}; naczynia {{naczynia}}.
+  impressionTemplate: |
+    Martwicze zapalenie trzustki {{zakres}}. {{zbiorniki_i_powiklania}}.
+  clinicalNotes:
+    - Wczesne CT może niedoszacować martwicy; skład zbiornika nie zawsze można pewnie ustalić w CT.

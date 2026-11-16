@@ -1,0 +1,32 @@
+id: ct-uip-podejrzenie-ipf
+title: Wzorzec UIP w podejrzeniu IPF
+modality: CT
+examTypes:
+  - HRCT klatki piersiowej
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Płuca
+pathology:
+  - Wzorzec UIP w podejrzeniu IPF
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - chest3-ipf
+  - chest-hrct-basic-2025
+sections:
+  assessmentChecklist:
+    - Rozmieszczenie włóknienia w osi pionowej i względem opłucnej.
+    - Siateczka, rozstrzenie z pociągania, plaster miodu oraz cechy alternatywnego rozpoznania.
+    - Kategoria wzorca HRCT i porównanie; uwzględnienie kontekstu klinicznego.
+  reportTemplate: |
+    Zmiany włókniste {{rozmieszczenie}}, {{siateczka_i_zaburzenie_architektury}}. Rozstrzenie z pociągania {{rozstrzenie}}, plaster miodu {{plaster_miodu}}. Mleczna szyba {{mleczna_szyba}}, cechy sugerujące rozpoznanie alternatywne {{cechy_alternatywne}}. W porównaniu z {{data_badania}} {{dynamika}}.
+  impressionTemplate: |
+    Wzorzec HRCT {{uip_prawdopodobny_uip_nieokreslony_lub_alternatywny}}. {{rozmieszczenie_i_dynamika}}.
+  clinicalNotes:
+    - UIP jest wzorcem obrazowym występującym także w innych chorobach; rozpoznanie IPF wymaga oceny klinicznej i wykluczenia innych przyczyn włóknienia.

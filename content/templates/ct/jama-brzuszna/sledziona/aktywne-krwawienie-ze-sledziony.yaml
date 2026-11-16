@@ -1,0 +1,35 @@
+id: ct3-aktywne-krwawienie-ze-sledziony
+title: Aktywne krwawienie ze śledziony
+modality: CT
+examTypes:
+  - Angio-CT jamy brzusznej i miednicy w krwawieniu
+bodySystems:
+  - Układ hepatobiliarny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Śledziona
+pathology:
+  - Aktywne krwawienie ze śledziony
+tags:
+  - Rezydent
+  - Pilne
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct-splenic-trauma-wses
+  - ra-ct-abdominal-trauma
+sections:
+  assessmentChecklist:
+    - Lokalizacja i dynamika ogniska wynaczynienia między fazami.
+    - Związek z uszkodzeniem miąższu i ewentualne naczynie źródłowe.
+    - Czy wynaczynienie pozostaje przy śledzionie, czy wychodzi poza jej torebkę.
+  reportTemplate: >
+    W obrębie {{lokalizacja}} śledziony widoczne ognisko pozanaczyniowego kontrastu {{faza_i_wymiary}}. W kolejnej fazie
+    {{dynamika}}. Źródło {{naczynie_lub_nieustalone}}. Uszkodzenie miąższu {{opis_uszkodzenia}}, krwiak i relacja wycieku do
+    torebki {{zasieg_i_wymiary}}. Krew w jamie otrzewnej {{rozmieszczenie}}.
+  impressionTemplate: |
+    {{pewnosc_czynnego_krwawienia}} ze śledziony, {{lokalizacja_i_zasieg}}. {{wspolistniejace_uszkodzenia_i_ograniczenia}}.
+  clinicalNotes:
+    - Ognisko kontrastu o ograniczonym kształcie może odpowiadać tętniakowi rzekomemu; dostępne fazy i ich jakość wpływają na pewność oceny aktywnego wynaczynienia.

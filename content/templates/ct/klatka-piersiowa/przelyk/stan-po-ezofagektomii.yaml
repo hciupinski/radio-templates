@@ -1,0 +1,31 @@
+id: ct-stan-po-ezofagektomii
+title: Stan po usunięciu przełyku
+modality: CT
+examTypes:
+  - CT klatki piersiowej z kontrastem
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Przełyk
+pathology:
+  - Stan po usunięciu przełyku
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - chest3-esophagectomy
+sections:
+  assessmentChecklist:
+    - Rodzaj rekonstrukcji i położenie zespolenia w dostępnym zakresie.
+    - Ciągłość przewodu, zakontrastowanie doustne jeśli podano, gaz i zbiorniki w otoczeniu.
+    - Drożność, wzmocnienie ściany, dreny i powikłania opłucnowo-płucne.
+  reportTemplate: |
+    Stan po usunięciu przełyku; rekonstrukcja {{rodzaj_i_przebieg}}, zespolenie {{polozenie}}. Podano kontrast doustny {{tak_nie_i_jakosc}}; {{wynaczynienie_lub_ocena_ograniczona}}. Ściana rekonstrukcji {{wzmocnienie_i_ciaglosc}}, otoczenie {{gaz_plyn_i_zbiorniki}}. Dreny {{dreny}}, płuca i opłucna {{pluca_i_oplucna}}.
+  impressionTemplate: |
+    Stan po ezofagektomii {{rekonstrukcja}}. {{ocena_zespolenia_zbiorniki_i_ograniczenia}}.
+  clinicalNotes:
+    - Brak wynaczynienia kontrastu nie wyklucza nieszczelności; gaz w otoczeniu zespolenia we wczesnym okresie pooperacyjnym jest nieswoisty.

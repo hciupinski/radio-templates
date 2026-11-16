@@ -1,0 +1,23 @@
+id: "ct-neuro-zmiany-naczyniopochodne-istoty-bialej"
+title: "Zmiany istoty białej podejrzane o naczyniopochodne"
+modality: "CT"
+examTypes: ["CT głowy bez kontrastu"]
+bodySystems: ["Układ nerwowy"]
+bodyParts: ["Głowa"]
+organs: ["Mózgowie"]
+pathology: ["Zmiany istoty białej podejrzane o naczyniopochodne"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["n3-small-vessel-disease", "ct-neurocritical"]
+sections:
+  assessmentChecklist:
+    - "Rozmieszczenie i rozległość hipodensji istoty białej."
+    - "Zanik, przebyte ogniska niedokrwienne i inne zmiany."
+  reportTemplate: |
+    W istocie białej {{lokalizacja}} widoczne {{rozleglosc_i_morfologia}} obszary obniżonej gęstości. Przebyte ogniska niedokrwienne {{ogniska}}, zanik mózgowia {{zanik}}. Inne zmiany {{inne}}.
+  impressionTemplate: |
+    {{rozleglosc}} zmiany istoty białej, mogące odpowiadać zmianom naczyniopochodnym w odpowiednim kontekście klinicznym.
+  clinicalNotes:
+    - "Skala Fazekas dotyczy MR; na podstawie CT nie należy automatycznie przypisywać stopnia 1, 2 lub 3. Hipodensje są nieswoiste."

@@ -1,0 +1,32 @@
+id: ct-podejrzenie-urazu-rdzenia
+title: Podejrzenie urazu rdzenia w CT klatki piersiowej
+modality: CT
+examTypes:
+  - CT klatki piersiowej
+bodySystems:
+  - Układ mięśniowo-szkieletowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Kręgosłup
+pathology:
+  - Podejrzenie urazu rdzenia piersiowego
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - chest3-cord
+  - nice-spinal-injury-ng41
+sections:
+  assessmentChecklist:
+    - Morfologia i ustawienie kręgów w objętym zakresie oraz kanał kręgowy.
+    - Odłamy, przemieszczenie i widoczny materiał w kanale.
+    - Objawy neurologiczne oraz ograniczenia badania CT.
+  reportTemplate: |
+    Kręgosłup piersiowy w dostępnym zakresie {{zlamania_i_ustawienie}}. Kanał kręgowy {{szerokosc_i_widoczne_odlamy_lub_krwiak}}. Tkanki przykręgowe {{tkanki}}. Ocena rdzenia i więzadeł w CT jest ograniczona; {{ograniczenia_i_korelacja_kliniczna}}.
+  impressionTemplate: |
+    {{obrazenia_kostne_i_kanal}}. CT nie wyklucza uszkodzenia rdzenia lub więzadeł; {{korelacja_kliniczna_i_dalsza_ocena}}.
+  clinicalNotes:
+    - Przy objawie neurologicznym mogącym wynikać z urazu rdzenia wytyczne NICE zalecają MR po CT niezależnie od tego, czy CT wykazuje przyczynę objawu; wynik wymaga pilnej korelacji klinicznej.

@@ -1,0 +1,31 @@
+id: ct-zylaki-przelyku
+title: Żylaki przełyku
+modality: CT
+examTypes:
+  - CT klatki piersiowej z kontrastem
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Przełyk
+pathology:
+  - Żylaki przełyku
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - chest3-mediastinum
+sections:
+  assessmentChecklist:
+    - Położenie, nasilenie i ciągłość poszerzonych naczyń okołoprzełykowych.
+    - Inne drogi krążenia obocznego i cechy nadciśnienia wrotnego w zakresie badania.
+    - Jakość kontrastowania oraz ograniczenia oceny.
+  reportTemplate: |
+    W dolnym odcinku przełyku i okołoprzełykowo {{naczynia_i_zasieg}}. Inne widoczne naczynia oboczne {{krazenie_oboczne}}, cechy nadciśnienia wrotnego w dostępnym zakresie {{nadcisnienie_wrotne}}. Jakość zakontrastowania {{jakosc_i_ograniczenia}}. Pozostałe zmiany {{inne}}.
+  impressionTemplate: |
+    Żylaki przełyku {{zasieg}}; {{inne_cechy_nadcisnienia_wrotnego}}.
+  clinicalNotes:
+    - CT nie określa wiarygodnie ryzyka krwawienia z żylaków.

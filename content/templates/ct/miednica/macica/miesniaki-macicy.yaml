@@ -1,0 +1,50 @@
+id: ct3-miesniaki-macicy
+title: Macica mięśniakowata
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Układ rozrodczy
+bodyParts:
+  - Miednica
+organs:
+  - Macica
+pathology:
+  - Mięśniaki macicy
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-rpa-leiomyoma
+imageRefs:
+  - id: commons-ct3-myoma
+    title: Zwapniałe mięśniaki macicy
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/5/59/Sehr_grosse_verkalkte_Uterusmyome_77W_-_CT_KM_pv_-_001.jpg
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Sehr_grosse_verkalkte_Uterusmyome_77W_-_CT_KM_pv_-_001.jpg
+    sourceId: wikimedia-commons
+    caption: TK miednicy w trzech płaszczyznach oraz topogram w lewym dolnym rogu.
+    alt: Powiększona macica z mnogimi grubo zwapniałymi guzami.
+    category: typical
+    findings:
+      - Guzowate powiększenie macicy.
+      - Grube, miejscami obwodowe zwapnienia w zmianach.
+    attribution: Hellerhoff, Wikimedia Commons, CC BY-SA 4.0
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-11-16"
+sections:
+  assessmentChecklist:
+    - Wielkość macicy, liczba zmian i położenie największych względem jamy i surowicówki.
+    - Połączenie z macicą w przypadku guzka uszypułowanego, zwapnienia lub zwyrodnienie.
+    - Efekt masy na pęcherz, jelita i moczowody.
+  reportTemplate: >
+    Macica {{wymiary_macicy_mm}} mm, o {{zarys}} zarysie. Widoczne {{liczba_i_lokalizacja}} zmiany związane z mięśniem macicy,
+    największa {{wymiar_mm}} mm. Zwapnienia i cechy zwyrodnienia {{zmiany_wewnetrzne}}. Stosunek do jamy macicy i struktur
+    sąsiednich {{relacje_i_efekt_masy}}.
+  impressionTemplate: |
+    Obraz przemawiający za macicą mięśniakowatą. {{istotne_powiklania_lub_ograniczenia}}.
+  clinicalNotes:
+    - >-
+      Sam obraz CT nie rozstrzyga charakteru nietypowej masy macicy. Przy niejasnym punkcie wyjścia lub niejednorodnym guzie
+      przydatne jest ukierunkowane USG lub MR.

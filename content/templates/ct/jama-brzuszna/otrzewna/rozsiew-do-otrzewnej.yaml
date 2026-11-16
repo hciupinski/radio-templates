@@ -1,0 +1,28 @@
+id: ct3-rozsiew-do-otrzewnej
+title: Podejrzenie rozsiewu do otrzewnej
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Otrzewna
+pathology:
+  - Przerzuty
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-peritoneum
+sections:
+  assessmentChecklist:
+    - Guzki otrzewnej i sieci, ich rozmieszczenie i wielkość.
+    - Płyn, zajęcie krezki oraz możliwa niedrożność.
+  reportTemplate: |
+    Guzki lub pogrubienie otrzewnej {{lokalizacja_i_wymiary}}; sieć większa {{siec}}. Krezka i powierzchnie jelit {{krezka}}. Płyn {{plyn}}, drożność jelit {{droznosc}}. Inne zmiany {{inne}}.
+  impressionTemplate: |
+    {{pewnosc}} rozsiewu do otrzewnej {{zasieg}}. {{powiklania}}.

@@ -1,0 +1,23 @@
+id: "ct-neuro-podejrzenie-czaszkogardlaka"
+title: "Zmiana okolicy siodła podejrzana o czaszkogardlaka"
+modality: "CT"
+examTypes: ["CT okolicy siodła z kontrastem"]
+bodySystems: ["Układ nerwowy"]
+bodyParts: ["Głowa"]
+organs: ["Przysadka i okolica siodła"]
+pathology: ["Podejrzenie czaszkogardlaka"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["n3-sellar-masses"]
+sections:
+  assessmentChecklist:
+    - "Dostępne fazy, położenie i wymiary zmiany oraz jej części lite i torbielowate."
+    - "Wzmocnienie, zwapnienia, siodło i stosunek do skrzyżowania wzrokowego oraz zatok jamistych."
+  reportTemplate: |
+    W okolicy {{lokalizacja}} {{zmiana_lub_brak_widocznej_zmiany}} o wymiarach {{wymiary_mm}} mm; charakter {{charakter}}, wzmocnienie {{wzmocnienie}}, zwapnienia {{zwapnienia}}. Siodło {{siodlo}}, skrzyżowanie wzrokowe i zatoki jamiste {{stosunek}}. Dostępne fazy {{fazy}}, ograniczenia {{ograniczenia}}.
+  impressionTemplate: |
+    {{zmiana_lub_brak_widocznej_zmiany}} w okolicy {{lokalizacja}}; {{wniosek_i_ograniczenia}}.
+  clinicalNotes:
+    - "Torbielowatość i zwapnienia mogą występować, ale nie są swoiste; CT nie potwierdza typu histologicznego."

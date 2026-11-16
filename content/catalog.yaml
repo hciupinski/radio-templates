@@ -241,6 +241,8 @@ conditionGroups:
       - Torbiel Bosniak IIF
       - Torbiel Bosniak III-IV
       - IPMN
+      - Surowiczy nowotwór torbielowaty trzustki
+      - Śluzowy nowotwór torbielowaty trzustki
     order: 20
   - id: zmiany-lite-guzowe
     label: Zmiany lite i guzowe
@@ -264,6 +266,7 @@ conditionGroups:
       - Wątroba
       - Drogi żółciowe
       - Moczowody
+      - Pęcherz moczowy
     pathology:
       - Kamica
       - Złóg zaklinowany w szyi
@@ -272,6 +275,7 @@ conditionGroups:
       - Poszerzenie dróg żółciowych
       - Kamica przewodowa
       - Kamica moczowodu z zastojem
+      - Kamica pęcherza moczowego
     order: 50
   - id: zmiany-przerzutowe
     label: Zmiany przerzutowe i podejrzane
@@ -294,13 +298,15 @@ conditionGroups:
     order: 70
   - id: urazy-kostne-ct
     label: Złamania w TK
-    description: Złamania twarzoczaszki, miednicy i kręgosłupa.
+    description: Złamania czaszki, twarzoczaszki, żeber, miednicy i kręgosłupa.
     organs:
       - Kręgosłup
       - Kość krzyżowa
       - Panewka stawu biodrowego
       - Pierścień miednicy
       - Kości twarzoczaszki
+      - Żebra
+      - Kości czaszki
     pathology:
       - Złamanie atlasu
       - Złamanie kompresyjne trzonu kręgu
@@ -314,30 +320,46 @@ conditionGroups:
       - Złamanie kości nosa
       - Złamanie typu Le Fort
       - Złamanie żuchwy
+      - Złamania żeber
+      - Złamanie kręgosłupa piersiowego
+      - Złamanie sklepienia czaszki
+      - Złamanie kości skroniowej
     modalities:
       - CT
     order: 80
   - id: urazy-narzadowe-i-naczyniowe-ct
     label: Urazy narządowe i naczyniowe
-    description: Pourazowe uszkodzenia śledziony, pęcherza i tętnic oraz krwiak miednicy.
+    description: Obrażenia narządów, naczyń i dróg oddechowych oraz ocena urazu wielonarządowego.
     organs:
       - Pęcherz moczowy
       - Tkanki miękkie miednicy
       - Śledziona
       - Tętnice kończyn dolnych
       - Tętnice kończyny górnej
+      - Płuca
+      - Kręgosłup
+      - Drogi oddechowe
+      - Klatka piersiowa
+      - Mózgowie
+      - Narządy w badaniu urazowym
     pathology:
       - Uraz pęcherza moczowego
       - Krwiak miednicy
       - Uraz śledziony
       - Uraz tętnicy kończyny dolnej
       - Uraz tętnicy kończyny górnej
+      - Stłuczenie płuca
+      - Podejrzenie urazu rdzenia piersiowego
+      - Uraz tchawicy lub oskrzela
+      - Uraz klatki piersiowej
+      - Penetrujący uraz głowy
+      - Uraz wielonarządowy
     modalities:
       - CT
     order: 90
   - id: niedokrwienie-i-zwezenia-ct
     label: Zakrzepica, niedokrwienie, zwężenia i zatory
-    description: Ocena drożności naczyń mózgu, płuc, jamy brzusznej i kończyn oraz obraz niedokrwienia.
+    description: Ocena zakrzepicy, drożności naczyń i zmian niedokrwiennych, w tym następstw niedokrwienia.
     organs:
       - Mózgowie
       - Tętnice wewnątrzczaszkowe
@@ -345,6 +367,9 @@ conditionGroups:
       - Tętnice płucne
       - Tętnice kończyn dolnych
       - Żyła wrotna
+      - Serce
+      - Żyły wątrobowe
+      - Zatoki żylne mózgowia
     pathology:
       - Ostre niedokrwienie mózgu
       - Niedrożność dużego naczynia mózgowego
@@ -355,12 +380,16 @@ conditionGroups:
       - Niedrożność tętnicy kończyny dolnej
       - Miażdżycowe zwężenie tętnic kończyn dolnych
       - Zakrzepica żyły wrotnej
+      - Podejrzenie blizny pozawałowej lewej komory
+      - Zakrzepica żył wątrobowych
+      - Zakrzepica zatok żylnych mózgowia
+      - Przebyty zawał mózgu
     modalities:
       - CT
     order: 100
   - id: choroby-aorty-ct
     label: Choroby aorty
-    description: Ostre zespoły aortalne, tętniaki i powikłania po EVAR.
+    description: Ostre zespoły aortalne, tętniaki, koarktacja i powikłania po EVAR.
     organs:
       - Aorta
     pathology:
@@ -370,6 +399,7 @@ conditionGroups:
       - Krwiak śródścienny aorty
       - Owrzodzenie drążące aorty
       - Przeciek okołoprotezowy po EVAR
+      - Koarktacja aorty
     modalities:
       - CT
     order: 110
@@ -388,7 +418,7 @@ conditionGroups:
     order: 120
   - id: zapalenia-ct
     label: Zmiany zapalne w TK
-    description: Zapalenia i ropnie szyi, zatok i oczodołów, płuc, jamy brzusznej i miednicy.
+    description: Zmiany zapalne i ropnie w mózgowiu, obrębie głowy i szyi, klatce piersiowej, jamie brzusznej i miednicy.
     organs:
       - Jelito grube
       - Trzustka
@@ -401,6 +431,9 @@ conditionGroups:
       - Pęcherzyk żółciowy
       - Jelito cienkie
       - Nerki
+      - Wątroba
+      - Drogi żółciowe
+      - Mózgowie
     pathology:
       - Zapalenie uchyłków jelita grubego
       - Ostre zapalenie trzustki
@@ -418,12 +451,21 @@ conditionGroups:
       - Ostre zapalenie pęcherzyka żółciowego
       - Choroba Leśniowskiego-Crohna jelita cienkiego
       - Odmiedniczkowe zapalenie
+      - Zmiany płucne w przebiegu COVID-19
+      - Ropień
+      - Pierwotne stwardniające zapalenie dróg żółciowych
+      - Przewlekłe zapalenie
+      - Ropień nerki
+      - Zapalenie jelit
+      - Ostre śródmiąższowe zapalenie trzustki
+      - Ostre martwicze zapalenie trzustki
+      - Podejrzenie ropnia mózgu
     modalities:
       - CT
     order: 130
   - id: zmiany-ogniskowe-ct
     label: Zmiany ogniskowe w TK
-    description: Podejrzenie zmian nowotworowych oraz ocena zasięgu zmian ogniskowych.
+    description: Zmiany ogniskowe, guzy, chłoniaki i ocena zasięgu nowotworów.
     organs:
       - Mózgowie
       - Kręgosłup
@@ -434,6 +476,20 @@ conditionGroups:
       - Nerki
       - Pęcherz moczowy
       - Przydatki
+      - Śródpiersie
+      - Przełyk
+      - Tarczyca
+      - Otrzewna
+      - Pęcherzyk żółciowy
+      - Drogi żółciowe
+      - Żołądek
+      - Węzły chłonne
+      - Nadnercza
+      - Jelito grube
+      - Macica
+      - Szyjka macicy
+      - Gruczoł krokowy
+      - Przysadka i okolica siodła
     pathology:
       - Przerzuty
       - Guzek lity płuca
@@ -445,6 +501,35 @@ conditionGroups:
       - Guz nerki
       - Zmiana pęcherza podejrzana o nowotwór
       - Zmiana przydatków podejrzana o nowotwór
+      - Rozsiew raka płuca w klatce piersiowej
+      - Podejrzenie przerzutów do płuc
+      - Chłoniak
+      - Guz przełyku podejrzany o nowotwór
+      - Wole zamostkowe
+      - Rozsiew raka piersi w klatce piersiowej
+      - Fibrolamellarny rak wątrobowokomórkowy
+      - Naczyniak
+      - FNH
+      - Rak pęcherzyka
+      - Cholangiocarcinoma wewnątrzwątrobowe
+      - Cholangiocarcinoma pozawątrobowe
+      - Rak żołądka
+      - Wznowa raka nerki
+      - Angiomyolipoma
+      - Gruczolak nadnercza
+      - Angiomyolipoma nadnercza
+      - Guz jelita grubego
+      - Guz trzonu macicy
+      - Mięśniaki macicy
+      - Guz szyjki macicy
+      - Guz gruczołu krokowego
+      - Podejrzenie oponiaka
+      - Podejrzenie glejaka wysokiego stopnia
+      - Podejrzenie astrocytoma
+      - Podejrzenie chłoniaka mózgu
+      - Podejrzenie mikrogruczolaka przysadki
+      - Podejrzenie makrogruczolaka przysadki
+      - Podejrzenie czaszkogardlaka
     modalities:
       - CT
     order: 140
@@ -454,18 +539,22 @@ conditionGroups:
     organs:
       - Jelito cienkie
       - Przewód pokarmowy
+      - Jelito grube
     pathology:
       - Niedrożność jelita cienkiego
       - Perforacja przewodu pokarmowego
+      - Niedrożność jelita grubego
     modalities:
       - CT
     order: 150
   - id: choroby-miazszu-i-oplucnej-ct
-    label: Choroby miąższu płuc, oskrzeli i opłucnej
-    description: Rozedma, rozstrzenie oskrzeli, włóknienie i obrzęk płuc oraz odma i płyn w jamie opłucnej.
+    label: Zmiany płuc, oskrzeli i przestrzeni pozapłucnych
+    description: Zmiany miąższu i oskrzeli, płyn opłucnowy oraz gaz w opłucnej, śródpiersiu i tkankach miękkich.
     organs:
       - Opłucna
       - Płuca
+      - Tkanki miękkie klatki piersiowej
+      - Śródpiersie
     pathology:
       - Odma opłucnowa
       - Płyn w jamie opłucnej
@@ -473,6 +562,84 @@ conditionGroups:
       - Rozedma płuc
       - Rozstrzenie oskrzeli
       - Obrzęk płuc
+      - Odma prężna
+      - Odma podskórna klatki piersiowej
+      - Odma śródpiersia
+      - Niedodma płuca
+      - Zespół płata środkowego
+      - Zagęszczenia typu mlecznej szyby
+      - Wzorzec UIP w podejrzeniu IPF
+      - Sekwestracja płuca
     modalities:
       - CT
     order: 160
+  - id: ct-przepukliny-i-uchylkowatosc
+    label: Przepukliny i uchyłkowatość
+    description: Przepukliny przepony i ściany brzucha oraz uchyłki jelita bez cech zapalenia.
+    organs:
+      - Przepona
+      - Jelito grube
+      - Ściana jamy brzusznej
+    pathology:
+      - Przepuklina rozworu przełykowego
+      - Przepuklina Bochdaleka
+      - Uchyłkowatość jelita grubego
+      - Przepuklina ściany brzucha
+    modalities:
+      - CT
+    order: 170
+  - id: ct-krwawienia-brzucha
+    label: Krwawienia jamy brzusznej i miednicy
+    description: Krew w jamie otrzewnej, czynne krwawienie narządowe, naczyniowe i do przewodu pokarmowego.
+    organs:
+      - Otrzewna
+      - Tętnice biodrowe
+      - Wątroba
+      - Śledziona
+      - Przewód pokarmowy
+    pathology:
+      - Krew w jamie otrzewnej
+      - Aktywne krwawienie z tętnicy biodrowej
+      - Aktywne krwawienie z wątroby
+      - Aktywne krwawienie ze śledziony
+      - Aktywne krwawienie do przewodu pokarmowego
+    modalities:
+      - CT
+    order: 180
+  - id: ct-choroby-rozlane-watroby
+    label: Choroby rozlane wątroby i wodobrzusze
+    description: Ocena marskości, stłuszczenia, płynu w otrzewnej i żylaków przełyku.
+    organs:
+      - Przełyk
+      - Otrzewna
+      - Wątroba
+    pathology:
+      - Żylaki przełyku
+      - Płyn w jamie otrzewnej
+      - Marskość
+      - Stłuszczenie
+    modalities:
+      - CT
+    order: 190
+  - id: ct-zmiany-oun
+    label: Zmiany istoty białej i ocena krążenia mózgowego
+    description: Opis zmian przewlekłych, ograniczenia TK w demielinizacji i opis formalnego badania pomocniczego.
+    organs:
+      - Mózgowie
+    pathology:
+      - Zmiany istoty białej podejrzane o naczyniopochodne
+      - Podejrzenie zmian demielinizacyjnych
+      - Ocena krążenia mózgowego w badaniu pomocniczym
+    modalities:
+      - CT
+    order: 200
+  - id: ct-po-ezofagektomii
+    label: Stan po resekcji przełyku
+    description: Anatomia pooperacyjna i ocena powikłań po ezofagektomii.
+    organs:
+      - Przełyk
+    pathology:
+      - Stan po usunięciu przełyku
+    modalities:
+      - CT
+    order: 210

@@ -1,0 +1,30 @@
+id: ct3-krwawienie-do-jamy-otrzewnej
+title: Krew w jamie otrzewnej
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Otrzewna
+pathology:
+  - Krew w jamie otrzewnej
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-ascites
+sections:
+  assessmentChecklist:
+    - Ilość i rozmieszczenie krwi oraz prawdopodobne źródło.
+    - Aktywne wynaczynienie w dostępnych fazach i ograniczenia.
+  reportTemplate: |
+    W jamie otrzewnej płyn o cechach krwi {{ilosc_i_rozmieszczenie}}, gęstość {{gestosc_hu}} HU. Podejrzane źródło {{zrodlo_i_pewnosc}}. W dostępnych fazach {{wynaczynienie_i_ograniczenia}}; zmiany towarzyszące {{inne}}.
+  impressionTemplate: |
+    Krew w jamie otrzewnej {{ilosc_i_rozmieszczenie}}. {{zrodlo_i_krwawienie}}.
+  clinicalNotes:
+    - Brak widocznego wynaczynienia w dostępnych fazach nie wyklucza krwawienia.

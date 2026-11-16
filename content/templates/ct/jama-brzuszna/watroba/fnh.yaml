@@ -1,0 +1,30 @@
+id: ct3-fnh
+title: Ogniskowy rozrost guzkowy wątroby
+modality: CT
+examTypes:
+  - Wielofazowa CT wątroby
+bodySystems:
+  - Układ hepatobiliarny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Wątroba
+pathology:
+  - FNH
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-liver-characterisation
+sections:
+  assessmentChecklist:
+    - Wymiary, segment i wzmocnienie w kolejnych fazach.
+    - Blizna, naczynia i cechy nietypowe oraz ograniczenia.
+  reportTemplate: |
+    W segmencie {{segment}} zmiana {{wymiar_mm}} mm, w fazie tętniczej {{wzmocnienie_tetnicze}}, w dalszych fazach {{wzmocnienie_pozniejsze}}. Blizna centralna {{blizna}}; inne cechy {{inne}}. Ograniczenia {{ograniczenia}}.
+  impressionTemplate: |
+    Zmiana {{segment_i_wymiar}}, {{pewnosc}} FNH.
+  clinicalNotes:
+    - Obraz nietypowy w CT może nie pozwalać na pewne odróżnienie FNH od innych zmian.

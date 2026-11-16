@@ -1,0 +1,23 @@
+id: "ct-neuro-przebyty-zawal-mozgu"
+title: "Przebyty zawał mózgu"
+modality: "CT"
+examTypes: ["CT głowy bez kontrastu"]
+bodySystems: ["Układ nerwowy"]
+bodyParts: ["Głowa"]
+organs: ["Mózgowie"]
+pathology: ["Przebyty zawał mózgu"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["ct-neurocritical"]
+sections:
+  assessmentChecklist:
+    - "Umiejscowienie i rozległość obszaru ubytku miąższu."
+    - "Encefalomalacja, glejoza, poszerzenie sąsiednich przestrzeni i porównanie."
+  reportTemplate: |
+    W {{lokalizacja_i_strona}} obszar encefalomalacji o wymiarach {{wymiary_mm}} mm, z {{glejoza}} oraz {{poszerzenie_przestrzeni}}. Porównanie {{porownanie}}. Inne zmiany {{inne_zmiany}}.
+  impressionTemplate: |
+    Obszar encefalomalacji w {{lokalizacja_i_strona}}: {{pewnosc_i_mozliwa_etiologia}}.
+  clinicalNotes:
+    - "Naczyniowe pochodzenie ubytku należy ocenić w kontekście topografii i wywiadu; encefalomalacja może mieć także inne przyczyny. Czas powstania ogniska może być niepewny bez wcześniejszego badania; CT ma ograniczoną czułość dla wczesnego współistniejącego niedokrwienia."

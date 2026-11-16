@@ -1,0 +1,35 @@
+id: ct3-guz-trzonu-macicy
+title: Zmiana guzowata trzonu macicy
+modality: CT
+examTypes:
+  - CT klatki piersiowej, jamy brzusznej i miednicy
+bodySystems:
+  - Układ rozrodczy
+bodyParts:
+  - Miednica
+organs:
+  - Macica
+pathology:
+  - Guz trzonu macicy
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-esur-uterine-cancer
+sections:
+  assessmentChecklist:
+    - Położenie względem endometrium i mięśnia macicy, maksymalne wymiary i wzmocnienie.
+    - Zasięg makroskopowy w stosunku do szyjki, surowicówki, przymacicz i narządów sąsiednich.
+    - Węzły i podejrzane zmiany odległe w zakresie badania.
+  reportTemplate: >
+    W trzonie macicy {{lokalizacja_wzgledem_endometrium_i_miesnia}} widoczna zmiana o wymiarach {{wymiary_mm}} mm i charakterze
+    {{morfologia_i_wzmocnienie}}. Szyjka i tkanki okołomaciczne {{zasieg_miejscowy_i_ograniczenia}}. Węzły {{wezly}}, otrzewna
+    {{otrzewna}}, zmiany odległe w zakresie badania {{ogniska_odlegle}}.
+  impressionTemplate: |
+    Zmiana guzowata trzonu macicy. {{podejrzenie_i_uchwytny_zasieg}}.
+  clinicalNotes:
+    - >-
+      CT ma ograniczoną dokładność w ocenie głębokości nacieku mięśnia macicy i etiologii zmiany. Do oceny miejscowej preferuje
+      się obrazowanie zgodne z rozpoznaniem klinicznym, zwykle MR lub specjalistyczne USG.

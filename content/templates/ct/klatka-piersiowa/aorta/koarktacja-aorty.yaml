@@ -1,0 +1,31 @@
+id: ct-koarktacja-aorty
+title: Koarktacja aorty
+modality: CT
+examTypes:
+  - Angio-CT aorty
+bodySystems:
+  - Układ naczyniowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Aorta
+pathology:
+  - Koarktacja aorty
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - chest3-coarctation
+sections:
+  assessmentChecklist:
+    - Położenie, długość i najmniejsza średnica zwężenia w stosunku do odgałęzień łuku.
+    - Pomiary aorty przed i za zwężeniem, tętniak i zmiany po naprawie.
+    - Drogi krążenia obocznego oraz inne nieprawidłowości w zakresie badania.
+  reportTemplate: |
+    Aorta w okolicy {{lokalizacja}} zwężona na długości {{dlugosc_mm}} mm, najmniejsza średnica {{srednica_mm}} mm. Aorta przed zwężeniem {{srednica_przed_mm}} mm, za zwężeniem {{srednica_za_mm}} mm; odgałęzienia łuku {{odgalezienia}}. Krążenie oboczne {{krazenie_oboczne}}. Zmiany po leczeniu, poszerzenie lub tętniak {{inne_zmiany}}.
+  impressionTemplate: |
+    Koarktacja aorty {{lokalizacja}}, najmniejsza średnica {{srednica_mm}} mm, {{krazenie_oboczne_i_zmiany_towarzyszace}}.
+  clinicalNotes:
+    - CTA określa anatomię zwężenia, lecz nie mierzy bezpośrednio gradientu ciśnień.

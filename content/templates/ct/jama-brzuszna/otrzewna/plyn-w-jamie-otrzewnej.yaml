@@ -1,0 +1,30 @@
+id: ct3-plyn-w-jamie-otrzewnej
+title: Płyn w jamie otrzewnej
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Otrzewna
+pathology:
+  - Płyn w jamie otrzewnej
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-ascites
+sections:
+  assessmentChecklist:
+    - Ilość, rozmieszczenie, gęstość i ewentualna przegrodowość.
+    - Otrzewna, wątroba i inne możliwe przyczyny w granicach badania.
+  reportTemplate: |
+    Płyn w jamie otrzewnej {{ilosc_i_rozmieszczenie}}, o gęstości {{gestosc_hu}} HU, {{charakter_plynu_i_pewnosc}}; przegrody lub pogrubienie otrzewnej {{otrzewna}}. Wątroba i inne narządy {{inne_zmiany}}.
+  impressionTemplate: |
+    Płyn w jamie otrzewnej {{ilosc_i_rozmieszczenie}}, {{charakter_i_pewnosc}}. {{ewentualne_podloze}}.
+  clinicalNotes:
+    - Sama gęstość płynu nie ustala jego składu ani przyczyny.

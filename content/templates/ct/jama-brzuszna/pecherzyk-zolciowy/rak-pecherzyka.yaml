@@ -1,0 +1,28 @@
+id: ct3-rak-pecherzyka
+title: Podejrzenie raka pęcherzyka żółciowego
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Układ hepatobiliarny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Pęcherzyk żółciowy
+pathology:
+  - Rak pęcherzyka
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-gallbladder-cancer
+sections:
+  assessmentChecklist:
+    - Guz lub pogrubienie ściany, wymiary i rozprzestrzenianie.
+    - Wątroba, drogi żółciowe, naczynia, węzły i przerzuty w objętym zakresie.
+  reportTemplate: |
+    Pęcherzyk żółciowy {{zmiana_i_wymiary}}, relacja do wątroby {{watroba}} i dróg żółciowych {{drogi}}. Naczynia {{naczynia}}, węzły {{wezly}}, inne ogniska {{przerzuty}}.
+  impressionTemplate: |
+    Zmiana pęcherzyka {{pewnosc}} nowotworu; {{zasieg}}.

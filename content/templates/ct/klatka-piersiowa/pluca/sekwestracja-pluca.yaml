@@ -1,0 +1,31 @@
+id: ct-sekwestracja-pluca
+title: Sekwestracja płuca
+modality: CT
+examTypes:
+  - Angio-CT tętnic płucnych i krążenia systemowego
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Płuca
+pathology:
+  - Sekwestracja płuca
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - chest3-sequestration
+sections:
+  assessmentChecklist:
+    - Lokalizacja i charakter nieprawidłowego miąższu, torbiele lub konsolidacja.
+    - "Tętnica systemowa zasilająca: liczba, odejście, średnica i przebieg."
+    - Odpływ żylny i połączenie z drogami oddechowymi w zakresie oceny.
+  reportTemplate: |
+    W {{lokalizacja}} widoczny obszar zmienionego miąższu {{wymiary_i_charakter}}. Tętnica systemowa {{liczba_odejscie_i_przebieg}}, średnicy {{srednica_mm}} mm. Odpływ żylny {{odplyw_zylny}}, połączenie z drogami oddechowymi {{ocena_i_ograniczenia}}. Pozostałe płuca i opłucna {{inne}}.
+  impressionTemplate: |
+    Obraz {{pewnosc}} sekwestracji płuca {{lokalizacja}}, zaopatrzenie z {{tetnica}}, odpływ {{odplyw}}.
+  clinicalNotes:
+    - Niewykazanie tętnicy systemowej w badaniu bez odpowiedniej fazy nie wyklucza sekwestracji.

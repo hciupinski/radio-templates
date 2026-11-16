@@ -1,0 +1,38 @@
+id: "ct-neuro-podejrzenie-oponiaka"
+title: "Zmiana oponowa podejrzana o oponiaka"
+modality: "CT"
+examTypes: ["CT głowy z kontrastem"]
+bodySystems: ["Układ nerwowy"]
+bodyParts: ["Głowa"]
+organs: ["Mózgowie"]
+pathology: ["Podejrzenie oponiaka"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["n3-cns-enhancement"]
+imageRefs:
+  - id: commons-ct3-meningioma
+    title: Oponiak w TK po kontraście
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/f/fb/Contrast_enhanced_meningioma.jpg
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Contrast_enhanced_meningioma.jpg
+    sourceId: wikimedia-commons
+    caption: Osiowa warstwa TK głowy po dożylnym podaniu kontrastu.
+    alt: Silnie wzmacniająca się zmiana przylegająca do lewej kości sklepienia czaszki.
+    category: typical
+    findings:
+      - Dobrze odgraniczona masa przylegająca szeroką podstawą do sklepienia czaszki.
+      - Intensywne wzmocnienie zmiany i modelowanie przylegającego mózgowia.
+    attribution: Glitzy queen00, Wikimedia Commons, Domena publiczna
+    licenseMode: public-domain
+    lastCheckedAt: "2026-11-16"
+sections:
+  assessmentChecklist:
+    - "Liczba, wymiary i położenie; pozaosiowe położenie, kontakt z oponą, zwapnienia i odczyn sąsiedniej kości."
+    - "Wzmocnienie, obrzęk, efekt masy, układ komorowy oraz ograniczenia."
+  reportTemplate: |
+    W {{lokalizacja_i_strona}} {{liczba}} zmian o wymiarach do {{wymiary_mm}} mm, {{charakter_i_granice}}. Dostępne fazy {{fazy}}, gęstość i wzmocnienie {{gestosc_i_wzmocnienie}}. Pozaosiowe położenie, kontakt z oponą, zwapnienia i odczyn sąsiedniej kości: {{cechy_swoiste}}. Obrzęk {{obrzek}}, efekt masy {{efekt_masy}}, komory i zbiorniki {{komory_i_zbiorniki}}. Ograniczenia {{ograniczenia}}.
+  impressionTemplate: |
+    Zmiana w {{lokalizacja_i_strona}}, {{wymiary_mm}} mm; {{charakter_i_rozpoznanie_roznicowe}}. {{efekt_masy}}.
+  clinicalNotes:
+    - "CT nie ustala rozpoznania histopatologicznego ani stopnia nowotworu; MR z kontrastem lepiej charakteryzuje zmianę."

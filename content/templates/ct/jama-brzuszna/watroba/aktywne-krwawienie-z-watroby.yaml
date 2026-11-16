@@ -1,0 +1,38 @@
+id: ct3-aktywne-krwawienie-z-watroby
+title: Aktywne krwawienie z wątroby
+modality: CT
+examTypes:
+  - Angio-CT jamy brzusznej i miednicy w krwawieniu
+bodySystems:
+  - Układ hepatobiliarny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Wątroba
+pathology:
+  - Aktywne krwawienie z wątroby
+tags:
+  - Rezydent
+  - Pilne
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-wses-liver-trauma
+  - ra-ct-abdominal-trauma
+sections:
+  assessmentChecklist:
+    - Segment, widoczne źródło i związek z uszkodzeniem miąższu lub zmianą ogniskową.
+    - Kształt i rozmiar ogniska wynaczynienia w kolejnych fazach.
+    - Krwiak śródmiąższowy lub podtorebkowy, przerwanie torebki i krew w jamie otrzewnej.
+  reportTemplate: >
+    W segmencie {{segment}} widoczne pozanaczyniowe ognisko kontrastu {{wymiary_i_faza}} o dynamice
+    {{dynamika_w_kolejnych_fazach}}. Ognisko związane z {{uraz_lub_zmiana_ogniskowa_lub_nieustalone}}, widoczne źródło
+    {{naczynie_lub_nieustalone}}. Krwiak {{lokalizacja_i_wymiary}}, torebka {{ocena_torebki}}, krew w jamie otrzewnej
+    {{ilosc_i_rozmieszczenie}}.
+  impressionTemplate: |
+    {{pewnosc_czynnego_krwawienia}} z okolicy segmentu {{segment}} wątroby. {{zrodlo_zasieg_i_ograniczenia}}.
+  clinicalNotes:
+    - >-
+      W opisie uwzględnij odrębnie tętniak rzekomy, który zachowuje ograniczony kształt, oraz kontrast rozlewający się poza
+      naczynie. Przy ograniczonym protokole odróżnienie może być niepewne; należy podać ograniczenia.

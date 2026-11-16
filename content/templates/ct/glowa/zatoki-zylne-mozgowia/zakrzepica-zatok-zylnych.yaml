@@ -1,0 +1,24 @@
+id: "ct-neuro-zakrzepica-zatok-zylnych"
+title: "Zakrzepica zatok żylnych mózgowia"
+modality: "CT"
+examTypes: ["Wenografia CT głowy"]
+bodySystems: ["Układ naczyniowy"]
+bodyParts: ["Głowa"]
+organs: ["Zatoki żylne mózgowia"]
+pathology: ["Zakrzepica zatok żylnych mózgowia"]
+tags: ["Rezydent", "Pilne"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["n3-ct-venous-thrombosis"]
+sections:
+  assessmentChecklist:
+    - "Zajęte zatoki i żyły, długość i stopień ubytku wypełnienia."
+    - "Ocena innych zatok, wariantów i jakości fazy żylnej."
+    - "Zmiany miąższowe, obrzęk, krwawienie oraz efekt masy."
+  reportTemplate: |
+    W {{zatoka_i_strona}} widoczny {{ubytek_wypelnienia_i_zasieg}}. Pozostałe zatoki i żyły {{droznosc_pozostalych}}. Miąższ mózgowia {{obrzek_zawal_lub_krwawienie}}, efekt masy {{efekt_masy}}. Jakość wypełnienia i ograniczenia {{ograniczenia}}.
+  impressionTemplate: |
+    Zakrzepica {{lokalizacja_i_zasieg}}. {{zmiany_miazszowe}}.
+  clinicalNotes:
+    - "Niedorozwój zatoki, ziarnistości pajęczynówki lub nieoptymalna faza mogą naśladować zakrzepicę."

@@ -1,0 +1,36 @@
+id: ct3-podejrzenie-wznowy-raka-nerki
+title: Podejrzenie wznowy raka nerki
+modality: CT
+examTypes:
+  - CT klatki piersiowej, jamy brzusznej i miednicy
+bodySystems:
+  - Układ moczowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Nerki
+pathology:
+  - Wznowa raka nerki
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-eau-rcc-follow-up
+  - uro-ct-renal-solid
+sections:
+  assessmentChecklist:
+    - Rodzaj przebytego leczenia, badanie porównawcze, fazy i wygląd loży lub brzegu resekcji.
+    - Nowe lub rosnące wzmacniające się ognisko, jego relacja do naczyń i sąsiednich narządów.
+    - Węzły, druga nerka i możliwe przerzuty w zakresie badania.
+  reportTemplate: >
+    Stan po {{rodzaj_i_strona_zabiegu}}. W porównaniu z badaniem {{data_porownania}}, w obrębie {{lokalizacja}} widoczna zmiana
+    {{dynamika}} o wymiarach {{wymiary_mm}} mm, o wzmocnieniu {{wzmocnienie_i_faza}}. Relacja do naczyń i sąsiednich struktur
+    {{relacje}}. Druga nerka {{druga_nerka}}, węzły {{wezly}}, zmiany odległe w zakresie badania {{zmiany_odlegle}}.
+  impressionTemplate: |
+    Zmiana w {{lokalizacja}} podejrzana o wznowę miejscową raka nerki. {{inne_istotne_zmiany}}.
+  clinicalNotes:
+    - >-
+      Stabilna blizna pooperacyjna, ziarnina i zmiany po ablacji mogą utrudniać ocenę. Porównaj z wcześniejszymi badaniami i
+      odnotuj ograniczenia wynikające z fazy.

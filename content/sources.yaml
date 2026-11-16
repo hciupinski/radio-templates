@@ -1200,3 +1200,457 @@
   type: guideline
   accessedAt: "2026-11-15"
   licenseNote: Źródło do autorskiej syntezy zakresu oceny i ograniczeń CT; prawa do ilustracji wymagają oddzielnej weryfikacji.
+- id: chest3-trauma
+  title: Thoracic trauma WSES-AAST guidelines
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12522690/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i cech obrazowych; ilustracje wymagają osobnej weryfikacji.
+- id: chest3-lung-pleura
+  title: Lung and Pleura
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7245516/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i cech obrazowych; ilustracje wymagają osobnej weryfikacji.
+- id: chest3-middle-lobe
+  title: Right Middle Lobe Syndrome
+  url: https://www.ncbi.nlm.nih.gov/books/NBK547657/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i cech obrazowych; ilustracje wymagają osobnej weryfikacji.
+- id: chest3-lung-metastases
+  title: New insights into imaging of pulmonary metastases from extra-thoracic neoplasms
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12185656/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i cech obrazowych; ilustracje wymagają osobnej weryfikacji.
+- id: chest3-coarctation
+  title: 2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9860464/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i cech obrazowych; ilustracje wymagają osobnej weryfikacji.
+- id: chest3-lymphoma
+  title: "ESR Essentials: imaging of lymphoma"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12165998/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i cech obrazowych; ilustracje wymagają osobnej weryfikacji.
+- id: chest3-esophagus
+  title: National guidelines for diagnosis and treatment of esophageal carcinoma 2022 in China
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9468017/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i cech obrazowych; ilustracje wymagają osobnej weryfikacji.
+- id: chest3-esophagectomy
+  title: >-
+    International Society for Diseases of the Esophagus consensus on the diagnosis and treatment of anastomotic leak
+    after esophagectomy
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13078160/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i cech obrazowych; ilustracje wymagają osobnej weryfikacji.
+- id: chest3-ipf
+  title: "Idiopathic Pulmonary Fibrosis and Progressive Pulmonary Fibrosis in Adults: ATS/ERS/JRS/ALAT guideline"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i cech obrazowych; ilustracje wymagają osobnej weryfikacji.
+- id: chest3-cord
+  title: Clinical Recommendations for the Acute Care of Patients With Traumatic Spinal Cord Injury
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12693672/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i cech obrazowych; ilustracje wymagają osobnej weryfikacji.
+- id: chest3-airway-trauma
+  title: "Traumatic injuries to the trachea and bronchi: a narrative review"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9385878/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i cech obrazowych; ilustracje wymagają osobnej weryfikacji.
+- id: chest3-hernia
+  title: "Abdominal hernias: Radiological features"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3158902/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i cech obrazowych; ilustracje wymagają osobnej weryfikacji.
+- id: chest3-sequestration
+  title: "Pulmonary Sequestration: Early Diagnosis and Management"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4529943/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i cech obrazowych; ilustracje wymagają osobnej weryfikacji.
+- id: chest3-mediastinum
+  title: "Imaging the posterior mediastinum: a multimodality approach"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4498424/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i cech obrazowych; ilustracje wymagają osobnej weryfikacji.
+- id: chest3-myocardial
+  title: "Ischemic Heart Disease: Noninvasive Imaging Techniques and Findings"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8262179/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i cech obrazowych; ilustracje wymagają osobnej weryfikacji.
+- id: chest3-breast-metastases
+  title: Radiologic patterns of distant organ metastasis in advanced breast cancer
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10864737/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy zakresu oceny i cech obrazowych; ilustracje wymagają osobnej weryfikacji.
+- id: ct3-obstruction
+  title: CT of large bowel obstruction
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5404618/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Autorska synteza cech obrazowych i ograniczeń badania; bez kopiowania tekstu lub obrazów.
+- id: ct3-peritoneum
+  title: "The Radiology Assistant: Peritoneal Carcinomatosis"
+  url: https://radiologyassistant.nl/abdomen/peritoneum/peritoneal-carcinomatosis
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Autorska synteza cech obrazowych i ograniczeń badania; bez kopiowania tekstu lub obrazów.
+- id: ct3-liver-characterisation
+  title: "The Radiology Assistant: Characterisation of liver masses"
+  url: https://radiologyassistant.nl/abdomen/liver/characterisation-of-liver-masses
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Autorska synteza cech obrazowych i ograniczeń badania; bez kopiowania tekstu lub obrazów.
+- id: ct3-fibrolamellar
+  title: CT and MRI of primary and metastatic fibrolamellar carcinoma
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4112400/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Autorska synteza cech obrazowych i ograniczeń badania; bez kopiowania tekstu lub obrazów.
+- id: ct3-abscess
+  title: Typical imaging finding of hepatic infections
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7897188/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Autorska synteza cech obrazowych i ograniczeń badania; bez kopiowania tekstu lub obrazów.
+- id: ct3-budd
+  title: Budd-Chiari syndrome imaging review
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6319835/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Autorska synteza cech obrazowych i ograniczeń badania; bez kopiowania tekstu lub obrazów.
+- id: ct3-psc
+  title: "Primary sclerosing cholangitis: review for radiologists"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9852001/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Autorska synteza cech obrazowych i ograniczeń badania; bez kopiowania tekstu lub obrazów.
+- id: ct3-cholangioca
+  title: "Intrahepatic Cholangiocarcinoma: expert consensus statement"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4527852/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Autorska synteza cech obrazowych i ograniczeń badania; bez kopiowania tekstu lub obrazów.
+- id: ct3-cysts
+  title: "The Radiology Assistant: Pancreatic cystic Lesions"
+  url: https://radiologyassistant.nl/abdomen/pancreas/pancreas-cystic-lesions
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Autorska synteza cech obrazowych i ograniczeń badania; bez kopiowania tekstu lub obrazów.
+- id: ct3-chronicpancreatitis
+  title: United European Gastroenterology guidelines for chronic pancreatitis
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5349368/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Autorska synteza cech obrazowych i ograniczeń badania; bez kopiowania tekstu lub obrazów.
+- id: ct3-lymphoma
+  title: Complications of lymphoma in the abdomen and pelvis
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10509750/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Autorska synteza cech obrazowych i ograniczeń badania; bez kopiowania tekstu lub obrazów.
+- id: ct3-hernia
+  title: "DECOMP Report: abdominal wall imaging"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10578831/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Autorska synteza cech obrazowych i ograniczeń badania; bez kopiowania tekstu lub obrazów.
+- id: ct3-ascites
+  title: Delayed Enhancement of Ascites After IV Contrast Material Administration at CT
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2962936/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło wykorzystane do autorskiej syntezy cech opisu i ograniczeń badania.
+- id: ct3-cirrhosis
+  title: MDCT Imaging Findings of Liver Cirrhosis
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3748773/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło wykorzystane do autorskiej syntezy cech opisu i ograniczeń badania.
+- id: ct3-gallbladder-cancer
+  title: The Many Hidden Faces of Gallbladder Carcinoma on CT and MRI
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10931291/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło wykorzystane do autorskiej syntezy cech opisu i ograniczeń badania.
+- id: ct3-extrahepatic-cca
+  title: British Society of Gastroenterology guidelines for cholangiocarcinoma
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10715509/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło wykorzystane do autorskiej syntezy cech opisu i ograniczeń badania.
+- id: ct3-gastric
+  title: "Comprehensive CT Evaluation of Gastric Cancer: 2026 Korean Society of Abdominal Radiology consensus"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13537874/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło wykorzystane do autorskiej syntezy cech opisu i ograniczeń badania.
+- id: ct3-enteritis
+  title: "Bowel wall thickening at CT: simplifying the diagnosis"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3999365/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło wykorzystane do autorskiej syntezy cech opisu i ograniczeń badania.
+- id: ct3-diverticula
+  title: Imaging of Colonic Diverticular Disease
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2780066/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło wykorzystane do autorskiej syntezy cech opisu i ograniczeń badania.
+- id: ct3-colon
+  title: "Colon cancer: the 2023 Korean clinical practice guidelines"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11082542/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło wykorzystane do autorskiej syntezy cech opisu i ograniczeń badania.
+- id: ct3-eau-rcc-follow-up
+  title: EAU – Follow-up in renal cell carcinoma
+  url: https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/followup-in-rcc
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Kontrole obrazowe po leczeniu raka nerki. Odsyłacz do wykorzystanego materiału.
+- id: ct3-eau-bladder-stones
+  title: EAU – Bladder stones
+  url: https://uroweb.org/guidelines/urolithiasis/chapter/bladder-stones
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Wartość diagnostyczna CT w kamicy pęcherza. Odsyłacz do wykorzystanego materiału.
+- id: ct3-rpa-bladder-calculus
+  title: Radiopaedia – Bladder calculus
+  url: https://radiopaedia.org/articles/bladder-calculus-1?lang=gb
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Cechy złogów pęcherza i różnicowanie lokalizacji. Odsyłacz do wykorzystanego materiału.
+- id: ct3-rpa-renal-aml
+  title: Radiopaedia – Renal angiomyolipoma
+  url: https://radiopaedia.org/articles/renal-angiomyolipoma
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Makroskopowy tłuszcz, nietypowe warianty i powikłania naczyniowe. Odsyłacz do wykorzystanego materiału.
+- id: ct3-renal-emergencies
+  title: Imaging of renal emergencies
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10996964/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Cechy ropnia i ocena szerzenia zakażenia. Odsyłacz do wykorzystanego materiału.
+- id: ct3-rpa-renal-abscess-case
+  title: Radiopaedia – Acute pyelonephritis with renal and perinephric abscesses
+  url: https://radiopaedia.org/cases/acute-pyelonephritis-with-renal-and-perinephric-abscesses
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Przykład zajęcia miąższu i przestrzeni okołonerkowej. Odsyłacz do wykorzystanego materiału.
+- id: ct3-ra-adrenals
+  title: The Radiology Assistant – Characterization of Adrenal lesions
+  url: https://radiologyassistant.nl/abdomen/adrenals/lesion-characterization-1
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Charakterystyka zmian nadnerczowych oraz ograniczenia różnicowania. Odsyłacz do wykorzystanego materiału.
+- id: ct3-ese-adrenal-incidentaloma
+  title: ESE/ENSAT – Management of adrenal incidentalomas
+  url: https://academic.oup.com/ejendo/article/189/1/G1/7198474
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: >-
+    Ocena jednorodności i gęstości w badaniu bez kontrastu oraz kontekst onkologiczny. Odsyłacz do wykorzystanego
+    materiału.
+- id: ct3-adrenal-aml-cases
+  title: Angiomyolipoma of the Adrenal Gland – two cases and literature review
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5608147/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Rzadki angiomyolipoma nadnercza i nieswoisty obraz tłuszczu w TK. Odsyłacz do wykorzystanego materiału.
+- id: ct3-rpa-myelolipoma
+  title: Radiopaedia – Adrenal myelolipoma
+  url: https://radiopaedia.org/articles/adrenal-myelolipoma?lang=us
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Punkt wyjścia i obraz tłuszczu makroskopowego w myelolipoma. Odsyłacz do wykorzystanego materiału.
+- id: ct3-wses-pelvic-trauma
+  title: WSES – Pelvic trauma classification and guidelines
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5241998/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Znaczenie źródła i zasięgu czynnego krwawienia w miednicy. Odsyłacz do wykorzystanego materiału.
+- id: ct3-wses-liver-trauma
+  title: WSES – Liver trauma guidelines
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7106618/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Znaczenie faz i opisu wycieku w urazach wątroby. Odsyłacz do wykorzystanego materiału.
+- id: ct3-acg-sar-gi-bleeding
+  title: ACG/SAR – The Role of Imaging for GI Bleeding
+  url: https://pubs.rsna.org/doi/10.1148/radiol.232298
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Konsensus dotyczący techniki i obrazowania krwawienia z przewodu pokarmowego. Odsyłacz do wykorzystanego materiału.
+- id: ct3-cta-gi-bleeding
+  title: CT angiography for acute gastrointestinal bleeding
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5594987/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Ewolucja wynaczynienia między fazami i pułapki interpretacji. Odsyłacz do wykorzystanego materiału.
+- id: ct3-esur-uterine-cancer
+  title: "ESR/ESUR – ESR Essentials: Uterine cancers"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13661753/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Zakres obrazowania i rola CT względem MRI. Odsyłacz do wykorzystanego materiału.
+- id: ct3-esgo-cervical-cancer
+  title: ESGO/ESTRO/ESP – Cervical cancer guidelines, 2023 update
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10176411/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Ocena lokalna i obrazowanie zasięgu choroby. Odsyłacz do wykorzystanego materiału.
+- id: ct3-rpa-leiomyoma
+  title: Radiopaedia – Uterine leiomyoma
+  url: https://radiopaedia.org/articles/uterine-leiomyoma?lang=gb
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Morfologia i lokalizacja mięśniaków oraz pułapki rozpoznania. Odsyłacz do wykorzystanego materiału.
+- id: ct3-eau-prostate-staging
+  title: EAU – Prostate cancer diagnostic evaluation and staging
+  url: https://uroweb.org/guidelines/prostate-cancer/chapter/diagnostic-evaluation
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: >-
+    Rola CT w ocenie choroby zaawansowanej i ograniczenia miejscowej oceny prostaty. Odsyłacz do wykorzystanego
+    materiału.
+- id: n3-ct-venous-thrombosis
+  title: "The Radiology Assistant: Cerebral Venous Sinus Thrombosis"
+  url: https://radiologyassistant.nl/neuroradiology/sinus-thrombosis/cerebral-venous-thrombosis
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: >-
+    Źródło wykorzystane do autorskiej syntezy cech i ograniczeń badania; prawa do ilustracji wymagają osobnej
+    weryfikacji.
+- id: n3-cns-enhancement
+  title: "The Radiology Assistant: Enhancement Patterns in CNS Disease"
+  url: https://radiologyassistant.nl/neuroradiology/enhancement-patterns/enhancement-patterns-in-cns-diseases
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: >-
+    Źródło wykorzystane do autorskiej syntezy cech i ograniczeń badania; prawa do ilustracji wymagają osobnej
+    weryfikacji.
+- id: n3-temporal-bone
+  title: "The Radiology Assistant: Temporal Bone Pathology"
+  url: https://radiologyassistant.nl/head-neck/temporal-bone/pathology
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: >-
+    Źródło wykorzystane do autorskiej syntezy cech i ograniczeń badania; prawa do ilustracji wymagają osobnej
+    weryfikacji.
+- id: n3-pituitary-imaging
+  title: "Imaging of pituitary tumors: pituitary neuroendocrine tumor"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10366012/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: >-
+    Źródło wykorzystane do autorskiej syntezy cech i ograniczeń badania; prawa do ilustracji wymagają osobnej
+    weryfikacji.
+- id: n3-sellar-masses
+  title: "Sellar masses: diagnosis and treatment"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11182331/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: >-
+    Źródło wykorzystane do autorskiej syntezy cech i ograniczeń badania; prawa do ilustracji wymagają osobnej
+    weryfikacji.
+- id: n3-ms-mri
+  title: Canadian Expert Panel Recommendations for MRI Use in MS Diagnosis and Monitoring
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4416356/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: >-
+    Źródło wykorzystane do autorskiej syntezy cech i ograniczeń badania; prawa do ilustracji wymagają osobnej
+    weryfikacji.
+- id: n3-cns-lymphoma
+  title: "Primary central nervous system lymphomas: EHA–ESMO Clinical Practice Guideline"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11148853/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: >-
+    Źródło wykorzystane do autorskiej syntezy cech i ograniczeń badania; prawa do ilustracji wymagają osobnej
+    weryfikacji.
+- id: n3-mz-brain-death
+  title: >-
+    Obwieszczenie Ministra Zdrowia w sprawie sposobu i kryteriów stwierdzenia trwałego nieodwracalnego ustania czynności
+    mózgu
+  url: https://eli.gov.pl/api/acts/MP/2020/73/text/O/M20200073.pdf
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: >-
+    Źródło wykorzystane do autorskiej syntezy cech i ograniczeń badania; prawa do ilustracji wymagają osobnej
+    weryfikacji.
+- id: n3-medical-law-2026
+  title: Ustawa o zawodach lekarza i lekarza dentysty, tekst jednolity, art. 43a
+  url: https://eli.gov.pl/api/acts/DU/2026/37/text/U/D20260037Lj.pdf
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: >-
+    Źródło wykorzystane do autorskiej syntezy cech i ograniczeń badania; prawa do ilustracji wymagają osobnej
+    weryfikacji.
+- id: n3-polytrauma-eser
+  title: European Society of Emergency Radiology guideline on radiological polytrauma imaging
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7726597/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: >-
+    Źródło wykorzystane do autorskiej syntezy cech i ograniczeń badania; prawa do ilustracji wymagają osobnej
+    weryfikacji.
+- id: n3-polytrauma-report
+  title: Structured reporting of computed tomography in the polytrauma patient assessment
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9938818/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: >-
+    Źródło wykorzystane do autorskiej syntezy cech i ograniczeń badania; prawa do ilustracji wymagają osobnej
+    weryfikacji.
+- id: n3-temporal-fracture
+  title: Temporal Bone Fractures on High-Resolution CT
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12984264/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: >-
+    Źródło wykorzystane do autorskiej syntezy cech i ograniczeń badania; prawa do ilustracji wymagają osobnej
+    weryfikacji.
+- id: n3-intracranial-calcification
+  title: "Intracranial calcifications on CT: an updated review"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6738489/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: >-
+    Źródło wykorzystane do autorskiej syntezy cech i ograniczeń badania; prawa do ilustracji wymagają osobnej
+    weryfikacji.
+- id: n3-penetrating-brain-injury
+  title: "Neuroimaging in adult penetrating brain injury: a guide for radiographers"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4462984/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Przegląd wykorzystany do opisu obrażeń głowy i ograniczeń badania; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: n3-small-vessel-disease
+  title: Small-vessel disease in the brain
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10945899/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Przegląd użyty do nieswoistych hipodensji istoty białej w CT; prawa do ilustracji wymagają oddzielnej weryfikacji.
+- id: nice-spinal-injury-ng41
+  title: "NICE: Spinal injury: assessment and initial management"
+  url: https://www.nice.org.uk/guidance/ng41/chapter/Recommendations
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Zalecenie NICE 1.5.7 wykorzystane do oceny MR po CT przy objawach neurologicznych mogących wskazywać na uraz rdzenia.

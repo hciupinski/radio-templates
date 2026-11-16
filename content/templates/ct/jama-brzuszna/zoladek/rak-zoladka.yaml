@@ -1,0 +1,30 @@
+id: ct3-rak-zoladka
+title: Podejrzenie raka żołądka
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Żołądek
+pathology:
+  - Rak żołądka
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-gastric
+sections:
+  assessmentChecklist:
+    - Rozdęcie i zakres badania, położenie oraz długość zmiany.
+    - Naciekanie otoczenia, węzły, wątroba i otrzewna.
+  reportTemplate: |
+    Żołądek {{wypelnienie}}. W {{lokalizacja}} pogrubienie lub guz {{wymiary_i_wzmocnienie}}; otoczenie {{tkanki_otaczajace}}. Węzły {{wezly}}, wątroba {{watroba}}, otrzewna {{otrzewna}}. Ograniczenia {{ograniczenia}}.
+  impressionTemplate: |
+    Zmiana żołądka {{lokalizacja}}, {{pewnosc}} nowotworu. {{zasieg}}.
+  clinicalNotes:
+    - CT nie zastępuje endoskopii i badania histopatologicznego.

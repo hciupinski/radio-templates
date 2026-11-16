@@ -1,0 +1,44 @@
+id: ct-przepuklina-rozworu-przelykowego
+title: Przepuklina rozworu przełykowego
+modality: CT
+examTypes:
+  - CT klatki piersiowej
+bodySystems:
+  - Przewód pokarmowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Przepona
+pathology:
+  - Przepuklina rozworu przełykowego
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - chest3-hernia
+imageRefs:
+  - id: commons-ct3-hiatus
+    title: Przepuklina rozworu przełykowego
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/0/07/Hiatus_hernia_on_CT_scan.jpg
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hiatus_hernia_on_CT_scan.jpg
+    sourceId: wikimedia-commons
+    caption: Rekonstrukcja czołowa TK z oznaczeniem przepukliny.
+    alt: Część żołądka przemieszcza się nad przeponę za sercem.
+    category: typical
+    findings:
+      - Część żołądka położona powyżej przepony.
+      - Ciągłość przemieszczonego żołądka z częścią położoną poniżej przepony.
+    attribution: Mikael Häggström, Wikimedia Commons, CC0 1.0
+    licenseMode: public-domain
+    lastCheckedAt: "2026-11-16"
+sections:
+  assessmentChecklist:
+    - Rodzaj i zawartość przepukliny, położenie połączenia przełykowo-żołądkowego.
+    - Wymiary wrót, rotacja i rozdęcie żołądka, ucisk sąsiednich struktur.
+    - Cechy niedrożności lub niedokrwienia w objętym zakresie.
+  reportTemplate: |
+    Przez rozwór przełykowy przemieszcza się {{zawartosc}}, połączenie przełykowo-żołądkowe {{polozenie}}, wrota {{wymiary_mm}} mm. Żołądek {{rotacja_i_rozdecie}}, cechy niedrożności lub zaburzenia ukrwienia {{ocena_i_ograniczenia}}. Pozostałe zmiany {{inne}}.
+  impressionTemplate: |
+    Przepuklina rozworu przełykowego {{typ_i_zawartosc}}. {{powiklania_lub_brak}}.

@@ -1,0 +1,46 @@
+id: ct-odma-srodpiersia
+title: Odma śródpiersia
+modality: CT
+examTypes:
+  - CT klatki piersiowej
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Śródpiersie
+pathology:
+  - Odma śródpiersia
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - chest3-trauma
+imageRefs:
+  - id: commons-ct3-mediastinum
+    title: Pourazowa odma śródpiersia
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/3/35/Pneumomediastinum.png
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Pneumomediastinum.png
+    sourceId: wikimedia-commons
+    caption: Warstwa osiowa w oknie płucnym. Strzałką oznaczono gaz w śródpiersiu.
+    alt: Gaz w śródpiersiu i rozległa odma podskórna.
+    category: typical
+    findings:
+      - Gaz poza drogami oddechowymi w śródpiersiu, w sąsiedztwie tchawicy i aorty.
+      - Rozległe pasma gazu w tkankach miękkich ściany klatki.
+    attribution: James Heilman, MD, Wikimedia Commons, CC BY-SA 3.0
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-11-16"
+sections:
+  assessmentChecklist:
+    - Rozmieszczenie i rozległość gazu w śródpiersiu oraz szyi.
+    - Drogi oddechowe, przełyk i płyn śródpiersia; kontekst urazowy lub po zabiegu.
+    - Odma opłucnowa, podskórna i zmiany w płucach.
+  reportTemplate: |
+    W śródpiersiu gaz {{lokalizacja_i_zasieg}}, w tkankach szyi i ściany klatki piersiowej {{odma_podskorna}}. Tchawica, oskrzela i przełyk {{ocena_i_ograniczenia}}. Płyn śródpiersia {{plyn}}, opłucna {{odma_i_plyn}}, płuca {{pluca}}. {{inne_zmiany}}.
+  impressionTemplate: |
+    Odma śródpiersia {{zasieg}}. {{mozliwe_zrodlo_i_zmiany_towarzyszace}}.
+  clinicalNotes:
+    - Gaz w śródpiersiu sam nie ustala miejsca przecieku ani nie wyklucza uszkodzenia przełyku lub dróg oddechowych.

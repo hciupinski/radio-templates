@@ -1,0 +1,30 @@
+id: ct3-chloniak-zoladka
+title: Podejrzenie chłoniaka żołądka
+modality: CT
+examTypes:
+  - CT jamy brzusznej i miednicy
+bodySystems:
+  - Układ limfatyczny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Żołądek
+pathology:
+  - Chłoniak
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-lymphoma
+sections:
+  assessmentChecklist:
+    - Rozdęcie żołądka i zasięg pogrubienia ściany.
+    - Węzły, śledziona, inne odcinki jelita i powikłania.
+  reportTemplate: |
+    Ściana żołądka {{lokalizacja_i_dlugosc}} pogrubiała do {{grubosc_mm}} mm, wzmocnienie {{wzmocnienie}}. Otoczenie {{otoczenie}}; węzły {{wezly}}, śledziona {{sledziona}}, inne odcinki jelita {{jelita}}. Ograniczenia {{ograniczenia}}.
+  impressionTemplate: |
+    Zmiana żołądka {{lokalizacja}}, {{pewnosc}} chłoniaka. {{wezly_i_powiklania}}.
+  clinicalNotes:
+    - Obraz CT jest nieswoisty i nie określa podtypu chłoniaka.

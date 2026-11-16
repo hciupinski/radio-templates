@@ -1,0 +1,30 @@
+id: ct3-fibrolamellarny-rak-watroby
+title: Podejrzenie fibrolamellarnego raka wątrobowokomórkowego
+modality: CT
+examTypes:
+  - Wielofazowa CT wątroby
+bodySystems:
+  - Układ hepatobiliarny
+bodyParts:
+  - Jama brzuszna
+organs:
+  - Wątroba
+pathology:
+  - Fibrolamellarny rak wątrobowokomórkowy
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct3-fibrolamellar
+sections:
+  assessmentChecklist:
+    - Fazy, lokalizacja, wielkość i wzorzec wzmocnienia.
+    - Blizna i zwapnienia, naczynia, węzły i zmiany odległe.
+  reportTemplate: |
+    Fazy {{fazy_i_ograniczenia}}. W segmencie {{segment}} guz {{wymiary_mm}} mm, {{wzmocnienie}}; blizna centralna i zwapnienia {{blizna_i_zwapnienia}}. Relacja do naczyń i dróg żółciowych {{naczynia_i_drogi}}. Węzły i inne ogniska {{wezly_i_ogniska}}.
+  impressionTemplate: |
+    Guz wątroby {{lokalizacja_i_wymiary}}, {{pewnosc}} fibrolamellarnego raka wątrobowokomórkowego. {{zasieg}}.
+  clinicalNotes:
+    - Cechy obrazowe nie potwierdzają podtypu histologicznego; diagnostyczny LI-RADS nie dotyczy osób poza populacją wysokiego ryzyka.

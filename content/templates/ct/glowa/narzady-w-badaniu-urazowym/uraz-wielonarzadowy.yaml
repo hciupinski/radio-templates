@@ -1,0 +1,24 @@
+id: "ct-neuro-uraz-wielonarzadowy"
+title: "Uraz wielonarządowy"
+modality: "CT"
+examTypes: ["CT wielonarządowe urazowe"]
+bodySystems: ["Układ mięśniowo-szkieletowy"]
+bodyParts: ["Głowa", "Klatka piersiowa", "Jama brzuszna", "Miednica"]
+organs: ["Narządy w badaniu urazowym"]
+pathology: ["Uraz wielonarządowy"]
+tags: ["Rezydent", "Pilne"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["n3-polytrauma-eser", "n3-polytrauma-report"]
+sections:
+  assessmentChecklist:
+    - "Zakres badania i fazy; najpierw obrażenia zagrażające życiu."
+    - "Głowa i kręgosłup, klatka piersiowa, jama brzuszna i miednica; kości oraz tkanki miękkie."
+    - "Krwawienie, jego lokalizacja i możliwe wynaczynienie w dostępnych fazach; ograniczenia."
+  reportTemplate: |
+    Zakres i fazy {{zakres_i_fazy}}. Głowa i kręgosłup {{glowa_i_kregoslup}}. Klatka piersiowa {{klatka}}. Jama brzuszna i miednica {{jama_brzuszna_i_miednica}}. Kości i tkanki miękkie {{kosci_i_tkanki}}. Krwawienie lub wynaczynienie {{krwawienie}}, ograniczenia {{ograniczenia}}.
+  impressionTemplate: |
+    {{najpilniejsze_obrazenia}}. {{pozostale_istotne_obrazenia}}.
+  clinicalNotes:
+    - "Protokół zależy od stanu pacjenta i wskazań; nie wszystkie narządy i fazy są objęte każdym badaniem. Jedna faza może nie pozwalać na określenie dynamiki lub pochodzenia wynaczynienia."

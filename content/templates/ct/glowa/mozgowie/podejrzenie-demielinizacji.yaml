@@ -1,0 +1,23 @@
+id: "ct-neuro-podejrzenie-demielinizacji"
+title: "Podejrzenie zmian demielinizacyjnych"
+modality: "CT"
+examTypes: ["CT głowy bez kontrastu"]
+bodySystems: ["Układ nerwowy"]
+bodyParts: ["Głowa"]
+organs: ["Mózgowie"]
+pathology: ["Podejrzenie zmian demielinizacyjnych"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["n3-ms-mri"]
+sections:
+  assessmentChecklist:
+    - "Widoczne ogniska obniżonej gęstości i ich położenie bez przypisywania etiologii wyłącznie na podstawie CT."
+    - "Efekt masy lub inne przyczyny zmian i ograniczenia badania."
+  reportTemplate: |
+    Widoczne {{ogniska_lub_brak_widocznych_ognisk}} w {{lokalizacja}}, {{charakter}}. Efekt masy {{efekt_masy}}, inne zmiany {{inne}}. Ocena zmian demielinizacyjnych w CT {{ograniczenia}}.
+  impressionTemplate: |
+    {{opis_ognisk_lub_brak_widocznych_zmian}}; CT ma ograniczoną wartość w ocenie zmian demielinizacyjnych.
+  clinicalNotes:
+    - "Prawidłowy CT nie wyklucza SM; MR oraz ocena neurologiczna są istotne w diagnostyce. CT nie potwierdza ani nie wyklucza SM."
