@@ -610,6 +610,7 @@ a {
 }
 
 .sidebar-static {
+  flex: none;
   padding: 0 12px 12px;
 }
 
@@ -707,6 +708,7 @@ a {
 
 .condition-label,
 .tree-organ-button span,
+.tree-exam-group-heading span,
 .tree-exam-heading span,
 .tree-system-heading span {
   font-size: 14px;
@@ -750,6 +752,7 @@ a {
   gap: 8px;
 }
 
+.tree-exam-group-heading,
 .tree-exam-heading,
 .tree-system-heading {
   display: flex;
@@ -758,11 +761,26 @@ a {
   gap: 12px;
 }
 
+.tree-exam-group-heading span,
 .tree-exam-heading span,
 .tree-system-heading span {
   display: inline-flex;
   align-items: center;
   gap: 8px;
+}
+
+.tree-exam-group-heading {
+  min-height: 36px;
+}
+
+.tree-exam-group-list {
+  margin: 4px 0 8px 12px;
+  padding-left: 8px;
+  border-left: 1px solid var(--border);
+}
+
+.tree-trigger svg {
+  flex-shrink: 0;
 }
 
 .tree-organ-list.enhanced {
@@ -1853,6 +1871,10 @@ a {
     overflow: visible;
   }
 
+  .app-shell.mobile-pane-catalog {
+    height: 100dvh;
+  }
+
   .topbar {
     padding: 12px;
   }
@@ -1983,7 +2005,15 @@ a {
     padding: 12px;
   }
 
+  .catalog-workspace.pane-catalog {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto minmax(0, 1fr);
+    gap: 0;
+  }
+
   .catalog-pane-topline {
+    grid-column: 1;
     margin-bottom: 12px;
   }
 
@@ -1997,6 +2027,11 @@ a {
   .catalog-workspace.pane-groups .catalog-pane-groups,
   .catalog-workspace.pane-detail .catalog-pane-detail {
     display: block;
+  }
+
+  .catalog-workspace.pane-catalog .catalog-sidebar {
+    height: auto;
+    max-height: 100%;
   }
 
   .catalog-pane-detail {

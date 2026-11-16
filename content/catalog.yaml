@@ -1,3 +1,66 @@
+examTypeGroups:
+  - id: ct-glowa
+    label: Głowa
+    modality: CT
+    examTypeIds:
+      - ct-glowy-bez-kontrastu
+      - ct-glowy-z-kontrastem
+      - ct-przysadki-z-kontrastem
+      - ct-kosci-skroniowych-bez-kontrastu
+      - angio-ct-glowy
+      - wenografia-ct-glowy
+      - angio-ct-krazenia-mozgowego-badanie-pomocnicze
+  - id: ct-twarzoczaszka
+    label: Twarzoczaszka
+    modality: CT
+    examTypeIds: [ct-twarzoczaszki-bez-kontrastu, ct-zatok-bez-kontrastu, ct-oczodolow-z-kontrastem]
+  - id: ct-szyja
+    label: Szyja
+    modality: CT
+    examTypeIds: [ct-szyi-z-kontrastem]
+  - id: ct-klatka-piersiowa
+    label: Klatka piersiowa
+    modality: CT
+    examTypeIds:
+      - ct-klatki-piersiowej
+      - ct-klatki-piersiowej-z-kontrastem
+      - hrct-klatki-piersiowej
+      - angio-ct-tetnic-plucnych
+      - angio-ct-tetnic-plucnych-i-krazenia-systemowego
+  - id: ct-jama-brzuszna
+    label: Jama brzuszna
+    modality: CT
+    examTypeIds:
+      - ct-jamy-brzusznej-i-miednicy
+      - ct-jamy-brzusznej-bez-kontrastu
+      - ct-watroby-wielofazowa
+      - ct-trzustki-protokol-trzustkowy
+      - ct-nadnerczy-protokol-dedykowany
+      - enterografia-ct
+      - angio-ct-naczyn-krezkowych
+      - angio-ct-jamy-brzusznej-i-miednicy-krwawienie
+  - id: ct-miednica-i-drogi-moczowe
+    label: Miednica i drogi moczowe
+    modality: CT
+    examTypeIds:
+      - ct-miednicy
+      - ct-jamy-brzusznej-i-miednicy-bez-kontrastu
+      - ct-nerek-protokol-guzowy
+      - urografia-ct
+      - cystografia-ct
+  - id: ct-kregoslup
+    label: Kręgosłup
+    modality: CT
+    examTypeIds: [ct-kregoslupa]
+  - id: ct-aorta-i-tetnice-konczyn
+    label: Aorta i tętnice kończyn
+    modality: CT
+    examTypeIds: [angio-ct-aorty, angio-ct-tetnic-konczyn-dolnych, angio-ct-tetnic-konczyny-gornej]
+  - id: ct-wielonarzadowe
+    label: Badania wielonarządowe
+    modality: CT
+    examTypeIds: [ct-klatki-piersiowej-jamy-brzusznej-i-miednicy, ct-wielonarzadowe-urazowe]
+
 anatomySections:
   Wątroba:
     - id: obraz-prawidlowy

@@ -78,6 +78,12 @@ export const conditionGroupSchema = z.object({
 });
 
 export const catalogSchema = z.object({
+  examTypeGroups: z.array(z.object({
+    id: z.string().min(1),
+    label: z.string().min(1),
+    modality: modalitySchema,
+    examTypeIds: z.array(z.string().min(1)).min(1)
+  })).optional(),
   anatomySections: z.record(z.string(), z.array(anatomySectionSchema).min(1)),
   conditionGroups: z.array(conditionGroupSchema).min(1)
 });

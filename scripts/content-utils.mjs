@@ -83,6 +83,12 @@ const conditionGroupSchema = z.object({
 });
 
 const catalogSchema = z.object({
+  examTypeGroups: z.array(z.object({
+    id: z.string().min(1),
+    label: z.string().min(1),
+    modality: modalitySchema,
+    examTypeIds: z.array(z.string().min(1)).min(1)
+  })).optional(),
   anatomySections: z.record(z.string(), z.array(anatomySectionSchema).min(1)),
   conditionGroups: z.array(conditionGroupSchema).min(1)
 });
@@ -201,6 +207,18 @@ export function loadValidatedContent(rootDir = process.cwd()) {
     tags: new Set(taxonomy.tags.map((entry) => entry.label)),
     sources: new Set(sources.map((source) => source.id))
   };
+
+  const examTypeGroups = catalog.examTypeGroups ?? [];
+  const examTypeIds = new Set(taxonomy.examTypes.map((entry) => entry.id));
+  assertUnique(examTypeGroups, "id", "grupy badań");
+  assertUnique(
+    examTypeGroups.flatMap((group) => group.examTypeIds.map((id) => ({ id: `${group.modality}: ${id}` }))),
+    "id",
+    "badania w grupach"
+  );
+  for (const group of examTypeGroups) {
+    assertKnownValues(group.examTypeIds, examTypeIds, "catalog.examTypeGroups", group.id);
+  }
 
   for (const [organ, sections] of Object.entries(catalog.anatomySections)) {
     if (!allowed.organs.has(organ)) {
