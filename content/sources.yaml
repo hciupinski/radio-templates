@@ -1654,3 +1654,47 @@
   type: guideline
   accessedAt: "2026-11-16"
   licenseNote: Zalecenie NICE 1.5.7 wykorzystane do oceny MR po CT przy objawach neurologicznych mogących wskazywać na uraz rdzenia.
+- id: audit-a-acute-pe-guideline-2026
+  title: >-
+    2026 AHA/ACC/ACCP/ACEP/CHEST/SCAI/SHM/SIR/SVM/SVN Guideline for the Evaluation and Management of Acute
+    Pulmonary Embolism in Adults
+  url: https://www.jacc.org/doi/10.1016/j.jacc.2025.11.005
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: >-
+    Wytyczna dotycząca liczbowego RV/LV i opisu cech przewlekłej choroby zakrzepowo-zatorowej; tekst szablonu
+    opracowano autorsko.
+- id: auditc-ct-gastric-volvulus
+  title: "CT of Gastric Volvulus: Interobserver Reliability, Radiologists’ Accuracy, and Imaging Findings"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6454878/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Badanie cech skrętu żołądka i ograniczonej czułości objawów niedokrwienia w CT.
+- id: auditc-bochdalek-obstruction
+  title: "Surgical repair of large adult Bochdalek hernia: case series and literature review"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12823922/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Seria przypadków obrazująca niedrożność i powikłania przepukliny Bochdaleka u dorosłych.
+- id: auditc-varices-ct-meta
+  title: >-
+    Computed tomography for the diagnosis of gastroesophageal varices and risk assessment in patients with
+    cirrhosis: a systematic review and meta-analysis
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11589522/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Przegląd systematyczny wykorzystany do ograniczeń CT względem endoskopii i oceny ryzyka krwawienia.
+- id: auditc-nice-advanced-breast
+  title: "NICE: Advanced breast cancer: diagnosis and treatment — diagnosis and assessment"
+  url: https://www.nice.org.uk/guidance/cg81/chapter/Diagnosis-and-assessment
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Wytyczne wykorzystane do rozróżnienia zakresu CT klatki od obrazowania odległego zaawansowania.
+- id: audit-esophagectomy-isde-leak
+  title: ISDE – Consensus on the diagnosis and treatment of anastomotic leak after esophagectomy
+  url: https://academic.oup.com/dote/article/39/1/doag006/8464945
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: >-
+    Konsensus wykorzystany do oceny kontrastu doustnego, pośrednich cech nieszczelności i ograniczeń badania
+    po ezofagektomii.

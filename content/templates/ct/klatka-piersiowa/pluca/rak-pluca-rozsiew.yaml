@@ -14,18 +14,18 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
+version: "0.1.1"
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest-tnm-radiology-assistant
 sections:
   assessmentChecklist:
     - Liczba, lokalizacja i wymiary zmian płucnych; porównanie.
-    - Węzły klatki piersiowej, opłucna, osierdzie i kości.
+    - Węzły klatki piersiowej, guzki lub pogrubienie opłucnej, płyn, osierdzie i kości.
     - Pozostałe zmiany w zakresie badania oraz ograniczenia oceny.
   reportTemplate: |
-    Guz pierwotny {{lokalizacja_i_wymiary}}, jego zasięg miejscowy {{zasieg}}. W płucach {{liczba_i_lokalizacja_guzkow}}, największy {{wymiary_mm}} mm, {{charakter}}. Węzły wnękowe, śródpiersiowe i nadobojczykowe w zakresie badania {{wezly_lokalizacja_i_wymiary}}. Opłucna i osierdzie {{oplucna_i_osierdzie}}, kości {{kosci}}, widoczne nadbrzusze {{nadbrzusze_i_ograniczenia}}. Porównanie z {{data_badania}}: {{dynamika}}.
+    Guz pierwotny {{lokalizacja_i_wymiary}}, jego zasięg miejscowy {{zasieg}}. W płucach {{liczba_i_lokalizacja_guzkow}}, największy {{wymiary_mm}} mm, {{charakter}}. Węzły wnękowe, śródpiersiowe i nadobojczykowe w zakresie badania {{wezly_lokalizacja_i_wymiary}}. Opłucna, ewentualne guzki opłucnowe i płyn oraz osierdzie {{oplucna_i_osierdzie}}, kości {{kosci}}, widoczne nadbrzusze {{nadbrzusze_i_ograniczenia}}. Porównanie z {{data_badania}}: {{dynamika}}.
   impressionTemplate: |
     {{ocena_rozsiewu_i_pewnosc}}. {{najwazniejsze_lokalizacje_i_dynamika}}.
   clinicalNotes:
-    - Podejrzane ogniska nie są swoiste dla przerzutów; rozpoznanie należy odnieść do choroby podstawowej i badań porównawczych.
+    - Podejrzane ogniska nie są swoiste dla przerzutów; rozpoznanie należy odnieść do choroby podstawowej i badań porównawczych. CT ocenia wyłącznie struktury objęte badaniem i nie potwierdza histologii ani mikroskopowego zajęcia węzłów.

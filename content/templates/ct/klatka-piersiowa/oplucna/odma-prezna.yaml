@@ -1,5 +1,5 @@
 id: ct-odma-prezna
-title: Odma opłucnowa z cechami efektu masy
+title: Podejrzenie odmy prężnej w TK
 modality: CT
 examTypes:
   - CT klatki piersiowej
@@ -13,8 +13,9 @@ pathology:
   - Odma prężna
 tags:
   - Rezydent
+  - Pilne
 status: draft
-version: "0.1.0"
+version: "0.1.1"
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-trauma
@@ -29,4 +30,4 @@ sections:
   impressionTemplate: |
     Odma {{strona}} z {{efekt_masy}}; obraz budzi podejrzenie odmy prężnej w odpowiednim kontekście klinicznym.
   clinicalNotes:
-    - Odma prężna jest rozpoznaniem klinicznym. Podejrzenie należy niezwłocznie przekazać zespołowi leczącemu; interwencji nie należy opóźniać dla obrazowania.
+    - Odma prężna jest rozpoznaniem klinicznym. Podejrzenie należy niezwłocznie przekazać zespołowi leczącemu. Przy niestabilności hemodynamicznej lub ciężkich zaburzeniach oddychania obrazowanie nie powinno opóźniać pilnego postępowania.

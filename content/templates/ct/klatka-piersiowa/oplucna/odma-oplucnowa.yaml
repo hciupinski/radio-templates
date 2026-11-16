@@ -14,8 +14,8 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: 0.1.0
-updatedAt: '2026-11-15'
+version: "0.1.1"
+updatedAt: "2026-11-16"
 sourceRefs:
   - ct-pleural-review
   - pneumothorax-nice-major-trauma
@@ -23,12 +23,13 @@ sections:
   assessmentChecklist:
     - Strona i rozległość powietrza w jamie opłucnej.
     - Stopień zapadnięcia płuca i cechy efektu masy.
-    - Płyn, dreny, urazy i zmiany w płucu w zakresie badania.
+    - Płyn, położenie drenu, urazy i zmiany w płucu; odróżnienie powietrza opłucnowego od dużych pęcherzy rozedmowych.
   reportTemplate: >
     W {{strona}} jamie opłucnej powietrze {{rozleglosc_i_lokalizacja}}; płuco {{stopien_zapadniecia}}. Śródpiersie
     {{polozenie}}, przemieszczenie śródpiersia i ucisk sąsiednich struktur {{efekt_masy}}. Płyn w jamie opłucnej {{plyn}}.
-    {{dren_i_zmiany_towarzyszace}}.
+    {{polozenie_drenu_i_zmiany_towarzyszace}}, pęcherze rozedmowe {{pecherze_rozedmowe}}.
   impressionTemplate: |
     {{strona}} odma opłucnowa {{rozleglosc}}. {{efekt_masy}}.
   clinicalNotes:
-    - Rozpoznanie odmy prężnej wymaga korelacji z obrazem klinicznym.
+    - Rozpoznanie odmy prężnej wymaga korelacji z obrazem klinicznym; podejrzane cechy ucisku należy niezwłocznie przekazać zespołowi leczącemu.
+    - Duży pęcherz rozedmowy może naśladować odmę; obie zmiany mogą współistnieć.

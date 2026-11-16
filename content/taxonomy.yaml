@@ -1141,6 +1141,7 @@ pathology:
       - SARS-CoV-2 pneumonia
   - id: rak-pluca-rozsiew
     label: Rozsiew raka płuca w klatce piersiowej
+    synonyms: [przerzuty z raka płuca]
   - id: zespol-plata-srodkowego
     label: Zespół płata środkowego
     synonyms:
@@ -1160,6 +1161,7 @@ pathology:
     synonyms:
       - ground glass opacity
       - GGO
+      - matowa szyba
   - id: uip-podejrzenie-ipf
     label: Wzorzec UIP w podejrzeniu IPF
   - id: stluczenie-pluca
@@ -1200,6 +1202,7 @@ pathology:
       - esophageal varices
   - id: rak-piersi-rozsiew
     label: Rozsiew raka piersi w klatce piersiowej
+    synonyms: [przerzuty z raka piersi]
   - id: ct3-niedroznosc-jelita-grubego
     label: Niedrożność jelita grubego
     synonyms:

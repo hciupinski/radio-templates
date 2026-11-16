@@ -8,42 +8,46 @@ Dla każdej pozycji porównano istniejący zakres. Odrębne szablony dodano dla 
 
 ## Klatka piersiowa
 
-| Nr | Szablony w atlasie | Stan |
-| --- | --- | --- |
-| 1 | [Płyn w jamie opłucnej](../content/templates/ct/klatka-piersiowa/oplucna/plyn-w-oplucnej.yaml) | Istniejący |
-| 2 | [Odma opłucnowa](../content/templates/ct/klatka-piersiowa/oplucna/odma-oplucnowa.yaml) | Istniejący |
-| 2a | [Odma opłucnowa z cechami efektu masy](../content/templates/ct/klatka-piersiowa/oplucna/odma-prezna.yaml) | Nowy |
-| 3 | [Odma podskórna klatki piersiowej](../content/templates/ct/klatka-piersiowa/tkanki-miekkie-klatki-piersiowej/odma-podskorna.yaml) | Nowy |
-| 4 | [Odma śródpiersia](../content/templates/ct/klatka-piersiowa/srodpiersie/odma-srodpiersia.yaml) | Nowy |
-| 5 | [Niedodma płuca](../content/templates/ct/klatka-piersiowa/pluca/niedodma.yaml) | Nowy |
-| 6 | [Zapalenie płuc](../content/templates/ct/klatka-piersiowa/pluca/zapalenie-pluc.yaml) | Istniejący |
-| 7 | [Zmiany płucne w przebiegu COVID-19](../content/templates/ct/klatka-piersiowa/pluca/covid-19.yaml) | Nowy |
-| 8 | [Guz płuca podejrzany o nowotwór pierwotny](../content/templates/ct/klatka-piersiowa/pluca/podejrzenie-raka-pluca.yaml) | Istniejący |
-| 9 | [Rak płuca – ocena rozsiewu w klatce piersiowej](../content/templates/ct/klatka-piersiowa/pluca/rak-pluca-rozsiew.yaml) | Nowy |
-| 10 | [Zatorowość płucna](../content/templates/ct/klatka-piersiowa/tetnice-plucne/zatorowosc-plucna.yaml) | Istniejący |
-| 11 | [Zespół płata środkowego](../content/templates/ct/klatka-piersiowa/pluca/zespol-plata-srodkowego.yaml) | Nowy |
-| 12 | [Podejrzenie przerzutów do płuc](../content/templates/ct/klatka-piersiowa/pluca/przerzuty-do-pluc.yaml) | Nowy |
-| 13 | [Rozwarstwienie aorty](../content/templates/ct/klatka-piersiowa/aorta/rozwarstwienie-aorty.yaml) | Istniejący |
-| 14 | [Koarktacja aorty](../content/templates/ct/klatka-piersiowa/aorta/koarktacja-aorty.yaml) | Nowy |
-| 15 | [Chłoniak – zmiany w klatce piersiowej](../content/templates/ct/klatka-piersiowa/srodpiersie/chloniak-klatki.yaml) | Nowy |
-| 16 | [Guz przełyku podejrzany o nowotwór](../content/templates/ct/klatka-piersiowa/przelyk/rak-przelyku.yaml) | Nowy |
-| 17 | [Stan po usunięciu przełyku](../content/templates/ct/klatka-piersiowa/przelyk/stan-po-ezofagektomii.yaml) | Nowy |
-| 18 | [Zagęszczenia typu mlecznej szyby](../content/templates/ct/klatka-piersiowa/pluca/mleczna-szyba.yaml) | Nowy |
-| 19 | [Wzorzec UIP w podejrzeniu IPF](../content/templates/ct/klatka-piersiowa/pluca/uip-podejrzenie-ipf.yaml) | Nowy |
-| 20 | [Stłuczenie płuca](../content/templates/ct/klatka-piersiowa/pluca/stluczenie-pluca.yaml) | Nowy |
-| 21 | [Złamania żeber](../content/templates/ct/klatka-piersiowa/zebra/zlamania-zeber.yaml) | Nowy |
-| 22 | [Złamanie kręgosłupa piersiowego w CT klatki piersiowej](../content/templates/ct/klatka-piersiowa/kregoslup/zlamanie-kregoslupa-piersiowego.yaml) | Nowy |
-| 23 | [Podejrzenie urazu rdzenia w CT klatki piersiowej](../content/templates/ct/klatka-piersiowa/kregoslup/podejrzenie-urazu-rdzenia.yaml) | Nowy |
-| 24 | [Podejrzenie urazu tchawicy lub oskrzela](../content/templates/ct/klatka-piersiowa/drogi-oddechowe/uraz-tchawicy-oskrzeli.yaml) | Nowy |
-| 25 | [Uraz klatki piersiowej – ocena całościowa](../content/templates/ct/klatka-piersiowa/klatka-piersiowa/uraz-klatki-piersiowej.yaml) | Nowy |
-| 26 | [Przepuklina rozworu przełykowego](../content/templates/ct/klatka-piersiowa/przepona/przepuklina-rozworu-przelykowego.yaml) | Nowy |
-| 27 | [Przepuklina przeponowa Bochdaleka](../content/templates/ct/klatka-piersiowa/przepona/przepuklina-bochdaleka.yaml) | Nowy |
-| 28 | [Sekwestracja płuca](../content/templates/ct/klatka-piersiowa/pluca/sekwestracja-pluca.yaml) | Nowy |
-| 29 | [Rozstrzenie oskrzeli](../content/templates/ct/klatka-piersiowa/pluca/rozstrzenie-oskrzeli.yaml) | Istniejący |
-| 30 | [Wole zamostkowe](../content/templates/ct/klatka-piersiowa/tarczyca/wole-zamostkowe.yaml) | Nowy |
-| 31 | [Podejrzenie blizny pozawałowej lewej komory](../content/templates/ct/klatka-piersiowa/serce/blizna-pozawalowa.yaml) | Nowy |
-| 32 | [Żylaki przełyku](../content/templates/ct/klatka-piersiowa/przelyk/zylaki-przelyku.yaml) | Nowy |
-| 33 | [Rak piersi – ocena rozsiewu w klatce piersiowej](../content/templates/ct/klatka-piersiowa/pluca/rak-piersi-rozsiew.yaml) | Nowy |
+W [aplikacji](https://hciupinski.github.io/radio-templates/) wybierz **Jednostki chorobowe → TK klatki piersiowej – lista 34 patologii**. Zestaw obejmuje wszystkie pozycje tabeli, w tym rozwarstwienie i koarktację aorty. W trybie **Anatomia** protokoły aortalne znajdziesz pod **CT → Aorta i tętnice kończyn**.
+
+Sprawdzono treść wszystkich 34 szablonów z zestawienia i zaktualizowano pozycje wymagające doprecyzowania. Źródła są dostępne w każdym szablonie. Opisy mają status `draft`.
+
+| Nr | Szablony w atlasie | Stan | Protokół |
+| --- | --- | --- | --- |
+| 1 | [Płyn w jamie opłucnej](../content/templates/ct/klatka-piersiowa/oplucna/plyn-w-oplucnej.yaml) | Istniejący | CT klatki piersiowej |
+| 2 | [Odma opłucnowa](../content/templates/ct/klatka-piersiowa/oplucna/odma-oplucnowa.yaml) | Istniejący | CT klatki piersiowej |
+| 2a | [Podejrzenie odmy prężnej w TK](../content/templates/ct/klatka-piersiowa/oplucna/odma-prezna.yaml) | Nowy | CT klatki piersiowej |
+| 3 | [Odma podskórna klatki piersiowej](../content/templates/ct/klatka-piersiowa/tkanki-miekkie-klatki-piersiowej/odma-podskorna.yaml) | Nowy | CT klatki piersiowej |
+| 4 | [Odma śródpiersia](../content/templates/ct/klatka-piersiowa/srodpiersie/odma-srodpiersia.yaml) | Nowy | CT klatki piersiowej |
+| 5 | [Niedodma płuca](../content/templates/ct/klatka-piersiowa/pluca/niedodma.yaml) | Nowy | CT klatki piersiowej |
+| 6 | [Zapalenie płuc](../content/templates/ct/klatka-piersiowa/pluca/zapalenie-pluc.yaml) | Istniejący | CT klatki piersiowej |
+| 7 | [Zmiany płucne w przebiegu COVID-19](../content/templates/ct/klatka-piersiowa/pluca/covid-19.yaml) | Nowy | CT klatki piersiowej |
+| 8 | [Guz płuca podejrzany o nowotwór pierwotny](../content/templates/ct/klatka-piersiowa/pluca/podejrzenie-raka-pluca.yaml) | Istniejący | CT klatki piersiowej z kontrastem |
+| 9 | [Rak płuca – ocena rozsiewu w klatce piersiowej](../content/templates/ct/klatka-piersiowa/pluca/rak-pluca-rozsiew.yaml) | Nowy | CT klatki piersiowej z kontrastem |
+| 10 | [Zatorowość płucna](../content/templates/ct/klatka-piersiowa/tetnice-plucne/zatorowosc-plucna.yaml) | Istniejący | Angio-CT tętnic płucnych |
+| 11 | [Zespół płata środkowego](../content/templates/ct/klatka-piersiowa/pluca/zespol-plata-srodkowego.yaml) | Nowy | CT klatki piersiowej z kontrastem |
+| 12 | [Podejrzenie przerzutów do płuc](../content/templates/ct/klatka-piersiowa/pluca/przerzuty-do-pluc.yaml) | Nowy | CT klatki piersiowej z kontrastem |
+| 13 | [Rozwarstwienie aorty](../content/templates/ct/klatka-piersiowa/aorta/rozwarstwienie-aorty.yaml) | Istniejący | Angio-CT aorty |
+| 14 | [Koarktacja aorty](../content/templates/ct/klatka-piersiowa/aorta/koarktacja-aorty.yaml) | Nowy | Angio-CT aorty |
+| 15 | [Chłoniak – zmiany w klatce piersiowej](../content/templates/ct/klatka-piersiowa/srodpiersie/chloniak-klatki.yaml) | Nowy | CT klatki piersiowej z kontrastem |
+| 16 | [Guz przełyku podejrzany o nowotwór](../content/templates/ct/klatka-piersiowa/przelyk/rak-przelyku.yaml) | Nowy | CT klatki piersiowej z kontrastem |
+| 17 | [Stan po usunięciu przełyku](../content/templates/ct/klatka-piersiowa/przelyk/stan-po-ezofagektomii.yaml) | Nowy | CT klatki piersiowej z kontrastem |
+| 18 | [Zagęszczenia typu mlecznej szyby](../content/templates/ct/klatka-piersiowa/pluca/mleczna-szyba.yaml) | Nowy | HRCT klatki piersiowej |
+| 19 | [Wzorzec UIP w podejrzeniu IPF](../content/templates/ct/klatka-piersiowa/pluca/uip-podejrzenie-ipf.yaml) | Nowy | HRCT klatki piersiowej |
+| 20 | [Stłuczenie płuca](../content/templates/ct/klatka-piersiowa/pluca/stluczenie-pluca.yaml) | Nowy | CT klatki piersiowej z kontrastem |
+| 21 | [Złamania żeber](../content/templates/ct/klatka-piersiowa/zebra/zlamania-zeber.yaml) | Nowy | CT klatki piersiowej |
+| 22 | [Złamanie kręgosłupa piersiowego w CT klatki piersiowej](../content/templates/ct/klatka-piersiowa/kregoslup/zlamanie-kregoslupa-piersiowego.yaml) | Nowy | CT klatki piersiowej |
+| 23 | [Podejrzenie urazu rdzenia w CT klatki piersiowej](../content/templates/ct/klatka-piersiowa/kregoslup/podejrzenie-urazu-rdzenia.yaml) | Nowy | CT klatki piersiowej |
+| 24 | [Podejrzenie urazu tchawicy lub oskrzela](../content/templates/ct/klatka-piersiowa/drogi-oddechowe/uraz-tchawicy-oskrzeli.yaml) | Nowy | CT klatki piersiowej z kontrastem |
+| 25 | [Uraz klatki piersiowej – ocena całościowa](../content/templates/ct/klatka-piersiowa/klatka-piersiowa/uraz-klatki-piersiowej.yaml) | Nowy | CT klatki piersiowej z kontrastem |
+| 26 | [Przepuklina rozworu przełykowego](../content/templates/ct/klatka-piersiowa/przepona/przepuklina-rozworu-przelykowego.yaml) | Nowy | CT klatki piersiowej |
+| 27 | [Przepuklina przeponowa Bochdaleka](../content/templates/ct/klatka-piersiowa/przepona/przepuklina-bochdaleka.yaml) | Nowy | CT klatki piersiowej |
+| 28 | [Sekwestracja płuca](../content/templates/ct/klatka-piersiowa/pluca/sekwestracja-pluca.yaml) | Nowy | Angio-CT tętnic płucnych i krążenia systemowego |
+| 29 | [Rozstrzenie oskrzeli](../content/templates/ct/klatka-piersiowa/pluca/rozstrzenie-oskrzeli.yaml) | Istniejący | HRCT klatki piersiowej |
+| 30 | [Wole zamostkowe](../content/templates/ct/klatka-piersiowa/tarczyca/wole-zamostkowe.yaml) | Nowy | CT klatki piersiowej z kontrastem |
+| 31 | [Podejrzenie blizny pozawałowej lewej komory](../content/templates/ct/klatka-piersiowa/serce/blizna-pozawalowa.yaml) | Nowy | CT klatki piersiowej |
+| 32 | [Żylaki przełyku](../content/templates/ct/klatka-piersiowa/przelyk/zylaki-przelyku.yaml) | Nowy | CT klatki piersiowej z kontrastem |
+| 33 | [Rak piersi – ocena rozsiewu w klatce piersiowej](../content/templates/ct/klatka-piersiowa/pluca/rak-piersi-rozsiew.yaml) | Nowy | CT klatki piersiowej z kontrastem |
 
 ## Jama brzuszna i miednica
 
