@@ -14,19 +14,19 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
+version: 0.1.1
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-cord
   - nice-spinal-injury-ng41
 sections:
   assessmentChecklist:
-    - Morfologia i ustawienie kręgów w objętym zakresie oraz kanał kręgowy.
-    - Odłamy, przemieszczenie i widoczny materiał w kanale.
-    - Objawy neurologiczne oraz ograniczenia badania CT.
+    - Poziom, rodzaj i przemieszczenie obrażeń kostnych.
+    - Odłamy lub materiał w kanale, wymiar i możliwy ucisk.
+    - Stan neurologiczny i ograniczona ocena rdzenia oraz więzadeł.
   reportTemplate: |
-    Kręgosłup piersiowy w dostępnym zakresie {{zlamania_i_ustawienie}}. Kanał kręgowy {{szerokosc_i_widoczne_odlamy_lub_krwiak}}. Tkanki przykręgowe {{tkanki}}. Ocena rdzenia i więzadeł w CT jest ograniczona; {{ograniczenia_i_korelacja_kliniczna}}.
+    W objętym badaniem odcinku kręgosłupa {{poziom_i_obrazenia_kostne}}. Przemieszczenie, zwichnięcie lub retropulsja {{przemieszczenie}}; kanał kręgowy {{wymiar_i_mozliwy_ucisk}}. Ocena samego rdzenia i więzadeł w TK jest ograniczona. {{tkanki_i_inne_obrazenia}}.
   impressionTemplate: |
-    {{obrazenia_kostne_i_kanal}}. CT nie wyklucza uszkodzenia rdzenia lub więzadeł; {{korelacja_kliniczna_i_dalsza_ocena}}.
+    {{obrazenia_kostne_i_kanal}}. CT nie wyklucza urazu rdzenia ani więzadeł; {{korelacja_neurologiczna_i_dalsza_ocena}}.
   clinicalNotes:
     - Przy objawie neurologicznym mogącym wynikać z urazu rdzenia wytyczne NICE zalecają MR po CT niezależnie od tego, czy CT wykazuje przyczynę objawu; wynik wymaga pilnej korelacji klinicznej.

@@ -14,16 +14,18 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
+version: 0.1.1
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-mediastinum
 sections:
   assessmentChecklist:
-    - Ciągłość z tarczycą, granice i zasięg śródpiersiowy.
-    - Wymiary, niejednorodność, zwapnienia oraz relacja do dużych naczyń.
-    - Przemieszczenie i zwężenie tchawicy lub przełyku.
+    - Wielkość tarczycy, guzkowatość i zwapnienia.
+    - Zasięg zamostkowy, najwęższa średnica tchawicy i jej przemieszczenie.
+    - Stosunek do naczyń, przełyku i struktur śródpiersia.
   reportTemplate: |
-    Tarczyca {{wielkosc_i_struktura}} z częścią zamostkową sięgającą {{zasieg}}, o wymiarach {{wymiary_mm}} mm. Tchawica {{przemieszczenie_i_swiatlo}}, przełyk {{przelyk}}, naczynia {{naczynia}}. Węzły i pozostałe zmiany {{inne}}.
+    Tarczyca {{wielkosc_i_struktura}}, zmiany guzkowe i zwapnienia {{guzki_i_zwapnienia}}. {{plat}} schodzi zamostkowo do poziomu {{dolny_zasieg}}. Tchawica {{przemieszczenie_i_ucisk}}, minimalna średnica {{minimalna_srednica_mm}} mm. Stosunek do przełyku i naczyń {{przelyk_i_naczynia}}.
   impressionTemplate: |
-    Wole z częścią zamostkową {{zasieg}}, {{wplyw_na_tchawice}}.
+    Wole {{charakter}} z komponentą zamostkową, {{wplyw_na_tchawice}}.
+  clinicalNotes:
+    - Charakter guzków tarczycy wymaga oceny w odpowiednim badaniu dedykowanym, w tym USG.

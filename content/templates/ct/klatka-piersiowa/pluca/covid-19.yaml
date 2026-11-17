@@ -14,18 +14,18 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
+version: "0.1.1"
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest-tree-in-bud-education
 sections:
   assessmentChecklist:
-    - Rozmieszczenie i rozległość mlecznej szyby, konsolidacji i siateczki.
-    - Zmiany atypowe, płyn opłucnowy i współistniejąca patologia.
-    - Dynamika oraz korelacja z objawami i testami.
+    - Rozmieszczenie i rozległość mlecznej szyby, konsolidacji i obrazu crazy paving.
+    - Jamy, wysięk opłucnowy i cechy atypowe.
+    - Obraz nieswoisty; korelacja z badaniem klinicznym i testami.
   reportTemplate: |
-    W płucach {{rozmieszczenie}} zagęszczenia typu mlecznej szyby {{zasieg}}, konsolidacje {{konsolidacje}} i siateczka {{siateczka}}. Cechy atypowe {{cechy_atypowe}}; jamy opłucnej {{oplucna}}, pozostałe zmiany {{inne}}. Porównanie {{porownanie}}.
+    {{stronnosc_i_rozmieszczenie}} widoczne wieloogniskowe obszary matowej szyby, miejscami z {{konsolidacje}} oraz {{pogrubienie_przegrod_i_crazy_paving}}. Jamy rozpadowe {{jamy}}. Opłucna i pozostałe zmiany {{inne_zmiany}}. Porównanie {{porownanie}}.
   impressionTemplate: |
-    Zmiany płucne {{zasieg}}, {{zgodnosc_z_kontekstem_covid}}. {{powiklania_lub_inne_zmiany}}.
+    {{stronnosc_i_zasieg}} zmiany śródmiąższowo-pęcherzykowe o morfologii {{ocena}}, mogące odpowiadać wirusowemu zapaleniu płuc, w tym COVID-19, w odpowiednim kontekście klinicznym.
   clinicalNotes:
     - Obraz CT jest nieswoisty i nie potwierdza ani nie wyklucza zakażenia SARS-CoV-2; wymaga korelacji klinicznej i laboratoryjnej.

@@ -1,0 +1,24 @@
+id: "ct-obrzek-po-rozprezeniu"
+title: "Obrzęk płuca po ponownym rozprężeniu"
+modality: "CT"
+examTypes: ["CT klatki piersiowej"]
+bodySystems: ["Układ oddechowy"]
+bodyParts: ["Klatka piersiowa"]
+organs: ["Płuca"]
+pathology: ["Podejrzenie obrzęku płuca po rozprężeniu"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["ct-repe"]
+sections:
+  assessmentChecklist:
+    - "Czas od odbarczenia odmy lub ewakuacji płynu, strona i uprzedni zakres zapadnięcia."
+    - "Mleczna szyba, konsolidacje, przegrody i zmiany w płucu przeciwnym."
+    - "Resztkowa odma lub płyn i rozpoznania alternatywne."
+  reportTemplate: |
+    W płucu {{strona}}, po {{rodzaj_i_czas_drenazu}}, obszary mlecznej szyby {{zasieg}}, konsolidacje {{konsolidacje}} i pogrubienie przegród {{przegrody}}. W uprzednio zapadniętym płucu {{rozmieszczenie}}; po stronie przeciwnej {{drugie_pluco}}. Resztkowa odma lub płyn {{oplocna}}.
+  impressionTemplate: |
+    Zmiany w płucu {{strona}}, w odpowiednim związku czasowym {{pewnosc}} obrzęku po rozprężeniu.
+  clinicalNotes:
+    - "Obraz wymaga korelacji czasowej oraz różnicowania z aspiracją, zakażeniem, krwawieniem i obrzękiem kardiogennym."

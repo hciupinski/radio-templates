@@ -14,18 +14,18 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.1"
+version: 0.1.2
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-lymphoma
 sections:
   assessmentChecklist:
-    - Węzły śródpiersia, wnęk, pach i okolic nadobojczykowych w zakresie badania; największy wymiar długi i krótki.
-    - Masa śródpiersia i relacja do naczyń oraz dróg oddechowych.
-    - Zmiany pozawęzłowe, płyn opłucnowy i porównanie.
+    - Lokalizacja i wielkość pakietów węzłowych, w tym wnęk i okolic nadobojczykowych.
+    - Relacja masy do naczyń, w szczególności żyły głównej górnej, i dróg oddechowych.
+    - Płyn opłucnowy lub osierdziowy oraz zmiany pozawęzłowe i porównanie.
   reportTemplate: |
-    Węzły {{grupy_i_strony}}, największy {{wymiar_dlugi_mm}} × {{wymiar_krotki_mm}} mm. Masa śródpiersia {{lokalizacja_i_wymiary}}, stosunek do naczyń i dróg oddechowych {{relacje}}. Płuca {{pluca}}, opłucna i osierdzie {{plyn}}, inne zmiany {{inne}}. Porównanie {{porownanie}}.
+    W {{lokalizacja_srodpiersia}} obecne {{pakiety_i_masa}} o wymiarach {{wymiary_mm}} mm, o strukturze {{struktura_i_wzmocnienie}}. Stosunek do naczyń, w tym żyły głównej górnej, i dróg oddechowych {{naczynia_i_drogi_oddechowe}}. Węzły w innych lokalizacjach {{lokalizacje_i_wymiary}}. Opłucna i osierdzie {{plyn}}; porównanie {{porownanie}}.
   impressionTemplate: |
-    {{wezly_i_masa}} w kontekście {{rozpoznanie_lub_podejrzenie_chloniaka}}. {{zmiany_pozawezlowe_i_dynamika}}.
+    Limfadenopatia śródpiersia {{lokalizacja_i_zasieg}}, {{pewnosc}} choroby limfoproliferacyjnej. {{ucisk_i_zmiany_towarzyszace}}. Rozpoznanie wymaga weryfikacji histopatologicznej.
   clinicalNotes:
     - CT klatki piersiowej nie obejmuje wszystkich okolic węzłowych i nie wystarcza do pełnego określenia stadium chłoniaka. CT nie ustala typu histologicznego; ocena aktywności i odpowiedzi zależy od podtypu choroby i zastosowanej metody, w tym PET/CT.

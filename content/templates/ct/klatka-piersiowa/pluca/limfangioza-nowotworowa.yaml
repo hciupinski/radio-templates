@@ -1,0 +1,23 @@
+id: "ct-limfangioza-nowotworowa"
+title: "Podejrzenie limfangiozy nowotworowej"
+modality: "CT"
+examTypes: ["CT klatki piersiowej"]
+bodySystems: ["Układ oddechowy"]
+bodyParts: ["Klatka piersiowa"]
+organs: ["Płuca"]
+pathology: ["Podejrzenie limfangiozy nowotworowej"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["ct-lymphangitic"]
+sections:
+  assessmentChecklist:
+    - "Charakter i rozmieszczenie pogrubienia przegród oraz śródmiąższu okołopęczkowego."
+    - "Węzły, opłucna, ognisko pierwotne i porównanie."
+  reportTemplate: |
+    W płucu {{strona}} widoczne {{charakter_i_zasieg}} pogrubienie przegród międzyzrazikowych i śródmiąższu okołopęczkowego, {{pogrubienie_oskrzeli}}. Architektura płuc {{architektura}}. Węzły i płyn opłucnowy {{wezly_i_oplucna}}, ogniska nowotworowe {{ogniska}}, porównanie {{porownanie}}.
+  impressionTemplate: |
+    Zmiany śródmiąższowe {{lokalizacja}}, {{pewnosc}} limfangiozy nowotworowej w odpowiednim kontekście.
+  clinicalNotes:
+    - "Różnicowanie obejmuje obrzęk hydrostatyczny, sarkoidozę oraz inne choroby śródmiąższowe."

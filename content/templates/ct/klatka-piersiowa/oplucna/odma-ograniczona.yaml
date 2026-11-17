@@ -1,0 +1,51 @@
+id: ct-odma-ograniczona
+title: Niewielka lub ograniczona odma opłucnowa
+modality: CT
+examTypes:
+  - CT klatki piersiowej
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Opłucna
+pathology:
+  - Odma opłucnowa ograniczona
+tags:
+  - Rezydent
+status: draft
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct-pleural-review
+imageRefs:
+  - id: ct-apical-commons
+    title: Niewielka odma szczytowa po urazie
+    imageUrl: >-
+      https://upload.wikimedia.org/wikipedia/commons/8/81/Apical_pneumothorax_shown_on_CT_and_chest_X-ray_with_left_first_rib_fracture.png
+    thumbnailUrl: >-
+      https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Apical_pneumothorax_shown_on_CT_and_chest_X-ray_with_left_first_rib_fracture.png/960px-Apical_pneumothorax_shown_on_CT_and_chest_X-ray_with_left_first_rib_fracture.png
+    sourceUrl: >-
+      https://commons.wikimedia.org/wiki/File:Apical_pneumothorax_shown_on_CT_and_chest_X-ray_with_left_first_rib_fracture.png
+    sourceId: wikimedia-commons
+    caption: Po lewej osiowy przekrój TK na poziomie szczytów płuc, po prawej zdjęcie RTG.
+    alt: Obustronna odma w szczytach płuc oraz złamanie pierwszego żebra po lewej.
+    category: typical
+    findings:
+      - Gaz poza obrysem miąższu w obu szczytach płuc.
+      - Odma sąsiaduje ze ścianą klatki piersiowej.
+      - Złamanie lewego pierwszego żebra na obrazie TK.
+    attribution: Cerevisae, Wikimedia Commons, CC BY-SA 4.0
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-11-17"
+sections:
+  assessmentChecklist:
+    - Lokalizacja i rozległość gazu opłucnowego, w tym zbiornika lokulowanego.
+    - Blaszka opłucnej trzewnej i odróżnienie od dużej bulli rozedmowej.
+    - Płuco, płyn opłucnowy i ewentualny efekt masy.
+  reportTemplate: |
+    W {{lokalizacja}} części {{strona}} jamy opłucnej obecna przestrzeń gazowa bez rysunku naczyniowego, oddzielona od miąższu płuca widoczną blaszką opłucnej trzewnej. Maksymalna odległość pomiędzy blaszkami opłucnej wynosi {{odstep_mm}} mm. Struktury śródpiersia {{polozenie_i_efekt_masy}}. Płuco oraz płyn opłucnowy {{zmiany_towarzyszace}}.
+  impressionTemplate: |
+    {{niewielka_lub_ograniczona}} odma opłucnowa po stronie {{strona}}. {{efekt_masy}}.
+  clinicalNotes:
+    - Gaz w odmie ograniczonej może zajmować nietypowe położenie. Duża bulla może naśladować odmę; obie zmiany mogą współistnieć. Brak przemieszczenia śródpiersia nie wyklucza klinicznej odmy prężnej.

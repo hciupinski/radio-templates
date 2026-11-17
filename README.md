@@ -27,6 +27,8 @@ npm run export:pdf
 
 Szablony są w `content/templates/**/*.yaml`. Wspólne słowniki są w `content/taxonomy.yaml`, a katalog źródeł w `content/sources.yaml`.
 
+[Mapowanie 41 pozycji atlasu dyżurowego TK klatki piersiowej](docs/atlas-dyzurowy-tk-klatki-piersiowej.md).
+
 Każdy szablon ma metadane wyszukiwania i sekcje:
 
 - `assessmentChecklist` - co ocenić w badaniu,

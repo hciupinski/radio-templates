@@ -14,18 +14,18 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
+version: "0.1.1"
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-lung-metastases
 sections:
   assessmentChecklist:
-    - Liczba, lokalizacja i wymiary zmian płucnych; porównanie.
-    - Węzły klatki piersiowej, opłucna, osierdzie i kości.
-    - Pozostałe zmiany w zakresie badania oraz ograniczenia oceny.
+    - Liczba i rozmieszczenie zmian, pomiar największych i porównanie.
+    - Jamy, zwapnienia, otoczka mlecznej szyby oraz rozsiew prosówkowy.
+    - Kontekst onkologiczny, opłucna i węzły w zakresie badania.
   reportTemplate: |
-    Choroba podstawowa {{nowotwor_pierwotny_lub_nieznany}}. W płucach {{liczba_i_lokalizacja_guzkow}}, największy {{wymiary_mm}} mm, {{charakter}}. Węzły wnękowe, śródpiersiowe i nadobojczykowe w zakresie badania {{wezly_lokalizacja_i_wymiary}}. Opłucna i osierdzie {{oplucna_i_osierdzie}}, kości {{kosci}}, widoczne nadbrzusze {{nadbrzusze_i_ograniczenia}}. Porównanie z {{data_badania}}: {{dynamika}}.
+    W {{stronnosc}} płucach liczne {{charakter}} guzki o rozmieszczeniu {{rozmieszczenie}}, średnicy od {{najmniejszy_mm}} do {{najwiekszy_mm}} mm. Największy guzek w segmencie {{segment}} płuca {{strona}} o wymiarach {{wymiary_mm}} mm. {{lokalizacja_podoplocnowa_i_inne_cechy}}. W porównaniu z badaniem poprzednim {{porownanie}}. Opłucna, węzły i kości {{zmiany_towarzyszace}}.
   impressionTemplate: |
-    {{ocena_rozsiewu_i_pewnosc}}. {{najwazniejsze_lokalizacje_i_dynamika}}.
+    Obraz licznych zmian guzkowych w płucach, {{pewnosc_rozsiewu_w_kontekscie_choroby_nowotworowej}}.
   clinicalNotes:
     - Podejrzane ogniska nie są swoiste dla przerzutów; rozpoznanie należy odnieść do choroby podstawowej i badań porównawczych.

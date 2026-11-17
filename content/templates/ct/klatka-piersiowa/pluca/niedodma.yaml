@@ -14,16 +14,16 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
+version: "0.1.1"
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-lung-pleura
 sections:
   assessmentChecklist:
-    - Płat lub segment i stopień utraty objętości.
-    - Przemieszczenie szczelin, wnęki i oskrzeli; możliwa przeszkoda.
-    - Płyn opłucnowy, zmiany zaporowe i porównanie.
+    - Zmniejszenie objętości płata i przemieszczenie szczelin.
+    - Drożność oskrzela doprowadzającego oraz możliwy guz lub czop śluzowy.
+    - Płyn opłucnowy, ucisk i zmiany towarzyszące.
   reportTemplate: |
-    Niedodma {{lokalizacja}}, {{stopien_i_utrata_objetosci}}; szczeliny i wnęka {{przemieszczenie}}. Oskrzele doprowadzające {{droznosc_i_mozliwa_przeszkoda}}. Sąsiedni miąższ {{zmiany}}, jama opłucnej {{plyn}}. Porównanie {{porownanie}}.
+    W obrębie płata {{plat_i_strona}} widoczny obszar zwiększonej densyjności miąższu płucnego z towarzyszącym zmniejszeniem jego objętości, {{przemieszczenie_szczelin}} oraz {{zageszczenie_struktur_oskrzelowo_naczyniowych}}. Oskrzele doprowadzające {{droznosc_i_mozliwa_przeszkoda}}. Opłucna i pozostały miąższ {{zmiany_towarzyszace}}.
   impressionTemplate: |
-    Niedodma {{lokalizacja}} o nasileniu {{stopien}}. {{przyczyna_lub_ograniczenia}}.
+    Niedodma płata {{plat_i_strona}}, o charakterze {{charakter_i_pewnosc}}.

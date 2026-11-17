@@ -14,19 +14,19 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.1"
+version: 0.1.2
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-hernia
   - auditc-bochdalek-obstruction
 sections:
   assessmentChecklist:
-    - Strona i umiejscowienie tylno-bocznego ubytku przepony, wymiary wrót.
-    - Zawartość, rozdęcie jelita, punkt przejścia oraz cechy niedrożności lub możliwego uwięźnięcia.
-    - Stan płuca, opłucnej i wpływ na narządy sąsiednie.
+    - Strona i wielkość tylno-bocznego ubytku przepony.
+    - Zawartość worka i ucisk płuca.
+    - Cechy niedrożności, skrętu i niedokrwienia zawartości.
   reportTemplate: |
-    Tylno-boczny ubytek przepony {{strona}} o wymiarach {{wrota_mm}} mm, przez który przemieszcza się {{zawartosc}}. Zawartość worka {{cechy_niedroznosci_i_ukrwienia}}. Sąsiednie płuco i opłucna {{pluco_i_oplucna}}, pozostałe zmiany {{inne}}.
+    W tylno-bocznej części {{strona}} kopuły przepony widoczny ubytek o szerokości {{szerokosc_mm}} mm, przez który przemieszczają się {{zawartosc}}. Sąsiadujący miąższ płuca {{ucisk_i_niedodma}}. Cechy niedrożności, skrętu lub niedokrwienia {{powiklania_i_ograniczenia}}.
   impressionTemplate: |
-    Przepuklina Bochdaleka {{strona}}, zawierająca {{zawartosc}}. {{powiklania_lub_ocena_ograniczona}}.
+    Przepuklina przeponowa typu Bochdaleka po stronie {{strona}}, zawierająca {{zawartosc}}. {{powiklania}}.
   clinicalNotes:
     - Ocena ukrwienia zawartości przepukliny jest ograniczona bez odpowiedniej fazy po dożylnym podaniu kontrastu; niedrożność lub podejrzenie niedokrwienia należy jednoznacznie opisać i pilnie przekazać.

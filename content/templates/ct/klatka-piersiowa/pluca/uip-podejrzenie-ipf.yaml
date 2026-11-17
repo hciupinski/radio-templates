@@ -14,19 +14,19 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.1"
+version: 0.1.2
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-ipf
   - chest-hrct-basic-2025
 sections:
   assessmentChecklist:
-    - Rozmieszczenie włóknienia w osi pionowej i względem opłucnej.
-    - Siateczka, rozstrzenie z pociągania, plaster miodu oraz cechy alternatywnego rozpoznania.
-    - Kategoria wzorca HRCT i porównanie; uwzględnienie kontekstu klinicznego.
+    - Osiowe i pionowe rozmieszczenie włóknienia.
+    - Siateczka, zaburzenie architektury, rozstrzenie z pociągania i plaster miodu.
+    - Cechy alternatywnego rozpoznania i kategoria wzorca HRCT.
   reportTemplate: |
-    Zmiany włókniste {{rozmieszczenie}}, {{siateczka_i_zaburzenie_architektury}}. Rozstrzenie z pociągania {{rozstrzenie}}, plaster miodu {{plaster_miodu}}. Mleczna szyba {{mleczna_szyba}}, cechy sugerujące rozpoznanie alternatywne {{cechy_alternatywne}}. W porównaniu z {{data_badania}} {{dynamika}}.
+    W {{rozmieszczenie}} widoczne zmiany siateczkowate i {{zaburzenie_architektury}}, rozstrzenie oskrzeli i oskrzelików z pociągania {{rozstrzenie}} oraz ocena podopłucnowych wielowarstwowych przestrzeni torbielowatych {{plaster_miodu}}. Inne cechy, w tym mleczna szyba i cechy sugerujące alternatywne rozpoznanie {{inne_cechy}}. Porównanie {{porownanie}}.
   impressionTemplate: |
-    Wzorzec HRCT {{uip_prawdopodobny_uip_nieokreslony_dla_uip_lub_sugerujacy_inne_rozpoznanie}}. {{rozmieszczenie_i_dynamika}}.
+    Wzorzec HRCT {{uip_prawdopodobny_uip_nieokreslony_dla_uip_lub_sugerujacy_inne_rozpoznanie}}. {{kontekst_i_dynamika}}.
   clinicalNotes:
     - UIP jest wzorcem obrazowym występującym także w innych chorobach; rozpoznanie IPF wymaga oceny klinicznej i wykluczenia innych przyczyn włóknienia. Wzorzec nieokreślony dla UIP dotyczy włóknienia niespełniającego kryteriów UIP ani prawdopodobnego UIP, bez cech wyraźnie sugerujących inną przyczynę.

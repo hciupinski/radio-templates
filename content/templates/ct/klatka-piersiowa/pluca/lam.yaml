@@ -1,0 +1,39 @@
+id: "ct-lam"
+title: "Rozlane torbiele płuc podejrzane o LAM"
+modality: "CT"
+examTypes: ["HRCT klatki piersiowej"]
+bodySystems: ["Układ oddechowy"]
+bodyParts: ["Klatka piersiowa"]
+organs: ["Płuca"]
+pathology: ["Podejrzenie limfangioleiomiomatozy"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["ct-lam"]
+imageRefs:
+  - id: ct-lam-commons
+    title: Rozlane torbiele płuc w limfangioleiomiomatozie
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/a/ad/Lymphangioleiomyomatose_-_CT_axial_LF.jpg
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Lymphangioleiomyomatose_-_CT_axial_LF.jpg
+    sourceId: wikimedia-commons
+    caption: Przekrój poprzeczny TK w oknie płucnym.
+    alt: Obustronne, liczne, przeważnie okrągłe, cienkościenne torbiele płuc.
+    category: typical
+    findings:
+      - Bardzo liczne cienkościenne przestrzenie torbielowate.
+      - Zmiany zajmują oba płuca, także obszary podopłucnowe.
+      - Torbiele są przeważnie okrągłe i mają różną średnicę.
+    attribution: Hellerhoff, Wikimedia Commons, CC BY-SA 3.0
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-11-17"
+sections:
+  assessmentChecklist:
+    - "Liczba, wielkość, ściana i rozmieszczenie torbieli; miąższ pomiędzy nimi."
+    - "Odma, płyn opłucnowy i zmiany pozapłucne w objętym zakresie."
+  reportTemplate: |
+    Obustronnie widoczne liczne, dobrze odgraniczone, przeważnie okrągłe i cienkościenne przestrzenie torbielowate o średnicy {{zakres_srednic_mm}} mm. Rozmieszczenie torbieli {{dystrybucja}}. Miąższ płucny pomiędzy torbielami {{miazsz}}. Odma opłucnowa lub płyn w jamie opłucnowej {{odma_i_plyn}}. Zmiany pozapłucne w objętym zakresie {{zmiany_pozaplucne}}.
+  impressionTemplate: |
+    Rozlane zmiany torbielowate o morfologii {{zgodnosc_z_lam}}; {{roznicowanie}}.
+  clinicalNotes:
+    - "Same torbiele HRCT nie stanowią pewnego rozpoznania LAM; należy uwzględnić cechy potwierdzające i kontekst kliniczny, w tym TSC, nerkowe AML, chłonkotok lub VEGF-D. Różnicowanie obejmuje Birt-Hogg-Dubé, PLCH, LIP i rozedmę."

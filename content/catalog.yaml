@@ -346,6 +346,75 @@ conditionGroups:
     organs: [Wątroba, Węzły chłonne]
     pathology: [Przerzuty, Przerzutowe, Podejrzane, Martwicze, Chłoniak]
     order: 60
+  - id: ct-klatka-piersiowa-atlas-dyzurowy
+    label: Atlas dyżurowy – TK klatki piersiowej
+    description: 46 szablonów z 41 pozycji atlasu dyżurowego. Obejmuje badania TK, HRCT i angio-TK.
+    organs:
+      - Opłucna
+      - Tkanki miękkie klatki piersiowej
+      - Płuca
+      - Tętnice płucne
+      - Aorta
+      - Śródpiersie
+      - Przełyk
+      - Żebra
+      - Kręgosłup
+      - Drogi oddechowe
+      - Klatka piersiowa
+      - Przepona
+      - Tarczyca
+      - Piersi
+      - Żyły śródpiersia
+    pathology:
+      - Płyn w jamie opłucnej
+      - Odma prężna
+      - Odma podskórna klatki piersiowej
+      - Odma opłucnowa ograniczona
+      - Niedodma płuca
+      - Zapalenie płuc
+      - Zmiany płucne w przebiegu COVID-19
+      - Guz płuca podejrzany o nowotwór pierwotny
+      - Rozsiew raka płuca w klatce piersiowej
+      - Zatorowość płucna
+      - Zespół płata środkowego
+      - Podejrzenie przerzutów do płuc
+      - Rozwarstwienie aorty
+      - Koarktacja aorty
+      - Chłoniak
+      - Guz przełyku podejrzany o nowotwór
+      - Stan po usunięciu przełyku
+      - Zagęszczenia typu mlecznej szyby
+      - Wzorzec UIP w podejrzeniu IPF
+      - Stłuczenie płuca
+      - Złamania żeber
+      - Złamanie kręgosłupa piersiowego
+      - Podejrzenie urazu rdzenia piersiowego
+      - Uraz tchawicy lub oskrzela
+      - Uraz klatki piersiowej
+      - Przepuklina rozworu przełykowego
+      - Przepuklina Bochdaleka
+      - Proteinoza pęcherzyków płucnych
+      - Płucna histiocytoza z komórek Langerhansa
+      - Amyloidoza płucna guzkowa
+      - Rozstrzenie oskrzeli
+      - Wole zamostkowe
+      - Podejrzenie blizny po zawale płuca
+      - Żylaki przełyku
+      - Rozsiew raka piersi w klatce piersiowej
+      - Zmiana guzowata piersi w CT
+      - Guzek o morfologii węzła śródpłucnego
+      - Podejrzenie sarkoidozy płucnej
+      - Podejrzenie limfangioleiomiomatozy
+      - Podejrzenie limfangiozy nowotworowej
+      - Płat żyły nieparzystej
+      - Oskrzele tchawicze
+      - Prawostronny łuk aorty
+      - Przetrwała lewa żyła główna górna
+      - Podejrzenie zapalenia płuc z nadwrażliwości
+      - Podejrzenie obrzęku płuca po rozprężeniu
+    modalities:
+      - CT
+    order: 64
   - id: ct-klatka-piersiowa-lista-patologii
     label: TK klatki piersiowej – lista 34 patologii
     description: Zestaw opisów urazowych i nieurazowych klatki piersiowej, w tym protokoły HRCT i angio-TK.

@@ -1698,3 +1698,83 @@
   licenseNote: >-
     Konsensus wykorzystany do oceny kontrastu doustnego, pośrednich cech nieszczelności i ograniczeń badania
     po ezofagektomii.
+- id: ct-pap-ers
+  title: ERS guidelines for diagnosis and management of pulmonary alveolar proteinosis
+  url: https://doi.org/10.1183/13993003.00725-2024
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło wykorzystano do oceny cech obrazowych i ograniczeń diagnostycznych; bez kopiowania ilustracji.
+- id: ct-plch-consensus
+  title: International expert consensus for adult Langerhans cell histiocytosis
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11022927/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło wykorzystano do oceny cech obrazowych i ograniczeń diagnostycznych; bez kopiowania ilustracji.
+- id: ct-amyloidosis-review
+  title: "Metabolic and storage lung diseases: spectrum of imaging appearances"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3846931/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło wykorzystano do oceny cech obrazowych i ograniczeń diagnostycznych; bez kopiowania ilustracji.
+- id: ct-pulmonary-infarction
+  title: >-
+    Clinical features of pulmonary infarction in older patients with pulmonary embolism: a retrospective
+    comparative study
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12678150/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy morfologii i ograniczeń CT; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: ct-breast-ct
+  title: Breast Findings at Chest CT
+  url: https://pubs.rsna.org/radiographics/doi/full/10.1148/rg.220095
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy morfologii i ograniczeń CT; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: ct-perifissural
+  title: "Incidental perifissural nodules on routine chest computed tomography: lung cancer or not?"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5811588/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy morfologii i ograniczeń CT; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: ct-sarcoidosis
+  title: "Diagnosis and Detection of Sarcoidosis: ATS Clinical Practice Guideline"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7159433/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy morfologii i ograniczeń CT; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: ct-lam
+  title: "ATS/JRS Clinical Practice Guideline: Lymphangioleiomyomatosis Diagnosis"
+  url: https://www.thoracic.org/statements/resources/interstitial-lung-disease/lam-guideline-pt2.pdf
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy morfologii i ograniczeń CT; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: ct-lymphangitic
+  title: Approach to Peribronchovascular Disease on CT
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7126938/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy morfologii i ograniczeń CT; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: ct-vascular-variants
+  title: Thoracic Vascular Variants and Anomalies
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9705143/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy morfologii i ograniczeń CT; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: ct-tracheal-bronchus
+  title: Radioanatomical study of a true tracheal bronchus using multidetector computed tomography
+  url: https://pubmed.ncbi.nlm.nih.gov/20437128/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy morfologii i ograniczeń CT; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: ct-hp
+  title: "Diagnosis of Hypersensitivity Pneumonitis in Adults: ATS/JRS/ALAT Clinical Practice Guideline"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7397797/
+  type: guideline
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy morfologii i ograniczeń CT; prawa do ilustracji wymagają osobnej weryfikacji.
+- id: ct-repe
+  title: "Reexpansion pulmonary edema: computed tomography findings in 22 patients"
+  url: https://pubmed.ncbi.nlm.nih.gov/20489660/
+  type: educational
+  accessedAt: "2026-11-16"
+  licenseNote: Źródło do autorskiej syntezy morfologii i ograniczeń CT; prawa do ilustracji wymagają osobnej weryfikacji.

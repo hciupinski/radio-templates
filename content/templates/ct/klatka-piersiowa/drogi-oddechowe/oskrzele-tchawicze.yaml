@@ -1,0 +1,23 @@
+id: "ct-oskrzele-tchawicze"
+title: "Oskrzele tchawicze"
+modality: "CT"
+examTypes: ["CT klatki piersiowej"]
+bodySystems: ["Układ oddechowy"]
+bodyParts: ["Klatka piersiowa"]
+organs: ["Drogi oddechowe"]
+pathology: ["Oskrzele tchawicze"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["ct-tracheal-bronchus"]
+sections:
+  assessmentChecklist:
+    - "Miejsce odejścia względem ostrogi i zaopatrywany obszar."
+    - "Oskrzele przemieszczone lub dodatkowe, jeśli możliwe do określenia."
+  reportTemplate: |
+    Od {{sciana_tchawicy}} powyżej ostrogi odchodzi oskrzele {{przebieg}}, zaopatrujące {{obszar}}. Pozostałe rozgałęzienia płata górnego {{rozgalezienia}}.
+  impressionTemplate: |
+    Oskrzele tchawicze {{strona}}, {{typ_lub_nieokreslony}} – wariant anatomiczny.
+  clinicalNotes:
+    - "Oskrzele tchawicze może być przemieszczoną gałęzią albo gałęzią dodatkową; nie zakładać automatycznie typu."

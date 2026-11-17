@@ -1,0 +1,24 @@
+id: "ct-zapalenie-pluc-z-nadwrazliwosci"
+title: "Podejrzenie zapalenia płuc z nadwrażliwości"
+modality: "CT"
+examTypes: ["HRCT klatki piersiowej"]
+bodySystems: ["Układ oddechowy"]
+bodyParts: ["Klatka piersiowa"]
+organs: ["Płuca"]
+pathology: ["Podejrzenie zapalenia płuc z nadwrażliwości"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["ct-hp"]
+sections:
+  assessmentChecklist:
+    - "Guzki centrilobularne, mleczna szyba, mozaikowa atenuacja i obrazy wydechowe."
+    - "Włóknienie, siateczka, rozstrzenie z pociągania i zaburzenie architektury."
+    - "Związek z ekspozycją i innymi danymi klinicznymi."
+  reportTemplate: |
+    Obustronnie {{guzki_centrilobularne}} oraz {{mleczna_szyba_i_mozaika}}. Obrazy wydechowe {{pulapka_powietrzna_lub_niewykonane}}; wzorzec trzech gęstości {{ocena}}. Siateczkowanie, rozstrzenie z pociągania i zaburzenie architektury {{wloknienie}}.
+  impressionTemplate: |
+    Obraz HRCT {{pewnosc}} zapalenia płuc z nadwrażliwości; {{postac_wlokniejaca_lub_niewlokniejaca_lub_nieokreslona}} przy zgodnym kontekście klinicznym.
+  clinicalNotes:
+    - "Nie nazywać postaci niewłókniejącą, gdy występują cechy włóknienia; pułapka powietrzna jest nieswoista."

@@ -14,20 +14,20 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.1"
+version: 0.1.2
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-trauma
   - n3-polytrauma-eser
 sections:
   assessmentChecklist:
-    - Ściana klatki i kości, kręgosłup, krwiaki oraz wynaczynienie w dostępnych fazach.
-    - Płuca, opłucna, drogi oddechowe, przepona, śródpiersie, serce i aorta.
-    - Dreny, zakres i ograniczenia oraz objęte badaniem nadbrzusze.
+    - Żebra, mostek, łopatki, kręgosłup oraz ściana klatki.
+    - Płuca, opłucna, osierdzie, oskrzela i przepona.
+    - Aorta i inne naczynia w zakresie oraz fazie umożliwiającej ocenę.
   reportTemplate: |
-    Badanie {{fazy_i_ograniczenia}}. Ściana klatki i kości {{zlamania_i_krwiaki}}. Płuca {{stluczenia_lub_rozdarcia}}, opłucna {{odma_i_plyn}}. Drogi oddechowe {{drogi_oddechowe}}, śródpiersie i aorta {{srodpiersie_i_naczynia}}, serce i osierdzie {{serce_i_osierdzie}}. Przepona {{przepona}}, widoczne nadbrzusze {{nadbrzusze}}, dreny {{dreny}}.
+    Po stronie {{strona}} złamania żeber {{numery_i_przemieszczenie}}; mostek, łopatki i kręgosłup {{kosci}}. Miąższ płuc {{stluczenie_i_inne}}, jamy opłucnej {{odma_i_plyn}}. W ścianie klatki {{obrzek_i_krwiak}}. Aorta piersiowa i inne naczynia {{naczynia_i_ograniczenia_fazy}}, osierdzie {{osierdzie}}, drogi oddechowe {{oskrzela}}, przepona {{przepona}}.
   impressionTemplate: |
-    {{najwazniejsze_obrazenia_i_powiklania}}. {{ograniczenia}}.
+    Pourazowe zmiany klatki piersiowej {{najwazniejsze_obrazenia}}. {{powiklania_i_ograniczenia}}.
   clinicalNotes:
     - Ocena uszkodzenia naczyń i aktywnego krwawienia zależy od fazy i jakości zakontrastowania; pojedyncza faza może nie pozwalać na określenie dynamiki ani źródła krwawienia.
     - Opis obejmuje klatkę piersiową i widoczne nadbrzusze; nie zastępuje oceny pozostałych obszarów w wielonarządowym badaniu urazowym.

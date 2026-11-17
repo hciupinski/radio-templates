@@ -14,18 +14,18 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
+version: "0.1.1"
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-coarctation
 sections:
   assessmentChecklist:
-    - Położenie, długość i najmniejsza średnica zwężenia w stosunku do odgałęzień łuku.
-    - Pomiary aorty przed i za zwężeniem, tętniak i zmiany po naprawie.
-    - Drogi krążenia obocznego oraz inne nieprawidłowości w zakresie badania.
+    - Położenie, długość i najmniejsza średnica zwężenia oraz średnice referencyjne.
+    - Krążenie oboczne, warianty łuku i tętniaki.
+    - Zmiany po leczeniu; gradient ciśnienia wymaga oceny hemodynamicznej.
   reportTemplate: |
-    Aorta w okolicy {{lokalizacja}} zwężona na długości {{dlugosc_mm}} mm, najmniejsza średnica {{srednica_mm}} mm. Aorta przed zwężeniem {{srednica_przed_mm}} mm, za zwężeniem {{srednica_za_mm}} mm; odgałęzienia łuku {{odgalezienia}}. Krążenie oboczne {{krazenie_oboczne}}. Zmiany po leczeniu, poszerzenie lub tętniak {{inne_zmiany}}.
+    W obrębie {{lokalizacja_wzgledem_lewej_tetnicy_podobojczykowej}} widoczne odcinkowe zwężenie światła aorty do średnicy około {{srednica_mm}} mm, na długości {{dlugosc_mm}} mm. Średnica aorty przed zwężeniem wynosi {{srednica_przed_mm}} mm, za zwężeniem {{srednica_za_mm}} mm. Naczynia krążenia obocznego, w tym tętnice międzyżebrowe i piersiowe wewnętrzne {{krazenie_oboczne}}. Poszerzenie aorty, tętniak i ewentualne zmiany po leczeniu {{zmiany_towarzyszace}}.
   impressionTemplate: |
-    Koarktacja aorty {{lokalizacja}}, najmniejsza średnica {{srednica_mm}} mm, {{krazenie_oboczne_i_zmiany_towarzyszace}}.
+    Koarktacja aorty {{lokalizacja}}, {{krazenie_oboczne_i_zmiany_towarzyszace}}.
   clinicalNotes:
     - CTA określa anatomię zwężenia, lecz nie mierzy bezpośrednio gradientu ciśnień.

@@ -15,19 +15,19 @@ tags:
   - Rezydent
   - Pilne
 status: draft
-version: "0.1.1"
+version: "0.1.2"
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-trauma
   - pneumothorax-nice-major-trauma
 sections:
   assessmentChecklist:
-    - Strona, rozległość odmy i stopień zapadnięcia płuca.
-    - Przemieszczenie śródpiersia, ucisk jam serca i położenie przepony.
-    - Płyn opłucnowy, dreny i inne obrażenia.
+    - Rozległość odmy, zapadnięcie płuca i przemieszczenie śródpiersia.
+    - Położenie przepony i ucisk struktur śródpiersia.
+    - Krytyczny wynik przekaż niezwłocznie; rozpoznanie odmy prężnej jest kliniczne.
   reportTemplate: |
-    W {{strona}} jamie opłucnej powietrze {{rozleglosc}}; płuco {{stopien_zapadniecia}}. Śródpiersie {{przemieszczenie}}, przepona i serce {{efekt_masy}}. Płyn opłucnowy {{plyn}}, dreny {{dreny}}, inne obrażenia {{obrazenia}}.
+    W {{strona}} jamie opłucnej obecna rozległa odma, z {{stopien_zapadniecia}} płuca po tej stronie. Widoczne {{przemieszczenie_srodpiersia}}, {{polozenie_kopuly_przepony}} oraz {{ucisk_struktur_srodpiersia}}. {{plyn_oplucnowy_dren_i_inne_obrazenia}}.
   impressionTemplate: |
-    Odma {{strona}} z {{efekt_masy}}; obraz budzi podejrzenie odmy prężnej w odpowiednim kontekście klinicznym.
+    Rozległa {{strona}} odma opłucnowa z {{cechy_efektu_masy}} – {{podejrzenie_odmy_preznej_w_kontekscie_klinicznym}}.
   clinicalNotes:
     - Odma prężna jest rozpoznaniem klinicznym. Podejrzenie należy niezwłocznie przekazać zespołowi leczącemu. Przy niestabilności hemodynamicznej lub ciężkich zaburzeniach oddychania obrazowanie nie powinno opóźniać pilnego postępowania.

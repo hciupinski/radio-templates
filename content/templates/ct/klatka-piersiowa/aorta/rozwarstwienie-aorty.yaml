@@ -1,25 +1,34 @@
-id: "ct-rozwarstwienie-aorty"
-title: "Rozwarstwienie aorty"
-modality: "CT"
-examTypes: ["Angio-CT aorty"]
-bodySystems: ["Układ naczyniowy"]
-bodyParts: ["Klatka piersiowa", "Jama brzuszna"]
-organs: ["Aorta"]
-pathology: ["Rozwarstwienie aorty"]
-tags: ["Rezydent", "Pilne"]
-status: "draft"
-version: "0.1.1"
+id: ct-rozwarstwienie-aorty
+title: Rozwarstwienie aorty
+modality: CT
+examTypes:
+  - Angio-CT aorty
+bodySystems:
+  - Układ naczyniowy
+bodyParts:
+  - Klatka piersiowa
+  - Jama brzuszna
+organs:
+  - Aorta
+pathology:
+  - Rozwarstwienie aorty
+tags:
+  - Rezydent
+  - Pilne
+status: draft
+version: "0.1.2"
 updatedAt: "2026-11-16"
 sourceRefs:
   - cta-aorta-acc-aha-2022
   - radiopaedia-cta-aortic-syndrome
 sections:
   assessmentChecklist:
-    - "Zakres badania, zasięg płata i zajęcie aorty wstępującej; światła prawdziwe i rzekome."
-    - "Punkt wejścia, jeśli widoczny, odejścia i drożność gałęzi, cechy malperfuzji i pęknięcia."
+    - Zakres, zajęcie aorty wstępującej i klasyfikacja Stanford, jeśli możliwa.
+    - Światło prawdziwe i fałszywe, odejścia gałęzi, punkt wejścia i wymiary.
+    - Płyn osierdziowy, pęknięcie, krwiak śródścienny oraz malperfuzja w zakresie badania.
   reportTemplate: |
-    Zakres i jakość badania {{zakres_i_jakosc}}. Płat rozwarstwienia od {{poczatek}} do {{koniec}}; aorta wstępująca {{ocena_aorty_wstepujacej}}, typ Stanford {{typ_lub_niemozliwy_do_okreslenia}}. Punkt wejścia {{punkt_wejscia_lub_niewidoczny}}. Światło prawdziwe {{swiatlo_prawdziwe}}, rzekome {{swiatlo_rzekome}}. Gałęzie {{galezie_i_droznosc}}, cechy malperfuzji {{malperfuzja}}. Krwawienie lub płyn {{powiklania}}.
+    Zakres i jakość badania {{zakres_i_jakosc}}. W świetle aorty widoczna błona rozwarstwienia, rozdzielająca światło prawdziwe i fałszywe. Widoczny zasięg rozwarstwienia od {{zasieg_proksymalny}} do {{zasieg_dystalny}}. Miejsce pierwotnego wniknięcia krwi {{punkt_wejscia_lub_nieustalony}}. Maksymalna średnica aorty wynosi {{srednica_mm}} mm. Światło fałszywe {{droznosc_swiatla_falszywego}}. Gałęzie łuku oraz naczynia trzewne w zakresie badania {{pochodzenie_i_zajecie_galezi}}. {{pekniecie_krwiak_plyn_osierdziowy_i_malperfuzja}}.
   impressionTemplate: |
-    Rozwarstwienie aorty od {{poczatek}} do {{koniec}}, {{typ_stanford_lub_ograniczenia}}. {{powiklania}}.
+    Rozwarstwienie aorty typu {{typ_stanford_lub_nieocenialny}}, obejmujące odcinek {{zasieg}}. {{powiklania_i_ograniczenia}}.
   clinicalNotes:
-    - "Typ Stanford należy określić tylko przy dostatecznej ocenie aorty wstępującej. Artefakt ruchowy może naśladować płat; ocena krwiaka śródściennego jest ograniczona bez fazy przed kontrastem."
+    - Typ Stanford należy określić tylko przy dostatecznej ocenie aorty wstępującej. Artefakt ruchowy może naśladować płat; ocena krwiaka śródściennego jest ograniczona bez fazy przed kontrastem.

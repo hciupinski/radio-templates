@@ -1,0 +1,23 @@
+id: "ct-wezel-srodplucny"
+title: "Guzek przyszczelinowy o morfologii węzła śródpłucnego"
+modality: "CT"
+examTypes: ["CT klatki piersiowej"]
+bodySystems: ["Układ oddechowy"]
+bodyParts: ["Klatka piersiowa"]
+organs: ["Płuca"]
+pathology: ["Guzek o morfologii węzła śródpłucnego"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["ct-perifissural"]
+sections:
+  assessmentChecklist:
+    - "Położenie względem szczeliny lub opłucnej, wymiary i kształt."
+    - "Lity charakter, jednorodność, gładkie granice i porównanie."
+  reportTemplate: |
+    W płucu {{strona}}, przy {{szczelina_lub_oplucna}}, widoczny gładko ograniczony lity guzek o kształcie {{ksztalt}}, wymiarach {{wymiary_mm}} mm i {{jednorodnosc}}. Porównanie {{porownanie}}.
+  impressionTemplate: |
+    Guzek przyszczelinowy {{lokalizacja}}, o {{morfologia_i_pewnosc}} węzła śródpłucnego.
+  clinicalNotes:
+    - "Położenie przy szczelinie samo nie potwierdza łagodności; morfologię należy oceniać w kontekście klinicznym."

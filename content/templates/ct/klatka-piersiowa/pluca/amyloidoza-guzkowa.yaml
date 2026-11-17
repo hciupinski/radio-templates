@@ -1,0 +1,32 @@
+id: ct-amyloidoza-guzkowa
+title: Amyloidoza płucna – postać guzkowa
+modality: CT
+examTypes:
+  - HRCT klatki piersiowej
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Płuca
+pathology:
+  - Amyloidoza płucna guzkowa
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct-amyloidosis-review
+  - chest-hrct-basic-2025
+sections:
+  assessmentChecklist:
+    - Liczba, położenie, wymiary i granice guzków.
+    - Zwapnienia, jamienie oraz inne zmiany płucne.
+    - Dynamika i różnicowanie z chorobą nowotworową lub ziarniniakową.
+  reportTemplate: |
+    W {{lokalizacja}} płuc guzki {{liczba_i_rozmieszczenie}}, o wymiarach do {{wymiar_mm}} mm, zarysach {{zarysy}}. Zwapnienia {{zwapnienia}}, jamienie {{jamienie}}. W porównaniu z {{data_badania}} {{dynamika}}; inne zmiany {{inne}}.
+  impressionTemplate: |
+    Zmiany guzkowe płuc {{lokalizacja_i_zasieg}}, {{pewnosc}} amyloidozy płucnej w odpowiednim kontekście. {{roznicowanie}}.
+  clinicalNotes:
+    - Guzki amyloidowe są nieswoiste i mogą przypominać nowotwór lub chorobę ziarniniakową.

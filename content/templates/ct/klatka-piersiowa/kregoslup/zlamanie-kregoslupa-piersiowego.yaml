@@ -14,19 +14,19 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
+version: 0.1.1
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-trauma
   - chest3-cord
 sections:
   assessmentChecklist:
-    - Poziomy i morfologia złamania, ściany trzonu i elementy tylne.
-    - Przemieszczenie, deformacja i zawężenie kanału.
-    - Krwiak przykręgowy oraz pozostałe obrażenia.
+    - Poziom i morfologia, ubytek wysokości oraz tylna ściana trzonu.
+    - Odłamy w kanale, łuki, nasady i ustawienie kręgów.
+    - Tkanki przykręgowe, inne obrażenia i ograniczenia CT.
   reportTemplate: |
-    Na poziomie {{poziom}} złamanie {{morfologia_i_zasieg}}, obniżenie trzonu {{obnizenie_procent}}%, tylna ściana {{tylna_sciana}}. Elementy tylne {{elementy_tylne}}, ustawienie {{ustawienie}}, kanał kręgowy {{kanal}}. Tkanki przykręgowe {{tkanki}}; pozostałe obrażenia {{inne}}.
+    Na poziomie {{poziom}} złamanie trzonu {{morfologia}}, obniżenie wysokości części przedniej {{obnizenie_przednie_procent}}%, środkowej {{obnizenie_srodkowe_procent}}%. Tylna ściana i ewentualna retropulsja {{tylna_sciana_i_retropulsja}}; kanał kręgowy {{kanal}}. Elementy tylne i ustawienie {{elementy_tylne_i_ustawienie}}. Tkanki przykręgowe i inne obrażenia {{inne}}.
   impressionTemplate: |
-    Złamanie {{poziom_i_morfologia}}, {{przemieszczenie_i_kanal}}.
+    Złamanie kręgu {{poziom_i_morfologia}}. {{retropulsja_kanal_i_inne_obrazenia}}.
   clinicalNotes:
     - CT klatki może wymagać dedykowanych rekonstrukcji kręgosłupa; ocena więzadeł i rdzenia jest ograniczona.

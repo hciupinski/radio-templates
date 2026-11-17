@@ -14,7 +14,7 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
+version: 0.1.1
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-trauma
@@ -36,10 +36,12 @@ imageRefs:
     lastCheckedAt: "2026-11-16"
 sections:
   assessmentChecklist:
-    - Strona, lokalizacja i rozległość zagęszczeń w kontekście urazu.
-    - Rozdarcie płuca, odma lub krew w opłucnej.
-    - Złamania żeber oraz inne obrażenia.
+    - Strona, segmenty, rozległość i relacja do miejsca urazu.
+    - Złamania ściany, odma, płyn opłucnowy i pourazowe jamy.
+    - Kontekst czasowy i możliwa ewolucja stłuczenia.
   reportTemplate: |
-    W {{lokalizacja}} zagęszczenia typu {{mleczna_szyba_i_konsolidacja}} o zasięgu {{zasieg}}, w kontekście urazu mogą odpowiadać stłuczeniu. Jamy pourazowe {{jamy}}, opłucna {{odma_i_plyn}}, ściana klatki {{zlamania_i_tkanki}}. Pozostałe obrażenia {{inne}}.
+    W {{lokalizacja}} widoczne nieregularne obszary matowej szyby i konsolidacji {{zasieg}}, {{stosunek_do_granic_segmentow}}. W sąsiedztwie {{obrazenia_sciany}}. Odma lub płyn opłucnowy {{oplucna}}, pourazowe jamy {{jamy}}.
   impressionTemplate: |
-    Obraz stłuczenia {{lokalizacja_i_zasieg}}. {{obrazenia_towarzyszace}}.
+    Pourazowe zmiany miąższu płuca {{lokalizacja_i_zasieg}}, {{pewnosc}} stłuczenia. {{obrazenia_towarzyszace}}.
+  clinicalNotes:
+    - Stłuczenie może stać się bardziej rozległe w kolejnych godzinach po urazie.

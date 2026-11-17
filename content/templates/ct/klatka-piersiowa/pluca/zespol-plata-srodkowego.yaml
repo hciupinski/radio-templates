@@ -14,18 +14,18 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
+version: "0.1.1"
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-middle-lobe
 sections:
   assessmentChecklist:
-    - Utrata objętości i zagęszczenie płata środkowego oraz dynamika.
-    - "Oskrzele płata środkowego: drożność, wydzielina, ucisk lub widoczna zmiana."
-    - Rozstrzenie, zmiany towarzyszące i węzły wnęki.
+    - Utrata objętości, rozstrzenie i porównanie z badaniami poprzednimi.
+    - Drożność oskrzela płatowego, czop śluzowy, guz lub ucisk przez węzły.
+    - Rozróżnienie obturacyjnego i nieobturacyjnego podłoża, gdy możliwe.
   reportTemplate: |
-    Płat środkowy {{utrata_objetosci_i_zageszczenie}}, {{rozstrzenie_i_wydzielina}}. Oskrzele płata środkowego {{droznosc_i_mozliwa_przeszkoda}}; wnęka prawa {{wezly_lub_zmiana}}. Pozostałe płuca i opłucna {{pozostale_zmiany}}. W porównaniu z {{data_badania}} {{dynamika}}.
+    Płat środkowy płuca prawego o {{objetosc}}, z {{zageszczenia_i_przemieszczenie_szczelin}}. W jego obrębie {{rozstrzenie_oskrzeli}}. Oskrzele płata środkowego {{droznosc}}, {{zmiana_guzowata_lub_ograniczenia}}. Wnęka prawa {{wezly_i_ucisk}}. W porównaniu z {{data_badania}} {{dynamika_lub_brak_porownania}}.
   impressionTemplate: |
-    Niedodma płata środkowego {{ocena_i_dynamika}}, {{mozliwa_przyczyna}}.
+    {{charakter_i_dynamika_zmian}} płata środkowego prawego, {{zgodnosc_z_zespolem_plata_srodkowego}}.
   clinicalNotes:
     - Zespół jest rozpoznaniem kliniczno-obrazowym; pojedyncze badanie nie dowodzi nawracania ani czasu trwania niedodmy.

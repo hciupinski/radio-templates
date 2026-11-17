@@ -1,0 +1,23 @@
+id: "ct-plat-zyly-nieparzystej"
+title: "Płat żyły nieparzystej"
+modality: "CT"
+examTypes: ["CT klatki piersiowej"]
+bodySystems: ["Układ oddechowy"]
+bodyParts: ["Klatka piersiowa"]
+organs: ["Płuca"]
+pathology: ["Płat żyły nieparzystej"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["ct-vascular-variants"]
+sections:
+  assessmentChecklist:
+    - "Szczelina w szczycie prawego płuca i widoczna żyła nieparzysta."
+    - "Położenie wariantu oraz ewentualne ograniczenia."
+  reportTemplate: |
+    W szczycie prawego płuca widoczna dodatkowa szczelina opłucnowa zawierająca żyłę nieparzystą i oddzielająca niewielki fragment miąższu {{opis}}.
+  impressionTemplate: |
+    Płat żyły nieparzystej – wariant anatomiczny.
+  clinicalNotes:
+    - "Nie jest to dodatkowy płat anatomiczny z niezależnym oskrzelem."

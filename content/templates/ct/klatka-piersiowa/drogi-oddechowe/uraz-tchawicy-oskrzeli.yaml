@@ -14,18 +14,18 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
+version: 0.1.1
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-airway-trauma
 sections:
   assessmentChecklist:
-    - Ciągłość ściany i lokalizacja ewentualnej szczeliny tchawicy lub oskrzela.
-    - Odma śródpiersia, opłucnowa i podskórna, ustawienie rurki lub drenu.
-    - Niedodma, uszkodzenia naczyń i inne obrażenia.
+    - Miejsce i długość podejrzanego ubytku ściany oraz światło tchawicy i oskrzeli.
+    - Gaz w śródpiersiu, opłucnej i tkankach podskórnych, rurki i dreny.
+    - Niedodma, obrażenia naczyniowe i pozostałe uszkodzenia.
   reportTemplate: |
-    Tchawica i oskrzela główne {{ciaglosc_i_miejsce_podejrzane}}. Gaz w śródpiersiu i tkankach miękkich {{gaz}}, odma lub płyn opłucnowy {{oplocna}}. Płuco {{niedodma_i_stluczenie}}, rurka i dreny {{urzadzenia}}. Inne obrażenia {{inne}}.
+    Na poziomie {{poziom}} tchawicy, w ścianie {{sciana}}, {{ciaglosc_i_dlugosc_ubytku}}. Światło {{swiatlo}}, oskrzela główne {{oskrzela}}. Gaz w śródpiersiu {{gaz}}, odma opłucnowa i podskórna {{odma}}; rurka i dreny {{urzadzenia}}. Inne obrażenia {{inne}}.
   impressionTemplate: |
-    {{pewnosc}} uszkodzenia {{lokalizacja_drog_oddechowych}}. {{odma_i_inne_obrazenia}}.
+    {{pewnosc}} uszkodzenia ściany {{lokalizacja}}. {{odma_i_obrazenia_towarzyszace}}.
   clinicalNotes:
     - Brak widocznej szczeliny w CT nie wyklucza urazu; ocena endoskopowa zależy od obrazu klinicznego.
