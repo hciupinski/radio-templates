@@ -14,7 +14,7 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.1"
+version: 0.1.2
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-hernia
@@ -36,13 +36,13 @@ imageRefs:
     lastCheckedAt: "2026-11-16"
 sections:
   assessmentChecklist:
-    - Rodzaj i zawartość przepukliny, położenie połączenia przełykowo-żołądkowego.
-    - Wymiary wrót, rotacja i rozdęcie żołądka, ucisk sąsiednich struktur.
-    - Cechy niedrożności, rozdęcia, skrętu lub niedokrwienia w objętym zakresie; dostępność fazy po podaniu kontrastu.
+    - Położenie połączenia żołądkowo-przełykowego i dna żołądka, zawartość worka.
+    - Rozmiar przepukliny, typ gdy możliwy do określenia.
+    - Cechy skrętu, niedrożności lub niedokrwienia.
   reportTemplate: |
-    Przez rozwór przełykowy przemieszcza się {{zawartosc}}, połączenie przełykowo-żołądkowe {{polozenie}}, wrota {{wymiary_mm}} mm. Żołądek {{rotacja_i_rozdecie}}, cechy niedrożności lub zaburzenia ukrwienia {{ocena_i_ograniczenia}}. Pozostałe zmiany {{inne}}.
+    Połączenie żołądkowo-przełykowe {{polozenie}}, do klatki piersiowej przemieszczone {{zawartosc_worka}}. Worek przepuklinowy {{wymiary_mm}} mm; rozwór i odnogi przepony {{rozwor}}. Cechy skrętu, niedrożności lub niedokrwienia {{powiklania}}.
   impressionTemplate: |
-    Przepuklina rozworu przełykowego {{typ_i_zawartosc}}. {{powiklania_lub_ocena_ograniczona}}.
+    Przepuklina rozworu przełykowego {{typ_jesli_mozliwy_do_okreslenia}}. {{powiklania}}.
   clinicalNotes:
     - Samo nieprawidłowe ustawienie żołądka w dużej przepuklinie nie dowodzi ostrego skrętu; należy ocenić cechy niedrożności i możliwego niedokrwienia.
     - Ocena wzmocnienia ściany i niedokrwienia jest ograniczona bez odpowiedniej fazy pokontrastowej; brak jednoznacznych cech CT nie wyklucza niedokrwienia.

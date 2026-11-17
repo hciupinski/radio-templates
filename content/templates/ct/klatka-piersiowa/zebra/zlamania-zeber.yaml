@@ -14,7 +14,7 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
+version: 0.1.1
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-trauma
@@ -35,10 +35,10 @@ imageRefs:
     lastCheckedAt: "2026-11-16"
 sections:
   assessmentChecklist:
-    - Strona, numery żeber, miejsca i liczba szczelin, przemieszczenie.
-    - Wieloodcinkowość i obrażenia mostka, łopatki oraz kręgosłupa.
-    - Odma, krwiak opłucnej, stłuczenie i krwiak ściany.
+    - Strona, numery żeber, położenie, liczba szczelin i przemieszczenie.
+    - Wieloodcinkowość, ewentualny segment niestabilny i inne złamania.
+    - Odma, płyn opłucnowy, stłuczenie i krwiak ściany.
   reportTemplate: |
-    Złamania żeber {{strona_i_numery}} w odcinkach {{lokalizacje}}, {{liczba_szczelin_i_przemieszczenie}}. Pozostałe kości {{pozostale_kosci}}. Tkanki ściany {{krwiak_i_odma_podskorna}}; płuca i opłucna {{stluczenie_odma_i_plyn}}.
+    Złamania żeber {{numery_i_strona}} w odcinkach {{lokalizacja}}, przemieszczenie do {{przemieszczenie_mm}} mm; wieloodłamowość i liczba miejsc złamania {{morfologia}}. Tkanki ściany {{tkanki}}. Odma, płyn opłucnowy i uszkodzenie przyległego płuca {{oplucna_i_pluco}}. Inne obrażenia kostne {{inne_kosci}}.
   impressionTemplate: |
-    Złamania żeber {{strona_i_numery}}, {{przemieszczenie}}. {{obrazenia_towarzyszace}}.
+    Złamania żeber {{numery_i_strona}}, {{przemieszczenie_i_wieloodcinkowosc}}. {{obrazenia_towarzyszace}}.

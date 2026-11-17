@@ -14,18 +14,18 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.1"
+version: "0.1.2"
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest-tnm-radiology-assistant
 sections:
   assessmentChecklist:
-    - Liczba, lokalizacja i wymiary zmian płucnych; porównanie.
-    - Węzły klatki piersiowej, guzki lub pogrubienie opłucnej, płyn, osierdzie i kości.
-    - Pozostałe zmiany w zakresie badania oraz ograniczenia oceny.
+    - Rozmieszczenie, wymiary i dynamika guzków; położenie względem ogniska pierwotnego.
+    - Węzły, guzki opłucnowe, płyn i zmiany kostne w zakresie badania.
+    - Nie każdy dodatkowy guzek jest przerzutem; znaczenie TNM zależy od lokalizacji.
   reportTemplate: |
-    Guz pierwotny {{lokalizacja_i_wymiary}}, jego zasięg miejscowy {{zasieg}}. W płucach {{liczba_i_lokalizacja_guzkow}}, największy {{wymiary_mm}} mm, {{charakter}}. Węzły wnękowe, śródpiersiowe i nadobojczykowe w zakresie badania {{wezly_lokalizacja_i_wymiary}}. Opłucna, ewentualne guzki opłucnowe i płyn oraz osierdzie {{oplucna_i_osierdzie}}, kości {{kosci}}, widoczne nadbrzusze {{nadbrzusze_i_ograniczenia}}. Porównanie z {{data_badania}}: {{dynamika}}.
+    {{stronnosc}} w miąższu płucnym obecne liczne lite guzki o zróżnicowanej wielkości, od {{najmniejszy_mm}} do {{najwiekszy_mm}} mm, rozmieszczone {{rozmieszczenie}}. W porównaniu z badaniem z dnia {{data_badania}} widoczna {{dynamika}} zmian. Dodatkowo {{wezly_kosci_i_guzki_oplucnowe}}. Guz pierwotny i jego zasięg {{guz_pierwotny}}, pozostałe zmiany w zakresie badania {{inne}}.
   impressionTemplate: |
-    {{ocena_rozsiewu_i_pewnosc}}. {{najwazniejsze_lokalizacje_i_dynamika}}.
+    Liczne zmiany ogniskowe w płucach, {{pewnosc_rozsiewu_w_kontekscie_raka_pluca}}. {{dynamika_i_inne_zmiany}}.
   clinicalNotes:
     - Podejrzane ogniska nie są swoiste dla przerzutów; rozpoznanie należy odnieść do choroby podstawowej i badań porównawczych. CT ocenia wyłącznie struktury objęte badaniem i nie potwierdza histologii ani mikroskopowego zajęcia węzłów.

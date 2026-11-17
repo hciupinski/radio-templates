@@ -1,0 +1,23 @@
+id: "ct-zmiana-piersi"
+title: "Zmiana guzowata piersi w CT"
+modality: "CT"
+examTypes: ["CT klatki piersiowej z kontrastem"]
+bodySystems: ["Układ rozrodczy"]
+bodyParts: ["Klatka piersiowa"]
+organs: ["Piersi"]
+pathology: ["Zmiana guzowata piersi w CT"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["ct-breast-ct"]
+sections:
+  assessmentChecklist:
+    - "Strona, lokalizacja, rozmiar i cechy zmiany w dostępnym zakresie."
+    - "Skóra, mięsień piersiowy, pachowe węzły chłonne i porównanie."
+  reportTemplate: |
+    W obrębie piersi {{strona}}, {{lokalizacja}}, widoczna zmiana tkankowa o wymiarach {{wymiary_mm}} mm, o zarysach {{zarysy}} i wzmocnieniu {{wzmocnienie}}. Skóra i mięsień piersiowy {{stosunek_do_skory_i_miesnia}}. W dole pachowym {{strona}} węzły {{morfologia_i_wymiar_mm}}.
+  impressionTemplate: |
+    Zmiana guzowata piersi {{strona}}; {{dalsza_ocena_piersi}}.
+  clinicalNotes:
+    - "Rutynowe CT nie jest badaniem do pierwotnej charakterystyki piersi; nie należy przypisywać kategorii BI-RADS na jego podstawie."

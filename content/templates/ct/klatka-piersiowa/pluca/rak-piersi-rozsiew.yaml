@@ -14,7 +14,7 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.1"
+version: "0.1.2"
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-breast-metastases
@@ -26,9 +26,9 @@ sections:
     - Węzły klatki piersiowej, opłucna, osierdzie i kości.
     - Pozostałe zmiany w zakresie badania oraz ograniczenia oceny.
   reportTemplate: |
-    Okolica piersi i ściana klatki {{zmiany_pierwotne_lub_po_leczeniu}}; węzły pachowe i przymostkowe {{wezly_pachowe_i_przymostkowe}}. W płucach {{liczba_i_lokalizacja_guzkow}}, największy {{wymiary_mm}} mm, {{charakter}}. Węzły wnękowe, śródpiersiowe i nadobojczykowe w zakresie badania {{wezly_lokalizacja_i_wymiary}}. Opłucna i osierdzie {{oplucna_i_osierdzie}}, kości {{kosci}}, widoczne nadbrzusze {{nadbrzusze_i_ograniczenia}}. Porównanie z {{data_badania}}: {{dynamika}}.
+    W obu płucach {{guzki_i_rozmieszczenie}}, największy o średnicy {{srednica_mm}} mm w segmencie {{segment_i_strona}}. Węzły śródpiersia i wnęk {{wezly}}, pachowe i przymostkowe {{wezly_regionalne}}. W objętym zakresie układu kostnego {{ogniska_kostne_i_lokalizacja}}. Jamy opłucnowe {{plyn_lub_zmiany_oplucnowe}}; śródmiąższ {{limfangioza_lub_inne}}, okolica piersi i ściana klatki {{zmiany_pierwotne_lub_po_leczeniu}}. Porównanie {{porownanie}}.
   impressionTemplate: |
-    {{ocena_rozsiewu_i_pewnosc}}. {{najwazniejsze_lokalizacje_i_dynamika}}.
+    Zmiany ogniskowe w płucach {{oraz_kosciach_lub_innych_lokalizacjach}}, {{pewnosc_rozsiewu_w_kontekscie_raka_piersi}}.
   clinicalNotes:
     - Podejrzane ogniska nie są swoiste dla przerzutów; rozpoznanie należy odnieść do choroby podstawowej i badań porównawczych.
     - Badanie klatki piersiowej ocenia tylko obszar objęty akwizycją; samo nie wyklucza rozsiewu poza klatką piersiową ani nie stanowi pełnej oceny zaawansowania odległego.

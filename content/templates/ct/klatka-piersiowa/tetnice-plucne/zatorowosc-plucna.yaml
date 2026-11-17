@@ -14,20 +14,20 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.1"
+version: "0.1.2"
 updatedAt: "2026-11-16"
 sourceRefs:
   - ct-pe-consensus
   - audit-a-acute-pe-guideline-2026
 sections:
   assessmentChecklist:
-    - Jakość zakontrastowania, artefakty i najbardziej obwodowy poziom diagnostycznej oceny tętnic.
-    - Strona, lokalizacja, najbardziej proksymalny poziom i rozległość zatorów; cechy ostrego lub przewlekłego materiału.
-    - Stosunek maksymalnych wewnętrznych wymiarów RV/LV, płaszczyzna pomiaru i położenie przegrody oraz zmiany płucne i opłucnowe.
+    - Lokalizacja i rozległość zatorów oraz najbardziej proksymalny poziom.
+    - Liczbowy stosunek RV/LV, przegroda międzykomorowa i zmiany sugerujące zawał płuca.
+    - Jakość zakontrastowania, artefakty oraz cechy ostrej lub przewlekłej choroby.
   reportTemplate: |
-    Angio-CT tętnic płucnych: {{jakosc_zakontrastowania_artefakty_i_zakres_oceny}}. Ubytki wypełnienia {{strona_i_naczynia}}, najbardziej proksymalnie {{poziom}}, {{stopien_zamkniecia_i_charakter_ostry_lub_przewlekly}}. Cechy przewlekłej choroby zakrzepowo-zatorowej {{cechy_przewlekle_lub_brak}}. Stosunek maksymalnych wewnętrznych wymiarów RV/LV {{stosunek_rv_lv_lub_nieocenialny}} w płaszczyźnie {{plaszczyzna_pomiaru}}, przegroda międzykomorowa {{przegroda}}. Miąższ płuc {{zmiany_miazszowe}}, opłucna {{oplucna}}.
+    Jakość angio-CT i zakres oceny {{jakosc_i_zakres_oceny}}. W tętnicach płucnych {{poziom_naczyn}} po stronie {{strona}} obecne ubytki zakontrastowania, odpowiadające materiałowi zatorowemu {{charakter_ostry_lub_przewlekly}}. Najbardziej proksymalny zator zlokalizowany w {{lokalizacja_proksymalna}}. Stosunek maksymalnych wewnętrznych wymiarów prawej do lewej komory (RV/LV) wynosi {{stosunek_rv_lv_lub_nieocenialny}}. {{przegroda_miedzykomorowa}}. W obwodowych partiach płuca {{strona_pluca}} {{zageszczenie_klinowate_lub_brak}}. Opłucna {{oplucna}}.
   impressionTemplate: |
-    {{pewnosc_i_charakter_zatorowosci}}: {{lokalizacja_i_zasieg}}. RV/LV {{stosunek_rv_lv_lub_nieocenialny}}; {{pozostale_cechy_obciazenia_lub_ich_brak}}. {{ograniczenia_badania}}.
+    {{pewnosc_i_charakter_zatorowosci}} tętnic płucnych {{lokalizacja_i_rozleglosc}}. {{cechy_przeciazenia_prawej_komory}}. {{podejrzenie_zawalu_pluca_lub_brak}}. {{ograniczenia}}.
   clinicalNotes:
     - Wynik ujemny ogranicz do diagnostycznie ocenionego poziomu tętnic; niedostateczne zakontrastowanie lub artefakty mogą uniemożliwić ocenę.
     - Do pomiaru RV/LV użyj maksymalnych wymiarów wewnętrznych w przekrojach osiowych albo w rekonstrukcji czterojamowej i podaj zastosowaną metodę.

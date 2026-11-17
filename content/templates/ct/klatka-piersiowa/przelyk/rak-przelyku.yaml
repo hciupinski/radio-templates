@@ -14,18 +14,18 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
+version: 0.1.1
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-esophagus
 sections:
   assessmentChecklist:
-    - Położenie, długość, grubość i szerzenie miejscowe guza.
-    - Relacja do tchawicy, oskrzeli, aorty, osierdzia i innych struktur.
-    - Węzły, płuca, opłucna i narządy nadbrzusza w zakresie badania.
+    - Lokalizacja, długość, grubość zmiany, zwężenie i poszerzenie powyżej.
+    - Stosunek do tchawicy, oskrzeli, aorty i osierdzia, ewentualna przetoka.
+    - Regionalne węzły i zmiany odległe w objętym zakresie.
   reportTemplate: |
-    Przełyk w odcinku {{odcinek}} wykazuje {{guz_i_wymiary}}, długości {{dlugosc_mm}} mm; światło {{swiatlo}}. Relacja do dróg oddechowych, aorty i osierdzia {{relacje}}. Węzły {{lokalizacja_i_wymiary}}, płuca i opłucna {{pluca_i_oplucna}}, nadbrzusze w zakresie badania {{nadbrzusze}}.
+    Na poziomie {{odcinek}} przełyku {{morfologia}} pogrubienie ściany do {{grubosc_mm}} mm na długości {{dlugosc_mm}} mm, {{wzmocnienie}}; światło {{swiatlo}}. Przełyk powyżej {{poszerzenie_i_tresc}}. Granica z tchawicą, aortą i osierdziem {{relacje}}, cechy przetoki {{przetoka}}. Węzły {{wezly_i_os_krotka}}, zmiany odległe w dostępnym zakresie {{inne}}.
   impressionTemplate: |
-    Guz przełyku {{odcinek_i_rozmiar}}, {{zasieg_i_wezly}}. {{pozostale_zmiany}}.
+    Obraz {{pewnosc}} nowotworu przełyku {{lokalizacja}}. {{szerzenie_pozaprzelykowe_i_wezly}}.
   clinicalNotes:
     - CT nie ustala rozpoznania histologicznego ani nie rozstrzyga wiarygodnie wszystkich warstw naciekania ściany.

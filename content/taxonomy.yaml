@@ -533,6 +533,11 @@ organs:
     label: Narządy w badaniu urazowym
     synonyms:
       - whole body trauma
+  - id: zyly-srodpiersia
+    label: Żyły śródpiersia
+    synonyms:
+      - mediastinal veins
+      - żyła główna górna
 
 pathology:
   - id: obraz-prawidlowy
@@ -1442,6 +1447,50 @@ pathology:
       - politrauma
       - polytrauma
       - multiple trauma
+  - id: odma-oplucnowa-ograniczona
+    label: Odma opłucnowa ograniczona
+    synonyms:
+      - odma lokulowana
+      - niewielka odma opłucnowa
+      - loculated pneumothorax
+  - id: proteinoza-pecherzykow-plucnych
+    label: Proteinoza pęcherzyków płucnych
+    synonyms:
+      - PAP
+      - pulmonary alveolar proteinosis
+  - id: plucna-histiocytoza-langerhansa
+    label: Płucna histiocytoza z komórek Langerhansa
+    synonyms:
+      - PLCH
+      - pulmonary Langerhans cell histiocytosis
+  - id: amyloidoza-plucna-guzkowa
+    label: Amyloidoza płucna guzkowa
+    synonyms:
+      - nodular pulmonary amyloidosis
+  - id: blizna-po-zawale-pluca
+    label: Podejrzenie blizny po zawale płuca
+  - id: zmiana-piersi
+    label: Zmiana guzowata piersi w CT
+  - id: wezel-srodplucny
+    label: Guzek o morfologii węzła śródpłucnego
+  - id: sarkoidoza
+    label: Podejrzenie sarkoidozy płucnej
+  - id: lam
+    label: Podejrzenie limfangioleiomiomatozy
+  - id: limfangioza-nowotworowa
+    label: Podejrzenie limfangiozy nowotworowej
+  - id: plat-zyly-nieparzystej
+    label: Płat żyły nieparzystej
+  - id: oskrzele-tchawicze
+    label: Oskrzele tchawicze
+  - id: prawostronny-luk-aorty
+    label: Prawostronny łuk aorty
+  - id: lewa-zyla-glowna-gorna
+    label: Przetrwała lewa żyła główna górna
+  - id: zapalenie-pluc-z-nadwrazliwosci
+    label: Podejrzenie zapalenia płuc z nadwrażliwości
+  - id: obrzek-po-rozprezeniu
+    label: Podejrzenie obrzęku płuca po rozprężeniu
 
 tags:
   - id: rezydent

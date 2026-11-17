@@ -1,0 +1,23 @@
+id: "ct-lewa-zyla-glowna-gorna"
+title: "Przetrwała lewa żyła główna górna"
+modality: "CT"
+examTypes: ["CT klatki piersiowej z kontrastem"]
+bodySystems: ["Układ naczyniowy"]
+bodyParts: ["Klatka piersiowa"]
+organs: ["Żyły śródpiersia"]
+pathology: ["Przetrwała lewa żyła główna górna"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["ct-vascular-variants"]
+sections:
+  assessmentChecklist:
+    - "Przebieg lewej żyły i miejsce jej ujścia, jeśli można je wiarygodnie ocenić."
+    - "Obecność prawej żyły głównej górnej, żyły ramienno-głowowej i jakość kontrastowania."
+  reportTemplate: |
+    Po lewej stronie śródpiersia przebiega naczynie żylne {{przebieg}}, odpowiadające przetrwałej lewej żyle głównej górnej; ujście {{ujscie_lub_nieocenione}}. Prawa żyła główna górna {{prawa_zyla}}, żyła ramienno-głowowa lewa {{zyla_ramienno_glowowa}}. Ocena ograniczona przez {{ograniczenia}}.
+  impressionTemplate: |
+    Przetrwała lewa żyła główna górna; ujście {{ujscie_lub_nieocenione}}.
+  clinicalNotes:
+    - "Lewa żyła może współistnieć z prawą albo występować bez niej; ujście do zatoki wieńcowej jest częste, lecz nie należy zakładać go bez uwidocznienia."

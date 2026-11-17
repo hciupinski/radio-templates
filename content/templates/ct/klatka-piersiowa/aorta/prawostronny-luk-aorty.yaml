@@ -1,0 +1,23 @@
+id: "ct-prawostronny-luk-aorty"
+title: "Prawostronny łuk aorty"
+modality: "CT"
+examTypes: ["CT klatki piersiowej z kontrastem"]
+bodySystems: ["Układ naczyniowy"]
+bodyParts: ["Klatka piersiowa"]
+organs: ["Aorta"]
+pathology: ["Prawostronny łuk aorty"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["cta-aorta-acc-aha-2022", "ct-vascular-variants"]
+sections:
+  assessmentChecklist:
+    - "Położenie łuku i kolejność odgałęzień, wariant tętnicy podobojczykowej."
+    - "Ewentualny uchył Kommerella i stosunek do tchawicy oraz przełyku."
+  reportTemplate: |
+    Łuk aorty przebiega po prawej stronie tchawicy i przełyku. Odejścia naczyń dogłowowych {{konfiguracja}}; {{uchylek_kommerella_lub_ocena}}. Stosunek do tchawicy i przełyku {{ucisk_lub_brak}}.
+  impressionTemplate: |
+    Prawostronny łuk aorty, {{konfiguracja_i_wazne_cechy}}.
+  clinicalNotes:
+    - "Ocena odgałęzień zależy od zakresu i jakości zakontrastowania."

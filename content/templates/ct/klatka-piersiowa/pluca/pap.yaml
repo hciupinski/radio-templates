@@ -1,0 +1,32 @@
+id: ct-pap
+title: Proteinoza pęcherzyków płucnych
+modality: CT
+examTypes:
+  - HRCT klatki piersiowej
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Płuca
+pathology:
+  - Proteinoza pęcherzyków płucnych
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct-pap-ers
+  - chest-hrct-basic-2025
+sections:
+  assessmentChecklist:
+    - Rozmieszczenie i zasięg matowej szyby oraz pogrubienia przegród.
+    - Obszary oszczędzone, cechy włóknienia i zmiany towarzyszące.
+    - Różnicowanie wzorca crazy paving z obrzękiem, zakażeniem i innymi przyczynami.
+  reportTemplate: |
+    W {{rozmieszczenie}} płuc obszary matowej szyby {{zasieg}}, z pogrubieniem przegród międzyzrazikowych i śródzrazikowych {{przegrody}}, tworzące obraz crazy paving. Obszary oszczędzone {{obszary_oszczedzone}}; inne zmiany {{inne}}.
+  impressionTemplate: |
+    Obraz crazy paving {{rozmieszczenie}}, {{pewnosc}} proteinozy pęcherzyków płucnych w odpowiednim kontekście klinicznym.
+  clinicalNotes:
+    - Crazy paving jest nieswoisty; CT samo nie potwierdza PAP.

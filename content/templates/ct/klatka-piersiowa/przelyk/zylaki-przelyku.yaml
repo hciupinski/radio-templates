@@ -14,7 +14,7 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.1"
+version: "0.1.2"
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-mediastinum
@@ -25,9 +25,9 @@ sections:
     - Inne drogi krążenia obocznego i cechy nadciśnienia wrotnego w zakresie badania.
     - Jakość kontrastowania oraz ograniczenia oceny.
   reportTemplate: |
-    W ścianie przełyku {{naczynia_scienne_i_zasieg}}, w tkankach okołoprzełykowych {{naczynia_okoloprzelykowe}}. Inne widoczne naczynia oboczne {{krazenie_oboczne}}, cechy nadciśnienia wrotnego w dostępnym zakresie {{nadcisnienie_wrotne}}. Jakość zakontrastowania {{jakosc_i_ograniczenia}}. Pozostałe zmiany {{inne}}.
+    Na wysokości {{odcinek_przelyku}} widoczne kręte, poszerzone naczynia żylne o średnicy do {{srednica_mm}} mm. Ich położenie względem ściany przełyku {{polozenie_srodscienne_lub_okoloprzelykowe}}, wzmocnienie kontrastowe {{wzmocnienie}}. W okolicy wpustu żołądka {{naczynia_oboczne}}. Cechy nadciśnienia wrotnego w zakresie badania {{cechy_nadcisnienia_wrotnego}}. Ograniczenia oceny {{ograniczenia}}.
   impressionTemplate: |
-    {{zylaki_scienne_lub_naczynia_okoloprzelykowe_i_pewnosc}}; {{inne_cechy_nadcisnienia_wrotnego}}.
+    {{zylaki_scienne_lub_naczynia_okoloprzelykowe_i_pewnosc}}, {{cechy_nadcisnienia_wrotnego}}.
   clinicalNotes:
     - Naczynia okołoprzełykowe nie są tożsame z żylakami w ścianie przełyku; jeżeli lokalizacja jest niepewna, należy to zaznaczyć. CT może nie uwidocznić małych żylaków i nie zastępuje oceny endoskopowej.
     - CT nie określa wiarygodnie ryzyka krwawienia z żylaków.

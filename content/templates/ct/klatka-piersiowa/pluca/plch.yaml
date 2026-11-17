@@ -1,0 +1,32 @@
+id: ct-plch
+title: Płucna histiocytoza z komórek Langerhansa
+modality: CT
+examTypes:
+  - HRCT klatki piersiowej
+bodySystems:
+  - Układ oddechowy
+bodyParts:
+  - Klatka piersiowa
+organs:
+  - Płuca
+pathology:
+  - Płucna histiocytoza z komórek Langerhansa
+tags:
+  - Rezydent
+status: draft
+version: 0.1.0
+updatedAt: "2026-11-16"
+sourceRefs:
+  - ct-plch-consensus
+  - chest-hrct-basic-2025
+sections:
+  assessmentChecklist:
+    - Rozmieszczenie guzków, guzków z jamieniem i torbieli.
+    - Względne oszczędzenie podstaw, odma oraz zmiany towarzyszące.
+    - Kontekst palenia i różnicowanie innych chorób torbielowatych.
+  reportTemplate: |
+    W obu płucach, z przewagą w {{partie_pluc}}, widoczne liczne drobne guzki {{jamienie_guzkow}} oraz nieregularne, miejscami wielopłatowe torbiele {{grubosc_scian_i_rozmiary}}. Okolice kątów przeponowo-żebrowych {{wzgledne_oszczedzenie_lub_zajecie}}. Odma opłucnowa {{odma}}. {{inne_zmiany}}.
+  impressionTemplate: |
+    Zmiany guzkowo-torbielowate {{rozmieszczenie}}, {{pewnosc}} płucnej histiocytozy z komórek Langerhansa.
+  clinicalNotes:
+    - Obraz należy interpretować wraz z wywiadem, w tym dotyczącym palenia, oraz różnicowaniem innych chorób płuc.

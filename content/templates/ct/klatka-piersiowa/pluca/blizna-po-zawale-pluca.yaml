@@ -1,0 +1,23 @@
+id: "ct-blizna-po-zawale-pluca"
+title: "Blizna płuca po przebytym zawale"
+modality: "CT"
+examTypes: ["CT klatki piersiowej"]
+bodySystems: ["Układ oddechowy"]
+bodyParts: ["Klatka piersiowa"]
+organs: ["Płuca"]
+pathology: ["Podejrzenie blizny po zawale płuca"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["ct-pulmonary-infarction"]
+sections:
+  assessmentChecklist:
+    - "Lokalizacja podopłucnowa, kształt, ubytek objętości i zaciąganie opłucnej."
+    - "Element guzkowy, inne zmiany i porównanie z badaniem z okresu zatorowości."
+  reportTemplate: |
+    W obwodowej, podopłucnowej części płata {{plat_i_strona}} widoczne pasmowate zagęszczenie miąższowe z {{zaciaganie_oplucnej}} i {{zmniejszenie_objetosci}} sąsiedniego miąższu. Zmiana o charakterze włóknistym, {{komponenta_guzkowa}}. Porównanie {{porownanie}}.
+  impressionTemplate: |
+    Podopłucnowa zmiana bliznowata w płucu {{strona}}, {{zwiazek_z_przebytym_zawalem_lub_niepewny}}.
+  clinicalNotes:
+    - "Pasmowata blizna nie ustala przyczyny; porównanie z wcześniejszym obrazowaniem może potwierdzić ewolucję."

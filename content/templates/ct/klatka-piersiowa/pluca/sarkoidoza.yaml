@@ -1,0 +1,40 @@
+id: "ct-sarkoidoza"
+title: "Zmiany płucne podejrzane o sarkoidozę"
+modality: "CT"
+examTypes: ["HRCT klatki piersiowej"]
+bodySystems: ["Układ oddechowy"]
+bodyParts: ["Klatka piersiowa"]
+organs: ["Płuca"]
+pathology: ["Podejrzenie sarkoidozy płucnej"]
+tags: ["Rezydent"]
+status: "draft"
+version: "0.1.0"
+updatedAt: "2026-11-16"
+sourceRefs: ["ct-sarcoidosis"]
+imageRefs:
+  - id: ct-sarcoid-commons
+    title: Sarkoidoza płucna i śródpiersiowa
+    imageUrl: >-
+      https://upload.wikimedia.org/wikipedia/commons/3/3b/Pulmonale_und_mediastinale_Sarkoidose_41W_-_CR_pa_und_CT_cor_und_ax_HR_-_001.jpg
+    sourceUrl: >-
+      https://commons.wikimedia.org/wiki/File:Pulmonale_und_mediastinale_Sarkoidose_41W_-_CR_pa_und_CT_cor_und_ax_HR_-_001.jpg
+    sourceId: wikimedia-commons
+    caption: Po prawej TK w oknie śródpiersiowym i płucnym. Po lewej zdjęcie RTG tego samego przypadku.
+    alt: TK pokazuje węzły chłonne wnęk i śródpiersia oraz drobne guzki w płucach.
+    category: typical
+    findings:
+      - Powiększone węzły we wnękach płuc i w śródpiersiu.
+      - Drobne zagęszczenia guzkowe w obu płucach, m.in. okołooskrzelowo-naczyniowo.
+    attribution: Hellerhoff, Wikimedia Commons, CC BY-SA 4.0
+    licenseMode: cc-by-sa
+    lastCheckedAt: "2026-11-17"
+sections:
+  assessmentChecklist:
+    - "Węzły wnękowe i śródpiersiowe, symetria, osie krótkie."
+    - "Guzki perilimfatyczne, lokalizacja i dystrybucja; włóknienie i rozstrzenie z pociągania."
+  reportTemplate: |
+    W śródpiersiu i obu wnękach płucnych widoczne powiększone węzły chłonne, największe do {{os_krotka_mm}} mm w osi krótkiej. Rozmieszczenie i symetria limfadenopatii {{wezly_i_symetria}}. W miąższu obu płuc, głównie w {{partie_pluc}}, widoczne drobne guzki o rozmieszczeniu perilimfatycznym, wzdłuż pęczków oskrzelowo-naczyniowych, szczelin międzypłatowych i podopłucnowo. Cechy włóknienia {{wloknienie}}. {{inne_zmiany}}.
+  impressionTemplate: |
+    Zmiany węzłowe i miąższowe {{pewnosc}} sarkoidozy w odpowiednim kontekście klinicznym.
+  clinicalNotes:
+    - "Obraz wymaga korelacji klinicznej i różnicowania m.in. z zakażeniem ziarniniakowym i chłoniakiem; samo CT nie ustala rozpoznania histologicznego."

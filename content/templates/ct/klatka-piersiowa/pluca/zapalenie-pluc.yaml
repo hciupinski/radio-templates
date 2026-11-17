@@ -14,20 +14,18 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.1"
+version: "0.1.2"
 updatedAt: "2026-11-16"
 sourceRefs:
   - ct-pneumonia-review
 sections:
   assessmentChecklist:
-    - Lokalizacja, rozległość i wzorzec zagęszczeń.
-    - Drogi oddechowe, ewentualna przeszkoda oskrzela, jama i cechy martwicy oceniane z uwzględnieniem fazy.
-    - Płyn opłucnowy i węzły chłonne.
-  reportTemplate: >
-    W {{lokalizacja}} widoczne {{konsolidacje_i_lub_mleczna_szyba}}, o zasięgu {{zasieg}}; bronchogram powietrzny
-    {{bronchogram}}. Oskrzela {{oskrzela}}. Jama lub cechy martwicy {{martwica_jama_i_ograniczenia}}. Opłucna {{plyn_i_oplucna}}; węzły
-    chłonne {{wezly}}.
+    - Rozmieszczenie konsolidacji i bronchogramu powietrznego oraz zmiany typu drzewa w pączkach.
+    - Jamy i obszary słabego wzmocnienia w odpowiedniej fazie po kontraście.
+    - Płyn opłucnowy, drożność oskrzeli i możliwa przeszkoda.
+  reportTemplate: |
+    W segmentach {{segmenty}} płuca {{strona}} obecne obszary zagęszczeń miąższowych o charakterze konsolidacji, {{bronchogram_powietrzny}}. W otoczeniu {{mleczna_szyba_i_zmiany_okolooskrzelowe}}. Płyn w jamie opłucnej {{plyn}}. Oskrzela {{oskrzela}}, jamy lub cechy martwicy {{martwica_i_ograniczenia}}.
   impressionTemplate: |
-    {{pewnosc_zmian_zapalnych}} w płucach: {{lokalizacja_i_zasieg}}. {{powiklania_i_ograniczenia}}.
+    Zmiany {{pewnosc_zmian_zapalnych}} w płucu {{strona}}, {{morfologia_i_powiklania}}.
   clinicalNotes:
     - Konsolidacje i zagęszczenia typu mlecznej szyby są nieswoiste; ich interpretacja wymaga danych klinicznych i porównania z wcześniejszymi badaniami. Ocena martwicy zależy od podania kontrastu i jakości fazy.

@@ -14,19 +14,19 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.1"
+version: 0.1.2
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-esophagectomy
   - audit-esophagectomy-isde-leak
 sections:
   assessmentChecklist:
-    - Rodzaj rekonstrukcji i położenie zespolenia w dostępnym zakresie.
-    - Ciągłość przewodu, zakontrastowanie doustne jeśli podano, gaz i zbiorniki w otoczeniu.
-    - Drożność, wzmocnienie ściany, dreny i powikłania opłucnowo-płucne.
+    - Rodzaj rekonstrukcji i położenie zespolenia.
+    - Zbiorniki, kontrast doustny i jego dotarcie do zespolenia, gaz w otoczeniu.
+    - Wzmocnienie ściany, skręt, zwężenie, dreny i ewentualna wznowa.
   reportTemplate: |
-    Stan po usunięciu przełyku; rekonstrukcja {{rodzaj_i_przebieg}}, zespolenie {{polozenie}}. Kontrast doustny {{podanie_i_dotarcie_do_zespolenia}}; wynaczynienie {{wynaczynienie_lub_ocena_ograniczona}}. Ściana rekonstrukcji {{wzmocnienie_i_ciaglosc}}, otoczenie {{gaz_plyn_i_zbiorniki}}. Dreny {{dreny}}, płuca i opłucna {{pluca_i_oplucna}}.
+    Stan po resekcji przełyku z rekonstrukcją {{rodzaj_i_przebieg_rekonstrukcji}}; zespolenie {{poziom}}. W otoczeniu {{gaz_i_zbiorniki}}. Kontrast doustny {{podanie_i_dotarcie_do_zespolenia}}, wynaczynienie {{wynaczynienie_lub_ograniczenia}}. Ściana i światło rekonstrukcji {{wzmocnienie_droznosc_i_skret}}, możliwa wznowa {{wznowa}}; dreny i zmiany opłucnowo-płucne {{inne}}.
   impressionTemplate: |
-    Stan po ezofagektomii {{rekonstrukcja}}. {{ocena_zespolenia_zbiorniki_i_ograniczenia}}.
+    Stan po ezofagektomii i rekonstrukcji {{rodzaj}}. {{ocena_zespolenia_powiklan_i_ograniczenia}}.
   clinicalNotes:
     - Brak wynaczynienia kontrastu doustnego nie wyklucza nieszczelności, szczególnie jeśli nie dotarł on do zespolenia. Gaz okołozespoleniowy we wczesnym okresie pooperacyjnym jest nieswoisty; zbiorniki i ich dynamikę należy ocenić w kontekście czasu od zabiegu.

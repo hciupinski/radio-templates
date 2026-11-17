@@ -14,18 +14,18 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
+version: 0.1.1
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest-hrct-basic-2025
 sections:
   assessmentChecklist:
-    - Rozmieszczenie osiowe i pionowe oraz zasięg zmian.
-    - Siateczka, konsolidacje, guzki, pułapka powietrzna i cechy włóknienia.
-    - Porównanie z wcześniejszym badaniem i technika wdechowa.
+    - Rozmieszczenie i zasięg matowej szyby z zachowanym rysunkiem naczyń i oskrzeli.
+    - Pogrubienie przegród, siateczka, rozstrzenie z pociągania i inne zmiany.
+    - Technika, dynamika i kontekst kliniczny.
   reportTemplate: |
-    W {{lokalizacja_i_rozmieszczenie}} zagęszczenia typu mlecznej szyby {{zasieg}}, {{siateczka_lub_konsolidacje}}. Guzki i oskrzela {{guzki_i_oskrzela}}; cechy włóknienia {{wloknienie}}. Ocena wydechowa {{ocena_lub_niewykonana}}. Płyn opłucnowy {{oplucna}}. Porównanie {{porownanie}}.
+    W {{lokalizacja_i_rozmieszczenie}} obszary matowej szyby o zasięgu {{zasieg}}, z zachowaną widocznością naczyń i ścian oskrzeli. Pogrubienie przegród, siateczka i rozstrzenie z pociągania {{zmiany_towarzyszace}}. {{pozostale_zmiany_i_porownanie}}.
   impressionTemplate: |
-    Zagęszczenia typu mlecznej szyby {{rozmieszczenie_i_zasieg}}, {{mozliwe_podloze_i_pewnosc}}.
+    Zagęszczenia typu matowej szyby {{rozmieszczenie_i_zasieg}}, obraz nieswoisty. {{mozliwe_podloze_i_pewnosc}}.
   clinicalNotes:
     - Mleczna szyba jest nieswoistym wzorcem, którego różnicowanie zależy od rozmieszczenia, dynamiki i danych klinicznych.

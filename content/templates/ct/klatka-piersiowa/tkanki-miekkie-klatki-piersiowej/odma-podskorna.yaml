@@ -14,16 +14,16 @@ pathology:
 tags:
   - Rezydent
 status: draft
-version: "0.1.0"
+version: "0.1.1"
 updatedAt: "2026-11-16"
 sourceRefs:
   - chest3-trauma
 sections:
   assessmentChecklist:
-    - Strona, rozległość i rozmieszczenie gazu w tkankach.
-    - Związek z odmą opłucnową, śródpiersiową, urazem lub drenażem.
-    - Możliwe źródło oraz inne obrażenia w zakresie badania.
+    - Rozległość gazu w tkankach podskórnych i mięśniach.
+    - Odma opłucnowa lub śródpiersiowa i potencjalne źródło.
+    - Uraz, dreny, uszkodzenie dróg oddechowych lub przełyku w dostępnym zakresie.
   reportTemplate: |
-    Gaz w tkankach miękkich {{strona_i_zasieg}}, obejmuje {{warstwy}}. Jama opłucnej {{odma_i_plyn}}, śródpiersie {{gaz_i_plyn}}. Drogi oddechowe i przełyk {{ocena_i_ograniczenia}}. {{dreny_urazy_i_prawdopodobne_zrodlo}}.
+    W tkankach miękkich ściany klatki piersiowej po stronie {{strona}}, w przestrzeniach podskórnych oraz pomiędzy pasmami mięśniowymi obecne pęcherzyki gazu, rozprzestrzeniające się od poziomu {{poziom_gorny}} do {{poziom_dolny}}. Dodatkowo {{odma_oplucnowa}} oraz {{odma_srodpiersia}}. Drogi oddechowe, przełyk i ewentualne dreny {{ocena_i_ograniczenia}}.
   impressionTemplate: |
-    Odma podskórna {{zasieg}}. {{zmiany_towarzyszace_i_prawdopodobne_zrodlo}}.
+    Odma podskórna {{lokalizacja_i_zasieg}}. {{zmiany_towarzyszace_i_mozliwe_zrodlo}}.
